@@ -1,0 +1,159 @@
+{
+  "id": "pf2e-misc",
+  "title": "PF2e - Misc",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "Angel and Beda's Modules",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "PF2e - Misc",
+          "sorting": "a",
+          "packs": [
+            "our-items"
+          ],
+          "color": null,
+          "folders": []
+        }
+      ],
+      "color": null
+    }
+  ],
+  "packs": [
+    {
+      "name": "our-items",
+      "label": "Our Items",
+      "path": "packs/our-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": "",
+  "flags": {
+    "pf2e-misc": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "kopis": "Kopis",
+          "lunar-lance": "Lunar Lance",
+          "short-spear": "Short Spear",
+          "scarlet-blade": "Scarlet Blade",
+          "zhanmadao": "Zhanmadao",
+          "lunar-spear": "Lunar Spear"
+        },
+        "armorTraits": {
+          "soulsteel": {
+            "label": "Soulsteel",
+            "description": "Soulsteel armor sickens certain creatures that touch it. An incorporeal creature that critically fails an unarmed attack against a creature in soulsteel armor becomes sickened 1. An incorporeal creature becomes sickened 1 as long as it attempts to interact with or wear soulsteel armor."
+          },
+          "wraithbone": {
+            "label": "Wraithbone",
+            "description": "Wraithbone armor fatigues certain creatures that touch it. An incorporeal creature that critically fails an unarmed attack against a creature in wraithbone armor becomes fatiqued. An incorporeal creature becomes fatiqued as long as it attempts to interact with or wear wraithbone armor."
+          },
+          "resonating": {
+            "label": "Resonating",
+            "description": "Items with this trait are powered by a lattice of aeon stones, and designed to network with other Resonating items. All Resonating items are invested, regardless of their origin item, and have the ability to contain an aeon stone in a specialized socket. You can fit one aeon stone into this item's aeon lattice with a single Interact action. Placing an aeon stone in this socket provides you all the benefits of the aeon stone as if it were orbiting your head, but protects the stone from being noticed or stolen easily. You invest a Resonating item and the aeon stone within it simultaneously, and they count as only one item toward your investiture limit. An invested aeon stone slotted in a Resonating item also grants its resonant power, and, unlike aeon stones resonating within a wayfinder, these resonating aeon stones grant growing power as you combine multiple resonating items containing socketed aeon stones, without interfering with one another. As you invest multiple Resonating items with socketed aeon stones, each Resonating item gains additional effects, as listed within the item."
+          },
+          "magitech": {
+            "label": "Magitech",
+            "description": "Magitech items are a combination of technological and magical components, created with special-made elements like mystically charged crystals, starmetal alloys, and rune-engraved microchips. Magitech items are magical, but they can't be dispelled unless the effect or attack specifies that it affects items."
+          }
+        },
+        "creatureTraits": {
+          "discipline": "Discipline"
+        },
+        "featTraits": {
+          "eldritch-shadow": "Eldritch Shadow",
+          "scarlet-blade": "Scarlet Blade",
+          "relic": "Relic",
+          "blooded-beast-armament": "Blooded Beast Armament",
+          "chevaliers-dress": "Chevalier's Dress",
+          "starknight": "Starknight",
+          "discipline": "Discipline",
+          "warlord": "Warlord",
+          "stratagem": "Stratagem",
+          "command": "Command",
+          "bloodglass": "Bloodglass"
+        },
+        "spellTraits": {
+          "eldritch-shadow": "Eldritch Shadow",
+          "scarlet-blade": "Scarlet Blade",
+          "blooded-beast-armament": "Blooded Beast Armament",
+          "chevaliers-dress": "Chevalier's Dress",
+          "discipline": "Discipline"
+        },
+        "weaponTraits": {
+          "soulsteel": {
+            "label": "Soulsteel",
+            "description": "A weapon crafted of this material grips at the animating force of both the quick and the dead. It is able to affect incorporeal creatures as if it had a ghost touch rune. It deals 1 extra spirit damage. At level 8, soulsteel weapons automatically gain an astral property rune, even if they aren't otherwise enchanted; this rune can't be removed, and it deals 1d8 damage instead of 1d6 damage. This uses one of the weapon's property rune slots as normal. At level 15, it gains a greater astral rune instead. These runes replace the initial 1 spirit damage."
+          },
+          "wraithbone": {
+            "label": "Wraithbone",
+            "description": "A weapon crafted of this material shatters slightly with each blow, embedding shards of bone in the victim, which resonate with each blow. The weapon gains the forceful trait (Player Core, pg. 282)."
+          },
+          "blooded-beast-armament": "Blooded Beast Armament",
+          "chevaliers-dress": "Chevalier's Dress",
+          "regalia": "Regalia",
+          "discipline": "Discipline",
+          "bloodglass": "Bloodglass",
+          "resonating": {
+            "label": "Resonating",
+            "description": "Items with this trait are powered by a lattice of aeon stones, and designed to network with other Resonating items. All Resonating items are invested, regardless of their origin item, and have the ability to contain an aeon stone in a specialized socket. You can fit one aeon stone into this item's aeon lattice with a single Interact action. Placing an aeon stone in this socket provides you all the benefits of the aeon stone as if it were orbiting your head, but protects the stone from being noticed or stolen easily. You invest a Resonating item and the aeon stone within it simultaneously, and they count as only one item toward your investiture limit. An invested aeon stone slotted in a Resonating item also grants its resonant power, and, unlike aeon stones resonating within a wayfinder, these resonating aeon stones grant growing power as you combine multiple resonating items containing socketed aeon stones, without interfering with one another. As you invest multiple Resonating items with socketed aeon stones, each Resonating item gains additional effects, as listed within the item."
+          },
+          "magitech": {
+            "label": "Magitech",
+            "description": "Magitech items are a combination of technological and magical components, created with special-made elements like mystically charged crystals, starmetal alloys, and rune-engraved microchips. Magitech items are magical, but they can't be dispelled unless the effect or attack specifies that it affects items."
+          }
+        },
+        "shieldTraits": {
+          "discipline": "Discipline",
+          "regalia": "Regalia",
+          "free-hand": "Free-Hand",
+          "staff": "Staff",
+          "resonating": {
+            "label": "Resonating",
+            "description": "Items with this trait are powered by a lattice of aeon stones, and designed to network with other Resonating items. All Resonating items are invested, regardless of their origin item, and have the ability to contain an aeon stone in a specialized socket. You can fit one aeon stone into this item's aeon lattice with a single Interact action. Placing an aeon stone in this socket provides you all the benefits of the aeon stone as if it were orbiting your head, but protects the stone from being noticed or stolen easily. You invest a Resonating item and the aeon stone within it simultaneously, and they count as only one item toward your investiture limit. An invested aeon stone slotted in a Resonating item also grants its resonant power, and, unlike aeon stones resonating within a wayfinder, these resonating aeon stones grant growing power as you combine multiple resonating items containing socketed aeon stones, without interfering with one another. As you invest multiple Resonating items with socketed aeon stones, each Resonating item gains additional effects, as listed within the item."
+          },
+          "magitech": {
+            "label": "Magitech",
+            "description": "Magitech items are a combination of technological and magical components, created with special-made elements like mystically charged crystals, starmetal alloys, and rune-engraved microchips. Magitech items are magical, but they can't be dispelled unless the effect or attack specifies that it affects items."
+          }
+        },
+        "equipmentTraits": {
+          "soulsteel": "Soulsteel",
+          "bloodglass": "Bloodglass",
+          "starknight": "Starknight",
+          "discipline": "Discipline",
+          "regalia": "Regalia",
+          "wraithbone": "Wraithbone",
+          "resonating": {
+            "label": "Resonating",
+            "description": "Items with this trait are powered by a lattice of aeon stones, and designed to network with other Resonating items. All Resonating items are invested, regardless of their origin item, and have the ability to contain an aeon stone in a specialized socket. You can fit one aeon stone into this item's aeon lattice with a single Interact action. Placing an aeon stone in this socket provides you all the benefits of the aeon stone as if it were orbiting your head, but protects the stone from being noticed or stolen easily. You invest a Resonating item and the aeon stone within it simultaneously, and they count as only one item toward your investiture limit. An invested aeon stone slotted in a Resonating item also grants its resonant power, and, unlike aeon stones resonating within a wayfinder, these resonating aeon stones grant growing power as you combine multiple resonating items containing socketed aeon stones, without interfering with one another. As you invest multiple Resonating items with socketed aeon stones, each Resonating item gains additional effects, as listed within the item."
+          },
+          "magitech": {
+            "label": "Magitech",
+            "description": "Magitech items are a combination of technological and magical components, created with special-made elements like mystically charged crystals, starmetal alloys, and rune-engraved microchips. Magitech items are magical, but they can't be dispelled unless the effect or attack specifies that it affects items."
+          }
+        }
+      }
+    }
+  }
+}
