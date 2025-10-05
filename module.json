@@ -6,12 +6,6 @@
     "minimum": "12",
     "verified": "13"
   },
-  "url": "https://github.com/AngelofWoe/pf2e-misc",
-  "readme": "https://github.com/AngelofWoe/pf2e-misc/blob/main/README.md",
-  "manifest": "https://raw.githubusercontent.com/AngelofWoe/pf2e-misc/blob/main/module.json",
-  "download": "https://github.com/AngelofWoe/pf2e-misc/releases/download/1.0.0/module.zip",
-  "changelog": "https://github.com/AngelofWoe/pf2e-misc/blob/main/CHANGELOG.md",
-  "bugs": "https://github.com/AngelofWoe/pf2e-misc/issues",
   "relationships": {
     "systems": [
       {
