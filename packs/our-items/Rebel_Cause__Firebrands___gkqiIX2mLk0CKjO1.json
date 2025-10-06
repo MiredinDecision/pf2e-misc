@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Rebel Cause (Firebrands+)",
+  "color": null,
+  "sorting": "a",
+  "_id": "gkqiIX2mLk0CKjO1",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "962d6676a734c445d9097c9f232526e5559e01d8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759790154145,
+    "modifiedTime": 1759790154145,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!folders!gkqiIX2mLk0CKjO1"
+}

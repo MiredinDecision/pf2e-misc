@@ -1,0 +1,69 @@
+{
+  "name": "Rebel's Defiance",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger </strong>An enemy damages your ally, and both are within your champion's aura</p><hr /><p>You inspire the spark of defiance. The ally gains resistance to all damage against the triggering damage equal to 2 + your level, and gains a +1 circumstance bonus to attack rolls and a +2 circumstance bonus to damage rolls against the triggering enemy until the end of their next turn.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.wbjMmgSq0xuRUIWO]{Effect: Rebel's Defiance}</p><p>@UUID[Compendium.pf2e.feat-effects.Item.DawVHfoPKbPJsz4k]{Effect: Champion's Resistance}</p>"
+    },
+    "rules": [],
+    "slug": "rebels-defiance",
+    "traits": {
+      "value": [
+        "champion"
+      ],
+      "otherTags": []
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": "defensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": false
+    },
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": null,
+        "foundry": "13.350",
+        "system": "7.5.2"
+      }
+    }
+  },
+  "img": "systems/pf2e/icons/actions/Reaction.webp",
+  "ownership": {
+    "default": 0,
+    "BHEpsK2fyL1CM5eA": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.firebrands.firebrands-actions.Item.7COXJ1rnD8GUhVyS",
+      "hash": "bd58e372fded715bc512feddc6a3d230224ef949"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759790334194,
+    "modifiedTime": 1759792588833,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "folder": "gkqiIX2mLk0CKjO1",
+  "_id": "O1mas4aITgUswagv",
+  "sort": 300000,
+  "_key": "!items!O1mas4aITgUswagv"
+}
