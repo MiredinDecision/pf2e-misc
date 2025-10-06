@@ -1,0 +1,78 @@
+{
+  "folder": "pX8XxlOtO9Rv6hl5",
+  "name": "Engulfing Container",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You absorb objects into your slimy body, allowing you to pop them out right when you need them. You can store a collection of up to 1 Bulk of objects within yourself. While other creatures can find the items as normal if they search for them, the DC of checks to Steal objects from inside your body increases by 4. Additionally, if you store only one object within yourself, you can draw it effortlessly into your hand as part of another action to use the object. Dawing the item grants this other action the manipulate trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-slime-ancestry.slime-items.Item.zoYSjZqPHKWcsyr3",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "engulfing-container",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "mdR73we8hOUzw5Q4",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5b887fe201db846c9a1296112361ff7e63634a09"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.mdR73we8hOUzw5Q4",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!mdR73we8hOUzw5Q4"
+}

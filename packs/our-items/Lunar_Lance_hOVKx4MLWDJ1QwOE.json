@@ -1,0 +1,157 @@
+{
+  "img": "icons/weapons/polearms/glaive-hooked-steel.webp",
+  "name": "Lunar Lance",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This long, sturdy lance is exceptionally balanced, with a sturdy base for defending against attacks or attempting to overpower an opponent.</p>"
+    },
+    "rules": [],
+    "slug": "lunar-lance",
+    "_migration": {
+      "version": 0.941,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.3.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "deadly-d10",
+        "parry",
+        "reach"
+      ],
+      "rarity": "uncommon",
+      "toggles": {
+        "versatile": {
+          "selected": null
+        }
+      }
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "lunar-lance",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 7
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Spear",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "category": "martial",
+    "group": "pick",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1755055120974,
+    "modifiedTime": 1757643805213,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "K2E98FJTqNioJF80",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ab63b4ad9f75b10c4ff836a56daf3a84365c9268",
+      "sourceId": "Actor.jGtwaBTkIzrE2wft.Item.rC3TmRzzDAUZywx2"
+    }
+  },
+  "_id": "hOVKx4MLWDJ1QwOE",
+  "sort": 500000,
+  "_key": "!items!hOVKx4MLWDJ1QwOE"
+}

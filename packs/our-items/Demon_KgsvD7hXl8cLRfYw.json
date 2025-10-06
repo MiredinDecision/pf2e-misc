@@ -1,0 +1,136 @@
+{
+  "folder": "S6hh0iH0CsddGG63",
+  "name": "Demon",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Demons are formed from the sins of fractious and malevolent souls, some would say destined to wallow in their sins and spread destruction and corruption for all eternity. But some demons escape the pull of that fate at great cost, expending most of their demonic power to write their own destinies. These renegade demons share many similarities to their Abyss-bound kin, but they have the potential to become great heroes and villains in their own right someday, able to challenge even the mightiest balors and win.</em></p><p><em>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-artwork.JournalEntry.tR9xf3lHmbIoTqMx.JournalEntryPage.dpvTi9PohT236SLg]{Demon Ancestry}</em></p>"
+    },
+    "rules": [],
+    "slug": "demon",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.844,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "demon",
+        "fiend",
+        "humanoid"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Battlezoo Ancestries: Year of Monsters",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 10,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "str"
+        ]
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "chthonian",
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "aklo",
+        "empyrean",
+        "draconic",
+        "diabolic",
+        "protean",
+        "requian",
+        "utopian"
+      ],
+      "custom": ""
+    },
+    "items": {
+      "Mj25W": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.ZPGuFavb6XcmfV3l",
+        "img": "systems/pf2e/icons/spells/daemonic-pact.webp",
+        "name": "Demonic Fortitude",
+        "level": 1
+      },
+      "j5qo3": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.u4UmGuBzzqFA2778",
+        "img": "modules/pf2e-relic-bloodglass/assets/demonic-fey-wing.webp",
+        "name": "Innate Demonic Wings",
+        "level": 1
+      },
+      "T7n7K": {
+        "uuid": "Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-features.Item.tXyHxVKwVzfNypef",
+        "img": "systems/pf2e/icons/spells/liberating-command.webp",
+        "name": "Renegade",
+        "level": 1
+      }
+    },
+    "vision": "darkvision"
+  },
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "ownership": {
+    "default": 0,
+    "W75cDAmGcgt3X6Rq": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-ancestries.Item.rkkPb0kN9O940OJL",
+      "hash": "4985f35d8cc9f9873036def0d6741a07cdc12b4b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1744312139308,
+    "modifiedTime": 1755204669625,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "KgsvD7hXl8cLRfYw",
+  "sort": 300000,
+  "_key": "!items!KgsvD7hXl8cLRfYw"
+}

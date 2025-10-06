@@ -1,0 +1,72 @@
+{
+  "folder": "pX8XxlOtO9Rv6hl5",
+  "name": "Convincing Face",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisites </strong>@UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.YsDAaqOJvyW7RO10]{Amorphous Form} ancestry feature</p><hr /><p>Unlike most slimes, you can change the texture, coloration, and other details of your humanoid form in order to disguise yourself more effectively. When you change into your humanoid form using @UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.YsDAaqOJvyW7RO10]{Amorphous Form}, you can choose to look like a member of a humanoid ancestry (typically a human), rather than a vaguely humanoid shape that is clearly made out of slime. The specific details of this form are inherent to you, and they can't be changed, even if you retrain this feat. This alows you to effectively impersonate a member of the chosen ancestry, without others being able to tell you're a slime unless they examine you carefully and notice the small inconsistencies.</p>"
+    },
+    "rules": [],
+    "slug": "convincing-face",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Lbjs3DDquDa4U5rd",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ce7be6ee4aaf87b2b62ae9018248aecc4bda01cf"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.Lbjs3DDquDa4U5rd",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!Lbjs3DDquDa4U5rd"
+}

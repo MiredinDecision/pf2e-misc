@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "QgTv6Mm1k3YmSvMu",
+  "name": "Doctrines",
+  "color": null,
+  "sorting": "a",
+  "_id": "yjgbXwRTPFj0r4Xw",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "91a456bb0e63f4847cad57d017c8291ea07d0672"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!yjgbXwRTPFj0r4Xw"
+}

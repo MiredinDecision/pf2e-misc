@@ -1,0 +1,86 @@
+{
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "name": "Greater Weapon Specialization",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 15
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "mode": "multiply",
+        "relabel": "PF2E.GreaterWeaponSpecialization",
+        "selector": "strike-damage",
+        "slug": "weapon-specialization",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "starknight"
+      ],
+      "otherTags": []
+    },
+    "slug": "greater-weapon-specialization",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753915645625,
+    "modifiedTime": 1753915655830,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "c4uqR6NSsSePlv3Z",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
+      "hash": "3cc8441d11e8c7309d89c22885d4569a69f7efc2"
+    }
+  },
+  "_id": "XiuNvctEPrfcyczu",
+  "sort": 0,
+  "_key": "!items!XiuNvctEPrfcyczu"
+}

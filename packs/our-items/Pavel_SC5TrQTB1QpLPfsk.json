@@ -1,0 +1,26 @@
+{
+  "name": "Pavel",
+  "sorting": "a",
+  "folder": "7OZbTCbckbg9PFqT",
+  "type": "Item",
+  "_id": "SC5TrQTB1QpLPfsk",
+  "description": "",
+  "sort": 500000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "74d7ac29f99fc2a3d7ab289e85c2edc332d4870c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1728261948952,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "_key": "!folders!SC5TrQTB1QpLPfsk"
+}

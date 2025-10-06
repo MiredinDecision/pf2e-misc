@@ -1,0 +1,101 @@
+{
+  "folder": "QgrC7Cg7bKqizy4a",
+  "name": "Flight Saddle",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As with the @UUID[Compendium.pf2e.equipment-srd.Item.mdNNIF01ybgs1m3s]{War Saddle}, a Flight Saddle is fitted to a mount's body type and has numerous straps that can secure you on your mount. You remain mounted even if you fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} until either you or someone else uses an Interact action to unfasten the straps on the saddle. A creature or effect can separate you from your mount by pulling so hard it tears the straps, but to do so, the effect's DC, attack roll, or skill check must exceed 25.</p><p>However, this saddle's system is specially designed to ensure mount and rider can safely move through the air or over the water, giving the mount plenty of free movement. A mount fitted with this saddle also gains the @UUID[Compendium.pf2e-misc.our-items.Item.pLW9E0dXDB58eDaX]{Mount} ability.</p>"
+    },
+    "rules": [],
+    "slug": "flight-saddle",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "companion",
+        "invested"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 4150
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "wornsaddle"
+    },
+    "subitems": []
+  },
+  "_id": "1wrwNeo9z5cmyNxI",
+  "img": "icons/containers/bags/satchel-leather-white-tan.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "953193bb2e4ee02f50b3d3319dfe63bd1e1c7031"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757734954627,
+    "modifiedTime": 1758294319217,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!1wrwNeo9z5cmyNxI"
+}

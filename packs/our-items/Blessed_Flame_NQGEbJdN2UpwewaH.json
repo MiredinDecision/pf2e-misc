@@ -1,0 +1,127 @@
+{
+  "name": "Blessed Flame",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A spirit of righteous flame lives within you. You gain the righteous flame unarmed attack. These strikes deal 1d6 fire damage, are in the brawling group, and have the agile, finesse, fire, thrown 15 ft and unarmed traits. When making an attack with these, you use Charisma instead of Strength or Dexterity for attack rolls. If you have access to your righteous flame’s critical specialization effect, you can take an alternate effect instead: if your critical Strike dealt damage, the target takes 1d6 persistent fire damage. After being thrown, the flame re-ignites in your hand once the Strike is complete. Additionally, if you are sanctified, any fire damage you deal gains the sanctified trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "mental",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "label": "Righteous Flame",
+        "traits": [
+          "agile",
+          "finesse",
+          "fire",
+          "thrown-15",
+          "unarmed",
+          "sanctified"
+        ]
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "selector": "righteous-flame-damage",
+        "text": "If you have access to your righteous flame’s critical specialization effect, you can take an alternate effect instead: if your critical Strike dealt damage, the target takes @Damage[1d6[persistent,fire]] damage.",
+        "title": "Righteous Flame"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-attack-roll",
+        "type": "ability",
+        "ability": "cha",
+        "force": true,
+        "hideIfDisabled": true,
+        "label": "PF2E.AbilityCha",
+        "predicate": [
+          "item:slug:righteous-flame",
+          "thrown"
+        ]
+      }
+    ],
+    "slug": "blessed-flame",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "blessing-of-the-devoted"
+      ],
+      "value": [
+        "champion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Soldiers of the Immortal War",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/fire/flame-burning-hand-white.webp",
+  "folder": "7OZbTCbckbg9PFqT",
+  "flags": {
+    "scene-packer": {
+      "hash": "bc8d623f21264af9770e06c55d100728804f9b80",
+      "sourceId": "Item.2iuIAUwHTi2MsLRO"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757311885784,
+    "modifiedTime": 1757311984598,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "NQGEbJdN2UpwewaH",
+  "sort": 0,
+  "_key": "!items!NQGEbJdN2UpwewaH"
+}

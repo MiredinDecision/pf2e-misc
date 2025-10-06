@@ -1,0 +1,118 @@
+{
+  "folder": "rCTbz5Txfuh1dhKi",
+  "name": "Solar Nimbus",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The holy light that emanates from your halo brings terror to abominations. Enemies with the aberration, alghollthu, fleshwarp, or unholy trait suffer a -1 status penalty to attack rolls and saving throws while within the bright light of your halo. Additionally, the bright light of your aura counts as sunlight for the purposes of any abilities.</p>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": "@actor.flags.pf2e.champion.aura",
+        "predicate": [
+          "champions-aura",
+          {
+            "not": "self:condition:unconscious"
+          }
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.AvHfTokhDYi7gp9V",
+            "affects": "enemies",
+            "predicate": [
+              {
+                "or": [
+                  "target:trait:aberration",
+                  "target:trait:alghollthu",
+                  "target:trait:evil",
+                  "target:trait:fleshwarp",
+                  "target:trait:unholy"
+                ]
+              }
+            ]
+          }
+        ],
+        "traits": []
+      }
+    ],
+    "slug": "solar-nimbus",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "champion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Soldiers of the Immortal War",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "blessed halo"
+        },
+        {
+          "value": "holy sanctification"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-soldiers-of-the-immortal-war.feats.Item.0lwlXB4jaKggV5ue",
+      "hash": "113eefcc32cf5f64176eba65e7a0808e14c2c5ec"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1755999179013,
+    "modifiedTime": 1756048512427,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "EE5f4GP0n48taoEO",
+  "sort": 400000,
+  "_key": "!items!EE5f4GP0n48taoEO"
+}

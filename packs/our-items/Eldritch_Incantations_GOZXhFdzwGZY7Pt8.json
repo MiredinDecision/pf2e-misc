@@ -1,0 +1,71 @@
+{
+  "folder": "aT8L3wPj6xSrwj9o",
+  "name": "Eldritch Incantations",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your Eldritch magic gives you access to shadowy Focus Spells. You gain Focus Points and special focus spells.</p><ul><li><p>Cantrip: @UUID[Compendium.pf2e-misc.our-items.Item.fl6DOqx7yN1uptBm]{Shadow Spell}</p></li><li><p>1st: @UUID[Compendium.pf2e-misc.our-items.Item.4wAfcvKhs1h6wr6t]{Shadow Tendril}</p></li></ul>"
+    },
+    "rules": [],
+    "slug": "eldritch-incantations",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "GOZXhFdzwGZY7Pt8",
+  "img": "systems/pf2e/icons/spells/shadow-army.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e7748aa2950d4180f2d69d2f1cee28dcc0cc1ba6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727096411126,
+    "modifiedTime": 1727116648038,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!GOZXhFdzwGZY7Pt8"
+}

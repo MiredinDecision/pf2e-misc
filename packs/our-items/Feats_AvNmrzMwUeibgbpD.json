@@ -1,0 +1,26 @@
+{
+  "name": "Feats",
+  "sorting": "a",
+  "folder": "W0xoxtBfsI5Hb7qp",
+  "type": "Item",
+  "_id": "AvNmrzMwUeibgbpD",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "63d1ee778677ff8f758e9b6dd5d6a671b4f37579"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": null,
+    "modifiedTime": 1727057454292,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!AvNmrzMwUeibgbpD"
+}

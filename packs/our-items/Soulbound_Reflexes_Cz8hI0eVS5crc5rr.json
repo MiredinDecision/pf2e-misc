@@ -1,0 +1,92 @@
+{
+  "folder": "YqfJRVPOF9d13vpx",
+  "name": "Soulbound Reflexes",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain the @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Reactive Strike} reaction. At the start of each of your turns, when you gain your actions, you gain an additional reaction that can be used only to make a @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Reactive Strike}, to make your eidolon use @UUID[Compendium.pf2e.feats-srd.Item.588O3jurogttvqgm]{Eidolon's Opportunity}, or, if your Eidolon is a @UUID[Compendium.pf2e-animal-companions.AC-Eidolons.Item.1YJoaMhZPvLGvj1J]{Devotion Phantom Eidolon}, @UUID[Compendium.pf2e.actionspf2e.Item.KyKXp599tK9BgodC]{Dutiful Retaliation}.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT"
+      }
+    ],
+    "slug": "soulbound-reflexes",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "eidolon",
+        "evolution",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Soulbound Warrior Dedication"
+        },
+        {
+          "value": "Eidolon's Opportunity or Devotion Phantom Eidolon"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "Cz8hI0eVS5crc5rr",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "21MPSHhV4Va1pyVM": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4dde1381f54de09359c192e120bfa5230259127b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-soulbound-warrior.soulbound-warrior-features.Item.Cz8hI0eVS5crc5rr",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262383778,
+    "modifiedTime": 1728262383778,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!Cz8hI0eVS5crc5rr"
+}

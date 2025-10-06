@@ -1,0 +1,138 @@
+{
+  "folder": "j8NMw0mgS5YcHOHL",
+  "img": "systems/pf2e/icons/features/ancestry/tiefling.webp",
+  "name": "Feytouched Nephilim",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your nature is influenced by celestials, fiends, or monitors. This manifests as a combination of features that belie your heritage, such as golden eyes, a halo, horns, or a tail. You gain the nephilim trait, in addition to the traits from your ancestry.</p><p><span style=\"font-family:Roboto, sans-serif\">You are a succubus, a demon formed from the sin of lust, and you are able to befriend, deceive, and seduce others with ease. Your size is Medium. You gain the trained proficiency rank in Deception and Diplomacy. If you would automatically become trained in one of those skills (from your background or class, for example), you instead become trained in a skill of your choice.</span></p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "heritage:nephilim",
+        "priority": 0
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.details.ancestry.adopted",
+        "value": "human"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.details.ancestry.countsAs",
+        "value": "human"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "ancestry:sprite",
+        "priority": 0
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.details.ancestry.adopted",
+        "value": "sprite"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.details.ancestry.countsAs",
+        "value": "sprite"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "ancestry:demon",
+        "priority": 0
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.details.ancestry.adopted",
+        "value": "demon"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.details.ancestry.countsAs",
+        "value": "demon"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "heritage:succubus",
+        "priority": 0
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.diplomacy.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.deception.rank",
+        "value": 1
+      }
+    ],
+    "slug": "feytouched-nephilim",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "azata",
+        "celestial",
+        "nephilim",
+        "sprite"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens Ancestry Guide",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": {
+      "name": "Sprite",
+      "slug": "sprite",
+      "uuid": "Compendium.pf2e.ancestries.Item.TRqoeYfGAFjQbviF"
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1741816255050,
+    "modifiedTime": 1744312860970,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.heritages.Item.KbG2BZ3Sbr3xU1sW",
+      "hash": "d44c4ff2d0415c86d21ee1f021c8807dfe07675f"
+    }
+  },
+  "_id": "7AWxhI2O7eEofyuN",
+  "sort": 200000,
+  "_key": "!items!7AWxhI2O7eEofyuN"
+}

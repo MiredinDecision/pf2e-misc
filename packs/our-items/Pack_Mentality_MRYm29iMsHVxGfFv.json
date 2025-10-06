@@ -1,0 +1,64 @@
+{
+  "folder": "QdJ9fiSywvcc53Ua",
+  "name": "Pack Mentality",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> <em>beast</em></p><p><strong>Activate </strong><span class=\"action-glyph\"><strong>2</strong></span><strong> </strong>envision, concentrate</p><p><strong>Duration </strong>1 minute</p><hr /><p>You focus on your bond with your blood-bonded animal companion. You become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} and can use the extra action each round only to @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Command an Animal}.</p><p>You may choose to take your weapon in your mouth and take on the shape of the same type of animal as your companion, as the effect of the @UUID[Compendium.pf2e.equipment-srd.Item.pcGdJvwun0tjrUTz]{Fanged} rune.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.v5U5fRhZFi8dmZ0D]{Effect: Fanged Rune}</p>"
+    },
+    "rules": [],
+    "slug": "pack-mentality",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "beast",
+        "concentrate",
+        "relic"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "_id": "MRYm29iMsHVxGfFv",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c7ce8669317e34956717784a33335d29263ce99c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728269930114,
+    "modifiedTime": 1728306541728,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!MRYm29iMsHVxGfFv"
+}

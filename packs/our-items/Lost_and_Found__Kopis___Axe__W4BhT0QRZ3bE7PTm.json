@@ -1,0 +1,248 @@
+{
+  "folder": "K2E98FJTqNioJF80",
+  "name": "Lost and Found (Kopis) (Axe)",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Perception +6</strong></p><p><strong>Communication </strong>telepathic (only with user, in languages they understand)</p><p><strong>Skills </strong>Nature +6, Stealth +6</p><p><strong>Int </strong>+0, <strong>Wis </strong>+2, <strong>Cha </strong>+3</p><p><strong>Will (Ego) </strong>+16</p><hr /><p>A one handed sword almost resembling a long knife made for cutting meat, designed for cutting and thrusting.</p><p>It is crafted out of a special and rare material known only as soulsteel - a dark, nearly black metal with veins of silver - that is difficult to work due to its more volatile properties.</p><p>Soulsteel pulls at both the lifeforce of the living, and the energy that animates the undead, wielder and foe ailke. A skilled magical crafter can help attune this material to a particular user, usually someone who is a decent mage in their own right, so that it doesn't harm them.</p><p>A weapon crafted of this material deals 1 extra spirit damage. At 6th level, this damage is replaced by an @UUID[Compendium.pf2e.equipment-srd.Item.6llILJtsTPgtYXgx]{Astral} rune; this rune cannot be removed, and it deals 1d8 damage instead of 1d6 damage. At 14th level, this weapon automatically gains a @UUID[Compendium.pf2e.equipment-srd.Item.hebf5k3cd7LO6luX]{Astral (Greater)} rune instead. It is also able to affect incorporeal creatures as if it had the @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch} rune. However, creatures other than those attuned to this weapon cannot handle it without feeling a sense of unease, and the weapon pulling at their lifeforce. Incorporeal creatures cannot touch it without feeling great pain, dropping it immediately.</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.gYjPm7YwGtEa1oxh]{Ray of Frost}</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}</li></ul><hr /><p><strong>Craft Requirements</strong> You have the magus's Spellstrike activity. Supply one casting of all listed ranks of all listed spells.</p><hr /><p><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;color:rgb(231, 209, 177);font-family:Roboto, sans-serif;font-size:17.5px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(6, 4, 3, 0.92);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Restless - </strong>Slowly moves and fidgets.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Soulsteel",
+        "slug": "soulsteel-damage",
+        "selector": "{item|_id}-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "target:trait:incorporeal"
+        ],
+        "property": "property-runes",
+        "value": "ghost-touch"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": {
+          "brackets": [
+            {
+              "start": 6,
+              "end": 13,
+              "value": "astral"
+            },
+            {
+              "start": 14,
+              "value": "greater-astral"
+            }
+          ]
+        }
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|_id}-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "dice:slug:greater-astral",
+              "dice:slug:astral"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "upgrade",
+        "property": "dice-faces",
+        "value": 8
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "reflex-dc",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "action:disarm"
+        ]
+      }
+    ],
+    "slug": "lost-and-found",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "finesse",
+        "intelligent",
+        "parry",
+        "soulsteel",
+        "staff",
+        "trip"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "kopis",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 74
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this kopis is unclear."
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "axe",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dd3c9d9d9b2e853e7cbbbc473c023e753d996fc2",
+      "sourceId": "Item.kir6vkKW37YP0ovW"
+    },
+    "pf2e": {
+      "grantedBy": {
+        "id": "rYAgQLJcKDWsAekN",
+        "onDelete": "detach"
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1744233687209,
+    "modifiedTime": 1757643805213,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "W4BhT0QRZ3bE7PTm",
+  "sort": 400000,
+  "_key": "!items!W4BhT0QRZ3bE7PTm"
+}

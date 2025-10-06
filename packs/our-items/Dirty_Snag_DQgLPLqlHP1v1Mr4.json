@@ -1,0 +1,78 @@
+{
+  "name": "Dirty Snag",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> 2 Regalia</p><hr /><p>You perform a leading strike while a second Regalia sneaks below your foes to trip them. Choose two Regalia and make a Strike using one of them, then Resolve a Trip action on the same target. Resolve the effects of the Trip action using the result of the attack roll. If either Regalia used has the Trip trait, you gain a +1 Circumstance bonus to your Attack Roll and a +2 Circumstance bonus when Resolving the Trip action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "dirty-snag",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "aVnTnFudEhJbxmR7",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "78ca19dcd0a326d9a1524f8dcb9e951c3c9797d8",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921189666,
+    "modifiedTime": 1753928597293,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "DQgLPLqlHP1v1Mr4",
+  "sort": 100000,
+  "_key": "!items!DQgLPLqlHP1v1Mr4"
+}

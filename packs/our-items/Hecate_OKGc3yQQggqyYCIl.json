@@ -1,0 +1,149 @@
+{
+  "img": "icons/equipment/hand/gauntlet-armored-black.webp",
+  "name": "Hecate",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A pair of these metal gloves comes with full plate, half plate, and splint armor; they can also be purchased separately and worn with other types of armor. They not only protect your hands but also transform your hands into lethal weapons.</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><p><strong>Cantrip </strong>@UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{Guidance}, @UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg]{Stabilize}</p></li><li><p><strong>1st </strong>@UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}</p></li><li><p><strong>2nd </strong>@UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Calm}</p></li></ul><hr /><p><strong>Craft Requirements </strong>Supply one casting of all listed ranks of all listed spells.</p>"
+    },
+    "rules": [],
+    "slug": "gauntlet",
+    "_migration": {
+      "version": 0.941,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.3.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "free-hand",
+        "magical",
+        "staff"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "quantity": 1,
+    "baseItem": "gauntlet",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 90
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Gauntlet",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "simple",
+    "group": "brawling",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d4",
+      "damageType": "bludgeoning",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": ""
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754602782480,
+    "modifiedTime": 1755999179152,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "rCTbz5Txfuh1dhKi",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c408d386c7e58e381dfd040327d63a727aea6db6",
+      "sourceId": "Actor.jGtwaBTkIzrE2wft.Item.uVfq5FJJLIrDI2xi"
+    }
+  },
+  "_id": "OKGc3yQQggqyYCIl",
+  "sort": 200000,
+  "_key": "!items!OKGc3yQQggqyYCIl"
+}

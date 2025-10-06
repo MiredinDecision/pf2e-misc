@@ -1,0 +1,26 @@
+{
+  "type": "Item",
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "name": "Stellar Mendicant",
+  "color": null,
+  "sorting": "a",
+  "_id": "YX0sWG8nJmWFGhmA",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "57a5e7343faf8dc1d63518bc9f2662a47241ddfa"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "modifiedTime": 1755091518857
+  },
+  "_key": "!folders!YX0sWG8nJmWFGhmA"
+}

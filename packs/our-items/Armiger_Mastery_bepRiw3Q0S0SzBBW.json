@@ -1,0 +1,81 @@
+{
+  "folder": "cDDPqwFGaBzvse1K",
+  "name": "Armiger Mastery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You become one with the force of the cosmos, able to withstand its power. You are permanently Quickened, and can use this additional action only on the Call Armiger action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl"
+      }
+    ],
+    "slug": "armiger-mastery",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "bepRiw3Q0S0SzBBW",
+  "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "94d1f0dacd1a0a34e3f10489f4474f1eb7990df4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753915960993,
+    "modifiedTime": 1753916075022,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!bepRiw3Q0S0SzBBW"
+}

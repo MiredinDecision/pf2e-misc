@@ -1,0 +1,103 @@
+{
+  "folder": "mYd5F0YaLp5BawcZ",
+  "name": "Astral Armiger",
+  "type": "backpack",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As a Starknight, the cosmos has unlocked within you the power to create and summon your own Armiger, a gallery of weapons bathed in cosmic radiance. <br />Your Armiger is a small extra-dimensional space located within your very soul. You can store or remove weapons to and from your Armiger using the <strong>@UUID[Compendium.pf2e-misc.our-items.Item.QYsoiQWrnBQ2I5Jw]{Alter Armiger}</strong> action. Weapons inside your Armiger are referred to as your <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Regalia</span></span>, and can be acceded while your Armiger is called. Your Armiger can hold up to 5 Regalia.</p><p></p><div data-markdown=\"1\" class=\"content\"><h4>Call Armiger</h4><p>Once a starknight has bound at least one Regalia, they are able to call forth their Armiger using the <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Call Armiger</span></span> action. The Armiger is a magical Occult aura, and as such can be dispelled (Treating its effective Spell Level as half your level, rounded up) and cannot be called in situations where casting spells would be impossible.</p><p>While your Armiger is called, you gain access to all of your bound <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Regalia</span></span>. After using a Regalia as part of a Strike or as part of a Discipline, it gains the <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Broken</span></span> condition.</p><p>Actions inherent from Weapon Property Runes, or actions inherent from a weapon being a Specific Magic Weapon do not cause the Regalia to Break upon use, unless that action would call for a Strike using the weapon.</p></div>"
+    },
+    "rules": [],
+    "slug": "astral-armiger-container",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "starknight"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0,
+      "heldOrStowed": 0,
+      "capacity": 999,
+      "ignored": 999
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Container",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "collapsed": false,
+    "stowing": true,
+    "usage": {
+      "value": "bonded"
+    }
+  },
+  "_id": "j0pO4tx60Cc8WFUd",
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a3c42732f7428274dd981c6e7355e30126182abb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753909322121,
+    "modifiedTime": 1753931707278,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!j0pO4tx60Cc8WFUd"
+}

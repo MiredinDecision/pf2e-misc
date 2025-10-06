@@ -1,0 +1,141 @@
+{
+  "folder": "luyyhH3h1BUhrqq4",
+  "name": "Precise Flanking",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You instruct your allies to focus on positional advantage.</p><p><strong>Effect</strong> Affected allies gain a +1 status bonus to attack rolls. If three or more allies are within reach of the same creature, that creature is considered to be Flanked, regardless of their positioning.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Battle Stratagem",
+        "mergeable": true,
+        "option": "battle-stratagem",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "precise-flanking"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "battle-stratagem:precise-flanking",
+              "combined-stratagem:precise-flanking"
+            ]
+          },
+          "item:slug:warlords-strategic-stance"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You instruct your allies to focus on positional advantage."
+          },
+          {
+            "text": "**Effect** Affected allies gain a +1 status bonus to attack rolls. If three or more allies are within reach of the same creature, that creature is considered to be Flanked, regardless of their positioning."
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Combined Stratagem",
+        "mergeable": true,
+        "option": "combined-stratagem",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "precise-flanking"
+          }
+        ],
+        "predicate": [
+          {
+            "and": [
+              "feat:combined-strategems",
+              {
+                "not": "battle-stratagem:precise-flanking"
+              }
+            ]
+          }
+        ],
+        "toggleable": true
+      }
+    ],
+    "slug": "precise-flanking",
+    "traits": {
+      "otherTags": [
+        "warlord-battle-stratagem"
+      ],
+      "value": [
+        "stratagem",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/features/feats/devrins-cunning-stance.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "125aee779ace2d09eee6c378880e303b7f0f0b61",
+      "sourceId": "Item.YC0egrmeeVjmDY9A"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1755227443580,
+    "modifiedTime": 1755913215097,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "d2XppJLJBl8B5KMS",
+  "sort": 400000,
+  "_key": "!items!d2XppJLJBl8B5KMS"
+}

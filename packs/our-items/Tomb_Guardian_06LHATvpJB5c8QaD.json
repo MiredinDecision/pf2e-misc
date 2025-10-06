@@ -1,0 +1,86 @@
+{
+  "folder": "kCHFWdRspiQEsH1K",
+  "name": "Tomb Guardian",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When everyone else slumbers, you're on guard. You might have been a watch member in a teeming metropolis, the guard in an unquiet cemetery, or a lonely shepherd. Many a night you've shouted out warnings into the dark, unsure of what lurked just beyond the range of your lantern's light. More than once you've seen things shambling in the dark that never should have been up and about.</p><p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p><p>You're trained in the Intimidation skill and Legal Lore. You gain the@UUID[Compendium.pf2e-tomb-guardian.tomb-guardian.Item.dTKG5nvDWyfILKNq]{Steel Skin}  skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "tomb-guardian",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "zT8V2": {
+        "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.dTKG5nvDWyfILKNq",
+        "img": "icons/sundries/books/book-red-exclamation.webp",
+        "name": "Steel Skin",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "intimidation"
+      ],
+      "lore": []
+    }
+  },
+  "_id": "06LHATvpJB5c8QaD",
+  "img": "modules/pf2e-tomb-guardian/assets/GuardianIcon.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3be207a604b9dcdf4dbbb343b999d0f5aad45faf"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.06LHATvpJB5c8QaD",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262224219,
+    "modifiedTime": 1728262224219,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!06LHATvpJB5c8QaD"
+}

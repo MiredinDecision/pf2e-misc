@@ -1,0 +1,113 @@
+{
+  "img": "systems/pf2e/icons/spells/light.webp",
+  "name": "Spell Effect: Light",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light}</p>\n<p>You attach an orb of light to a willing creature, causing it to float near that creature as it moves.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "alpha": 0.2,
+          "animation": {
+            "intensity": 1,
+            "speed": 2,
+            "type": "pulse"
+          },
+          "bright": {
+            "brackets": [
+              {
+                "end": 3,
+                "value": 20
+              },
+              {
+                "start": 4,
+                "value": 60
+              }
+            ],
+            "field": "item|system.level.value"
+          },
+          "color": "#c33753",
+          "dim": {
+            "brackets": [
+              {
+                "end": 3,
+                "value": 40
+              },
+              {
+                "start": 4,
+                "value": 120
+              }
+            ],
+            "field": "item|system.level.value"
+          }
+        }
+      }
+    ],
+    "slug": "spell-effect-light",
+    "_migration": {
+      "version": 0.934,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.0",
+    "createdTime": 1732313095025,
+    "modifiedTime": 1754328937761,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "eOJsgiwwcsb79hE6",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ",
+      "hash": "e88689be80cb2874263451c7901b22e5538b3b77"
+    }
+  },
+  "_id": "VFKAo5BPmgnGbLuv",
+  "sort": 100000,
+  "_key": "!items!VFKAo5BPmgnGbLuv"
+}

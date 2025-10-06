@@ -1,0 +1,26 @@
+{
+  "name": "Support Benefit",
+  "sorting": "a",
+  "folder": "L707lh3QpSnMPk7v",
+  "type": "Item",
+  "_id": "gDa3COmrYDzEnn2n",
+  "description": "",
+  "sort": 300000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "d04704581fa324c348980470da7376819b2576de"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1729979698260,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!gDa3COmrYDzEnn2n"
+}

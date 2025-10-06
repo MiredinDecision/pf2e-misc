@@ -1,0 +1,101 @@
+{
+  "folder": "9nljg26YHEtAlwip",
+  "name": "Instinctive Trepidation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your countenance inspires instinctual fear in others. You use your Strength modifier instead of Charisma for your attribute bonus to Intimidation. You gain the @UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{Intimidating Glare} skill feat. However, you have a -1 circumstance penalty to your Diplomacy checks.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "intimidation",
+        "type": "ability",
+        "ability": "str",
+        "force": true,
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "diplomacy",
+        "value": -1,
+        "hideIfDisabled": true,
+        "type": "circumstance"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "instinctive-trepidation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aftermath"
+      ],
+      "rarity": "unique"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You were attacked by a werecreature at a young age, and, even in your humanoid state, you are more bestial in appearance than most werecreatures."
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "L1Yv4dTnSAPbErFO",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2d75451a1b579ac0746becf526c619fc74478af4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755032556264,
+    "modifiedTime": 1755033038143,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!L1Yv4dTnSAPbErFO"
+}

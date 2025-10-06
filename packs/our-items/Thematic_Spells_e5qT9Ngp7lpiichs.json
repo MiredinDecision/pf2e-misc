@@ -1,0 +1,78 @@
+{
+  "folder": "D4zXvqMrYWU3Mdgf",
+  "name": "Thematic Spells",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<h2><strong>Thematic Spells</strong></h2><p>You and your GM select a list of thematic spells, one from each rank and one from cantrips, to add to your thematic spell list. At your GM's discretion, these spells may either come from one or more of your spellcasting traditions, or may come from a spellcasting tradition outside of your own. You add the trait of your spellcasting tradition, or the trait of a spellcasting tradition of your choice from those you are able to cast, to all spells in your thematic spell list.</p><h3><strong>Spontaneous Spellcasters</strong></h3><p>You may add the cantrip from your thematic spell list, and add up to three ranked spells up to the highest rank you can cast from your thematic spell list, to your repertoire. When you add these spells to your repertoire, they are added as signature spells, and do not take up slots in your repertoire. You may change which three spells you add to your repertoire from your thematic spell list when you level. When you cast a thematic spell, you expend a spell slot as normal.</p><h3><strong>Prepared Spellcasters</strong></h3><p>You add your thematic spells from your thematic spell list to your learned spells as you reach the ability to cast spells of the appropriate rank. During your daily preparations, you may prepare the cantrip from your thematic spell list in addition to the cantrips you prepare normally, and you may select three spells from the list of thematic spells for your character. When you Cast a Spell from your prepared spells, either a cantrip or a spell slot, you may replace that spell with one of your three selected spells for that casting. You expend a spell slot as normal.</p><h3><strong>Example Thematic Spell List</strong></h3><p>The example thematic spell list is one of emotions and interpersonal relations.</p><ul><li><p><strong>Cantrip </strong>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation}</p></li><li><p><strong>1st </strong>@UUID[Compendium.pf2e.spells-srd.Item.UKsIOWmMx4hSpafl]{Dizzying Colors}</p></li><li><p><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]{Laughing Fit}</p></li><li><p><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]{Hypnotize}</p></li><li><p><strong>4th </strong>@UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY]{Confusion}</p></li><li><p><strong>5th </strong>@UUID[Compendium.pf2e.spells-srd.Item.ftZ750SD2iIJKIy3]{Glimmer of Charm}</p></li><li><p><strong>6th </strong>@UUID[Compendium.pf2e.spells-srd.Item.RQjSQVZRG497cJhX]{Vibrant Pattern}</p></li><li><p><strong>7th </strong>@UUID[Compendium.pf2e.spells-srd.Item.Vw2CNwlRRKABsuZi]{Entrancing Eyes}</p></li><li><p><strong>8th </strong>@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}</p></li><li><p><strong>9th </strong>@UUID[Compendium.pf2e.spells-srd.Item.qDjeG6dxT4aEEC6J]{Weird}</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "thematic-spells",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You have a spellcasting feature"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "e5qT9Ngp7lpiichs",
+  "img": "icons/magic/symbols/runes-star-pentagon-magenta.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e99c24d3a9b193820c5d8fdb481c07456923d429"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757986962700,
+    "modifiedTime": 1757992733424,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!e5qT9Ngp7lpiichs"
+}

@@ -1,0 +1,483 @@
+{
+  "name": "Brassy Maestro",
+  "type": "class",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "system": {
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "attacks": {
+      "advanced": 0,
+      "martial": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      },
+      "simple": 1,
+      "unarmed": 1
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "defenses": {
+      "heavy": 0,
+      "light": 1,
+      "medium": 0,
+      "unarmored": 1
+    },
+    "description": {
+      "value": "<p><em>You can magically beckon a powerful being called an eidolon to your side, serving as the mortal conduit that anchors it to the world. Whether your eidolon is a friend, a servant, or even a personal god, your connection to it marks you as extraordinary, shaping the course of your life dramatically.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.gA4Ud8oSUGkkLwAi]{Summoner}</em></p> <p><em>Many warriors rely on brute force, weighty armor, or cumbersome weapons. For you, battle is a dance where you move among foes with style and grace. You dart among combatants with flair and land powerful finishing moves with a flick of the wrist and a flash of the blade, all while countering attacks with elegant ripostes that keep enemies off balance. Harassing and thwarting your foes lets you charm fate and cheat death time and again with aplomb and plenty of flair.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.rsDTKu4HUuKft7fk]{Swashbuckler}</em></p>",
+      "gm": ""
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "hp": 10,
+    "items": {
+      "0669p": {
+        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "level": 1,
+        "name": "Eidolon",
+        "uuid": "Compendium.pf2e.classfeatures.Item.qOEpe596B0UjhcG0"
+      },
+      "1xme9": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-defensive-expertise.webp",
+        "level": 11,
+        "name": "Eidolon Defensive Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.2CZPYoyWih6zYTcb"
+      },
+      "2x8il": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "level": 7,
+        "name": "Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+      },
+      "3wf5r": {
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "level": 9,
+        "name": "Expert Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+      },
+      "4jbpz": {
+        "img": "systems/pf2e/icons/features/classes/instant-manifestation.webp",
+        "level": 19,
+        "name": "Instant Manifestation",
+        "uuid": "Compendium.pf2e.classfeatures.Item.H0iWhiyP0QqgmAKs"
+      },
+      "4mev6": {
+        "img": "icons/creatures/eyes/lizard-single-slit-pink.webp",
+        "level": 3,
+        "name": "Shared Vigilance",
+        "uuid": "Compendium.pf2e.classfeatures.Item.QiMlJ33kNEoyh1M0"
+      },
+      "65k1a": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-unarmed-mastery.webp",
+        "level": 13,
+        "name": "Eidolon Unarmed Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.NIzHfVcVMhDmvA49"
+      },
+      "826s9": {
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "level": 15,
+        "name": "Shared Resolve",
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZPfHVz14j42jCnS"
+      },
+      "94ch1": {
+        "img": "systems/pf2e/icons/features/classes/unlimited-signature-spells.webp",
+        "level": 3,
+        "name": "Unlimited Signature Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.P34Jx6i4GJGoqTtG"
+      },
+      "bqrgn": {
+        "img": "icons/creatures/mammals/bull-horned-blue.webp",
+        "level": 11,
+        "name": "Twin Juggernauts",
+        "uuid": "Compendium.pf2e.classfeatures.Item.q1Y12Pg2gQg2FJPR"
+      },
+      "g50u2": {
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "level": 15,
+        "name": "Greater Eidolon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.B5SyM7qHrU0gTGR0"
+      },
+      "g64e0": {
+        "img": "icons/equipment/back/cloak-collared-pink-gold.webp",
+        "level": 13,
+        "name": "Defensive Robes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.gU7epgcPSm0TD1UK"
+      },
+      "hl9zz": {
+        "img": "icons/skills/melee/hand-grip-staff-teal.webp",
+        "level": 11,
+        "name": "Simple Weapon Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.itTk4dBouzz89vs9"
+      },
+      "in8hs": {
+        "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
+        "level": 1,
+        "name": "Summoner Spellcasting",
+        "uuid": "Compendium.pf2e.classfeatures.Item.gWcN75VNpSZ4FqNb"
+      },
+      "n4075": {
+        "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+        "level": 1,
+        "name": "Spell Repertoire",
+        "uuid": "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH"
+      },
+      "oig4n": {
+        "img": "icons/magic/unholy/hand-grasping-green.webp",
+        "level": 5,
+        "name": "Eidolon Unarmed Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.pda6iUaU9waXId5Q"
+      },
+      "okzqp": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-symbiosis.webp",
+        "level": 7,
+        "name": "Eidolon Symbiosis",
+        "uuid": "Compendium.pf2e.classfeatures.Item.skQBrwRwJW2K6ACj"
+      },
+      "ongtl": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 17,
+        "name": "Master Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+      },
+      "pz5oe": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-weapon-specialization.webp",
+        "level": 7,
+        "name": "Eidolon Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.oCnyGRvkfjTsZXcX"
+      },
+      "q00uy": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-transcendence.webp",
+        "level": 17,
+        "name": "Eidolon Transcendence",
+        "uuid": "Compendium.pf2e.classfeatures.Item.nCE9DzkugRefREqT"
+      },
+      "vbbxr": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-defensive-mastery.webp",
+        "level": 19,
+        "name": "Eidolon Defensive Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.0WvI8KM5m0SaZ3MH"
+      },
+      "vr2ao": {
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "level": 9,
+        "name": "Shared Reflexes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.dZNAXTQovlWVvAyX"
+      },
+      "xf0v4": {
+        "img": "systems/pf2e/icons/features/classes/link-spells.webp",
+        "level": 1,
+        "name": "Link Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.wguqw300DB5XdD8W"
+      },
+      "2v2xl": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd",
+        "img": "icons/commodities/treasure/crown-gold-laurel-wreath.webp",
+        "name": "Panache",
+        "level": 1
+      },
+      "2z1nf": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.RQH6vigvhmiYKKjg",
+        "img": "systems/pf2e/icons/features/classes/precise-strike.webp",
+        "name": "Precise Strike",
+        "level": 1
+      },
+      "41jmp": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.pyo0vmxUFIFX2GNl",
+        "img": "icons/weapons/swords/scimitar-broad.webp",
+        "name": "Confident Finisher",
+        "level": 1
+      },
+      "7g9e4": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.8BOFeRE7ZfJ02N0O",
+        "img": "icons/equipment/feet/boots-leather-grey-gold.webp",
+        "name": "Vivacious Speed",
+        "level": 3
+      },
+      "8DtzF": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Weapon Expertise",
+        "level": 5
+      },
+      "9bzuj": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.ypfT3iybew6ZSIUl",
+        "img": "icons/equipment/head/hat-cocked-purple.webp",
+        "name": "Eternal Confidence",
+        "level": 19
+      },
+      "WmEXP": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.syEkISIi0F9946zo",
+        "img": "systems/pf2e/icons/features/classes/improved-evasion.webp",
+        "name": "Assured Evasion",
+        "level": 13
+      },
+      "i3ldz": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Greater Weapon Specialization",
+        "level": 15
+      },
+      "jlyi1": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.beW1OqibVQ3fBvRw",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Swashbuckler's Style",
+        "level": 1
+      },
+      "ltpXI": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.5cjr4uwygBp6vihP",
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "name": "Reinforced Ego",
+        "level": 17
+      },
+      "m4r06": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.pthjQIK9pDxnbER6",
+        "img": "systems/pf2e/icons/features/classes/stylish-tricks.webp",
+        "name": "Stylish Tricks",
+        "level": 3
+      },
+      "mh4q8": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13",
+        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+        "name": "Vigilant Senses",
+        "level": 11
+      },
+      "mysbh": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.SHpjmM4A3Sw4GgDz",
+        "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+        "name": "Light Armor Mastery",
+        "level": 19
+      },
+      "o2Jz5": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.TALz3cU06Hb14Key",
+        "img": "icons/skills/melee/maneuver-greatsword-yellow.webp",
+        "name": "Stylish Combatant",
+        "level": 1
+      },
+      "o4f3f": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Jtn7IugykXDlIoZq",
+        "img": "icons/sundries/flags/banner-symbol-axe-red.webp",
+        "name": "Opportune Riposte",
+        "level": 3
+      },
+      "sltbp": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.KxpaxUSuBC7hr4F7",
+        "img": "icons/weapons/daggers/dagger-double-engraved-black.webp",
+        "name": "Exemplary Finisher",
+        "level": 9
+      },
+      "t02dj": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7",
+        "img": "icons/equipment/back/mantle-collared-green.webp",
+        "name": "Light Armor Expertise",
+        "level": 13
+      },
+      "t8VSZ": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke",
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "name": "Fortitude Expertise",
+        "level": 3
+      },
+      "wdKDW": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.HBTLwREPKK3H4xVD",
+        "img": "icons/skills/movement/feet-winged-boots-brown.webp",
+        "name": "Confident Evasion",
+        "level": 7
+      },
+      "xi59r": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Pk3Ht0KZyFxSeL07",
+        "img": "systems/pf2e/icons/features/classes/keen-flair.webp",
+        "name": "Keen Flair",
+        "level": 15
+      },
+      "yeomf": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.U74JoAcLHTOsZG6q",
+        "img": "systems/pf2e/icons/features/classes/swashbuckler-expertise.webp",
+        "name": "Swashbuckler Expertise",
+        "level": 9
+      },
+      "z4u6l": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.13QpCrR8a8XULbJa",
+        "img": "icons/equipment/head/hat-tricorn-pirate-black.webp",
+        "name": "Continuous Flair",
+        "level": 11
+      },
+      "zwcsy": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC",
+        "img": "systems/pf2e/icons/features/classes/weapon-mastery.webp",
+        "name": "Weapon Mastery",
+        "level": 13
+      },
+      "KD6Ze": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HWNvRM0c5cZrwM8v",
+        "img": "systems/pf2e/icons/spells/enduring-might.webp",
+        "name": "Dual Class Attribute",
+        "level": 1
+      },
+      "npaTc": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.TvZgbWR7jOUjmE3i",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolutions",
+        "level": 1
+      },
+      "mzM5f": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.LaYsEPpPEGKN0faW",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolving Bond",
+        "level": 9
+      },
+      "tZFq7": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.hNYXu5AIE7hHXMBG",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolving Bond",
+        "level": 17
+      },
+      "bO04e": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.AdawyfbOaGCWrO80",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolving Bond",
+        "level": 5
+      },
+      "LMlQe": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.0c5AbmFImcRowBMH",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolving Bond",
+        "level": 13
+      },
+      "wYpdZ": {
+        "uuid": "Compendium.pf2e-summoners-plus.items.Item.D7qAS8qJtQ5W1mZj",
+        "img": "icons/magic/control/control-influence-rally-purple.webp",
+        "name": "Kindred Warriors",
+        "level": 1
+      }
+    },
+    "keyAbility": {
+      "value": [
+        "cha",
+        "dex"
+      ],
+      "selected": null
+    },
+    "perception": 2,
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:swashbuckler",
+        "priority": 0
+      }
+    ],
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 2,
+      "will": 2
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    },
+    "spellcasting": 1,
+    "trainedSkills": {
+      "additional": 4,
+      "value": [
+        "acrobatics"
+      ]
+    },
+    "traits": {
+      "rarity": "common",
+      "otherTags": []
+    },
+    "slug": "summoner",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    },
+    "scene-packer": {
+      "hash": "5e75140af7863319236054807742a36cd2317c8d",
+      "sourceId": "Item.NK2TUDCe881yB6eW"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759605864046,
+    "modifiedTime": 1759605864046,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "effects": [],
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "_id": "avbu6VWXwSe0CqaO",
+  "sort": 0,
+  "_key": "!items!avbu6VWXwSe0CqaO"
+}

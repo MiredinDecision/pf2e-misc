@@ -1,0 +1,113 @@
+{
+  "img": "icons/weapons/polearms/spear-flared-blue.webp",
+  "name": "Warrior of Legend",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You have received a blessing that will ensure your ascension to legend, and a curse that foretells your inevitable fall. You must select Warrior of Legend Dedication as your 2nd-level class feat.</p>\n<p><strong>Prerequisites:</strong> You must be a fighter.</p>\n<p><strong>Warrior of Legend Adjustments:</strong> You aren't trained in heavy armor.</p>\n<p>The armor expertise and armor mastery class features only improve your proficiency rank for light armor, medium armor, and unarmored defense. You don't gain Shield Block as a class feature. You are trained in both Acrobatics and Athletics, rather than one or the other.</p>\n<p>Choose one physical damage type, which becomes your cursed weakness: bludgeoning, piercing, or slashing. You gain weakness to this damage type equal to half your level (minimum 1).</p>\n<p>You gain @UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{Diehard} as a bonus feat, but you become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} whenever you take damage from your cursed weakness (unless your doomed value is already higher).</p>\n<p>Your fighter weapon mastery and weapon legend class features grant you increased proficiency in both spears and polearms, but you can't choose any other weapon group with these class features.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder War of Immortals",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "actorFlag": true,
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          }
+        ],
+        "flag": "warriorOfLegendCursedWeakness",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.WarriorOfLegend.CursedWeakness.Prompt"
+      },
+      {
+        "key": "Weakness",
+        "type": "{actor|flags.pf2e.warriorOfLegendCursedWeakness}",
+        "value": "max(1,floor(@actor.level/2))"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg",
+        "allowDuplicate": false
+      }
+    ],
+    "subfeatures": {
+      "suppressedFeatures": [
+        "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH"
+      ],
+      "proficiencies": {},
+      "senses": {}
+    },
+    "traits": {
+      "otherTags": [
+        "class-archetype"
+      ],
+      "rarity": "common",
+      "value": [
+        "fighter"
+      ]
+    },
+    "slug": "warrior-of-legend",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755485263813,
+    "modifiedTime": 1755485271684,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "Pj3Yeqzxjg2hkSW0",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.HssOCNIpcsmoeQ8T",
+      "hash": "79ef4d9d4291d55c27965c3c1b38e57a9e6d1022"
+    }
+  },
+  "_id": "cSZtjdt0U9KkX14e",
+  "sort": 200000,
+  "_key": "!items!cSZtjdt0U9KkX14e"
+}

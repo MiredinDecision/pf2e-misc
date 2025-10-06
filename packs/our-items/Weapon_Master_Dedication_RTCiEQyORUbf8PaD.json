@@ -1,0 +1,447 @@
+{
+  "folder": "YRanlOj0L8zhtxRw",
+  "name": "Weapon Master Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As opposed to most adventurers, who train to master a few or even a single specific weapon, you have invested your talents in being able to wield whatever weapon an encounter requires.</p><p>You become trained in two of the following skills that can be used for Recall Knowledge; Arcana, Nature, Occultism, Religion, and Society. If you are already trained in all of these skills, you become an expert in two of them.</p><p>You may pick one advanced weapon to become familiar with. For the purpose of determining your proficiency, you treat this weapon as a martial weapon. You may change the weapon you have selected each day, as part of your daily preparations, by practicing with another advanced weapon in your possession.</p><p>You gain the @UUID[Compendium.pf2e-misc.our-items.Item.d5mE9kZQdBbWyOsd]{Supplanting Strike} feat.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.9Kl3y0kJWZhvGWJH]{Effect: Weapon Practice}</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.d5mE9kZQdBbWyOsd",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ChoiceSet",
+        "predicate": [
+          {
+            "or": [
+              "skill:arcana:rank:0",
+              "skill:nature:rank:0",
+              "skill:occultism:rank:0",
+              "skill:religion:rank:0",
+              "skill:society:rank:0"
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "label": "Arcana",
+            "value": "arcana",
+            "predicate": [
+              "skill:arcana:rank:0",
+              {
+                "not": "skillTwo:arcana"
+              }
+            ]
+          },
+          {
+            "label": "Nature",
+            "value": "nature",
+            "predicate": [
+              "skill:nature:rank:0",
+              {
+                "not": "skillTwo:nature"
+              }
+            ]
+          },
+          {
+            "label": "Occultism",
+            "value": "occultism",
+            "predicate": [
+              "skill:occultism:rank:0",
+              {
+                "not": "skillTwo:occultism"
+              }
+            ]
+          },
+          {
+            "label": "Religion",
+            "value": "religion",
+            "predicate": [
+              "skill:religion:rank:0",
+              {
+                "not": "skillTwo:religion"
+              }
+            ]
+          },
+          {
+            "label": "Society",
+            "value": "society",
+            "predicate": [
+              "skill:society:rank:0",
+              {
+                "not": "skillTwo:society"
+              }
+            ]
+          }
+        ],
+        "flag": "skillOne",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill",
+        "rollOption": "skillOne"
+      },
+      {
+        "key": "ChoiceSet",
+        "predicate": [
+          {
+            "or": [
+              "skill:arcana:rank:0",
+              "skill:nature:rank:0",
+              "skill:occultism:rank:0",
+              "skill:religion:rank:0",
+              "skill:society:rank:0"
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "label": "Arcana",
+            "value": "arcana",
+            "predicate": [
+              "skill:arcana:rank:0",
+              {
+                "not": "skillOne:arcana"
+              }
+            ]
+          },
+          {
+            "label": "Nature",
+            "value": "nature",
+            "predicate": [
+              "skill:nature:rank:0",
+              {
+                "not": "skillOne:nature"
+              }
+            ]
+          },
+          {
+            "label": "Occultism",
+            "value": "occultism",
+            "predicate": [
+              "skill:occultism:rank:0",
+              {
+                "not": "skillOne:occultism"
+              }
+            ]
+          },
+          {
+            "label": "Religion",
+            "value": "religion",
+            "predicate": [
+              "skill:religion:rank:0",
+              {
+                "not": "skillOne:religion"
+              }
+            ]
+          },
+          {
+            "label": "Society",
+            "value": "society",
+            "predicate": [
+              "skill:society:rank:0",
+              {
+                "not": "skillOne:society"
+              }
+            ]
+          }
+        ],
+        "flag": "skillTwo",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill",
+        "rollOption": "skillTwo"
+      },
+      {
+        "key": "ChoiceSet",
+        "predicate": [
+          {
+            "and": [
+              {
+                "gte": [
+                  "skill:arcana:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:nature:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:occultism:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:religion:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:society:rank",
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "label": "Arcana",
+            "value": "arcana",
+            "predicate": [
+              "skill:arcana:rank:1",
+              {
+                "not": "expertSkillTwo:arcana"
+              }
+            ]
+          },
+          {
+            "label": "Nature",
+            "value": "nature",
+            "predicate": [
+              "skill:nature:rank:1",
+              {
+                "not": "expertSkillTwo:nature"
+              }
+            ]
+          },
+          {
+            "label": "Occultism",
+            "value": "occultism",
+            "predicate": [
+              "skill:occultism:rank:1",
+              {
+                "not": "expertSkillTwo:occultism"
+              }
+            ]
+          },
+          {
+            "label": "Religion",
+            "value": "religion",
+            "predicate": [
+              "skill:religion:rank:1",
+              {
+                "not": "expertSkillTwo:religion"
+              }
+            ]
+          },
+          {
+            "label": "Society",
+            "value": "society",
+            "predicate": [
+              "skill:society:rank:1",
+              {
+                "not": "expertSkillTwo:society"
+              }
+            ]
+          }
+        ],
+        "flag": "expertSkillOne",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill",
+        "rollOption": "expertSkillOne"
+      },
+      {
+        "key": "ChoiceSet",
+        "predicate": [
+          {
+            "and": [
+              {
+                "gte": [
+                  "skill:arcana:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:nature:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:occultism:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:religion:rank",
+                  1
+                ]
+              },
+              {
+                "gte": [
+                  "skill:society:rank",
+                  1
+                ]
+              }
+            ]
+          }
+        ],
+        "choices": [
+          {
+            "label": "Arcana",
+            "value": "arcana",
+            "predicate": [
+              "skill:arcana:rank:1",
+              {
+                "not": "expertSkillOne:arcana"
+              }
+            ]
+          },
+          {
+            "label": "Nature",
+            "value": "nature",
+            "predicate": [
+              "skill:nature:rank:1",
+              {
+                "not": "expertSkillOne:nature"
+              }
+            ]
+          },
+          {
+            "label": "Occultism",
+            "value": "occultism",
+            "predicate": [
+              "skill:occultism:rank:1",
+              {
+                "not": "expertSkillOne:occultism"
+              }
+            ]
+          },
+          {
+            "label": "Religion",
+            "value": "religion",
+            "predicate": [
+              "skill:religion:rank:1",
+              {
+                "not": "expertSkillOne:religion"
+              }
+            ]
+          },
+          {
+            "label": "Society",
+            "value": "society",
+            "predicate": [
+              "skill:society:rank:1",
+              {
+                "not": "expertSkillOne:society"
+              }
+            ]
+          }
+        ],
+        "flag": "expertSkillTwo",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill",
+        "rollOption": "expertSkillTwo"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skillOne}.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skillTwo}.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.expertSkillOne}.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.expertSkillTwo}.rank",
+        "value": 2
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          "item:id:{actor|flags.pf2e.weaponMasterWeapon}"
+        ],
+        "label": "Mastered Weapon",
+        "sameAs": "martial",
+        "slug": "advanced-weapon-master"
+      }
+    ],
+    "slug": "weapon-master-dedication",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "proficient in all martial weapons"
+        },
+        {
+          "value": "+2 Strength or +2 Dexterity"
+        },
+        {
+          "value": "trained in at least two skills that can be used for Recall Knowledge"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "RTCiEQyORUbf8PaD",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1216a5ee1b3d0e3b8f40bf72bb030ebafcf77fd4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728678202017,
+    "modifiedTime": 1728745515016,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!RTCiEQyORUbf8PaD"
+}

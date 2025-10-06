@@ -1,0 +1,150 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/brilliant-rapier.webp",
+  "name": "Dimmgata",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The rapier is a long and thin piercing blade with a basket hilt. It is prized among many as a dueling weapon.</p><hr /><p><strong>Starry - </strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Seems made of night sky.</span></p>"
+    },
+    "rules": [],
+    "slug": "rapier",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "deadly-d8",
+        "disarm",
+        "finesse"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "rapier",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 2
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": "cold-iron",
+      "grade": "low"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Rapier",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": ""
+    },
+    "grade": null,
+    "runes": {
+      "potency": 2,
+      "striking": 2,
+      "property": {
+        "0": ""
+      }
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1736885842542,
+    "modifiedTime": 1758415312723,
+    "lastModifiedBy": "19LQrWiE2jMTbelH",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "K2E98FJTqNioJF80",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e99dfeaa359eb5d2410d2da3b5d1fbae8567d2bf",
+      "sourceId": "Actor.gDAaFU8zVUGzC9eO.Item.ci5DAA4Y2a4mLrbR"
+    }
+  },
+  "_id": "dA317AzE3ev2Vkjc",
+  "sort": 2300000,
+  "_key": "!items!dA317AzE3ev2Vkjc"
+}

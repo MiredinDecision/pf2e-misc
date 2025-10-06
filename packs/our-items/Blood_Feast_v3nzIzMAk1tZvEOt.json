@@ -1,0 +1,109 @@
+{
+  "folder": "kw7Cdwcx7pAM35BV",
+  "img": "systems/pf2e/icons/spells/blood-feast.webp",
+  "name": "Blood Feast",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your head splits vertically into an enormous maw, which feasts upon the target's blood, dealing 12d6 piercing damage, depending on your spell attack roll. After the spell, your head sews back together as if it had never split apart. You gain temporary Hit Points for 1 minute equal to half the piercing damage the target takes.</p><hr /><p><strong>Critical Success</strong> The creature takes double damage and @Damage[(@item.rank - 4)d8[bleed]] or @Damage[(@item.rank - 4)d8[spirit]].</p><p><strong>Success</strong> The creature takes full damage.</p><p><strong>Failure</strong> You miss and the creature takes no damage.</p><hr /><p><strong>Heightened (+1)</strong> The piercing damage increases by 2d6, and the @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent Damage} on a critical increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "blood-feast",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder #154: Siege of the Dinosaurs",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "0": {
+        "applyMod": false,
+        "category": null,
+        "formula": "12d6",
+        "kinds": [
+          "damage"
+        ],
+        "materials": [],
+        "type": "piercing"
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "damage": {
+        "0": "2d6"
+      },
+      "interval": 1,
+      "type": "interval"
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758238401391,
+    "modifiedTime": 1758238442646,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0164b47823b6f2949bba33b4565ed2aad687166f",
+      "sourceId": "Actor.Sk0x5dGjX1LuSDjq.Item.YUmm59UPpuLK5nKA"
+    }
+  },
+  "_id": "v3nzIzMAk1tZvEOt",
+  "sort": 300000,
+  "_key": "!items!v3nzIzMAk1tZvEOt"
+}

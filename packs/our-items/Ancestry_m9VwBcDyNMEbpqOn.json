@@ -1,0 +1,26 @@
+{
+  "name": "Ancestry",
+  "sorting": "a",
+  "folder": "aQZwfoGMn6rLVvgm",
+  "type": "Item",
+  "_id": "m9VwBcDyNMEbpqOn",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "b7bbfb2af7af1f625fe24e667d315a38f322f065"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1728262136148,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "_key": "!folders!m9VwBcDyNMEbpqOn"
+}

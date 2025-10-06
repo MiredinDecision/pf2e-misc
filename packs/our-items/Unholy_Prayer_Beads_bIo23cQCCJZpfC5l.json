@@ -1,0 +1,104 @@
+{
+  "img": "icons/equipment/neck/necklace-runed-white-red.webp",
+  "name": "Unholy Prayer Beads",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This strand of ordinary-looking prayer beads glows with a soft light and becomes warm to the touch the first time you cast a divine spell while holding it. When you do, the prayer beads become attuned to your deity, changing their form and iconography to prominently incorporate your deity's religious symbol and iconography.</p><p>Whenever you cast a divine spell from your own spell slots while holding the prayer beads, you recover @Damage[1[void,healing]] Hit Point; this is a void healing effect. If the spell you cast was a healing spell, you can grant this additional healing to one of the spell's targets instead of yourself.</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Effect</strong> Cast @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless} or @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}, each once per day.</p><hr /><p><strong>Craft Requirements</strong> You have a spellcasting class feature with the divine tradition.</p>"
+    },
+    "rules": [],
+    "slug": "holy-prayer-beads",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "healing",
+        "void"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 160
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728404656726,
+    "modifiedTime": 1756086799129,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "7OZbTCbckbg9PFqT",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "109b48c9f9504395dc9c2b5931585b14ded92246",
+      "sourceId": "Item.j9PsK9GsynXLpWJo"
+    }
+  },
+  "_id": "bIo23cQCCJZpfC5l",
+  "sort": 1300000,
+  "_key": "!items!bIo23cQCCJZpfC5l"
+}

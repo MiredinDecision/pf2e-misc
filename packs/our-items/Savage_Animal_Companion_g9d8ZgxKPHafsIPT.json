@@ -1,0 +1,151 @@
+{
+  "name": "Savage Animal Companion",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/apex-companion.webp",
+  "effects": [],
+  "folder": "n7pNn6oUuYLYXhV4",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.h262IUT47dLqZLFZ",
+      "hash": "f645701f78d2e1be5900e21c653ded975cc9781f"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>To advance a mature animal companion to a savage animal companion, increase its Strength modifier by 2 and its Dexterity, Constitution, and Wisdom modifiers by 1. It deals 3 additional damage with its unarmed attacks. Increase its proficiency rank in Athletics to expert. It also learns the advanced maneuver for its type. If your companion is Medium or smaller, it grows by one size. Its attacks become magical for the purpose of ignoring resistances.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "flags.pf2e.additionalDamage",
+        "priority": 49
+      },
+      {
+        "key": "CreatureSize",
+        "value": 1,
+        "maximumSize": "lg"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:savage",
+        "priority": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": "@actor.flags.pf2e.additionalDamage"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "allowDuplicate": false
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "magical"
+      }
+    ],
+    "slug": "savage-animal-companion",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "L46TYcXAUKb2dhwY": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.h262IUT47dLqZLFZ",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729490233429,
+    "modifiedTime": 1729490238719,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "pf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "_id": "g9d8ZgxKPHafsIPT",
+  "sort": 0,
+  "_key": "!items!g9d8ZgxKPHafsIPT"
+}

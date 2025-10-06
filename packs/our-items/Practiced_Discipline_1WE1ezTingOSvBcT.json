@@ -1,0 +1,101 @@
+{
+  "folder": "SUt38LbkAyLuvxQ7",
+  "name": "Practiced Discipline",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>As a starknight, you fight using the powers of the cosmos. This is done via Disciplines, special magical powers unique to a starknight. At 5th level and every 4th level thereafter, you gain a Discipline feat of that level <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">or lower that you meet the prerequisites for and don't already have.  You may retrain this feat into another Discipline feat of an appropriate level.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                5
+              ]
+            },
+            "item:category:class",
+            "item:trait:discipline"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "disciplineFeat",
+        "key": "ChoiceSet",
+        "prompt": "Choose a Discipline."
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.disciplineFeat}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "practiced-discipline",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "1WE1ezTingOSvBcT",
+  "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "591d494f2311ad3ec3b24ac8a75b43e8f5b2ac87"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1754537892075,
+    "modifiedTime": 1756430310157,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!1WE1ezTingOSvBcT"
+}

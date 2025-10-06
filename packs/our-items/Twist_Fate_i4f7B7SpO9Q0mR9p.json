@@ -1,0 +1,94 @@
+{
+  "folder": "Cwsf5B5KhNAaMZV2",
+  "name": "Twist Fate",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You grasp the strands of fate around a target within 60 feet, twisting their destiny towards an approaching disaster or sudden triumph. If you target an ally, make a @Check[dc:11|type:flat]. The ally gains this result as a Triumph effect. If you target an enemy, that enemy makes a Will save for the Disaster effect.</p><hr /><h4><strong>Triumph</strong></h4><p><strong>Critical Success</strong> As Success, but it rolls twice and uses the best result on all attack rolls for the duration.</p><p><strong>Success</strong> The creature gains a +2 status bonus to all saving throws and skill checks for the duration and the next time it makes an attack roll, it rolls twice and uses the worst result. This is a fortune effect.</p><p><strong>Failure</strong> The creature gains a +2 status bonus to their next saving throw or skill check.</p><p><strong>Critical Failure </strong>The creature is unaffected.</p><hr /><h4><strong>Disaster</strong></h4><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes a -2 status penalty to their next saving throw or skill check.</p><p><strong>Failure</strong> The creature takes a -2 status penalty to all saving throws and skill checks for the duration and the next time it makes an attack roll, it rolls twice and uses the worst result. This is a misfortune effect.</p><p><strong>Critical Failure </strong>As failure, but it rolls twice and uses the worst result on all attack rolls for the duration.</p><hr /><p><strong>Heightened (8th)</strong> The spell can target up to 3 allies or target up to 3 enemies.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.lLL9uIuARBPgDrwY]{Effect: Twist Fate}</p>"
+    },
+    "rules": [],
+    "slug": "twist-fate",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "fortune",
+        "manipulate",
+        "misfortune",
+        "oracle"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 ally or 1 enemy"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "will",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {}
+  },
+  "_id": "i4f7B7SpO9Q0mR9p",
+  "img": "icons/magic/time/arrows-circling-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e5b04d99f954cb926196b2e1433a655562f2f232"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758053482702,
+    "modifiedTime": 1758066010250,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!i4f7B7SpO9Q0mR9p"
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "G43Q1ERBzviBYJQv",
+  "name": "Effect: Aurora Shield",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>All allies crossing or adjacent to Aurora Shield's effect recieve a +1 status bonus to AC and Fortitude saves.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Aurora Shield",
+        "selector": [
+          "ac",
+          "fortitude"
+        ],
+        "value": 1,
+        "type": "status"
+      }
+    ],
+    "slug": "effect-aurora-shield",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "yh183c5J1fhfV6u1",
+  "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1ba1c19ce6bb106e456cda2af69f6ece57573545"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754861857643,
+    "modifiedTime": 1754861992695,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!yh183c5J1fhfV6u1"
+}

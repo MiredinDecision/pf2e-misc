@@ -1,0 +1,26 @@
+{
+  "name": "Ruins of Pinegarde Items",
+  "sorting": "a",
+  "folder": "uK6ZAtIcIXwB3iQd",
+  "type": "Item",
+  "_id": "xTGsfv2Ay95QwYhB",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "7ded86887726fa9e7d12207cc27ff109a020fc90"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802850432,
+    "modifiedTime": 1726802850432,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj"
+  },
+  "_key": "!folders!xTGsfv2Ay95QwYhB"
+}

@@ -1,0 +1,124 @@
+{
+  "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+  "name": "Evolutions",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Evolution feats are a special type of summoner class feat that allow you to customize your eidolon through your shared link. You gain two evolution feats for your eidolon at 1st level, representing the differences that make it unique from other eidolons of its type. If you retrain these feats, the feat you replace it with must also be an evolution feat.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                1
+              ]
+            },
+            "item:category:class",
+            "item:trait:evolution"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "evolutionFeat",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.EvolutionFeat"
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                1
+              ]
+            },
+            "item:category:class",
+            "item:trait:evolution"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "evolutionFeat2",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.EvolutionFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.evolutionFeat}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.evolutionFeat2}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "summoner"
+      ],
+      "otherTags": []
+    },
+    "slug": "evolutions",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1",
+    "createdTime": 1747454102398,
+    "modifiedTime": 1747503679329,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "AxWEXQekTvAn3Ml5",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.IPcdQAwJk0aZe5mg",
+      "hash": "bf5e561341e849efa393a6072cba584a9ee61505"
+    }
+  },
+  "_id": "TvZgbWR7jOUjmE3i",
+  "sort": 0,
+  "_key": "!items!TvZgbWR7jOUjmE3i"
+}

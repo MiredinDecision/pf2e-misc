@@ -1,0 +1,118 @@
+{
+  "img": "modules/pf2e-equipment-custom-wood-armor/assets/purplearmor.webp",
+  "name": "Splinted Wood Leaf Weave",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Specialized crafters, often elves, create leaf weave out of sturdy leaves from ancient or magically enriched trees. Such leaves, when treated properly, have the strength of leather, and other tough plant materials hold the leaves together to form the armor. Such suits are popular among those who wish to avoid materials taken from slain beasts. As a material, leaf weave has the same statistics as thin wood.</p>"
+    },
+    "rules": [],
+    "slug": "splinted-wood-leaf-weave",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "laminar"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Pathfinder Treasure Vault",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "leaf-weave",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 14
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Leaf Weave",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy",
+    "group": "composite",
+    "acBonus": 4,
+    "strength": 3,
+    "dexCap": 2,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-equipment-custom-wood-armor.custom-wood-armor.Item.ryfK8v4VupT4ZK3P",
+      "hash": "72f2b19b0aacec9f23ff450988683cf9ea38b62e"
+    }
+  },
+  "effects": [],
+  "folder": "qvoMwaZTYMWhmXmF",
+  "ownership": {
+    "default": 0,
+    "BeZDY0XactlwvFqP": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745267986573,
+    "modifiedTime": 1745279329537,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "CTjlanzhRv53XnmL",
+  "sort": 200000,
+  "_key": "!items!CTjlanzhRv53XnmL"
+}

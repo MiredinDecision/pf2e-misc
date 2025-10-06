@@ -1,0 +1,233 @@
+{
+  "folder": "DyMK5L8tvXAPRv4X",
+  "name": "Veil of the Spiritcaller (Greater)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This ghostly veil is embroidered with symbols that align with the apparitions you attune to. You gain a +2 item bonus to all Lore checks you gain from your apparitions.</p><p><strong>Activate - Convene the Spirits </strong><span class=\"action-glyph\">f</span><strong> </strong>(concentrate)</p><p><strong>Frequency </strong>once per day</p><hr /><p>You gain 1 Focus Point, which you can spend only to cast a vessel spell. If you don't spend this Focus Point by the end of this turn, it's lost.</p><hr /><p><strong>Activate - </strong><span class=\"action-glyph\"><strong>2</strong></span><strong> </strong>envision, interact</p><p><strong>Frequency </strong>once per day</p><hr /><p><strong>Effect </strong>You pull the veil over your face, and a ghostly shimmer covers your body. The veil casts a 3rd-rank @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise} on you. You may only take on the appearance of an apparition you are attuned to. If you do, you may also allow that apparition to speak and act through you as well. If you do, the bonus to Deception checks increases to +6.</p><hr /><p><strong>Craft Requirements </strong>You're an animist.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "architecture-lore",
+          "engineering-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "predicate": [
+          "feature:crafter-in-the-vault"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "farming-lore",
+          "herbalism-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "predicate": [
+          "feature:custodian-of-groves-and-gardens"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "fortune-telling-lore",
+          "underworld-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "predicate": [
+          "feature:imposter-in-hidden-places"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ocean-lore",
+          "sailing-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "predicate": [
+          "feature:lurker-in-devouring-dark"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "art-lore",
+          "fey-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "hideIfDisabled": true,
+        "predicate": [
+          "feature:monarch-of-the-fey-courts"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "circus-lore",
+          "fortune-telling-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "hideIfDisabled": true,
+        "predicate": [
+          "feature:reveler-in-lost-glee"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "forest-lore",
+          "hunting-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "hideIfDisabled": true,
+        "predicate": [
+          "feature:stalker-in-the-darkened-boughs"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "mountain-lore",
+          "volcano-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "hideIfDisabled": true,
+        "predicate": [
+          "feature:steward-of-stone-and-fire"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "mountain-lore",
+          "river-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "hideIfDisabled": true,
+        "predicate": [
+          "feature:vanguard-of-roaring-waters"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "battlegrounds-lore",
+          "heraldry-lore"
+        ],
+        "value": 2,
+        "type": "item",
+        "hideIfDisabled": true,
+        "predicate": [
+          "feature:witness-to-ancient-battles"
+        ]
+      }
+    ],
+    "slug": "veil-of-the-spiritcaller",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "focused",
+        "invested"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 18
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 21000
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "wornmask"
+    },
+    "subitems": []
+  },
+  "img": "icons/equipment/head/hood-cowl-mask-purple.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "02d2e261cc53da913a03e251c5bda0a818836f12",
+      "sourceId": "Actor.zxxDVGJgiVnLCEK7.Item.EzAyXtHtg0BxIxz7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735338648069,
+    "modifiedTime": 1735338702060,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "ARqXZp55NNqfzMb3",
+  "sort": 0,
+  "_key": "!items!ARqXZp55NNqfzMb3"
+}

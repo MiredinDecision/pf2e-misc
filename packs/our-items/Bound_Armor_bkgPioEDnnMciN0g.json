@@ -1,0 +1,75 @@
+{
+  "folder": "rAe5GRqpaIRRIWO7",
+  "name": "Bound Armor",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Bound Armor</strong> Your body and soul are bound to the suit of armor you rose from the dead within. Your suit of armor becomes a set of graveknight armor. You cannot remove this armor and it is automatically invested, but it otherwise functions like normal armor. By spending a week of downtime, you can transfer yourself to a different set of heavy armor; that set of armor becomes graveknight armor, and your previous set returns to what it was before it became graveknight armor. Your graveknight armor also returns to what it was before should you be returned to life.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.jusBmq8N8HW6Inc9",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "bound-armor",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "bkgPioEDnnMciN0g",
+  "img": "systems/pf2e/icons/features/classes/armor-mastery.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fb93811fcdca88efad26c566abfa127675859810"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726975984748,
+    "modifiedTime": 1726976050638,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!bkgPioEDnnMciN0g"
+}

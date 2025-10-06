@@ -1,0 +1,79 @@
+{
+  "folder": "NkYeLnkZRgzZVVow",
+  "name": "Effect: Golden Age",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The status bonuses granted by Marshal abilities are doubled.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.warlord.bonus",
+        "value": 2
+      }
+    ],
+    "slug": "effect-golden-age",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "ENNdGNERNHnp9zFP",
+  "img": "systems/pf2e/icons/features/feats/marshals-aura.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "96368f613120f7914f250090e26d9cdcd33c949c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1755040353591,
+    "modifiedTime": 1755911681272,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!ENNdGNERNHnp9zFP"
+}

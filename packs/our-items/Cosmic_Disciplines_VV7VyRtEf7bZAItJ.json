@@ -1,0 +1,101 @@
+{
+  "folder": "vfpQ3DuzE8uZUiEn",
+  "name": "Cosmic Disciplines",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>As a starknight, you fight using the powers of the cosmos. This is done via Disciplines, special magical powers unique to a starknight. To use a Discipline, your Armiger must be called as per the Discipline trait. <strong>You cannot use a </strong><span style=\"text-decoration:underline\"><strong><span style=\"text-decoration:underline\">Broken</span></strong></span><strong> Regalia as part of a Discipline.</strong> You gain a 1st-level Discipline Feat as a Bonus feat. <span style=\"color:rgb(250, 250, 250);font-family:Roboto, sans-serif;font-size:15.75px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(0, 0, 0);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;display:inline !important;float:none\">You may retrain this feat into another Discipline feat of an appropriate level.</span></p><p>Disciplines are magical, and though they aren't spells, some things that affect spells also affect Disciplines. Abilities that restrict you from casting spells (such as being polymorphed into a battle form) or protect against spells (such as a spell that protects against other spells or a creature's bonus to saves against spells) also apply to Disciplines.</p><h3>Discipline Levels</h3><p>Any Disciplines you use are the same level you are. For instance, if you're 5th level, your Astral Strike would be 5th level (and its counteract rank would be 3rd rank), even though you gained the action at 1st level.</p><p>Similar to spells, many Disciplines get more powerful as you increase in level. In these cases, the Discipline ends with one or more “Level” entries. This either lists the levels at which the Discipline gets an upgrade or has an entry with a plus sign that describes a benefit that increases on a regular basis. For instance, a 1st-level Discipline with a “Level (+4)” entry would get stronger at 5th, 9th, 13th, and 17th levels.</p><h3>Discipline DC</h3><p>Saving throws from Disciplines are made agianst your Starknight class DC. You are trained in Armiger Class DC. Later on, you can acquire a Star Ring to gain bonuses towards your Starknight class DC.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                1
+              ]
+            },
+            "item:category:class",
+            "item:trait:discipline"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "disciplineFeat",
+        "key": "ChoiceSet",
+        "prompt": "Choose a Discipline."
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.disciplineFeat}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "cosmic-disciplines",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "VV7VyRtEf7bZAItJ",
+  "img": "systems/pf2e/icons/spells/asterism.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e5a49a36311c575ea58cc96ec75e786f812bbf56"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1753910676674,
+    "modifiedTime": 1756430333020,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!VV7VyRtEf7bZAItJ"
+}

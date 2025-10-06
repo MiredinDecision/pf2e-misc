@@ -1,0 +1,103 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Advanced Blood Potency",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain one sorcerer feat. For the purpose of prerequisites, your sorcerer level is half your character level.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat more than once. Each time you do, you gain another sorcerer feat.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:category:class",
+            "item:trait:sorcerer"
+          ],
+          "predicate": [
+            {
+              "lte": [
+                "item:level",
+                "floor(@actor.level/2)"
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "flag": "advancedBloodPotency",
+        "key": "ChoiceSet",
+        "prompt": "Select a Sorcerer Class Feat"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.advancedBloodPotency}"
+      }
+    ],
+    "slug": "advanced-blood-potency",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Basic Blood Potency"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.S25iRw2X9hmGRMyO",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802818315,
+    "modifiedTime": 1726802818315,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "aYTI83Rqw4hqOjfm",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3d82059cd24dc6d5c497bf9656c004fa698df171"
+    }
+  },
+  "_id": "11ihQmTQS3VrQURM",
+  "sort": 100000,
+  "_key": "!items!11ihQmTQS3VrQURM"
+}

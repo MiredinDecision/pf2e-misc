@@ -1,0 +1,76 @@
+{
+  "folder": "HYtdwMrR01QCzgbM",
+  "name": "Energy Surge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisites </strong>@UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.hOCC64ZOtr98SqAi]{Energy Slime}</p><hr /><p>Your critical blows surge with energy that clings to your foes. On a critical hit with a pseudopod unarmed attack, you deal 1d4 persistent damage of the same type your pseudopod unarmed attack deals to the target.</p>"
+    },
+    "rules": [],
+    "slug": "energy-surge",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Energy Slime"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "26226c86eb6ee890c8d15d07cfba758e66dacf72"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.MOMHckt91eeYA4y3",
+    "duplicateSource": "Item.0ssWUWX1T3wLmbGs",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "MOMHckt91eeYA4y3",
+  "_key": "!items!MOMHckt91eeYA4y3"
+}

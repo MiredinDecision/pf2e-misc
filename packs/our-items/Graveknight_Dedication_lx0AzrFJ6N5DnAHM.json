@@ -1,0 +1,125 @@
+{
+  "folder": "k3FYhRjfVRzezhOH",
+  "name": "Graveknight Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\">You have died but your soul lingers on, refusing to submit to the shackles of death. You gain the undead trait and the basic undead benefits. Your undead hunger is battle. Being a graveknight has the following major effects.</p><p dir=\"ltr\"><strong>Bound Armor</strong> Your body and soul are bound to the suit of armor you rose from the dead within. Your suit of armor becomes a set of graveknight armor. You cannot remove this armor and it is automatically invested, but it otherwise functions like normal armor. By spending a week of downtime, you can transfer yourself to a different set of heavy armor; that set of armor becomes graveknight armor, and your previous set returns to what it was before it became graveknight armor. Your graveknight armor also returns to what it was before should you be returned to life.</p><p dir=\"ltr\"><strong id=\"docs-internal-guid-aac6cbac-7fff-c9cb-d669-da9adf928439\">Ruinous Element </strong>When you were resurrected, you returned attuned to an element thematically connected to your life. Select one of the following damage types: acid, cold, electricity, or fire. Any weapon you wield that you are proficient in gains a +1 damage of that element. At level 6, your weapons elemental damage is replaced with the effects of the corrosive, frost, shock, or flaming rune based on your ruinous element. If you are 14th level or higher, it gains the greater effects of this rune instead. This rune counts towards your maximum limit of runes as normal.</p><p><span style=\"font-family:Roboto, sans-serif\"><strong>Graveknight Spellcasting and Repertoire </strong>You gain the @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} activity. You gain a spell repertoire with two common cantrips from the spell list associated with your graveknight's curse. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for graveknight archetype spells is Intelligence, and they are graveknight spells of your graveknight curse's tradition. You become trained in the skill associated with that tradition.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.ancestryfeatures.Item.SAbzItAI4uwbdnQk",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.graveknightArchetype.featCount",
+        "value": 1
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "undead"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.Wpgtafy6Gmv9IJ0V",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.bkgPioEDnnMciN0g",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "graveknight-dedication",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.331",
+        "system": "6.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Heresy of the Whispering Way",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expert in martial weapons"
+        },
+        {
+          "value": "Trained in heavy armor"
+        },
+        {
+          "value": "You died and returned as a graveknight"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 1
+        }
+      }
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-heresy-of-the-whispering-way.feats.Item.sISm0EyXLpli8Szb",
+      "hash": "18c6acaddb60ffcd54f1e7a32c836236ee271106"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1726970547271,
+    "modifiedTime": 1728581104236,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "lx0AzrFJ6N5DnAHM",
+  "sort": 0,
+  "_key": "!items!lx0AzrFJ6N5DnAHM"
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "bHODluul6stM55zb",
+  "name": "Effect: Prescience",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You're about to roll initiative.</p><hr /><p>Mythic power floods through your mind, filling you with visions of possible futures, events that might or might not happen, and warnings of things that might be. Spend a Mythic Point and roll your initiative check using mythic proficiency. Until the end of your first turn, you have a +1 status bonus to AC and all saves.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac",
+          "reflex",
+          "fortitude",
+          "will"
+        ],
+        "value": 1,
+        "type": "status"
+      }
+    ],
+    "slug": "effect-prescience",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "uVC35j1H5YrXr8vF",
+  "img": "systems/pf2e/icons/spells/hyperfocus.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e363d8c0f94796b515caab64f0af17582a77943a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1736460973866,
+    "modifiedTime": 1758475887160,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!uVC35j1H5YrXr8vF"
+}

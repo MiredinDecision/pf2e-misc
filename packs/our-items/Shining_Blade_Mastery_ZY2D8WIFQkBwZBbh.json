@@ -1,0 +1,90 @@
+{
+  "folder": "PyudfzbIHfwCf86A",
+  "name": "Shining Blade Mastery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You've mastered your arsenal of magus techniques and divine spells. Your proficiency ranks for your magus class DC and for spell attack modifiers and spell DCs increase to master.</span></p>"
+    },
+    "rules": [],
+    "slug": "shining-blade-mastery",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.10.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 3,
+          "attribute": null
+        },
+        "magus": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/commodities/gems/pearl-blue-gold.webp",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5af2eede856dd60fd8d29ec954debbc6bf22c656",
+      "sourceId": "Item.jurpmFalwlazYVf4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1742237763561,
+    "modifiedTime": 1743561457722,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "ZY2D8WIFQkBwZBbh",
+  "sort": 300000,
+  "_key": "!items!ZY2D8WIFQkBwZBbh"
+}

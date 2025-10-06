@@ -1,0 +1,27 @@
+{
+  "name": "Dedication Weapon Master",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "z1smzZPya9tRVYa4",
+  "description": "",
+  "sort": 3800000,
+  "color": "#603030",
+  "flags": {
+    "scene-packer": {
+      "hash": "af526f8b4dcd814dad82f1110510c720949f2d21"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728678123217,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!z1smzZPya9tRVYa4"
+}

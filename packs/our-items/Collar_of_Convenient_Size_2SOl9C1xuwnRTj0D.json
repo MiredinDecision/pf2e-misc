@@ -1,0 +1,104 @@
+{
+  "img": "systems/pf2e/icons/equipment/worn-items/companion-items/collar-of-empathy.webp",
+  "name": "Collar of Convenient Size",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This leather collar's worn and almost threadbare look belies its magical nature. When your companion wears and invests the collar, it gains the ability to change its appearance from that of a larger animal into a more convenient size.</p><p><strong>Activate— Shrink Companion </strong><span class=\"action-glyph\">A</span> envision</p><hr /><p><span style=\"font-family:Roboto, sans-serif\">You touch your animal companion and shrink to fit into small spaces. Your animal companion reduces in size, to a minimum of size Small. The effect lasts until you Dismiss it.</span></p><p>@UUID[Compendium.pf2e-misc.our-items.Item.umUmqR58YB4ujalG]{Effect: Shrink Companion}</p>"
+    },
+    "rules": [],
+    "slug": "collar-of-inconspicuousness",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "companion",
+        "invested",
+        "primal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 420
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "lg",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Collar",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worncollar"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729623313955,
+    "modifiedTime": 1756086799129,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "7OZbTCbckbg9PFqT",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fcd6ac820ade87c7d813b36a011fc88a832d3589",
+      "sourceId": "Actor.FAKxPCUZcPy0a6eU.Item.b1xegKQqTLIg9Hh0"
+    }
+  },
+  "_id": "2SOl9C1xuwnRTj0D",
+  "sort": 1200000,
+  "_key": "!items!2SOl9C1xuwnRTj0D"
+}

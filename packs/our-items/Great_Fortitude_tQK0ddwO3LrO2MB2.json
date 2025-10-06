@@ -1,0 +1,93 @@
+{
+  "img": "icons/magic/life/cross-explosion-burst-green.webp",
+  "name": "Great Fortitude",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your physique is incredibly hardy. Your proficiency rank for Fortitude saves increases to expert.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank",
+        "value": 2
+      }
+    ],
+    "slug": "great-fortitude",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.879,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "fortitude": {
+          "rank": 2
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "type": "feat",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-legacy-content.class-features-legacy.Item.F57Na5VxfBp56kke",
+      "hash": "e453821d262cada5d99f571a6a01c8a7c74a3ef9"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753913556994,
+    "modifiedTime": 1753913584057,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "VwGbqbbd7evMjK4v",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "tQK0ddwO3LrO2MB2",
+  "sort": 0,
+  "_key": "!items!tQK0ddwO3LrO2MB2"
+}

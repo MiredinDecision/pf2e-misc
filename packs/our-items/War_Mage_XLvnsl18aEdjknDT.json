@@ -1,0 +1,138 @@
+{
+  "folder": "2fY0qBgCinOhCDqq",
+  "name": "War Mage",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You learned the arcane craft at a war college, focusing less on theory and scholarship and more on applied magic and how best to leverage spellcraft on the battlefield. You were schooled in arcana, tried and tested in war, and learned how and when best to employ those spells to turn the tide of battle. Your training included lessons on swordplay and the upkeep of armor alongside the preparation of spells and the deciphering of arcane runes.<br /><br /><strong>War Magic 1st</strong><br /><br />Your studies have focused on using magic on the battlefield along with the basics of warfare. With a sturdy breastplate to turn aside errant arrows, you confidently use your spells to turn the tide of battle. If you choose this class archetype, you must select War Mage Dedication as your 2nd-level class feat. <br /><strong>Prerequisites:</strong> You must be a wizard.<br /><strong>War Mage Adjustments:</strong> You become trained in light and medium armor. At 11th level, you gain expert proficiency with light and medium armor, as well as unarmored defense.<br />You gain the Shield Block general feat at 1st level.<br />You gain the war magic class feature at 1st level.<br />You must choose the school of battle magic as your arcane school.<br />You have familiarity with martial weapons, treating them as simple weapons for the purposes of proficiency.<br />You do not gain the arcane bond or arcane thesis class features.<br />You do not gain the defensive robes feature at 13th level.<br /><br /><strong>War Magic:</strong> As a free action that can be taken once per round at the start of your turn, you can exchange any spell you currently have memorized for sure strike, heightened to the same level as the replaced spell. As normal, you can cast most spells while wielding a weapon in your hands. You can Refocus by studying plans of war, maps of troop movement, and reports from the field for an active conflict in lieu of studying your spellbook.<br /><br />You are an eternal student of the secrets of the universe, using your mastery of magic to cast powerful spells. You treat magic like a science, cross-referencing the latest texts on practical spellcraft with ancient tomes to discover and understand arcane magic. Yet magical theory is vast, and there's no way you can study it all. Most wizards learn through formal schooling, with their curriculum informing a specific rubric, although particularly driven researchers sometimes piece together their own theories.</p><div class=\"subtitle\" style=\"font-size:1em;width:95%;margin-top:1em\"><p></p></div>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Battlecry!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.medium.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.light.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.unarmored.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              11
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "war-mage",
+    "traits": {
+      "otherTags": [
+        "class-archetype",
+        "wizard-arcane-school"
+      ],
+      "value": [
+        "wizard"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You must be a wizard."
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "light": {
+          "rank": 1
+        },
+        "medium": {
+          "rank": 1
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "XLvnsl18aEdjknDT",
+  "img": "systems/pf2e/icons/spells/horrific-visage.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "06ee4a2ee640fb579c9c063759aa2828976c7160"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754913081108,
+    "modifiedTime": 1754913505315,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!XLvnsl18aEdjknDT"
+}

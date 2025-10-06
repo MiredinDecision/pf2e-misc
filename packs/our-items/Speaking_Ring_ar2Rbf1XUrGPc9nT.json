@@ -1,0 +1,102 @@
+{
+  "folder": "Vl6an7fxZR6xgyHf",
+  "name": "Speaking Ring",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This silver and platinum ring varies in size, and is usually sized to fit whomever will be wearing it, usually as a necklace or ring. It is covered in magical symbols and sigils of various kinds - fey, demon, and mortal magics.</p><p>When worn by a willing creature, they can use the effect of a 7th rank @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]{Truespeech} spell at any time on themselves. These items are usually crafted for a specific wearer, and are not typically able to be shared between multiple users.</p>"
+    },
+    "rules": [],
+    "slug": "speaking-ring",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "companion",
+        "magical"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 900
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "subitems": []
+  },
+  "_id": "ar2Rbf1XUrGPc9nT",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/taletellers-ring.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3365d0f760bf1698318110ba8064a73aa1bd851d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.ar2Rbf1XUrGPc9nT",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261092034,
+    "modifiedTime": 1728261092034,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!ar2Rbf1XUrGPc9nT"
+}

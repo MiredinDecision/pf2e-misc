@@ -1,0 +1,72 @@
+{
+  "folder": "r8Plx873Fv368892",
+  "name": "Omnidirectional Vision",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>While the ability to see as an ooze in the first place is already exceptional, you take it a step further, able to view things in all directions at once. You can't be flanked by a creature of your level or lower. However, they can still help their allies flank.</p>"
+    },
+    "rules": [],
+    "slug": "omnidirectional-vision",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3ebba62029ba26ae014698936fcdc5e73704bbb1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.WpiVDFBqIpyCnI6D",
+    "duplicateSource": "Item.Wk3Y1V2RexnRm32m",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "WpiVDFBqIpyCnI6D",
+  "_key": "!items!WpiVDFBqIpyCnI6D"
+}

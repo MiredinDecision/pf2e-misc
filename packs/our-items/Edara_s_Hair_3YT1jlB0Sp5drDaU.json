@@ -1,0 +1,108 @@
+{
+  "name": "Edara's Hair",
+  "type": "backpack",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Edara has placed special charms in her hair that allow her to store items within extradimensional space through it. This adds L Bulk to her hair.<br /><br />Her hair can hold up to four items of light Bulk, and Bulk held within her hair doesn't increase the Bulk of the hair itself. She can Interact with her hair to put items inside or remove items from it, and she can do so more easily than with a mundane container. It only takes a single Interact action to withdraw these items, like a worn item, rather than taking two Interact actions, like a stowed item.</p>"
+    },
+    "rules": [],
+    "slug": "edaras-hair",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "extradimensional",
+        "invested",
+        "magical"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1,
+      "heldOrStowed": 0.1,
+      "capacity": 1,
+      "ignored": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 45
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "tiny",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Container",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "collapsed": false,
+    "stowing": true,
+    "usage": {
+      "value": "wornheadwear"
+    }
+  },
+  "img": "modules/pf2e-relic-bloodglass/assets/BlackWig.webp",
+  "folder": "Vl6an7fxZR6xgyHf",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "68c8f1bb48c1b1b20fdfa75f2affe8b5b1d5b08f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Actor.d6ted2qf2jM7ZTc8.Item.DHPu0zYwKk3jnPID",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261092034,
+    "modifiedTime": 1728261092034,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "3YT1jlB0Sp5drDaU",
+  "sort": 0,
+  "_key": "!items!3YT1jlB0Sp5drDaU"
+}

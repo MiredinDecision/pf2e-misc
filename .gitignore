@@ -1,2 +1,6 @@
+backup
+dist
+node_modules
+foundryconfig.json
 module.zip
 pack

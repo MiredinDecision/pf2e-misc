@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Fix Sterling Dynamo",
+  "color": "#306030",
+  "sorting": "a",
+  "_id": "aL026zslGjZ8xiIK",
+  "description": "",
+  "sort": 2200000,
+  "flags": {
+    "scene-packer": {
+      "hash": "ab1157e45dc366cfb4c6d305ba323bfdddf54c48"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754484939528,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!aL026zslGjZ8xiIK"
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "2bwfn4iQbQ3ik2I0",
+  "name": "Effect: Twist Fate Triumph Reroll (Success)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollTwice",
+        "selector": "attack-roll",
+        "keep": "higher"
+      }
+    ],
+    "slug": "effect-twist-fate-triumph-reroll-success",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "4GVeTvwFY4MExFvp",
+  "img": "icons/magic/time/arrows-circling-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3fa28ec94d635a14ecacaee61d796373c8c421f2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758063568279,
+    "modifiedTime": 1758069480386,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!4GVeTvwFY4MExFvp"
+}

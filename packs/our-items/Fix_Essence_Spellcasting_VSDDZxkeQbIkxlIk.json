@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Fix Essence Spellcasting",
+  "color": "#306030",
+  "sorting": "a",
+  "_id": "VSDDZxkeQbIkxlIk",
+  "description": "",
+  "sort": 500000,
+  "flags": {
+    "scene-packer": {
+      "hash": "2c59e5e76e311a026fdececa66146e06e0b27cad"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757969615067,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!VSDDZxkeQbIkxlIk"
+}

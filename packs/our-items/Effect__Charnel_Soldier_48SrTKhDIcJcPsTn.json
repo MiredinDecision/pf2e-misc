@@ -1,0 +1,83 @@
+{
+  "folder": "8Rtp8bidWQPe5oTR",
+  "name": "Effect: Charnel Soldier",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The creature gains @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Reactive Strike}.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT"
+      }
+    ],
+    "slug": "effect-charnel-soldier",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.331",
+        "system": "6.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Heresy of the Whispering Way",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "542edf248a5191a01a6735ef1b4687c07a7ded50",
+      "sourceId": "Item.EWAvZmkrP9EKEunw"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726982467685,
+    "modifiedTime": 1726982500628,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "48SrTKhDIcJcPsTn",
+  "sort": 100000,
+  "_key": "!items!48SrTKhDIcJcPsTn"
+}

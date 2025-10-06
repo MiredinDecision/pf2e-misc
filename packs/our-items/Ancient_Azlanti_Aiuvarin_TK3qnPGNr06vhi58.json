@@ -1,0 +1,77 @@
+{
+  "folder": "vzeKp117sZuZHpWe",
+  "img": "systems/pf2e/icons/features/ancestry/twilight-halfling.webp",
+  "name": "Ancient Azlanti Aiuvarin",
+  "system": {
+    "ancestry": {
+      "name": "Elf",
+      "slug": "elf",
+      "uuid": "Compendium.pf2e.ancestries.Item.PgKmsA2aKdbLU6O0"
+    },
+    "description": {
+      "value": "<p>You or your ancestors were of the Azlant. You may have prominent brows, purple eyes, or a widow's peak. <span style=\"font-family:Roboto, sans-serif\">You can cast this spell as an arcane innate spell at will. A cantrip is heightened to a spell rank equal to half your level rounded up. You can change this cantrip to a different one from the same list once per day by meditating to draw on the power of your runic blood; this is a 10-minute activity that has the concentrate trait.</span></p><p></p><p>Choose a class other than your own. You gain the multiclass dedication feat for that class, even though you don't meet its level prerequisite. You must still meet its other prerequisites to gain the feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "choices": {
+          "filter": [
+            "item:category:class",
+            "item:trait:dedication",
+            "item:trait:multiclass"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "ancientElf",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.AncientElf.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.ancientElf}"
+      }
+    ],
+    "traits": {
+      "rarity": "unique",
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "ancient-azlanti-aiuvarin",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    }
+  },
+  "type": "heritage",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753907727130,
+    "modifiedTime": 1753907859762,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.heritages.Item.Nd9hdX8rdYyRozw8",
+      "hash": "c5f9ada0997885e05d704f9a3f15eebd66bdd3e5"
+    }
+  },
+  "_id": "TK3qnPGNr06vhi58",
+  "sort": 0,
+  "_key": "!items!TK3qnPGNr06vhi58"
+}

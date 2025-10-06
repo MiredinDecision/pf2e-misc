@@ -1,0 +1,67 @@
+{
+  "folder": "bdSPaUyZ2kcTsYsQ",
+  "name": "Agile Slime",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>While slimes are already faster than some other oozes, you movements are quick even comparred to other slimes. You Speed is 25 feet, instead of 20 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "land",
+        "value": 25
+      }
+    ],
+    "slug": "agile-slime",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Slime",
+      "slug": "slime",
+      "uuid": "Item.nLkKsGBpeT5mJLI6"
+    }
+  },
+  "_id": "y9jyHoIkPqJ7ilAy",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "08961b651599ab77928427384613cd420d8abb15"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.y9jyHoIkPqJ7ilAy",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!y9jyHoIkPqJ7ilAy"
+}

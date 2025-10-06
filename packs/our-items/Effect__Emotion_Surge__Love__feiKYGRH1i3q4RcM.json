@@ -1,0 +1,79 @@
+{
+  "folder": "W97p2gM1WjhYMQqa",
+  "name": "Effect: Emotion Surge (Love)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> emotion</p><p><strong>Frequency </strong>once per hour</p><p><strong>Activate </strong><span class=\"action-glyph\">1 </span>command</p><hr /><p><strong>Effect</strong> A surge of emotion emanates from your relic, granting a +1 status bonus to skill checks determined by the relic's emotion. This bonus lasts for 1 minute.<br /><strong>Love </strong>Medicine checks</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "medicine",
+        "value": 1,
+        "type": "status",
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "effect-emotion-surge-love",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "feiKYGRH1i3q4RcM",
+  "img": "icons/magic/life/heart-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ae6a0a0d564a427b9c72f0ac7ec6d34d67586b5a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729321145461,
+    "modifiedTime": 1729321242804,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!feiKYGRH1i3q4RcM"
+}

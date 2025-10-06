@@ -1,0 +1,74 @@
+{
+  "folder": "RjxhFSIqZS7vXlNJ",
+  "name": "Sifra's Gauntlet",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p><p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You use Spellstrike with a non-cantrip spell and miss with the Strike</p><p><strong>Effect</strong> An explosion of magical energy—stored up for the Spellstrike—explodes out. All creatures in a @Template[emanation|distance:5] take 1d4 damage per rank of the spell, with a @Check[reflex|against:spell|basic] save against your spell DC. This damage is the same type the spell would have dealt, and the activation gains that trait; if the spell would have dealt multiple types of damage, choose one of them. If the damage of the explosion is mental, the save is @Check[will|against:spell|basic] instead of Reflex.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "attack",
+        "text": "{item|description}",
+        "predicate": [
+          "feature:spellstrike"
+        ],
+        "outcome": [
+          "failure",
+          "criticalFailure"
+        ],
+        "title": "{item|name}"
+      }
+    ],
+    "slug": "sifras-gauntlet",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "AsRQ6mPL7tqj2Ia6",
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "606b347a7c936e04da0e4430fa75e003218fbd7c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1727452923245,
+    "modifiedTime": 1727453534616,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!AsRQ6mPL7tqj2Ia6"
+}

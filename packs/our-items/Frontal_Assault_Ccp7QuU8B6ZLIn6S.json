@@ -1,0 +1,141 @@
+{
+  "folder": "luyyhH3h1BUhrqq4",
+  "name": "Frontal Assault",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You command your allies to perform a full frontal assault.</p><p><strong>Effect</strong> Your aura grants you and your allies within the aura a +1 status bonus to damage rolls. When you or an ally in the aura critically hits an enemy with a Strike, that enemy is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}. If you're wielding a weapon that has more than one damage die (typically due to a striking rune), you can have the status bonus equal the weapon's number of damage dice instead of +1.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Battle Stratagem",
+        "mergeable": true,
+        "option": "battle-stratagem",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "frontal-assault"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "battle-stratagem:frontal-assault",
+              "combined-stratagem:frontal-assault"
+            ]
+          },
+          "item:slug:warlords-strategic-stance"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You command your allies to perform a full frontal assault."
+          },
+          {
+            "text": "**Effect** Your aura grants you and your allies within the aura a +1 status bonus to damage rolls, and a status bonus to spell damage equal to half the rank of the spell being cast. When you or an ally in the aura critically hits an enemy with a Strike, that enemy is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}. If you're wielding a weapon that has more than one damage die (typically due to a striking rune), you can have the status bonus equal the weapon's number of damage dice instead of +1."
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Combined Stratagem",
+        "mergeable": true,
+        "option": "combined-stratagem",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "frontal-assault"
+          }
+        ],
+        "predicate": [
+          {
+            "and": [
+              "feat:combined-strategems",
+              {
+                "not": "battle-stratagem:frontal-assault"
+              }
+            ]
+          }
+        ],
+        "toggleable": true
+      }
+    ],
+    "slug": "frontal-assault",
+    "traits": {
+      "otherTags": [
+        "warlord-battle-stratagem"
+      ],
+      "value": [
+        "stratagem",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/features/feats/dread-marshal-stance.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "125aee779ace2d09eee6c378880e303b7f0f0b61",
+      "sourceId": "Item.YC0egrmeeVjmDY9A"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755227390399,
+    "modifiedTime": 1755268386779,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "Ccp7QuU8B6ZLIn6S",
+  "sort": 300000,
+  "_key": "!items!Ccp7QuU8B6ZLIn6S"
+}

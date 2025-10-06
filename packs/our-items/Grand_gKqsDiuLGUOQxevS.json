@@ -1,0 +1,26 @@
+{
+  "name": "Grand",
+  "sorting": "a",
+  "folder": "6BFkVUDngtf8XkdK",
+  "type": "Item",
+  "_id": "gKqsDiuLGUOQxevS",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "88f856ff696cf8372146ee9fa14b760bda51b22f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!gKqsDiuLGUOQxevS"
+}

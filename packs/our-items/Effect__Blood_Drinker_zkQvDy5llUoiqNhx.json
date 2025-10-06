@@ -1,0 +1,154 @@
+{
+  "folder": "lX12WXvBxEBf2clb",
+  "name": "Effect: Blood Drinker",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.AzI0oONgsaK5kMr0]{Blood Drinker}</p><p>You Stride or Step to any square within reach of a creature, and then make a melee Strike against one creature within your reach. The weapon rips the life force from its target as it withdraws, dealing persistent bleed damage equal to the weapon's damage dice, adding in the bonus from Arcane Cascade if it is active. The target takes spirit damage instead of bleed damage if that would be more detrimental to the target (as determined by the GM).</p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You can use warp step to Burrow, Climb, Fly,</span> or Swim instead of Stride if you have the corresponding movement type.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": "@weapon.system.damage.dice",
+        "damageCategory": "persistent",
+        "damageType": "{item|flags.pf2e.rulesSelections.bloodDrinker}",
+        "slug": "blood-drinker-damage",
+        "predicate": [
+          "item:melee",
+          {
+            "or": [
+              "item:damage:type:slashing",
+              "item:damage:type:piercing"
+            ]
+          }
+        ],
+        "critical": false,
+        "hideIfDisabled": true,
+        "removeAfterRoll": "if-enabled"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "selector": "strike-damage",
+        "value": 1,
+        "slug": "blood-drinker-damage",
+        "predicate": [
+          "self:effect:arcane-cascade"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "selector": "strike-damage",
+        "value": 2,
+        "slug": "blood-drinker-damage",
+        "predicate": [
+          "self:effect:arcane-cascade",
+          "feature:weapon-specialization"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "selector": "strike-damage",
+        "value": 3,
+        "slug": "blood-drinker-damage",
+        "predicate": [
+          "self:effect:arcane-cascade",
+          "feature:greater-weapon-specialization"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "domain": "blood-drinker-damage",
+        "option": "blood-drinker",
+        "label": "Blood Drinker Damage",
+        "suboptions": [
+          {
+            "label": "Bleed",
+            "value": "bleed"
+          },
+          {
+            "label": "Spirit",
+            "value": "spirit"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "selectors": [
+          "strike-damage"
+        ],
+        "value": "spirit",
+        "predicate": [
+          "slug:blood-drinker"
+        ]
+      }
+    ],
+    "slug": "effect-blood-drinker",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 0,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "zkQvDy5llUoiqNhx",
+  "img": "systems/pf2e/icons/spells/blood-vendetta.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "620870c27e0b80fc745f2cff846b474756538c8d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1726859691096,
+    "modifiedTime": 1734029113043,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!zkQvDy5llUoiqNhx"
+}

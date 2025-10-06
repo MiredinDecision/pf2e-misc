@@ -1,0 +1,88 @@
+{
+  "folder": "gpt6w109KA6e7dPN",
+  "name": "Shadow Spell",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You embrace the shadow, allowing you to spellcast without making gestures or sounds. Attempt a Stealth check against the target's Perception DC. If you are successful, and your next action you use is to Cast a Spell with the Attack trait, the target of that spell is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to you.</p><p><strong>Critical Success</strong> You may teleport 10 feet after casting the spell. This causes the spell to gain the Move trait.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "eldritch-shadow",
+        "spellshape"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "fl6DOqx7yN1uptBm",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0402d621832167d0b33c22a4fc5e837677e34ea4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727116148210,
+    "modifiedTime": 1727116677176,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!fl6DOqx7yN1uptBm"
+}

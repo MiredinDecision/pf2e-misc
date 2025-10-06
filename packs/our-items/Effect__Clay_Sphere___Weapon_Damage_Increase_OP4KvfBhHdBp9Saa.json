@@ -1,0 +1,85 @@
+{
+  "img": "icons/commodities/materials/plant-sprout-seed-brown-green.webp",
+  "name": "Effect: Clay Sphere - Weapon Damage Increase",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.WuSXfv87YBSzqJ66]{Clay Sphere}, @UUID[Compendium.pf2e.equipment-srd.Item.OksiiEBiiGatAM9e]{Clay Sphere (Greater)}, @UUID[Compendium.pf2e.equipment-srd.Item.BdLtvg3zUKypgYdS]{Clay Sphere (Major)}</p>\n<p>Strikes with the affixed weapon have their damage dice increase by one step.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "dice:slug:base"
+        ],
+        "property": "dice-faces",
+        "selectors": [
+          "{actor|flags.pf2e.claySphere.weapon}-damage"
+        ]
+      }
+    ],
+    "slug": "effect-clay-sphere-weapon-damage-increase",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #202: Severed at the Root",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735368863520,
+    "modifiedTime": 1735368881237,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "zBjosOEtabVr4AS6",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.equipment-effects.Item.SMsTQhsPJ58WqPKy",
+      "hash": "885556a8053ac9ab82a415f6bc1426d16fa8b307"
+    }
+  },
+  "_id": "OP4KvfBhHdBp9Saa",
+  "sort": 0,
+  "_key": "!items!OP4KvfBhHdBp9Saa"
+}

@@ -1,0 +1,158 @@
+{
+  "folder": "1WNVlYELwanOx8zD",
+  "name": "Effect: Bloodglass Aegis",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.Vpulm7SOK6U030FJ]{Bloodglass Aegis}</p>\n<p>You summon an aegis made of deep violet bloodglass to keep you from harm.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield",
+        "predicate": [
+          {
+            "or": [
+              "self:type:character",
+              "self:type:npc"
+            ]
+          }
+        ],
+        "value": {
+          "ac": 1,
+          "broken": false,
+          "brokenThreshold": 0,
+          "destroyed": false,
+          "hp": {
+            "max": 0,
+            "value": 0
+          },
+          "icon": "modules/pf2e-relic-bloodglass/assets/Bloodglass.webp",
+          "itemId": "{item|_id}",
+          "name": "PF2E.ShieldLabel",
+          "raised": true
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield.hardness",
+        "predicate": [
+          {
+            "or": [
+              "self:type:character",
+              "self:type:npc"
+            ]
+          }
+        ],
+        "value": {
+          "brackets": [
+            {
+              "end": 2,
+              "value": 3
+            },
+            {
+              "end": 4,
+              "start": 3,
+              "value": 6
+            },
+            {
+              "end": 6,
+              "start": 5,
+              "value": 9
+            },
+            {
+              "end": 8,
+              "start": 7,
+              "value": 12
+            },
+            {
+              "start": 9,
+              "value": 15
+            }
+          ]
+        }
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "self:shield:equipped",
+        "predicate": [
+          {
+            "or": [
+              "self:type:character",
+              "self:type:npc"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "effect-bloodglass-aegis",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Bloodglass Relic Aspect",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "ALzvsHokvO5IQzfk",
+  "img": "modules/pf2e-relic-bloodglass/assets/Bloodglass.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "QFLiNY7buvtK8j4U": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fc8253a6a89f80bae602f6ff5b96207c70c8835b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.ALzvsHokvO5IQzfk",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261005149,
+    "modifiedTime": 1728261005149,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!ALzvsHokvO5IQzfk"
+}

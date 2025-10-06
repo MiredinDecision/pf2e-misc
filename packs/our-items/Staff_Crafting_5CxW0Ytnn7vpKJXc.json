@@ -1,0 +1,87 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Staff Crafting",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{Craft} magical staves. As an intuitive crafter, you use your Charisma modifierr to perform crafting checks instead of Intelligence.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "crafting",
+        "type": "ability",
+        "ability": "cha",
+        "force": true,
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "staff-crafting",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "expert in Crafting"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728173730939,
+    "modifiedTime": 1728173805429,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "jCvdnQTQRhu8Znow",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1",
+      "hash": "b68895dd91392292f04cf9d5f416a5091a9a47ba"
+    }
+  },
+  "_id": "5CxW0Ytnn7vpKJXc",
+  "sort": 0,
+  "_key": "!items!5CxW0Ytnn7vpKJXc"
+}

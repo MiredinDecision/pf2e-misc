@@ -1,0 +1,79 @@
+{
+  "folder": "4hmQZDDZK3g3WTXq",
+  "name": "Refracted Image",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong>bloodglass</p><p><strong>Frequency </strong>Once per 10 minutes.</p><p><strong>Prerequisistes </strong>The relic is a weapon.</p><p><strong>Activate </strong><span class=\"action-glyph\">2</span> <strong>(concentrate)</strong></p><hr /><p>Iúna creates a duplicate of itself with bloodglass, taking the shape of Edara to dance through the air to attack an enemy. When you Activate the relic, designate a target. The relic's duplicate flies up to 60 feet until it's adjacent to that foe and then makes a Strike against it, dealing @Damage[5d8[slashing]]{5d8 damage} on a success or double that on a critical success; the damage type is of any type normally dealt by your relic. The duplicate uses your attack bonus with the relic, and it uses and contributes to your multiple attack penalty. While this activation is in effect, you can use a single action, which has the attack and concentrate traits, to mentally direct the duplicate to make another Strike against the same target. The duplicate lasts until that target is reduced to 0 Hit Points, or that target moves more than 400 feet from you.</p>"
+    },
+    "rules": [],
+    "slug": "refracted-image",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.931,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Bloodglass Relic",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "_id": "xGy3EJ1IQxZHFRYL",
+  "img": "modules/pf2e-relic-bloodglass/assets/refracted_image.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "aea45e987bc89ec2f8b4060067e13e13700a8988"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.xGy3EJ1IQxZHFRYL",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261066116,
+    "modifiedTime": 1728261066116,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!xGy3EJ1IQxZHFRYL"
+}

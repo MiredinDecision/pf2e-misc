@@ -1,0 +1,113 @@
+{
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "name": "Demon (Old)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Demons are formed from the sins of fractious and malevolent souls, some would say destined to wallow in their sins and spread destruction and corruption for all eternity. But some demons escape the pull of that fate at great cost, expending most of their demonic power to write their own destinies. These renegade demons share many similarities to their Abyss-bound kin, but they have the potential to become great heroes and villains in their own right someday, able to challenge even the mightiest balors and win.</em></p><p><em>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-artwork.JournalEntry.tR9xf3lHmbIoTqMx.JournalEntryPage.dpvTi9PohT236SLg]{Demon Ancestry}</em></p>"
+    },
+    "rules": [],
+    "slug": "demon",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "demon",
+        "fiend",
+        "humanoid",
+        "nephilim"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common",
+        "chthonian"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "chthonian"
+      ],
+      "custom": ""
+    },
+    "items": {
+      "KnCjU": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.u4UmGuBzzqFA2778",
+        "img": "modules/pf2e-relic-bloodglass/assets/demonic-fey-wing.webp",
+        "name": "Innate Demonic Wings",
+        "level": 1
+      }
+    },
+    "vision": "darkvision"
+  },
+  "type": "ancestry",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743987413112,
+    "modifiedTime": 1755204669625,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "S6hh0iH0CsddGG63",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.ancestries.Item.IiG7DgeLWYrSNXuX",
+      "hash": "2b673a2f7576cca3c48618cd4da8e3b13fd69b61"
+    }
+  },
+  "_id": "FvluxodmwtaPdw8s",
+  "sort": 200000,
+  "_key": "!items!FvluxodmwtaPdw8s"
+}

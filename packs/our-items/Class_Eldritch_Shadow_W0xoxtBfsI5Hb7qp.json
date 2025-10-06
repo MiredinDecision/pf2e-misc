@@ -1,0 +1,27 @@
+{
+  "name": "Class Eldritch Shadow",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "W0xoxtBfsI5Hb7qp",
+  "description": "",
+  "sort": 5900000,
+  "color": "#101040",
+  "flags": {
+    "scene-packer": {
+      "hash": "b6ac1e7044aa3009c487c3dcfd4f6448ddb68340"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727057367878,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!W0xoxtBfsI5Hb7qp"
+}

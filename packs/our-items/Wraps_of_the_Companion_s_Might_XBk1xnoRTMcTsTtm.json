@@ -1,0 +1,107 @@
+{
+  "folder": "QgrC7Cg7bKqizy4a",
+  "name": "Wraps of the Companion's Might",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your animal companions limbs. These wraps can have precious material properties and weapon runes etched into them to give their unarmed attacks the benefits of those runes, making their unarmed attacks work like magic weapons. For example, <em>+1 striking wraps of the companion's might</em> would give them a +1 item bonus to attack rolls with their unarmed attacks and increase the damage of their unarmed attacks from one weapon die to two.</p><p>You can upgrade, add, and transfer runes to and from the wraps just as you would for a weapon, and you can attach talismans to the wraps. Treat the wraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver"
+      }
+    ],
+    "slug": "wraps-of-the-companions-might",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "companion",
+        "invested",
+        "magical"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "lg",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "subitems": []
+  },
+  "_id": "XBk1xnoRTMcTsTtm",
+  "img": "modules/pf2e-misc/assets/icons/SilverWraps.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1ca8a44671bc936f761a308ca4ade90ed4f3f3ae"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728421751261,
+    "modifiedTime": 1728421819637,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!XBk1xnoRTMcTsTtm"
+}

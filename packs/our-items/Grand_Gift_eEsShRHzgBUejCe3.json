@@ -1,0 +1,26 @@
+{
+  "name": "Grand Gift",
+  "sorting": "m",
+  "folder": "9ZyXQfxYWjnF3S8Y",
+  "type": "Item",
+  "_id": "eEsShRHzgBUejCe3",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "d9b389654f16887d43ffc09181a4017ed62e87be"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1729324465460,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "description": "",
+  "_key": "!folders!eEsShRHzgBUejCe3"
+}

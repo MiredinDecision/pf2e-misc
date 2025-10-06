@@ -1,0 +1,108 @@
+{
+  "folder": "W16vdggFMZ6kTsZq",
+  "name": "Wisdom of the Cosmos",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You follow the wisdom of the stars. You may use Wisdom instead of Intelligence for all Occultism rolls. At 3rd-level, your Occultism proficiency increases to Expert. At 7th-level, it increases to Master. At then at 15th level, it increases to Legendary.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.skills.occultism.rank",
+        "value": {
+          "brackets": [
+            {
+              "start": 3,
+              "end": 6,
+              "value": 2
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "value": 3
+            },
+            {
+              "start": 15,
+              "value": 4
+            }
+          ]
+        }
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "occultism",
+        "type": "ability",
+        "ability": "wis",
+        "force": true,
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "wisdom-of-the-cosmos",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "8xcc5Thlv4r6SeI1",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "eee44d5cd3664e6b5e8f99c6356675f3fcb10188"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753919276191,
+    "modifiedTime": 1753921129623,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!8xcc5Thlv4r6SeI1"
+}

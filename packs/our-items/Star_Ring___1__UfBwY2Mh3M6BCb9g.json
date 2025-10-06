@@ -1,0 +1,164 @@
+{
+  "folder": "mYd5F0YaLp5BawcZ",
+  "name": "Star Ring (+1)",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Access</strong> Knowledge of the Starknights</p><hr /><p>A ring usually made out of simple metals that were forged while under moonlight. This ring can be etched with Fundamenta Weapon Runes and Property Weapon Runes like a weapon. When invested the ring bestows all qualifying bound Regalia with the runes etched onto the ring. This cannot grant a weapon any more Property Runes than it could normally be etched with (For example, a +1 Weapon that already has a Property Rune cannot inherit any more Property Runes from a Star Ring). If the Regalia already has runes etched onto it (Such as a Specific Magic Weapon), then the Ring cannot bestow any runes into that Regalia.</p>"
+    },
+    "rules": [
+      {
+        "key": "WeaponPotency",
+        "label": "Weapon Potency",
+        "selector": "attack",
+        "predicate": [
+          "item:trait:regalia"
+        ],
+        "value": "@item.system.runes.potency"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "remove",
+        "property": "other-tags",
+        "value": "weapon"
+      }
+    ],
+    "slug": "star-ring",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical",
+        "occult"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 35
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worngloves"
+    },
+    "category": "unarmed",
+    "group": null,
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 0,
+      "die": null,
+      "damageType": "untyped",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "runes": {
+      "potency": 1,
+      "striking": 0,
+      "property": {
+        "0": ""
+      }
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_id": "UfBwY2Mh3M6BCb9g",
+  "img": "icons/equipment/finger/ring-cabochon-white-blue.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c7242fef2444747445b2e2ba5a6ef3c392ec8ef2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753929996033,
+    "modifiedTime": 1753931707278,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!UfBwY2Mh3M6BCb9g"
+}

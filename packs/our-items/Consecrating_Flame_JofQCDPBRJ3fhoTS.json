@@ -1,0 +1,137 @@
+{
+  "folder": "VDF8mAXAeTkQvgya",
+  "name": "Consecrating Flame",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You unleash a radiant fire that burns away the taint of undeath. Make a spell attack roll against the target's AC, dealing 2d6 fire damage and 1d4 persistent fire damage on a hit. If the target is undead, all fire damage becomes vitality if it would be more detrimental. On a critical hit, double the initial damage, but not the persistent damage.</p><hr /><p><strong>Heightened (+1) </strong>The initial damage increases by 2d6, and the persistent damage increases by 1.</p><p>@Damage[(1d4+@item.rank)[persistent,fire]]{Scaling Persistent Fire Damage}</p><p>@Damage[(1d4+@item.rank)[persistent,vitality]]{Scaling Persistent Vitality Damage}</p>"
+    },
+    "rules": [],
+    "slug": "consecrating-flame",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "fire",
+        "manipulate",
+        "vitality"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "Even More Magic!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "OtRytRgekxhkYL48": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "OtRytRgekxhkYL48": "2d6"
+      },
+      "area": 0
+    },
+    "overlays": {
+      "jjalZ2DTGPx8IvoW": {
+        "name": "Consecrating Flame (Fire)",
+        "system": {
+          "damage": {
+            "OtRytRgekxhkYL48": {
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "MXOy2bZYTbRLGMNB": {
+        "name": "Consecrating Flame (Vitality)",
+        "system": {
+          "damage": {
+            "OtRytRgekxhkYL48": {
+              "type": "vitality",
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 2,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "JofQCDPBRJ3fhoTS",
+  "img": "icons/magic/fire/flame-burning-embers-yellow.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "567a1bd62f1c399b4dc2d22654bf276861c70812"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758285845153,
+    "modifiedTime": 1758286068828,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!JofQCDPBRJ3fhoTS"
+}

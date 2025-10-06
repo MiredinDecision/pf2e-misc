@@ -1,0 +1,113 @@
+{
+  "img": "icons/magic/earth/orb-lava-ball-yellow.webp",
+  "name": "Effect: Eternal Torch",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.MRT8BGiIiVYfVcXh]{Eternal Torch}.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "alpha": 0.2,
+          "animation": {
+            "intensity": 1,
+            "speed": 1,
+            "type": "pulse"
+          },
+          "attenuation": 0.4,
+          "bright": {
+            "brackets": [
+              {
+                "value": 20
+              },
+              {
+                "start": 8,
+                "value": 60
+              }
+            ],
+            "field": "item|system.level.value"
+          },
+          "color": "#b00b69",
+          "dim": {
+            "brackets": [
+              {
+                "end": 7,
+                "value": 40
+              },
+              {
+                "start": 8,
+                "value": 120
+              }
+            ],
+            "field": "item|system.level.value"
+          },
+          "shadows": 0.2
+        }
+      }
+    ],
+    "slug": "effect-eternal-torch",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.spell-effects.Item.cVVZXNbV0nElVOPZ",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802818315,
+    "modifiedTime": 1726802818315,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "ynASxnyasGU4ydVK",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "978af8fe7c26a4467023b3090bac3e9195320f8c"
+    }
+  },
+  "_id": "aF8HeYyrq5Qkn25v",
+  "sort": 475000,
+  "_key": "!items!aF8HeYyrq5Qkn25v"
+}

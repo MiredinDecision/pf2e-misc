@@ -1,0 +1,87 @@
+{
+  "folder": "H4WNb48acr37vcsg",
+  "name": "Effect: Defender Formation",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.L1D0foRFA1MqkB7Z]{Defender Formation}</p><p>You assign a regalia to protect you. Choose one Regalia this Regalia does not gain the <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">@UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken}</span></span> condition but cannot be used until the start of your next turn. You @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield}, utilizing your Regalia as a shield. Your Regalia's AC bonus is +1. If the Regalia has the Parry trait, this bonus increases to +2. If the Regalia is a Shield, use the Regalia's innate AC bonus instead.</p><p><strong>Special</strong> If you have the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} feat, you can use the Shield Block reaction while your shield is raised this way. If your Regalia is a shield, utilize that shield's Hardness and HP to resolve the reaction. Otherwise, your Regalia have a Hardness of 1 + Your Wisdom Modifier (Minimum Hardness of 2). Regardless of what kind of Regalia is used, the Regalia gains Broken condition. Once Call Armiger is used, the Regalia also Regains any Hit Points lost as part of the Shield Block Reaction.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.shield.raised",
+        "predicate": [
+          "self:shield:equipped",
+          {
+            "nor": [
+              "self:shield:broken",
+              "self:shield:destroyed"
+            ]
+          }
+        ],
+        "value": true
+      }
+    ],
+    "slug": "effect-defender-formation",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "BCUPhrXJU1wtz5zn",
+  "img": "icons/magic/defensive/shield-barrier-flaming-diamond-blue-yellow.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f917104f469863fd6ac2b083a817652d4aead7b7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753932766340,
+    "modifiedTime": 1754004551934,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!BCUPhrXJU1wtz5zn"
+}

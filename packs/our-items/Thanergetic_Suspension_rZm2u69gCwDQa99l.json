@@ -1,0 +1,94 @@
+{
+  "folder": "3bDAMA5zTSvUJank",
+  "name": "Thanergetic Suspension",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your efforts to become thoroughly immersed in necromancy have also caused you to begin to take on some of the traits of the undead. <span style=\"font-family:Roboto, sans-serif\">You have the @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.TTCw5NusiSSkJU1x] ability, which means you are harmed by vitality damage and healed by void effects as if you were undead. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision.</span></p><p>In addition, your soul resists the call of true death. When rolling a failure or critical failure on a dying recovery check, your dying condition does not increase. This does not prevent death if you are brought to dying 4 through other means.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.hp.negativeHealing",
+        "value": true
+      }
+    ],
+    "slug": "thanergetic-energy",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Thanergetic Mage Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "senses": {
+        "low-light-vision": {},
+        "darkvision": {
+          "special": {
+            "ancestry": false,
+            "llv": true,
+            "second": false
+          }
+        }
+      }
+    }
+  },
+  "_id": "rZm2u69gCwDQa99l",
+  "img": "systems/pf2e/icons/spells/bind-undead.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b3395e9b7d01e4a5b5436945a6d32eebccfc4930"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726986468678,
+    "modifiedTime": 1726986971370,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!rZm2u69gCwDQa99l"
+}

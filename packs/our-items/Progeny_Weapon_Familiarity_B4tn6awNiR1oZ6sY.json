@@ -1,0 +1,87 @@
+{
+  "folder": "9suRKKutheR94voY",
+  "name": "Progeny Weapon Familiarity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've trained with the @UUID[Compendium.pf2e-tomb-guardian.tomb-guardian.Item.5wago8PGRGfn9LdZ]{Sword of the Tomb Guardian}, @UUID[Compendium.pf2e-tomb-guardian.tomb-guardian.Item.tAcyAIL7c1goMGNO]{Tomb Guardian Glaive}, and @UUID[Compendium.pf2e.equipment-srd.Item.2RrKSkj27NDREOKQ]{Gauntlet Buckler} your entire life. You gain access to these weapons, and have familiarity with them. <span style=\"font-family:Roboto, sans-serif\">For the purpose of proficiency, you treat them as a martial weapon.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "or": [
+              "item:slug:sword-of-the-tomb-guardian",
+              "item:slug:tomb-guardian-glaive"
+            ]
+          }
+        ],
+        "label": "PF2E.SpecificRule.MartialProficiency.TombGuardianWeapons",
+        "sameAs": "martial",
+        "slug": "tomb-guardian-weapons"
+      }
+    ],
+    "slug": "progeny-weapon-familiarity",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dhampir"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "B4tn6awNiR1oZ6sY",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cd80556b93e84ef744b3fd9ae0cce87ce8889e94"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.B4tn6awNiR1oZ6sY",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262224219,
+    "modifiedTime": 1728262224219,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!B4tn6awNiR1oZ6sY"
+}

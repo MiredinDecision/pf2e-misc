@@ -1,0 +1,126 @@
+{
+  "img": "modules/pf2e-archetype-winding-stream-dancer/assets/WindingStream.webp",
+  "name": "Stance: Winding Stream Dance",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.vlix0pDKMxTNYOJd]{Winding Stream Dance}.</p>\n<p>You gain a +1 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} and a +2 circumstance bonus to your Reflex DC when defending against checks to Trip you.</p>\n<p>As long as you are not wearing Heavy Armor and you are in this stance, you gain an extra +1 item bonus to your AC that adds to your @UUID[Compendium.pf2e.equipment-srd.Item.dDIPA1WE9ESF67EB]{Explorer's Clothing}, @UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{Mystic Armor}, @UUID[Compendium.pf2e.equipment-srd.Item.02q8s6sSicMkhs1l]{Bands of Force}, or any light or medium armor you are wearing, including armor potency runes.</p>\n<p> </p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "action:trip",
+              "action:shove"
+            ]
+          }
+        ],
+        "selector": "athletics",
+        "type": "circumstance",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "or": [
+              "action:trip",
+              "action:shove"
+            ]
+          }
+        ],
+        "selector": "reflex-dc",
+        "type": "circumstance",
+        "value": 2
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "value": 1,
+        "type": "item",
+        "property": "ac-bonus",
+        "itemType": "armor",
+        "predicate": [
+          {
+            "and": [
+              "armor:equipped",
+              {
+                "not": "armor:category:heavy"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "stance-winding-stream-dance",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Winding Stream Dancer Archetype",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "34104330ab05d97ce6727e461cabfaed3c422fce"
+    }
+  },
+  "effects": [],
+  "folder": "Oe3fdka7emIufGKo",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.95pvaVuNURzohFM5",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262028012,
+    "modifiedTime": 1728262028012,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "4gMqw7mI53Oe9aWm": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "95pvaVuNURzohFM5",
+  "sort": 0,
+  "_key": "!items!95pvaVuNURzohFM5"
+}

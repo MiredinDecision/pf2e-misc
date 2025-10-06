@@ -1,0 +1,92 @@
+{
+  "_id": "YV4cDlEAwFgzfIf6",
+  "img": "systems/pf2e/icons/spells/moonlight-ray.webp",
+  "name": "Effect: Nanite Surge",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.JS24EjgLYcHB9E3T]{Nanite Surge}.</p>\n<p>Your circuitry glows, lighting a @Template[emanation|distance:10] with dim light for 1 round.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "color": "#b94ba5",
+          "dim": 10,
+          "shadows": 0.2,
+          "bright": 0,
+          "animation": {
+            "type": "pulse"
+          },
+          "alpha": 0.4
+        }
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feat-effects.Item.pFo9DVyaDb4LdURY"
+      }
+    ],
+    "slug": "effect-nanite-surge",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Ancestry Guide",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feat-effects.Item.ErLweSmVAN57QIpp",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802837111,
+    "modifiedTime": 1726802837111,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "6dabcbaf928901b42abf56dcd5b583c59392a6e9"
+    }
+  },
+  "effects": [],
+  "folder": "RWeDlc7lFibE2E0I",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "_key": "!items!YV4cDlEAwFgzfIf6"
+}

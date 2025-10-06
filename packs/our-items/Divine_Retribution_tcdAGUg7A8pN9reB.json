@@ -1,0 +1,99 @@
+{
+  "folder": "pqnEEPBdR5pOn6Zw",
+  "name": "Divine Retribution",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> celestial</p><p><strong>Prerequisites</strong> The relic is a weapon.</p><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate)</p><hr /><p><strong>Effect</strong> Drawing upon divine fury, you single out a target that damaged you or an ally within the past round and fill your relic with divine vengeance against them. Make a Strike against that foe, dealing an additional damage die on a hit. If the target has the unholy trait, it's also @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the start of your next turn on a hit (or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} on a critical hit).</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "predicate": [
+          "melee",
+          "divine-retribution"
+        ],
+        "selector": "strike-damage",
+        "diceNumber": 1,
+        "hideIfDisabled": true
+      },
+      {
+        "domain": "damage",
+        "key": "RollOption",
+        "option": "divine-retribution",
+        "toggleable": true
+      },
+      {
+        "key": "Note",
+        "title": "{item|name}",
+        "selector": "strike-damage",
+        "text": "{item|description}",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "divine-retribution"
+        ]
+      }
+    ],
+    "slug": "divine-retribution",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "tcdAGUg7A8pN9reB",
+  "img": "systems/pf2e/icons/spells/divine-lance.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "603e0d3a2b2b9cc62284788619bd552480ae1bd8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735542554486,
+    "modifiedTime": 1735579425064,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!tcdAGUg7A8pN9reB"
+}

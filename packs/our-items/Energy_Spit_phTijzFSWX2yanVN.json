@@ -1,0 +1,97 @@
+{
+  "folder": "kcGTccKxWzbHSO81",
+  "name": "Energy Spit",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisites </strong>@UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.hOCC64ZOtr98SqAi]{Energy Slime}</p><hr /><p>You can spit or fling energy from your slime body to defeat your foes from a distance. You gain an energy spit unarmed attack, which deals 1d4 damage of the same type as your pseudopod (no ability modifier is added to the damage roll), with a range increment of 20 feet. Your energy spit attack is in the sling weapon group and has the magical trait. Like other unarmed attacks, you can improve this attack with @UUID[Compendium.pf2e.equipment-srd.Item.FNDq4NFSN0g2HKWO]{Handwraps of Mighty Blows}.</p>"
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "energySpit": true,
+        "img": "icons/magic/acid/projectile-glowing-bubbles.webp",
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "sling",
+        "range": {
+          "increment": 20
+        },
+        "traits": [
+          "magical"
+        ]
+      }
+    ],
+    "slug": "energy-spit",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Energy Slime"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "phTijzFSWX2yanVN",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "761f6527a620cd11007f3aab9a5fa98952a4f7f1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.phTijzFSWX2yanVN",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!phTijzFSWX2yanVN"
+}

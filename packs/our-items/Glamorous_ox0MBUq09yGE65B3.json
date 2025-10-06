@@ -1,0 +1,114 @@
+{
+  "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+  "name": "Glamorous",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>While raised, a glamorous shield grants you a +1 item bonus to Deception checks to Feint.</p><p class=\"hang\"><span class=\"action-glyph\"><strong>f </strong></span><strong>Activate</strong> envision; <strong>Frequency</strong> once per day; <strong>Trigger</strong> You Feint; <strong>Requirements</strong> You have the glamorous shield raised; <strong>Effect</strong> As you Feint, the glamorous shield sparkles mightily. On a successful Feint, the target is dazzled for 1 round.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "deception",
+        "value": 1,
+        "predicate": [
+          "@actor.attributes.shield.raised",
+          "action:feint"
+        ],
+        "type": "item"
+      }
+    ],
+    "slug": "glamorous",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "illusion",
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 30
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "etched-onto-a-shield"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.x9SNVpAAnXKJeoqp",
+    "duplicateSource": "Item.ArfYnfySO7Ip5gBB",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802854338,
+    "modifiedTime": 1728608097096,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "fbcfb5e65dda82a1fdb85da528d6fc0d9587d0e8"
+    }
+  },
+  "effects": [],
+  "folder": "C8FM2NLdJOZKd8tA",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "_id": "ox0MBUq09yGE65B3",
+  "sort": 100000,
+  "_key": "!items!ox0MBUq09yGE65B3"
+}

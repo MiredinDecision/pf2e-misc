@@ -1,0 +1,96 @@
+{
+  "folder": "kTte2aNgtADum8Ij",
+  "name": "Lost Knight",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You were a knight of the Lunar order in Ancient Azlant, and were present at Earthfall. Now, you're somehow in the present - lost, and alone. You're looking for a new purpose, and a new home.</p><p>Choose two attribute boosts. One must be to <strong>Wisdom</strong> or <strong>Strength</strong>, and one is a free attribute boost.</p><p>You're trained in the Medicine skill, and the Azlanti and Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Battle Medicine} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "lost-and-alone",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.347",
+        "system": "7.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "str",
+          "wis"
+        ],
+        "selected": "wis"
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ],
+        "selected": "cha"
+      }
+    },
+    "items": {
+      "oeDOR": {
+        "uuid": "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt",
+        "img": "icons/sundries/books/book-red-exclamation.webp",
+        "name": "Battle Medicine",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "medicine"
+      ],
+      "lore": [
+        "Azlanti Lore",
+        "Warfare Lore"
+      ]
+    }
+  },
+  "img": "modules/pf2e-misc/assets/icons/radiant-prism-acavna2.webp",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "533a2357b5879dce9dff1950552a3764f67c40d9",
+      "sourceId": "Actor.jGtwaBTkIzrE2wft.Item.UdZOIa3nzeuKg32h"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.0",
+    "createdTime": 1755615533887,
+    "modifiedTime": 1755615543130,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "TrFYOGdAM6ce8VPs",
+  "sort": 0,
+  "_key": "!items!TrFYOGdAM6ce8VPs"
+}

@@ -1,0 +1,310 @@
+{
+  "img": "modules/pf2e-tomb-guardian/assets/tomb-guardian-sword.webp",
+  "name": "Ró Sálna, the Unbound Heart",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Ró Sálna, the Unbound Heart</em> was lovingly crafted by Christobel to protect and empower their daughter to make her own path in life, and has been steadily maintained and improved by Sifra and Harwen over time. It is crafted out of a special and rare material known only as soulsteel - a dark, nearly black metal with veins of silver - that is difficult to work due to its more volatile properties. Due to the efforts of her loved ones and Stithi, it has been partially alloyed with a sacred, secret alloy that makes the blade count as both cold iron and silver. If you're unholy, you're @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} while holding <em>Ró Sálna</em>. You can't recover from this condition while holding the weapon.</p><p>This sword automatically grants a success on any effects that attempt to inflict the controlled condition or attempt to influence the actions (such as charm, command, or a nosoi's haunting melody) of its wielder if they would roll anything less than a success.</p><hr /><p><strong>Activate - Shatter Fetters</strong> <span class=\"action-glyph\">f </span>(concentrate, divine)</p><p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Trigger</strong> An enemy the wielder can see uses an ability or spell that would restrict or enforce specific actions on their allies.</p><p><strong>Effect</strong> The weapon attempts to counteract the ability or spell as if it were the same rank as the triggering effect (needing only a success compared to the DC of the triggering effect) with a modifier equal to the wielder's Spell DC or Class DC -10, whichever is higher.</p><hr /><p><strong>Activate - Holy Retribution</strong> <span class=\"action-glyph\">f</span> (concentrate, divine)</p><p><strong>Trigger</strong> Your previous action was to use <em>Ró Sálna</em> to Strike a foe you have witnessed use a compulsion or control effect on an ally within the past hour.</p><p><strong>Frequency</strong> once per hour</p><p><strong>Effect</strong> your blow is empowered by the righteousness of @UUID[Compendium.pf2e.deities.Item.fTJLgTfEMZreJ19r]{Milani}. The target's holy weakness is triggered again or, if the target doesn't have a holy weakness, it takes @Damage[15[spirit]] damage.</p><hr /><p><strong>Clean - </strong>Remains pristine despite filth</p><p><strong>Chilled - </strong>Slightly cool to the touch.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Soulsteel",
+        "slug": "soulsteel-damage",
+        "selector": "{item|_id}-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "target:trait:incorporeal"
+        ],
+        "property": "property-runes",
+        "value": "ghost-touch"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": {
+          "brackets": [
+            {
+              "start": 6,
+              "end": 13,
+              "value": "astral"
+            },
+            {
+              "start": 14,
+              "value": "greater-astral"
+            }
+          ]
+        }
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|_id}-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "dice:slug:greater-astral",
+              "dice:slug:astral"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "upgrade",
+        "property": "dice-faces",
+        "value": 8
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver"
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "cold-iron"
+      },
+      {
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 2
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "predicate": [
+          "self:trait:unholy"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR",
+        "allowDuplicate": false
+      },
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "inflicts:controlled"
+        ],
+        "selector": "saving-throw",
+        "adjustment": {
+          "criticalFailure": "to-success",
+          "failure": "to-success"
+        }
+      }
+    ],
+    "slug": "scarlet-blade-sword",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "magical",
+        "mythic",
+        "resonant",
+        "soulsteel",
+        "two-hand-d12"
+      ],
+      "rarity": "unique",
+      "toggles": {
+        "versatile": {
+          "selected": null
+        }
+      }
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "quantity": 1,
+    "baseItem": "scarlet-blade",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 8244,
+        "pp": 0,
+        "sp": 0,
+        "cp": 0
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Bastard Sword",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this bastard sword is unclear."
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "advanced",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 3,
+      "striking": 2,
+      "property": [
+        "holy",
+        "conducting",
+        "greaterFlaming"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 3,
+        "striking": 2,
+        "property": [
+          "holy",
+          "conducting",
+          "greaterFlaming"
+        ]
+      }
+    },
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757643804910,
+    "modifiedTime": 1757643805213,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "29d5d5a933fe8741c2ba8ffe4d7a9a512a3fa856",
+      "sourceId": "Actor.Sk0x5dGjX1LuSDjq.Item.n38iig05RNTRlBUb"
+    }
+  },
+  "effects": [],
+  "folder": "K2E98FJTqNioJF80",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "7dAl5eFtWgFrM0D9",
+  "sort": 200000,
+  "_key": "!items!7dAl5eFtWgFrM0D9"
+}

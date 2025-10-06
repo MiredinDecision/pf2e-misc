@@ -1,0 +1,106 @@
+{
+  "folder": "S6hh0iH0CsddGG63",
+  "name": "Demonic Fortitude",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your body is tougher than a mortal's, causing you to gain 1 additional Hit Point per level. However, as a renegade demon, you can be easily harmed by good damage or corrupted by evil damage. Regardless of your alignment, you can take both evil and good damage, and you gain weakness to both damage types equal to half your level (minimum 1).</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "hp",
+        "value": "@actor.level"
+      },
+      {
+        "key": "Weakness",
+        "type": [
+          "unholy",
+          "holy"
+        ],
+        "value": "max(1,floor(@actor.level/2))",
+        "predicate": [
+          {
+            "not": "feat:purge-corruption"
+          }
+        ]
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "unholy"
+        ]
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/spells/daemonic-pact.webp",
+  "ownership": {
+    "default": 0,
+    "W75cDAmGcgt3X6Rq": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-features.Item.tYFTeg3DsDCZOsA4",
+      "hash": "c761b703cb64cd62abff65afcf68515544b845b7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1744313321269,
+    "modifiedTime": 1755204669625,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "ZPGuFavb6XcmfV3l",
+  "sort": 500000,
+  "_key": "!items!ZPGuFavb6XcmfV3l"
+}

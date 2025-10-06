@@ -1,0 +1,110 @@
+{
+  "folder": "eOJsgiwwcsb79hE6",
+  "name": "Aura: Cloak of Darkness",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You surround yourself in darkness that restores the undead and rebuffs the living. You become surrounded in shadow in a 30-foot radius. Undead creatures or those with void healing that begin their turn adjacent to you recover 4d6 Hit Points. Living creatures that do not have void healing that begin their turn adjacent to you take 4d6 void damage (basic Fortitude save).</p><hr /><p><strong>Heightened (+2)</strong> The healing increases by 2d6, and the damage to the living increases by 2d6.</p>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "traits": [
+          "healing",
+          "shadow",
+          "void"
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.j6Sp7AgUA2d64oPg"
+          }
+        ]
+      },
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 0,
+          "bright": 0,
+          "animation": {
+            "type": "smokepatch"
+          },
+          "shadows": 1
+        }
+      },
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 30,
+          "bright": 30,
+          "animation": {
+            "type": "smokepatch"
+          },
+          "color": "#371515",
+          "saturation": -0.3,
+          "coloration": 10,
+          "alpha": 0.55
+        }
+      }
+    ],
+    "slug": "aura-cloak-of-darkness",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": true
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "kGsHvjQPeeAT1Rjk",
+  "img": "modules/pf2e-misc/assets/icons/CloakofShadows.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d9b83bf45519ab12e4e0798c6d6ba941432922fe"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.1",
+    "createdTime": 1732673108169,
+    "modifiedTime": 1754328937761,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!kGsHvjQPeeAT1Rjk"
+}

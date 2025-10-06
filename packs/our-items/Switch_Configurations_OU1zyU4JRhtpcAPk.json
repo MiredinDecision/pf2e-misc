@@ -1,0 +1,62 @@
+{
+  "folder": "ItGpHpjDkgTxIqAz",
+  "name": "Switch Configurations",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You <span class=\"action-glyph\">1</span> Interact with your Sterling Dynamo to change between your initial configuration and the one you chose with @UUID[Compendium.pf2e-misc.our-items.Item.br6JeGN0balZZ7cE]{Modular Dynamo}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "switch-configurations",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "manipulate"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "_id": "OU1zyU4JRhtpcAPk",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "181d7dbc894be5a9492e4cc703119b5c9453d16d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754485021745,
+    "modifiedTime": 1754485159860,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!OU1zyU4JRhtpcAPk"
+}

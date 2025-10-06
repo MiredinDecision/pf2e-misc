@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Thematic Spells",
+  "color": null,
+  "sorting": "a",
+  "_id": "ncPjL5Dq7W74zgu1",
+  "description": "",
+  "sort": 800000,
+  "flags": {
+    "scene-packer": {
+      "hash": "df852bd0a85c06cc42878092f023a4dface8b738"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757986947739,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!ncPjL5Dq7W74zgu1"
+}

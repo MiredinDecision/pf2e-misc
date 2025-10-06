@@ -1,0 +1,66 @@
+{
+  "type": "action",
+  "name": "Cunning Recall",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> once per minute</p><p><strong>Requirements</strong> On your previous action this turn, you used this weapon to hit and damage a creature that has blood or other vital fluids</p><hr /><p><strong>Effect</strong> You learn the secrets the weapon gleaned from the creature's blood. Attempt to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about the target of the required attack, gaining an item bonus to the Recall Knowledge skill check equal to the weapon's item bonus to attack rolls from its potency rune.</p><p>If the required attack was a critical hit, you also gain a +2 circumstance bonus to this check.</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "oPiU0MUTciVVmi1P",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6c5212a0fcb4e7b256211000d2f698f10a033123",
+      "sourceId": "Item.WSXafvI8UKZCaNEp"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728405411987,
+    "modifiedTime": 1742099337203,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "D07ti3La4yYM7aHs",
+  "sort": 100000,
+  "_key": "!items!D07ti3La4yYM7aHs"
+}

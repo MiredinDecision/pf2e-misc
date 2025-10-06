@@ -1,0 +1,96 @@
+{
+  "name": "Non-Lethal Spells",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You can make a nonlethal spell attack to knock someone out instead of killing them (see Knocked Out and Dying on page 410). Spells with the nonlethal trait (including fists) do this automatically. You take a –2 circumstance penalty to the spell attack roll when you make a nonlethal attack using a spell that doesn’t have the nonlethal trait. Spells and other effects with the nonlethal trait that reduce a creature to 0 Hit Points knock the creature out instead of killing them.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "placement": "spellcasting",
+        "option": "nonlethal-spell",
+        "toggleable": true,
+        "value": false,
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Non-lethal Spell",
+        "selector": "spell-attack",
+        "value": -2,
+        "type": "circumstance",
+        "predicate": [
+          "nonlethal-spell"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "Note",
+        "selector": "spell-attack",
+        "text": "{item|description}",
+        "title": "{item|name}",
+        "predicate": [
+          "nonlethal-spell"
+        ]
+      }
+    ],
+    "slug": "non-lethal-spells",
+    "_migration": {
+      "version": 0.933,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "nonlethal"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+  "folder": "nCxCUDcD7jmHI140",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e99ac4a73377a7fab525a96a350ae52172e7f38a",
+      "sourceId": "Item.ptZRUHN29CWmBETw"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.5.0",
+    "createdTime": 1730046468950,
+    "modifiedTime": 1730046604844,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "cov2vNrqJiOktWa5",
+  "sort": 0,
+  "_key": "!items!cov2vNrqJiOktWa5"
+}

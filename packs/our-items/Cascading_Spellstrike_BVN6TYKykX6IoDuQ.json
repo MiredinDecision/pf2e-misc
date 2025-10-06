@@ -1,0 +1,66 @@
+{
+  "folder": "RjxhFSIqZS7vXlNJ",
+  "name": "Cascading Spellstrike",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You enter @UUID[Compendium.pf2e.actionspf2e.Item.HbejhIywqIufrmVM]{Arcane Cascade}, and make a @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]{Spellstrike}. Your Arcane Cascade's damage type becomes that of your weapon.</p>"
+    },
+    "rules": [],
+    "slug": "cascading-spellstrike",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus"
+      ]
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e.feat-effects.Item.fsjO5oTKttsbpaKl",
+      "name": "Stance: Arcane Cascade"
+    }
+  },
+  "_id": "BVN6TYKykX6IoDuQ",
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "52d71c3f6d58fb2888c7f142ca0bba99a8159da5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1727785471586,
+    "modifiedTime": 1727785723068,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!BVN6TYKykX6IoDuQ"
+}

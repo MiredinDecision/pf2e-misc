@@ -1,0 +1,27 @@
+{
+  "name": "Class Animist",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "tJ4FAl96lqicFTlP",
+  "description": "",
+  "sort": 6300000,
+  "color": "#101040",
+  "flags": {
+    "scene-packer": {
+      "hash": "093eaf12e3a10dab19db0b0a61cc29fea49cae38"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726812078872,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!tJ4FAl96lqicFTlP"
+}

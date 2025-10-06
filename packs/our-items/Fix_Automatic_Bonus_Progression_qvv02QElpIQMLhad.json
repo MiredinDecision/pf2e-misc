@@ -1,0 +1,27 @@
+{
+  "name": "Fix Automatic Bonus Progression",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "qvv02QElpIQMLhad",
+  "description": "",
+  "sort": 3900000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "431ccab2bd8d05d90bccc6ebe84a97170e55280d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728081109382,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!qvv02QElpIQMLhad"
+}

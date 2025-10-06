@@ -1,0 +1,474 @@
+{
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "name": "Scarlet Blade",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Combining the physicality and technique of a warrior with the ability to cast arcane magic, you seek to perfect the art of fusing spell and strike. While the hefty tome you carry reflects hours conducting arcane research, your enemies need no reminder of your training. They recognize it as you take them down.</em></p><p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.YVoyzV9v4QyP2UIC]{Magus}</em></p><p><em>You are an emissary of a deity, a devoted servant who has taken up a weighty mantle, and you adhere to a code that holds you apart from those around you. While champions exist for every alignment, as a champion of good, you provide certainty and hope to the innocent. You have powerful defenses that you share freely with your allies and innocent bystanders, as well as holy power you use to end the threat of evil. Your devotion even attracts the attention of holy spirits who aid you on your journey.</em></p><p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.rebppVgBVi8J6TT2]{Champion}</em></p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:champion",
+        "priority": 0
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:magus",
+        "priority": 0
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "str"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "dex"
+          }
+        ],
+        "flag": "attribute",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore",
+        "selection": "dex"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.champion.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attribute}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.magus.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attribute}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.champion.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.magus.rank",
+        "value": 1
+      }
+    ],
+    "slug": "magus",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.8.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "str"
+      ]
+    },
+    "items": {
+      "1j1yR": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.09iL38CZZEa0q0Mt",
+        "img": "systems/pf2e/icons/features/classes/arcane-cascade.webp",
+        "name": "Arcane Cascade",
+        "level": 1
+      },
+      "eJN3L": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.FkbFgmoVz5lHhSMo",
+        "img": "systems/pf2e/icons/features/classes/conflux-spells.webp",
+        "name": "Conflux Spells",
+        "level": 1
+      },
+      "dx3PZ": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.ehL7mnkqxN5wIkgu",
+        "img": "systems/pf2e/icons/features/classes/deity.webp",
+        "name": "Deity (Champion)",
+        "level": 1
+      },
+      "VIoKQ": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Q1VfQZp49hkhY0HY",
+        "img": "icons/magic/light/explosion-star-glow-orange.webp",
+        "name": "Devotion Spells",
+        "level": 1
+      },
+      "8NmUl": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.pSxR2ITkJG1Jgd6w",
+        "img": "icons/sundries/books/book-symbol-hexagram-silver-red.webp",
+        "name": "Scarlet Blade Spellcasting",
+        "level": 1
+      },
+      "k41h0": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.dsqmJu41o2K1Un1a",
+        "img": "systems/pf2e/icons/spells/sanguine-mist.webp",
+        "name": "Scarlet Study",
+        "level": 1
+      },
+      "R9hRs": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH",
+        "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+        "name": "Shield Block",
+        "level": 1
+      },
+      "RYzCX": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.Ai8xMasvHpLIjY6I",
+        "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+        "name": "Spell Repertoire (Scarlet Blade)",
+        "level": 1
+      },
+      "8Hx39": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.XhLB1GF6s2UKlT0c",
+        "img": "modules/pf2e-tomb-guardian/assets/GuardianIcon.webp",
+        "name": "The Blade's Burden",
+        "level": 1
+      },
+      "BOj3m": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.sgG1hV4sxnwoMfxB",
+        "img": "systems/pf2e/icons/features/classes/divine-ally.webp",
+        "name": "Blessing of the Devoted",
+        "level": 3
+      },
+      "KKSCq": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.Y6jh1iihpYcXZVog",
+        "img": "systems/pf2e/icons/features/classes/unlimited-signature-spells.webp",
+        "name": "Unlimited Signature Spells",
+        "level": 3
+      },
+      "s3iD5": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 5
+      },
+      "5Wj6c": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HYkEGWyEZ6oOvc4P",
+        "img": "icons/skills/melee/strike-sword-blood-red.webp",
+        "name": "Scarlet Savvy",
+        "level": 5
+      },
+      "fBPEy": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.x5jaCJxsmD5sx3KB",
+        "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
+        "name": "Armor Expertise",
+        "level": 7
+      },
+      "1kxcv": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.tmuuD0hyYR2NBVsM",
+        "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+        "name": "Studious Repertoire (Scarlet Blade)",
+        "level": 7
+      },
+      "2sTL2": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 7
+      },
+      "2p0l9": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.D8CSi8c9XiRpVc5M",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Alertness",
+        "level": 9
+      },
+      "AxM8I": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.VgmfNKtQLgBaNi5r",
+        "img": "icons/magic/holy/prayer-hands-glowing-yellow-white.webp",
+        "name": "Champion Expertise",
+        "level": 9
+      },
+      "TXjOp": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.3XK573A7GH1rrLgO",
+        "img": "icons/skills/melee/strike-sword-dagger-runes-yellow.webp",
+        "name": "Relentless Reaction",
+        "level": 9
+      },
+      "wfyp9": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.AkIJrmsX3kjHqQ0b",
+        "img": "icons/magic/holy/angel-wings-gray.webp",
+        "name": "Sacred Body",
+        "level": 9
+      },
+      "bVaYv": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.zbz2KtuFY82g0Zbm",
+        "img": "icons/commodities/gems/pearl-red-oval.webp",
+        "name": "Scarlet Blade Expertise",
+        "level": 9
+      },
+      "g82uc": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.xygfZopqXBJ6dKBA",
+        "img": "icons/magic/holy/angel-winged-humanoid-blue.webp",
+        "name": "Divine Will",
+        "level": 11
+      },
+      "xmfLn": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.uptzvOLrZ3fctrl2",
+        "img": "icons/skills/melee/swords-parry-block-yellow.webp",
+        "name": "Exalted Reaction",
+        "level": 11
+      },
+      "p8NrL": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Perception Expertise",
+        "level": 11
+      },
+      "GYsmR": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.CGB1TczFhQhdQxml",
+        "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
+        "name": "Armor Mastery",
+        "level": 13
+      },
+      "AztCB": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.ejP4jVQkS48uKRFz",
+        "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+        "name": "Weapon Mastery",
+        "level": 13
+      },
+      "5582F": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Greater Weapon Specialization",
+        "level": 15
+      },
+      "34lin": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.z5G0o04uV65zyxDB",
+        "img": "icons/magic/nature/symbol-sun-yellow.webp",
+        "name": "Champion Mastery",
+        "level": 17
+      },
+      "9WTPf": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.voiSCh7ZXA2ogwiC",
+        "img": "icons/equipment/head/greathelm-banded-steel.webp",
+        "name": "Legendary Armor",
+        "level": 17
+      },
+      "OcIdE": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.EFoSsL6X5gJq8ywE",
+        "img": "icons/commodities/gems/pearl-red-gold.webp",
+        "name": "Scarlet Blade Mastery",
+        "level": 17
+      },
+      "IvJ8f": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.VmPIJomEdmgGrCMS",
+        "img": "icons/skills/melee/blade-tips-double-blue.webp",
+        "name": "Double Spellstrike",
+        "level": 19
+      },
+      "Am48N": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.LzB6X9vOaq3wq1FZ",
+        "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+        "name": "Hero's Defiance",
+        "level": 19
+      },
+      "EPEDl": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.D4k8wuq1ncHFCBZz",
+        "img": "icons/sundries/flags/banner-symbol-sun-gold-red.webp",
+        "name": "Cause",
+        "level": 1
+      },
+      "RXUyD": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HWNvRM0c5cZrwM8v",
+        "img": "systems/pf2e/icons/spells/enduring-might.webp",
+        "name": "Dual Class Attribute",
+        "level": 1
+      },
+      "smt6Z": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.kgrQCViRItLzYy7V",
+        "img": "icons/magic/light/explosion-star-small-pink.webp",
+        "name": "Skill Potency (Level 03)",
+        "level": 3
+      },
+      "mCMfn": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.dGwAtujXd9IPW4Cx",
+        "img": "icons/magic/light/explosion-star-small-pink.webp",
+        "name": "Skill Potency (Level 06)",
+        "level": 6
+      },
+      "YMnAw": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.B1VtO2fmO045FuDQ",
+        "img": "icons/magic/light/explosion-star-small-pink.webp",
+        "name": "Skill Potency (Level 09)",
+        "level": 9
+      },
+      "DjRiT": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.qKJuIknB73ginvxc",
+        "img": "icons/magic/light/explosion-star-small-pink.webp",
+        "name": "Skill Potency (Level 13)",
+        "level": 13
+      },
+      "nE6I3": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.G39CwDuTkkKQNL73",
+        "img": "icons/magic/light/explosion-star-small-pink.webp",
+        "name": "Skill Potency (Level 15)",
+        "level": 15
+      },
+      "xqjq9": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.8jY0WyNfndJBQ6V4",
+        "img": "icons/magic/light/explosion-star-small-pink.webp",
+        "name": "Skill Potency (Level 17)",
+        "level": 17
+      },
+      "HTddZ": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.B9aAh5M5fboinqk7",
+        "img": "icons/magic/light/explosion-star-small-pink.webp",
+        "name": "Skill Potency (Level 20)",
+        "level": 20
+      },
+      "Ni2OS": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.CjCErdzrCrb3BpfY",
+        "img": "systems/pf2e/icons/features/classes/spellstrike.webp",
+        "name": "Spellstrike",
+        "level": 1
+      },
+      "Xo8Y5": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.gxKarARVjqHKSKXd",
+        "img": "icons/magic/death/mouth-bite-fangs-vampire.webp",
+        "name": "Sanguimancy",
+        "level": 7
+      },
+      "4fFMo": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.eVmofTNqW9FtOquH",
+        "img": "icons/magic/symbols/rune-sigil-hook-white-red.webp",
+        "name": "Scarlet Stamina",
+        "level": 11
+      }
+    },
+    "hp": 10,
+    "trainedSkills": {
+      "value": [
+        "arcana",
+        "religion"
+      ],
+      "additional": 2
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 1
+    },
+    "spellcasting": 1,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "img": "systems/pf2e/icons/classes/magus.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "774bd86cd23c280be48c1a270f1112581dd23881",
+      "sourceId": "Item.0r5akcyzvQUC0HV4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1735633457683,
+    "modifiedTime": 1758047472620,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "rpi5qkIE9bnNP1bp",
+  "sort": 2500000,
+  "_key": "!items!rpi5qkIE9bnNP1bp"
+}

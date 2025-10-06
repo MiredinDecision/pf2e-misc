@@ -1,0 +1,83 @@
+{
+  "folder": "pX8XxlOtO9Rv6hl5",
+  "name": "Slimy Grappler",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can use every part of your slimy body to grapple your foes. You become trained in Athletics, or another skill of your choice if you're already trained in Athletics, your pseudopod unarmed attacks gain the grapple trait, and you can Grapple creatures even if you don't have a free hand by absorbing them partially into any part of your body.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "add",
+        "predicate": [
+          "item:slug:pseudopod"
+        ],
+        "property": "traits",
+        "value": "grapple"
+      }
+    ],
+    "slug": "slimy-grappler",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Q0eNKnUBra9z83pQ",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "966a087742549966183e85246892958b1c6ee231"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.Q0eNKnUBra9z83pQ",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!Q0eNKnUBra9z83pQ"
+}

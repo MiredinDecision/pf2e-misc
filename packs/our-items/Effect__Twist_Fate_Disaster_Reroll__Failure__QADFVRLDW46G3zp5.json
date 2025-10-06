@@ -1,0 +1,79 @@
+{
+  "folder": "2bwfn4iQbQ3ik2I0",
+  "name": "Effect: Twist Fate Disaster Reroll (Failure)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollTwice",
+        "selector": "attack-roll",
+        "keep": "lower"
+      }
+    ],
+    "slug": "effect-twist-fate-disaster-reroll-failure",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/magic/time/arrows-circling-pink.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "e7daa9dcedb7f5c0ea9df913e2dd1db112e6a299",
+      "sourceId": "Item.vX4gtWUXYEasn2cS"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758063839579,
+    "modifiedTime": 1758069474661,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "QADFVRLDW46G3zp5",
+  "sort": 0,
+  "_key": "!items!QADFVRLDW46G3zp5"
+}

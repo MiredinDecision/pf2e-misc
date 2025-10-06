@@ -1,0 +1,64 @@
+{
+  "folder": "vwTY8po3W2KFpiPT",
+  "name": "Holy Healing",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Activate—Holy Healing</strong> <span class=\"action-glyph\">R</span> (concentrate, healing, vitality)</p><p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically succeed at a Strike against an unholy creature with the weapon</p><hr /><p><strong>Effect</strong> You regain HP equal to double the unholy creature's level.</p><p><strong>Craft Requirements</strong> You are holy.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "holy-healing",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "YvECPjyPclaHECSq",
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "effde1dce03867d6251d290c8ebcf4a524dd8b05"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.2",
+    "createdTime": 1737223119799,
+    "modifiedTime": 1737223222850,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!YvECPjyPclaHECSq"
+}

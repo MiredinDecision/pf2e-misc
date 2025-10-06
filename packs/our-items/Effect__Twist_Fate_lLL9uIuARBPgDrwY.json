@@ -1,0 +1,189 @@
+{
+  "folder": "2bwfn4iQbQ3ik2I0",
+  "name": "Effect: Twist Fate",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<h4><strong>Triumph</strong></h4><p><strong>Critical Success</strong> As Success, but it rolls twice and uses the best result on all attack rolls for the duration.</p><p><strong>Success</strong> The creature gains a +2 status bonus to all saving throws and skill checks for the duration and the next time it makes an attack roll, it rolls twice and uses the worst result. This is a fortune effect.</p><p><strong>Failure</strong> The creature gains a +2 status bonus to their next saving throw or skill check.</p><p><strong>Critical Failure </strong>The creature is unaffected.</p><hr /><h3>Disaster</h3><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes a -2 status penalty to their next saving throw or skill check.</p><p><strong>Failure</strong> The creature takes a -2 status penalty to all saving throws and skill checks for the duration and the next time it makes an attack roll, it rolls twice and uses the worst result. This is a misfortune effect.</p><p><strong>Critical Failure </strong>As failure, but it rolls twice and uses the worst result on all attack rolls for the duration.</p><hr /><p><strong>Heightened (9th)</strong> The bonus or penalty increases to +3</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Triumph",
+            "value": "triumph"
+          },
+          {
+            "label": "Disaster",
+            "value": "disaster"
+          }
+        ],
+        "rollOption": "triumph-disaster"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Critical Success",
+            "value": "critical-success"
+          },
+          {
+            "label": "Success",
+            "value": "success"
+          },
+          {
+            "label": "Failure",
+            "value": "failure"
+          },
+          {
+            "label": "Critical Failure",
+            "value": "critical-failure"
+          }
+        ],
+        "rollOption": "degree-of-success"
+      },
+      {
+        "key": "RollTwice",
+        "predicate": [
+          "triumph-disaster:triumph",
+          "degree-of-success:critical-success"
+        ],
+        "selector": "attack-roll",
+        "keep": "higher",
+        "removeAfterRoll": false
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "triumph-disaster:triumph",
+          "degree-of-success:success"
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.4GVeTvwFY4MExFvp",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "triumph-disaster:disaster",
+          "degree-of-success:failure"
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.QADFVRLDW46G3zp5",
+        "allowDuplicate": false
+      },
+      {
+        "key": "RollTwice",
+        "predicate": [
+          "triumph-disaster:disaster",
+          "degree-of-success:critical-failure"
+        ],
+        "selector": "attack-roll",
+        "keep": "lower",
+        "removeAfterRoll": false
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "skill-check"
+        ],
+        "predicate": [
+          "triumph-disaster:triumph",
+          {
+            "or": [
+              "degree-of-success:critical-success",
+              "degree-of-success:success",
+              "degree-of-success:failure"
+            ]
+          }
+        ],
+        "value": 2,
+        "type": "status",
+        "slug": "triumph-status-bonus",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "saving-throw",
+          "skill-check"
+        ],
+        "predicate": [
+          "triumph-disaster:disaster",
+          {
+            "or": [
+              "degree-of-success:success",
+              "degree-of-success:failure",
+              "degree-of-success:critical-failure"
+            ]
+          }
+        ],
+        "value": -2,
+        "type": "status",
+        "slug": "disaster-status-penalty",
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "effect-twist-fate",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": true
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "lLL9uIuARBPgDrwY",
+  "img": "icons/magic/time/arrows-circling-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8d2cc5d881382284eee8abb9a4ed4af902a4b8a8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758062519584,
+    "modifiedTime": 1758065112427,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!lLL9uIuARBPgDrwY"
+}

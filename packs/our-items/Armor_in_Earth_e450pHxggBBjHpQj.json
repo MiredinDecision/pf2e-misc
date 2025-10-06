@@ -1,0 +1,169 @@
+{
+  "img": "systems/pf2e/icons/equipment/armor/specific-magic-armor/blast-suit.webp",
+  "name": "Armor in Earth",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Stone encases you like armor. The stone armor is medium armor but uses your highest armor proficiency. The stone armor's statistics are: AC Bonus +4; Dex Cap +1; Check Penalty –2; Speed Penalty –10 feet; Strength +3; Bulk 1; Group plate. You gain its armor specialization effect. Any bonuses, runes, and magical abilities of your actual armor are suppressed, but any runes that could apply to the stone armor are replicated onto it. The stone armor lasts for 10 minutes, and you can Dismiss this impulse. If you use this impulse again, any existing one ends.</p><hr /><p><strong>Level (3rd)</strong> The armor becomes heavy armor. Its AC Bonus becomes +5, and it gains the bulwark armor trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "armor",
+        "mode": "override",
+        "predicate": [
+          "item:equipped",
+          "item:slug:armor-in-earth"
+        ],
+        "property": "ac-bonus",
+        "value": 5
+      },
+      {
+        "key": "Resistance",
+        "type": "slashing",
+        "predicate": [
+          "armor:armor-in-earth"
+        ],
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 2,
+              "value": 1
+            },
+            {
+              "start": 3,
+              "end": 4,
+              "value": 2
+            },
+            {
+              "start": 5,
+              "end": 10,
+              "value": 3
+            },
+            {
+              "start": 11,
+              "end": 17,
+              "value": 4
+            },
+            {
+              "start": 18,
+              "value": 5
+            }
+          ]
+        }
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "armor",
+        "mode": "add",
+        "predicate": [
+          "self:level:3",
+          "item:slug:armor-in-earth"
+        ],
+        "property": "traits",
+        "value": "bulwark"
+      }
+    ],
+    "slug": "armor-in-earth",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "earth",
+        "primal"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Bastion Plate",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "light",
+    "group": "plate",
+    "acBonus": 4,
+    "strength": 3,
+    "dexCap": 1,
+    "checkPenalty": -2,
+    "speedPenalty": -10,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802823056,
+    "modifiedTime": 1754675555574,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "fkL7xNaVK7JoPxD1",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6fe1ce0812d8a006b2bea1cfc72fd0e7ff38ef3b",
+      "sourceId": "Item.Sq2v9XQopOnMnEZK"
+    }
+  },
+  "_id": "e450pHxggBBjHpQj",
+  "sort": 400000,
+  "_key": "!items!e450pHxggBBjHpQj"
+}

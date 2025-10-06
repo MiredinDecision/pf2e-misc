@@ -1,0 +1,61 @@
+{
+  "folder": "bdSPaUyZ2kcTsYsQ",
+  "name": "Fractal Slime",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are the child of another sapient slime capable of sharing some of their memories and personality with their offspring, and so you were born with another's knowledge. You become trained a skill of your choice, which should correspond to a skill in which your parent was especially talented. At 5th level, you become an expert in the chosen skill.</p>"
+    },
+    "rules": [],
+    "slug": "fractal-slime",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Slime",
+      "slug": "slime",
+      "uuid": "Item.nLkKsGBpeT5mJLI6"
+    }
+  },
+  "_id": "Nkxpl4KVKSPMHDvU",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "802c70324348150bc770fd3598077c0a6119c609"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.Nkxpl4KVKSPMHDvU",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!Nkxpl4KVKSPMHDvU"
+}

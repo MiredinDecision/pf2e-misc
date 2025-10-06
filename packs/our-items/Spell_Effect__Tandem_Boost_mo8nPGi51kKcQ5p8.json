@@ -1,0 +1,80 @@
+{
+  "img": "icons/creatures/magical/humanoid-silhouette-glowing-pink.webp",
+  "name": "Spell Effect: Tandem Boost",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e.spells-srd.Item.HStu2Yhw3iQER9tY]{Boost Eidolon}</p>\n<p>Your eidolon gains a +2 status bonus to damage with its unarmed attacks per weapon damage die, to a maximum of +8 with four weapon damage dice.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "status",
+        "value": "@weapon.system.damage.dice * 2"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-boost-eidolon",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759556516129,
+    "modifiedTime": 1759556594375,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "effects": [],
+  "folder": "vT5VJ59WrE8qwwiu",
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.spell-effects.Item.h0CKGrgjGNSg21BW",
+      "hash": "ffb6678a11d377c236d100eee356bfe06ddf1130"
+    }
+  },
+  "_id": "mo8nPGi51kKcQ5p8",
+  "sort": 200000,
+  "_key": "!items!mo8nPGi51kKcQ5p8"
+}

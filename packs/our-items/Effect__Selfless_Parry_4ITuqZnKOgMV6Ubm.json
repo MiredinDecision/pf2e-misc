@@ -1,0 +1,78 @@
+{
+  "folder": "Tv7SfDc89L3ymPgA",
+  "name": "Effect: Selfless Parry",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You protect those near to you with a flash of steel and a stroke of good luck. When you're benefiting from Dueling Parry, allies adjacent to you gain a +1 circumstance bonus to AC. If you have @UUID[Compendium.pf2e.feats-srd.Item.mf2cdCRV8uowOMOm]{Dueling Riposte}, you can use it when an enemy within your reach critically fails a Strike against an ally adjacent to you, not just against yourself.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": 1
+      }
+    ],
+    "slug": "effect-selfless-parry",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "4ITuqZnKOgMV6Ubm",
+  "img": "systems/pf2e/icons/equipment/weapons/rapier.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "28c7a10a4a760de460f15b9dea8d9a563ca09b7a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1734005730097,
+    "modifiedTime": 1734006170739,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!4ITuqZnKOgMV6Ubm"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Pinegarde Items",
+  "type": "Item",
+  "color": null,
+  "_id": "uK6ZAtIcIXwB3iQd",
+  "description": "",
+  "folder": "7OZbTCbckbg9PFqT",
+  "sorting": "a",
+  "sort": 800000,
+  "flags": {
+    "scene-packer": {
+      "hash": "2d81b4ac666cab0ea69851e2ef3c8dff0526f629"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802850432,
+    "modifiedTime": 1728262518838,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "_key": "!folders!uK6ZAtIcIXwB3iQd"
+}

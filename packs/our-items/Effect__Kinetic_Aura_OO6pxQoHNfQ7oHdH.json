@@ -1,0 +1,149 @@
+{
+  "img": "modules/pf2e-our-actors/assets/orb-swirling-orange.webp",
+  "name": "Effect: Kinetic Aura",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You activate your kinetic aura.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.Foot.Preformatted.5",
+            "predicate": [
+              "feat:aura-shaping"
+            ],
+            "value": 5
+          },
+          {
+            "label": "PF2E.Foot.Preformatted.10",
+            "value": 10
+          },
+          {
+            "label": "PF2E.Foot.Preformatted.15",
+            "predicate": [
+              "feat:aura-shaping"
+            ],
+            "value": 15
+          },
+          {
+            "label": "PF2E.Foot.Preformatted.20",
+            "predicate": [
+              "feat:aura-shaping"
+            ],
+            "value": 20
+          },
+          {
+            "label": "PF2E.Foot.Preformatted.25",
+            "predicate": [
+              "feat:aura-shaping",
+              {
+                "gte": [
+                  "self:level",
+                  15
+                ]
+              }
+            ],
+            "value": 25
+          },
+          {
+            "label": "PF2E.Foot.Preformatted.30",
+            "predicate": [
+              "feat:aura-shaping",
+              {
+                "gte": [
+                  "self:level",
+                  20
+                ]
+              }
+            ],
+            "value": 30
+          }
+        ],
+        "flag": "auraRadius",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Kineticist.KineticGate.Prompt.AuraSize"
+      },
+      {
+        "key": "Aura",
+        "level": "@actor.level",
+        "priority": 99,
+        "radius": "@item.flags.pf2e.rulesSelections.auraRadius",
+        "slug": "kinetic-aura",
+        "traits": [
+          "kineticist",
+          "primal"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.kineticist.auraRadius",
+        "value": "@item.flags.pf2e.rulesSelections.auraRadius"
+      }
+    ],
+    "slug": "effect-kinetic-aura",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feat-effects.Item.pLurcSPQb2gjAzoP",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802818315,
+    "modifiedTime": 1726802818315,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "y3Q55GjTVFV8jeys",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0f17c0d6516c42c0195f4981ce395c10ec00b0a3"
+    }
+  },
+  "_id": "OO6pxQoHNfQ7oHdH",
+  "sort": 187500,
+  "_key": "!items!OO6pxQoHNfQ7oHdH"
+}

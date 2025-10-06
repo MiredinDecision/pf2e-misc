@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Fix Warrior of Legend",
+  "color": "#306030",
+  "sorting": "a",
+  "_id": "Pj3Yeqzxjg2hkSW0",
+  "description": "",
+  "sort": 1200000,
+  "flags": {
+    "scene-packer": {
+      "hash": "e23b50cfbf0d10ded2bedad76456e69356d398ef"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755484845686,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!Pj3Yeqzxjg2hkSW0"
+}

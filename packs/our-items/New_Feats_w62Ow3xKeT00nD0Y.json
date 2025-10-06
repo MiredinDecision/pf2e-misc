@@ -1,0 +1,27 @@
+{
+  "name": "New Feats",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "w62Ow3xKeT00nD0Y",
+  "description": "",
+  "sort": 3700000,
+  "color": "#303060",
+  "flags": {
+    "scene-packer": {
+      "hash": "bfc0091534c75c9728f09c93b8942d6481f62b74"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728608070832,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!w62Ow3xKeT00nD0Y"
+}

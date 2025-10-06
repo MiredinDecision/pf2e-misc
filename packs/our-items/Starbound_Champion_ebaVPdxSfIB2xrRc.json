@@ -1,0 +1,26 @@
+{
+  "type": "Item",
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "name": "Starbound Champion",
+  "color": null,
+  "sorting": "a",
+  "_id": "ebaVPdxSfIB2xrRc",
+  "description": "",
+  "sort": 400000,
+  "flags": {
+    "scene-packer": {
+      "hash": "68c8f60cdcba7819a800359457f6bee2199401ad"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "modifiedTime": 1754849746714
+  },
+  "_key": "!folders!ebaVPdxSfIB2xrRc"
+}

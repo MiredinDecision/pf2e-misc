@@ -1,0 +1,100 @@
+{
+  "img": "systems/pf2e/icons/spells/monstrosity-form.webp",
+  "name": "Aura: Monster Warden",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.2yq3l8e2Vzz34yRV]{Monster Warden}</p>\n<p>You gain a +1 circumstance bonus to your next attack roll against that prey.</p>\n<p>You gain a +1 circumstance bonus to your next saving throw against that particular creature and to your AC against that creature's next attack against you.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "Target is the subject of Monster Hunter",
+        "option": "monster-hunter",
+        "toggleable": true
+      },
+      {
+        "key": "Aura",
+        "radius": 120,
+        "effects": [
+          {
+            "uuid": "Item.WaLnNrHQd1duiq73",
+            "affects": "allies"
+          }
+        ],
+        "appearance": {
+          "border": {
+            "alpha": 0.3
+          },
+          "highlight": {
+            "alpha": 0.1
+          }
+        }
+      }
+    ],
+    "slug": "effect-monster-warden",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729386227087,
+    "modifiedTime": 1742099337203,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "oPiU0MUTciVVmi1P",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "90bd8cbef0b86eb19a377fa96de906aafe898dcb",
+      "sourceId": "Item.WaLnNrHQd1duiq73"
+    }
+  },
+  "_id": "vE29NrQwDznNcgNm",
+  "sort": 300000,
+  "_key": "!items!vE29NrQwDznNcgNm"
+}

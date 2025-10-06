@@ -1,0 +1,120 @@
+{
+  "name": "Effect: Void Damage Alteration",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Alter void damage to another damage type.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Void Damage Alteration",
+        "option": "void-damage-to",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
+          }
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "damage:type:void"
+        ],
+        "selectors": [
+          "strike-damage",
+          "spell-damage",
+          "inline-damage"
+        ],
+        "property": "damage-type",
+        "value": "{item|flags.pf2e.rulesSelections.voidDamageTo}"
+      }
+    ],
+    "slug": "effect-void-damage-alteration",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "systems/pf2e/icons/default-icons/effect.svg",
+  "folder": "9Lo171r7blfxyicX",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "234e07d9f5f789b672fc87d823384b7fb86474aa",
+      "sourceId": "Item.lYvtvECVmvBzDHCq"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757731546056,
+    "modifiedTime": 1758233815552,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_id": "SO2W3mp8xbMX99Kw",
+  "sort": 0,
+  "_key": "!items!SO2W3mp8xbMX99Kw"
+}

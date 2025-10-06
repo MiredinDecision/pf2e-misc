@@ -1,0 +1,81 @@
+{
+  "name": "Trance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> Once per day</p><p class=\"hang\"><strong>Requirements</strong> You become Stupefied, Confused or Controlled</p><hr /><p>You enter a trance where the cosmos takes hold to prevent a mental stupor. You suppress the Stupified, Confused or Controlled effect, although you do not Counteract or Dispell it. At the start of each of your turns, you must perform at least 1 Discipline, Make 1 Strike using a Regalia, or use the Call Armiger action if your Armiger is not called.</p><p>If you cannot perform any of these actions by the end of your turn, Trance ends and you suffer the Stupefied, Confused or Controlled effect that Trance originally suppressed.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "trance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "q8oW8AmyHftdwxi2",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0de039bfb425dedbe91ff4af60c02d3aa18579d0",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921821072,
+    "modifiedTime": 1753929284352,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "v3V0RPw4l3r2wG5V",
+  "sort": 0,
+  "_key": "!items!v3V0RPw4l3r2wG5V"
+}

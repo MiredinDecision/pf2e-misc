@@ -1,0 +1,64 @@
+{
+  "folder": "L707lh3QpSnMPk7v",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "name": "Command an Animal (Minion)",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "description": {
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Minions are creatures that directly serve another creature. Your minion acts on your turn in combat, once per turn, when you spend an action to issue it commands. For an animal companion, you @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{Command an Animal}; for a minion that's a spell or magic item effect, like a summoned minion, you @UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]{Sustain} the effect; if not otherwise specified, you issue a verbal command as a single action with the Auditory and Concentrate traits. If given no commands, minions use no actions except to defend themselves or to escape obvious harm. If left unattended for long enough, typically 1 minute, mindless minions usually don't act, animals follow their instincts, and sapient minions act how they please. You can have a maximum of four minions under your control.<br /><br />A minion has only 2 actions and 0 reactions per turn, though certain conditions (such as @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed} or @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}) or abilities might give them additional actions or a reaction. Alterations to a minion's actions occur when they gain their actions for the round. A minion can't control other creatures.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "auditory",
+        "concentrate"
+      ],
+      "otherTags": []
+    },
+    "slug": "command-an-animal",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "deathNote": false
+  },
+  "type": "action",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745615361422,
+    "modifiedTime": 1745615361422,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6c402ef88e2ea929ed29cc705412b66fe8031c06",
+      "sourceId": "Actor.HFRg861k6ala1sU6.Item.McoHhTvIP8FtRqJh"
+    }
+  },
+  "_id": "Ba4PQQTuKCZTjhiu",
+  "sort": 0,
+  "_key": "!items!Ba4PQQTuKCZTjhiu"
+}

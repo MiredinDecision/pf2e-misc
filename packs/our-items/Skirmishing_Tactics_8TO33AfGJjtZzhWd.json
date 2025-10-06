@@ -1,0 +1,141 @@
+{
+  "folder": "luyyhH3h1BUhrqq4",
+  "name": "Skirmishing Tactics",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You direct your allies to be fleet-footed and to outmaneuver their foes.</p><p><strong>Effect</strong> Affected allies gain a +10-feet status bonus to their speeds. An ally who is hit by a Strike while inside the Warlord's aura can Step as a <span class=\"action-glyph\">r</span> Reaction.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Battle Stratagem",
+        "mergeable": true,
+        "option": "battle-stratagem",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "skirmishing-tactics"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "battle-stratagem:precise-flanking",
+              "combined-stratagem:precise-flanking"
+            ]
+          },
+          "item:slug:warlords-strategic-stance"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You direct your allies to be fleet-footed and to outmaneuver their foes."
+          },
+          {
+            "text": "**Effect** Affected allies gain a +10-feet status bonus to their speeds. An ally who is hit by a Strike while inside the Warlord's aura can Step as a Reaction."
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Combined Stratagem",
+        "mergeable": true,
+        "option": "combined-stratagem",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "skirmishing-tactics"
+          }
+        ],
+        "predicate": [
+          {
+            "and": [
+              "feat:combined-strategems",
+              {
+                "not": "battle-stratagem:skirmishing-tactics"
+              }
+            ]
+          }
+        ],
+        "toggleable": true
+      }
+    ],
+    "slug": "skirmishing-tactics",
+    "traits": {
+      "otherTags": [
+        "warlord-battle-stratagem"
+      ],
+      "value": [
+        "stratagem",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/features/feats/marshals-aura.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "125aee779ace2d09eee6c378880e303b7f0f0b61",
+      "sourceId": "Item.YC0egrmeeVjmDY9A"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755227522134,
+    "modifiedTime": 1755268413449,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "8TO33AfGJjtZzhWd",
+  "sort": 200000,
+  "_key": "!items!8TO33AfGJjtZzhWd"
+}

@@ -1,0 +1,182 @@
+{
+  "folder": "oZpHlXAcMOwz9cY3",
+  "name": "Adoring Arsenal Relic Set",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspects </strong><em>emotion (love), mind</em></p><hr /><p>A physical representation of the all encompassing and life defining love between individuals, the items that make up this relic set each stem from one of the many souls that have touched the life of the vampire ex-priest Idumea. Each one represents a new kind of love offered by the people they draw strength from.</p><hr /><p><strong>Set Items: </strong><em>@UUID[Compendium.pf2e.equipment-srd.Item.Gq1cZWSKOtJhKd2p]{Wraithbone Full Plate}</em>, <em>@UUID[Compendium.pf2e.equipment-srd.Item.DP03AwxQxCOAxch0]{+1 Striking Soulsteel Asp Coil}</em>,@UUID[Actor.DzaN0nNOqYj83RF4.Item.5K3mzmBORFcwgBZ2]{Jyoti's Feather} , @UUID[Compendium.pf2e-misc.our-items.Item.6fXAgv7HbBPiioqh]{Mirrors of Distant Letters},</p><hr /><p><strong>Gifts: </strong>The set grants the following gifts.</p><ul><li><p><em>1</em>: @UUID[Compendium.pf2e-misc.our-items.Item.xYDNJod3Rancx8d3]{Emotion Surge (Love)}</p></li><li><p><em>2</em>: @UUID[Compendium.pf2e-misc.our-items.Item.JMOjMjNGwoypYeOV]{Recalculate}</p></li><li><p><em>3</em>: @UUID[Compendium.pf2e-misc.our-items.Item.2LKSqTj8Nwtlc6qq]{Emotion Conduit}</p></li><li><p><em>4</em>: @UUID[Compendium.pf2e-misc.our-items.Item.yIhEj3uqujumWfkQ]{Perception Filter}</p></li><li><p><em>5</em>: @UUID[Compendium.pf2e-misc.our-items.Item.Esti6Ey1JYUI4Ee0]{Mental Bastion}</p></li></ul><hr /><p><strong>Collective Features: </strong>The set grants the following features.</p><ul><li><p><em>Two Items</em>: @UUID[Compendium.pf2e-misc.our-items.Item.XaNxN9hyDltQ0Is3]{Emotion Surge (Love)} becomes a permanent +1 status bonus to the skill check of your emotion.</p></li><li><p><em>Three Items</em>: @UUID[Compendium.pf2e-misc.our-items.Item.JMOjMjNGwoypYeOV]{Recalculate} adds an additional +1 to the next attack roll.</p></li><li><p><em>Four Items</em>: An ally affected by @UUID[Compendium.pf2e-misc.our-items.Item.2LKSqTj8Nwtlc6qq]{Emotion Conduit} is immune for 1 hour.</p></li><li><p><em>Five Items</em>: @UUID[Compendium.pf2e-misc.our-items.Item.yIhEj3uqujumWfkQ]{Perception Filter} becomes once per hour.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.xYDNJod3Rancx8d3",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.adoringArsenalCount}",
+              1
+            ]
+          },
+          {
+            "lt": [
+              "{actor|flags.pf2e.adoringArsenalCount}",
+              2
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.XaNxN9hyDltQ0Is3",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.adoringArsenalCount}",
+              2
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.JMOjMjNGwoypYeOV",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.adoringArsenalCount}",
+              2
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.2LKSqTj8Nwtlc6qq",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.adoringArsenalCount}",
+              3
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.yIhEj3uqujumWfkQ",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.adoringArsenalCount}",
+              4
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.adoringArsenalCount}",
+              5
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.D5vtqqK9dbdIO4zP"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.adoringArsenalCount}",
+              5
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e-misc.our-items.Item.Esti6Ey1JYUI4Ee0"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.adoringArsenalCount",
+        "value": 2
+      }
+    ],
+    "slug": "adoring-arsenal-relic-set",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "mDOGaeeEePQUP2c3",
+  "img": "systems/pf2e/icons/equipment/tattoos/unbreakable-heart.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fdf1d493ea23537976cd9507dfb30368803351c1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1729320108898,
+    "modifiedTime": 1735460695913,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!mDOGaeeEePQUP2c3"
+}

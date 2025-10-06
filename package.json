@@ -1,0 +1,33 @@
+{
+    "name": "pf2e-misc",
+    "type": "module",
+    "private": true,
+    "scripts": {
+        "build": "npm run clean && npm run build:packs && npm run build:files",
+        "clean": "tsx ./build/clean.ts",
+        "build:packs": "tsx ./build/build-packs.ts",
+        "build:files": "tsx ./build/copy.ts",
+        "extractPacks": "tsx ./build/extract-packs.ts",
+        "link": "tsx ./build/link-foundry.ts",
+        "lint": "eslint ./src"
+    },
+    "author": "angelofwoe",
+    "homepage": "",
+    "devDependencies": {
+        "@eslint/js": "^9.19.0",
+        "@foundryvtt/foundryvtt-cli": "^1.0.4",
+        "@types/jquery": "^3.5.32",
+        "eslint": "^9.19.0",
+        "prompts": "^2.4.2",
+        "socket.io": "^4.8.1",
+        "typescript": "^5.7.3",
+        "typescript-eslint": "^8.22.0",
+        "webpack": "^5.97.1"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "esbuild": "^0.25.10",
+        "jquery": "^3.7.1",
+        "tsx": "^4.19.2"
+    }
+}

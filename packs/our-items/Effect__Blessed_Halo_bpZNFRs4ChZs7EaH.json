@@ -1,0 +1,88 @@
+{
+  "folder": "rCTbz5Txfuh1dhKi",
+  "name": "Effect: Blessed Halo",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-soldiers-of-the-immortal-war.subclasses.Item.f9FI3VrCLXWQwAny]{Blessed Halo}</p><p>You and your allies within your champion’s aura gain a +1 status bonus to AC and saving throws.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac",
+          "saving-throw"
+        ],
+        "value": 1,
+        "type": "status"
+      }
+    ],
+    "slug": "effect-blessed-halo",
+    "_migration": {
+      "version": 0.941,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.347",
+        "system": "7.3.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Soldiers of the Immortal War",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-soldiers-of-the-immortal-war.abilities.Item.HMMH6HwXEoRxYaAi",
+      "hash": "b03d1d76388a521657dc6c44d4ee7f2c076902a9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754849801500,
+    "modifiedTime": 1755999179152,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "bpZNFRs4ChZs7EaH",
+  "sort": 300000,
+  "_key": "!items!bpZNFRs4ChZs7EaH"
+}

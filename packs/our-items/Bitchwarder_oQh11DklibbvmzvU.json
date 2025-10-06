@@ -1,0 +1,418 @@
+{
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "name": "Bitchwarder",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.94,
+        "foundry": "13.347",
+        "system": "7.4.1"
+      }
+    },
+    "description": {
+      "value": "<p><em>You are a master of artistry, a scholar of hidden secrets, and a captivating persuader. Using powerful performances, you influence minds and elevate souls to new levels of heroics. You might use your powers to become a charismatic leader, or perhaps you might instead be a counselor, manipulator, scholar, scoundrel, or virtuoso. While your versatility leads some to consider you a beguiling ne'er-do-well and a jack-of-all-trades, it's dangerous to dismiss you as a master of none.</em></p><p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Tz0NWVqhZyt8EyUV]{Bard}</em></p><p><em>A strange paradoxical event forever altered your existence, and now you can manipulate reality. You explore the infinite possibilities of the multiverse, possibly visualizing variant timelines or parallel worlds. You create fields that subvert space and time, allowing you to cast powerful magic. You've learned to focus on an anchoring memory, concept, or object to help you identify reality.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:bard",
+        "priority": 0
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:witchwarper",
+        "priority": 0
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityCha",
+            "value": "cha"
+          },
+          {
+            "label": "PF2E.AbilityInt",
+            "value": "int"
+          }
+        ],
+        "flag": "attribute",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.witchwarper.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attribute}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.bard.attribute",
+        "value": "cha"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.bard.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.witchwarper.rank",
+        "value": 1
+      }
+    ],
+    "slug": "bard",
+    "traits": {
+      "otherTags": [],
+      "rarity": "unique"
+    },
+    "items": {
+      "dIb9G": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.aBe79UixtYqZKwtv",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-rune-ancient.webp",
+        "name": "Anchor",
+        "level": 1
+      },
+      "EiTJU": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.QslkWkHbHQEvWFCL",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-event-horizon-transcendent.webp",
+        "name": "Isolated Spell Matrix",
+        "level": 3
+      },
+      "vqJgV": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.YtysHqoszmqq7L2K",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-energy-alien-hand.webp",
+        "name": "Magical Fortitude",
+        "level": 9
+      },
+      "AN8fV": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.TJ6x3cwFzlZmpglX",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-energy-convergence.webp",
+        "name": "Paradox",
+        "level": 1
+      },
+      "19pZl": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.OTac5ufg6zuerW2U",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-spade-space-emblem.webp",
+        "name": "Quantum Defenses",
+        "level": 13
+      },
+      "UAHFY": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.iDZVHCu8Iwl8OCPg",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-galaxy.webp",
+        "name": "Quantum Field",
+        "level": 1
+      },
+      "xUH7Q": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.NgXjtkNTKUcaGk6s",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/yellow-green-pyramid-with-eye.webp",
+        "name": "Quantum Thesis",
+        "level": 19
+      },
+      "FuAN8": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.5eGnpfSduO6QeFcZ",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/purple-third-eye.webp",
+        "name": "Quantum Will",
+        "level": 17
+      },
+      "LDaeH": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.2BkdnQRLTNf16bb0",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/green-hex-field.webp",
+        "name": "Warped Infinities",
+        "level": 19
+      },
+      "p0Phb": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.h5toU3dCzHeSj50h",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-power-stone.webp",
+        "name": "Witchwarper Spellcasting",
+        "level": 1
+      },
+      "XaE9W": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.qR7l0JtA2TObnY0T",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-circuit-board-2.webp",
+        "name": "Spell Repertoire",
+        "level": 1
+      },
+      "fKUew": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.ml5oxO1iIxQZYdw4",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/red-alien-insignia.webp",
+        "name": "Signature Spells",
+        "level": 3
+      },
+      "yqbb0": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.YTmqZw5pLTNnN7AU",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-person-running.webp",
+        "name": "Reflex Expertise",
+        "level": 5
+      },
+      "xRpBO": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.74WbHKmCwJUBt2Ey",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/green-sign.webp",
+        "name": "Expert Spellcaster",
+        "level": 7
+      },
+      "zsNyC": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.TcyFiYq4Pd6dJsIl",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/alien-mask.webp",
+        "name": "Perception Expertise",
+        "level": 11
+      },
+      "ARE6Y": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.Ba1DqrvVyzbcvGJd",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-cannister.webp",
+        "name": "Weapon Expertise",
+        "level": 11
+      },
+      "ZDxWe": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.Yb2WhBQNv81nA83J",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-alien-thowing-blade.webp",
+        "name": "Master Spellcaster",
+        "level": 15
+      },
+      "j1bwz": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.wCh0XrIleiP1n9uT",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/cerulean-star-emblem.webp",
+        "name": "Legendary Spellcaster",
+        "level": 19
+      },
+      "pWGRX": {
+        "uuid": "Compendium.sf2e-anachronism.class-features.Item.CuWlilUgT1MCZcIT",
+        "img": "modules/sf2e-anachronism/art/icons/abilities/blue-alien-energy-breath.webp",
+        "name": "Weapon Specialization",
+        "level": 13
+      },
+      "Nzfs5": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.s0VbbQJNlSgPocui",
+        "img": "icons/tools/instruments/pipe-flue-tan.webp",
+        "name": "Composition Spells",
+        "level": 1
+      },
+      "6JMNZ": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.AIOBWGOS4nkfH3kW",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Muses",
+        "level": 1
+      },
+      "7nOc6": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.fEOj0eOBe34qYdAa",
+        "img": "icons/equipment/head/hat-pointed-leather-black-glowing.webp",
+        "name": "Occult Spellcasting",
+        "level": 1
+      },
+      "gvUaW": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Reflex Expertise",
+        "level": 3
+      },
+      "9QhCs": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Expert Spellcaster",
+        "level": 7
+      },
+      "TxP7P": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.nPwYSuMLkJWMB4CH",
+        "img": "icons/magic/life/heart-pink.webp",
+        "name": "Performer's Heart",
+        "level": 9
+      },
+      "HyBsr": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.mRobjNNsABQdUUZq",
+        "img": "icons/magic/life/heart-red-blue.webp",
+        "name": "Greater Performer's Heart",
+        "level": 17
+      },
+      "YIo6L": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke",
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "name": "Fortitude Expertise",
+        "level": 9
+      },
+      "wUSXj": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13",
+        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+        "name": "Perception Mastery",
+        "level": 11
+      },
+      "tIXDc": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.4lp8oG9A3zuqhPBS",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Bard Weapon Expertise",
+        "level": 11
+      },
+      "H860G": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 13
+      },
+      "gqdTk": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Master Spellcaster",
+        "level": 15
+      },
+      "spt4B": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.NjsOpWbbzUY2Hpk3",
+        "img": "icons/tools/instruments/harp-yellow-teal.webp",
+        "name": "Magnum Opus",
+        "level": 19
+      },
+      "elTcx": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3",
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "name": "Legendary Spellcaster",
+        "level": 19
+      },
+      "ihlmT": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HWNvRM0c5cZrwM8v",
+        "img": "systems/pf2e/icons/spells/enduring-might.webp",
+        "name": "Dual Class Attribute",
+        "level": 1
+      }
+    },
+    "keyAbility": {
+      "value": [
+        "cha",
+        "int"
+      ],
+      "selected": null
+    },
+    "hp": 8,
+    "perception": 2,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "rank": 0,
+        "name": ""
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 1,
+    "trainedSkills": {
+      "value": [
+        "occultism",
+        "performance"
+      ],
+      "additional": 4
+    },
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "img": "modules/sf2e-anachronism/art/class-icons/witchwarper.webp",
+  "ownership": {
+    "default": 0,
+    "cWwLchXkibIUDc9I": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.sf2e-anachronism.classes.Item.QhD0tldbCGmGYeoQ",
+      "hash": "77c43fae3931d065f0d8d8e552307829d0c66fd4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.1",
+    "createdTime": 1755808475540,
+    "modifiedTime": 1758047472620,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_id": "oQh11DklibbvmzvU",
+  "sort": 300000,
+  "_key": "!items!oQh11DklibbvmzvU"
+}

@@ -1,0 +1,92 @@
+{
+  "folder": "osZgRgXQpSpzwqqs",
+  "name": "Effect: Heartmoss - Armor (Greater)",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.3yfYinY4UHcSX8ql]{Heartmoss (Greater)}.</p><p>You gain resistance 5 to mental damage and a +1 item bonus to saving throws against effects with the emotion trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "mental",
+        "value": "5"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 1,
+        "type": "item",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:emotion",
+              "emotion"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "effect-heartmoss-armor-greater",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "img": "icons/magic/nature/root-vine-caduceus-healing.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ff3da9c3c0553a6650fa70d45943f4281e1a5b27",
+      "sourceId": "Item.0sGp6mfgtuuf9MuL"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.2",
+    "createdTime": 1737226475509,
+    "modifiedTime": 1737226622619,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "2jOVQBpsCksLeChg",
+  "sort": 100000,
+  "_key": "!items!2jOVQBpsCksLeChg"
+}

@@ -1,0 +1,142 @@
+{
+  "folder": "7OZbTCbckbg9PFqT",
+  "name": "Effect: Shrink Companion",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You touch your animal companion and shrink to fit into small spaces. Your animal companion reduces in size, to a minimum of size Small. The effect lasts until you Dismiss it.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "shrinkCompanion",
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeLarge",
+            "predicate": [
+              {
+                "gte": [
+                  "self:size",
+                  4
+                ]
+              }
+            ],
+            "value": {
+              "reach": 10,
+              "size": "large"
+            }
+          },
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "predicate": [
+              {
+                "gte": [
+                  "self:size",
+                  3
+                ]
+              }
+            ],
+            "value": {
+              "reach": 5,
+              "size": "medium"
+            }
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "predicate": [
+              {
+                "gte": [
+                  "self:size",
+                  2
+                ]
+              }
+            ],
+            "value": {
+              "reach": 5,
+              "size": "small"
+            }
+          }
+        ],
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "CreatureSize",
+        "reach": {
+          "override": "{item|flags.pf2e.rulesSelections.shrinkCompanion.reach}"
+        },
+        "resizeEquipment": true,
+        "value": "{item|flags.pf2e.rulesSelections.shrinkCompanion.size}"
+      },
+      {
+        "key": "TokenImage",
+        "scale": 0.8,
+        "value": "modules/pf2e-our-actors/assets/NightToken.webp",
+        "ring": null,
+        "predicate": [
+          "self:size:small"
+        ]
+      }
+    ],
+    "slug": "effect-shrink-companion",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "umUmqR58YB4ujalG",
+  "img": "systems/pf2e/icons/equipment/worn-items/companion-items/collar-of-empathy.webp",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a793b355f1a0aca61571fe285db7d5cc80d9ebef"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729623361202,
+    "modifiedTime": 1756086799129,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!umUmqR58YB4ujalG"
+}

@@ -1,0 +1,77 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Eternal Torch",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You open a connection to your kinetic gate, large enough for a torch flame to flow. You create a magical, torch-like flame within 120 feet in any color you choose. It's as bright and hot as a torch. You can have it orbit a target willing creature or emit from a target object that's unattended or attended by a willing creature. If you create a flame on a weapon, you still need to use it as an improvised weapon to attack with the flame, just as with a torch.</p>\n<p>The flame has an unlimited duration. You can have a maximum number of Eternal Torches equal to your Constitution modifier, and you can Dismiss each torch individually.</p>\n<hr />\n<p><strong>Level (8th)</strong> All your torches—even ones you already created—shed bright light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+    },
+    "rules": [],
+    "slug": "eternal-torch",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fire",
+        "impulse",
+        "kineticist",
+        "light",
+        "manipulate",
+        "primal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.MRT8BGiIiVYfVcXh",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1726802818315,
+    "modifiedTime": 1735614222214,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "ynASxnyasGU4ydVK",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d00e98e09e485134f9b114a322305a9d892975cc"
+    }
+  },
+  "_id": "ooirrU70HrbZ1eJV",
+  "sort": 450000,
+  "_key": "!items!ooirrU70HrbZ1eJV"
+}

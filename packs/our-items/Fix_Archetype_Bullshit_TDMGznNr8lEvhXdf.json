@@ -1,0 +1,27 @@
+{
+  "name": "Fix Archetype Bullshit",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "TDMGznNr8lEvhXdf",
+  "description": "",
+  "sort": 5000000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "08d12013ba7451ef69035616b88c116a9777cffe"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802818286,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!TDMGznNr8lEvhXdf"
+}

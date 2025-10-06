@@ -1,0 +1,149 @@
+{
+  "folder": "ZbZeGxd2XHQt4tko",
+  "name": "Voidfire Bolt (Variant)",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You form the essence of death itself into fire, which flies at a target. Make a spell attack roll. On a success, the flame deals 3d6 fire damage, and, if the target is living, the flame deals an additional 1d4 void damage. On a critical success, the target takes double damage and takes @Damage[(1d4+((@item.rank -1)*2))[persistent,fire]] damage.</p><hr /><p><strong>Critical Success </strong>The target takes double damage and 1d4 persistent fire damage.</p><p><strong>Success </strong>The target takes full damage.</p><hr /><p><strong>Heightened (+1) </strong>The fire damage increases by 1d6. The void damage increases by 1d4. The persistent fire damage on a critical hit increases by 2.</p>"
+    },
+    "rules": [],
+    "slug": "voidfire-bolt",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "fire",
+        "void"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "inlN23tPLM9svDfY": {
+        "formula": "3d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "inlN23tPLM9svDfY": "1d6"
+      }
+    },
+    "overlays": {
+      "o39RynEifCEMR6ap": {
+        "system": {
+          "damage": {
+            "inlN23tPLM9svDfY": {
+              "category": null
+            }
+          },
+          "defense": null
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "Af9ETBa2jVvJUi0O": {
+        "name": "Voidfire Bolt (vs. Living)",
+        "system": {
+          "damage": {
+            "inlN23tPLM9svDfY": {
+              "category": null
+            },
+            "4VDLwA7zdNEgUGfm": {
+              "formula": "1d4",
+              "kinds": [
+                "damage"
+              ],
+              "type": "void",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": null,
+          "heightening": {
+            "damage": {
+              "4VDLwA7zdNEgUGfm": "1d4"
+            }
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "ul5kzCnLUV6Alfsp",
+  "img": "modules/pf2e-misc/assets/VoidFire2.webp",
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4952cce22f86c152f9bddd0a61929ab32000643c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726990762201,
+    "modifiedTime": 1754328973937,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!ul5kzCnLUV6Alfsp"
+}

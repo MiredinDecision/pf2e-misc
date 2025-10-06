@@ -1,0 +1,93 @@
+{
+  "folder": "WYniUllENo7odEp5",
+  "name": "Scarlet Savvy",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">Your constant training with your weapons has made you one with them. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. While in Arcane Cascade, you have the critical specialization benefits for melee weapons and unarmed attacks.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "self:effect:arcane-cascade",
+          "item:melee"
+        ]
+      }
+    ],
+    "slug": "scarlet-savvy",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "martial": {
+          "rank": 2
+        },
+        "simple": {
+          "rank": 2
+        },
+        "unarmed": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "_id": "HYkEGWyEZ6oOvc4P",
+  "img": "icons/skills/melee/strike-sword-blood-red.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "adf0b631a15c688f36c62a9e951f3c0d8da5bdd2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726925914675,
+    "modifiedTime": 1727127477879,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!HYkEGWyEZ6oOvc4P"
+}

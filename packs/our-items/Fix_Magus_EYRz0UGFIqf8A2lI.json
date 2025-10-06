@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Fix Magus",
+  "color": "#306030",
+  "sorting": "a",
+  "_id": "EYRz0UGFIqf8A2lI",
+  "description": "",
+  "sort": 400000,
+  "flags": {
+    "scene-packer": {
+      "hash": "42e35071975b9ae50367b4f0fb88fe6603daab59"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757820098954,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!EYRz0UGFIqf8A2lI"
+}

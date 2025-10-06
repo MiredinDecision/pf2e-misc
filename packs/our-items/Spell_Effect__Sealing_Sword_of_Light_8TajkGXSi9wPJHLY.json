@@ -1,0 +1,98 @@
+{
+  "folder": "vQBRSehWFX1fHYIo",
+  "name": "Spell Effect: Sealing Sword of Light",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Granted by </strong>@UUID[Compendium.pf2e-misc.our-items.Item.PbymRnpbl8OiTuPN]{Sealing Sword of Light}</p><p>If the target is hit and has the unholy trait, they shed bright white light in a 20-foot radius (and dim light for the next 20 feet) for the duration and become @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} as the sword drives itself into the target’s form and begins sealing it. When you sustain this spell in the following rounds, the target must attempt a @Check[will|against:spell|traits:incapacitation|rollerRole:origin] save (incapacitation). If they fail, the target increases the Slowed condition caused by this spell by 1. If this ever causes the target to become @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 3} then the target turns to stone with its essence sealed forever within the blade whose hilt remains jutting from the statue left behind. You no longer have to @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain} the spell.</p><p>The blade can be removed during or after the sealing effect with an interact action that involves either an <span class=\"Box-sc-g0xbh4-0 jukNfw prc-Text-Text-0ima0\">@Check[athletics|against:spell] or @Check[religion|against:spell]</span> check against your spell DC to succeed thus ending the sealing. When a creature attempts to remove the spike, they take @Damage[11d6[spirit]]{11d6 Spirit Damage}. The DC gains a +4 status bonus if the attempt is made after the target is already sealed.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Even More Magic!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": 0,
+          "bright": 20,
+          "animation": {},
+          "alpha": 0.05,
+          "color": "#ffffff"
+        }
+      },
+      {
+        "key": "GrantItem",
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 1
+          }
+        ],
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "uuid": "Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "spell-effect-sealing-sword-of-light",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": true
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "8TajkGXSi9wPJHLY",
+  "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "92895a4df24fad7c60fa816d36b15b50a9af5727"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758285845153,
+    "modifiedTime": 1758286008650,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!8TajkGXSi9wPJHLY"
+}

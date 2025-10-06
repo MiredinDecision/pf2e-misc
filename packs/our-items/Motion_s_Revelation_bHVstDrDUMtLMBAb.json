@@ -1,0 +1,72 @@
+{
+  "folder": "GMgNVaiLN4DkdqQj",
+  "name": "Motion's Revelation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You combine your motion sense with your vision in order to see the unseen and determine the truth. You gain the effects of see invisibility at all times. Once per day, you can gain the effects of true seeing for 10 minutes as a two-action activity, which has the concentrate trait. When you do, your counteract modifier is equal to the higher of your class DC -10 or your spell DC -10.</p>"
+    },
+    "rules": [],
+    "slug": "motions-revelation",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3b8ead203fb08cf112ff5519ee050aa6d3159c5b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.bHVstDrDUMtLMBAb",
+    "duplicateSource": "Item.75wg2uyjA03sV7sa",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "bHVstDrDUMtLMBAb",
+  "_key": "!items!bHVstDrDUMtLMBAb"
+}

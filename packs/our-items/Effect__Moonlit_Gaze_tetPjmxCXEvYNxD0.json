@@ -1,0 +1,123 @@
+{
+  "folder": "fkL7xNaVK7JoPxD1",
+  "name": "Effect: Moonlit Gaze",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.purzPCMv8NyUv7yn]{Moon Warden's Armor}, @UUID[Compendium.pf2e-misc.our-items.Item.KaiwLKmnutZIKfrr]{Moon Warden's Armor (Greater)}.</p><p>You gain low-light vision and darkvision.<br />You gain the effects of a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{See the Unseen} spell.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:moon-wardens-armor",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.pf2e-misc.our-items.Item.purzPCMv8NyUv7yn"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:moon-wardens-armor-greater",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.pf2e-misc.our-items.Item.KaiwLKmnutZIKfrr"
+          }
+        ],
+        "prompt": "PF2E.SpecificRule.Prompt.EquipmentVariety",
+        "rollOption": "moon-wardens-armor",
+        "adjustName": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.spell-effects.Item.T5bk6UH7yuYog1Fp",
+        "allowDuplicate": false,
+        "predicate": [
+          "moon-wardens-armor:moon-wardens-armor-greater"
+        ]
+      },
+      {
+        "key": "Sense",
+        "selector": "low-light-vision"
+      },
+      {
+        "key": "Sense",
+        "selector": "darkvision"
+      }
+    ],
+    "slug": "effect-moonlit-gaze",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 10,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "tetPjmxCXEvYNxD0",
+  "img": "icons/magic/light/orb-hands-humanoid-yellow.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6ca6c11a2c9fe7ebdede9c45c9e109a002fc93f2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754676198691,
+    "modifiedTime": 1754677265365,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!tetPjmxCXEvYNxD0"
+}

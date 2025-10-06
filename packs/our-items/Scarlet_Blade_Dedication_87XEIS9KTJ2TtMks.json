@@ -1,0 +1,87 @@
+{
+  "folder": "QfXltjgwnBts9OQY",
+  "name": "Scarlet Blade Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You fully commit to the path of a scarlet blade. Choose two skills, you become Trained in both skills. You are trained in heavy armor. Whenever you gain a magus class feature that provides proficiency in medium armor, you also gain that proficiency in heavy armor. You gain the <em>@UUID[Compendium.pf2e-misc.our-items.Item.UNuYzUcE4CZawjCM]{Fleche}</em> Conflux spell.</span></p><hr /><p><span style=\"font-family:Roboto, sans-serif\"><strong>Level (7th)</strong> You become Expert in both of your chosen skills.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy.rank",
+        "value": "@actor.system.proficiencies.defenses.medium.rank",
+        "phase": "beforeDerived"
+      }
+    ],
+    "slug": "scarlet-blade-dedication",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "class",
+        "dedication",
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Scarlet Blade Spellcasting"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "87XEIS9KTJ2TtMks",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2755fd38651810833b41e26a6423fafce89ee705"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1726807120584,
+    "modifiedTime": 1729400180237,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!87XEIS9KTJ2TtMks"
+}

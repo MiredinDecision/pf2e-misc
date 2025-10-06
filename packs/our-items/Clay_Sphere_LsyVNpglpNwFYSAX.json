@@ -1,0 +1,26 @@
+{
+  "name": "Clay Sphere",
+  "sorting": "a",
+  "folder": "7OZbTCbckbg9PFqT",
+  "type": "Item",
+  "_id": "LsyVNpglpNwFYSAX",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "b364d9d5af442979e5d374916fc7ef7b5b06a3dc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!LsyVNpglpNwFYSAX"
+}

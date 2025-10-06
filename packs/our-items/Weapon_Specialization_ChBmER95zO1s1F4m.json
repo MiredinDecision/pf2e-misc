@@ -1,0 +1,116 @@
+{
+  "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+  "name": "Weapon Specialization",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've learned how to inflict greater injuries with the weapons you know best. You deal an additional 2 damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "hideIfDisabled": true,
+        "key": "FlatModifier",
+        "label": "PF2E.WeaponSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "item:proficiency:rank",
+              2
+            ]
+          }
+        ],
+        "selector": "strike-damage",
+        "slug": "weapon-specialization",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:proficiency:rank:3"
+        ],
+        "priority": 0,
+        "selector": "strike-damage",
+        "slug": "weapon-specialization",
+        "value": 3
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:proficiency:rank:4"
+        ],
+        "priority": 0,
+        "selector": "strike-damage",
+        "slug": "weapon-specialization",
+        "value": 4
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "starknight"
+      ],
+      "otherTags": []
+    },
+    "slug": "weapon-specialization",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753915271242,
+    "modifiedTime": 1753915316718,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "aHASIuo3zbHTKeM1",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
+      "hash": "8c4f538dcc40a6efba828dcf8e8629c2cca48877"
+    }
+  },
+  "_id": "ChBmER95zO1s1F4m",
+  "sort": 0,
+  "_key": "!items!ChBmER95zO1s1F4m"
+}

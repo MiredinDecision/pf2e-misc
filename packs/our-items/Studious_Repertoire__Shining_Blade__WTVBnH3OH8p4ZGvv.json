@@ -1,0 +1,81 @@
+{
+  "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+  "name": "Studious Repertoire (Shining Blade)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your hybrid study grants you additional spells that can enhance your power in combat. You gain two special 2nd-level studious spell slots. You gain a second, limited spell repertoire for these spells slots, which you may not swap spells into or out of. You add any spells from this feature to your studious repertoire. You add @UUID[Compendium.pf2e.spells-srd.Item.5KobTMrZeZxuXMgl]{Gecko Grip}, @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Strike}, @UUID[Compendium.pf2e.spells-srd.Item.MZGkMsPBztFN0pUO]{Water Breathing}, and an additional spell depending on your hybrid study. At 11th level, the extra slots increase to 3rd-rank and you add @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste} and an additional spell depending on your hybrid study. At 13th level, the extra slots increase to 4th-rank and you add @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]{Fly} and an additional spell depending on your hybrid study.</p>"
+    },
+    "rules": [],
+    "slug": "studious-spells",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.10.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1741825799073,
+    "modifiedTime": 1743561457722,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "PyudfzbIHfwCf86A",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.a4GbRQ4FSYyXCVDC",
+      "hash": "c07bd002246af408316e347968c712259080ced2"
+    }
+  },
+  "_id": "WTVBnH3OH8p4ZGvv",
+  "sort": 1000000,
+  "_key": "!items!WTVBnH3OH8p4ZGvv"
+}

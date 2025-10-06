@@ -1,0 +1,212 @@
+{
+  "folder": "vT5VJ59WrE8qwwiu",
+  "name": "Spirit Synchronicity",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You and your eidolon’s attacks are infused with energy that manipulates life. When you use Tandem Boost’s @UUID[Compendium.pf2e-summoners-plus.misc.VucxKRn4BC9O3gCf]{synergy combo}, you can change the additional damage from precision damage to spirit, vitality, or void damage and the Strike gains the listed trait. In addition, when you critically succeed at a Strike while you have synergy, the target of your Strike is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled 1} for 1 round. This enfeebled condition lasts for 2 rounds at 10th level, and for 3 rounds at 18th level.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "label": "Synergy: Tandem Boost (Spirit Synchronicity)",
+        "selector": "strike-damage",
+        "predicate": [
+          "self:effect:boost-eidolon",
+          "self:trait:eidolon",
+          "item:category:unarmed"
+        ],
+        "slug": "spirit-synchronicity",
+        "damageType": "vitality",
+        "dieSize": "d6",
+        "value": {
+          "brackets": [
+            {
+              "end": 9,
+              "value": {
+                "diceNumber": 1
+              }
+            },
+            {
+              "end": 17,
+              "start": 10,
+              "value": {
+                "diceNumber": 2
+              }
+            },
+            {
+              "start": 18,
+              "value": {
+                "diceNumber": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "DamageDice",
+        "label": "Synergy: Tandem Boost (Spirit Synchronicity)",
+        "selector": "strike-damage",
+        "predicate": [
+          "self:effect:boost-eidolon",
+          "self:trait:eidolon",
+          "item:category:unarmed"
+        ],
+        "slug": "spirit-synchronicity",
+        "damageType": "void",
+        "dieSize": "d6",
+        "value": {
+          "brackets": [
+            {
+              "end": 9,
+              "value": {
+                "diceNumber": 1
+              }
+            },
+            {
+              "end": 17,
+              "start": 10,
+              "value": {
+                "diceNumber": 2
+              }
+            },
+            {
+              "start": 18,
+              "value": {
+                "diceNumber": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "DamageDice",
+        "label": "Synergy: Tandem Boost (Spirit Synchronicity)",
+        "selector": "strike-damage",
+        "predicate": [
+          "self:effect:boost-eidolon",
+          "self:trait:eidolon",
+          "item:category:unarmed"
+        ],
+        "slug": "spirit-synchronicity",
+        "damageType": "spirit",
+        "dieSize": "d6",
+        "value": {
+          "brackets": [
+            {
+              "end": 9,
+              "value": {
+                "diceNumber": 1
+              }
+            },
+            {
+              "end": 17,
+              "start": 10,
+              "value": {
+                "diceNumber": 2
+              }
+            },
+            {
+              "start": 18,
+              "value": {
+                "diceNumber": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "Note",
+        "selector": "attack-roll",
+        "text": "In addition, when you critically succeed at a Strike while you have synergy, the target of your Strike is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled 1} for 1 round. This enfeebled condition lasts for 2 rounds at 10th level, and for 3 rounds at 18th level.",
+        "title": "{item|name}",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "predicate": [
+          "self:effect:synergy"
+        ]
+      }
+    ],
+    "slug": "spirit-synchronicity",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Summoners+",
+      "authors": "Tony Saunders, Derry Luttrell",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Kindred Warrior Dedication"
+        },
+        {
+          "value": "divine or occult\r\neidolon tradition"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "VZuVlRAEHH3yngbI": 3,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-summoners-plus.items.Item.BXBYDykr39L0lZFN",
+      "hash": "544907c50022f1b7a0f13a1d1ad206b2eb2d08eb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759625579696,
+    "modifiedTime": 1759625666731,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_id": "mWR7WaUlFvKxFbzI",
+  "sort": 0,
+  "_key": "!items!mWR7WaUlFvKxFbzI"
+}

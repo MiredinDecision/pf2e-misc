@@ -1,0 +1,87 @@
+{
+  "folder": "AiClGjgsPZ4wmVvh",
+  "name": "Effect: Weapon Practice",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.RTCiEQyORUbf8PaD]{Weapon Master Dedication}</p><p>During your daily preparations, you can practice with any advanced weapon that's in your possession. You gain familiarity with that weapon. <span style=\"font-family:Roboto, sans-serif\">This lasts until you practice with a different weapon in the same way.</span></p>"
+    },
+    "rules": [
+      {
+        "actorFlag": true,
+        "choices": {
+          "ownedItems": true,
+          "predicate": [
+            "item:category:advanced"
+          ],
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "weaponMasterWeapon",
+        "key": "ChoiceSet",
+        "prompt": "Select an advanced weapon to practice with."
+      }
+    ],
+    "slug": "effect-weapon-practice",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "9Kl3y0kJWZhvGWJH",
+  "img": "icons/weapons/swords/shortsword-broad-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d6b8f93bdd024cde1d43662492785b8cf1fec83f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728704089448,
+    "modifiedTime": 1728704440386,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!9Kl3y0kJWZhvGWJH"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Elemental",
+  "sorting": "a",
+  "folder": "tfOnjGrhC7GpuV9T",
+  "type": "Item",
+  "_id": "kWn16pXg0O0bFhhz",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "5437e626226a500f02ffeb04bd0f151a99d3ccc0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802831856,
+    "modifiedTime": 1726802831856,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj"
+  },
+  "_key": "!folders!kWn16pXg0O0bFhhz"
+}

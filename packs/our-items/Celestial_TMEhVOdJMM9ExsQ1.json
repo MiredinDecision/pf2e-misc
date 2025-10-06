@@ -1,0 +1,26 @@
+{
+  "name": "Celestial",
+  "sorting": "m",
+  "folder": "jY7U6KjcKG1jKUz4",
+  "type": "Item",
+  "_id": "TMEhVOdJMM9ExsQ1",
+  "description": "",
+  "sort": 0,
+  "color": "#ac8839",
+  "flags": {
+    "scene-packer": {
+      "hash": "a7956d7f528df855b08a9a255105481bdd51ebc1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": null,
+    "modifiedTime": 1735579422003,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!TMEhVOdJMM9ExsQ1"
+}

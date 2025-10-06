@@ -1,0 +1,77 @@
+{
+  "folder": "Vu1IIJ1PiytoVZbx",
+  "name": "Amorphous Form",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Slimes can shape their form somewhat, though when they're completely at rest, they tend to be shaped like a roughly dome-shaped puddle with a nucleus at the center.</p><p>As a single action, which has the concentrate and manipulate trait, they can alter their rough physical shape between their natural form and a vaguely humanoid form that's still obviously made of ooze and possessing a nucleus.</p><p>Because of thei amorphous form, they can move through tight spaces as if they were one size smaller than they are (or even tighter spaces if they were already Tiny).</p><p>Slimes don't have typical arms and hands, but they are still able to hold and manipulate objects by forming up to two psuedopods, which don't have hands or fingers. Each pseudopod can hold a one-handed item, or the two pseudopods together can hold a two-handed item.</p><p>By default, this works the same way as other ancestries do in terms of holding and manipulating items, though, at the GM's discretion, some manipulate actions might be easier for a slime and some might be more difficult. You make pseudopod unarmed attacks instead of fist unarmed attacks, though they otherwise have the same statistics.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-slime-ancestry.slime-items.Item.zNN4DxK2yviqkmUN"
+      }
+    ],
+    "slug": "amorphous-form",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "YsDAaqOJvyW7RO10",
+  "img": "modules/pf2e-slime-ancestry/assets/AmorphousForm.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f33b2552065f3bae28c37b64bdf864489975f71f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.YsDAaqOJvyW7RO10",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!YsDAaqOJvyW7RO10"
+}

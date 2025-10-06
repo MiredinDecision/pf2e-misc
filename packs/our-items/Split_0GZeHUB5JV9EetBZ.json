@@ -1,0 +1,70 @@
+{
+  "folder": "kcGTccKxWzbHSO81",
+  "name": "Split",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements </strong>You are at or above half your maximum Hit Points</p><p><strong>Frequency </strong>once per minute</p><p><strong>Trigger </strong>You woud take an amount of slashing or piercing damage that would not be enough to reduce you to 0 Hit Points.</p><hr /><p>You allow an attack to split you in half temporarily to confound your attackers. Instead of taking the triggering damage, you split into two of yourself, both occupying your space. You lose half of your current Hit Points in creating the split selves. Creatures target either of your split selves separately, but the first time they deal damage to either of your selves or otherwise affect it with a harmful effect, the damaged or affected self dissolves into nothing (if an effect damages or affects both selves at once, you choose which self dissolves). At the beginning of your next turn, if both selves still exist, you choose which one dissolves.. While you still have two selves, you can't act.</p>"
+    },
+    "rules": [],
+    "slug": "split",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "0GZeHUB5JV9EetBZ",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5021a8ab02a5065e99a341b7c8dc45605cc1376b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.0GZeHUB5JV9EetBZ",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!0GZeHUB5JV9EetBZ"
+}

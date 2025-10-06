@@ -1,0 +1,144 @@
+{
+  "type": "action",
+  "name": "Hellknight Template",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "description": {
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Hellknights are disciplined individuals who seek to maintain order and quell chaos. The myriad Hellknight orders are all highly structured and regimented. This template gives a low-level creature significantly more treasure than the normal maximum for its level, due to expensive armor; adjust the total treasure in your adventure accordingly.<br /><br /><strong>All Creatures</strong>: Add the lawful trait. Remove the chaotic trait.<br /><strong>1st Level or Higher</strong>: Remove the creature's armor (if any) from its items. Add @UUID[Compendium.pf2e.equipment-srd.Item.6AhDKX1dwRwFpQsU]{Splint Mail}</span> to the creature's items. If the creature wasn't wearing heavy armor before this adjustment, its Speed is reduced by 5 feet and it gains +1 AC.<br /><strong>4th Level or Higher</strong>: The creature gains resistance to mental and slashing equal to half its level.<br /><strong>7th Level or Higher</strong>: Add @UUID[Compendium.pf2e.equipment-srd.Item.lCgXeV52eYYl5cUX]{Hellknight Plate} to the creature's items instead of splint mail. The creature can cast @UUID[Compendium.pf2e.spells-srd.Item.uNsliWpl8Q1JdFcM]{Discern Lies} once per day as an innate divine spell.<br /><strong>12th Level or Higher</strong>: Remove one of the creature's reactions (if any) from its available options, and replace it with @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc]{Reactive Strike}. If applying the 1st-level template ability caused the creature's Speed to be reduced, that Speed is now restored to its original value.<br /><strong>17th Level or Higher</strong>: The creature's attacks deal 1d6 additional lawful damage on a hit. As is normal for aligned damage, this damages only chaotic creatures.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": [
+          "mental",
+          "slashing"
+        ],
+        "value": "max(1,floor(@actor.level/2))",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActorTraits",
+        "add": [
+          "unholy",
+          "lawful",
+          "evil"
+        ],
+        "remove": [
+          "chaotic",
+          "holy",
+          "good"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e.equipment-srd.Item.6AhDKX1dwRwFpQsU",
+        "predicate": [
+          {
+            "and": [
+              {
+                "gte": [
+                  "self:level",
+                  1
+                ]
+              },
+              {
+                "lte": [
+                  "self:level",
+                  6
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e.equipment-srd.Item.lCgXeV52eYYl5cUX",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "9Lo171r7blfxyicX",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e2b50fa1fdacf89855c9c8d7fa04cb5d098c9208",
+      "sourceId": "Item.mPq5M9jiqHTIDUr4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745110986675,
+    "modifiedTime": 1746995225973,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "OpVZeEKqybukQ6hx",
+  "sort": 400000,
+  "_key": "!items!OpVZeEKqybukQ6hx"
+}

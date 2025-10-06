@@ -1,0 +1,126 @@
+{
+  "img": "icons/magic/lightning/strike-arrow-spear-red.webp",
+  "name": "Live Wire",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You conjure up a length of sharp copper filament humming with electrical current that strikes out at your foe. The wire deals 1d4 slashing damage and 1d4 electricity damage, depending on your spell attack roll against the target's AC.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent electricity damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p>\n<p><strong>Failure</strong> The target takes the electricity damage, but not the slashing damage.</p>\n<p><strong>Critical Failure</strong> The target is unaffected.</p><hr /><p><strong>Heightened (+1)</strong> The slashing damage, initial electricity damage, and persistent electricity damage on a critical hit each increase by [[/r 1d4]].</p>"
+    },
+    "rules": [],
+    "slug": "live-wire",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "concentrate",
+        "electricity",
+        "manipulate",
+        "metal"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "6jB29A0HYmZ5Sndk": {
+        "applyMod": false,
+        "category": null,
+        "formula": "1d4",
+        "kinds": [
+          "damage"
+        ],
+        "materials": [],
+        "type": "slashing"
+      },
+      "u8FtIoasOdjfSdy4": {
+        "applyMod": false,
+        "category": null,
+        "formula": "1d4",
+        "kinds": [
+          "damage"
+        ],
+        "materials": [],
+        "type": "electricity"
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "damage": {
+        "6jB29A0HYmZ5Sndk": "1d4",
+        "u8FtIoasOdjfSdy4": "1d4"
+      },
+      "interval": 1,
+      "type": "interval"
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758240036465,
+    "modifiedTime": 1758240036465,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "ZbZeGxd2XHQt4tko",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1adcdf0ee62e0ee7586eb86b4787c8ae80a427e8",
+      "sourceId": "Actor.Sk0x5dGjX1LuSDjq.Item.nak6UFouSjrfMjsS"
+    }
+  },
+  "_id": "3gpyJbMlYMHDGIcJ",
+  "sort": 0,
+  "_key": "!items!3gpyJbMlYMHDGIcJ"
+}

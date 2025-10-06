@@ -1,0 +1,90 @@
+{
+  "folder": "i54TUO8xSKaRBrhS",
+  "name": "Embodiment of Battle (Playtest)",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your apparition guides your attacks and imparts its skill to your movements. For the duration, your proficiency with martial weapons is equal to your proficiency with simple weapons, you gain a +1 status bonus to attack and damage rolls made with weapons or unarmed attacks, you gain the Reactive Strike reaction, and you gain the critical specialization effect for any weapon you are wielding when you Cast or Sustain this Spell. The instincts of an apparition of battle run contrary to the use of magic; for the duration of this spell, you take a –2 status penalty to your spell attack modifier and your spell DCs.</p><hr /><p><strong>Heightened (4th)</strong> The status bonus to attack and damage rolls granted by this spell is increased to +2.</p><p><strong>Heightened (7th)</strong> The status bonus to attack and damage rolls granted by this spell is increased to +3.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.d7T8kDpQSCARDzRT]{Spell Effect: Embodiment of Battle}</p><p></p>"
+    },
+    "rules": [],
+    "slug": "embodiment-of-battle",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.857,
+        "foundry": "12.331",
+        "system": "6.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animist",
+        "focus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "War of Immortals Class Playtest",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "systems/pf2e/icons/spells/competitive-edge.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "3bdccda0ca7d48ea0df72f7b3d3d793ddb15833b",
+      "sourceId": "Item.7iwdqIJaE9rQ38IR"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726812088000,
+    "modifiedTime": 1727437497602,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "NMNk4N5xK2vj1K1p",
+  "sort": 0,
+  "_key": "!items!NMNk4N5xK2vj1K1p"
+}

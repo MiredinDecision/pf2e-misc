@@ -1,0 +1,162 @@
+{
+  "name": "Verve Bracer",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This bronze and copper bracer seems to gently thrum with contained energy.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><p><strong>Requirement</strong> A weapon or shield is not stored in the bracer</p><p><strong>Effect</strong> One weapon youre wielding dissipates into energy, stored inside the bracer.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact, Envision</p><p><strong>Requirements</strong> A weapon or shield is stored in the bracer</p><p><strong>Effect</strong> You snap, gesture, or otherwise move your hand while thinking the name of a weapon or shield stored in the bracer. The item rematerializes in your hand, and can become a <em>+1 Striking</em> weapon or a <em>Minor Reinforcing</em> shield for a minute.</p><hr /><p>Like all Resonating items, this bracer has a slot to fit an aeon stone to it, activating the stone's resonating power and not requiring an additional investment slot. Alongside this, when investing multiple Resonating items, the item gains the following effects.</p><ul><li><p><em>Two Items: </em>The Verve Bracer can store up to two items. Each weapon must be individually stored and called. When a weapon is stored in the Bracer, it conveys a +1 status bonus to initiative rolls as it quicky detects and responds to threats.</p></li><li><p><em>Three Items: </em>The Bracer can store up to three items. When a shield is stored in the bracer, it conveys a +1 circumstane bonus to AC at all times as a shimmering nearly invisible shield is projected from its surface.</p></li></ul><p><strong>Special</strong> if you have the @UUID[Compendium.pf2e-misc.our-items.92KTPyRenEPK7HuX]{Astral Armiger} class feature, this bracer can function as a @UUID[Compendium.pf2e-misc.our-items.D2WtBcXDDPIia7rB]{Star Ring}, and is able to be etched with weapon runes that affect all attuned Regalia. In this case, a <em>Verve Bracer</em> allows its wielder to store and call two extra Regalia. If you have three Resonating items invested, alongside the passive bonuses you recieve for storing specific items, your number of extra Regalia increases to three.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.resonatingItems",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.resources.astralArmiger.max",
+        "value": {
+          "brackets": [
+            {
+              "end": 2,
+              "value": 2
+            },
+            {
+              "start": 3,
+              "value": 3
+            }
+          ],
+          "field": "flags.pf2e.resonatingItems"
+        },
+        "predicate": [
+          "feature:astral-armiger"
+        ],
+        "priority": 51
+      },
+      {
+        "key": "RollOption",
+        "label": "Verve Bracer - Stored Shield",
+        "option": "verve-stored-shield",
+        "toggleable": true,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.resonatingItems}",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "verve-stored-shield",
+          {
+            "gte": [
+              "{actor|flags.pf2e.resonatingItems}",
+              3
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "verve-bracer",
+    "_migration": {
+      "version": 0.943,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "extradimensional",
+        "invested",
+        "magitech",
+        "resonating"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 400
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "wornwrist"
+    },
+    "subitems": []
+  },
+  "_id": "zESrlUgHuC9pZBVI",
+  "img": "icons/equipment/wrist/bracer-orange-fancy.webp",
+  "folder": "XDqd7ajVNQRwhdES",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "19LQrWiE2jMTbelH": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6321965316c573482be95027f5ec87ff350733bc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Item.zESrlUgHuC9pZBVI",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1758731760419,
+    "modifiedTime": 1758781285548,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!zESrlUgHuC9pZBVI"
+}

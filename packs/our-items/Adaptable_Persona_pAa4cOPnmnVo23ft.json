@@ -1,0 +1,78 @@
+{
+  "folder": "DdPd98kxsm770DTK",
+  "name": "Adaptable Persona",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\"><strong>Adaptable Persona </strong>(transmutation) Armor only. When you manifest the essence form, gain your choice of a climb Speed or swim Speed equal to your land Speed. If you're 8th level or higher, you can choose a fly Speed instead. <em style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;color:rgb(231, 209, 177);font-family:Roboto, sans-serif;font-size:17.5px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(6, 4, 3, 0.92);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Corruption Flaw</em> You take a -10-foot penalty to all your Speeds.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "pAa4cOPnmnVo23ft",
+  "img": "icons/magic/control/encase-creature-monster-hold.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a66d833ec59d5689ec473779303515a9d71be85d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743454315405,
+    "modifiedTime": 1743454396923,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!pAa4cOPnmnVo23ft"
+}

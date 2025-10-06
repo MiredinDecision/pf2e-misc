@@ -1,0 +1,116 @@
+{
+  "img": "systems/pf2e/icons/features/classes/sneak-attack.webp",
+  "name": "Sneak Attack",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When your enemy can't properly defend itself, you take advantage to deal extra damage. If you Strike a creature that has the @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} condition with an agile or finesse melee weapon, an agile or finesse unarmed attack, a ranged weapon attack, or a ranged unarmed attack, you deal an extra 1d6 precision damage. For a ranged attack with a thrown melee weapon, that weapon must also be agile or finesse.</p>\n<p>As your rogue level increases, so does the number of damage dice for your sneak attack. Increase the number of dice by one at 5th, 11th, and 17th levels.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.TOTMToggle.OffGuard",
+        "option": "target:condition:off-guard",
+        "toggleable": "totm"
+      },
+      {
+        "category": "precision",
+        "label": "Sneak Attack",
+        "diceNumber": "@actor.flags.pf2e.sneakAttackDamage.number",
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "predicate": [
+          "target:condition:off-guard",
+          {
+            "or": [
+              "item:deity-favored",
+              {
+                "or": [
+                  "item:trait:agile",
+                  "item:trait:finesse",
+                  {
+                    "and": [
+                      "item:ranged",
+                      {
+                        "not": "item:thrown-melee"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "selector": "strike-damage"
+      }
+    ],
+    "slug": "sneak-attack",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.911,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cleric"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "type": "feat",
+  "flags": {
+    "core": {}
+  },
+  "effects": [],
+  "folder": "0Zj8p9NscEIwvM9j",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758944764957,
+    "modifiedTime": 1759000118676,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "ownership": {
+    "default": 0,
+    "TrgdccykoX5loCfC": 3
+  },
+  "_id": "iNfL95FhQGDmFCTb",
+  "sort": 0,
+  "_key": "!items!iNfL95FhQGDmFCTb"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Fix Bladebound (Black Blade, Magus+)",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "H2Ro5pzJhi18zQN8",
+  "description": "",
+  "sort": 6600000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "1e6ed0b2b88a90b2bcd431ddde2542905287cc8d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743383967342,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!H2Ro5pzJhi18zQN8"
+}

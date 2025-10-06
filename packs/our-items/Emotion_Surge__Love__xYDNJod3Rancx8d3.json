@@ -1,0 +1,80 @@
+{
+  "folder": "nWsgyn98yuDJc4ng",
+  "name": "Emotion Surge (Love)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> emotion</p><p><strong>Frequency </strong>once per hour</p><p><strong>Activate </strong><span class=\"action-glyph\">1 </span>command</p><hr /><p><strong>Effect</strong> A surge of emotion emanates from your relic, granting a +1 status bonus to skill checks determined by the relic's emotion. This bonus lasts for 1 minute.<br /><strong>Love </strong>Medicine checks</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.feiKYGRH1i3q4RcM]{Effect: Emotion Surge (Love)}</p>"
+    },
+    "rules": [],
+    "slug": "emotion-surge-love",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "emotion",
+        "relic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.feiKYGRH1i3q4RcM",
+      "name": "Effect: Emotion Surge (Love)"
+    }
+  },
+  "_id": "xYDNJod3Rancx8d3",
+  "img": "icons/magic/life/heart-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e2deb4a7118b9612e30d9369d193d561cb52a84c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729321016993,
+    "modifiedTime": 1729321414507,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!xYDNJod3Rancx8d3"
+}

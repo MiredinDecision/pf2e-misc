@@ -1,0 +1,99 @@
+{
+  "folder": "AiClGjgsPZ4wmVvh",
+  "name": "Effect: Press the Advantage",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Applied by @UUID[Compendium.pf2e-misc.our-items.Item.I6ipikiIiEHQekPN]{Press the Advantage}</p><p>Reduce all physical resistances the target has by 2 until the end of your next turn, doubled on a critical hit.</p><p>At 12th level, this reduction increases to 5, and at 20th level it increases to 7.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "-2 Physical Resistances",
+            "value": 2
+          },
+          {
+            "label": "-5 Physical Resistances",
+            "value": 5
+          },
+          {
+            "label": "-7 Physical Resistances",
+            "value": 7
+          }
+        ],
+        "prompt": "Select the amount",
+        "rollOption": "effectPressTheAdvantage",
+        "flag": "effectPressTheAdvantage"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "subtract",
+        "path": "system.attributes.resistances.physical.value",
+        "value": "@item.flags.pf2e.rulesSelections.effectPressTheAdvantage",
+        "phase": "afterDerived"
+      }
+    ],
+    "slug": "effect-press-the-advantage",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "6kbFf8jcd5in8MSl",
+  "img": "icons/skills/melee/shield-damaged-broken-gold.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b0f9eb2d9af4160887356661c323913c532979b7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728717089108,
+    "modifiedTime": 1728746512887,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!6kbFf8jcd5in8MSl"
+}

@@ -1,0 +1,119 @@
+{
+  "folder": "YqfJRVPOF9d13vpx",
+  "name": "Soulbound Warrior Dedication (KW)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a 1st or 2nd level evolution feat, and the @UUID[Compendium.pf2e.feats-srd.qmx8QwVepqI9FqiD]{Tandem Movement} class feat, despite not meeting it's prerequisites.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                2
+              ]
+            },
+            "item:category:class",
+            "item:trait:evolution"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "evolutionFeat",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.EvolutionFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.evolutionFeat}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.qmx8QwVepqI9FqiD",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "soulbound-warrior",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Summoner"
+        },
+        {
+          "value": "Warrior's Soul Bond"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "2706340eced9a885355d29c8ba8af3178c498777",
+      "sourceId": "Item.Q38vAG72So9Gsqmj"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759552797947,
+    "modifiedTime": 1759552797947,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "_id": "WXJjCYlAJxR3v9ip",
+  "sort": 0,
+  "_key": "!items!WXJjCYlAJxR3v9ip"
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Arcane Conservation",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A magus is known not only for their ability to channel magic into their esoteric blows, but also in capturing the residual energy from these attacks for future use. The most common type of these methods being Arcane Cascade, absorbing the energy of recently channeled magic into their attacks. This is but one way that a magus can conserve residual magic for future use, and other such methods rely on archaic, costly, and sometimes even accursed knowledge.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:magus-arcane-conservation"
+          ]
+        },
+        "flag": "arcaneConservation",
+        "key": "ChoiceSet",
+        "prompt": "Choose an Arcane Conservation."
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.arcaneCascade.damageType",
+        "priority": -100,
+        "value": "untyped"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.arcaneConservation}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "arcane-conservation",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Magus+",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/features/classes/choice-feature.webp",
+  "ownership": {
+    "default": 0,
+    "7oWVMvY4T6vgcOLC": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743391302483,
+    "modifiedTime": 1743391441560,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "H2Ro5pzJhi18zQN8",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.magus.magus-class-features.Item.6rmyqc9dON7U41Iw",
+      "hash": "30e1395f75fc07bfee9235bfcef6bc2965ce4eab"
+    }
+  },
+  "_id": "K0xPK34j6REKdo66",
+  "sort": 0,
+  "_key": "!items!K0xPK34j6REKdo66"
+}

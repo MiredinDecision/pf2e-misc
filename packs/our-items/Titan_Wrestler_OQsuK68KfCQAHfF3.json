@@ -1,0 +1,83 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Titan Wrestler",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} creatures up to two sizes larger than you. This increase to three sizes larger than you at Expert, four sizes larger than you at Master, and five sizes larger than you at Legendary.</p>"
+    },
+    "rules": [],
+    "slug": "titan-wrestler",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "general",
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Athletics"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "abd691b814e01b0024271b4402c0c426e1b857af"
+    }
+  },
+  "effects": [],
+  "folder": "suC0JkDUJkV04Frx",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.OQsuK68KfCQAHfF3",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261007139,
+    "modifiedTime": 1728261007139,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "OQsuK68KfCQAHfF3",
+  "sort": 0,
+  "_key": "!items!OQsuK68KfCQAHfF3"
+}

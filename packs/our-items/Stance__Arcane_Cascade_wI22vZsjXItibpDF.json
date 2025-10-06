@@ -1,0 +1,257 @@
+{
+  "img": "systems/pf2e/icons/features/classes/arcane-cascade.webp",
+  "name": "Stance: Arcane Cascade",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You used your most recent action this turn to use a <span class=\"action-glyph\">1</span> activity with the Magus trait, @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell}, or make a @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]{Spellstrike}. You need to meet this requirement only to enter the stance, not to remain in it.</p><hr /><p>You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, you do not trigger reactions when you @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} or Spellstrike, your melee Strikes deal 1 extra force damage,and when you Spellstrike with a spell that requires the target to make a save you use your Key Attribute Modifier to determine your Spell DC instead of your spellcasting attribute. If you would @UUID[Compendium.sf2e-anachronism.actions.Item.ydUK0TjHlK8VKgbs]{Recharge} your Spellstrike while it is already charged, you can immediately enter Arcane Cascade as a free action.</p><p>The damage from Arcane Cascade increases to 2 if you have weapon specialization, and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the trait of your spellcasting tradition, making it magical.</p><p>If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is instead the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage).</p>"
+    },
+    "rules": [
+      {
+        "events": {
+          "onCreate": true,
+          "onTurnStart": true
+        },
+        "key": "TempHP",
+        "predicate": [
+          "feature:inexorable-iron",
+          "self:weapon:melee",
+          "self:weapon:hands-held:2"
+        ],
+        "value": "max(floor(@actor.level / 2), 1)"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.SpecificRule.Magus.ArcaneCascade.WeaponDamage",
+            "value": ""
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          },
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          }
+        ],
+        "flag": "stanceArcaneCascade",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DamageType"
+      },
+      {
+        "definition": [
+          "item:melee"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "arcane"
+      },
+      {
+        "damageType": "{item|flags.pf2e.rulesSelections.stanceArcaneCascade}",
+        "key": "FlatModifier",
+        "predicate": [
+          "item:melee"
+        ],
+        "selector": "strike-damage",
+        "slug": "arcane-cascade-extra-damage",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:melee",
+          "feature:weapon-specialization"
+        ],
+        "selector": "strike-damage",
+        "slug": "arcane-cascade-extra-damage",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:melee",
+          "feature:greater-weapon-specialization"
+        ],
+        "selector": "strike-damage",
+        "slug": "arcane-cascade-extra-damage",
+        "value": 3
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.arcaneCascade.damageType",
+        "value": "{item|flags.pf2e.rulesSelections.stanceArcaneCascade}"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feature:sanguine-blade"
+        ],
+        "selector": "attack-spell-damage",
+        "slug": "sanguine-blood-spell",
+        "value": "ternary(gte(@actor.level,15),3,ternary(gte(@actor.level,7),2,1))"
+      },
+      {
+        "definition": [
+          "item:melee"
+        ],
+        "predicate": [
+          "feature:sanguine-blade"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "divine"
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "failure"
+        ],
+        "predicate": [
+          "feature:sanguine-blade"
+        ],
+        "selector": "spell-attack-roll",
+        "text": "Apply @Damage[ternary(gte(@actor.level,15),3,ternary(gte(@actor.level,7),2,1))] from Arcane Cascade to that spell, even on a failure.",
+        "title": "Sanguine Blade"
+      },
+      {
+        "key": "RollOption",
+        "label": "Spellstrike with Save Spell",
+        "toggleable": true,
+        "option": "spellstrike-save-spell"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "spell-dc",
+          "spell-attack"
+        ],
+        "type": "ability",
+        "ability": "str",
+        "force": true,
+        "predicate": [
+          "spellstrike-save-spell"
+        ]
+      }
+    ],
+    "slug": "stance-arcane-cascade",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757820190058,
+    "modifiedTime": 1757822633922,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "SwgcF0IuqERjojiI",
+  "flags": {
+    "scene-packer": {
+      "hash": "06f40a0349723b172c7d7dd71606a8cadcbbd7f7",
+      "sourceId": "Item.L2HLetEfptUoAhNs"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "wI22vZsjXItibpDF",
+  "sort": 0,
+  "_key": "!items!wI22vZsjXItibpDF"
+}

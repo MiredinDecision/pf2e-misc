@@ -1,0 +1,27 @@
+{
+  "name": "Dedication Bloom of the Sanguine",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "85ANeLwWOFlaXvjk",
+  "description": "",
+  "sort": 3400000,
+  "color": "#603030",
+  "flags": {
+    "scene-packer": {
+      "hash": "4be6c42d6b4db51e056a905759c9c9a2ac9b1a79"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729277490565,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!85ANeLwWOFlaXvjk"
+}

@@ -1,0 +1,102 @@
+{
+  "folder": "RWeDlc7lFibE2E0I",
+  "name": "Sumira's Bandolier",
+  "type": "backpack",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This leather bandolier holds up to three @UUID[Item.P09rbchZP7kR8Cki]{Strange Firearm Magazines} in leather pockets that pop open with the quick flick of a thumb. You reduce the reload time for a repeating hand crossbow magazine from the bandolier by 1, to a total of 2 actions. You can wear only one shootist bandolier at a time.</p>"
+    },
+    "rules": [],
+    "slug": "sumiras-bandolier",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0,
+      "heldOrStowed": 0,
+      "capacity": 3,
+      "ignored": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Container",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "collapsed": false,
+    "stowing": true,
+    "usage": {
+      "value": "worn"
+    }
+  },
+  "_id": "vChJ7vjtHoZGmmT1",
+  "img": "systems/pf2e/icons/equipment/adventuring-gear/shootist-bandolier.webp",
+  "sort": 50000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3282e5aa73898968b0594bd8938f7e855f390736"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802837111,
+    "modifiedTime": 1726802837111,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "_key": "!items!vChJ7vjtHoZGmmT1"
+}

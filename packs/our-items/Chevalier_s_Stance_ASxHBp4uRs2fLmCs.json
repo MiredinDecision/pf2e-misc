@@ -1,0 +1,87 @@
+{
+  "folder": "6Slvh3DHuFQCQIhI",
+  "name": "Chevalier's Stance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> <em>spirit</em></p><p><strong>Activate</strong> <span class=\"action-glyph\">2 </span>concentrate, envision, manipulate</p><p><strong>Frequency</strong> Once per day</p><hr /><p><strong>Effect</strong> The spirit within your relic takes control of your body as you fall. All active and sustained spells you have cast end immediately, even if they have a set duration. The only exception to this is the spell @UUID[Compendium.pf2e-misc.our-items.Item.8yq4AodlNjgXj29I]{Embodiment of Battle}, which is cast as a free action if the spell is not currently active and you have focus points to cast it with.</p><p>You gain temporary HP equal to your four times your Constitution plus your relic's level. Until the stance ends or the temporary HP is reduced to 0, you immediately go to 1 HP and become @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded 1}, you are not knocked unconscious, and do not drop your weapons. <span style=\"font-family:Roboto, sans-serif\">You can use wisdom as your attack and damage modifier for Strikes.</span></p><p>@UUID[Compendium.pf2e-misc.our-items.Item.duhdHIIKaBPqxUrF]{Effect: Chevalier's Stance}</p>"
+    },
+    "rules": [],
+    "slug": "chevaliers-stance",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.8.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "spirit"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.duhdHIIKaBPqxUrF",
+      "name": "Effect: Chevalier's Stance"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "systems/pf2e/icons/spells/possession.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8d820954aac8bc641cae015562211a368ba28f7e",
+      "sourceId": "Item.VLjw6DRGiS8bEYIX"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735586998757,
+    "modifiedTime": 1735590091829,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "ASxHBp4uRs2fLmCs",
+  "sort": 50000,
+  "_key": "!items!ASxHBp4uRs2fLmCs"
+}

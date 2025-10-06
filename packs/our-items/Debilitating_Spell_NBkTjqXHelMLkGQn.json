@@ -1,0 +1,76 @@
+{
+  "folder": "yyzzUp971t5Ni8uH",
+  "name": "Debilitating Spell",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">When taking advantage of an opening, you both hinder and harm your foe. You gain the </span>@UUID[Compendium.pf2e-misc.our-items.Item.79rFUqoZ5xeriUFL]{Debilitating Spell}<span style=\"font-family:Roboto, sans-serif\"> free action.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.79rFUqoZ5xeriUFL"
+      }
+    ],
+    "slug": "debilitating-spell",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "NBkTjqXHelMLkGQn",
+  "img": "icons/magic/unholy/projectile-fireball-agile-purple.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8c230ce7571f1ab4a59f97d1ad31e0fd04ee966a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727117039847,
+    "modifiedTime": 1727117339555,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!NBkTjqXHelMLkGQn"
+}

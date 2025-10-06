@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Deity",
+  "color": null,
+  "sorting": "a",
+  "_id": "wJJKQCgZG0wDJbD4",
+  "description": "",
+  "sort": 1000000,
+  "flags": {
+    "scene-packer": {
+      "hash": "f0e7514fe43d799971a9f7d6407f85901010fbaa"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.0",
+    "createdTime": 1755615583261,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!wJJKQCgZG0wDJbD4"
+}

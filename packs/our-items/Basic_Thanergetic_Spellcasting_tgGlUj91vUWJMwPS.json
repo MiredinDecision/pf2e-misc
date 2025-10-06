@@ -1,0 +1,82 @@
+{
+  "folder": "0SnbUw7D5Eh8YMdU",
+  "name": "Basic Thanergetic Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your thanergetic energy increases, allowing you to cast more powerful thanergetic spells. You gain a 1st-rank spell slot that can only be used to prepare spells from the thanergetic spell list. At 6th level, you gain a 2nd-rank spell slot, and at 8th level you gain a 3rd-rank spell slot.</p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">In addition, if you're able to target the mostly intact remains of an appropriate type of dead creature when casting <em>summon undead</em>, the undead you animate gains a +1 status bonus to attack rolls, AC, saving throws, and skill checks for the duration of <em>summon undead</em>.<br />@UUID[Compendium.pf2e-misc.our-items.Item.s80BCDxMY5wRvh1y]{Effect: Thanergetic Spellcasting}</span></p>"
+    },
+    "rules": [],
+    "slug": "basic-thanergetic-spellcasting",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Thanergetic Mage Dedication"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 1
+        }
+      }
+    }
+  },
+  "_id": "tgGlUj91vUWJMwPS",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d94bcc2f09d46f083de63f82d0ce6d6700247e86"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726967534353,
+    "modifiedTime": 1726984616576,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!tgGlUj91vUWJMwPS"
+}

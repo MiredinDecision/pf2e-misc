@@ -1,0 +1,200 @@
+{
+  "folder": "kw7Cdwcx7pAM35BV",
+  "img": "icons/magic/nature/root-vine-beanstolk-green.webp",
+  "name": "Flourishing Flora",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Plants rapidly grow up from the ground. All creatures in the target area take 2d4 damage. The type of damage depends on the type of plant you choose to grow. On a critical failure, targets experience additional effects, also depending on what you choose to grow. The type of plant and its effects are chosen when you Cast the Spell.</p><ul><li><strong>Cacti</strong> Piercing damage, and @Damage[(@item.level)[bleed]] or @Damage[(@item.level)[spirit]] damage on a critical failure.</li><li><strong>Flowers</strong> Poison damage, and @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds on a critical failure.</li><li><strong>Fruits</strong> Bludgeoning damage, and @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 2 rounds on a critical failure.</li><li><strong>Roots</strong> Bludgeoning damage, and the affected creatures fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} on a critical failure.</li></ul><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d4, and the persistent damage from cacti increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "flourishing-flora",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "plant",
+        "wood"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "type": "burst",
+      "value": 5
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "basic": true,
+        "statistic": "reflex"
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "6vSnfwRnUWyZHy9T": {
+        "_id": "6vSnfwRnUWyZHy9T",
+        "name": "Flourishing Flora (Roots)",
+        "overlayType": "override",
+        "sort": 4,
+        "system": {
+          "damage": {
+            "yDUpRhWBFgdtBTqW": {
+              "applyMod": false,
+              "category": null,
+              "formula": "2d4",
+              "materials": [],
+              "type": "bludgeoning"
+            }
+          },
+          "heightening": {
+            "damage": {
+              "yDUpRhWBFgdtBTqW": "1d4"
+            },
+            "interval": 1,
+            "type": "interval"
+          }
+        }
+      },
+      "9F9TDQen8t36f2Hy": {
+        "_id": "9F9TDQen8t36f2Hy",
+        "name": "Flourishing Flora (Flowers)",
+        "overlayType": "override",
+        "sort": 2,
+        "system": {
+          "damage": {
+            "NG8iJ8V08LYNGE2U": {
+              "applyMod": false,
+              "category": null,
+              "formula": "2d4",
+              "materials": [],
+              "type": "poison"
+            }
+          },
+          "heightening": {
+            "damage": {
+              "NG8iJ8V08LYNGE2U": "1d4"
+            },
+            "interval": 1,
+            "type": "interval"
+          }
+        }
+      },
+      "pn5DHoYhppEpIsdO": {
+        "_id": "pn5DHoYhppEpIsdO",
+        "name": "Flourishing Flora (Fruits)",
+        "overlayType": "override",
+        "sort": 3,
+        "system": {
+          "damage": {
+            "NdoyC7Quio9EO78V": {
+              "applyMod": false,
+              "category": null,
+              "formula": "2d4",
+              "materials": [],
+              "type": "bludgeoning"
+            }
+          },
+          "heightening": {
+            "damage": {
+              "NdoyC7Quio9EO78V": "1d4"
+            },
+            "interval": 1,
+            "type": "interval"
+          }
+        }
+      },
+      "b3iDKTx36pQ50rrM": {
+        "name": "Flourishing Flora (Cacti)",
+        "system": {
+          "damage": {
+            "GP7TJnF7wP3usMHf": {
+              "applyMod": false,
+              "category": null,
+              "formula": "2d4",
+              "materials": [],
+              "type": "piercing",
+              "kinds": [
+                "damage"
+              ]
+            }
+          },
+          "heightening": {
+            "damage": {
+              "GP7TJnF7wP3usMHf": "1d4"
+            },
+            "interval": 1,
+            "type": "interval",
+            "area": 0
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758235379455,
+    "modifiedTime": 1758238442646,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "11400d4ff0fd54dcf88dac197a172efe49482ddd",
+      "sourceId": "Actor.Sk0x5dGjX1LuSDjq.Item.2H1p4aU23qBRd67h"
+    }
+  },
+  "_id": "o1ovDCHwNGJlf4dP",
+  "sort": 200000,
+  "_key": "!items!o1ovDCHwNGJlf4dP"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Even More Magic",
+  "color": "#ff94fb",
+  "sorting": "a",
+  "_id": "J6Zf0Nw8rYekDenH",
+  "description": "",
+  "sort": 1700000,
+  "flags": {
+    "scene-packer": {
+      "hash": "716be181b8ba82f1bb5b76ad22918c8b09e3edca"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "modifiedTime": 1759606595920
+  },
+  "_key": "!folders!J6Zf0Nw8rYekDenH"
+}

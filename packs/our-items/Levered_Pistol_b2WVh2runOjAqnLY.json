@@ -1,0 +1,155 @@
+{
+  "name": "Levered Pistol",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This firearm uses a manually operated cocking handle around the trigger guard to reload ammunition and cock the firing pin in combat.</p><p>Like all Resonating items, this weapon has a slot to fit a Ioun stone to it, activating its resonating power and not requiring an additional investment slot. Alongside this, when investing multiple Resonating items, this item gains the following effects.</p><ul><li><p><em>Two Items: </em>The Levered Pistol gains the Repeating trait as ioun energy feeds into the reloading system, allowing for rapid firing and reloading. The pistol still only holds five bullets and must be reloaded as a three action activity when used in this way.</p></li><li><p><em>Three Items: </em>The Levered Pistol gains the Rapid Fire activation.</p></li></ul><hr /><p><strong>Activate -</strong> <strong>Rapid Fire</strong> <span class=\"action-glyph\">3</span> (interact)</p><p><strong>Frequency </strong>once per day</p><p><strong>Effect</strong> You shift your grip on the Levered Pistol before quickly firing its entire magazine in a 20ft cone. Make a single attack roll against the AC of any targets in the cone, dealing double the remaining ammunition d10 in damage to each target the attack would hit (doubled on a crit).</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.resonatingItems",
+        "value": 1
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "repeating",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.resonatingItems}",
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "levered-pistol",
+    "_migration": {
+      "version": 0.943,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "capacity-5",
+        "concussive",
+        "fatal-d10",
+        "invested",
+        "magitech",
+        "resonating"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "quantity": 1,
+    "baseItem": "air-repeater",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 200
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "firearm",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": 40,
+    "expend": 1,
+    "reload": {
+      "value": "0"
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": []
+  },
+  "_id": "b2WVh2runOjAqnLY",
+  "img": "modules/sf2e-anachronism/art/icons/equipment/weapons/pistol.webp",
+  "folder": "XDqd7ajVNQRwhdES",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "19LQrWiE2jMTbelH": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9441d7d50f1e347d65ca4e8f845ed860f831fd60"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Item.b2WVh2runOjAqnLY",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1758731760419,
+    "modifiedTime": 1758755761165,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!b2WVh2runOjAqnLY"
+}

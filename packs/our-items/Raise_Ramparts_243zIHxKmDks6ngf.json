@@ -1,0 +1,80 @@
+{
+  "img": "systems/pf2e/icons/actions/ThreeActions.webp",
+  "name": "Raise Ramparts",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> earth</p><p><strong>Activate</strong> <span class=\"action-glyph\">3</span> (concentrate, manipulate)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Your relic reshapes the earth around you. You cast 5th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]{Wall of Stone}</em>.</p>"
+    },
+    "rules": [],
+    "slug": "raise-ramparts",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.88,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "earth"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 3
+    },
+    "deathNote": false,
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "type": "action",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-relics.relic-gifts.Item.VNIbZwUK7bPgIqvO",
+      "hash": "df7812fe65caa84dd35741634614a8a78200bf30"
+    }
+  },
+  "effects": [],
+  "folder": "6Slvh3DHuFQCQIhI",
+  "ownership": {
+    "default": 0,
+    "ldCLXFyluOJpOy7S": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728264964602,
+    "modifiedTime": 1735507277591,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "243zIHxKmDks6ngf",
+  "sort": 100000,
+  "_key": "!items!243zIHxKmDks6ngf"
+}

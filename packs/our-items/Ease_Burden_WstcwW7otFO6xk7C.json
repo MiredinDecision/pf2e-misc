@@ -1,0 +1,134 @@
+{
+  "folder": "ADoMbgwYlnecyynk",
+  "name": "Ease Burden",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> earth</p><hr /><p>Your relic draws strength from the earth underfoot to lighten your load. As long as your relic is on your person and you are standing on the ground, you can carry 1 more Bulk than normal before becoming encumbered, and you increase your maximum Bulk by 2. At 6th level and every 4 levels thereafter, increase the Bulk you can carry before becoming encumbered by 1 and your maximum Bulk by 2.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "inventory.bulk.encumberedAfterAddend",
+        "value": {
+          "brackets": [
+            {
+              "end": 5,
+              "value": 1
+            },
+            {
+              "end": 9,
+              "start": 6,
+              "value": 2
+            },
+            {
+              "end": 13,
+              "start": 10,
+              "value": 3
+            },
+            {
+              "end": 17,
+              "start": 14,
+              "value": 4
+            },
+            {
+              "start": 18,
+              "value": 5
+            }
+          ]
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "inventory.bulk.maxAddend",
+        "value": {
+          "brackets": [
+            {
+              "end": 5,
+              "value": 2
+            },
+            {
+              "end": 9,
+              "start": 6,
+              "value": 4
+            },
+            {
+              "end": 13,
+              "start": 10,
+              "value": 6
+            },
+            {
+              "end": 17,
+              "start": 14,
+              "value": 8
+            },
+            {
+              "start": 18,
+              "value": 10
+            }
+          ]
+        }
+      }
+    ],
+    "slug": "ease-burden",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "WstcwW7otFO6xk7C",
+  "img": "systems/pf2e/icons/spells/inspire-courage.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a749637fa6ec82e828a0a09845926c037b25ff93"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728308428355,
+    "modifiedTime": 1735586913584,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!WstcwW7otFO6xk7C"
+}

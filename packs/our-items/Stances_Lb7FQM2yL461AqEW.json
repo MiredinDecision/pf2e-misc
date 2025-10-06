@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "XntX8b8fld3mvTMK",
+  "name": "Stances",
+  "color": null,
+  "sorting": "a",
+  "_id": "Lb7FQM2yL461AqEW",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "b03625083a98525e552f38585ef2249f1b1ed485"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!Lb7FQM2yL461AqEW"
+}

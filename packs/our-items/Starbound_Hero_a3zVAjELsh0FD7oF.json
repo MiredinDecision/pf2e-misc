@@ -1,0 +1,465 @@
+{
+  "name": "Starbound Hero",
+  "type": "class",
+  "img": "systems/pf2e/icons/spells/spray-of-stars.webp",
+  "system": {
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "attacks": {
+      "advanced": 1,
+      "martial": 2,
+      "other": {
+        "name": "",
+        "rank": 0
+      },
+      "simple": 2,
+      "unarmed": 2
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "defenses": {
+      "heavy": 1,
+      "light": 1,
+      "medium": 1,
+      "unarmored": 1
+    },
+    "description": {
+      "value": "<p><em>Fighting for honor, greed, loyalty, or simply the thrill of battle, you are an undisputed master of weaponry and combat techniques. You combine your actions through clever combinations of opening moves, finishing strikes, and counterattacks whenever your foes are unwise enough to drop their guard. Whether you are a knight, mercenary, sharpshooter, or blade master, you have honed your martial skills into an art form and perform devastating critical attacks on your enemies.</em></p><p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.HZbrRRVzW7w17L2W]{Fighter}</em></p><p><em>Your conduit to divine power eschews the traditional channels of prayer and servitude—you instead glean sacred truths and great mysteries embodied in overarching concepts, whether because you perceive the common ground across multiple deities or circumvent their power entirely.</em></p><p><em>You explore one of these mysteries and draw upon its power to cast miraculous spells, but that power comes with a terrible price: a curse that grows stronger the more you draw upon it, which you might uphold as an instrument of the divine or view as punishment from the gods.</em></p><p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.bqaqOx3naiwTozBX]{Oracle}</em></p>",
+      "gm": ""
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "hp": 10,
+    "items": {
+      "2jey6": {
+        "img": "icons/equipment/head/helm-barbute-rounded-steel.webp",
+        "level": 11,
+        "name": "Fighter Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.bAaI7h937Nr3g93U"
+      },
+      "9c5ay": {
+        "img": "icons/equipment/chest/breastplate-banded-steel-gold.webp",
+        "level": 11,
+        "name": "Armor Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.x5jaCJxsmD5sx3KB"
+      },
+      "EYY9w": {
+        "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
+        "level": 1,
+        "name": "Reactive Strike",
+        "uuid": "Compendium.pf2e.classfeatures.Item.hmShTfPOcTaKgbf4"
+      },
+      "Yo8rt": {
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "level": 15,
+        "name": "Tempered Reflexes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.2ImD2TB0RVic1VUc"
+      },
+      "e1e4m": {
+        "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+        "level": 1,
+        "name": "Shield Block",
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH"
+      },
+      "eDncW": {
+        "img": "icons/creatures/mammals/bull-horned-blue.webp",
+        "level": 9,
+        "name": "Battle Hardened",
+        "uuid": "Compendium.pf2e.classfeatures.Item.gdSmSTaGDxf4g2d8"
+      },
+      "enizk": {
+        "img": "icons/environment/settlement/target-dummy.webp",
+        "level": 15,
+        "name": "Improved Flexibility",
+        "uuid": "Compendium.pf2e.classfeatures.Item.W2rwudMNcAxs8VoX"
+      },
+      "ij943": {
+        "img": "icons/environment/people/charge.webp",
+        "level": 7,
+        "name": "Battlefield Surveyor",
+        "uuid": "Compendium.pf2e.classfeatures.Item.TIvzBALymvb56L79"
+      },
+      "lakjk": {
+        "img": "icons/sundries/flags/banner-standard-tattered-red.webp",
+        "level": 3,
+        "name": "Bravery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.GJKJafDGuX4BeAeN"
+      },
+      "q0xyz": {
+        "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
+        "level": 17,
+        "name": "Armor Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.CGB1TczFhQhdQxml"
+      },
+      "txlgu": {
+        "img": "icons/environment/settlement/target-dummy.webp",
+        "level": 9,
+        "name": "Combat Flexibility",
+        "uuid": "Compendium.pf2e.classfeatures.Item.8g6HzARbhfcgilP8"
+      },
+      "u1d1r": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "level": 7,
+        "name": "Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+      },
+      "uKeq1": {
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "level": 15,
+        "name": "Greater Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9"
+      },
+      "x98c2": {
+        "img": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
+        "level": 19,
+        "name": "Versatile Legend",
+        "uuid": "Compendium.pf2e.classfeatures.Item.0H2LxtiZTJ275pSD"
+      },
+      "4FyXX": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cCTqkTHYnVCJKg4S",
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "name": "Mysterious Resolve",
+        "level": 7
+      },
+      "4KtTI": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.7AVspOB6ITNzGFZi",
+        "img": "icons/weapons/axes/axe-double-gold.webp",
+        "name": "Oracle Spellcasting",
+        "level": 1
+      },
+      "4qdk7": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.PRJYLksQEwT39bTl",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Mystery",
+        "level": 1
+      },
+      "66mj3": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.VKRjmXxBFLrJK01c",
+        "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+        "name": "Signature Spells",
+        "level": 3
+      },
+      "68tsw": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3",
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "name": "Legendary Spellcaster",
+        "level": 19
+      },
+      "6ygi2": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.571c1aGnvNVwfF6b",
+        "img": "icons/sundries/lights/candle-lit-angelic.webp",
+        "name": "Oracular Clarity",
+        "level": 19
+      },
+      "7gbv8": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.ibX2EhKkyUtbOHLj",
+        "img": "icons/sundries/scrolls/scroll-runed-brown.webp",
+        "name": "Oracular Curse",
+        "level": 1
+      },
+      "9dhwz": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc",
+        "img": "systems/pf2e/icons/features/classes/weapon-expertise.webp",
+        "name": "Weapon Expertise",
+        "level": 11
+      },
+      "K3vUt": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.tIpJHInpblTed5ZK",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Premonition Reflexes",
+        "level": 13
+      },
+      "OsZv7": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Kj59CmXnMJDKXKWx",
+        "img": "systems/pf2e/icons/features/classes/greater-resolve.webp",
+        "name": "Greater Mysterious Resolve",
+        "level": 17
+      },
+      "am0mt": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.NXUOtO9NytHQurlg",
+        "img": "systems/pf2e/icons/features/classes/revelation-spells.webp",
+        "name": "Revelation Spells",
+        "level": 1
+      },
+      "d7d3y": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7",
+        "img": "icons/equipment/back/mantle-collared-green.webp",
+        "name": "Light Armor Expertise",
+        "level": 13
+      },
+      "dmnaw": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.rrzItB68Er0DzKx7",
+        "img": "systems/pf2e/icons/features/classes/major-curse.webp",
+        "name": "Major Curse",
+        "level": 11
+      },
+      "jtk8p": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.F4brPlp1tHGUqyuI",
+        "img": "icons/equipment/neck/necklace-carved-bone-skull.webp",
+        "name": "Extreme Curse",
+        "level": 17
+      },
+      "k3rbd": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.70jqXP2eS4tRZ0Ok",
+        "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
+        "name": "Magical Fortitude",
+        "level": 9
+      },
+      "n1uo5": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Expert Spellcaster",
+        "level": 7
+      },
+      "nHlek": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.iwAzV1IlQ2pMHQoB",
+        "img": "icons/sundries/scrolls/scroll-yellow-teal.webp",
+        "name": "Divine Access",
+        "level": 11
+      },
+      "r3cFb": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH",
+        "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+        "name": "Spell Repertoire",
+        "level": 1
+      },
+      "wpam7": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Master Spellcaster",
+        "level": 15
+      },
+      "xuvG4": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.eTQZQGPMIZJHIR6J",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Oracular Senses",
+        "level": 11
+      },
+      "NvpHW": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HWNvRM0c5cZrwM8v",
+        "img": "systems/pf2e/icons/spells/enduring-might.webp",
+        "name": "Dual Class Attribute",
+        "level": 1
+      },
+      "3kyzq": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.b5fsllHvYn4L1WpE",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Fighter Weapon Mastery (Polearms & Spears)",
+        "level": 5
+      },
+      "z7qLS": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.K7iZcS9DKsgrxypY",
+        "img": "icons/weapons/axes/axe-broad-engraved-black-grey.webp",
+        "name": "Weapon Legend (Polearms & Spears)",
+        "level": 13
+      },
+      "G4TlL": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.cSZtjdt0U9KkX14e",
+        "img": "icons/weapons/polearms/spear-flared-blue.webp",
+        "name": "Warrior of Legend",
+        "level": 1
+      }
+    },
+    "keyAbility": {
+      "value": [
+        "dex",
+        "str",
+        "cha"
+      ],
+      "selected": null
+    },
+    "perception": 2,
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.Skill.Acrobatics",
+            "value": "acrobatics"
+          },
+          {
+            "label": "PF2E.Skill.Athletics",
+            "value": "athletics"
+          }
+        ],
+        "flag": "fighterSkill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.fighterSkill}.rank",
+        "value": 1
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:fighter",
+        "priority": 0
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:oracle",
+        "priority": 0
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "str"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "dex"
+          }
+        ],
+        "flag": "attribute",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore",
+        "selection": "str"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.fighter.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attribute}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.oracle.attribute",
+        "value": "cha"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.fighter.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.oracle.rank",
+        "value": 1
+      }
+    ],
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 2,
+      "will": 2
+    },
+    "skillFeatLevels": {
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    },
+    "spellcasting": 0,
+    "trainedSkills": {
+      "additional": 3,
+      "value": [
+        "religion"
+      ]
+    },
+    "traits": {
+      "rarity": "unique",
+      "otherTags": []
+    },
+    "slug": "starbound-hero",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    },
+    "scene-packer": {
+      "hash": "53155998e4b764a8b83ff05a461daa2a93476536",
+      "sourceId": "Item.eW5ghEQj7xLrgBrO"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1755485293942,
+    "modifiedTime": 1758066247147,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "_id": "a3zVAjELsh0FD7oF",
+  "sort": 600000,
+  "_key": "!items!a3zVAjELsh0FD7oF"
+}

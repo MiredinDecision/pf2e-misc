@@ -1,0 +1,88 @@
+{
+  "folder": "kTte2aNgtADum8Ij",
+  "name": "Lost and Alone",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You were a knight of the Lunar order in Ancient Azlant, and were present at Earthfall. Now, you're somehow in the present - lost, and alone. You're looking for a new purpose, and a new home.</p><p>Choose two attribute boosts. One must be to <strong>Wisdom</strong> or <strong>Constitution</strong>, and one is a free attribute boost.</p><p>You're trained in the Medicine skill, and the Azlant and Warfare Lore skill. You gain the @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Battle Medicine} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "lost-and-alone",
+    "_migration": {
+      "version": 0.941,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "con",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "oeDOR": {
+        "uuid": "Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt",
+        "img": "icons/sundries/books/book-red-exclamation.webp",
+        "name": "Battle Medicine",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "medicine"
+      ],
+      "lore": [
+        "Azlanti Lore",
+        "Warfare Lore"
+      ]
+    }
+  },
+  "_id": "zJxDVTBjToLMj1qz",
+  "img": "modules/pf2e-misc/assets/icons/Acavna2.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0a0db4feca50b6bbdc41e09e4dfb9975a9103448"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755005568862,
+    "modifiedTime": 1755006456407,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!zJxDVTBjToLMj1qz"
+}

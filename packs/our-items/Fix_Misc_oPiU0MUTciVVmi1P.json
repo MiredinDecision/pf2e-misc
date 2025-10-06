@@ -1,0 +1,27 @@
+{
+  "name": "Fix Misc",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "oPiU0MUTciVVmi1P",
+  "description": "",
+  "sort": 3600000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "a9e7bbd281be46a313c66bd14b7af10116a5064c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728405407991,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!oPiU0MUTciVVmi1P"
+}

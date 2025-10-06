@@ -1,0 +1,27 @@
+{
+  "name": "Fix Soulforger",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "fLPqJbbY1KesMk67",
+  "description": "",
+  "sort": 2800000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "a3eef943c8df82510fad00440ad068509ee95472"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743454213613,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!fLPqJbbY1KesMk67"
+}

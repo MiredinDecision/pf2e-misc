@@ -1,0 +1,26 @@
+{
+  "name": "Leaf/Wooden Armor",
+  "sorting": "a",
+  "folder": "7OZbTCbckbg9PFqT",
+  "type": "Item",
+  "_id": "qvoMwaZTYMWhmXmF",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "33971a12c112726fcf993d6ea4697cbd0978f920"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!qvoMwaZTYMWhmXmF"
+}

@@ -1,0 +1,78 @@
+{
+  "folder": "XX9WlElnaWlltmjc",
+  "name": "Evasive Shadow",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">Your proficiency rank for Reflex saves increases to expert.</span></p>"
+    },
+    "rules": [],
+    "slug": "evasive-shadow",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "reflex": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "_id": "llzLn4XL8ZhOwPCV",
+  "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8b994dea699dfa07534d8b686c024799f3e92f1f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727101190968,
+    "modifiedTime": 1727365073999,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!llzLn4XL8ZhOwPCV"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Archetype Class Scarlet Blade",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "QeK4dLeTqtaezB5u",
+  "description": "",
+  "sort": 4700000,
+  "color": "#104010",
+  "flags": {
+    "scene-packer": {
+      "hash": "46a5f9cbdf1e39bd5163c01053746c258b55c376"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726806902397,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!QeK4dLeTqtaezB5u"
+}

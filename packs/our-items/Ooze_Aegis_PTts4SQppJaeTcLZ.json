@@ -1,0 +1,89 @@
+{
+  "folder": "GMgNVaiLN4DkdqQj",
+  "name": "Ooze Aegis",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your ooze body is resistant to almost every kind of energy in existence, as well as to poison. You gain resistance 5 to acid, cold, electricity, fire, force, mental, vitality, void, and sonic damage.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": [
+          "acid",
+          "cold",
+          "electricity",
+          "fire",
+          "force",
+          "mental",
+          "poison",
+          "sonic",
+          "vitality",
+          "void"
+        ],
+        "value": 5
+      }
+    ],
+    "slug": "ooze-aegis",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "19ea28792dbd625c067a9442ce5a04434e1b5ef5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.PTts4SQppJaeTcLZ",
+    "duplicateSource": "Item.bHVstDrDUMtLMBAb",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "PTts4SQppJaeTcLZ",
+  "_key": "!items!PTts4SQppJaeTcLZ"
+}

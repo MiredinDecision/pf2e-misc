@@ -1,0 +1,92 @@
+{
+  "folder": "GQCKhCvHAiTcM3Yg",
+  "name": "Greater Field Discovery (Gadgeteer)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>When you use a gadget, you can apply its effects to two targets. For gadgets that have an area effect, create a second area that does not overlap that is also affected by the gadget. Both effects of the gadgets can be Activated again using the advanced vials feature.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "label": "Greater Field Discovery",
+        "itemType": "consumable",
+        "predicate": [
+          "item:trait:gadget"
+        ],
+        "mode": "add",
+        "property": "description",
+        "value": [
+          {
+            "text": "When you use a gadget, you can apply its effects to two targets. For gadgets that have an area effect, create a second area that does not overlap that is also affected by the gadget. Both effects of the gadgets can be Activated again using the @UUID[Compendium.pf2e-misc.our-items.Item.6jc27HsryzIo6mtH]{advanced vials} feature."
+          }
+        ]
+      }
+    ],
+    "slug": "greater-field-discovery",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemist"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "BDkX8AlLorx4oPYV",
+  "img": "icons/commodities/tech/detonator-timer.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d5972cb5c2783288a7d404fc124043afd2e7d0cb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758071382837,
+    "modifiedTime": 1758072871821,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!BDkX8AlLorx4oPYV"
+}

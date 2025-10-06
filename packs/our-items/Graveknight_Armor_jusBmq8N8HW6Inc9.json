@@ -1,0 +1,120 @@
+{
+  "folder": "66V22y43AsCyDKYO",
+  "name": "Graveknight Armor",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\">A suit of armor, within which the soul of a graveknight is bound; your soul, hopefully. When you are slain, even if your body is destroyed, you resurrect within the suit of armor after 1d10 days, your body fully rebuilding itself if need be.</p><p dir=\"ltr\">Afterward, you awaken fully healed within the armor (lacking any equipment if your body was destroyed). Only fully obliterating the armor can prevent you from returning: if even a single piece of your armor remains, it will regenerate both itself and your body. Graveknight armor can be any suit of heavy armor.</p><p dir=\"ltr\">If you are ever separated from your armor, you are immediately slain, your soul exiting your body and returning to the armor as your former body quickly decays into dust. If another creature wears your armor for more than an hour, it is afflicted with the Graveknight’s Curse, as detailed below.</p><p dir=\"ltr\"><strong>Graveknight’s Curse</strong> (rare, curse, magical, void) <strong>Saving Throw</strong> Will save against the graveknight’s Class DC or Spell DC, whichever is higher; <strong>Onset</strong> 1 hour; <strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} and cannot remove the armor (1 day); <strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2}, hampered 10, and cannot remove the armor (1 day); <strong>Stage 3</strong> dies and transforms into the armor’s graveknight</p>"
+    },
+    "rules": [],
+    "slug": "graveknight-armor",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.331",
+        "system": "6.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cursed",
+        "invested",
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Heresy of the Whispering Way",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": "full-plate",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 45,
+      "max": 45
+    },
+    "hardness": 10,
+    "price": {
+      "value": {
+        "gp": 30
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy",
+    "group": "plate",
+    "acBonus": 6,
+    "strength": 4,
+    "dexCap": 0,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "runes": {
+      "potency": 1,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "img": "systems/pf2e/icons/features/classes/armor-mastery.webp",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-heresy-of-the-whispering-way.equipment.Item.txb58bc9RjsGUUB4",
+      "hash": "1aa50609b258eda8409f7745ea8d0de77ef92297"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726970908275,
+    "modifiedTime": 1726970980225,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "jusBmq8N8HW6Inc9",
+  "sort": 0,
+  "_key": "!items!jusBmq8N8HW6Inc9"
+}

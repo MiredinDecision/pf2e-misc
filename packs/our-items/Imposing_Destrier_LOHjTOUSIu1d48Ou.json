@@ -1,0 +1,92 @@
+{
+  "folder": "SxWtsdy8YxdR2LxU",
+  "name": "Imposing Destrier",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Under your care, your mount has realized its innate potential. The mount you gained with Faithful Steed is now a nimble or savage animal companion.</p><p>Your animal companion has greater independence. During an encounter, even if you don't use the Command an Animal action, your animal companion can still use 1 action that round on your turn to Stride or Strike. It can do this at any point during your turn, as long as you aren't currently taking an action. If it does, that's all the actions it gets that round—you can't Command it later.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.89eT819I4MYWndcu"
+          },
+          {
+            "value": "Compendium.pf2e-misc.our-items.Item.g9d8ZgxKPHafsIPT"
+          }
+        ],
+        "flag": "nimblesavage",
+        "prompt": "Nimble or Savage?"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.nimblesavage}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "imposing-destrier",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Loyal Warhorse"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "LOHjTOUSIu1d48Ou",
+  "img": "icons/magic/fire/elemental-creature-horse.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "36d1e9dabe0c98720b9a419e3c7c02bd9a6046f9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735664644533,
+    "modifiedTime": 1735665023954,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!LOHjTOUSIu1d48Ou"
+}

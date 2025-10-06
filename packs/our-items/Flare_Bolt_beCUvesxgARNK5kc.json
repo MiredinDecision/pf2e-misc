@@ -1,0 +1,72 @@
+{
+  "folder": "4UOhDWBufihAsIOd",
+  "name": "Flare Bolt",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> fire</p><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> A bolt of flames scorches out from the relic. Make a @Check[type:class-spell|defense:ac]{spell attack roll} with your relic against a target within 30 feet. The bolt deals @Damage[(max(1,floor((@actor.level)/2)))d8[fire]] (1d8 damage for every 2 levels the relic has (minimum 1d8)).</p><p><strong>Critical Success</strong> The bolt deals double damage, as well as @Damage[(@actor.level)[persistent,fire]]{persistent fire} damage equal to the level of the relic.</p><p><strong>Success</strong> The bolt deals full damage.</p>"
+    },
+    "rules": [],
+    "slug": "flare-bolt",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fire"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/flame-burning-earth-orange.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d815e3a5e4c48bd563c795e797ec3b10f59f1558",
+      "sourceId": "Item.eHqYsBa2J1WqKumK"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735583677409,
+    "modifiedTime": 1735583721023,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "beCUvesxgARNK5kc",
+  "sort": 0,
+  "_key": "!items!beCUvesxgARNK5kc"
+}

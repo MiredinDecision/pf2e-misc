@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "EYRz0UGFIqf8A2lI",
+  "name": "Actions",
+  "color": null,
+  "sorting": "a",
+  "_id": "Nkrbxfx7hBumm7SZ",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "a7f16d8b6d19738dd76e6a8b5d579704d415d6bb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!Nkrbxfx7hBumm7SZ"
+}

@@ -1,0 +1,163 @@
+{
+  "folder": "vfpQ3DuzE8uZUiEn",
+  "name": "Cosmic Polarities",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Utilizing the power of the cosmos causes subtle changes on astral knights. These changes are attuned to one of the three major cosmic polarities.</p><p>When you first Call our Armiger and at the start of each of your turns, you can choose to become attuned to one of the three cosmic polarities. You remain attuned to this polarity until the start of your next turn, at which point you can choose to remain in the same polarity or change it.</p><p>There are three cosmic polarities: Astral, Umbral and Ecliptic:</p><h3>Astral Polarity</h3><p>The astral polarity focuses on the high-energy of the cosmos. Heat, radiation, the sun, shimmering stars. When attuned to Astral polarity, your armiger may change in tint to a bright orange light of the sun. your skin may be hot to the touch, or your eyes shimmer like stars.</p><p class=\"hang\"><strong>Empowerment</strong> You deal 2 additional damage per weapon die on Strikes using your Regalia.</p><p class=\"hang\"><strong>Debilitation</strong> You take a -1 Status penalty to your Armor Class and Will saving throws.</p><h3>Ecliptic Polarity</h3><p>Ecliptic polarity represent the act of opposite but equal forces that act and counteract each other. As such, Ecliptic polarity offers no Empowerment but also no Debilitation.</p><p>Ecliptic attunement often has little visual flair. Your body may emit a soft, barely perceptible magical aura. Your Armiger would be almost like frosted glass, devoid of any standout features. Or your skin may occasionally pulse with patterns of constellations.</p><h3>Umbral Polarity</h3><p>The umbral polarity focuses on the emptyness of the cosmos and the unseen forces that govern it. Coldness, the void, gravity, frictioness movement. When attuned to Umbral polarity, you armiger may turn pitch black. Your eyes turn black like the abyss, or your hair float up on its own, disobeying gravity.</p><p class=\"hang\"><strong>Empowerment</strong> You gain a +1 Status bonus to your Reflex saving throws and Armor Class.</p><p class=\"hang\"><strong>Debilitation</strong> You take a -1 Status penalty to your Fortitide saving throws and Perception rolls.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Cosmic Polarities",
+        "option": "cosmic-polarity",
+        "predicate": [
+          "call-armiger-aura"
+        ],
+        "suboptions": [
+          {
+            "label": "Astral Polarity",
+            "value": "astral-polarity"
+          },
+          {
+            "label": "Ecliptic Polarity",
+            "value": "ecliptic-polarity"
+          },
+          {
+            "label": "Umbral Polarity",
+            "value": "umbral-polarity"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Astral Polarity",
+        "selector": "strike-damage",
+        "value": "2*@weapon.system.damage.dice",
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:astral-polarity"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Astral Polarity",
+        "selector": [
+          "ac",
+          "will"
+        ],
+        "value": -1,
+        "type": "status",
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:astral-polarity",
+          {
+            "not": "feat:polarity-mastery"
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Umbral Polarity",
+        "selector": [
+          "ac",
+          "reflex"
+        ],
+        "value": 1,
+        "type": "status",
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:umbral-polarity"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Umbral Polarity",
+        "selector": [
+          "perception",
+          "fortitude"
+        ],
+        "value": -1,
+        "type": "status",
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:umbral-polarity",
+          {
+            "not": "feat:polarity-mastery"
+          }
+        ],
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "cosmic-polarities",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "20ew0LMxklG5gKOq",
+  "img": "systems/pf2e/icons/spells/levitate.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c60498728d17270a6a32beafceb44c1e5fc18adf"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753911092478,
+    "modifiedTime": 1753923895591,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!20ew0LMxklG5gKOq"
+}

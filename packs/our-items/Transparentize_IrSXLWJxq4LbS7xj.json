@@ -1,0 +1,72 @@
+{
+  "folder": "HYtdwMrR01QCzgbM",
+  "name": "Transparentize",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency </strong>once per hour</p><hr /><p>You can use illusions to cause your slime form and nucleus to become transparent, rendering you temporarily invisible. You remain invisible until you use a hostile action, or until 10 minutes pass, whichever comes first.</p>"
+    },
+    "rules": [],
+    "slug": "transparentize",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c4bdfee8f10d97b0c8d2c1d1687ee8f12c56c932"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.IrSXLWJxq4LbS7xj",
+    "duplicateSource": "Item.6hIkOJ5R9Y9fjGuk",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "IrSXLWJxq4LbS7xj",
+  "_key": "!items!IrSXLWJxq4LbS7xj"
+}

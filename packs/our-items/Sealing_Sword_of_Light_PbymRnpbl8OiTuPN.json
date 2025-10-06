@@ -1,0 +1,121 @@
+{
+  "folder": "VDF8mAXAeTkQvgya",
+  "name": "Sealing Sword of Light",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create a powerful sword of light made to seal darkness and evil away. Make a melee spell attack. The sword deals 11d6 piercing damage. If the target has the unholy trait, you deal an extra 11d6 spirit damage. If the target is hit and has the unholy trait, they shed bright white light in a 20-foot radius (and dim light for the next 20 feet) for the duration and become @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 1} as the sword drives itself into the target’s form and begins sealing it. When you sustain this spell in the following rounds, the target must attempt a @Check[will|against:spell|traits:incapacitation] save (incapacitation). If they fail, the target increases the Slowed condition caused by this spell by 1. If this ever causes the target to become @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{Slowed 3} then the target turns to stone with its essence sealed forever within the blade whose hilt remains jutting from the statue left behind. You no longer have to @UUID[Compendium.pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain} the spell.</p><p>The blade can be removed during or after the sealing effect with an interact action that involves either an <span class=\"Box-sc-g0xbh4-0 jukNfw prc-Text-Text-0ima0\">@Check[athletics|against:spell] or @Check[religion|against:spell]</span> check against your spell DC to succeed thus ending the sealing. When a creature attempts to remove the spike, they take @Damage[11d6[spirit]]{11d6 Spirit Damage}. The DC gains a +4 status bonus if the attempt is made after the target is already sealed.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.8TajkGXSi9wPJHLY]{Spell Effect: Sealing Sword of Light}</p><hr /><p><strong>Heightened (+1)</strong> The piercing damage increases by 2d6, and the spirit damage increases by 2d6.</p>"
+    },
+    "rules": [
+      {
+        "damageType": "spirit",
+        "diceNumber": "(@spell.level*2)-5",
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "predicate": [
+          "target:trait:unholy"
+        ],
+        "selector": "{item|_id}-damage"
+      }
+    ],
+    "slug": "sealing-sword-of-light",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "holy",
+        "light",
+        "manipulate",
+        "spirit"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Even More Magic!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "up to 1 minute",
+      "sustained": true
+    },
+    "damage": {
+      "6CA3qUF373UgE1Tk": {
+        "formula": "11d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "piercing",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "6CA3qUF373UgE1Tk": "2d6"
+      },
+      "area": 0
+    }
+  },
+  "_id": "PbymRnpbl8OiTuPN",
+  "img": "icons/magic/holy/projectiles-blades-salvo-yellow.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "475ddda4203678af59ef7650667c42a70422412a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758285845153,
+    "modifiedTime": 1758285988712,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!PbymRnpbl8OiTuPN"
+}

@@ -1,0 +1,184 @@
+{
+  "folder": "9qcUawTTLJDsIoTD",
+  "name": "Defensive Cascade",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have trained to excel at your magical prowess with both your blade, and your armor. Your bonus from the bulwark armor trait increases from +3 to +4, and it applies on all Reflex saves, not just damaging Reflex saves.</p><p>    While in @UUID[Compendium.pf2e.actionspf2e.Item.HbejhIywqIufrmVM]{Arcane Cascade} stance, you gain the armor specialization effects of medium and heavy armor.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "armor:trait:bulwark"
+        ],
+        "selector": "reflex",
+        "value": 4
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "armor:trait:bulwark"
+        ],
+        "selector": "reflex",
+        "slug": "dex",
+        "suppress": true
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "reflex",
+        "slug": "bulwark",
+        "suppress": true
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:medium",
+          "armor:group:composite",
+          "self:effect:arcane-cascade"
+        ],
+        "type": "piercing",
+        "value": "1 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:medium",
+          "armor:group:leather",
+          "self:effect:arcane-cascade"
+        ],
+        "type": "bludgeoning",
+        "value": "1 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:medium",
+          "armor:group:plate",
+          "self:effect:arcane-cascade"
+        ],
+        "type": "slashing",
+        "value": "1 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy",
+          "armor:group:composite",
+          "self:effect:arcane-cascade"
+        ],
+        "type": "piercing",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy",
+          "armor:group:leather",
+          "self:effect:arcane-cascade"
+        ],
+        "type": "bludgeoning",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy",
+          "armor:group:plate",
+          "self:effect:arcane-cascade"
+        ],
+        "type": "slashing",
+        "value": "2 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:medium",
+          "armor:group:skeletal",
+          "self:effect:arcane-cascade"
+        ],
+        "type": "precision",
+        "value": "3 + @armor.system.runes.potency"
+      },
+      {
+        "key": "Resistance",
+        "predicate": [
+          "armor:category:heavy",
+          "armor:group:skeletal",
+          "self:effect:arcane-cascade"
+        ],
+        "type": "precision",
+        "value": "5 + @armor.system.runes.potency"
+      }
+    ],
+    "slug": "defensive-cascade",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Crimson Cascade"
+        },
+        {
+          "value": "Scarlet Blade Hybrid Study"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "YtwzfLieTiYkMvXg",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2142ab169f12ca135ca95d2f13a783f349818b8c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729221201711,
+    "modifiedTime": 1729222018567,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!YtwzfLieTiYkMvXg"
+}

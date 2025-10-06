@@ -1,0 +1,110 @@
+{
+  "folder": "YqfJRVPOF9d13vpx",
+  "name": "Soulbound Warrior Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a 1st or 2nd level evolution feat.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                2
+              ]
+            },
+            "item:category:class",
+            "item:trait:evolution"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "evolutionFeat",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.EvolutionFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.evolutionFeat}"
+      }
+    ],
+    "slug": "soulbound-warrior",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Summoner"
+        },
+        {
+          "value": "Warrior's Soul Bond"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "bpbRPF8AFQiTVqiq",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "21MPSHhV4Va1pyVM": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0e6678cb9ac4355a1fd41c61d000a0abbdecfa6a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-soulbound-warrior.soulbound-warrior-features.Item.bpbRPF8AFQiTVqiq",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262383778,
+    "modifiedTime": 1728262383778,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!bpbRPF8AFQiTVqiq"
+}

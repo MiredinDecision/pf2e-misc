@@ -1,0 +1,78 @@
+{
+  "folder": "jzU2I1qk8eFuS2uz",
+  "name": "Shining Spells",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The following is your<strong> Thematic Spell List</strong></p><ul><li><p><strong>Cantrip </strong>@UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation}</p></li><li><p><strong>1st </strong>@UUID[Compendium.pf2e.spells-srd.Item.UKsIOWmMx4hSpafl]{Dizzying Colors}</p></li><li><p><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]{Laughing Fit}</p></li><li><p><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]{Hypnotize}</p></li><li><p><strong>4th </strong>@UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY]{Confusion}</p></li><li><p><strong>5th </strong>@UUID[Compendium.pf2e.spells-srd.Item.ftZ750SD2iIJKIy3]{Glimmer of Charm}</p></li><li><p><strong>6th </strong>@UUID[Compendium.pf2e.spells-srd.Item.RQjSQVZRG497cJhX]{Vibrant Pattern}</p></li><li><p><strong>7th </strong>@UUID[Compendium.pf2e.spells-srd.Item.Vw2CNwlRRKABsuZi]{Entrancing Eyes}</p></li><li><p><strong>8th </strong>@UUID[Compendium.pf2e.spells-srd.Item.Oj1PJBMQD9vuwCv7]{Quandary}</p></li><li><p><strong>9th </strong>@UUID[Compendium.pf2e.spells-srd.Item.qDjeG6dxT4aEEC6J]{Weird}</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "shining-spells",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Thematic Spells"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "YjkkGVHeoaVN5tXc",
+  "img": "icons/magic/control/energy-stream-link-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9d26af4288e5d3c2b9647d874ff69d0367310c61"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757992758592,
+    "modifiedTime": 1757992837385,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!YjkkGVHeoaVN5tXc"
+}

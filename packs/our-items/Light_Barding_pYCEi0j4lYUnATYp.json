@@ -1,0 +1,154 @@
+{
+  "img": "systems/pf2e/icons/equipment/armor/studded-leather-armor.webp",
+  "name": "Light Barding",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "type": "potency",
+        "property": "ac-bonus",
+        "itemType": "armor",
+        "predicate": [
+          "armor:equipped",
+          {
+            "or": [
+              "armor:category:light-barding",
+              "armor:category:heavy-barding"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "value": {
+          "brackets": [
+            {
+              "start": 5,
+              "end": 10,
+              "value": 1
+            },
+            {
+              "start": 11,
+              "end": 17,
+              "value": 2
+            },
+            {
+              "start": 18,
+              "value": 3
+            }
+          ]
+        },
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "light-barding",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "barding",
+        "companion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "light-barding",
+    "group": null,
+    "acBonus": 1,
+    "strength": 3,
+    "dexCap": 5,
+    "checkPenalty": -1,
+    "speedPenalty": -5,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": []
+  },
+  "type": "armor",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728067352238,
+    "modifiedTime": 1728067371181,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "GJORlZQviLhITVD6",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.5yL2D3GPAggadZQN",
+      "hash": "bbe906ff59fbdca45aa849dcd2b78c77c59c363a"
+    }
+  },
+  "_id": "pYCEi0j4lYUnATYp",
+  "sort": 0,
+  "_key": "!items!pYCEi0j4lYUnATYp"
+}

@@ -1,0 +1,99 @@
+{
+  "img": "systems/pf2e/icons/spells/light.webp",
+  "name": "Starlight",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p><p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.xIqYY7rDpwvA868Z]{Spell Effect: Starlight}</p><hr /><p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+    },
+    "rules": [],
+    "slug": "starlight",
+    "_migration": {
+      "version": 0.941,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.3.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "light",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "until your next daily preparations",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1754328973807,
+    "modifiedTime": 1756763462573,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "ZbZeGxd2XHQt4tko",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3,
+    "19LQrWiE2jMTbelH": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "acf7df269a7e0c81286afe5d83c886f6fa37a8bc",
+      "sourceId": "Actor.vAfQr062f5O2hIe7.Item.SNLulGZkxyztVv7y"
+    }
+  },
+  "_id": "Cva5dlm4406217NR",
+  "sort": 200000,
+  "_key": "!items!Cva5dlm4406217NR"
+}

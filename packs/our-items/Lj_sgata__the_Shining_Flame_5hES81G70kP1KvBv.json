@@ -1,0 +1,341 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/brilliant-rapier.webp",
+  "name": "Ljósgata, the Shining Flame",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A shimmering, moon-like light gleams along the surface of this +3 <em>greater striking soulsteel rapier. Ljósgata</em> is coated in brilliant silver, allowing it to be treated as a silver and cold iron weapon for the purposes of resistance and weaknesses, and beautiful engravings run along the blade, depicting the rising and setting of the sun against the skyline. It ignores immunity and resistance to fire damage. The sword glows with the effects of 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light}. You can suppress or resume this light by using an action, which has the concentrate trait. When you hit a creature with the sword, it takes 1d6 additional fire damage. When you critically hit a creature with the sword, the creature takes @Damage[1d8[persistent,fire]] damage and @Damage[1d8[bleed]] as its blood boils away. Unlike normal when taking two types of persistent damage, a creature needs only a single successful flat check to remove both the fire and bleed damage.</p><hr /><p><strong>Activate -</strong> <strong>Call to Mercy </strong><span class=\"action-glyph\">r</span> (concentrate)</p><p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically hit a creature with the weapon</p><p><strong>Effect</strong> You call upon the sword's light to guide the creature away from violence. The creature must choose one of the following options:</p><ul><li>The creature surrenders, immediately receiving the critical failure effects of @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Calm} and @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze}.</li><li>The weapon casts 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness} on the creature with a @Check[fortitude|against:class-spell|name:Blindness|traits:incapacitation,necromancy] against your class or spell DC.</li></ul><p>Regardless of the choice, the sword loses its ability to glow with light for the next hour.</p><hr /><p><strong>Activate - Embody the Flame </strong><span class=\"action-glyph\">2</span> (concentrate, manipulate, divine)</p><p><strong>Frequency</strong> once per hour</p><p><strong>Effect</strong> You grow wings that bleed fire and are surrounded by a nimbus of weeping flames for one minute. You gain a Fly Speed equal to your Land Speed. You gain a +4 status bonus to AC against ranged projectiles that are at least partly made of wood. If a foe attempts to Strike you with an unarmed attack or melee attack with a weapon at least partly made of wood, that creature takes @Damage[3d10[fire]] damage (@Check[reflex|against:class-spell|basic|traits:concentrate,manipulate,primal] save against your class or spell DC).</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.yhmGZUp7ROzgwcY6]{Effect: Embody the Flame}</p><hr /><p><strong>Glittering</strong> - <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Shimmers and glows with light.</span></p><p><strong>Starry - </strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Seems made of night sky.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Soulsteel",
+        "slug": "soulsteel-damage",
+        "selector": "{item|_id}-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "target:trait:incorporeal"
+        ],
+        "property": "property-runes",
+        "value": "ghost-touch"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": {
+          "brackets": [
+            {
+              "start": 6,
+              "end": 13,
+              "value": "astral"
+            },
+            {
+              "start": 14,
+              "value": "greater-astral"
+            }
+          ]
+        }
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|_id}-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "dice:slug:greater-astral",
+              "dice:slug:astral"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "upgrade",
+        "property": "dice-faces",
+        "value": 8
+      },
+      {
+        "key": "RollOption",
+        "label": "Ljósgata is lit",
+        "option": "lit-golden-blade",
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "key": "TokenLight",
+        "predicate": [
+          "lit-golden-blade"
+        ],
+        "value": {
+          "animation": {
+            "intensity": 1,
+            "speed": 2,
+            "type": "pulse"
+          },
+          "bright": 60,
+          "color": "#3d0000",
+          "dim": 120,
+          "alpha": 0.1
+        }
+      },
+      {
+        "key": "TokenEffectIcon",
+        "predicate": [
+          "lit-golden-blade"
+        ],
+        "value": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/brilliant-rapier.webp"
+      },
+      {
+        "damageType": "fire",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "selector": "{item|_id}-damage"
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "selector": "{item|_id}-damage",
+        "text": "PF2E.SpecificRule.GoldenBladeOfMzali.PersistentDamageNote",
+        "title": "{item|name}"
+      },
+      {
+        "category": "persistent",
+        "critical": true,
+        "damageType": "fire",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "key": "DamageDice",
+        "selector": "{item|_id}-damage"
+      },
+      {
+        "critical": true,
+        "damageType": "bleed",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "key": "DamageDice",
+        "selector": "{item|_id}-damage"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver",
+        "definition": [
+          "item:id:{item|id}"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "cold-iron",
+        "definition": [
+          "item:id:{item|id}"
+        ]
+      }
+    ],
+    "slug": "rapier",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "deadly-d8",
+        "disarm",
+        "finesse",
+        "light",
+        "mythic",
+        "soulsteel"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "quantity": 1,
+    "baseItem": "rapier",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 7944,
+        "pp": 0,
+        "sp": 0,
+        "cp": 0
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Rapier",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 3,
+      "striking": 2,
+      "property": [
+        "holy",
+        "greaterAstral",
+        "greaterFlaming"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 2,
+        "striking": 2,
+        "property": [
+          "holy",
+          "greaterAstral",
+          "greaterFlaming"
+        ]
+      }
+    },
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757643822682,
+    "modifiedTime": 1757643822682,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "K2E98FJTqNioJF80",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "eb506535bf71378c1ed1754faf13d1e37cad7f23",
+      "sourceId": "Actor.gDAaFU8zVUGzC9eO.Item.WT7z4GpVbDEeWjXQ"
+    }
+  },
+  "_id": "5hES81G70kP1KvBv",
+  "sort": 0,
+  "_key": "!items!5hES81G70kP1KvBv"
+}

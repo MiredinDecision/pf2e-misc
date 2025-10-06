@@ -1,0 +1,82 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Twisting Rivulet",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.vlix0pDKMxTNYOJd]{Winding Stream Dance}.</p>\n<hr />\n<p>You can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} creatures up to two sizes larger than you. If you have master proficiency with your scarf, you can attempt to Shove or Trip creatures up to three sizes larger than you.</p>"
+    },
+    "rules": [],
+    "slug": "twisting-rivulet",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Winding Stream Dancer Archetype",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Winding Stream Dancer Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "d477f63edcf501d54a5ea1d6acad13b78ae48695"
+    }
+  },
+  "effects": [],
+  "folder": "zrvx8BXhmA8CdJKJ",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.kn1Pt5LOfoLqYafq",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262029591,
+    "modifiedTime": 1728262029591,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "kn1Pt5LOfoLqYafq",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4gMqw7mI53Oe9aWm": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_key": "!items!kn1Pt5LOfoLqYafq"
+}

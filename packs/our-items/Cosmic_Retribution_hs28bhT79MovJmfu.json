@@ -1,0 +1,78 @@
+{
+  "name": "Cosmic Retribution",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> 1 Regalia</p><p class=\"hang\"><strong>Trigger</strong> A creature within reach of any of your melee regalia uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it’s using</p><hr /><p>You rapidly lash out against a percieved opening. Make a melee strike using your regalia. If your attack is a critical hit and the trigger was a manipulate action, you disrupt that action. This Strike doesn’t count toward your multiple attack penalty, and your multiple attack penalty doesn’t apply to this Strike.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "cosmic-retribution",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "FNbFR7gwtLg5GFBe",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d2eb98d175fbac5093c0114e57d1b5270973981a",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1753921479297,
+    "modifiedTime": 1756522429887,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "hs28bhT79MovJmfu",
+  "sort": 300000,
+  "_key": "!items!hs28bhT79MovJmfu"
+}

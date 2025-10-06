@@ -1,0 +1,119 @@
+{
+  "img": "systems/pf2e/icons/equipment/worn-items/apex-items/circlet-of-persuasion.webp",
+  "name": "Moonstone Circlet",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This silver and platinum circlet is set with a single moonstone, and covered with magical and divine symbols. It grants you a +1 item bonus to Nature and Religion checks and allows you to cast the @UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation} cantrip as an innate cantrip.</p><hr /><p><strong>Sun-blocking - </strong>U<span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">ser never receives sunburns.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "religion",
+          "nature"
+        ],
+        "type": "item",
+        "value": 1
+      }
+    ],
+    "slug": "mages-hat",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.11.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "invested",
+        "primal"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 37
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Headwear",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "wornheadwear"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.0",
+    "createdTime": 1743215064945,
+    "modifiedTime": 1756086799129,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "7OZbTCbckbg9PFqT",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b47f7ebf7a136d903b25aa47ba333d7f195f1e9b",
+      "sourceId": "Actor.zU2JgPfnGNz5JEpt.Item.XMc4vt7VVzPcp0aq"
+    }
+  },
+  "_id": "2XKoeJl3zTfQdDsV",
+  "sort": 100000,
+  "_key": "!items!2XKoeJl3zTfQdDsV"
+}

@@ -1,0 +1,90 @@
+{
+  "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+  "name": "Resolve",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've steeled your mind with resolve. Your proficiency rank for Will saves increases to master. When you roll a success on a Will save, you get a critical success instead.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Core Rulebook",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "will"
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {
+        "will": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "starknight"
+      ],
+      "otherTags": []
+    },
+    "slug": "resolve",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753915572313,
+    "modifiedTime": 1753915580142,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "wWFAa06wNFubyFtL",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.JQAujUXjczVnYDEI",
+      "hash": "99430590ebe136b7da401d7ecd8d8cb2cf26e46d"
+    }
+  },
+  "_id": "Ed5p0pk61G1ANoPz",
+  "sort": 0,
+  "_key": "!items!Ed5p0pk61G1ANoPz"
+}

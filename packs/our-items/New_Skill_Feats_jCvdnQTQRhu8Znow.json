@@ -1,0 +1,26 @@
+{
+  "name": "New Skill Feats",
+  "sorting": "a",
+  "folder": "7OZbTCbckbg9PFqT",
+  "type": "Item",
+  "_id": "jCvdnQTQRhu8Znow",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "ca9b87b6e05ab5532d6ceb42bd60685ba767a041"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728173719965,
+    "modifiedTime": 1728261931709,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "_key": "!folders!jCvdnQTQRhu8Znow"
+}

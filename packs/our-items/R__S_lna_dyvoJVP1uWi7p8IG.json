@@ -1,0 +1,241 @@
+{
+  "img": "modules/pf2e-tomb-guardian/assets/tomb-guardian-sword.webp",
+  "name": "Ró Sálna",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This broad-bladed sword, sometimes called the hand-and-a-half sword, has a longer grip so it can be held in one hand or used with two hands to provide extra slashing power.</p><p>This sword is a special model made for the Scarlet Blade. It was lovingly crafted by the Scarlet Blade's parent and enchanted with a minor effect keeping it pristine in all conditions.</p><p>It is crafted out of a special and rare material known only as soulsteel - a dark, nearly black metal with veins of silver - that is difficult to work due to its more volatile properties.</p><p>Soulsteel pulls at both the lifeforce of the living, and the energy that animates the undead, wielder and foe ailke. A skilled magical crafter can help attune this material to a particular user, usually someone who is a decent mage in their own right, so that it doesn't harm them.</p><p>A weapon crafted of this material deals 1 extra spirit damage. At 6th level, this damage is replaced by an @UUID[Compendium.pf2e.equipment-srd.Item.6llILJtsTPgtYXgx]{Astral} rune; this rune cannot be removed, and it deals 1d8 damage instead of 1d6 damage. At 14th level, this weapon automatically gains a @UUID[Compendium.pf2e.equipment-srd.Item.hebf5k3cd7LO6luX]{Astral (Greater)} rune instead. It is also able to affect incorporeal creatures as if it had the @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch} rune. However, creatures other than those attuned to this weapon cannot handle it without feeling a sense of unease, and the weapon pulling at their lifeforce. Incorporeal creatures cannot touch it without feeling great pain, dropping it immediately.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Soulsteel",
+        "slug": "soulsteel-damage",
+        "selector": "{item|_id}-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "target:trait:incorporeal"
+        ],
+        "property": "property-runes",
+        "value": "ghost-touch"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": {
+          "brackets": [
+            {
+              "start": 6,
+              "end": 13,
+              "value": "astral"
+            },
+            {
+              "start": 14,
+              "value": "greater-astral"
+            }
+          ]
+        }
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|_id}-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "dice:slug:greater-astral",
+              "dice:slug:astral"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "upgrade",
+        "property": "dice-faces",
+        "value": 8
+      }
+    ],
+    "slug": "scarlet-blade-sword",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "resonant",
+        "soulsteel",
+        "two-hand-d12"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "scarlet-blade-sword",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 44
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Bastard Sword",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this bastard sword is unclear."
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "advanced",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": ""
+    },
+    "grade": null,
+    "runes": {
+      "potency": 2,
+      "striking": 2,
+      "property": [
+        "fanged",
+        "holy"
+      ]
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.6KWYmeRMxsQfWhhJ",
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1742018356313,
+    "modifiedTime": 1757643805213,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "5e9a08cf0d85529f359bc3ceaeb059172b89fece",
+      "sourceId": "Compendium.pf2e-our-actors.our-actors.Actor.nrQHUllnwDjVlwG6.Item.oTcKYRbzk8ssFhCV"
+    }
+  },
+  "effects": [],
+  "folder": "K2E98FJTqNioJF80",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "Yl6zxDnnyoEj0wIg": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "dyvoJVP1uWi7p8IG",
+  "sort": 1500000,
+  "_key": "!items!dyvoJVP1uWi7p8IG"
+}

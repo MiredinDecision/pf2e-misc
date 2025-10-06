@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Aftermath",
+  "color": null,
+  "sorting": "a",
+  "_id": "9nljg26YHEtAlwip",
+  "description": "",
+  "sort": 1600000,
+  "flags": {
+    "scene-packer": {
+      "hash": "bb7e63506eb6024f2166b8a565ea8499ec153896"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755005723526,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!9nljg26YHEtAlwip"
+}

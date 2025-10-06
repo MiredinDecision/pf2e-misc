@@ -1,0 +1,85 @@
+{
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "name": "Soaring Flight",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p>To be a tengu is to be unburdened by the concerns of the world below. You grow a pair of magical wings or expand your existing ones. For 5 minutes, you gain a @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{Fly} Speed equal to your land Speed or 20 feet, whichever is greater.</p>"
+    },
+    "rules": [],
+    "slug": "soaring-flight",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "forebird",
+        "morph"
+      ],
+      "rarity": "common",
+      "selected": {
+        "morph": "Morph",
+        "primal": "Primal",
+        "tengu": "tengu",
+        "transmutation": "Transmutation"
+      }
+    },
+    "publication": {
+      "title": "Pathfinder Advanced Player's Guide",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-relic-forebird.forebird-gifts.Item.DSan8EM46j0T6VNW",
+      "name": "Effect: Soaring Flight"
+    }
+  },
+  "type": "action",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "6172ad6287877d6ccd0c2f8969347478cb10d81b"
+    }
+  },
+  "effects": [],
+  "folder": "rO8UvPmncCqS9GCn",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-forebird.forebird-gifts.Item.159fqQnmqj42nmSV",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261338098,
+    "modifiedTime": 1728261338098,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "159fqQnmqj42nmSV",
+  "sort": 300000,
+  "_key": "!items!159fqQnmqj42nmSV"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Iomedae",
+  "sorting": "a",
+  "folder": "7OZbTCbckbg9PFqT",
+  "type": "Item",
+  "_id": "P3U7WHbI0jFzJm7x",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "c23b48c9d3f62cd236c5d76cd57d536a87b628d8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802854325,
+    "modifiedTime": 1726802854325,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj"
+  },
+  "_key": "!folders!P3U7WHbI0jFzJm7x"
+}

@@ -1,0 +1,365 @@
+{
+  "name": "Spoony Bard",
+  "type": "class",
+  "img": "icons/magic/symbols/runes-star-orange.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>You are a master of artistry, a scholar of hidden secrets, and a captivating persuader. Using powerful performances, you influence minds and elevate souls to new levels of heroics. You might use your powers to become a charismatic leader, or perhaps you might instead be a counselor, manipulator, scholar, scoundrel, or virtuoso. While your versatility leads some to consider you a beguiling ne'er-do-well and a jack-of-all-trades, it's dangerous to dismiss you as a master of none.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Tz0NWVqhZyt8EyUV]{Bard}</em></p> <p><em>You didn't choose to become a spellcaster-you were born one. There's magic in your blood, whether a divinity touched one of your ancestors, a forebear communed with a primal creature, or a powerful occult ritual influenced your line. Self-reflection and study allow you to refine your inherent magical skills and unlock new, more powerful abilities. The power in your blood carries a risk, however, and you constantly face the choice of whether you'll rise to become a master spellcaster or fall into destruction.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.ixBx2wZpnf4qUoEv]{Sorcerer}</em></p>",
+      "addenda": [],
+      "override": null,
+      "initialized": false
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:bard",
+        "priority": 0
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:sorcerer",
+        "priority": 0
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.bard.attribute",
+        "value": "cha"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.sorcerer.attribute",
+        "value": "cha"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.bard.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.sorcerer.rank",
+        "value": 1
+      }
+    ],
+    "slug": "bard",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "cha"
+      ],
+      "selected": "cha"
+    },
+    "items": {
+      "06b94": {
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "level": 7,
+        "name": "Expert Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+      },
+      "1da3z": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 15,
+        "name": "Master Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+      },
+      "1qqwt": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "level": 13,
+        "name": "Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+      },
+      "81u6r": {
+        "img": "icons/tools/instruments/harp-yellow-teal.webp",
+        "level": 19,
+        "name": "Magnum Opus",
+        "uuid": "Compendium.pf2e.classfeatures.Item.NjsOpWbbzUY2Hpk3"
+      },
+      "BNZ4O": {
+        "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+        "level": 1,
+        "name": "Spell Repertoire",
+        "uuid": "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH"
+      },
+      "JXCPj": {
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "level": 19,
+        "name": "Legendary Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3"
+      },
+      "U3WYY": {
+        "img": "icons/magic/life/heart-pink.webp",
+        "level": 9,
+        "name": "Performer's Heart",
+        "uuid": "Compendium.pf2e.classfeatures.Item.nPwYSuMLkJWMB4CH"
+      },
+      "UKinY": {
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "level": 3,
+        "name": "Reflex Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0"
+      },
+      "aqv5W": {
+        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+        "level": 11,
+        "name": "Perception Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13"
+      },
+      "en1lf": {
+        "img": "icons/tools/instruments/pipe-flue-tan.webp",
+        "level": 1,
+        "name": "Composition Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.s0VbbQJNlSgPocui"
+      },
+      "f4w3H": {
+        "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+        "level": 3,
+        "name": "Signature Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.VKRjmXxBFLrJK01c"
+      },
+      "iUrjR": {
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "level": 9,
+        "name": "Fortitude Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke"
+      },
+      "oyw8v": {
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "level": 1,
+        "name": "Muses",
+        "uuid": "Compendium.pf2e.classfeatures.Item.AIOBWGOS4nkfH3kW"
+      },
+      "q84eq": {
+        "img": "icons/equipment/back/mantle-collared-green.webp",
+        "level": 13,
+        "name": "Light Armor Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7"
+      },
+      "qev30": {
+        "img": "icons/equipment/head/hat-pointed-leather-black-glowing.webp",
+        "level": 1,
+        "name": "Occult Spellcasting",
+        "uuid": "Compendium.pf2e.classfeatures.Item.fEOj0eOBe34qYdAa"
+      },
+      "rQJDP": {
+        "img": "icons/magic/life/heart-red-blue.webp",
+        "level": 17,
+        "name": "Greater Performer's Heart",
+        "uuid": "Compendium.pf2e.classfeatures.Item.mRobjNNsABQdUUZq"
+      },
+      "yjn5p": {
+        "img": "systems/pf2e/icons/features/classes/bard-weapon-expertise.webp",
+        "level": 11,
+        "name": "Bard Weapon Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.4lp8oG9A3zuqhPBS"
+      },
+      "7nvmf": {
+        "img": "icons/commodities/treasure/token-engraved-eye-red.webp",
+        "level": 19,
+        "name": "Bloodline Paragon",
+        "uuid": "Compendium.pf2e.classfeatures.Item.feCnVrPPlKhl701x"
+      },
+      "LS8SS": {
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "level": 17,
+        "name": "Majestic Will",
+        "uuid": "Compendium.pf2e.classfeatures.Item.7D8duG4ARFxLLm9F"
+      },
+      "bd6fU": {
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "level": 11,
+        "name": "Perception Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy"
+      },
+      "ds47l": {
+        "img": "systems/pf2e/icons/features/classes/weapon-expertise.webp",
+        "level": 11,
+        "name": "Weapon Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc"
+      },
+      "i4R73": {
+        "img": "icons/magic/light/projectile-smoke-pink.webp",
+        "level": 1,
+        "name": "Sorcerous Potency",
+        "uuid": "Compendium.pf2e.classfeatures.Item.yBvGqA6Edp6ImaR3"
+      },
+      "jx0fg": {
+        "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+        "level": 1,
+        "name": "Sorcerer Spellcasting",
+        "uuid": "Compendium.pf2e.classfeatures.Item.gmnx7e1g08bppbqt"
+      },
+      "q2jao": {
+        "img": "icons/equipment/back/cloak-collared-pink-gold.webp",
+        "level": 13,
+        "name": "Defensive Robes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.gU7epgcPSm0TD1UK"
+      },
+      "qimsg": {
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "level": 1,
+        "name": "Bloodline",
+        "uuid": "Compendium.pf2e.classfeatures.Item.2goYo6VNbwC6aKF1"
+      },
+      "r346v": {
+        "img": "systems/pf2e/icons/features/classes/bloodline-spells.webp",
+        "level": 1,
+        "name": "Bloodline Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.H6ziAPvCipTPG8SH"
+      },
+      "tr1s2": {
+        "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
+        "level": 5,
+        "name": "Magical Fortitude",
+        "uuid": "Compendium.pf2e.classfeatures.Item.70jqXP2eS4tRZ0Ok"
+      },
+      "ymOgC": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HWNvRM0c5cZrwM8v",
+        "img": "systems/pf2e/icons/spells/enduring-might.webp",
+        "name": "Dual Class Attribute",
+        "level": 1
+      }
+    },
+    "hp": 8,
+    "trainedSkills": {
+      "value": [
+        "occultism",
+        "performance"
+      ],
+      "additional": 4
+    },
+    "perception": 2,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 1,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    },
+    "scene-packer": {
+      "hash": "4d33a589bd29525141409148cf360d2f7352b766",
+      "sourceId": "Item.GUL1jrd1es6le5El"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1",
+    "createdTime": 1743988592243,
+    "modifiedTime": 1758047472620,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "_id": "KiprOCnBySppyg85",
+  "sort": 1300000,
+  "_key": "!items!KiprOCnBySppyg85"
+}

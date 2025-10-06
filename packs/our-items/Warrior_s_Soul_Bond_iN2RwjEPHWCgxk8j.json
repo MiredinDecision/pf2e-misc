@@ -1,0 +1,242 @@
+{
+  "folder": "PneJXJ7akYm2XQ3F",
+  "name": "Warrior's Soul Bond",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your magical connection with your eidolon grants you martial power instead of spells. If you choose this class archetype, you must select Soulbound Warrior Dedication as your 2nd level class feat.<br /><br /><strong>Soulbound Warrior Adjustments</strong>: You lose the @UUID[Compendium.pf2e.classfeatures.1RfnAiyQ5FR7vnuH]{Spell Repertoire}, @UUID[Compendium.pf2e.classfeatures.gWcN75VNpSZ4FqNb]{Summoner Spellcasting}, @UUID[Compendium.pf2e.classfeatures.P34Jx6i4GJGoqTtG]{Unlimited Signature Spells}, @UUID[Compendium.pf2e.classfeatures.itTk4dBouzz89vs9]{Simple Weapon Expertise}, and @UUID[Compendium.pf2e.classfeatures.gU7epgcPSm0TD1UK]{Defensive Robes} class features.</p><p>Your key ability score is Strength or Dexterity.</p><p>You are trained in light and medium armor, and martial weapons. When you gain eidolon unarmed expertise, your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. When you gain eidolon defensive expertise, your proficiency ranks for light and medium armor, as well as unarmored defense, increase to expert. When you gain eidolon unarmed mastery, your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master. When you gain eidolon defensive mastery, your proficiency ranks for light and medium armor, as well as for unarmored defense, increase to master. You gain @UUID[Compendium.starfinder-field-test-for-pf2e.class-features.uPSzff7h3aRnoV6l]{Weapon Specialization} at 7th level. At 15th level, you gain @UUID[Compendium.starfinder-field-test-for-pf2e.class-features.wP2Dn7u51xuuwLX7]{Greater Weapon Specialization}.<br />    Finally, you and your eidolon don't share your multiple attack penalty, even when you ride your eidolon.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.1jhpZewO4pTjGZI0",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.pdafsbmsuIPPNmZG",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              15
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-unarmed-expertise"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.unarmed.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-unarmed-expertise"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.simple.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-unarmed-expertise"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.martial.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-unarmed-mastery"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.unarmed.rank",
+        "value": 3
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-unarmed-mastery"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.simple.rank",
+        "value": 3
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-unarmed-mastery"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.martial.rank",
+        "value": 3
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-defensive-expertise"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.unarmored.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-defensive-expertise"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.light.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-defensive-expertise"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.medium.rank",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-defensive-mastery"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.unarmored.rank",
+        "value": 3
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-defensive-mastery"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.light.rank",
+        "value": 3
+      },
+      {
+        "key": "ActiveEffectLike",
+        "predicate": [
+          "feature:eidolon-defensive-mastery"
+        ],
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.medium.rank",
+        "value": 3
+      }
+    ],
+    "slug": "warriors-soul-bond",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "summoner"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "martial": {
+          "rank": 1
+        },
+        "simple": {
+          "rank": 1
+        },
+        "unarmed": {
+          "rank": 1
+        },
+        "light": {
+          "rank": 1
+        },
+        "medium": {
+          "rank": 1
+        },
+        "unarmored": {
+          "rank": 1
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": [
+        "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH",
+        "Compendium.pf2e.classfeatures.Item.gWcN75VNpSZ4FqNb",
+        "Compendium.pf2e.classfeatures.Item.P34Jx6i4GJGoqTtG",
+        "Compendium.pf2e.classfeatures.Item.itTk4dBouzz89vs9",
+        "Compendium.pf2e.classfeatures.Item.gU7epgcPSm0TD1UK"
+      ],
+      "keyOptions": [
+        "str",
+        "dex"
+      ]
+    },
+    "location": null
+  },
+  "_id": "iN2RwjEPHWCgxk8j",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "edd379034a4f6240c6d35476aea8317e7b15567f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759551475881,
+    "modifiedTime": 1759552527907,
+    "lastModifiedBy": "uY8qCKyU1chKBKLI"
+  },
+  "_key": "!items!iN2RwjEPHWCgxk8j"
+}

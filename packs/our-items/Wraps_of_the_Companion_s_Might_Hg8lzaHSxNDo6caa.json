@@ -1,0 +1,153 @@
+{
+  "img": "modules/pf2e-misc/assets/icons/SilverWraps.webp",
+  "name": "Wraps of the Companion's Might",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As you invest these embroidered strips of cloth, you must meditate and slowly wrap them around your animal companions limbs. These wraps can have precious material properties and weapon runes etched into them to give their unarmed attacks the benefits of those runes, making their unarmed attacks work like magic weapons. For example, <em>+1 striking wraps</em> would give them a +1 item bonus to attack rolls with their unarmed attacks and increase the damage of their unarmed attacks from one weapon die to two.</p><p>You can upgrade, add, and transfer runes to and from the wraps just as you would for a weapon, and you can attach talismans to the wraps. Treat the wraps as melee weapons of the brawling group with light Bulk for these purposes. Property runes apply only when they would be applicable to the unarmed attack you're using. For example, a property that must be applied to a slashing weapon wouldn't function when you attacked with a fist, but you would gain its benefits if you attacked with a claw or some other slashing unarmed attack.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver"
+      }
+    ],
+    "slug": "wraps-of-the-companions-might",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 35
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": "silver",
+      "grade": "low"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Brawling",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worngloves"
+    },
+    "category": "unarmed",
+    "group": "brawling",
+    "bonus": {
+      "value": 1
+    },
+    "damage": {
+      "dice": 0,
+      "die": null,
+      "damageType": "bludgeoning",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": ""
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728421836663,
+    "modifiedTime": 1729048495588,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "QgrC7Cg7bKqizy4a",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "afcb0e2b7905f268fad371ff7c2232242bc23de2",
+      "sourceId": "Actor.7pJeaZuMj31lmSB7.Item.5mRZczyofB80vN3J"
+    }
+  },
+  "_id": "Hg8lzaHSxNDo6caa",
+  "sort": 0,
+  "_key": "!items!Hg8lzaHSxNDo6caa"
+}

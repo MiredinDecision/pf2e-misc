@@ -1,0 +1,27 @@
+{
+  "name": "Fix Scouting",
+  "sorting": "m",
+  "folder": null,
+  "type": "Item",
+  "_id": "y5mNYGrtBSjX7lXx",
+  "description": "",
+  "sort": 3300000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "cab34db29b49cc953733de804de86446d2625a3e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.1",
+    "createdTime": 1732738765788,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!y5mNYGrtBSjX7lXx"
+}

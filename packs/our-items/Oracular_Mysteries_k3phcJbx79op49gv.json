@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Oracular Mysteries",
+  "color": null,
+  "sorting": "a",
+  "_id": "k3phcJbx79op49gv",
+  "description": "",
+  "sort": 700000,
+  "flags": {
+    "scene-packer": {
+      "hash": "3d5c49e685201c5ec7e2b9b1f0c17dd377283367"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758052485496,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!k3phcJbx79op49gv"
+}

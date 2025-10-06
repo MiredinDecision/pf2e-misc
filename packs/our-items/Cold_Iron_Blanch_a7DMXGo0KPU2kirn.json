@@ -1,0 +1,110 @@
+{
+  "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-tools/cold-iron-blanch.webp",
+  "name": "Cold Iron Blanch",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>You can pour a vial of this dark liquid onto one melee weapon, one thrown weapon, or 10 pieces of ammunition. Cold Iron Blanch <span style=\"font-family:Roboto, sans-serif\">spoils quickly, so once you open a vial, you must use it all at once, rather than saving it.</span></p><p><span style=\"font-family:Roboto, sans-serif\">For the next hour, the weapon or ammunition counts as cold iron instead of its normal precious material (such as silver) for any physical damage it deals.</span></p><p>@UUID[Compendium.pf2e-misc.our-items.Item.9fak7jzCXBRdG6Qq]{Effect: Cold Iron Blanch}</p>"
+    },
+    "rules": [],
+    "slug": "cold-iron-blanch",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical",
+        "consumable"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Pathfinder Society Guide",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 6
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Liquid",
+        "img": "systems/pf2e/icons/unidentified_item_icons/potions.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "potion",
+    "uses": {
+      "value": 1,
+      "max": 1,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1727590606938,
+    "modifiedTime": 1727881242317,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "AAUH5sEy6oLfu7Of",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6314eaf10532faaddf8cd92bc1d5329c550824f8",
+      "sourceId": "Item.LAmTHdq6qwRhEKXY"
+    }
+  },
+  "_id": "a7DMXGo0KPU2kirn",
+  "sort": 0,
+  "_key": "!items!a7DMXGo0KPU2kirn"
+}

@@ -1,0 +1,101 @@
+{
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "name": "Weapon Expertise",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert. You gain access to the critical specialization effects of all weapons for which you have expert proficiency.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "item:proficiency:rank",
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {
+        "simple": {
+          "rank": 2,
+          "attribute": null
+        },
+        "unarmed": {
+          "rank": 2,
+          "attribute": null
+        },
+        "martial": {
+          "rank": 2
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "starknight"
+      ],
+      "otherTags": []
+    },
+    "slug": "weapon-expertise",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753914167036,
+    "modifiedTime": 1753914308538,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "SUt38LbkAyLuvxQ7",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc",
+      "hash": "dbd7b84117623d8ce0a44294089a53c6dca70ee5"
+    }
+  },
+  "_id": "BdY9NLaeDAXIxDTX",
+  "sort": 0,
+  "_key": "!items!BdY9NLaeDAXIxDTX"
+}

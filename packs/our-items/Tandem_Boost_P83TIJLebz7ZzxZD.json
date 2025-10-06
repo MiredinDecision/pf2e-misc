@@ -1,0 +1,84 @@
+{
+  "name": "Tandem Boost",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You and your eidolon join powers to boost each other. You cast @UUID[Compendium.pf2e.spells-srd.HStu2Yhw3iQER9tY]{Boost Eidolon} and both you and your eidolon gain the effects of boost eidolon. Any damage bonus you gain from boost eidolon applies to your unarmed and weapon attacks as well and use your weapon damage dice for determining your status bonus to damage.</p>\n<hr />\n<p><strong>Special </strong>If you gain the @UUID[Compendium.pf2e.spells-srd.TYbCj4dgXDOZou9k]{Reinforce Eidolon} cantrip, you can choose to cast it instead of boost eidolon</p>"
+    },
+    "rules": [],
+    "slug": "tandem-boost",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "summoner",
+        "tandem"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Summoners+",
+      "authors": "Tony Saunders, Derry Luttrell",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/control/buff-flight-wings-runes-purple-orange.webp",
+  "folder": "vT5VJ59WrE8qwwiu",
+  "ownership": {
+    "default": 0,
+    "VZuVlRAEHH3yngbI": 3,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-summoners-plus.misc.Item.0PBsvIdslXmuei5s",
+      "hash": "27a26d0ab7e2ca78314da1a194ea3ec68663a68d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759551957622,
+    "modifiedTime": 1759556516236,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_id": "P83TIJLebz7ZzxZD",
+  "sort": 500000,
+  "_key": "!items!P83TIJLebz7ZzxZD"
+}

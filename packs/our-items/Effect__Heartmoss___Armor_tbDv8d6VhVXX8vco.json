@@ -1,0 +1,91 @@
+{
+  "folder": "f4M6QOzrsIDdtB0q",
+  "name": "Effect: Heartmoss - Armor",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by </p><p>@UUID[Compendium.pf2e.equipment-srd.Item.t21l7ssk3fntP1xU]{Heartmoss}.</p><p>You gain resistance 2 to mental damage and a +1 item bonus to saving throws against effects with the emotion trait.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "mental",
+        "value": "2"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
+        "value": 1,
+        "type": "item",
+        "predicate": [
+          {
+            "or": [
+              "item:trait:emotion",
+              "emotion"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "effect-heartmoss-armor",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "tbDv8d6VhVXX8vco",
+  "img": "icons/magic/nature/root-vine-caduceus-healing.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "29f95c9a263b0c27a700ec6577a05b5b91c4af5c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.2",
+    "createdTime": 1737225593510,
+    "modifiedTime": 1737226413738,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!tbDv8d6VhVXX8vco"
+}

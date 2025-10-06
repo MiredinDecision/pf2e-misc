@@ -1,0 +1,117 @@
+{
+  "img": "modules/pf2e-misc/assets/icons/CloakofShadows.webp",
+  "name": "Cloak of Darkness",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You surround yourself in darkness that restores the undead and rebuffs the living. You become surrounded in shadow in a 30-foot radius. Undead creatures or those with void healing that begin their turn adjacent to you recover 4d6 Hit Points. Living creatures that do not have void healing that begin their turn adjacent to you take 4d6 void damage (basic Fortitude save).</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.kGsHvjQPeeAT1Rjk]{Aura: Cloak of Darkness}</p><hr /><p><strong>Heightened (+2)</strong> The healing increases by 2d6, and the damage to the living increases by 2d6.</p>"
+    },
+    "rules": [],
+    "slug": "cloak-of-light",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "darkness",
+        "healing",
+        "manipulate",
+        "shadow",
+        "void"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Divine Mysteries",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {
+      "gftav8gvt4i3mqj6": {
+        "applyMod": false,
+        "category": null,
+        "formula": "4d6",
+        "kinds": [
+          "damage",
+          "healing"
+        ],
+        "materials": [],
+        "type": "void"
+      }
+    },
+    "defense": {
+      "save": {
+        "basic": true,
+        "statistic": "fortitude"
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "damage": {
+        "gftav8gvt4i3mqj6": "2d6"
+      },
+      "interval": 2,
+      "type": "interval"
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.1",
+    "createdTime": 1732672595332,
+    "modifiedTime": 1754328973937,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "ZbZeGxd2XHQt4tko",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dfbddff9ec51a596e7af8d8bf6aebdfff8a0c041",
+      "sourceId": "Item.xq4IYUcNQitwsKWB"
+    }
+  },
+  "_id": "Qi0ysQ2fvtV0P7OI",
+  "sort": 600000,
+  "_key": "!items!Qi0ysQ2fvtV0P7OI"
+}

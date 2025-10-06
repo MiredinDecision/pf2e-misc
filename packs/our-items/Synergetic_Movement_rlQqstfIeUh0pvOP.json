@@ -1,0 +1,99 @@
+{
+  "folder": "vT5VJ59WrE8qwwiu",
+  "name": "Synergetic Movement",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>When you've become synergized with your eidolon, you and your eidolon move even faster than normal. Increase the status bonus to your Speeds from @UUID[Compendium.pf2e-misc.our-items.LUmRqzfCatowpGJA]{Synergy} to a +10-foot status bonus; this bonus increases by 5 at 9th, 15th, and 19th levels. When you don't have Synergy, you still get half this status bonus to your speed, rounded down to the nearest 5-foot increment.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "self:effect:synergy"
+        ],
+        "selector": "speed",
+        "slug": "synergetic-speed",
+        "value": "5*(floor((@actor.level + 3)/4))"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          {
+            "not": "self:effect:synergy"
+          }
+        ],
+        "selector": "speed",
+        "slug": "synergetic-speed",
+        "value": "5*(floor((@actor.level + 3)/8))"
+      }
+    ],
+    "slug": "synergetic-movement",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "summoner"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "rlQqstfIeUh0pvOP",
+  "img": "icons/magic/control/debuff-energy-hold-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "addf24834275671430afb625375b26e7d62ad1d4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759618157849,
+    "modifiedTime": 1759618637319,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!items!rlQqstfIeUh0pvOP"
+}

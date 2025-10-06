@@ -1,0 +1,100 @@
+{
+  "folder": "1Xct6X38cagepHlM",
+  "name": "Innate Fairy Wings",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a 15-foot fly speed.</p>\n<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Any feat that upgrades the PC's flying capabilities, instead upgrades this Speed by an additional 5 feet. </span></p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 15
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fly-speed",
+        "value": "5 * @actor.flags.pf2e.ancestryFlyingCount",
+        "slug": "innate-demonic-wings"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.ancestryFlyingCount",
+        "value": 1
+      }
+    ],
+    "slug": "innate-fairy-wings",
+    "_migration": {
+      "version": 0.941,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.347",
+        "system": "7.3.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "sprite"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/commodities/biological/wing-insect-blue.webp",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "f4a41510fd972874a3961f87aaca0b59629d2420",
+      "sourceId": "Item.FEgAw9J9j1BaGwiQ"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755204673821,
+    "modifiedTime": 1755204772454,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "FjXk8UuZ7iB8JVdj",
+  "sort": 0,
+  "_key": "!items!FjXk8UuZ7iB8JVdj"
+}

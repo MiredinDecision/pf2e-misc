@@ -1,0 +1,77 @@
+{
+  "folder": "UzQ4odBakbCUtHAD",
+  "name": "Scarlet Study",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This feature replaces the @UUID[Compendium.pf2e.classfeatures.Item.FTeIs1Z1Qeli4BIF]{Hybrid Study} feature.</p><p>You gain @UUID[Compendium.pf2e-misc.our-items.Item.tmurmtPzA4W1hAZl]{Sanguine Blade} as your study instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.tmurmtPzA4W1hAZl"
+      }
+    ],
+    "slug": "scarlet-study",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "dsqmJu41o2K1Un1a",
+  "img": "systems/pf2e/icons/spells/sanguine-mist.webp",
+  "sort": -50000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ff50fe94c63e44d09c4d1d21c05c01dfd32bd08f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726810192360,
+    "modifiedTime": 1727127410638,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!dsqmJu41o2K1Un1a"
+}

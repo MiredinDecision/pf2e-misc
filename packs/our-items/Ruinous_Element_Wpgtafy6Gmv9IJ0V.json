@@ -1,0 +1,164 @@
+{
+  "folder": "rAe5GRqpaIRRIWO7",
+  "name": "Ruinous Element",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Ruinous Element</strong> When you were resurrected, you returned attuned to an element thematically connected to your life. Select one of the following damage types: acid, cold, electricity, or fire. Any weapon you wield that you are proficient in gains a +1 damage of that element. At level 6, your weapons elemental damage is replaced with the effects of the corrosive, frost, shock, or flaming rune based on your ruinous element. If you are 14th level or higher, it gains the greater effects of this rune instead. This rune counts towards your maximum limit of runes as normal.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Select a Ruinous Element",
+        "choices": [
+          {
+            "label": "Acid",
+            "value": {
+              "element": "acid",
+              "rune": "corrosive"
+            }
+          },
+          {
+            "label": "Cold",
+            "value": {
+              "element": "cold",
+              "rune": "frost"
+            }
+          },
+          {
+            "label": "Electricity",
+            "value": {
+              "element": "electricity",
+              "rune": "shocking"
+            }
+          },
+          {
+            "label": "Fire",
+            "value": {
+              "element": "fire",
+              "rune": "flaming"
+            }
+          }
+        ],
+        "flag": "ruinousElement"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 1,
+        "damageType": "{item|flags.pf2e.rulesSelections.ruinousElement.element}",
+        "predicate": [
+          {
+            "not": {
+              "gte": [
+                "self:level",
+                6
+              ]
+            }
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "definition": [
+          "item:type:weapon"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "property-runes",
+        "value": "{item|flags.pf2e.rulesSelections.ruinousElement.rune}",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          },
+          {
+            "lt": [
+              "self:level",
+              14
+            ]
+          }
+        ]
+      },
+      {
+        "definition": [
+          "item:type:weapon"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "property-runes",
+        "value": "greater-{item|flags.pf2e.rulesSelections.ruinousElement.rune}",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              14
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "ruinous-element",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Wpgtafy6Gmv9IJ0V",
+  "img": "systems/pf2e/icons/features/classes/elemental-magic.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "19200ee37b17f542d5a9483aba8858d9ea753ac2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726975835282,
+    "modifiedTime": 1726977836813,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!Wpgtafy6Gmv9IJ0V"
+}

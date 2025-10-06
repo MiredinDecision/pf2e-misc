@@ -1,0 +1,76 @@
+{
+  "folder": "Oq2tv2LjxifRdYTW",
+  "name": "Expansive Spellstrike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You can blast the energy of a spell out around the target of your attack. When you Spellstrike with a spell that has an area of a burst, cone, or line, the spell creates an area instead of affecting only the target. The target must be in the area. A burst is centered on a corner of the target's square; if the target is Large or larger, the burst use the square corner closest to the center of the target and choose the corner if more than one is eligible. A cone or line emits from you and must include the target; if you're not adjacent to the target (using a reach weapon or starlit span, for example), choose any square adjacent to the target as the source. The spell affects all creatures in the area as normal, but the Strike still targets only one creature.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "expansive-spellstrike",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "PDU3xdvZgRhDzsAB",
+  "img": "icons/magic/defensive/barrier-shield-dome-deflect-teal.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "50836ec3e9a30f412a9a19fa2702cf6861a561b4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757820653825,
+    "modifiedTime": 1757820777579,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!PDU3xdvZgRhDzsAB"
+}

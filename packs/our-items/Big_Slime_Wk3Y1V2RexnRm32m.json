@@ -1,0 +1,78 @@
+{
+  "folder": "r8Plx873Fv368892",
+  "name": "Big Slime",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've been growing larger and larger over time, and, at this point, you've become a massive slime, as large as many other types of oozes. You become Large. Your reach increases by 5 feet (or by 10 feet if you started out Tiny). Your equipment grows with you.</p>"
+    },
+    "rules": [
+      {
+        "key": "CreatureSize",
+        "value": "large",
+        "reach": 10
+      }
+    ],
+    "slug": "big-slime",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7bcabdcd40046e456eceff073bb1b2e5e00f041b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.Wk3Y1V2RexnRm32m",
+    "duplicateSource": "Item.3YdcFDASZPKZ6dYP",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "Wk3Y1V2RexnRm32m",
+  "_key": "!items!Wk3Y1V2RexnRm32m"
+}

@@ -1,0 +1,116 @@
+{
+  "folder": "UzQ4odBakbCUtHAD",
+  "name": "Sanguine Blade",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Increase your maximum Hit Points by your level.</p><p>You may enter @UUID[Compendium.pf2e.actionspf2e.Item.HbejhIywqIufrmVM]{Arcane Cascade} after making a @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike}, as well as after @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Casting a Spell} or using @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]{Spellstrike}.</p><p>You can store excess blood within your Sanguine Blade, up to your level plus your Constitution modifier. You may use this blood to cast your spells instead of your Hit Points. You restore your Sanguine Blade fully when you perform your daily preparations. When you Cast a Spell that requires a spell attack roll while in your arcane cascade, apply the additional damage from Arcane Cascade to that spell, even on a failure.</p><p>If you make a Strike while you're in Arcane Cascade stance, and are wielding a one handed weapon with the Two-Hand trait, you regain a number of Hit Points equal to a third of your level if the Strike was successful, or equal to two-thirds your level if the Strike was a critical success. You may choose to add these Hit Points to your Sanguine Blade instead.</p><p><strong>Conflux Spell </strong>@UUID[Compendium.pf2e-misc.our-items.Item.AzI0oONgsaK5kMr0]{Blood Drinker}</p><p></p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "text": "If you make a Strike while you're in Arcane Cascade stance, and are wielding a one handed weapon with the Two-Hand trait, you regain a number of @Damage[(max(floor(@actor.level/3),1))[healing]]{Hit Points} equal to a third of your level if the Strike was successful, or equal to @Damage[(max(floor(@actor.level/3),1)*2)[healing]]{two-thirds} your level if the Strike was a critical hit. You may choose to add these Hit Points to your Sanguine Blade instead.",
+        "predicate": [
+          "self:effect:arcane-cascade",
+          "item:usage:hands:1",
+          "item:trait:two-hand",
+          "item:equipped",
+          {
+            "not": "unarmed"
+          }
+        ],
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "title": "{item|name}",
+        "selector": "strike-damage"
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "attack",
+          "spell"
+        ],
+        "predicate": [
+          {
+            "not": "self:effect:arcane-cascade"
+          }
+        ],
+        "title": "{item|name}",
+        "text": "You may enter @UUID[Compendium.pf2e.actionspf2e.Item.HbejhIywqIufrmVM]{Arcane Cascade} after making a Strike, as well as after Casting a Spell or using Spellstrike.\n@UUID[Compendium.pf2e.feat-effects.Item.fsjO5oTKttsbpaKl]{Stance: Arcane Cascade}"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "hp",
+        "value": "@actor.level"
+      },
+      {
+        "key": "SpecialResource",
+        "label": "Sanguine Blade",
+        "max": "@actor.level+@actor.abilities.con.mod"
+      }
+    ],
+    "slug": "sanguine-blade",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "tmurmtPzA4W1hAZl",
+  "img": "systems/pf2e/icons/spells/blood-vendetta.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "32ed5b74262aa35d8773fea39ba10e54628ecbda"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1726810290088,
+    "modifiedTime": 1757989342098,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!tmurmtPzA4W1hAZl"
+}

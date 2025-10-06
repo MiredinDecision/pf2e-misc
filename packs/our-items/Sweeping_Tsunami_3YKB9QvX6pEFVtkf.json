@@ -1,0 +1,83 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Sweeping Tsunami",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p data-pm-slice=\"1 1 []\"><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.vlix0pDKMxTNYOJd]{Winding Stream Dance}.</p>\n<hr />\n<p>You lash out in a blur of motion, attacking all nearby adversaries. Make a melee @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike} against each enemy within your melee reach. Each attack counts toward your multiple attack penalty, but you do not increase your penalty until you have made all your attacks. Your scarf's Sweep modifier applies to all your Sweeping Tsunami attacks.</p>"
+    },
+    "rules": [],
+    "slug": "sweeping-tsunami",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Winding Stream Dancer Archetype",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Winding Stream Dancer Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "bf70198a836ac280ee9ea180890e513e61aed664"
+    }
+  },
+  "effects": [],
+  "folder": "mt4Cp2wTMUgFuWiR",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.3YKB9QvX6pEFVtkf",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262029591,
+    "modifiedTime": 1728262029591,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "3YKB9QvX6pEFVtkf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4gMqw7mI53Oe9aWm": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_key": "!items!3YKB9QvX6pEFVtkf"
+}

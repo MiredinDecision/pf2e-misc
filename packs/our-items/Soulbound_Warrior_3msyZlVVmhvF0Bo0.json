@@ -1,0 +1,317 @@
+{
+  "img": "systems/pf2e/icons/classes/summoner.webp",
+  "name": "Soulbound Warrior",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>You can magically beckon a powerful being called an eidolon to your side, serving as the mortal conduit that anchors it to the world. Whether your eidolon is a friend, a servant, or even a personal god, your connection to it marks you as extraordinary, shaping the course of your life dramatically.</em></p>\n<p><em>You have eschewn spellcasting power to focus on fighting alongside your eidolon.</em></p>"
+    },
+    "rules": [],
+    "slug": "soulbound-warrior",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "dex",
+        "str"
+      ]
+    },
+    "items": {
+      "0669p": {
+        "img": "systems/pf2e/icons/features/classes/eidolon.webp",
+        "level": 1,
+        "name": "Eidolon",
+        "uuid": "Compendium.pf2e.classfeatures.Item.qOEpe596B0UjhcG0"
+      },
+      "1xme9": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-defensive-expertise.webp",
+        "level": 11,
+        "name": "Eidolon Defensive Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.2CZPYoyWih6zYTcb"
+      },
+      "2x8il": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "level": 13,
+        "name": "Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+      },
+      "3zc6y": {
+        "img": "systems/pf2e/icons/features/classes/weapon-expertise.webp",
+        "level": 11,
+        "name": "Weapon Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc"
+      },
+      "4jbpz": {
+        "img": "systems/pf2e/icons/features/classes/instant-manifestation.webp",
+        "level": 19,
+        "name": "Instant Manifestation",
+        "uuid": "Compendium.pf2e.classfeatures.Item.H0iWhiyP0QqgmAKs"
+      },
+      "4mev6": {
+        "img": "icons/creatures/eyes/lizard-single-slit-pink.webp",
+        "level": 3,
+        "name": "Shared Vigilance",
+        "uuid": "Compendium.pf2e.classfeatures.Item.QiMlJ33kNEoyh1M0"
+      },
+      "65k1a": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-unarmed-mastery.webp",
+        "level": 13,
+        "name": "Eidolon Unarmed Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.NIzHfVcVMhDmvA49"
+      },
+      "826s9": {
+        "img": "systems/pf2e/icons/features/classes/resolve.webp",
+        "level": 15,
+        "name": "Shared Resolve",
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZPfHVz14j42jCnS"
+      },
+      "ahde7": {
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "level": 1,
+        "name": "Evolution Feat",
+        "uuid": "Compendium.pf2e.classfeatures.Item.IPcdQAwJk0aZe5mg"
+      },
+      "bqrgn": {
+        "img": "systems/pf2e/icons/features/classes/juggerenaut.webp",
+        "level": 11,
+        "name": "Twin Juggernauts",
+        "uuid": "Compendium.pf2e.classfeatures.Item.q1Y12Pg2gQg2FJPR"
+      },
+      "g50u2": {
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "level": 15,
+        "name": "Greater Eidolon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.B5SyM7qHrU0gTGR0"
+      },
+      "oig4n": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-unarmed-expertise.webp",
+        "level": 5,
+        "name": "Eidolon Unarmed Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.pda6iUaU9waXId5Q"
+      },
+      "okzqp": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-symbiosis.webp",
+        "level": 7,
+        "name": "Eidolon Symbiosis",
+        "uuid": "Compendium.pf2e.classfeatures.Item.skQBrwRwJW2K6ACj"
+      },
+      "ongtl": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 17,
+        "name": "Master Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+      },
+      "pz5oe": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-weapon-specialization.webp",
+        "level": 7,
+        "name": "Eidolon Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.oCnyGRvkfjTsZXcX"
+      },
+      "q00uy": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-transcendence.webp",
+        "level": 17,
+        "name": "Eidolon Transcendence",
+        "uuid": "Compendium.pf2e.classfeatures.Item.nCE9DzkugRefREqT"
+      },
+      "vbbxr": {
+        "img": "systems/pf2e/icons/features/classes/eidolon-defensive-mastery.webp",
+        "level": 19,
+        "name": "Eidolon Defensive Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.0WvI8KM5m0SaZ3MH"
+      },
+      "vr2ao": {
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "level": 9,
+        "name": "Shared Reflexes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.dZNAXTQovlWVvAyX"
+      },
+      "xf0v4": {
+        "img": "systems/pf2e/icons/features/classes/link-spells.webp",
+        "level": 1,
+        "name": "Link Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.wguqw300DB5XdD8W"
+      },
+      "8AfDB": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Weapon Expertise",
+        "level": 5
+      },
+      "3TSUv": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Martial Weapon Mastery",
+        "level": 13
+      },
+      "8bE3p": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.SHpjmM4A3Sw4GgDz",
+        "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+        "name": "Light Armor Mastery",
+        "level": 19
+      },
+      "rHJGl": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7",
+        "img": "icons/equipment/back/mantle-collared-green.webp",
+        "name": "Light Armor Expertise",
+        "level": 13
+      },
+      "aPrrb": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.FCEp9jjxxgRJDJV3",
+        "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+        "name": "Medium Armor Expertise",
+        "level": 11
+      },
+      "xAUCC": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cGMSYAErbUG5E8X2",
+        "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "name": "Medium Armor Mastery",
+        "level": 19
+      },
+      "DQqgv": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 7
+      },
+      "7ZCgc": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Greater Weapon Specialization",
+        "level": 15
+      }
+    },
+    "hp": 10,
+    "trainedSkills": {
+      "value": [],
+      "additional": 3
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "type": "class",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "6adf8713ee6e65b01e5edd32ee1b995455d12227"
+    }
+  },
+  "effects": [],
+  "folder": "qkJP8jXkbQqPmFQ9",
+  "ownership": {
+    "default": 0,
+    "21MPSHhV4Va1pyVM": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-soulbound-warrior.soulbound-warrior-features.Item.3msyZlVVmhvF0Bo0",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262379559,
+    "modifiedTime": 1728262379559,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "3msyZlVVmhvF0Bo0",
+  "sort": 100000,
+  "_key": "!items!3msyZlVVmhvF0Bo0"
+}

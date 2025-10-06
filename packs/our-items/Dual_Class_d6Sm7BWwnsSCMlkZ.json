@@ -1,0 +1,26 @@
+{
+  "name": "Dual Class",
+  "sorting": "a",
+  "folder": "iHlTzx01YRO4dG1U",
+  "type": "Item",
+  "_id": "d6Sm7BWwnsSCMlkZ",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "5522f7247a3517fe37039f051c4186abdd3bdd23"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1728262382356,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "description": "",
+  "_key": "!folders!d6Sm7BWwnsSCMlkZ"
+}

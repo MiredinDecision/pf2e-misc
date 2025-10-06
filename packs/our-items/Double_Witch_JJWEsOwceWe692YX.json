@@ -1,0 +1,27 @@
+{
+  "name": "Double Witch",
+  "sorting": "a",
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "type": "Item",
+  "_id": "JJWEsOwceWe692YX",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "2dd72a3eefab7591e7230d71139ba5a9d22ca264"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": null,
+    "modifiedTime": 1754849746714,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!folders!JJWEsOwceWe692YX"
+}

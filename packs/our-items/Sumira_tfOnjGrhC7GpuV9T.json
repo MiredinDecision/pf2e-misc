@@ -1,0 +1,26 @@
+{
+  "name": "Sumira",
+  "sorting": "a",
+  "folder": "7OZbTCbckbg9PFqT",
+  "type": "Item",
+  "_id": "tfOnjGrhC7GpuV9T",
+  "description": "",
+  "sort": 600000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "9f4a43d7b4db80af859d6948f7638ae7dfbc9ae5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802831856,
+    "modifiedTime": 1728262485610,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "_key": "!folders!tfOnjGrhC7GpuV9T"
+}

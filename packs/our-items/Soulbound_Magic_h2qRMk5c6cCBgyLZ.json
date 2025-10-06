@@ -1,0 +1,103 @@
+{
+  "name": "Soulbound Magic",
+  "type": "feat",
+  "img": "icons/magic/control/energy-stream-link-white.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "5c3688d2df3802e71020b10729d02602f9cf6839",
+      "sourceId": "Item.EgjFUGyxHQyNQdvG"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon begins to express a portion of the spellcasting prowess you gave up in your soulbinding. Your eidolon gains the @UUID[Compendium.pf2e-misc.our-items.Item.FDVEvuCpe1UduRKy]{Eidolon Spellcasting}, @UUID[Compendium.pf2e-misc.our-items.Item.R79vBGYE6dR14q7m]{Signature Spells}, @UUID[Compendium.pf2e-misc.our-items.Item.DMI6TMk51ihJGEg0]{Spell Repertoire}, class features.</p><p>Your eidolon gains the @UUID[Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE]{Expert Spellcaster} and @UUID[Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc]{Master Spellcaster} features at the same level you normally would.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-misc.our-items.Item.FDVEvuCpe1UduRKy"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-misc.our-items.Item.R79vBGYE6dR14q7m"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-misc.our-items.Item.DMI6TMk51ihJGEg0"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.hFZ6HqDMv86dIv7D",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "soulbound-magic",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eidolon"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-misc.our-items.Item.h2qRMk5c6cCBgyLZ",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758949802354,
+    "modifiedTime": 1758949906432,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "folder": "kGCQLmHxE0HUPe4O",
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "_id": "h2qRMk5c6cCBgyLZ",
+  "sort": 300000,
+  "_key": "!items!h2qRMk5c6cCBgyLZ"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Ancestry Feytouched Succubus",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "j8NMw0mgS5YcHOHL",
+  "description": "",
+  "sort": 6500000,
+  "color": "#303030",
+  "flags": {
+    "scene-packer": {
+      "hash": "5af35ef2c9abd37b65e97cdb578fc5660ab5eb68"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743988301737,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!j8NMw0mgS5YcHOHL"
+}

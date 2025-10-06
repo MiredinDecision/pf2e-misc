@@ -1,0 +1,84 @@
+{
+  "folder": "9sGw5JsrPu1WduRV",
+  "name": "Thanergetic Mage Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You have trained for many years to hone your knowledge of the undead and necromantic magics. Choose Religion or Occultism. You become trained in that skill. If you are already trained in both skills, you may choose another.</span></p><p>You gain access to the thanergetic spell list, which is added to your spell list. This list includes the spell @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0] and all common or uncommon spells with the void, unholy, cold, or death trait from any tradition. Any time you choose thanergetic mage spells, you must choose them from the thanergetic spell list.</p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">If you don't already cast spells from spell slots, </span>you learn to cast prepared spells and gain the @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} activity. <span style=\"font-family:Roboto, sans-serif\">You can prepare two cantrips each day from the thanergetic spell list. You're trained in the spell attack modifier and spell DC statistics. Your key spellcasting attribute for thanergetic mage archetype spells is Wisdom, and they are divine thanergetic mage spells.</span></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">If you can already cast spells from spell slots, you learn one additional cantrip from your spellcasting tradition. If you're a prepared caster, you can prepare this spell in addition to your usual cantrips per day; if you're a spontaneous caster, you add this cantrip to your spell repertoire.</span></p><p>You gain the @UUID[Compendium.pf2e-misc.our-items.Item.rZm2u69gCwDQa99l]{Thanergetic Suspension} class feature.</p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Special</strong> You can't select another dedication feat until you have gained two other feats from the thanergetic mage archetype.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.rZm2u69gCwDQa99l"
+      }
+    ],
+    "slug": "thanergetic-dedication",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "+2 Wisdom"
+        },
+        {
+          "value": "trained in Religion or Occultism"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "B6HNFVoIZBmW0vkA",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1dfe289b54e1d0bb37e310faa55f17a79725351d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1726962650280,
+    "modifiedTime": 1757399234621,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!B6HNFVoIZBmW0vkA"
+}

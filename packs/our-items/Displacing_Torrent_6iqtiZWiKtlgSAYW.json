@@ -1,0 +1,82 @@
+{
+  "folder": "mYPwNYpKkSFo9FH5",
+  "name": "Displacing Torrent",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p data-pm-slice=\"1 1 []\"><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.vlix0pDKMxTNYOJd]{Winding Stream Dance}.</p>\n<hr />\n<p>You make a wide, arcing swing. Make a melee @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike} and compare the attack roll result to the AC of up to two foes, each of whom must be within your melee reach and adjacent to each other. Roll damage only once and apply it to each creature you hit. Displacing Torrent counts as two attacks for your multiple attack penalty, but don't increase your penalty until you have made all your attacks. If you're using a weapon with the sweep trait, its modifier applies to all your Swipe attacks.</p>\n<p><strong>Critical Success</strong> The target is swept off their feet. They are knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} as if they had failed the Reflex save against the critical specialization of your scarf.<br /><strong>Success </strong>The target is knocked prone unless they succeed at a Reflex save against your class DC for your critical specialization.<br /><strong>Failure </strong>You miss your attack as normal.<br /><strong>Critical Failure</strong> You stumble, falling @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} in your space.</p>"
+    },
+    "rules": [],
+    "slug": "displacing-torrent",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Winding Stream Dancer Archetype",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Winding Stream Dancer Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "6iqtiZWiKtlgSAYW",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4gMqw7mI53Oe9aWm": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bd18913fabb59533209b33aa6535d631ffe41890"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.6iqtiZWiKtlgSAYW",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262029591,
+    "modifiedTime": 1728262029591,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!6iqtiZWiKtlgSAYW"
+}

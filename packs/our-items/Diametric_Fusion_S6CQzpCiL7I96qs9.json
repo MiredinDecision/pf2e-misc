@@ -1,0 +1,95 @@
+{
+  "img": "systems/pf2e/icons/spells/echoing-weapon.webp",
+  "name": "Diametric Fusion",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have learned to bind magic between two weapons, creating a dyad of arcane energy that unifies them into a magical union. This union forges a bond between your weapons, as you have done so with might and magic.</p>\n<p>During your daily preparations, choose two one-handed melee weapons in which you are trained to be your diametric weapons. When you are wielding these weapons, they gain the twin trait and are treated as the same weapon type for the purposes of the twin trait. If the two weapons you chose already had the twin trait and were the same weapon type, increase the damage from the twin trait by 1 per weapon damage die.</p>\n<p>While you are in @UUID[Compendium.magus.magus-class-features.Item.SkUkDSnIU1LHBSHf]{Arcane Cascade+}, weapons you wield with the twin trait increase their damage against enemies you previously attacked this turn by 1, by 2 if you have weapon specialization, or by 3 if you have greater weapon specialization. The damage from your twin trait is of the same type as your Arcane Cascade while you are in Arcane Cascade. You gain the @UUID[Compendium.magus.magus-actions.Item.WI9T2TqYWk5M5Ed9]{Residual Spellstrike} reaction.</p>\n<hr />\n<p><strong>Conflux Spell</strong> @UUID[Compendium.magus.magus-focus-spells.Item.1nrYVqps9R4q3CIM]{Dual-Pattern Strike}</p>\n<p><strong>Studious Spells</strong> 7th: @UUID[Compendium.pf2e.spells-srd.Item.7dKtMehJ6YrXwJLR]{Magnetic Attraction}; 11th: @UUID[Compendium.pf2e.spells-srd.Item.1bXLp8cyIKFjZtVx]{Temporal Twin}; 13th: @UUID[Compendium.pf2e.spells-srd.Item.A7w3YQBrFNH8KYsB]{Mirror's Misfortune}</p>\n<hr />\n<p><strong>Foundry Note</strong> When doing your daily preparations, you can use the @UUID[Compendium.magus.magus-effects.Item.LnasyNmfSsrgJsHj]{Effect: Diametric Weapon} effect to mark your chosen weapons as your diametric weapons.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.magus.magus-actions.Item.WI9T2TqYWk5M5Ed9"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-misc.our-items.Item.hAwFmEEesSIuVAL7"
+      }
+    ],
+    "slug": "diametric-fusion",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "magus-hybrid-study"
+      ],
+      "value": [
+        "magus"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Magus+",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "7oWVMvY4T6vgcOLC": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743561457630,
+    "modifiedTime": 1744213008782,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "PyudfzbIHfwCf86A",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.magus.magus-class-features.Item.A8SSYFAvW88FW1hU",
+      "hash": "a35c2165ae9f7b48c9b8a3b5b9dde1019b251717"
+    }
+  },
+  "_id": "S6CQzpCiL7I96qs9",
+  "sort": 400000,
+  "_key": "!items!S6CQzpCiL7I96qs9"
+}

@@ -1,0 +1,195 @@
+{
+  "folder": "SxWtsdy8YxdR2LxU",
+  "name": "Faithful Steed",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain the service of a young animal companion as a mount. See Animal Companions. If you have the holy or unholy trait, your mount gains it as well, as do the mount's Strikes. Typically, the steed is an animal companion with the mount ability (such as a horse). The GM might allow another animal companion option, or allow the creature to have a different appearance that thematically fits your deity.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "or": [
+                "item:category:deity",
+                "item:category:pantheon"
+              ]
+            }
+          ],
+          "itemType": "deity"
+        },
+        "flag": "deity",
+        "key": "ChoiceSet",
+        "predicate": [
+          {
+            "not": "deity"
+          }
+        ],
+        "priority": 99,
+        "prompt": "PF2E.SpecificRule.Prompt.Deity"
+      },
+      {
+        "allowDuplicate": false,
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "not": "deity"
+          }
+        ],
+        "uuid": "{item|flags.pf2e.rulesSelections.deity}"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.TraitHoly",
+            "predicate": [
+              {
+                "or": [
+                  "deity:primary:sanctification:can:holy",
+                  "deity:primary:sanctification:must:holy"
+                ]
+              }
+            ],
+            "value": "holy"
+          },
+          {
+            "label": "PF2E.TraitUnholy",
+            "predicate": [
+              {
+                "or": [
+                  "deity:primary:sanctification:can:unholy",
+                  "deity:primary:sanctification:must:unholy"
+                ]
+              }
+            ],
+            "value": "unholy"
+          },
+          {
+            "label": "PF2E.NoneOption",
+            "predicate": [
+              {
+                "nor": [
+                  "deity:primary:sanctification:must:holy",
+                  "deity:primary:sanctification:must:unholy"
+                ]
+              }
+            ],
+            "value": "none"
+          }
+        ],
+        "key": "ChoiceSet",
+        "predicate": [
+          {
+            "nor": [
+              "deity:primary:sanctification:none",
+              "sanctification:holy",
+              "sanctification:unholy"
+            ]
+          }
+        ],
+        "prompt": "PF2E.SpecificRule.Prompt.Sanctification",
+        "rollOption": "sanctification",
+        "slug": "sanctification",
+        "flag": "sanctification",
+        "selection": "holy"
+      },
+      {
+        "add": [
+          "holy"
+        ],
+        "key": "ActorTraits",
+        "predicate": [
+          "sanctification:holy"
+        ]
+      },
+      {
+        "add": [
+          "unholy"
+        ],
+        "key": "ActorTraits",
+        "predicate": [
+          "sanctification:unholy"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "sanctification:holy"
+        ],
+        "property": "traits",
+        "value": "holy"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "sanctification:holy"
+        ],
+        "property": "traits",
+        "value": "holy"
+      }
+    ],
+    "slug": "faithful-steed",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "aMnYKP4qH36KmZuK",
+  "img": "systems/pf2e/icons/spells/phantom-steed.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "707a8e2a09510c501962ff50dac1a26bef2e95bf"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735664238045,
+    "modifiedTime": 1735667705509,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!aMnYKP4qH36KmZuK"
+}

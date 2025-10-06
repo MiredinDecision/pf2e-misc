@@ -1,0 +1,87 @@
+{
+  "folder": "y6eJ407r6YL7mRFj",
+  "name": "Blood Drinker",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You Stride or Step to any square within reach of a creature, and then make a melee Strike against one creature within your reach. The weapon rips the life force from its target as it withdraws, dealing persistent bleed damage equal to the weapon's damage dice, adding in the bonus from Arcane Cascade if it is active. The target takes spirit damage instead of bleed damage if that would be more detrimental to the target (as determined by the GM).</p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You can use Blood Drinker to Burrow, Climb</span>, Fly, or Swim instead of Stride if you have the corresponding movement type.</p><hr /><p>@UUID[Compendium.pf2e-misc.our-items.Item.zkQvDy5llUoiqNhx]{Effect: Blood Drinker}</p>"
+    },
+    "rules": [],
+    "slug": "blood-drinker",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "magus"
+      ],
+      "rarity": "unique",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "self"
+    },
+    "range": {
+      "value": "your speed"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "systems/pf2e/icons/spells/blood-vendetta.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f372f8fb03fb883696ecf5bf1ff1def667d17211",
+      "sourceId": "Actor.ZSxtwMkgJnC5gljK.Item.UNxpKCMN5Bieyx74"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1726859866012,
+    "modifiedTime": 1733791609218,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "AzI0oONgsaK5kMr0",
+  "sort": 100000,
+  "_key": "!items!AzI0oONgsaK5kMr0"
+}

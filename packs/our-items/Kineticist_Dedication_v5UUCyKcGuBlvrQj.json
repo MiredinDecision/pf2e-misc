@@ -1,0 +1,142 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Kineticist Dedication",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You become trained in kineticist class DC and impulse attack rolls. Choose one element to be your kinetic element (air, earth, fire, metal, water, or wood). You gain a kinetic aura and the @UUID[Compendium.pf2e.actionspf2e.Item.g8QrV39TmZfkbXgE]{Channel Elements} action, though you don't get to use an @UUID[Compendium.pf2e.actionspf2e.Item.6lbr0Jnv0zMB5uGb]{Elemental Blast} or stance impulse when you take that action. You gain the Elemental Blast action. You gain the @UUID[Compendium.pf2e.actionspf2e.Item.nTBrvt2b9wngyr0i]{Base Kinesis} action. You become trained in Religion and a skill of your choice; if you were already trained in Religion, you instead become trained in another skill of your choice. You can take one level 1 Kineticist feat.</p><hr /><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.1kRGIb5LPPKypQpN]{Kineticist Archetype}</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "value": "Item.xNQvWxn3KVDkvBdY"
+          }
+        ],
+        "flag": "elementOne",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Kineticist.KineticGate.Prompt.Element",
+        "rollOption": "kinetic-gate:first-element"
+      },
+      {
+        "allowDuplicate": false,
+        "key": "GrantItem",
+        "uuid": "Item.01WOUkzPXWQgYU0D"
+      },
+      {
+        "allowDuplicate": false,
+        "key": "GrantItem",
+        "uuid": "Item.XbOMRStYRt12FTFO"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.elementOne}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.kineticist.elements",
+        "priority": 10,
+        "value": []
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.kineticist.gate",
+        "priority": 10,
+        "value": {
+          "one": "none",
+          "two": "none"
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.medicine.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.religion.rank",
+        "value": 1
+      }
+    ],
+    "slug": "kineticist-dedication",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication",
+        "multiclass"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Constitution +2"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "kineticist": {
+          "attribute": "con",
+          "rank": 1
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.CbfszeYw3cf99kdv",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802818315,
+    "modifiedTime": 1726802818315,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "ynASxnyasGU4ydVK",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "236295817d0dcdf6a8716e0f3744dedb27caee41"
+    }
+  },
+  "_id": "v5UUCyKcGuBlvrQj",
+  "sort": 100000,
+  "_key": "!items!v5UUCyKcGuBlvrQj"
+}

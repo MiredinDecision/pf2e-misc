@@ -1,0 +1,79 @@
+{
+  "folder": "ADoMbgwYlnecyynk",
+  "name": "Manifest Will",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> <em>spirit</em></p><p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> (command, envision)</p><hr /><p><strong>Effect</strong> A blast of force envelops a creature of your choosing within 30 feet. This blast deals @Damage[1d6[spirit]] damage, with a (@Check[type:fortitude|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true]) save. The damage increases by 1d6 at 3rd level and every 2 levels thereafter.</p><p>@Damage[(ceil(@actor.level/2))d6[spirit]]</p>"
+    },
+    "rules": [],
+    "slug": "manifest-will",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.8.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic",
+        "spirit"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": null
+  },
+  "img": "systems/pf2e/icons/features/classes/walls-of-will.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4bffa12bbe98791aec19c35bdf598e0506dfac77",
+      "sourceId": "Item.C5WxDfQa3KXgk2Pi"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735586913481,
+    "modifiedTime": 1735586920361,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "D4UKyq5cDNSCHCho",
+  "sort": 300000,
+  "_key": "!items!D4UKyq5cDNSCHCho"
+}

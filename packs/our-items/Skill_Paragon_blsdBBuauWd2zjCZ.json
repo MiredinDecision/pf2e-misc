@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Skill Paragon",
+  "color": null,
+  "sorting": "a",
+  "_id": "blsdBBuauWd2zjCZ",
+  "description": "",
+  "sort": 600000,
+  "flags": {
+    "scene-packer": {
+      "hash": "607645cb93019b2be76bb0eb27757b4a8bb9a33f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.1",
+    "createdTime": 1755737816140,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!blsdBBuauWd2zjCZ"
+}

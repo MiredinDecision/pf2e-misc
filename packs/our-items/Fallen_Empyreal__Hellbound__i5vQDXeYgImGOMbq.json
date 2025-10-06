@@ -1,0 +1,87 @@
+{
+  "type": "action",
+  "name": "Fallen Empyreal (Hellbound)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "description": {
+      "value": "",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActorTraits",
+        "remove": [
+          "holy"
+        ],
+        "add": [
+          "unholy",
+          "fiend",
+          "devil"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "@actor.level"
+      },
+      {
+        "key": "Weakness",
+        "type": "holy",
+        "value": 10
+      }
+    ],
+    "slug": "fallen-empyreal",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "9Lo171r7blfxyicX",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "263b84711fb81c6773b6057f32bd4b2b32198d3a",
+      "sourceId": "Scene.FI71HNq9eIqStFoi.Token.NRip7pCsEL79cDf2.Actor.NfuZFAgHldpXCpuL.Item.Wpey2UtkRzbIDVx5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.0",
+    "createdTime": 1743126780314,
+    "modifiedTime": 1746995225973,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "i5vQDXeYgImGOMbq",
+  "sort": 300000,
+  "_key": "!items!i5vQDXeYgImGOMbq"
+}

@@ -1,0 +1,26 @@
+{
+  "type": "Item",
+  "folder": "osvkHm0EUQk7MRLc",
+  "name": "Revelation Spells",
+  "color": null,
+  "sorting": "m",
+  "_id": "Cwsf5B5KhNAaMZV2",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "0310437d553745d2d13d02936c5dcdd225a642f3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "modifiedTime": 1758053521619
+  },
+  "_key": "!folders!Cwsf5B5KhNAaMZV2"
+}

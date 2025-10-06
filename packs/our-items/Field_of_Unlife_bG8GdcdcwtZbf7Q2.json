@@ -1,0 +1,133 @@
+{
+  "img": "icons/magic/death/undead-ghosts-trio-blue.webp",
+  "name": "Field of Unlife",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A field of void energy fills the area, exuding cold and rejuvenating those within. Each undead or void healing creature that starts its turn in the area regains 1d8 Hit Points, and any living creature that starts its turn in the area takes 1d8 void damage.</p><hr /><p><strong>Heightened (8th)</strong> The healing and damage increase to 1d10.</p><p><strong>Heightened (9th)</strong> The healing and damage increase to 1d12.</p>"
+    },
+    "rules": [],
+    "slug": "field-of-life",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "healing",
+        "manipulate",
+        "void"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": {
+      "type": "burst",
+      "value": 20
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {
+      "0": {
+        "applyMod": false,
+        "category": null,
+        "formula": "1d8",
+        "kinds": [
+          "damage",
+          "healing"
+        ],
+        "materials": [],
+        "type": "void"
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "levels": {
+        "8": {
+          "damage": {
+            "0": {
+              "applyMod": false,
+              "category": null,
+              "formula": "1d10",
+              "materials": [],
+              "type": "void"
+            }
+          }
+        },
+        "9": {
+          "damage": {
+            "0": {
+              "applyMod": false,
+              "category": null,
+              "formula": "1d12",
+              "materials": [],
+              "type": "void"
+            }
+          }
+        }
+      },
+      "type": "fixed"
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.2",
+    "createdTime": 1737225142304,
+    "modifiedTime": 1754328973937,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "ZbZeGxd2XHQt4tko",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1c36fb7e329201603ef66c10f5dfb86371378cc9",
+      "sourceId": "Item.5cRGJngIIhEFt01I"
+    }
+  },
+  "_id": "bG8GdcdcwtZbf7Q2",
+  "sort": 800000,
+  "_key": "!items!bG8GdcdcwtZbf7Q2"
+}

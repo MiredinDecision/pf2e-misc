@@ -1,0 +1,26 @@
+{
+  "type": "Item",
+  "folder": "mEuf33UYke4nGzgP",
+  "name": "Research Field",
+  "color": null,
+  "sorting": "a",
+  "_id": "JTSOoYlYMYBRCig8",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "01767ac11a2fe63c9a83d7185adddfab2f39f22a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "modifiedTime": 1758071101769
+  },
+  "_key": "!folders!JTSOoYlYMYBRCig8"
+}

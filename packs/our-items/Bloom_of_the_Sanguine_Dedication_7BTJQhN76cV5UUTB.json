@@ -1,0 +1,134 @@
+{
+  "folder": "NzB0n0tbIF5x1WQj",
+  "name": "Bloom of the Sanguine Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">Choose a deity. You are bound by your deity's anathema and can receive that deity's divine sanctification. Choose a cause as you would if you were a champion, with the same options a champion must abide by. You gain its edicts and anathema but don't gain the other abilities.</span></p><p><span style=\"font-family:Roboto, sans-serif\">You become trained in Religion and your deity's associated skill; for each of these skills in which you were already trained, you instead become trained in a skill of your choice. You become trained in champion class DC, and you become trained in spell attack modifier and spell DC for Devotion Spells.</span></p><p>You are touched by a deity and gifted with the ability to alleviate the suffering of others.</p><p>You gain the @UUID[Compendium.pf2e.spells-srd.Item.zNN9212H2FGfM7VS]{Lay on Hands} or @UUID[Compendium.pf2e.spells-srd.Item.jFmWSIpJGGebim6y]{Touch of the Void} devotion spell. You can @UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]{Refocus} by meditating, whether you reflect on the deity granting the blessing or not, allowing your blessing to refill your focus pool. Your devotion spells from the bloom of the sanguine archetype are divine spells. You become trained in spell attack modifier and spell DC. Your spellcasting attribute is Charisma.</p><p>You gain access to feats of the @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DXtjeVaWNB8zSjpA]{Champion} and @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.SUDV5hFZ9WocxWqv]{Blessed One} archetypes. If you take a feat from the Blessed One archetype that affects Lay on Hands, and you have Touch of the Void, that feat affects Touch of the Void instead.</p><p></p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "str"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "dex"
+          }
+        ],
+        "flag": "attribute",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.religion.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.championDedicationCount",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-soulbound-warrior.soulbound-warrior-features.Item.adY6GcbQdOI5oQbV",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.classfeatures.Item.D4k8wuq1ncHFCBZz",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.champion.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attribute}"
+      }
+    ],
+    "slug": "bloom-of-the-sanguine-dedication",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dedication"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Strength +2"
+        },
+        {
+          "value": "Charisma +2"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "champion": {
+          "rank": 1,
+          "attribute": "cha"
+        },
+        "spellcasting": {
+          "rank": 1
+        }
+      }
+    }
+  },
+  "_id": "7BTJQhN76cV5UUTB",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3523134ae2f13647a5f81efb2a4be5c0ce18441b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729277522268,
+    "modifiedTime": 1729303284333,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!7BTJQhN76cV5UUTB"
+}

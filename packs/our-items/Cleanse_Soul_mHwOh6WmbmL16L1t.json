@@ -1,0 +1,73 @@
+{
+  "folder": "rSeRYKSZyVMiZFNr",
+  "name": "Cleanse Soul",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> soul</p><p><strong>Activate</strong> 1 minute (command, envision)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You cleanse a soul of curses. The soul seed attempts to counteract all curses on you or another creature you touch throughout the activation. The target's soul is bolstered against further curses, and they gain a +2 status bonus to saving throws against curses for 1 hour.</p>"
+    },
+    "rules": [],
+    "slug": "cleanse-soul",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "mHwOh6WmbmL16L1t",
+  "img": "icons/creatures/fish/jellyfish-swarm-eyed-teal.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3f00a2bef64ece4e44a61af7ee62d64b8f77b773"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735579500629,
+    "modifiedTime": 1735579614816,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!mHwOh6WmbmL16L1t"
+}

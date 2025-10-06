@@ -1,0 +1,133 @@
+{
+  "img": "icons/weapons/axes/axe-broad-engraved-black-grey.webp",
+  "name": "Weapon Legend",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've learned fighting techniques that apply to all armaments, and you've developed unparalleled skill with your favorite weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master. Your proficiency rank for advanced weapons increases to expert.</p>\n<p>You can select one weapon group and increase your proficiency ranks to legendary for all simple weapons, martial weapons, and unarmed attacks in that weapon group, and to master for all advanced weapons in that weapon group.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "Sword",
+            "value": "sword"
+          },
+          {
+            "label": "Polearm",
+            "value": "polearm"
+          }
+        ],
+        "flag": "weaponLegend",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.WeaponGroup"
+      },
+      {
+        "definition": [
+          "item:group:{item|flags.pf2e.rulesSelections.weaponLegend}",
+          {
+            "or": [
+              "item:category:unarmed",
+              "item:category:simple",
+              "item:category:martial"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.FighterWeaponMasteryLegend.SimpleMartial.{item|flags.pf2e.rulesSelections.weaponLegend}",
+        "slug": "weapon-legend-simple-martial",
+        "value": 4
+      },
+      {
+        "definition": [
+          "item:category:advanced",
+          "item:group:{item|flags.pf2e.rulesSelections.weaponLegend}"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.FighterWeaponMasteryLegend.Advanced.{item|flags.pf2e.rulesSelections.weaponLegend}",
+        "slug": "weapon-legend-advanced",
+        "value": 3
+      }
+    ],
+    "slug": "weapon-legend",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fighter"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "advanced": {
+          "rank": 2
+        },
+        "martial": {
+          "rank": 3
+        },
+        "simple": {
+          "rank": 3
+        },
+        "unarmed": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.F5VenhIQMDkeGvmV",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262224219,
+    "modifiedTime": 1728262224219,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.F5VenhIQMDkeGvmV",
+      "hash": "1d4ed9e7daa87b2915e860581bcc24e70ce4faac"
+    }
+  },
+  "effects": [],
+  "folder": "Lrowc5iak80ZOxGc",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "HNCYBZqbKklOGHFy",
+  "sort": 0,
+  "_key": "!items!HNCYBZqbKklOGHFy"
+}

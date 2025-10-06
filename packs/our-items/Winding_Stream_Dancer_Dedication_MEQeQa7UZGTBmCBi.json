@@ -1,0 +1,136 @@
+{
+  "name": "Winding Stream Dancer Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Access</strong> Special training. Campaign Specific (GM discretion)</p>\n<hr />\n<p>Your training as a @UUID[Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-journal.JournalEntry.zpVWis7hBCUL6u39]{Winding Stream Dancer} has taught you martial techniques and specialist combat dancing styles. You become trained in your choice of Acrobatics or Performance, and Lore: Dance; if you were already trained, you become an expert instead. You become an expert in Athletics. You become trained in the Bladed Scarf weapon. Whenever your proficiency rank in any weapon increases to expert or beyond, you also gain that new proficiency rank with bladed scarves. If you are at least an expert in Bladed Scarf, you gain access to the critical specialization effect with the Bladed Scarf. You gain access to the Bladed Scarf. Your Bladed Scarf weapon may be referred to as \"your scarf\" in other feats within this archetype.</p>\n<p>You gain the @UUID[Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.vlix0pDKMxTNYOJd]{Winding Stream Dance} action.</p>\n<p><strong>Special</strong> You cannot select another dedication feat until you have gained two other feats from the @UUID[Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-journal.JournalEntry.zpVWis7hBCUL6u39]{Winding Stream Dancer} archetype.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.vlix0pDKMxTNYOJd"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:base:bladed-scarf"
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Acrobatics",
+            "value": "acrobatics"
+          },
+          {
+            "label": "Performance",
+            "value": "performance"
+          }
+        ],
+        "flag": "skill",
+        "prompt": "Select a skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+        "phase": "beforeDerived",
+        "value": 2,
+        "predicate": [
+          "skill:{item|flags.pf2e.rulesSelections.skill}:rank:1"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+        "phase": "beforeDerived",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank",
+        "phase": "beforeDerived",
+        "value": 2
+      }
+    ],
+    "slug": "winding-stream-dancer-dedication",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Winding Stream Dancer Archetype",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Dexterity +3"
+        },
+        {
+          "value": "Trained in Athletics"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "DP2Y88NtSC81nKDO",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "dabf096e46fce653a2e917abd45e1921aa3553ee"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.MEQeQa7UZGTBmCBi",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262029591,
+    "modifiedTime": 1728262029591,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "MEQeQa7UZGTBmCBi",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "4gMqw7mI53Oe9aWm": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_key": "!items!MEQeQa7UZGTBmCBi"
+}

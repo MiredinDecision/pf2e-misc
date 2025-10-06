@@ -1,0 +1,152 @@
+{
+  "name": "Apply Twin Damage",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The system by default does not support applying damage from the Twin trait easily.</p>\n<p>You can give yourself this \"feat\" to be granted a checkbox that allows you to do just that.</p>\n<p>It works with or without @UUID[Compendium.magus.magus-class-features.Item.A8SSYFAvW88FW1hU]{Diametric Fusion}.</p>"
+    },
+    "rules": [
+      {
+        "slug": "twin-damage",
+        "label": "Twin",
+        "key": "FlatModifier",
+        "predicate": [
+          "apply-twin-damage",
+          "item:trait:twin"
+        ],
+        "selector": "strike-damage",
+        "type": "circumstance",
+        "value": "@weapon.system.damage.dice"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "multiply",
+        "selectors": [
+          "strike-damage"
+        ],
+        "slug": "twin-damage",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "predicate": [
+          "self:effect:arcane-cascade"
+        ],
+        "selectors": [
+          "strike-damage"
+        ],
+        "slug": "twin-damage",
+        "value": 1,
+        "damageType": "{actor|flags.pf2e.arcaneCascade.damageType}"
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "predicate": [
+          "self:effect:arcane-cascade",
+          {
+            "or": [
+              "feature:weapon-specialization",
+              "feature:spirit-striking"
+            ]
+          }
+        ],
+        "selectors": [
+          "strike-damage"
+        ],
+        "slug": "twin-damage",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "add",
+        "predicate": [
+          "apply-twin-damage",
+          "self:effect:arcane-cascade",
+          {
+            "or": [
+              "feature:greater-weapon-specialization",
+              "feature:greater-spirit-striking"
+            ]
+          }
+        ],
+        "selectors": [
+          "strike-damage"
+        ],
+        "slug": "twin-damage",
+        "value": 1
+      }
+    ],
+    "slug": "apply-twin-damage",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Magus+",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/spells/fated-confrontation.webp",
+  "ownership": {
+    "default": 0,
+    "7oWVMvY4T6vgcOLC": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1744212802987,
+    "modifiedTime": 1744212841536,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "PyudfzbIHfwCf86A",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.magus.magus-miscellaneous.Item.PNJorz4JQQA8cpgV",
+      "hash": "4765d72cd100487575b532e1b22af1f69d9e8302"
+    }
+  },
+  "_id": "hAwFmEEesSIuVAL7",
+  "sort": 0,
+  "_key": "!items!hAwFmEEesSIuVAL7"
+}

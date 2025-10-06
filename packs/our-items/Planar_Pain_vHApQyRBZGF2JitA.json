@@ -1,0 +1,78 @@
+{
+  "folder": "DdPd98kxsm770DTK",
+  "name": "Planar Pain",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;color:rgb(231, 209, 177);font-family:Roboto, sans-serif;font-size:17.5px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(6, 4, 3, 0.92);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Planar Pain</strong> (evocation) Weapon only. When you manifest the essence form, choose one damage type: acid, cold, electricity, fire, sonic, spirit, vitality, or void. Attacks with the weapon deal this type of damage instead of their physical damage with a +2 status bonus to the damage. <em style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;color:rgb(231, 209, 177);font-family:Roboto, sans-serif;font-size:17.5px;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgba(6, 4, 3, 0.92);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Corruption Flaw</em> When you deal damage with a weapon or unarmed attack, you take 2 damage of the last type you chose for planar pain, even if the damage type normally wouldn't harm you, such as spirit damage if you aren't evil.</span></p><p>@UUID[Compendium.pf2e-misc.our-items.Item.KU84sKCNXIsT7PBQ]{Effect: Planar Pain}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "planar-pain",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "vHApQyRBZGF2JitA",
+  "img": "icons/magic/fire/dagger-rune-enchant-purple.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "66d2af217fd84c7330fe8bf1863b01708c42bdb1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743454442787,
+    "modifiedTime": 1743454726375,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!vHApQyRBZGF2JitA"
+}

@@ -1,0 +1,64 @@
+{
+  "folder": "RWrOfvivLAQlmiBp",
+  "name": "Alter Armiger",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>By spending 10 minutes of meditation, you are able to access the depths of your armiger, allowing you to bind a new weapon or unbind an existing reagalia.</p><p></p><p class=\"hang\"><strong>Bind</strong> You choose one weapon in your hands to bind to the cosmos. The weapon must be a melee weapon you are proficient in or a shield with a Shield Boss or Shield Spikes attachment. Your Armiger can only hold 1 copy of a given weapon (Such as only one Greatsword, only one Shortsword, etc). An exception to this rule are Specific Magic Weapons, of which you can have as many copies as you want. The weapon then disappears, turning to motes of light and enters the Armiger within your soul.</p><p class=\"hang\"><strong>Unbind</strong> You choose one Regalia from your Armiger. The weapon materializes back in your hands. Back in its physical form.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "alter-armiger",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration",
+        "starknight"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "_id": "QYsoiQWrnBQ2I5Jw",
+  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d329d23563b034970dc58a968afb7aab6707579b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753909097940,
+    "modifiedTime": 1753910599771,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!QYsoiQWrnBQ2I5Jw"
+}

@@ -1,0 +1,84 @@
+{
+  "folder": "uHZ767fdUBNmZXnF",
+  "name": "Command Undead",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You grasp the animating force within an undead creature and bend it to your will. If the next action you use is to cast a two-action spell that targets one <span style=\"text-decoration:underline\">undead</span> creature, you can transform the effects of the spell. Instead of applying the spell’s normal effects, the target becomes controlled by you if its level is equal to or lower than the spell’s level. The target can attempt a Will saving throw to resist being controlled by you. If the target is already under someone else’s command, the controlling creature also rolls a saving throw, and the undead uses the better result. This effect has the <span style=\"text-decoration:underline\">incapacitation</span> trait if the target isn’t <span style=\"text-decoration:underline\">mindless</span>.</p>\n<p><strong>Critical Success</strong> The target is unaffected and is temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The undead creature becomes a minion under your control. The spell gains a duration of 1 minute, but it is dismissed if you or an ally attacks the minion undead.</p>\n<p><strong>Critical Failure</strong> As failure, but the duration is 1 hour.</p>\n<p><strong>Special</strong> If the spell cast is @UUID[Compendium.pf2e.spells-srd.Item.GUeRTriJkMlMlVrk]{Bind Undead}, the duration is always one day, and the target may instead be up to twice the spell’s level - 4.</p>"
+    },
+    "rules": [],
+    "slug": "command-undead",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.919,
+        "foundry": "12.331",
+        "system": "6.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "spellshape"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Heresy of the Whispering Way",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Thanergetic Mage Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-heresy-of-the-whispering-way.feats.Item.SzMM4aLhw4ChNfmd",
+      "hash": "746b913efac2f3c22629427ddebc589fb65866c9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726982958998,
+    "modifiedTime": 1726983002979,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "q89LhXqpjZpB9jar",
+  "sort": 0,
+  "_key": "!items!q89LhXqpjZpB9jar"
+}

@@ -1,0 +1,116 @@
+{
+  "folder": "pX8XxlOtO9Rv6hl5",
+  "name": "Energy Slime",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your slimy body is made of acid, is on fire, or is incredibly cold, thought this causes you pseudopods to have a bit less blunt force impact. Choose acid, cold, or fire when you gain this feat; once you make the choice, you can't change it. Your psuedopod unarmed attacks deal damage of the chosen type instead of bludgeoning damage. Additionally, whenever a ceature hits you with a melee unarmed attack or ends its turn grabbing you, it takes 1 damage of the chosen type. This damage increases by 1 at 5th, 9th, 13th, and 17th levels, to a maximum of 5 at 17th level.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Acid",
+            "value": "acid"
+          },
+          {
+            "label": "Cold",
+            "value": "cold"
+          },
+          {
+            "label": "Fire",
+            "value": "fire"
+          }
+        ],
+        "flag": "energySlime"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:pseudopod"
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "strike-damage"
+        ],
+        "value": "{item|flags.pf2e.rulesSelections.energySlime}"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:energy-spit",
+          "feat:energy-spit"
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "strike-damage"
+        ],
+        "value": "{item|flags.pf2e.rulesSelections.energySlime}"
+      }
+    ],
+    "slug": "energy-slime",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "hOCC64ZOtr98SqAi",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ffbb99cf8e34b504848d9832521f68d5fc755ec0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.hOCC64ZOtr98SqAi",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!hOCC64ZOtr98SqAi"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Archetype Class Soulbound Warrior",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "iHlTzx01YRO4dG1U",
+  "description": "",
+  "sort": 5200000,
+  "color": "#104010",
+  "flags": {
+    "scene-packer": {
+      "hash": "89da257bb20da5378888aa84dd5517a83d975b7e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262322092,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!iHlTzx01YRO4dG1U"
+}

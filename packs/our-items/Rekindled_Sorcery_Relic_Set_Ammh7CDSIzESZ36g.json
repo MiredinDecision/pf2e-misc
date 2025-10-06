@@ -1,0 +1,249 @@
+{
+  "folder": "80f4TJgrp1OrjQc4",
+  "name": "Rekindled Sorcery Relic Set",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspects </strong><em>celestial, fire, soul</em></p><hr /><p>The lost sorcerous power of a former celestial sorceress, slowly rekindled as she struggles to come to terms with her new life as a vampire and a cleric.</p><hr /><p><strong>Set Items: </strong>@UUID[Compendium.pf2e.equipment-srd.Item.PJboj72eI9JXjtbn]{Bladed Gauntlet (Staff)} (1st Level), @UUID[Compendium.pf2e.equipment-srd.Item.tH5GirEy7YB3ZgCk]{+1 Silver Striking Rapier} (6th Level), @UUID[Compendium.pf2e.equipment-srd.Item.XeiuCRFzxHA7mm0X]{Endless Grimoire (Greater)} (10th Level), @UUID[Compendium.pf2e-misc.our-items.Item.wbxLKvA46AfoFU0h]{Ring of Magic (Type IV)} (14th Level),</p><hr /><p><strong>Gifts: </strong>The set grants the following gifts.</p><ul><li><p><em>1</em>: @UUID[Compendium.pf2e-misc.our-items.Item.P4Byw03ZPr2DRAHh]{Flare Bolt}</p></li><li><p><em>2</em>: @UUID[Compendium.pf2e-misc.our-items.Item.tcdAGUg7A8pN9reB]{Divine Retribution}</p></li><li><p><em>3</em>: @UUID[Compendium.pf2e-misc.our-items.Item.mHwOh6WmbmL16L1t]{Cleanse Soul}</p></li><li><p><em>4</em>: @UUID[Compendium.pf2e-misc.our-items.Item.CJTMvOWLdM5RN2jH]{Searing Wave}</p></li><li><p><em>5</em>: @UUID[Compendium.pf2e-relics.relic-gifts.Item.9vwEfAr45x9Ypkg4]{Soul Magic}</p></li></ul><hr /><p><strong>Collective Features: </strong>The set grants the following features.</p><ul><li><p><em>Two Items</em>: @UUID[Compendium.pf2e-misc.our-items.Item.beCUvesxgARNK5kc]{Flare Bolt} does 1d8 fire damage per relic level.</p></li><li><p><em>Three Items</em>: @UUID[Compendium.pf2e-misc.our-items.Item.BnsEMw6aMbugwba3]{Divine Retribution} deals two additional dice instead of one.</p></li><li><p><em>Four Items</em>: You can use @UUID[Compendium.pf2e-misc.our-items.Item.kbcqzJpIu6Y2za6w]{Cleanse Soul} once per hour, and the status bonus to saving throws against curses increases to +3.</p></li><li><p><em>Five Items</em>: @UUID[Compendium.pf2e-misc.our-items.Item.wOH0aTFLnsZls2xK]{Searing Wave} only damages enemies.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              1
+            ]
+          },
+          {
+            "lte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              2
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.P4Byw03ZPr2DRAHh",
+        "flag": "flareBolt"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              2
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.beCUvesxgARNK5kc",
+        "flag": "flareBolt"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              1
+            ]
+          },
+          {
+            "lte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              3
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.tcdAGUg7A8pN9reB",
+        "flag": "divineRetribution"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              3
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.BnsEMw6aMbugwba3",
+        "flag": "divineRetribution"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              3
+            ]
+          },
+          {
+            "lte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              4
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.mHwOh6WmbmL16L1t",
+        "flag": "cleanseSoul"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              4
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.kbcqzJpIu6Y2za6w",
+        "flag": "cleanseSoul"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              4
+            ]
+          },
+          {
+            "lte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              5
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.CJTMvOWLdM5RN2jH",
+        "flag": "searingWave"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              5
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.wOH0aTFLnsZls2xK",
+        "flag": "searingWave"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.rekindledSorceryCount}",
+              5
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.nqugW1t4m43dTdTO",
+        "flag": "soulMagic"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.rekindledSorceryCount",
+        "value": 4
+      }
+    ],
+    "slug": "rekindled-sorcery-relic-set",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/light/projectile-smoke-pink.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a526ab9feebc4be971248c32285da15ec03f3d19",
+      "sourceId": "Actor.gDAaFU8zVUGzC9eO.Item.S1bySO8ZlRPClthd"
+    },
+    "pf2e": {
+      "itemGrants": {
+        "flareBolt": {
+          "id": "eaLao2IbpB8QkFaw",
+          "onDelete": "detach"
+        },
+        "divineRetribution": {
+          "id": "LZl2zQaXacb6M4aR",
+          "onDelete": "detach"
+        },
+        "cleanseSoul": {
+          "id": "NRVHy787sDNe99LM",
+          "onDelete": "detach"
+        },
+        "searingWave": {
+          "id": "3IucKiu1RQdapNZe",
+          "onDelete": "detach"
+        }
+      }
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1736894482611,
+    "modifiedTime": 1736894482611,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "Ammh7CDSIzESZ36g",
+  "sort": 0,
+  "_key": "!items!Ammh7CDSIzESZ36g"
+}

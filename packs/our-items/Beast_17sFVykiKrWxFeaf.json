@@ -1,0 +1,26 @@
+{
+  "name": "Beast",
+  "sorting": "m",
+  "folder": "jY7U6KjcKG1jKUz4",
+  "type": "Item",
+  "_id": "17sFVykiKrWxFeaf",
+  "description": "",
+  "sort": 0,
+  "color": "#09a8b3",
+  "flags": {
+    "scene-packer": {
+      "hash": "8ea2b9b7bba1644a59f895ed0255889d42d7d067"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1728306402444,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!17sFVykiKrWxFeaf"
+}

@@ -1,0 +1,92 @@
+{
+  "folder": "6UlHTRMVfnYbUlzT",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Dread Marshal Stance",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>Putting on a grim face for the battle ahead, you encourage your allies to strike fear into their foes with vicious attacks. When you use this action, attempt an @Check[intimidation|dc:@self.level|adjustment:-2|roller:self] check. The DC is usually an easy DC of your level, but the GM can assign a different DC based on the circumstances. The effect depends on the result of your check.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.53yV2B5SNWDQjSBj]{Stance: Dread Marshal Stance}</p><hr /><p><strong>Success</strong> Your marshal's aura grants you and your allies in the aura a +1 status bonus to damage rolls. When you or an ally in the aura critically hit an enemy with a Strike, that enemy is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}. If you're wielding a weapon that has more than one damage die (typically due to a striking rune), you can have the status bonus equal the weapon's number of damage dice instead of +1.</p><p><strong>Failure</strong> You fail to enter the stance.</p><p><strong>Critical Failure</strong> You fail to enter the stance and can't take this action again for 1 minute.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 4
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Marshal Dedication"
+        },
+        {
+          "value": "trained in Intimidation"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "archetype",
+        "stance"
+      ],
+      "otherTags": []
+    },
+    "slug": "dread-marshal-stance",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.53yV2B5SNWDQjSBj",
+      "name": "Stance: Dread Marshal Stance"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755040584550,
+    "modifiedTime": 1755237010151,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3bdef74b8610fe49b8ad92947bc63c43c37502bb",
+      "sourceId": "Actor.jGtwaBTkIzrE2wft.Item.TdnXJr3nmaNVpZq6"
+    },
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_id": "KTAkKKbMpVAm2sxv",
+  "sort": 0,
+  "_key": "!items!KTAkKKbMpVAm2sxv"
+}

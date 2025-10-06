@@ -1,0 +1,105 @@
+{
+  "folder": "QdJ9fiSywvcc53Ua",
+  "name": "Beast Senses (10th)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> beast</p><p><strong>Prerequisite </strong>The relic is a worn item.</p><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">The relic grants you an animal's acute senses as long as you wear it. You gain low-light vision. If you already have low-light vision, you instead gain darkvision. If you already have darkvision, you gain an imprecise scent with a range of 10 feet. At 10th level, the range increases to 30 feet.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "scent",
+        "acuity": "imprecise",
+        "range": 30,
+        "predicate": [
+          "@actor.perception.senses.darkvision"
+        ]
+      }
+    ],
+    "slug": "beast-senses",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "beast",
+        "blooded-beast-armament",
+        "relic"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "senses": {
+        "low-light-vision": {},
+        "darkvision": {
+          "special": {
+            "ancestry": false,
+            "llv": true,
+            "second": false
+          }
+        },
+        "scent": {
+          "acuity": "imprecise",
+          "range": 10
+        }
+      }
+    }
+  },
+  "img": "icons/commodities/biological/eye-lizard-orange.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b8842ed2ea8c3b2ee727dba8f46eb8d114e5a395",
+      "sourceId": "Item.upyPGGni5lIvuPgW"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1733801173524,
+    "modifiedTime": 1733801294827,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "bJbEwUurbr3B3SgZ",
+  "sort": 0,
+  "_key": "!items!bJbEwUurbr3B3SgZ"
+}

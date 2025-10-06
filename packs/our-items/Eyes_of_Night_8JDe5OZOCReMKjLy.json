@@ -1,0 +1,90 @@
+{
+  "img": "modules/pf2e-tomb-guardian/assets/VampireEyes.webp",
+  "name": "Eyes of Night",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can see in the darkness as easily as a true vampire. You gain darkvision.</p><hr /><p><strong>Special</strong> You can select this feat only at 1st level, and you can't retrain into or out of this feat.</p>"
+    },
+    "rules": [],
+    "slug": "eyes-of-night",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dhampir"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "low-light vision"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "senses": {
+        "darkvision": {
+          "special": {
+            "ancestry": false,
+            "llv": false,
+            "second": false
+          }
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.5EpkOj9CFOjt8vsK",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262119412,
+    "modifiedTime": 1728262119412,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.5EpkOj9CFOjt8vsK",
+      "hash": "eec37815706fe9ec67021a59598c373d4582e476"
+    }
+  },
+  "effects": [],
+  "folder": "ak4BU0m8Km4hZsvo",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "8JDe5OZOCReMKjLy",
+  "sort": 0,
+  "_key": "!items!8JDe5OZOCReMKjLy"
+}

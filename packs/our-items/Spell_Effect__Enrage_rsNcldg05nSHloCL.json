@@ -1,0 +1,110 @@
+{
+  "folder": "eOJsgiwwcsb79hE6",
+  "name": "Spell Effect: Enrage",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You aren't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or raging</p><hr /><p>You tap into your inner fury and begin raging. You gain a number of temporary Hit Points equal to your level plus your Constitution modifier. This frenzy lasts for 1 minute, until there are no enemies you can perceive, or until you fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, whichever comes first. You can't voluntarily stop raging. While you are raging:</p><ul><li>You deal 2 additional damage with melee weapons and unarmed attacks. This additional damage is halved if your weapon or unarmed attack is agile.</li><li>You take a -1 penalty to AC.</li><li>You can't use actions with the concentrate trait unless they also have the rage trait. You can @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} while raging.</li></ul><p>After you stop raging, you lose any remaining temporary Hit Points from Rage, and you can't Rage again for 1 minute.</p><p>Implemented Effects:</p><ul><li>Temporary hitpoint based on level and con mod</li><li>Enables rage property for rage damage</li><li>Sets token effect</li></ul><p><strong>Requirements</strong> You aren't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or raging</p><hr /><p>You tap into your inner fury and begin raging. You gain a number of temporary Hit Points equal to your level plus your Constitution modifier. This frenzy lasts for 1 minute, until there are no enemies you can perceive, or until you fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, whichever comes first. You can't voluntarily stop raging. While you are raging:</p><ul><li>You deal 2 additional damage with melee weapons and unarmed attacks. This additional damage is halved if your weapon or unarmed attack is agile.</li><li>You take a -1 penalty to AC.</li><li>You can't use actions with the concentrate trait unless they also have the rage trait. You can @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} while raging.</li></ul><p>After you stop raging, you lose any remaining temporary Hit Points from Rage, and you can't Rage again for 1 minute.</p><p>Implemented Effects:</p><ul><li>Temporary hitpoint based on level and con mod</li><li>Enables rage property for rage damage</li><li>Sets token effect</li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.pf2e.rageTempHP",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.pf2e.rageTempHP",
+        "phase": "beforeDerived",
+        "predicate": [
+          {
+            "nor": [
+              "self:type:familiar",
+              "self:type:hazard",
+              "self:type:vehicle"
+            ]
+          }
+        ],
+        "value": "@actor.level + @actor.abilities.con.mod"
+      },
+      {
+        "key": "TempHP",
+        "value": "@actor.flags.pf2e.rageTempHP"
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Rage",
+        "selector": "ac",
+        "value": -1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Rage",
+        "selector": "strike-damage",
+        "value": 2
+      }
+    ],
+    "slug": "spell-effect-rage",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "rsNcldg05nSHloCL",
+  "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f825f385e6924d2633a32061f3778432a0073ff7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1742009125411,
+    "modifiedTime": 1754328937761,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!rsNcldg05nSHloCL"
+}

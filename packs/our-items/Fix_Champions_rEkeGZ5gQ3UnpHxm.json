@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Fix Champions",
+  "color": "#306030",
+  "sorting": "a",
+  "_id": "rEkeGZ5gQ3UnpHxm",
+  "description": "",
+  "sort": 900000,
+  "flags": {
+    "scene-packer": {
+      "hash": "a021b7aa6348b3008588e6d7744194adcca24662"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757780223048,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!rEkeGZ5gQ3UnpHxm"
+}

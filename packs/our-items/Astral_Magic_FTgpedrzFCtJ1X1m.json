@@ -1,0 +1,81 @@
+{
+  "name": "Astral Magic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Prerequisites</strong> Wisdom +3</p><hr /><p>Your mind awakens to the powers of the cosmos. Choose one common 1st-level Occult spell (or any 1st-level Occult spell you have access to). You can cast this spell once per day as an innate occult spell. Use your starknight Class DC as your Spell DC, and your starknight class DC - 10 as your spell attack modifier.</p><hr /><p class=\"hang\"><strong>Level (11th)</strong> Choose a 2nd-level Occult spell, you can now cast this spell once per day as an innate occult spell in the same manner.</p><p class=\"hang\"><strong>Level (15th)</strong> Choose a 3rd-level Occult spell, you can now cast this spell once per day as an innate occult spell in the same manner.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "astral-magic",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Wisdom +3"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "q8oW8AmyHftdwxi2",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0de039bfb425dedbe91ff4af60c02d3aa18579d0",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921811734,
+    "modifiedTime": 1753921859007,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "FTgpedrzFCtJ1X1m",
+  "sort": 100000,
+  "_key": "!items!FTgpedrzFCtJ1X1m"
+}

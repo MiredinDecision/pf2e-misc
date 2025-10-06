@@ -1,0 +1,148 @@
+{
+  "folder": "j8NMw0mgS5YcHOHL",
+  "name": "Succubus",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Demons are formed from the sins of fractious and malevolent souls, some would say destined to wallow in their sins and spread destruction and corruption for all eternity. But some demons escape the pull of that fate at great cost, expending most of their demonic power to write their own destinies. These renegade demons share many similarities to their Abyss-bound kin, but they have the potential to become great heroes and villains in their own right someday, able to challenge even the mightiest balors and win.</em></p>\n<p><em>@UUID[Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-artwork.JournalEntry.tR9xf3lHmbIoTqMx.JournalEntryPage.dpvTi9PohT236SLg]{Demon Ancestry}</em></p>"
+    },
+    "rules": [],
+    "slug": "feytouched-succubus",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.844,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "demon",
+        "fey",
+        "fiend"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Battlezoo Ancestries: Year of Monsters",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "hp": 10,
+    "size": "sm",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "str"
+        ]
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "chthonian",
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [
+        "aklo",
+        "empyrean",
+        "draconic",
+        "diabolic",
+        "protean",
+        "requian",
+        "utopian"
+      ],
+      "custom": ""
+    },
+    "items": {
+      "vmCc4": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.SAzZOyCRpiaee1Of",
+        "img": "systems/pf2e/icons/spells/daemonic-pact.webp",
+        "name": "Demonic Fortitude",
+        "level": 1
+      },
+      "cm21I": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.4R4nqzP2emIXXAQw",
+        "img": "modules/pf2e-relic-bloodglass/assets/demonic-fey-wing.webp",
+        "name": "Innate Demonic Fey Wings",
+        "level": 1
+      },
+      "TcaHH": {
+        "uuid": "Compendium.pf2e.ancestryfeatures.Item.TRw4oBZBFZG96jKO",
+        "img": "icons/creatures/magical/fae-fairy-winged-glowing-green.webp",
+        "name": "Magical Strikes",
+        "level": 1
+      },
+      "z8XVx": {
+        "uuid": "Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-features.Item.tXyHxVKwVzfNypef",
+        "img": "systems/pf2e/icons/spells/liberating-command.webp",
+        "name": "Renegade",
+        "level": 1
+      },
+      "WgxcE": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.gA9Ek9qmYUpwcJf7",
+        "img": "icons/creatures/unholy/demon-horned-winged-laughing.webp",
+        "name": "Skillful Tail",
+        "level": 1
+      }
+    },
+    "vision": "darkvision"
+  },
+  "img": "icons/creatures/unholy/demon-female-succubus-orange.webp",
+  "ownership": {
+    "default": 0,
+    "W75cDAmGcgt3X6Rq": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.battlezoo-ancestries-year-of-monsters-pf2e.yom-ancestries.Item.rkkPb0kN9O940OJL",
+      "hash": "333357fa36c9d85f20dfcbb687c493a00f1b3282"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1744311173301,
+    "modifiedTime": 1744313408275,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "8CuhTBQ3pSOL6mZ5",
+  "sort": 300000,
+  "_key": "!items!8CuhTBQ3pSOL6mZ5"
+}

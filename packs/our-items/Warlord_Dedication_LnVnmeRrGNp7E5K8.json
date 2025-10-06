@@ -1,0 +1,116 @@
+{
+  "folder": "qvvzuOUr8S4GnITg",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Warlord Dedication",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You've been appointed the leader of your team, and you do not aim to disappoint. You become an expert in Warfare Lore. At 7th level, you become master in Warfare Lore. At 15th level, you become legendary in Warfare Lore.</p><p>You've become wise in the arts of war, relying on your past experience over books and old written stratagem. You can use Wisdom instead of Intelligence on Warfare Lore checks.</p><p>In addition, you're surrounded by a warlord's aura in a @Template[emanation|distance:15]. Your aura has the emotion, mental, and visual traits and grants you and allies within the aura a +1 status bonus to saving throws against fear.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Wisdom +2"
+        },
+        {
+          "value": "Trained in martial weapons and Warfare Lore"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Vyklade's Book of Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.warlord.aura",
+        "value": 15
+      },
+      {
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.YmoDcMvb2RvBVpmp",
+            "affects": "allies"
+          }
+        ],
+        "key": "Aura",
+        "radius": "@actor.flags.pf2e.warlord.aura",
+        "slug": "marshals-aura",
+        "traits": [
+          "emotion",
+          "mental",
+          "visual"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "warfare-lore",
+        "type": "ability",
+        "ability": "wis",
+        "force": true,
+        "hideIfDisabled": true
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "otherTags": []
+    },
+    "slug": "warlord-dedication",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755225733167,
+    "modifiedTime": 1755240695832,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "flags": {
+    "scene-packer": {
+      "hash": "86dad0ea1c01022d6073bd2c9444b5ac166b4890",
+      "sourceId": "Item.PfwcK3FX4haNTrPs"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "LnVnmeRrGNp7E5K8",
+  "sort": 0,
+  "_key": "!items!LnVnmeRrGNp7E5K8"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "tP6EkkQdpnkboy85",
+  "name": "Fervent Spell",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Aspect</strong> emotion</p><hr /><p>While the Emotion Surge is active, you have access to the spell provided by the emotional state, which you can cast using your own spell slots. You also have access to the following activation.<br /><br /><strong>Activate </strong><span class=\"action-glyph\">1</span><strong> </strong>(concentrate, manipulate)</p><hr /><p><strong>Effect</strong> The relic Casts the Spell associated with its emotional fervor at the spell's lowest rank.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "fervent-spell",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "emotion",
+        "manipulate",
+        "mental",
+        "relic"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "UohvCAh8TSXSkJv3",
+  "img": "systems/pf2e/icons/conditions/blinded.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "447d2dc4808be0130c2b186b6cc6928bd0e5419b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757394781950,
+    "modifiedTime": 1757395065457,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!UohvCAh8TSXSkJv3"
+}

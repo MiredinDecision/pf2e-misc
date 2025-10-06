@@ -1,0 +1,107 @@
+{
+  "folder": "50Wt9JbGG6ijeRfo",
+  "name": "Metal Slime",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your slime body transforms into liquid metal, allowing you to fend off all sorts of attacks. Your metal slime is medium armor in the plate armor group that grants a +4 item bonus to AC, a Dex cap of +1, a check penalty of -2, a speed penalty of -5 feet, and a Strength requirement of +3. You can never wear other armor or remove your metal slime; however, you still don't become fatiqued from sleeping in this armor. Finally, you can etch armor runes onto your metal slime as normal.</p>"
+    },
+    "rules": [],
+    "slug": "metal-slime",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "medium",
+    "group": "plate",
+    "acBonus": 4,
+    "strength": 3,
+    "dexCap": 1,
+    "checkPenalty": -2,
+    "speedPenalty": -5,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "Zga4svBUxLcPYvao",
+  "img": "systems/pf2e/icons/default-icons/armor.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f868287a1e90d5e4b582eaff1dea8f8404d09ca6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.Zga4svBUxLcPYvao",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!Zga4svBUxLcPYvao"
+}

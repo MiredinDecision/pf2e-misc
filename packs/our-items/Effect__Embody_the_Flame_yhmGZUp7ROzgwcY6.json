@@ -1,0 +1,96 @@
+{
+  "img": "icons/magic/fire/elemental-fire-humanoid.webp",
+  "name": "Effect: Embody the Flame",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Actor.gDAaFU8zVUGzC9eO.Item.GJXQ6VTahLkyexwX]{Ljósgata}</p><p>You gain a Fly Speed equal to your Land Speed, and a +4 status bonus to AC against ranged projectiles that are at least partly made of wood.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 1
+    },
+    "level": {
+      "value": 20
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder War of Immortals",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "domain": "ac",
+        "key": "RollOption",
+        "label": "Ljósgata - Embody the Flame",
+        "option": "embody-the-flame",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "embody-the-flame",
+          "item:ranged"
+        ],
+        "selector": "ac",
+        "type": "status",
+        "value": 4
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": "@actor.attributes.speed.total"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-embody-the-flame",
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757300124590,
+    "modifiedTime": 1757643805213,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "K2E98FJTqNioJF80",
+  "flags": {
+    "scene-packer": {
+      "hash": "62a2ecb4d5ac6e3aa9ef2351281b12a65cafafee",
+      "sourceId": "Item.Hckm9PrmFbeLjDjA"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "yhmGZUp7ROzgwcY6",
+  "sort": 600000,
+  "_key": "!items!yhmGZUp7ROzgwcY6"
+}

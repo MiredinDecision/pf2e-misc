@@ -1,0 +1,90 @@
+{
+  "img": "systems/pf2e/icons/actions/FreeAction.webp",
+  "name": "Arcane Cascade",
+  "system": {
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "description": {
+      "value": "<p><span class=\"action-glyph\"><strong>f</strong></span><strong> Trigger</strong> You used your most recent action this turn to use a <span class=\"action-glyph\">1</span> activity with the Magus trait, @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell}, or make a @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]{Spellstrike}. You need to meet this requirement only to enter the stance, not to remain in it.</p><hr /><p>You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, you do not trigger reactions when you @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} or Spellstrike, your melee Strikes deal 1 extra force damage,and when you Spellstrike with a spell that requires the target to make a save you use your Key Attribute Modifier to determine your Spell DC instead of your spellcasting attribute. If you would @UUID[Compendium.sf2e-anachronism.actions.Item.ydUK0TjHlK8VKgbs]{Recharge} your Spellstrike while it is already charged, you can immediately enter Arcane Cascade as a free action.</p><p>The damage from Arcane Cascade increases to 2 if you have weapon specialization, and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the trait of your spellcasting tradition, making it magical.</p><p>If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is instead the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage).</p><p>When you Cast a Spell, you may Sustain Arcane Cascade to change the damage type of Arcane Cascade to that of the spell you just cast.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "spell",
+        "mode": "add",
+        "label": "Arcane Cascade",
+        "property": "description",
+        "value": [
+          {
+            "divider": true,
+            "text": "@Embed[Compendium.pf2e-misc.our-items.Item.xoWyN7bPyTE86zzV inline]"
+          },
+          {
+            "text": "@UUID[Compendium.pf2e-misc.our-items.Item.gO6GS332zQ0CDMdf]"
+          }
+        ]
+      }
+    ],
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.gO6GS332zQ0CDMdf",
+      "name": "Stance: Arcane Cascade"
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "magus",
+        "stance"
+      ],
+      "otherTags": []
+    },
+    "slug": "arcane-cascade",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "deathNote": false
+  },
+  "type": "action",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757822583503,
+    "modifiedTime": 1757822628500,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "Nkrbxfx7hBumm7SZ",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.AugGPneuTrZKF8yb",
+      "hash": "48baa85d1e61488d85b0194cd4676e9054840f5c"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "wp7BCQ1b7ifvejZ0",
+  "sort": 0,
+  "_key": "!items!wp7BCQ1b7ifvejZ0"
+}

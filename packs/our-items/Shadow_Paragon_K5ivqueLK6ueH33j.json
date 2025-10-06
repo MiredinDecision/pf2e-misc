@@ -1,0 +1,71 @@
+{
+  "folder": "cdQCf7BsqRfri2EF",
+  "name": "Shadow Paragon",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have perfected shadow magic. Add two common 10th-rank spells of your tradition to your repertoire. You gain a single 10th-rank spell slot you can use to cast these spells, using eldritch shadow spellcasting. Unlike other spell slots, you don’t gain more 10th-rank spells as you level up, and they can’t be used for abilities that let you cast spells without expending spell slots or abilities that give you more spell slots. You can take the Shadow Perfection eldritch shadow feat to gain a second slot.</p>"
+    },
+    "rules": [],
+    "slug": "shadow-paragon",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 19
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "K5ivqueLK6ueH33j",
+  "img": "systems/pf2e/icons/spells/shadow-jump.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1ad647d48cd84a41bdf5280a4a1ad4af2822cbb8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727117752888,
+    "modifiedTime": 1727117797515,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!K5ivqueLK6ueH33j"
+}

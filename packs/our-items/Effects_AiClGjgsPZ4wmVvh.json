@@ -1,0 +1,26 @@
+{
+  "name": "Effects",
+  "sorting": "a",
+  "folder": "z1smzZPya9tRVYa4",
+  "type": "Item",
+  "_id": "AiClGjgsPZ4wmVvh",
+  "description": "",
+  "sort": 450000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "3030e3d409e32f6e9e4317500f64871167853984"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1728704054768,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!AiClGjgsPZ4wmVvh"
+}

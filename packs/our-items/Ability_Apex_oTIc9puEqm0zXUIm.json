@@ -1,0 +1,96 @@
+{
+  "folder": "LZtWKCZ4Yd25kiGo",
+  "name": "Ability Apex",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">At 17th level, choose one attribute score to either increase by 1 or increase to +4 (whichever grants the higher score).</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "config": "abilities"
+        },
+        "flag": "ability",
+        "prompt": "Ability Apex"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "upgrade",
+        "path": "system.abilities.{item|flags.pf2e.rulesSelections.ability}.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.{item|flags.pf2e.rulesSelections.ability}.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": "{item|flags.pf2e.rulesSelections.ability}",
+        "mode": "override",
+        "path": "system.build.attributes.apex"
+      }
+    ],
+    "slug": "ability-apex",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "oTIc9puEqm0zXUIm",
+  "img": "systems/pf2e/icons/equipment/held-items/crystal-ball-obsidian.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "555dfb8009c40358ca3f1923e741947414739cc5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735790063626,
+    "modifiedTime": 1736375698531,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!oTIc9puEqm0zXUIm"
+}

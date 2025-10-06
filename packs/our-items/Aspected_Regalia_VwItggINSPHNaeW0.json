@@ -1,0 +1,117 @@
+{
+  "folder": "TBH74ZqS68COwdAV",
+  "name": "Aspected Regalia",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your cosmic polarities permeate your Regalia, allowing them to deal aspected damage. While your Armiger is called, your Regalia gain one of the following traits depending on your current Cosmic Polarity.</p><ul><li><strong>Astral</strong> Veratile Fire</li><li><strong>Eclipse</strong> Versatile Electricity</li><li><strong>Umbral</strong> Versatile Cold</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:trait:regalia"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:astral-polarity"
+        ],
+        "property": "weapon-traits",
+        "value": "versatile-fire"
+      },
+      {
+        "definition": [
+          "item:trait:regalia"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:ecliptic-polarity"
+        ],
+        "property": "weapon-traits",
+        "value": "versatile-electricity"
+      },
+      {
+        "definition": [
+          "item:trait:regalia"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:umbral-polarity"
+        ],
+        "property": "weapon-traits",
+        "value": "versatile-cold"
+      }
+    ],
+    "slug": "aspected-regalia",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "occult",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "VwItggINSPHNaeW0",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "87cb9d8e0eb5f30d591c187ee1e88fbe9fd4f08c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753919547662,
+    "modifiedTime": 1753921049188,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!VwItggINSPHNaeW0"
+}

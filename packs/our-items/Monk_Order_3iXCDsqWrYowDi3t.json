@@ -1,0 +1,110 @@
+{
+  "name": "Monk Order",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Certain orders of monks, instead of focusing solely on martial traditions, may focus on perfecting other parts of their life such as philosophy, alchemy, or divine understanding. These Orders (as they are often referred to) prioritize other paths a monk may walk towards enlightenment.</p><p>Your path represents your focus as a monk; as such, you may only have one order (or no order at all). When you gain an Order, it grants you an additional edict and anathema which are added to your edicts and anathemas. If you violate your order’s anathema, you lose access to your qi spells, the ability to enter any monk stances, and any additional properties granted to your unarmed strikes by the Monk class (such as the magical trait from the Mystic Strikes ability). These abilities can be regained only if you repent by conducting an atone ritual.</p><p>Your Order grants you additional benefits as detailed in your entry. Many orders also have specific requirements, which you must meet in order to gain that Order. Your order abilities replace the Powerful Fist monk feature.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "allowedDrops": {
+          "label": "PF2E.SpecificRule.DivineAlly.AllowedDrops",
+          "predicate": [
+            "item:type:feature",
+            "item:trait:monk"
+          ]
+        },
+        "choices": {
+          "filter": [
+            "item:type:feature",
+            "item:tag:monk-order"
+          ]
+        },
+        "flag": "monkOrder",
+        "key": "ChoiceSet"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.monkOrder}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "monk-order",
+    "_migration": {
+      "version": 0.941,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.347",
+        "system": "7.3.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "monk-order"
+      ],
+      "value": [
+        "monk"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Soldiers of the Immortal War",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "suppressedFeatures": [
+        "Compendium.pf2e.classfeatures.Item.SB8UJ8rZmvbcBweJ"
+      ],
+      "proficiencies": {},
+      "senses": {}
+    }
+  },
+  "img": "icons/magic/holy/meditation-chi-focus-blue.webp",
+  "folder": "YX0sWG8nJmWFGhmA",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-soldiers-of-the-immortal-war.subclasses.Item.jZuqGPhd01bYDUlV",
+      "hash": "e54c7c073dab2ae8855a1c099a74984f45da1c72"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755091527722,
+    "modifiedTime": 1755091546125,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "3iXCDsqWrYowDi3t",
+  "sort": 0,
+  "_key": "!items!3iXCDsqWrYowDi3t"
+}

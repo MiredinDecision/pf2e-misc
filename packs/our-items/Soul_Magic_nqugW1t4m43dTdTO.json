@@ -1,0 +1,75 @@
+{
+  "folder": "rpq9DULBuF9S6e8M",
+  "name": "Soul Magic",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> soul</p><p><strong>Activate</strong> <span class=\"pf2-icon\">1</span> envision</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You infuse yourself or a willing creature that you touch with spiritual energy. This has the effect of @UUID[Compendium.pf2e.spells-srd.Item.KtTGLbLG9nqMbUYL]{Divine Inspiration}.</p>"
+    },
+    "rules": [],
+    "slug": "soul-magic",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mental"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "_id": "nqugW1t4m43dTdTO",
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e8a793b1ab71448750ca4be2c54f08b511a8deaf"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735583035234,
+    "modifiedTime": 1735583203646,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!nqugW1t4m43dTdTO"
+}

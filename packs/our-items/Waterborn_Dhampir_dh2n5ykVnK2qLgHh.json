@@ -1,0 +1,76 @@
+{
+  "folder": "GHymta0xJV2w7Scz",
+  "name": "Waterborn Dhampir",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You are the scion of a vampire, half living and half undead, gifted with uncanny charm and grace, a bloodless pallor, and elongated incisors. You gain the dhampir trait, in addition to the traits from your ancestry. You have the void healing ability, which means you are harmed by vitality damage and healed by void effects as if you were undead. You also gain low-light vision, or you gain darkvision if your ancestry already has low-light vision. You can select from dhampir feats and feats from your ancestry whenever you gain an ancestry feat.</span></p><p>Magic from your creation and birth has led you to be different from other dhampir - you no longer have the downsides of void healing, although you can still be healed with void energy.</p><p>You have been influenced by the elemental energy of water and the energy of fey, giving you some abilities typically seen in the Undine and some Naiads. You gain the Amphibious and Water traits, and a swim Speed of 10 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "Sense",
+        "selector": "low-light-vision"
+      },
+      {
+        "key": "Sense",
+        "predicate": [
+          "self:low-light-vision:from-ancestry"
+        ],
+        "selector": "darkvision"
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 10
+      }
+    ],
+    "slug": "waterborn-dhampir",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "amphibious",
+        "dhampir",
+        "fey",
+        "water"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "ancestry": null
+  },
+  "_id": "dh2n5ykVnK2qLgHh",
+  "img": "systems/pf2e/icons/features/ancestry/caveren-elf.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e632c7fb7360aafe403155131b513074bc1bfad2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743637339398,
+    "modifiedTime": 1743987143417,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!dh2n5ykVnK2qLgHh"
+}

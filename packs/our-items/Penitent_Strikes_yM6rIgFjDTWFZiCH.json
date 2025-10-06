@@ -1,0 +1,121 @@
+{
+  "name": "Penitent Strikes",
+  "type": "feat",
+  "img": "icons/magic/air/air-smoke-casting.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.o3P8heIfNr1z53Ay",
+      "hash": "bc39259be461fc90735e9702cf86f8e0545c8540"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon's attacks were corrupted by the Abyss and imbued with pure evil and shifting chaos, however, they have struggled and strived to become something.. more. Your eidolon's unarmed Strikes gain the unholy trait against and deal 1 extra spirit damage to holy creatures and creatures with weakness to unholy, however, they also gain the holy trait and deal 1 extra spirit damage to unholy creatures and creatures with weakness to holy. Additionally, your eidolon can make nonlethal attacks with its unarmed attacks without taking the usual -2 circumstance penalty. Choose one of your eidolon's unarmed attacks that deals physical damage; it gains the versatile trait for a different type of physical damage you choose.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          "target:trait:holy"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "unholy"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          "target:trait:unholy"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "holy"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:category:unarmed"
+        ],
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "nonlethal"
+      }
+    ],
+    "slug": "penitent-strikes",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-misc.our-items.Item.yM6rIgFjDTWFZiCH",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758949802354,
+    "modifiedTime": 1758949802354,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "folder": "kGCQLmHxE0HUPe4O",
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "_id": "yM6rIgFjDTWFZiCH",
+  "sort": 100000,
+  "_key": "!items!yM6rIgFjDTWFZiCH"
+}

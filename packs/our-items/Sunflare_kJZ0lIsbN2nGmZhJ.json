@@ -1,0 +1,79 @@
+{
+  "name": "Sunflare",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> 1 regalia</p><hr /><p>Choose a regalia and then toss it in an empty space within 60ft of you. The Regalia starts to emit light and heat like a miniature sun. The flare is a @Template[burst|distance:10] centered on the tossed regalia. If the weapon is Two-handed or has the Two-Handed trait, the added mass increases the radius of this discipline to a @Template[burst|distance:15]. All creatures in the area take @Damage[1d6[fire]] damage at the start of each turn and treat the area as difficult terrain as the very air causes them to heave and walk slower. Creatures immune to the Fatigued condition ignore this movement penalty but still take the fire damage.</p><p>Each time you use the Call Armiger action, you can choose whether to recall this regalia and end the effects of Sunflare, or leave it there to continue the effect but keep the weapon's Broken condition. Sunflare cannot last any longer than 1 minute.</p><hr /><p class=\"hang\"><strong>Level (+4)</strong> The fire damage increases by 1d6.</p><p>@Damage[(1+max(0,floor((@actor.level - 2)/4)))d6[fire]]{Leveled Fire Damage}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "sunflare",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "fire",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "aVnTnFudEhJbxmR7",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "78ca19dcd0a326d9a1524f8dcb9e951c3c9797d8",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921200015,
+    "modifiedTime": 1753929608827,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "kJZ0lIsbN2nGmZhJ",
+  "sort": 0,
+  "_key": "!items!kJZ0lIsbN2nGmZhJ"
+}

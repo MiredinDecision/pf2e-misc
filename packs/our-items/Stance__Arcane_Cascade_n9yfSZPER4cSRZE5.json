@@ -1,0 +1,235 @@
+{
+  "img": "systems/pf2e/icons/features/classes/arcane-cascade.webp",
+  "name": "Stance: Arcane Cascade",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You used your most recent action this turn to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} or make a @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]{Spellstrike}. You need to meet this requirement only to enter the stance, not to remain in it.</p><hr /><p>You divert a portion of the spell's magical power and keep it cycling through your body and weapon using specialized forms, breathing, or footwork. While you're in the stance, your melee Strikes deal 1 extra force damage. This damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. Any Strike that benefits from this damage gains the arcane and divine traits, making it magical.</p><p>If your most recent spell before entering the stance was one that can deal damage, the damage from the stance is instead the same type that spell could deal (or one type of your choice if the spell could deal multiple types of damage).</p>"
+    },
+    "rules": [
+      {
+        "events": {
+          "onCreate": true,
+          "onTurnStart": true
+        },
+        "key": "TempHP",
+        "predicate": [
+          "feature:inexorable-iron",
+          "self:weapon:melee",
+          "self:weapon:hands-held:2"
+        ],
+        "value": "max(floor(@actor.level / 2), 1)"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.SpecificRule.Magus.ArcaneCascade.WeaponDamage",
+            "value": ""
+          },
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          },
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          }
+        ],
+        "flag": "stanceArcaneCascade",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DamageType"
+      },
+      {
+        "definition": [
+          "item:melee"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "arcane"
+      },
+      {
+        "damageType": "{item|flags.pf2e.rulesSelections.stanceArcaneCascade}",
+        "key": "FlatModifier",
+        "predicate": [
+          "item:melee"
+        ],
+        "selector": "strike-damage",
+        "slug": "arcane-cascade-extra-damage",
+        "value": 1
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:melee",
+          "feature:weapon-specialization"
+        ],
+        "selector": "strike-damage",
+        "slug": "arcane-cascade-extra-damage",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:melee",
+          "feature:greater-weapon-specialization"
+        ],
+        "selector": "strike-damage",
+        "slug": "arcane-cascade-extra-damage",
+        "value": 3
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.arcaneCascade.damageType",
+        "value": "{item|flags.pf2e.rulesSelections.stanceArcaneCascade}"
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feature:sanguine-blade"
+        ],
+        "selector": "attack-spell-damage",
+        "slug": "sanguine-blood-spell",
+        "value": "ternary(gte(@actor.level,15),3,ternary(gte(@actor.level,7),2,1))"
+      },
+      {
+        "definition": [
+          "item:melee"
+        ],
+        "predicate": [
+          "feature:sanguine-blade"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "traits",
+        "value": "divine"
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "failure"
+        ],
+        "predicate": [
+          "feature:sanguine-blade"
+        ],
+        "selector": "spell-attack-roll",
+        "text": "Apply @Damage[ternary(gte(@actor.level,15),3,ternary(gte(@actor.level,7),2,1))] from Arcane Cascade to that spell, even on a failure.",
+        "title": "Sanguine Blade"
+      }
+    ],
+    "slug": "stance-arcane-cascade",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1726860361116,
+    "modifiedTime": 1757527253198,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "lX12WXvBxEBf2clb",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "12106378ec5f85f88788873ddcdabaeb9d6fed4d",
+      "sourceId": "Item.np45YGvAkEe2hwOu"
+    }
+  },
+  "_id": "n9yfSZPER4cSRZE5",
+  "sort": 200000,
+  "_key": "!items!n9yfSZPER4cSRZE5"
+}

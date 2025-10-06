@@ -1,0 +1,81 @@
+{
+  "folder": "XKx4eM7LlxQGziQq",
+  "name": "Rising Wave",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements </strong>You are prone.</p>\n<hr />\n<p>You spin into a standing stance, swinging your scarf to balance your weight and return to your fighting form. You enter @UUID[Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.vlix0pDKMxTNYOJd]{Winding Stream Dance} if you weren't in it already, and make a spinning @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike} against an enemy in reach, and then Stand. You don't take the -2 circumstance penalty for attacking while prone, and your Stand action doesn't trigger reactions. If you spend two actions using Rising Wave, and the Strike hits and deals damage, you can attempt an @Check[type:athletics|defense:reflex] check to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} the creature you hit using your scarf's Trip acton. Both attacks count toward your multiple attack penalty, but the penalty doesn’t increase until after you’ve made both of them.</p>"
+    },
+    "rules": [],
+    "slug": "rising-wave",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Winding Stream Dancer Archetype",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Winding Stream Dancer Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "KrUi3EHoYMnar3Hw",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4gMqw7mI53Oe9aWm": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "743974ede878adb41d2dae40420ab2320ceda42e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.KrUi3EHoYMnar3Hw",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1728262029591,
+    "modifiedTime": 1754614640864,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!KrUi3EHoYMnar3Hw"
+}

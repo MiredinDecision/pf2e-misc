@@ -1,0 +1,98 @@
+{
+  "folder": "Vu1IIJ1PiytoVZbx",
+  "name": "Effect: Amorphous Form",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can alter your rough physical shape between your natural form and a vaguely humanoid form that's still obviously made of ooze and possessing a nucleus. Because of your amorphous form, you can move through tight spaces as if you were one size smaller than you are (or even tighter spaces if you were already Tiny).</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Slime Form",
+            "value": "modules/pf2e-slime-ancestry/assets/slime.slimeForm.Token.webp"
+          },
+          {
+            "label": "Humanoid Slime Form",
+            "value": "modules/pf2e-slime-ancestry/assets/slime.humanoidSlimeForm.Token.webp"
+          },
+          {
+            "label": "Humanoid Form",
+            "value": "modules/pf2e-slime-ancestry/assets/slime.humanoidForm.Token.webp",
+            "predicate": [
+              "feat:convincing-face"
+            ]
+          }
+        ],
+        "flag": "amorphousForm"
+      },
+      {
+        "key": "TokenImage",
+        "value": "{item|flags.pf2e.rulesSelections.amorphousForm}"
+      }
+    ],
+    "slug": "effect-amorphous-form",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "fUOoP8sHsVEjVV4G",
+  "img": "modules/pf2e-slime-ancestry/assets/AmorphousForm.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7168f5365d7a305854011c42704ad804a9816058"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.fUOoP8sHsVEjVV4G",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!fUOoP8sHsVEjVV4G"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Minor",
+  "sorting": "a",
+  "folder": "FskW92HNMcv6ihps",
+  "type": "Item",
+  "_id": "nWsgyn98yuDJc4ng",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "f9bc315809832aceeb84fa4dc24e1cd5b9889403"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!nWsgyn98yuDJc4ng"
+}

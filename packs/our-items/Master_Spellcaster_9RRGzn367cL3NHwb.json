@@ -1,0 +1,80 @@
+{
+  "img": "icons/skills/trades/academics-book-study-purple.webp",
+  "name": "Master Spellcaster",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have achieved mastery over shadow magic. Your proficiency ranks for spell attack modifiers and spell DCs increase to master.</p>"
+    },
+    "rules": [],
+    "slug": "master-spellcaster",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 15
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727117616642,
+    "modifiedTime": 1727117636043,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "q6kUv3OCHVSStEKo",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc",
+      "hash": "416d3b65944d54d3ab8fde310c88c465b02edae5"
+    }
+  },
+  "_id": "9RRGzn367cL3NHwb",
+  "sort": 0,
+  "_key": "!items!9RRGzn367cL3NHwb"
+}

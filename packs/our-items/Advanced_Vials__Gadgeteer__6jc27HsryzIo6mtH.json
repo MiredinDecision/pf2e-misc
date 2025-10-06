@@ -1,0 +1,76 @@
+{
+  "folder": "r0NJaaad8z1xq7BN",
+  "name": "Advanced Vials (Gadgeteer)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>When a gadget's effect would end, the alchemist can spend an advanced vial as an @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} action to Activate the vial again. The gadget must be within reach of the alchemist.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "advanced-vials-gadgeteer",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemist"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "6jc27HsryzIo6mtH",
+  "img": "icons/commodities/tech/wire-spliced.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "29892e4892a1f07f57b6ab1ebcc4ee6733e67f38"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758071291517,
+    "modifiedTime": 1758072748610,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!6jc27HsryzIo6mtH"
+}

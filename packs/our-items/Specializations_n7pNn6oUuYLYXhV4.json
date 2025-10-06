@@ -1,0 +1,26 @@
+{
+  "name": "Specializations",
+  "sorting": "a",
+  "folder": "L707lh3QpSnMPk7v",
+  "type": "Item",
+  "_id": "n7pNn6oUuYLYXhV4",
+  "description": "",
+  "sort": 500000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "f48c192b8527f899b71e7d973305d61f0a9ae75f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1729979698260,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!n7pNn6oUuYLYXhV4"
+}

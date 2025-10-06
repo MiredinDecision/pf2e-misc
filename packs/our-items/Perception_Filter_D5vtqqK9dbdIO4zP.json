@@ -1,0 +1,76 @@
+{
+  "folder": "5E1LsiLuFirmW9kC",
+  "name": "Perception Filter",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> mind</p><p><strong>Activate</strong> <span class=\"action-glyph\">2</span> (concentrate)</p><p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> Your relic reaches into the minds of nearby creatures and blocks your presence from their perceptions. For the next 10 minutes, a creature that enters a @Template[type:emanation|distance:120], centered on you, must attempt a secret @Check[type:will|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|traits:secret] save, after which the creature is then temporarily immune for 1 day.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes a –2 status penalty to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} or otherwise detect you. @UUID[Compendium.pf2e-relics.relic-effects.Item.mHwWLTqJxH6HM6ED]{Effect: Perception Filter (Success)}</p><p><strong>Failure</strong> You filter all of the creature's senses, making it difficult for it to notice you. When you are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or undetected from the creature, it doesn't observe you as soon as you do anything other than @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, or @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Step}. If it rolls a Perception check to Seek or otherwise detect you, it gets the outcome one degree of success worse than what it rolled, and if you roll a Stealth check to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, or otherwise escape its attention, you get the outcome one degree of success better than what you rolled against the creature. If you use a hostile action toward the creature, the effect ends for that creature after your hostile action is completed.</p><p><strong>Critical Failure</strong> As failure, but the effect doesn't end for that creature if you use a hostile action against it.</p><p><em><strong>Editor's Note </strong></em>Due to the intended secretive nature of the GM to Player interaction regarding the rules for stealth, as well as the complexity of the effects, only the success effect of this gift is automated due to its simplistic nature. The GM should otherwise be in charge of making other necessary adjustments for the appropriate degrees of success.</p>"
+    },
+    "rules": [],
+    "slug": "perception-filter",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "img": "icons/creatures/eyes/human-single-blue.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9aeeeef4d0e9d1d67b8cc897bb6250f2d0eab86c",
+      "sourceId": "Item.QABafjfAtmLP3JMk"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729322180603,
+    "modifiedTime": 1729322196783,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "D5vtqqK9dbdIO4zP",
+  "sort": 0,
+  "_key": "!items!D5vtqqK9dbdIO4zP"
+}

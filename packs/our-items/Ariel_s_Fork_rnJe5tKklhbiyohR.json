@@ -1,0 +1,178 @@
+{
+  "name": "Ariel's Fork",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate—Fluid Length</strong> <span class=\"action-glyph\">A</span> manipulate</p><p><strong>Effect</strong> You extend or shorten the trident's haft. When extended, the trident requires two hands to wield and gains the reach trait, but loses the trident's normal thrown trait.</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.Equipment.FightersFork.FluidLengthLabel",
+        "option": "ariels-fork:fluid-length",
+        "toggleable": true
+      },
+      {
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "ariels-fork:fluid-length"
+        ],
+        "property": "weapon-traits",
+        "value": "reach"
+      },
+      {
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "remove",
+        "predicate": [
+          "ariels-fork:fluid-length"
+        ],
+        "property": "weapon-traits",
+        "value": "thrown-20"
+      }
+    ],
+    "slug": "ariels-fork",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "thrown-20"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "trident",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 8
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-plus-hands",
+      "canBeAmmo": false
+    },
+    "category": "martial",
+    "group": "spear",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_id": "rnJe5tKklhbiyohR",
+  "img": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/rat-catcher-trident.webp",
+  "folder": "K2E98FJTqNioJF80",
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d4475236d78090cf98549e52682c68c4ef09eb74"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1727531525608,
+    "modifiedTime": 1757643805213,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!rnJe5tKklhbiyohR"
+}

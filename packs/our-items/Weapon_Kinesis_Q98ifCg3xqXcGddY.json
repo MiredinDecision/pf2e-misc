@@ -1,0 +1,108 @@
+{
+  "name": "Weapon Kinesis",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've bent the control of your elements towards the shaping and projecting of weapons. Add the following options to Base Kinesis.</p><ul><li><strong>Wield</strong> You cause an existing element to shape itself into a weapon. This works like the generate option, except that your element is shaped into a persistent level 0 simple or martial weapon. Count your Elemental Blast proficiency as the proficiency with this weapon, and Elemental Blast damage as the damage dice. The weapon counts as a free hand for the purposes of using Elemental Blast. The weapon persists for 10 minutes or until it is thrown or dropped, at which point it reacts to the environment naturally. The weapon has no value, being obviously magic.</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Strike",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": "max(1 + floor((@actor.level - 1) / 4), 1)",
+            "die": "d8"
+          }
+        },
+        "group": "knife",
+        "traits": [
+          "agile",
+          "deadly-d6",
+          "parry",
+          "magical",
+          "versatile-b"
+        ],
+        "ability": "con",
+        "predicate": [
+          "self:effect:weapon-infusion"
+        ]
+      }
+    ],
+    "slug": "weapon-kinesis",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "kineticist"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Extended Kinesis"
+        },
+        {
+          "value": "Weapon Infusion"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/spells/echoing-weapon.webp",
+  "folder": "oPiU0MUTciVVmi1P",
+  "ownership": {
+    "default": 0,
+    "19LQrWiE2jMTbelH": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6a6f2af580826df5679c67bff326e325010f6e38",
+      "sourceId": "Item.WN2YwMOyMz7mYFD8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1742100478055,
+    "modifiedTime": 1742100478055,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "Q98ifCg3xqXcGddY",
+  "sort": 0,
+  "_key": "!items!Q98ifCg3xqXcGddY"
+}

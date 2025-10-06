@@ -1,0 +1,26 @@
+{
+  "name": "Barding",
+  "sorting": "a",
+  "folder": "QgrC7Cg7bKqizy4a",
+  "type": "Item",
+  "_id": "GJORlZQviLhITVD6",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "af7d07e0ca1ec12e2917c9fde9e9aa0ee90bd009"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1729045310452,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!GJORlZQviLhITVD6"
+}

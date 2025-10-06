@@ -1,0 +1,60 @@
+{
+  "folder": "QdJ9fiSywvcc53Ua",
+  "name": "Call of the Beast Blood",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "IxKS2dBDtJlWSz0r",
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0557dee47e5706eb6711158b19665236d8f1bd95"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728272962912,
+    "modifiedTime": 1728306541728,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!IxKS2dBDtJlWSz0r"
+}

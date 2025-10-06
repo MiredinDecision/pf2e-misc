@@ -1,0 +1,406 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/brilliant-rapier.webp",
+  "name": "Ljósgata, the Shining Flame",
+  "system": {
+    "description": {
+      "gm": "<p><em>Ljósgata</em> is focused on the safety and protection of the Bloodbloom and the people of Geb. It imparts the following edicts and anathema on the wielder. If they're violated, the artifact reverts to its non-artifact form until the wielder atones, either through the use of the atone ritual, or through a short side quest or influence encounter of your own design.</p><p><strong>Edicts</strong> stop <span id=\"nametitle\" class=\"sname\">Růžena</span>, protect the quick and the dead, root out the corrupt Blood Lords, reign in Geb</p><p><strong>Anathema</strong> aid <span id=\"nametitle\" class=\"sname\">Růžena</span>, the corrupt Blood Lords, or to fulfill Geb's twisted designs, willingly betray the people of Geb</p><h2>Choose Apex Attribute</h2><p><em>Ljósgata</em> is a powerful apex item, but the apex bonuses granted are more powerful than most. As with all apex items, a PC can only benefit from one apex item at a time. When your character creates the artifact, choose one attribute modifier. When you invest the artifact, you either increase that attribute modifier by 2 or increase it to +5, whichever would give you a higher value. Once you make this selection, you can't change it later.</p><hr /><p><em>Note: Select the apex attribute on the details tab of this item.</em></p><h2>Choose Heroic Skill</h2><p><em>Ljósgata</em> also bolsters one skill of your choice. When your character creates the artifact, choose one of the three skills listed for the artifact. As long as the artifact is invested by you, it grants you a +4 item bonus to checks with that skill.</p><h2>Heroic Recovery</h2><p>Finally, <em>Ljósgata</em> has 1 Recovery Point; this point replenishes once per day when its invested partner does their daily preparations. When the artifact's partner's @UUID[Compendium.pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed} value would reach an amount sufficient to kill them (usually 4), the artifact spends its Recovery Point, and the partner instead reduces their @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} value by 1 and stabilizes at 0 Hit Points.</p><h2>Invested Weapon</h2><p>Note that normally staves and weapons don't need to be invested, but <em>Ljósgata</em> is an exception to this rule. It provides its constant benefits as long as the item remains invested and is carried or stowed by a character; they need not be held in a hand or wielded as a weapon in combat in order to grant these benefits. If you drop an invested staff or weapon, are disarmed of it, or otherwise release it from being held or stowed, you continue to benefit from its invested qualities until the end of your next turn—if you reclaim the staff or weapon before the end of your next turn, then your investment continues uninterrupted. If you fail to reclaim the item by this point, it's no longer invested until you repeat the process by Interacting with the item, taking the normal steps to invest the item.</p><h2>Intelligent Weapon</h2><p><strong>Perception</strong> [[/r 1d20+33 #Perception]]{+33}; precise darkvision and hearing within 30 feet</p><p><strong>Communication</strong> telepathy (partner only)</p><p><strong>Skills</strong> Aberration Lore [[/r 1d20+33 #Aberration Lore]]{+33}, Occultism [[/r 1d20+34 #Occultism]]{+34}, Religion [[/r 1d20+3x #Religion]]{+35}</p><p><strong>Int</strong> +5, <strong>Wis</strong> +7, <strong>Cha</strong> +6</p><p><strong>Will</strong> [[/r 1d20+34 #Will]]{+34}</p>",
+      "value": "<p>A shimmering, moon-like light gleams along the surface of this +3 <em>greater striking soulsteel rapier. Ljósgata</em> has been partially alloyed with a sacred, secret alloy that makes the blade count as both cold iron and silver., and beautiful engravings run along the blade, depicting the rising and setting of the sun against the skyline. It ignores immunity and resistance to fire damage. The sword glows with the effects of 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light}. You can suppress or resume this light by using an action, which has the concentrate trait. When you hit a creature with the sword, it takes 1d6 additional fire damage. When you critically hit a creature with the sword, the creature takes @Damage[1d8[persistent,fire]] damage and @Damage[1d8[bleed]] as its blood boils away. Unlike normal when taking two types of persistent damage, a creature needs only a single successful flat check to remove both the fire and bleed damage.</p><hr /><p><strong>Activate -</strong> <strong>Call to Mercy </strong><span class=\"action-glyph\">r</span> (concentrate)</p><p><strong>Frequency</strong> once per day</p><p><strong>Trigger</strong> You critically hit a creature with the weapon</p><p><strong>Effect</strong> You call upon the sword's light to guide the creature away from violence. The creature must choose one of the following options:</p><ul><li>The creature surrenders, immediately receiving the critical failure effects of @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Calm} and @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze}.</li><li>The weapon casts 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness} on the creature with a @Check[fortitude|against:class-spell|name:Blindness|traits:incapacitation,necromancy] against your class or spell DC.</li></ul><p>Regardless of the choice, the sword loses its ability to glow with light for the next hour.</p><hr /><p><strong>Activate - Embody the Flame </strong><span class=\"action-glyph\">2</span> (concentrate, manipulate, divine)</p><p><strong>Frequency</strong> once per hour</p><p><strong>Effect</strong> You grow wings that bleed fire and are surrounded by a nimbus of weeping flames for one minute. You gain a Fly Speed equal to your Land Speed. You gain a +4 status bonus to AC against ranged projectiles that are at least partly made of wood. If a foe attempts to Strike you with an unarmed attack or melee attack with a weapon at least partly made of wood, that creature takes @Damage[3d10[fire]] damage (@Check[reflex|against:class-spell|basic|traits:concentrate,manipulate,primal] save against your class or spell DC).</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.yhmGZUp7ROzgwcY6]{Effect: Embody the Flame}</p><hr /><p><strong>Glittering</strong> - <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Shimmers and glows with light.</span></p><p><strong>Starry - </strong><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Seems made of night sky.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Soulsteel",
+        "slug": "soulsteel-damage",
+        "selector": "{item|_id}-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "target:trait:incorporeal"
+        ],
+        "property": "property-runes",
+        "value": "ghost-touch"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": {
+          "brackets": [
+            {
+              "start": 6,
+              "end": 13,
+              "value": "astral"
+            },
+            {
+              "start": 14,
+              "value": "greater-astral"
+            }
+          ]
+        }
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|_id}-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "dice:slug:greater-astral",
+              "dice:slug:astral"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "upgrade",
+        "property": "dice-faces",
+        "value": 8
+      },
+      {
+        "key": "RollOption",
+        "label": "Ljósgata is lit",
+        "option": "lit-golden-blade",
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "key": "TokenLight",
+        "predicate": [
+          "lit-golden-blade"
+        ],
+        "value": {
+          "animation": {
+            "intensity": 1,
+            "speed": 2,
+            "type": "pulse"
+          },
+          "bright": 60,
+          "color": "#3d0000",
+          "dim": 120,
+          "alpha": 0.1
+        }
+      },
+      {
+        "key": "TokenEffectIcon",
+        "predicate": [
+          "lit-golden-blade"
+        ],
+        "value": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/brilliant-rapier.webp"
+      },
+      {
+        "damageType": "fire",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "selector": "{item|_id}-damage"
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "selector": "{item|_id}-damage",
+        "text": "PF2E.SpecificRule.GoldenBladeOfMzali.PersistentDamageNote",
+        "title": "{item|name}"
+      },
+      {
+        "category": "persistent",
+        "critical": true,
+        "damageType": "fire",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "key": "DamageDice",
+        "selector": "{item|_id}-damage"
+      },
+      {
+        "critical": true,
+        "damageType": "bleed",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "key": "DamageDice",
+        "selector": "{item|_id}-damage"
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver",
+        "definition": [
+          "item:id:{item|id}"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "cold-iron",
+        "definition": [
+          "item:id:{item|id}"
+        ]
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "Aberration Lore",
+            "value": "aberration-lore"
+          },
+          {
+            "label": "PF2E.Skill.Occultism",
+            "value": "occultism"
+          },
+          {
+            "label": "PF2E.Skill.Religion",
+            "value": "religion"
+          }
+        ],
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.abilities.{item|system.apex.attribute}.mod",
+        "value": 1,
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.skill}",
+        "type": "item",
+        "value": 4,
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "intelligent",
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "apex",
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "invested",
+        "predicate": [
+          "self:level:17"
+        ]
+      }
+    ],
+    "slug": "ljósgata",
+    "_migration": {
+      "version": 0.943,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.5.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "deadly-d8",
+        "disarm",
+        "finesse",
+        "light",
+        "mythic",
+        "soulsteel"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": "rapier",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 7944
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Rapier",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 3,
+      "striking": 2,
+      "property": [
+        "holy",
+        "greaterAstral",
+        "greaterFlaming"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 3,
+        "striking": 2,
+        "property": [
+          "holy",
+          "greaterAstral",
+          "greaterFlaming"
+        ]
+      }
+    },
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1758578486937,
+    "modifiedTime": 1758578486937,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "68L66EWGGyYMboMM",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b055fe42058591fd2f2154d5b028b24b96fc2f94",
+      "sourceId": "Actor.gDAaFU8zVUGzC9eO.Item.WT7z4GpVbDEeWjXQ"
+    }
+  },
+  "_id": "RtpbGuWP00QxRc4g",
+  "sort": 0,
+  "_key": "!items!RtpbGuWP00QxRc4g"
+}

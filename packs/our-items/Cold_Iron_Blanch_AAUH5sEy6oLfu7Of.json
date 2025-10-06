@@ -1,0 +1,26 @@
+{
+  "name": "Cold Iron Blanch",
+  "sorting": "a",
+  "folder": "7OZbTCbckbg9PFqT",
+  "type": "Item",
+  "_id": "AAUH5sEy6oLfu7Of",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "8f504f835859b05d190b03d5ac89b5a991aadba7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1728261947630,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "_key": "!folders!AAUH5sEy6oLfu7Of"
+}

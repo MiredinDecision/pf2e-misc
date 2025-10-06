@@ -1,0 +1,304 @@
+{
+  "img": "systems/pf2e/icons/classes/rogue.webp",
+  "name": "Eldritch Shadow",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>You are skilled and opportunistic. Using your sharp wits and quick reactions, you take advantage of your opponents' missteps and strike where it hurts most. You play a dangerous game, seeking thrills and testing your skills, and likely don't care much for any laws that happen to get in your way. While the path of every rogue is unique and riddled with danger, the one thing you all share in common is the breadth and depth of your skills.</em></p><p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.u4qPrDRBagxG9wj8]{Rogue}</em></p>"
+    },
+    "rules": [],
+    "slug": "eldritch-shadow",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Eldritch Shadow",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "cha"
+      ]
+    },
+    "items": {
+      "cR3x8": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.JAaOuUx32NFtftXA",
+        "img": "icons/creatures/magical/spirit-fear-energy-pink.webp",
+        "name": "Eldritch Shadow Spellcasting",
+        "level": 1
+      },
+      "gjrWa": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.GOZXhFdzwGZY7Pt8",
+        "img": "systems/pf2e/icons/spells/shadow-army.webp",
+        "name": "Eldritch Incantations",
+        "level": 1
+      },
+      "5kuC8": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.dwcSvzSH5iPdveHp",
+        "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+        "name": "Deny Advantage",
+        "level": 3
+      },
+      "68AKT": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.llzLn4XL8ZhOwPCV",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Evasive Shadow",
+        "level": 3
+      },
+      "8LT1v": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Expert Spellcaster",
+        "level": 7
+      },
+      "gHt3y": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.s1aH7gKlyCrWJTsD",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Eldritch Shadow Weapon Expertise",
+        "level": 7
+      },
+      "Ft9kO": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.NBkTjqXHelMLkGQn",
+        "img": "icons/magic/unholy/projectile-fireball-agile-purple.webp",
+        "name": "Debilitating Spell",
+        "level": 9
+      },
+      "RQ5wJ": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.uuX38qWn9mLUzs5b",
+        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+        "name": "Perception Mastery",
+        "level": 9
+      },
+      "gnodW": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.cXN8TLpDCwHr4OSf",
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "name": "Umbral Resilience",
+        "level": 9
+      },
+      "vzVfs": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.XthtBiNOzl5vmgIO",
+        "img": "icons/equipment/back/mantle-collared-green.webp",
+        "name": "Light Armor Expertise",
+        "level": 13
+      },
+      "ximcS": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.J08OPj06bulyPoCD",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 13
+      },
+      "9UIDF": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.DjfKuxeAtmSCjLul",
+        "img": "icons/skills/wounds/injury-triple-slash-bleed.webp",
+        "name": "Double Debilitation",
+        "level": 15
+      },
+      "Klz7Q": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.9RRGzn367cL3NHwb",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Master Spellcaster",
+        "level": 15
+      },
+      "xMNcf": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.GJAzfmI8RKzaCsQX",
+        "img": "systems/pf2e/icons/features/classes/slippery-mind.webp",
+        "name": "Slippery Mind",
+        "level": 17
+      },
+      "TXJCs": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.xnAKCp9plYDqMAKn",
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "name": "Legendary Spellcaster",
+        "level": 19
+      },
+      "iAooD": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.K5ivqueLK6ueH33j",
+        "img": "systems/pf2e/icons/spells/shadow-jump.webp",
+        "name": "Shadow Paragon",
+        "level": 19
+      },
+      "TN1Av": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.SdSUFG284r7aA1dW",
+        "img": "systems/pf2e/icons/spells/umbral-mindtheft.webp",
+        "name": "Umbral Attunement",
+        "level": 3
+      },
+      "Cr86y": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.BOX7kPtFHZxvcUli",
+        "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+        "name": "Shadow Spell",
+        "level": 1
+      },
+      "xMeaj": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.Eqb4MfKMGFf5E5V2",
+        "img": "systems/pf2e/icons/features/classes/sneak-attack.webp",
+        "name": "Sneaky Spells",
+        "level": 1
+      },
+      "ADPhr": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.45I0GwXmg2PhmaHH",
+        "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+        "name": "Spell Repertoire (Eldritch Shadow)",
+        "level": 1
+      },
+      "yDk2g": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.Q7ZCvwmj48W46Tgv",
+        "img": "systems/pf2e/icons/features/classes/surprice-attack.webp",
+        "name": "Surprise Attack",
+        "level": 1
+      },
+      "nEuzb": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.1xPxCHVtX4z4oqlS",
+        "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+        "name": "Signature Spells",
+        "level": 3
+      }
+    },
+    "hp": 6,
+    "trainedSkills": {
+      "value": [
+        "arcana",
+        "stealth"
+      ],
+      "additional": 5
+    },
+    "perception": 2,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 1,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  },
+  "type": "class",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1727057415735,
+    "modifiedTime": 1728177183801,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "PHH83XLsnBWfIheO",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classes.Item.LO9STvskJemPkiAI",
+      "hash": "e7da6b0e6b36c8f8144a84175a5b5ecc75113e39"
+    }
+  },
+  "_id": "K3UcsWNsgOkj2DIl",
+  "sort": 0,
+  "_key": "!items!K3UcsWNsgOkj2DIl"
+}

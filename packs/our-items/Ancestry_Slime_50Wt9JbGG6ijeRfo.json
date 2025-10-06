@@ -1,0 +1,27 @@
+{
+  "name": "Ancestry Slime",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "50Wt9JbGG6ijeRfo",
+  "description": "",
+  "sort": 4600000,
+  "color": "#303030",
+  "flags": {
+    "scene-packer": {
+      "hash": "aa670e53389aaf23ff5e5e5f5f4303055e2bea1b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261551998,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!50Wt9JbGG6ijeRfo"
+}

@@ -1,0 +1,117 @@
+{
+  "img": "systems/pf2e/icons/equipment/armor/hellknight-plate.webp",
+  "name": "Hungering Plate",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This suit of full plate is blackened steel with ivory teeth-shaped accents, draped in a blood red tabard. It seems custom fitted to Idumea, featuring a prominent symbol of Urgathoa on the chest in emerald green and smaller symbology of Kabriri in bright blue on each side of the collar.</p>"
+    },
+    "rules": [],
+    "slug": "gray-maiden-plate",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bulwark"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Adventure: Shadows at Sundown",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 3
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 35
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Plate",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy",
+    "group": "plate",
+    "acBonus": 6,
+    "strength": 3,
+    "dexCap": 0,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728519884541,
+    "modifiedTime": 1754675555574,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "fkL7xNaVK7JoPxD1",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "33b225a6ea32bfa3f1c4d2836db3e5045d504bf7",
+      "sourceId": "Actor.wNrNnQgG1f7yEyez.Item.obTrfrGns6fgMazu"
+    }
+  },
+  "_id": "gVK18Fq06l2CZwXV",
+  "sort": 500000,
+  "_key": "!items!gVK18Fq06l2CZwXV"
+}

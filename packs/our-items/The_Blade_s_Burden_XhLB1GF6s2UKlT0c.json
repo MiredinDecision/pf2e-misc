@@ -1,0 +1,104 @@
+{
+  "img": "modules/pf2e-tomb-guardian/assets/GuardianIcon.webp",
+  "name": "The Blade's Burden",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You learned techniques for wearing your armor well. Ignore the reduction to your Speed from any armor you wear.</p><p>In addition, any time you're taking a penalty to your Speed for some other reason (such as from the @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered} condition or from a spell), deduct 5 feet from the penalty. For example, the encumbered condition normally gives a –10-foot penalty to Speed, but this feat would reduce it to a –5-foot penalty. If your Speed is taking multiple penalties, pick only one penalty to reduce.</p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustModifier",
+        "selectors": [
+          "land-speed"
+        ],
+        "slug": "armor-speed-penalty",
+        "suppress": true
+      },
+      {
+        "key": "AdjustModifier",
+        "maxApplications": 1,
+        "mode": "add",
+        "predicate": [
+          {
+            "not": "penalty:slug:armor-speed-penalty"
+          },
+          {
+            "lte": [
+              "penalty:value",
+              -5
+            ]
+          }
+        ],
+        "selectors": [
+          "land-speed"
+        ],
+        "value": 5
+      }
+    ],
+    "slug": "the-blades-burden",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "scarlet-blade"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.C1R4wd6G46CAVIn7",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726823056201,
+    "modifiedTime": 1727123534886,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "9a5cd7e952c9ee4102e632781c9caa3438e42aaa",
+      "sourceId": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.l9H2KV1ujsRCtLM0"
+    }
+  },
+  "effects": [],
+  "folder": "UzQ4odBakbCUtHAD",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "XhLB1GF6s2UKlT0c",
+  "sort": 50000,
+  "_key": "!items!XhLB1GF6s2UKlT0c"
+}

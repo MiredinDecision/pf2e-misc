@@ -1,0 +1,27 @@
+{
+  "name": "Dedication Thanergetic Mage",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "nUBHdlzCHpki4Zed",
+  "description": "",
+  "sort": 5700000,
+  "color": "#603030",
+  "flags": {
+    "scene-packer": {
+      "hash": "b3723aab32ba39131d3ffac5ddc83f79f174539e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726962623137,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!nUBHdlzCHpki4Zed"
+}

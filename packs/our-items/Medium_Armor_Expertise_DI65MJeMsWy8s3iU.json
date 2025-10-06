@@ -1,0 +1,90 @@
+{
+  "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+  "name": "Medium Armor Expertise",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've learned to defend yourself better against attacks. Your proficiency ranks for light armor, medium armor, and unarmored defense increase to expert.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 11
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {
+        "light": {
+          "rank": 2,
+          "attribute": null
+        },
+        "medium": {
+          "rank": 2,
+          "attribute": null
+        },
+        "unarmored": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "starknight"
+      ],
+      "otherTags": []
+    },
+    "slug": "medium-armor-expertise",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1753915517230,
+    "modifiedTime": 1754494531616,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "y9Xb7nrhFnxi19wO",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.FCEp9jjxxgRJDJV3",
+      "hash": "43902ca9da2a3efcc2d395f8ac29bf39adadcd83"
+    }
+  },
+  "_id": "DI65MJeMsWy8s3iU",
+  "sort": 400000,
+  "_key": "!items!DI65MJeMsWy8s3iU"
+}

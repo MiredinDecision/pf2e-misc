@@ -1,0 +1,79 @@
+{
+  "folder": "SxWtsdy8YxdR2LxU",
+  "name": "Loyal Warhorse",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The loyalty you and your mount share is unbreakable. The mount you gained with Faithful Steed is now a mature animal companion. In addition, your mount never attacks you, even if it is magically compelled to do so.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Feats.Item.K3c8ztEUX27RHeZe",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "loyal-warhorse",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Faithful Steed"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "BHftebbO3Umdu05E",
+  "img": "systems/pf2e/icons/features/classes/steed-ally.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4c3b30887f7d8346bec0cc5495d8c7652b6be858"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735664475751,
+    "modifiedTime": 1735664591541,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!BHftebbO3Umdu05E"
+}

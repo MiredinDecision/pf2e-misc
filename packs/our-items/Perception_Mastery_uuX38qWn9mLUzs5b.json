@@ -1,0 +1,80 @@
+{
+  "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+  "name": "Perception Mastery",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've developed keen awareness and attention to detail. Your proficiency rank for Perception increases to master.</p>"
+    },
+    "rules": [],
+    "slug": "perception-mastery",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "perception": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727117310787,
+    "modifiedTime": 1727117339555,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "yyzzUp971t5Ni8uH",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13",
+      "hash": "5d5fcd8815e153013f746090fb574578e3ac2973"
+    }
+  },
+  "_id": "uuX38qWn9mLUzs5b",
+  "sort": 300000,
+  "_key": "!items!uuX38qWn9mLUzs5b"
+}

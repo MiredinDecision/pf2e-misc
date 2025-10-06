@@ -1,0 +1,121 @@
+{
+  "folder": "mYd5F0YaLp5BawcZ",
+  "name": "Star Ring (+2 Striking)",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Access</strong> Knowledge of the Starknights</p><hr /><p>A ring usually made out of simple metals that were forged while under moonlight. This ring can be etched with Fundamenta Weapon Runes and Property Weapon Runes like a weapon. When invested the ring bestows all qualifying bound Regalia with the runes etched onto the ring. This cannot grant a weapon any more Property Runes than it could normally be etched with (For example, a +1 Weapon that already has a Property Rune cannot inherit any more Property Runes from a Star Ring). If the Regalia already has runes etched onto it (Such as a Specific Magic Weapon), then the Ring cannot bestow any runes into that Regalia.</p>"
+    },
+    "rules": [
+      {
+        "key": "WeaponPotency",
+        "label": "Weapon Potency",
+        "selector": "attack",
+        "predicate": [
+          "item:trait:regalia"
+        ],
+        "value": 2
+      },
+      {
+        "key": "Striking",
+        "selector": "damage",
+        "value": 1,
+        "predicate": [
+          "item:trait:regalia"
+        ]
+      }
+    ],
+    "slug": "star-ring",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical",
+        "occult"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 100
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "wornring"
+    },
+    "subitems": []
+  },
+  "img": "icons/equipment/finger/ring-cabochon-white-blue.webp",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dde190d5fb3e8104ad6c797421bfb94645fa9c96",
+      "sourceId": "Item.Iyd6keUyxdbZWepx"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753931678800,
+    "modifiedTime": 1753931707278,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "8qcLEVwym9DxUBNc",
+  "sort": 400000,
+  "_key": "!items!8qcLEVwym9DxUBNc"
+}

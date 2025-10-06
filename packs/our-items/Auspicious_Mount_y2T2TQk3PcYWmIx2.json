@@ -1,0 +1,117 @@
+{
+  "folder": "SxWtsdy8YxdR2LxU",
+  "name": "Auspicious Mount",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Guided by your ongoing care, your steed has developed incredible intelligence and skill. The mount you gained with Faithful Steed is now a specialized animal companion. You can select one of the usual specializations or the auspice specialization. A faithful steed with the auspice specialization gains the following benefits.</p><ul><li>It gains the celestial, fiend, or monitor trait—whichever best matches your deity's servitors, and its appearance shifts to look more like those servitors. It also gains the holy trait if it's a celestial or the unholy trait if it's a fiend.</li><li>Its Intelligence modifier increases by 2 and its Wisdom modifier by 1.</li><li>Its proficiency rank in Religion increases to expert.</li><li>It can speak the language associated with your deity's servitors (such as Empyrean for celestials, Chthonian for demons, or Requian for psychopomps).</li><li>Its maximum Hit Points increase by 20, increasing to 25 at 18th level and 30 at 20th level. If the mount has the celestial trait, the extra HP increase by 5, and the mount gains weakness 5 to unholy. If it has the fiend trait, the extra HP increase by 5, and the mount gains weakness 5 to holy.</li><li><p>It gains wings that grant it a fly Speed equal to its land Speed.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "value": "Compendium.pf2e-misc.our-items.Item.OzYl8einWYxsKCOF"
+          },
+          {
+            "value": "Compendium.pf2e-misc.our-items.Item.BPoAMHuKy14ymvA8"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.wRzmLu4JR4A421So"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.Pa0h9IoePPvnEvUn"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.eoQnmkqWXaLwNQhG"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.KCbNpQElh8V0QX1Z"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.wDiFVxRBktQVj7uI"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.lm4QlSITABQKhx5K"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.SiFB8P1upTvdhLpx"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.umbj0foct0eZ7Jcj"
+          },
+          {
+            "value": "Compendium.pf2e-animal-companions.AC-Feats.Item.Sb8e7jIDTGghYvEk"
+          },
+          {
+            "value": "Compendium.pf2e-misc.our-items.Item.ljopVt6i5VDj2Imv"
+          }
+        ],
+        "flag": "specialization"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.specialization}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "auspicious-mount",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "y2T2TQk3PcYWmIx2",
+  "img": "icons/creatures/abilities/wings-birdlike-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cdba2ec32e35f6648b9049ab6d6cf79f60a34fb5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735665054413,
+    "modifiedTime": 1735679655944,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!y2T2TQk3PcYWmIx2"
+}

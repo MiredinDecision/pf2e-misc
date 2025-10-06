@@ -1,0 +1,89 @@
+{
+  "folder": "kcGTccKxWzbHSO81",
+  "name": "Second Evolution",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Slimes' nuclei are always capable of evolving and growing, and in the same vein, you've evolved a second heritage ability. You gain a slimem heritage you don't currently possess, in addition to your original heritage. You can't gain the @UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.Nkxpl4KVKSPMHDvU]{Fractal Slime} heritage in this way, since it depends on your parent and not you; similarly, you can't gain any other heritage that couldn't be gained later in life.</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "filter": [
+            "item:ancestry:slime"
+          ],
+          "itemType": "heritage"
+        },
+        "flag": "heritage",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Second.Evolution.Prompt"
+      },
+      {
+        "allowDuplicate": false,
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.heritage}"
+      }
+    ],
+    "slug": "second-evolution",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "VGVVI3OMVdGN7SmM",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f591c5c0191968a3fe31c9f3415e2544fcb954b5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.VGVVI3OMVdGN7SmM",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!VGVVI3OMVdGN7SmM"
+}

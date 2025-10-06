@@ -1,0 +1,416 @@
+{
+  "name": "Demon Lord (Sorc)",
+  "type": "class",
+  "img": "icons/magic/unholy/silhouette-evil-horned-giant.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>You are skilled and opportunistic. Using your sharp wits and quick reactions, you take advantage of your opponents' missteps and strike where it hurts most. You play a dangerous game, seeking thrills and testing your skills, and likely don't care much for any laws that happen to get in your way. While the path of every rogue is unique and riddled with danger, the one thing you all share in common is the breadth and depth of your skills.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.u4qPrDRBagxG9wj8]{Rogue}</em></p> <p><em>You didn't choose to become a spellcaster-you were born one. There's magic in your blood, whether a divinity touched one of your ancestors, a forebear communed with a primal creature, or a powerful occult ritual influenced your line. Self-reflection and study allow you to refine your inherent magical skills and unlock new, more powerful abilities. The power in your blood carries a risk, however, and you constantly face the choice of whether you'll rise to become a master spellcaster or fall into destruction.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.ixBx2wZpnf4qUoEv]{Sorcerer}</em></p>",
+      "addenda": [],
+      "override": null,
+      "initialized": false
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:sorcerer",
+        "priority": 0
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:rogue",
+        "priority": 0
+      }
+    ],
+    "slug": "demon-lord",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "dex",
+        "cha"
+      ],
+      "selected": "dex"
+    },
+    "items": {
+      "0kdn2": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "level": 7,
+        "name": "Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+      },
+      "1nwhg": {
+        "img": "systems/pf2e/icons/features/classes/weapon-tricks.webp",
+        "level": 5,
+        "name": "Weapon Tricks",
+        "uuid": "Compendium.pf2e.classfeatures.Item.v8UNEJR5IDKi8yqa"
+      },
+      "1zn3l": {
+        "img": "icons/equipment/chest/breastplate-rivited-red.webp",
+        "level": 19,
+        "name": "Light Armor Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.SHpjmM4A3Sw4GgDz"
+      },
+      "2xl4q": {
+        "img": "icons/weapons/swords/swords-short.webp",
+        "level": 13,
+        "name": "Master Tricks",
+        "uuid": "Compendium.pf2e.classfeatures.Item.myvcir1LEkaVxOlE"
+      },
+      "3YEZD": {
+        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+        "level": 7,
+        "name": "Perception Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13"
+      },
+      "4al2i": {
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "level": 15,
+        "name": "Greater Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9"
+      },
+      "6ddtr": {
+        "img": "icons/equipment/back/mantle-collared-green.webp",
+        "level": 13,
+        "name": "Light Armor Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7"
+      },
+      "BH4zJ": {
+        "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+        "level": 7,
+        "name": "Evasive Reflexes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.oa3TJpPnvL98EUHh"
+      },
+      "HOjyM": {
+        "img": "icons/sundries/documents/document-sealed-signatures-red.webp",
+        "level": 1,
+        "name": "Rogue's Racket",
+        "uuid": "Compendium.pf2e.classfeatures.Item.uGuCGQvUmioFV2Bd"
+      },
+      "KvE3P": {
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "level": 9,
+        "name": "Rogue Resilience",
+        "uuid": "Compendium.pf2e.classfeatures.Item.fMHYzXEUMoWskKMF"
+      },
+      "bhpWk": {
+        "img": "icons/commodities/biological/organ-brain-red.webp",
+        "level": 17,
+        "name": "Agile Mind",
+        "uuid": "Compendium.pf2e.classfeatures.Item.xmZ7oeTDcQVXegUP"
+      },
+      "cifjd": {
+        "img": "systems/pf2e/icons/features/classes/rogue-expertise.webp",
+        "level": 11,
+        "name": "Rogue Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.f3Dh32EU4VsHu01b"
+      },
+      "e9ikq": {
+        "img": "systems/pf2e/icons/features/classes/sneak-attack.webp",
+        "level": 1,
+        "name": "Sneak Attack",
+        "uuid": "Compendium.pf2e.classfeatures.Item.j1JE61quDxdge4mg"
+      },
+      "i7ZpY": {
+        "img": "systems/pf2e/icons/features/classes/improved-evasion.webp",
+        "level": 13,
+        "name": "Greater Rogue Reflexes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.BTpL6XvMk4jvVYYJ"
+      },
+      "nilrb": {
+        "img": "icons/skills/melee/strike-sword-blood-red.webp",
+        "level": 9,
+        "name": "Debilitating Strikes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9SruVg2lZpNaYLOB"
+      },
+      "pfjze": {
+        "img": "icons/skills/wounds/injury-triple-slash-bleed.webp",
+        "level": 15,
+        "name": "Double Debilitation",
+        "uuid": "Compendium.pf2e.classfeatures.Item.W1FkMHYVDg3yTU5r"
+      },
+      "pvlD2": {
+        "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
+        "level": 13,
+        "name": "Perception Legend",
+        "uuid": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00"
+      },
+      "qx6de": {
+        "img": "systems/pf2e/icons/features/classes/surprice-attack.webp",
+        "level": 1,
+        "name": "Surprise Attack",
+        "uuid": "Compendium.pf2e.classfeatures.Item.w6rMqmGzhUahdnA7"
+      },
+      "sjjee": {
+        "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+        "level": 3,
+        "name": "Deny Advantage",
+        "uuid": "Compendium.pf2e.classfeatures.Item.PNpmVmD21zViDtGC"
+      },
+      "thypm": {
+        "img": "icons/skills/melee/weapons-crossed-swords-yellow-teal.webp",
+        "level": 19,
+        "name": "Master Strike",
+        "uuid": "Compendium.pf2e.classfeatures.Item.SUUdWG0t33VKa5q4"
+      },
+      "7Odcm": {
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "level": 9,
+        "name": "Reflex Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0"
+      },
+      "7nvmf": {
+        "img": "icons/commodities/treasure/token-engraved-eye-red.webp",
+        "level": 19,
+        "name": "Bloodline Paragon",
+        "uuid": "Compendium.pf2e.classfeatures.Item.feCnVrPPlKhl701x"
+      },
+      "8y7Jv": {
+        "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+        "level": 1,
+        "name": "Spell Repertoire",
+        "uuid": "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH"
+      },
+      "LS8SS": {
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "level": 17,
+        "name": "Majestic Will",
+        "uuid": "Compendium.pf2e.classfeatures.Item.7D8duG4ARFxLLm9F"
+      },
+      "bd6fU": {
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "level": 11,
+        "name": "Perception Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy"
+      },
+      "ds47l": {
+        "img": "systems/pf2e/icons/features/classes/weapon-expertise.webp",
+        "level": 11,
+        "name": "Weapon Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc"
+      },
+      "erm0v": {
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "level": 7,
+        "name": "Expert Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+      },
+      "i4R73": {
+        "img": "icons/magic/light/projectile-smoke-pink.webp",
+        "level": 1,
+        "name": "Sorcerous Potency",
+        "uuid": "Compendium.pf2e.classfeatures.Item.yBvGqA6Edp6ImaR3"
+      },
+      "jx0fg": {
+        "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+        "level": 1,
+        "name": "Sorcerer Spellcasting",
+        "uuid": "Compendium.pf2e.classfeatures.Item.gmnx7e1g08bppbqt"
+      },
+      "pryw9": {
+        "img": "systems/pf2e/icons/features/classes/signature-spells-sorcerer.webp",
+        "level": 3,
+        "name": "Signature Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.VKRjmXxBFLrJK01c"
+      },
+      "q2jao": {
+        "img": "icons/equipment/back/cloak-collared-pink-gold.webp",
+        "level": 13,
+        "name": "Defensive Robes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.gU7epgcPSm0TD1UK"
+      },
+      "q8nk5": {
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "level": 19,
+        "name": "Legendary Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3"
+      },
+      "qimsg": {
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "level": 1,
+        "name": "Bloodline",
+        "uuid": "Compendium.pf2e.classfeatures.Item.2goYo6VNbwC6aKF1"
+      },
+      "r346v": {
+        "img": "systems/pf2e/icons/features/classes/bloodline-spells.webp",
+        "level": 1,
+        "name": "Bloodline Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.H6ziAPvCipTPG8SH"
+      },
+      "tr1s2": {
+        "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
+        "level": 5,
+        "name": "Magical Fortitude",
+        "uuid": "Compendium.pf2e.classfeatures.Item.70jqXP2eS4tRZ0Ok"
+      },
+      "zmu64": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 15,
+        "name": "Master Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+      },
+      "EKR7t": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HWNvRM0c5cZrwM8v",
+        "img": "systems/pf2e/icons/spells/enduring-might.webp",
+        "name": "Dual Class Attribute",
+        "level": 1
+      }
+    },
+    "hp": 8,
+    "trainedSkills": {
+      "value": [
+        "stealth"
+      ],
+      "additional": 7
+    },
+    "perception": 2,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    },
+    "scene-packer": {
+      "hash": "c12c1c3b23c11e0aa53d4020dc3c2679686e126b",
+      "sourceId": "Item.DSBttIfz6nkeQkXg"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743988685563,
+    "modifiedTime": 1758047472620,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "_id": "8wzM5wZ6xQ1Gj73D",
+  "sort": 1100000,
+  "_key": "!items!8wzM5wZ6xQ1Gj73D"
+}

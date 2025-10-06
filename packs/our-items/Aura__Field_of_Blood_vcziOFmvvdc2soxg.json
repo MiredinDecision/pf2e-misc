@@ -1,0 +1,82 @@
+{
+  "folder": "uiRE4tocukxV7Nmx",
+  "name": "Aura: Field of Blood",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong><em>blood</em></p><p><strong>Frequency </strong>once per day</p><p><strong>Activate </strong><span class=\"action-glyph\"><strong>2 </strong></span>concentrate</p><hr /><p><strong>Effect </strong>Ankle-deep blood floods outward from you, filling a @Template[emanation|distance:30] centered on you for 1 minute. <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Enemies within the area without a swim Speed treat the area as difficult terrain</span> for movement on land. While the effect persists, you can treat any square within the area as within your reach, as you can manipulate the blood to perform those actions.</p>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 30,
+        "appearance": {
+          "highlight": {
+            "color": "#850000",
+            "alpha": 0.35
+          }
+        }
+      }
+    ],
+    "slug": "aura-field-of-blood",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "vcziOFmvvdc2soxg",
+  "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e3cb713f650c2885f7743e2fc038154ebed87fbc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729380123415,
+    "modifiedTime": 1729381443905,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!vcziOFmvvdc2soxg"
+}

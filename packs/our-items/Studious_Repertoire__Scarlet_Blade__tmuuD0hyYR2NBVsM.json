@@ -1,0 +1,74 @@
+{
+  "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+  "name": "Studious Repertoire (Scarlet Blade)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your hybrid study grants you additional spells that can enhance your power in combat. You gain two special 2nd-level studious spell slots. You gain a second, limited spell repertoire for these spells slots, which you may not swap spells into or out of. You add any spells from this feature to your studious repertoire. You add @UUID[Compendium.pf2e.spells-srd.Item.5KobTMrZeZxuXMgl]{Gecko Grip}, @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Strike}, @UUID[Compendium.pf2e.spells-srd.Item.MZGkMsPBztFN0pUO]{Water Breathing}, and an additional spell depending on your hybrid study. At 11th level, the extra slots increase to 3rd-rank and you add @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{Haste} and an additional spell depending on your hybrid study. At 13th level, the extra slots increase to 4th-rank and you add @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]{Fly} and an additional spell depending on your hybrid study.</p><p><strong>Scarlet Blade </strong>7th<strong>: </strong><em>@UUID[Compendium.pf2e.spells-srd.Item.udZEKwUryIsobjBG]{Falsify Heat};</em><strong> </strong>11th:<strong> </strong>@UUID[Compendium.pf2e.spells-srd.Item.73gohsek77nLGPWC]{Heatvision}<strong>; </strong>13th:<strong> </strong>@UUID[Compendium.pf2e.spells-srd.Item.V8wXOsoejQhe6CyG]{Vapor Form}</p>"
+    },
+    "rules": [],
+    "slug": "studious-spells",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727192312415,
+    "modifiedTime": 1727271103649,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "NofX83njpibzICYE",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.6HCI2iHyBZAr7a4P",
+      "hash": "ffe8ea5a149d1f986d0fa4a56ce3db19814db290"
+    }
+  },
+  "_id": "tmuuD0hyYR2NBVsM",
+  "sort": 100000,
+  "_key": "!items!tmuuD0hyYR2NBVsM"
+}

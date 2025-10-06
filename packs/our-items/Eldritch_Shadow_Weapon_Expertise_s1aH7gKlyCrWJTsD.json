@@ -1,0 +1,86 @@
+{
+  "img": "icons/skills/melee/hand-grip-sword-red.webp",
+  "name": "Eldritch Shadow Weapon Expertise",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You've dedicated yourself to learning the intricacies of your weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to expert.</span></p>"
+    },
+    "rules": [],
+    "slug": "eldritch-shadow-weapon-expertise",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "simple": {
+          "rank": 2
+        },
+        "unarmed": {
+          "rank": 2
+        },
+        "martial": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727116776887,
+    "modifiedTime": 1727117024588,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "E81fCmGrACh5dGOc",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc",
+      "hash": "f84d6611d0edbba1be59eb1484d51cb7402af2db"
+    }
+  },
+  "_id": "s1aH7gKlyCrWJTsD",
+  "sort": 100000,
+  "_key": "!items!s1aH7gKlyCrWJTsD"
+}

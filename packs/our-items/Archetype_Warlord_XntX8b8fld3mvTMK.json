@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Archetype Warlord",
+  "color": null,
+  "sorting": "a",
+  "_id": "XntX8b8fld3mvTMK",
+  "description": "",
+  "sort": 1900000,
+  "flags": {
+    "scene-packer": {
+      "hash": "6e5923ceef5a991fdb18cef7d36794cd5ffff955"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755225606436,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!XntX8b8fld3mvTMK"
+}

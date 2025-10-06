@@ -1,0 +1,82 @@
+{
+  "name": "Shattering Riposte",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Prerequisite</strong> Defender Formation</p><p class=\"hang\"><strong>Trigger</strong> While under the benefits of @UUID[Compendium.pf2e-misc.our-items.Item.L1D0foRFA1MqkB7Z]{Defender Formation}, you are attacked by a creature within Melee reach of the Regalia used to active Defender Formation</p><hr /><p>You command your defending Regalia to lash back at the attacker. You can make a Melee Strike against the triggering creature using the Regalia used to activate Defender Formation. This ends Defender Formation's effects instantly.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "shattering-riposte",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Defender Formation"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "FNbFR7gwtLg5GFBe",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d2eb98d175fbac5093c0114e57d1b5270973981a",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921484630,
+    "modifiedTime": 1753929126558,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "lHBSneurAx8cEKCh",
+  "sort": 0,
+  "_key": "!items!lHBSneurAx8cEKCh"
+}

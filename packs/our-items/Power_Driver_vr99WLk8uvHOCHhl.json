@@ -1,0 +1,158 @@
+{
+  "folder": "1CIOwZNwIXa8Mcwi",
+  "name": "Power Driver",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You obtain a sterling dynamo prosthetic, which allows you to replace or augment a limb, or even add a simple new non-prehensile limb, such as a tail. While your sterling dynamo prosthetic can replace a missing prehensile limb, such as an arm, choosing to add a new limb can never increases your character's number of hands or prehensile limbs beyond two, even in combination with other abilities or effects.</p><p>Your sterling dynamo prosthesis is especially optimized for combat, granting you a dynamo melee unarmed attack that is in the brawling weapon group and is made of silver (which makes it more effective against certain types of creatures, such as devils and werewolves).</p><p>You have several options to customize your sterling dynamo. First, choose whether you have a power driver dynamo, which deals 1d6 bludgeoning damage and has the shove trait, or a percussive striker dynamo, which deals 1d4 bludgeoning damage and has the agile and finesse traits.</p><p>Most dynamos are automated, so they don't require a free hand to use, like other unarmed attacks. However, you can instead choose to make your dynamo be manually controlled via a handheld switch, lever, or other device; to make an attack with a manually controlled dynamo, you must have a hand free to operate it, but the benefit is great control and a more devastating strike. This increases the damage die by one size, to a 1d8 for a power drive dynamo or 1d6 for a percussive striker dynamo. Arm dynamos are always manual, but they use the hand on that arm to operate the dynamo when making strikes. Manual control is required only in the heat of combat, not for less strenuous adventuring or everyday activities.</p><p>You need to keep your sterling dynamo wound, but the process isn't particularly onerous, so in most situations, it won't be an issue. If you spend 1 minute winding up your dynamo, it can remain active for 24 hours before needing additional winding. However, enemies can attempt to Disable the dynamo, which has a level equal to your own, to reduce the remaining operational time by 1 hour, or 2 hours on a critical success. Certain other abilities that adversely affect technology might also reduce the dynamo's remaining operational time. When your dynamo is out of operational time, you can still use it as a normal prosthetic, but you cannot use your dynamo unarmed attack or any other abilities from this archetype until you wind the dynamo again. You can wind the dynamo for 1 minute at any time to return it to the maximum 24 hours of operational time.</p><p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.6KciIDJV6ZdJcAVa]{Sterling Dynamo}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Sterling Dynamo",
+        "mergeable": true,
+        "option": "dynamo",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "power-driver"
+          }
+        ],
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "bludgeoning",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
+        "key": "Strike",
+        "label": "PF2E.SpecificRule.SterlingDynamo.Label",
+        "predicate": [
+          "dynamo:power-driver"
+        ],
+        "range": null,
+        "traits": [
+          "unarmed",
+          "shove"
+        ]
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "dynamo-power:manual-power"
+        ],
+        "selectors": [
+          "strike-damage"
+        ],
+        "property": "dice-faces",
+        "value": 8
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "feat:golem-dynamo"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "magical"
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "feat:modular-dynamo"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "modular"
+      }
+    ],
+    "slug": "power-driver",
+    "traits": {
+      "otherTags": [
+        "sterling-dynamo-weapon"
+      ],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "vr99WLk8uvHOCHhl",
+  "img": "icons/commodities/tech/fuse-copper.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "851f439137023f64afd26b069d2a3c02809360a8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754485605978,
+    "modifiedTime": 1754492367811,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!vr99WLk8uvHOCHhl"
+}

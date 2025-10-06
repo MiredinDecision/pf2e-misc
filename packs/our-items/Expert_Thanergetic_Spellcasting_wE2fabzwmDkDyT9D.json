@@ -1,0 +1,82 @@
+{
+  "folder": "DPvVEnBiP6UUHdJO",
+  "name": "Expert Thanergetic Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You learn more powerful thanergetic spells. You gain a 4th-rank spell slot that can only be used to prepare spells from the thanergetic spell list. At 12th level, you gain a 5th-rank spell slot, and at 14th level, you gain a 6th-rank spell slot. <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You become an expert in spell attack modifiers and spell DCs. Your master of the magic of life and death expands your spell list to include spells with the holy and vitality trait.</span></p>"
+    },
+    "rules": [],
+    "slug": "expert-thanergetic-spellcasting",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Basic Thanergetic Spellcasting"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "_id": "wE2fabzwmDkDyT9D",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e150fee230920c9394ce2e502b039070836adbb3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.1",
+    "createdTime": 1726967911218,
+    "modifiedTime": 1732819456627,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!wE2fabzwmDkDyT9D"
+}

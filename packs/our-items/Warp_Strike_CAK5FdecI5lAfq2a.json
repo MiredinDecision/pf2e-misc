@@ -1,0 +1,102 @@
+{
+  "name": "Warp Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Prerequisites</strong> Launch Strike</p><hr /><p>Your launch strike discipline now bends space itself. When you use Launch Strike, rather than be pulled towards your target, you are teleported adjacent to your target. Launch Strike now gains the Teleportation trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "remove",
+        "predicate": [
+          "item:launch-strike"
+        ],
+        "property": "traits",
+        "value": "move"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "add",
+        "predicate": [
+          "item:launch-strike"
+        ],
+        "property": "traits",
+        "value": "teleportation"
+      }
+    ],
+    "slug": "warp-strike",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Launch Strike"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "oJsGdQwvme6YkJ5u",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5601f6d681a42dc3fe1db892c31e69fb1352bbb3",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753922329858,
+    "modifiedTime": 1753922810800,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "CAK5FdecI5lAfq2a",
+  "sort": 0,
+  "_key": "!items!CAK5FdecI5lAfq2a"
+}

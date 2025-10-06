@@ -1,0 +1,26 @@
+{
+  "name": "Major Gifts",
+  "sorting": "a",
+  "folder": "DGXTCNcSedKOT4yH",
+  "type": "Item",
+  "_id": "X1p8pLhZ2IbMy267",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "0d4f22faeb91a002894bdaa41caca864ddb9b12f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!X1p8pLhZ2IbMy267"
+}

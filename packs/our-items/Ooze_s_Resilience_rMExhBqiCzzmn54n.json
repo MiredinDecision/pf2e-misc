@@ -1,0 +1,98 @@
+{
+  "folder": "HYtdwMrR01QCzgbM",
+  "name": "Ooze's Resilience",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Like most oozes, it takes a lot of punishment to take you down. Increase your maximum Hit Points by your level. When you have the dying condition, the DC of your recovery checks is equal to 9 + your dying value (instead of 10 + your dying value)..</p><p>If you also have the Toughness feat, the Hit Points gained from it and this feat are cumulative, and the DC of your recovery checks is equal to 6 + your dying value.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "hp",
+        "value": "@actor.level"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "downgrade",
+        "path": "system.attributes.dying.recoveryDC",
+        "predicate": [
+          {
+            "not": "feat:toughness"
+          }
+        ],
+        "value": 9
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "downgrade",
+        "path": "system.attributes.dying.recoveryDC",
+        "predicate": [
+          "feat:toughness"
+        ],
+        "value": 6
+      }
+    ],
+    "slug": "oozes-resilience",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "54e1dc439e7d7fe3d4a70d62d87663f41cebb24f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.rMExhBqiCzzmn54n",
+    "duplicateSource": "Item.r726Tpoo3mnpLsbI",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "rMExhBqiCzzmn54n",
+  "_key": "!items!rMExhBqiCzzmn54n"
+}

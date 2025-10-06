@@ -1,0 +1,27 @@
+{
+  "name": "Macros",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "vTaNiKmnvas9MvY5",
+  "description": "",
+  "sort": 2500000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "684132d11a2e5b5b8e33733a0adb3feecdafdf6e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1",
+    "createdTime": 1746995703776,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!vTaNiKmnvas9MvY5"
+}

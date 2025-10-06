@@ -1,0 +1,26 @@
+{
+  "name": "Blood",
+  "sorting": "m",
+  "folder": "jY7U6KjcKG1jKUz4",
+  "type": "Item",
+  "_id": "3F42HisUffQGoxKI",
+  "description": "",
+  "sort": 0,
+  "color": "#9e0000",
+  "flags": {
+    "scene-packer": {
+      "hash": "3b755bc5db88efe3f1b8b252e97e61ce91d63f4e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1729323595094,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!3F42HisUffQGoxKI"
+}

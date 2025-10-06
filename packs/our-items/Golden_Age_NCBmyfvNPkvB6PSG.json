@@ -1,0 +1,109 @@
+{
+  "name": "Golden Age",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You bring the promise of a glorious future wherever you go. While you are in a Warlord Stance, double the area of your warlord's aura, and double the status bonus granted to allies within the aura. You treat your degree of success on checks to enter a Warlord Stance as one better.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.warlord.aura",
+        "value": "@actor.flags.pf2e.warlord.aura * 2"
+      },
+      {
+        "key": "Aura",
+        "radius": "@actor.flags.pf2e.warlord.aura",
+        "slug": "marshals-aura",
+        "traits": [
+          "emotion",
+          "mental",
+          "visual"
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.ENNdGNERNHnp9zFP",
+            "affects": "allies"
+          }
+        ]
+      }
+    ],
+    "slug": "golden-age",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 20
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "At least one warlord feat with the stance trait"
+        }
+      ]
+    },
+    "location": null,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "_migration": {
+      "version": 0.941,
+      "previous": {
+        "schema": null,
+        "foundry": "13.347",
+        "system": "7.3.1"
+      }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "folder": "5hDCG23oSqES5giM",
+  "ownership": {
+    "default": 0,
+    "SjrAa9T9P4caXGTI": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b4144a0f39bbb0b0443aeac6c3c5feefc1eb99fc",
+      "sourceId": "Actor.jGtwaBTkIzrE2wft.Item.XY9RRmGZXFQxMglE"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1755040327436,
+    "modifiedTime": 1755911867260,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "NCBmyfvNPkvB6PSG",
+  "sort": 100000,
+  "_key": "!items!NCBmyfvNPkvB6PSG"
+}

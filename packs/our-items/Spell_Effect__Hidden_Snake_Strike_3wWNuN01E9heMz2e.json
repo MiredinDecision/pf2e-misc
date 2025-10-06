@@ -1,0 +1,103 @@
+{
+  "folder": "vQBRSehWFX1fHYIo",
+  "name": "Spell Effect: Hidden Snake Strike",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Granted by </strong>@UUID[Compendium.pf2e-misc.our-items.Item.3wWNuN01E9heMz2e]{Spell Effect: Hidden Snake Strike}</p><p>You are @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} (or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} on a critical success) as the snake wraps the target in its coils. The snake has 10 AC and 5 Hit points and the target can @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} against your spell DC. Once the target breaks free, the snake disappears.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Even More Magic!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Critical Success",
+            "value": "critical-success"
+          },
+          {
+            "label": "Success",
+            "value": "success"
+          }
+        ],
+        "rollOption": "hidden-snake-strike"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "hidden-snake-strike:critical-success"
+        ],
+        "inMemoryOnly": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "hidden-snake-strike:success"
+        ],
+        "inMemoryOnly": true,
+        "uuid": "Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei"
+      }
+    ],
+    "slug": "spell-effect-hidden-snake-strike",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "3wWNuN01E9heMz2e",
+  "img": "icons/creatures/reptiles/serpent-horned-green.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "377d10da59ecdfb03f94b1cc99fd34df4387fbda"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758285845153,
+    "modifiedTime": 1758285952363,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!3wWNuN01E9heMz2e"
+}

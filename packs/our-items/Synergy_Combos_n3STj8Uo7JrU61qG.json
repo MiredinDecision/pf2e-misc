@@ -1,0 +1,131 @@
+{
+  "name": "Synergy Combos",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can expend synergy to enhance actions or activities you use with the tandem trait. When you spend @UUID[Compendium.pf2e-summoners-plus.misc.eCBKJ4SEwF7Hiuvb]{Synergy} in this way, the synergy is expended after all actions or activities are completed.</p>\n<p><strong>Tandem Boost:</strong> The first successful Strike either you or your eidolon deals while you are under the effects of @UUID[Compendium.pf2e.spells-srd.HStu2Yhw3iQER9tY]{boost eidolon} deals an additional @Damage[1d6[precision]] precision damage. If you’re at least 10th level, increase this to @Damage[2d6[precision]] precision damage, and if you’re at least 18th level, increase it to @Damage[3d6[precision]] precision damage. If you used Tandem Boost to cast @UUID[Compendium.pf2e.spells-srd.TYbCj4dgXDOZou9k]{reinforce eidolon}, the resistance is equal to the spells rank instead of half the spell rank.</p>\n<p><strong>Tandem Step:</strong> You and your eidolon slip around enemies without provoking a response in unison. You and your eidolon both Step up to 10 feet.</p>\n<p><strong>Tandem Movement:</strong> If after you or your eidolon have ended your movement, you could make a melee Strike against the same enemy, one of you may Strike that enemy as part of the same action. If you or your eidolon are wielding a ranged unarmed attack or a ranged weapon, you or your eidolon can make this Strike so long as the target of the Strike would be within the first range increment of the ranged attack.</p>\n<p><strong>Tandem Ready:</strong> You reduce the number of actions required to use Tandem Ready from a 3-action activity to a 2-action activity, but one of the actions you or your eidolon readied must include a Strike.</p>\n<p><strong>Tandem Strike:</strong> If at least one of you or your eidolon’s Strikes are successful, the target takes an additional @Damage[2d6[persistent,bleed]] persistent bleed damage from the first Strike that deals damage. If you are at least 10th level, this bleed damage increases to @Damage[3d6[persistent,bleed]], or @Damage[4d6[persistent,bleed]] if you are 14th level, or @Damage[5d6[persistent,bleed]] if you are at least 18th level.</p>\n<h2>Manifestation Synergy Combos</h2>\n<p>The following are synergy combos for the manifestations tandem actions and activities.</p>\n<p><strong>Call the Incarnate:</strong> You cause your eidolon to unleash energy, producing the effects of its @UUID[Compendium.pf2e-summoners-plus.misc.0fvd9aASh27TJYOj]{Incarnate Arrival} instead of the effects of @UUID[Compendium.pf2e-summoners-plus.misc.LKTHOzyQjzuxDG66]{Power of the Incarnate}.</p>\n<p><strong>Suppress Eidolon:</strong> You form a perfect synthesis between you and your eidolon, allowing you to act normally while Melded into Eidolon. You and your eidolon cannot be targeted separately and you can use whichever of your ACs, immunities, resistances, saves, and weaknesses is more favorable for the duration.</p>\n<p><strong>Tandem Mount:</strong> Your eidolon Strides twice instead of once. In addition, these Strides can occur before you @UUID[Compendium.pf2e.actionspf2e.PM5jvValFkbFH3TV]{Mount}, and if you are adjacent to your Mount at any point during this movement, you can use your reaction to Mount it.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Synergy Combo",
+        "disabledIf": [
+          {
+            "not": "self:effect:synergy"
+          }
+        ],
+        "disabledValue": false,
+        "option": "synergy-combo",
+        "toggleable": true,
+        "mergeable": true,
+        "suboptions": [
+          {
+            "label": "Tandem Boost",
+            "value": "tandem-boost-synergy"
+          },
+          {
+            "label": "Tandem Movement",
+            "value": "tandem-movement-synergy",
+            "predicate": [
+              "feat:tandem-movement"
+            ]
+          },
+          {
+            "label": "Tandem Step",
+            "value": "tandem-step-synergy",
+            "predicate": [
+              "feat:tandem-step"
+            ]
+          },
+          {
+            "label": "Tandem Ready",
+            "value": "tandem-ready-synergy",
+            "predicate": [
+              "feat:tandem-ready"
+            ]
+          },
+          {
+            "label": "Tandem Strike",
+            "value": "tandem-strike-synergy",
+            "predicate": [
+              "feat:tandem-strike"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "synergy-combos",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Summoners+",
+      "authors": "Tony Saunders, Derry Luttrell",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/control/energy-stream-link-teal.webp",
+  "folder": "vT5VJ59WrE8qwwiu",
+  "ownership": {
+    "default": 0,
+    "VZuVlRAEHH3yngbI": 3,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-summoners-plus.misc.Item.VucxKRn4BC9O3gCf",
+      "hash": "0f95f040f97d892c73413474b98802947609cde8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759551936675,
+    "modifiedTime": 1759556516236,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_id": "n3STj8Uo7JrU61qG",
+  "sort": 400000,
+  "_key": "!items!n3STj8Uo7JrU61qG"
+}

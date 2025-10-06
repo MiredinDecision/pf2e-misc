@@ -1,0 +1,26 @@
+{
+  "name": "13th Level",
+  "sorting": "a",
+  "folder": "0JqBJxI9A5hlUgLy",
+  "type": "Item",
+  "_id": "WMUUD6jvEuXCPtGq",
+  "description": "",
+  "sort": 400000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "d8e3bb76b7a2d344124e6ee419e07a0f600189ab"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1",
+    "createdTime": null,
+    "modifiedTime": 1747502985330,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!folders!WMUUD6jvEuXCPtGq"
+}

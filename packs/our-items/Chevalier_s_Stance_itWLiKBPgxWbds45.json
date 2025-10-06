@@ -1,0 +1,63 @@
+{
+  "folder": "6Slvh3DHuFQCQIhI",
+  "name": "Chevalier's Stance",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> <em>spirit</em></p><p><strong>Activate</strong> <span class=\"action-glyph\">r </span>envision</p><p><strong>Frequency</strong> Once per hour</p><p><strong>Trigger</strong> You are reduced to 0 HP</p><hr /><p><strong>Effect</strong> The spirit within your relic takes control of your body as you fall. All active and sustained spells you have cast end immediately, even if they have a set duration. The only exception to this is the spell @UUID[Compendium.pf2e-misc.our-items.Item.8yq4AodlNjgXj29I]{Embodiment of Battle}, which is cast as a free action if the spell is not currently active and you have focus points to cast it with.</p><p>You gain temporary HP equal to your four times your Constitution plus your relic's level. Until the stance ends or the temporary HP is reduced to 0, you immediately go to 1 HP and become @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded 1}, you are not knocked unconscious, and do not drop your weapons.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.1kBovJcQreMuZ5a7]{Effect: Chevalier's Stance}</p>"
+    },
+    "rules": [],
+    "slug": null,
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "spirit",
+        "stance"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "itWLiKBPgxWbds45",
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "122300359eb835db8e5d37b9e38eae32ca3d09eb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728264983689,
+    "modifiedTime": 1735507277591,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!itWLiKBPgxWbds45"
+}

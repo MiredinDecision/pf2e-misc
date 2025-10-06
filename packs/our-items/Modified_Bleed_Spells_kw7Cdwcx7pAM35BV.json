@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "y6eJ407r6YL7mRFj",
+  "name": "Modified Bleed Spells",
+  "color": null,
+  "sorting": "a",
+  "_id": "kw7Cdwcx7pAM35BV",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "ba54a6994f99d87b20469a715ec5a96d9d36192b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!kw7Cdwcx7pAM35BV"
+}

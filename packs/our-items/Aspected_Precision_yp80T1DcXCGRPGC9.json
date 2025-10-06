@@ -1,0 +1,100 @@
+{
+  "name": "Aspected Precision",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>While under under Astral or Umbral polarity, you gain one additional benefit:</p><ul><li><strong>Astral</strong> All of your speeds increase by 5ft.</li><li><strong>Umbral</strong> You gain a Status bonus to Regalia Strike damage equal to your Wisdom modifier.</li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "speed",
+        "value": 5,
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:astral-polarity"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": "@actor.abilities.wis.mod",
+        "type": "status",
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:umbral-polarity",
+          "item:trait:regalia"
+        ],
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "aspected-precision",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "CzY9UA3IusRnWKoq",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fe9a88f5f4e59ad0bd4a376a6500a494e591e588",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1753922854916,
+    "modifiedTime": 1754279559991,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "yp80T1DcXCGRPGC9",
+  "sort": 100000,
+  "_key": "!items!yp80T1DcXCGRPGC9"
+}

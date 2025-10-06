@@ -1,0 +1,81 @@
+{
+  "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+  "name": "Spell Repertoire (Shining Blade)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Shining Blade</strong> The collection of spells you can cast is called your spell repertoire. At 1st level, you learn one 1st-rank spells of your choice and five cantrips of your choice. You choose these from the common spells from the divine or primal list or from other divine or primal spells to which you have access. You can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p><p>You add to this spell repertoire as you increase in level. Each time you get a spell slot (see the Magus Spells per Day table above), you add a spell to your spell repertoire of the same rank. At 2nd level, you select another 1st-rank spell. At 3rd level, you add the first 2nd-rank spell to your spell repertoire. At 4th level you gain your second and your spell repertoire reaches its maximum size of five spells.</p><p>At 5th level, in addition to adding two 3rd-rank spells to your repertoire, you lose your lowest rank of spell slots. Any time you lose a rank of spell slots, you lose two spells in your repertoire as well. These can come from spells you already know or out of the number of new spells you're learning. On levels in which you don't change your spell slots, you can swap out multiple spells, as described below.</p><p><strong>Swapping Spells in Your Repertoire</strong></p><p>As you gain new spells in your spell repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip, but you can't swap out bloodline spells. You can also swap out spells by retraining during downtime.</p>"
+    },
+    "rules": [],
+    "slug": "spell-repertoire-scarlet-blade",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.10.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Shining Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1741825534704,
+    "modifiedTime": 1743561457722,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "PyudfzbIHfwCf86A",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.jMExO2jF70F4BB8K",
+      "hash": "2421b6a5d5bff3eb981e221c46459a5dce5959ad"
+    }
+  },
+  "_id": "l1OopvFZ2GgNI2Np",
+  "sort": 1200000,
+  "_key": "!items!l1OopvFZ2GgNI2Np"
+}

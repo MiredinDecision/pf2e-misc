@@ -1,0 +1,163 @@
+{
+  "folder": "QgTv6Mm1k3YmSvMu",
+  "name": "Agent",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your faith guides you to use any means necessary to strike down the enemies of your religion, acting as if on a mission from your god. You aren’t afraid to use duplicitous means to lay your foes low, and your power shines best when you have an advantage over your opposition.</p><p><strong>First Doctrine (1st)</strong>: You gain the rogue’s @Compendium[pf2e.classfeatures.j1JE61quDxdge4mg]{Sneak Attack} class feature. If your deity's favored weapon is a simple weapon or an unarmed attack, you gain the @UUID[Compendium.pf2e.feats-srd.Item.DfLkIIg2reyYW3a8]{Deadly Simplicity} cleric feat. If your deity’s favored weapon is not an agile or finesse melee weapon or unarmed attack or a ranged weapon or unarmed attack, your sneak attack’s damage is applied, but reduced to 1d4 with said weapon. You increase the number of damage dice for your sneak attack by one at 9th level and 17th level, instead of the progression a rogue would have. You're trained in light armor. At 13th level, if you gain the @UUID[Compendium.pf2e.classfeatures.Item.0mJTp4LdEHBLInoe]{Divine Defense} class feature, you also gain expert proficiency in light armor. You may select Dexterity as your key ability score instead of Wisdom, but you still use your Wisdom modifiier to determine your spell attack rolls and spell DCs.</p><p><strong>Second Doctrine (3rd)</strong>: You're trained in martial weapons. You gain a 1st- or 2nd-level rogue feat, and become an expert in Reflex saves. At 11th level, when you would gain the reflex expertise class feature, you instead become an expert in Fortitude saves.</p><p><strong>Third Doctrine (7th)</strong>: You become an expert in simple weapons, unarmed attacks, martial weapons, and your deity's favored weapon, and you gain the rogue's @UUID[Compendium.pf2e-legacy-content.class-features-legacy.w6rMqmGzhUahdnA7]{Surprise Attack} class feature. You apply the benefiits of surprise attack when you roll Religion for initiative, in addition to Deception or Stealth.</p><p><strong>Fourth Doctrine (11th)</strong>: Your proficiency ranks for the spell attack modifier and spell DC statistics increase to expert.</p><p><strong>Fifth Doctrine (15th)</strong>: When you perform your daily preparations, you gain an 8th-level or lower rogue feat that lasts until you next perform your daily preparations.</p><p><strong>Final Doctrine (19th)</strong>: Your proficiency ranks for the spell attack modifier and spell DC statistics increase to master.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.player-core-1-expanded.pc1e-features.Item.VrjUnlT9lQp7WEoV"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.player-core-1-expanded.pc1e-features.Item.T37fxDTap5KYODFk",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ],
+        "uuid": "Compendium.player-core-1-expanded.pc1e-features.Item.e4NUJX0gc5YATzg0",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.player-core-1-expanded.pc1e-features.Item.82jfeewd5MdQp1zA",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              11
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.player-core-1-expanded.pc1e-features.Item.90Z3rWrr2KhXjVfY",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              15
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.player-core-1-expanded.pc1e-features.Item.PvbEIqqDpAjncSKY",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              19
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "allowDuplicate": false
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.911,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "cleric-doctrine"
+      ],
+      "value": [
+        "cleric"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Player Core 1 Expanded",
+      "authors": "Conner Berkheiser, Arkon, Sasha Laranoa Harving, Derry Lutterell",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "keyOptions": [
+        "dex"
+      ],
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/spells/zealous-conviction.webp",
+  "ownership": {
+    "default": 0,
+    "BHEpsK2fyL1CM5eA": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.player-core-1-expanded.pc1e-features.Item.Z2BGoMNtn6GTayIo",
+      "hash": "846bd5dc7e6b9be491e929668f8a005b6e76d5ed"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758929174193,
+    "modifiedTime": 1758929807384,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_id": "KWHKBiVbbxhUKPek",
+  "sort": 0,
+  "_key": "!items!KWHKBiVbbxhUKPek"
+}

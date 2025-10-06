@@ -1,0 +1,71 @@
+{
+  "folder": "6Slvh3DHuFQCQIhI",
+  "name": "Raise Ramparts",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> <em>earth</em></p><p><strong>Activate</strong> <span class=\"action-glyph\">3</span> (concentrate, manipulate)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Your relic reshapes the earth around you. You cast 5th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]{Wall of Stone}</em>.</p>"
+    },
+    "rules": [],
+    "slug": "raise-ramparts",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "earth"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "YXfXKpxV39UNeA4t",
+  "img": "icons/commodities/stone/paver-brick-brown.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "469d3f20a538d65fa1baf82f3dddd613103d1bcd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728310080525,
+    "modifiedTime": 1735507277591,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!YXfXKpxV39UNeA4t"
+}

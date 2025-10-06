@@ -1,0 +1,151 @@
+{
+  "folder": "DhhUFTJjT62hjGK8",
+  "name": "Crimson Cascade",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You weave your life-draining magics more deftly into your strikes. If you are wielding your weapon in one hand instead of two, when you gain temporary Hit Points from @UUID[Compendium.pf2e-misc.our-items.Item.tmurmtPzA4W1hAZl]{Sanguine Blade}, the target takes an amount of persistent bleed damage equal to half the temporary Hit Points gained. The target takes persistent spirit damage instead of persistent bleed damage, if that would be more detrimental to the target (as determined by the GM).</p><p>You gain the @UUID[Compendium.pf2e-misc.our-items.Item.BVN6TYKykX6IoDuQ]{Cascading Spellstrike} action.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "sanguine-blade",
+        "option": "sanguine-blade-damage",
+        "slug": "sanguine-blade-damage",
+        "suboptions": [
+          {
+            "label": "Bleed",
+            "value": "bleed"
+          },
+          {
+            "label": "Spirit",
+            "value": "spirit"
+          }
+        ],
+        "predicate": [
+          "self:effect:arcane-cascade"
+        ],
+        "toggleable": true,
+        "alwaysActive": true,
+        "value": true,
+        "selection": "bleed"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": "max(floor(@actor.level/3,1))",
+        "damageType": "{item|flags.pf2e.rulesSelections.sanguineBladeDamage}",
+        "predicate": [
+          "self:effect:arcane-cascade",
+          "item:usage:hands:1",
+          "item:trait:two-hand",
+          "item:equipped",
+          "item:hands-held:1",
+          {
+            "not": "unarmed"
+          }
+        ],
+        "hideIfDisabled": true,
+        "damageCategory": "persistent"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.BVN6TYKykX6IoDuQ",
+        "allowDuplicate": false
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack-spell-damage",
+        "value": "max(floor(@actor.level/3,1))",
+        "damageType": "{item|flags.pf2e.rulesSelections.sanguineBladeDamage}",
+        "predicate": [
+          "self:effect:arcane-cascade",
+          "hands-free:1",
+          {
+            "not": "unarmed"
+          }
+        ],
+        "hideIfDisabled": true,
+        "damageCategory": "persistent"
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "failure"
+        ],
+        "selector": "spell-attack-roll",
+        "text": "Apply @Damage[(max(floor(@actor.level/3,1)))[persistent,{item|flags.pf2e.rulesSelections.sanguineBladeDamage}]] from Arcane Cascade to that spell, even on a failure.",
+        "predicate": [
+          "self:effect:arcane-cascade",
+          "hands-free:1",
+          {
+            "not": "unarmed"
+          }
+        ],
+        "title": "Crimson Cascade"
+      }
+    ],
+    "slug": "crimson-cascade",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "ITgYqiCix16MvXSl",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e1364c0ad0c96ed23b6165d1697b5213b22857f8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1727188624189,
+    "modifiedTime": 1758235937557,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!ITgYqiCix16MvXSl"
+}

@@ -1,0 +1,245 @@
+{
+  "img": "systems/pf2e/icons/classes/witch.webp",
+  "name": "Double Witch",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>You command powerful magic, not through study or devotion, but as an agent for an otherworldly patron that even you don't entirely understand. This entity might be a covert divinity, a powerful fey, an ancient spirit, or any other mighty supernatural being—but its nature is likely as much a mystery to you as it is to others. Through a special familiar, your patron grants you versatile spells and powerful hexes to use as you see fit, though you're never certain if you're merely serving your patron's larger plan.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.fYJruhQfzs4dj0mp]{Witch}</em></p>"
+    },
+    "rules": [],
+    "slug": "witch",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "int"
+      ]
+    },
+    "items": {
+      "568ec": {
+        "img": "systems/pf2e/icons/features/classes/weapon-expertise.webp",
+        "level": 11,
+        "name": "Weapon Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc"
+      },
+      "58uhg": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 15,
+        "name": "Master Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+      },
+      "5a5an": {
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "level": 19,
+        "name": "Legendary Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3"
+      },
+      "5jVMU": {
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "level": 11,
+        "name": "Perception Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy"
+      },
+      "H4nN0": {
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "level": 17,
+        "name": "Will of the Pupil",
+        "uuid": "Compendium.pf2e.classfeatures.Item.FuVO8ksHI1B5ozVI"
+      },
+      "ac5cq": {
+        "img": "icons/equipment/back/cloak-collared-pink-gold.webp",
+        "level": 13,
+        "name": "Defensive Robes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.gU7epgcPSm0TD1UK"
+      },
+      "dmo5u": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "level": 13,
+        "name": "Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+      },
+      "kQI3o": {
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "level": 9,
+        "name": "Reflex Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0"
+      },
+      "q4i1v": {
+        "img": "systems/pf2e/icons/features/classes/witch-spellcasting.webp",
+        "level": 1,
+        "name": "Witch Spellcasting",
+        "uuid": "Compendium.pf2e.classfeatures.Item.zT6QiTMxxj8JYoN9"
+      },
+      "sbys9": {
+        "img": "systems/pf2e/icons/features/classes/hexes.webp",
+        "level": 1,
+        "name": "Hexes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9uLh5z2uPo6LDFRY"
+      },
+      "vkt9a": {
+        "img": "systems/pf2e/icons/features/classes/magical-fortitude.webp",
+        "level": 5,
+        "name": "Magical Fortitude",
+        "uuid": "Compendium.pf2e.classfeatures.Item.70jqXP2eS4tRZ0Ok"
+      },
+      "vq6ja": {
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "level": 7,
+        "name": "Expert Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+      },
+      "x762n": {
+        "img": "systems/pf2e/icons/features/classes/patrons-gift.webp",
+        "level": 19,
+        "name": "Patron's Gift",
+        "uuid": "Compendium.pf2e.classfeatures.Item.cDnFXfl3i5Z2l7JP"
+      },
+      "lrwLe": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cDnFXfl3i5Z2l7JP",
+        "img": "systems/pf2e/icons/features/classes/patrons-gift.webp",
+        "name": "Patron's Gift",
+        "level": 19
+      },
+      "Rqwam": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.vh917BEpSY8D1t0r",
+        "img": "systems/pf2e/icons/features/classes/familiar.webp",
+        "name": "Dual Familiars (Witch)",
+        "level": 1
+      },
+      "lHMoW": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.jD8hbyxNjmyz4nwm",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Dual Patrons",
+        "level": 1
+      }
+    },
+    "hp": 6,
+    "trainedSkills": {
+      "value": [],
+      "additional": 3
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 1,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 0,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 0,
+      "medium": 0,
+      "heavy": 0
+    },
+    "spellcasting": 1,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "type": "class",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745519697662,
+    "modifiedTime": 1745519889589,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "JJWEsOwceWe692YX",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "34be6c839186fad4e0e4d22d7ddd5cd79ca673d0",
+      "sourceId": "Item.UOzK60rEXrCb1pJo"
+    }
+  },
+  "_id": "TEwVMqFMrgXUwZAz",
+  "sort": 100000,
+  "_key": "!items!TEwVMqFMrgXUwZAz"
+}

@@ -1,0 +1,83 @@
+{
+  "folder": "NofX83njpibzICYE",
+  "name": "Sanguimancy",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your affinity to blood magic becomes more pronounced. You gain the @UUID[Compendium.pf2e.feats-srd.Item.QRL79whClQDHljoi]{Bloodsense} general feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.QRL79whClQDHljoi",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "sanguimancy",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "gxKarARVjqHKSKXd",
+  "img": "icons/magic/death/mouth-bite-fangs-vampire.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a4a567756b0d06e4a8267f4be825f22881471d2b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757459725695,
+    "modifiedTime": 1757459836291,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!gxKarARVjqHKSKXd"
+}

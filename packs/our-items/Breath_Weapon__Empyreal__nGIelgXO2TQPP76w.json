@@ -1,0 +1,60 @@
+{
+  "folder": "Yc2Tj4dW0A1le9rM",
+  "name": "Breath Weapon (Empyreal)",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Breath Weapon</strong> <span class=\"action-glyph\">2</span> (varies) The shape, damage, and damage type of your breath weapon depend on your specific dragon form (see below). A creature in the area attempts a basic save against your spell DC. This is a Reflex save unless stated otherwise in the special ability description for your specific dragon form. Once activated, your breath weapon can't be used again for [[/r 1d4 #rounds]]{1d4 rounds}. Your breath weapon has the trait corresponding to the type of damage it deals.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "nGIelgXO2TQPP76w",
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8d9388e1c830420e5ec92242e36469966a53e0cc"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.2",
+    "createdTime": 1737138808940,
+    "modifiedTime": 1737139008290,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!nGIelgXO2TQPP76w"
+}

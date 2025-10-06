@@ -1,0 +1,79 @@
+{
+  "name": "Legion of the Dead",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When you cast the spell @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]{Summon Undead} with a spell slot granted by thanergetic mage dedication, you summon two creatures instead of one. On subsequent rounds, when you spend a single action to Sustain, both minions can act as if their spells were sustained.</p>"
+    },
+    "rules": [],
+    "slug": "legion-of-the-dead",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Bonds of Death"
+        },
+        {
+          "value": "Thanergetic Mage Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "JVTo56yUJcy1lhIL",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "02c357bca3a12b1e8c2c19a0e2729a381582d732",
+      "sourceId": "Item.uvR51P1sAjs3erVb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726984999462,
+    "modifiedTime": 1726985543287,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "XElRTR8hBO2orLDi",
+  "sort": 0,
+  "_key": "!items!XElRTR8hBO2orLDi"
+}

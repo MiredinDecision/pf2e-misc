@@ -1,0 +1,80 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Prescience",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You're about to roll initiative.</p><hr /><p>Mythic power floods through your mind, filling you with visions of possible futures, events that might or might not happen, and warnings of things that might be. Spend a Mythic Point and roll your initiative check using mythic proficiency. Until the end of your first turn, you have a +1 status bonus to AC and all saves.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.uVC35j1H5YrXr8vF]{Effect: Prescience}</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "title": "{item|name}",
+        "selector": "initiative",
+        "text": "{item|description}"
+      }
+    ],
+    "slug": "prescience",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder War of Immortals",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1736461090592,
+    "modifiedTime": 1736461204115,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "9FBaZH15PX1kVAAc",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "af0a7f1ecc1ea58de265364613b8d0d35af00866",
+      "sourceId": "Actor.gDAaFU8zVUGzC9eO.Item.aqTfi79bMpGSmuAR"
+    }
+  },
+  "_id": "6HaRzgnXfzYAyMYr",
+  "sort": 100000,
+  "_key": "!items!6HaRzgnXfzYAyMYr"
+}

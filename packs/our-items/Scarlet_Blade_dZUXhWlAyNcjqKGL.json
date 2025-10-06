@@ -1,0 +1,87 @@
+{
+  "folder": "QeK4dLeTqtaezB5u",
+  "name": "Scarlet Blade",
+  "type": "background",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Choose two attribute boosts. One must be to <strong>Strength</strong> or <strong>Charisma</strong>, and one is a free attribute boost.</p><p>You're trained in the Intimidation skill and Legal Lore. You gain the@UUID[Compendium.pf2e-tomb-guardian.tomb-guardian.Item.dTKG5nvDWyfILKNq]{Steel Skin} skill feat.</p>"
+    },
+    "rules": [],
+    "slug": "scarlet-blade",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "str"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "items": {
+      "zT8V2": {
+        "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.dTKG5nvDWyfILKNq",
+        "img": "icons/sundries/books/book-red-exclamation.webp",
+        "name": "Steel Skin",
+        "level": 1
+      }
+    },
+    "trainedSkills": {
+      "value": [
+        "intimidation"
+      ],
+      "lore": []
+    }
+  },
+  "img": "modules/pf2e-tomb-guardian/assets/GuardianIcon.webp",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "067dd0f4b0a2b5c519f8b1580893ebf5a5136588",
+      "sourceId": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.06LHATvpJB5c8QaD"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726822958904,
+    "modifiedTime": 1726822984049,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "dZUXhWlAyNcjqKGL",
+  "sort": 0,
+  "_key": "!items!dZUXhWlAyNcjqKGL"
+}

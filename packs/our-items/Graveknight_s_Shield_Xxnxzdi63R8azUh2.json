@@ -1,0 +1,107 @@
+{
+  "folder": "nSo8DXChXXmyGsWs",
+  "name": "Graveknight's Shield",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p dir=\"ltr\">Your curse extends to your shield, or your armor warps to create a shield. You gain a @UUID[Compendium.pf2e.classfeatures.Item.QQP0mu0cyWIwNUh9]{Shield Divine Ally} from the champion class: you may either gain a steel shield upon gaining this feat, or have the divine ally effect apply to a shield you currently own. Similarly to your armor, you may transfer a portion of your curse stored in your shield ally to another shield by spending a week of downtime; you can transfer both your armor and your shield at the same time. Your shield automatically rejuvenates with the rest of you, and must be destroyed in the same manner as your armor; while you are intact, however, you can perform a one minute activity to teleport your shield to your person, so long as it is in the same plane as you.</p><p dir=\"ltr\">If you do not already have it, you gain the @UUID[Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH]{Shield Block} feat; if you do, you gain the @UUID[Compendium.pf2e.feats-srd.Item.pRqcm5P2ZFihSpVI]{Quick Shield Block} fighter feat instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.classfeatures.Item.QQP0mu0cyWIwNUh9",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "and": [
+              {
+                "not": "feature:shield-block"
+              },
+              {
+                "not": "feat:shield-block"
+              }
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "or": [
+              "feature:shield-block",
+              "feat:shield-block"
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e.feats-srd.Item.pRqcm5P2ZFihSpVI",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "graveknights-shield",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Xxnxzdi63R8azUh2",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7d09227f5b15aab072cc00dac8c4963eb685271b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728581500795,
+    "modifiedTime": 1728581907628,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!Xxnxzdi63R8azUh2"
+}

@@ -1,0 +1,171 @@
+{
+  "img": "systems/pf2e/icons/features/feats/marshals-aura.webp",
+  "name": "Stance: Warlord's Strategic Stance",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.rW8ujIJiylHFpz7u]{Warlord's Strategic Stance}.</p><p>You and all allies within the aura gain the benefits of your Battle Stratagem.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "encounter",
+      "value": -1
+    },
+    "level": {
+      "value": 4
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core 2",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.Yyj1YK5fkFCzwCat",
+            "affects": "allies",
+            "alterations": []
+          }
+        ],
+        "key": "Aura",
+        "radius": "@actor.flags.pf2e.warlord.aura",
+        "slug": "marshals-aura",
+        "traits": [
+          "emotion",
+          "mental",
+          "visual"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "battle-stratagem:defensive-position",
+              "combined-stratagem:defensive-position"
+            ]
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.wfQwuUh4kIgggLpR",
+            "affects": "allies"
+          }
+        ],
+        "key": "Aura",
+        "radius": "@actor.flags.pf2e.warlord.aura",
+        "slug": "marshals-aura",
+        "traits": [
+          "emotion",
+          "mental",
+          "visual"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "battle-stratagem:frontal-assault",
+              "combined-stratagem:frontal-assault"
+            ]
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.XI9kSgCIJDn8DjVp",
+            "affects": "allies"
+          }
+        ],
+        "key": "Aura",
+        "radius": "@actor.flags.pf2e.warlord.aura",
+        "slug": "marshals-aura",
+        "traits": [
+          "emotion",
+          "mental",
+          "visual"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "battle-stratagem:precise-flanking",
+              "combined-stratagem:precise-flanking"
+            ]
+          }
+        ]
+      },
+      {
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.ST2Mvmm1Hhl7wfSK",
+            "affects": "allies"
+          }
+        ],
+        "key": "Aura",
+        "radius": "@actor.flags.pf2e.warlord.aura",
+        "slug": "marshals-aura",
+        "traits": [
+          "emotion",
+          "mental",
+          "visual"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "battle-stratagem:skirmishing-tactics",
+              "combined-stratagem:skirmishing-tactics"
+            ]
+          }
+        ]
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "stance-warlords-strategic-stance",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755236822841,
+    "modifiedTime": 1755245101792,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "Lb7FQM2yL461AqEW",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feat-effects.Item.qX62wJzDYtNxDbFv",
+      "hash": "cceca9a6285c843933ce96429954f30f1cd8dde6"
+    }
+  },
+  "_id": "GTepuNQGCxxzZ0oA",
+  "sort": 0,
+  "_key": "!items!GTepuNQGCxxzZ0oA"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Archetype Class Tomb Guardian",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "wQjsZid7Sxmgr70D",
+  "description": "",
+  "sort": 4100000,
+  "color": "#104010",
+  "flags": {
+    "scene-packer": {
+      "hash": "b52a6b428fc8b69e5d43b9d860c9977d0d725580"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!wQjsZid7Sxmgr70D"
+}

@@ -1,0 +1,98 @@
+{
+  "folder": "kw7Cdwcx7pAM35BV",
+  "name": "Hemophilia",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You cause the target’s blood to flow freely. Regardless of the result, the target is temporarily immune for 1 minute.</p><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> The target gains weakness 1 to bleed or spirit damage.</p><p><strong>Failure</strong> As success, except the first time the target takes bleed or spirit damage while the spell is active, it becomes drained 1 or increases its drained value by 1.</p><p><strong>Critical Failure</strong> As failure, except the weakness to bleed or spirit damage is doubled.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.qE5rezPIHL3F2eDw]{Spell Effect: Hemophilia}</p><hr /><p><strong>Heightened (+1)</strong> The weakness to bleed or spirit damage increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "hemophilia",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Magic+",
+      "authors": "Tony Saunders, Derry Luttrell",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "statistic": "fortitude",
+        "basic": false
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/skills/wounds/blood-cells-vessel-red-orange.webp",
+  "ownership": {
+    "default": 0,
+    "E5WvJK9mhuhtm5jD": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "51439bc97dc85248e6c048e939d753d00d46f0a8",
+      "sourceId": "Actor.Sk0x5dGjX1LuSDjq.Item.VucSAPhVEnJppUrq"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758234901018,
+    "modifiedTime": 1758238442646,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_id": "98bRAvMVNPU8nmbR",
+  "sort": 700000,
+  "_key": "!items!98bRAvMVNPU8nmbR"
+}

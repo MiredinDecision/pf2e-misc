@@ -1,0 +1,89 @@
+{
+  "folder": "c8UyCaodh68vAyoU",
+  "name": "Far-Reaching Strategem",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've expanded the area at which you are able to strategize effectively. Increase the size of your Warlord's Aura to 30 feet.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.warlord.aura",
+        "value": 30
+      }
+    ],
+    "slug": "far-reaching-strategem",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warlord Dedication"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "caf90d27b7f29c9079ba6f55df52ecf8b04731da",
+      "sourceId": "Item.53aV5boeKkbktZM1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755243985869,
+    "modifiedTime": 1755244104785,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "svvu2H4FQpqF69qD",
+  "sort": 0,
+  "_key": "!items!svvu2H4FQpqF69qD"
+}
