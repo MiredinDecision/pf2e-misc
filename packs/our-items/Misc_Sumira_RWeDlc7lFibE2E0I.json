@@ -1,0 +1,27 @@
+{
+  "name": "Misc Sumira",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "RWeDlc7lFibE2E0I",
+  "description": "",
+  "sort": 4900000,
+  "color": "#303060",
+  "flags": {
+    "scene-packer": {
+      "hash": "0353849714000a266303dde2c041e1b0bb171061"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802837091,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!RWeDlc7lFibE2E0I"
+}

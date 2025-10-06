@@ -1,0 +1,101 @@
+{
+  "folder": "W16vdggFMZ6kTsZq",
+  "name": "Flowing Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> Once per turn</p><p class=\"hang\"><strong>Requirements</strong> Your last action was a Strike or Discipline using a one-handed Regalia; 1 Regalia</p><hr /><p>You deliver a flowing combo, utilizing your momentum to attack again. Make a Strike using a One-Handed Regalia. This Strike has its Multiple Attack Penalty reduced by 5 (To a minimum of 0), but still counts towards your total Multiple Attack Penalty. If the weapon used does not have the Agile trait, it takes a -2 Penalty to the Attack Roll. If this action is used to attack the same target as the previous required action, combine the damage of both strikes for the purposes of Weaknesses and Resistances.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Flowing Strike Second Attack",
+        "option": "flowing-strike-second",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "flowing-strike-second",
+          {
+            "not": "agile"
+          }
+        ],
+        "selector": "strike-attack-roll",
+        "value": -2
+      }
+    ],
+    "slug": "flowing-strike",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "occult",
+        "press",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "turn"
+    }
+  },
+  "_id": "2b1r7iPagJP5Y9Yc",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e17f47cd11b8d20e855dbd8436ccea38f1ae0b8a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1753919156647,
+    "modifiedTime": 1756766080685,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!2b1r7iPagJP5Y9Yc"
+}

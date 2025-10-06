@@ -1,0 +1,157 @@
+{
+  "img": "icons/commodities/tech/tube-chamber-lightning.webp",
+  "name": "Effect: Jolt Coil - Weapon",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.0gxqSZhYdOeJhPrp]{Jolt Coil}, @UUID[Compendium.pf2e.equipment-srd.Item.auEm7vmpG9V8xpAJ]{Jolt Coil (Greater)}, @UUID[Compendium.pf2e.equipment-srd.Item.TucjFO5NQHvUUc7a]{Jolt Coil (Major)}</p>\n<p>Strikes with the weapon deal additional electricity damage until the end of your next turn.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-end",
+      "sustained": false,
+      "unit": "rounds",
+      "value": 1
+    },
+    "level": {
+      "value": 3
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Treasure Vault (Remastered)",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:jolt-coil",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.pf2e.equipment-srd.Item.0gxqSZhYdOeJhPrp"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:jolt-coil-greater",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.pf2e.equipment-srd.Item.auEm7vmpG9V8xpAJ"
+          },
+          {
+            "predicate": [
+              {
+                "or": [
+                  "parent:origin:item:slug:jolt-coil-major",
+                  {
+                    "not": "parent:origin:item"
+                  }
+                ]
+              }
+            ],
+            "value": "Compendium.pf2e.equipment-srd.Item.TucjFO5NQHvUUc7a"
+          }
+        ],
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.EquipmentVariety",
+        "rollOption": "jolt-coil"
+      },
+      {
+        "damageType": "electricity",
+        "diceNumber": 1,
+        "dieSize": "d4",
+        "key": "DamageDice",
+        "predicate": [
+          "jolt-coil:jolt-coil",
+          "item:trait:regalia"
+        ],
+        "selector": "strike-damage",
+        "hideIfDisabled": true
+      },
+      {
+        "damageType": "electricity",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "predicate": [
+          "jolt-coil:jolt-coil-greater",
+          "item:trait:regalia"
+        ],
+        "selector": "strike-damage",
+        "hideIfDisabled": true
+      },
+      {
+        "damageType": "electricity",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "key": "DamageDice",
+        "predicate": [
+          "jolt-coil:jolt-coil-major",
+          "item:trait:regalia"
+        ],
+        "selector": "strike-damage",
+        "hideIfDisabled": true
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-jolt-coil-weapon",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754583982204,
+    "modifiedTime": 1755999179152,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "rCTbz5Txfuh1dhKi",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.equipment-effects.Item.mHIdEC7RX6isILiM",
+      "hash": "c5c299be6d70d756d3f910063758d8683037b48a"
+    }
+  },
+  "_id": "FZINfOjnuIeg0ZKo",
+  "sort": 1200000,
+  "_key": "!items!FZINfOjnuIeg0ZKo"
+}

@@ -1,0 +1,87 @@
+{
+  "type": "action",
+  "name": "Hellbound",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "description": {
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Sadly, there's no shortage of people willing to trade all they have for the promise of power. Infernal contracts are the most common of such agreements, but powerful devils can offer even greater abilities at the cost of the mortal's soul and an obligation to advance Hell's infernal agenda. This mortal becomes a fiend known as a Hellbound creature.<br /><br />Hellbound is a theme template applied to creatures and NPCs to reflect powers gained through a bargain with <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Planes.aspx?ID=18\"><span style=\"text-decoration:underline\">Hell</span></a>. Theme templates provide additional abilities to the base creature based on its level. When you add any template that grants numerous additional abilities, you should strongly consider removing one or more of the creature's original abilities to compensate, or consider raising the creature's level by 1 and adjusting its other statistics accordingly.<br /><br /><strong>All Creatures</strong>: Change the creature's alignment to evil, if it isn't already. Add the <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=44\"><span style=\"text-decoration:underline\">devil</span></a> and <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=70\"><span style=\"text-decoration:underline\">fiend</span></a> traits. The creature gains resistance to fire equal to its level and weakness to good equal to half its level.<br /><strong>1st Level or Higher</strong>: Add <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Skills.aspx?ID=5\"><span style=\"text-decoration:underline\">Deception</span></a> to the creature's skills. The creature gains <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/MonsterAbilities.aspx?ID=12\"><span style=\"text-decoration:underline\">greater darkvision</span></a>. <br /><strong>4th Level or Higher</strong>: The creature can cast 1st-level <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Spells.aspx?ID=30\"><em><span style=\"text-decoration:underline\">burning hands</span></em></a> once per day as a divine innate spell; for every 2 levels it has beyond 4th, <em>burning hands</em> is heightened an additional spell level.<br /><strong>7th Level or Higher</strong>: The creature gains the <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Rituals.aspx?ID=23\"><span style=\"text-decoration:underline\">infernal pact</span></a> ritual.<br /><strong>12th Level or Higher</strong>: The creature can cast <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Spells.aspx?ID=69\"><em><span style=\"text-decoration:underline\">dimension door</span></em></a> once per day as a divine innate spell.<br /><strong>17th Level or Higher</strong>: The creature can cast <a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Spells.aspx?ID=344\"><em><span style=\"text-decoration:underline\">true seeing</span></em></a> once per day as a divine innate spell.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActorTraits",
+        "remove": [
+          "holy"
+        ],
+        "add": [
+          "unholy",
+          "fiend",
+          "devil"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "fire",
+        "value": "@actor.level"
+      },
+      {
+        "key": "Weakness",
+        "type": "holy",
+        "value": 10
+      }
+    ],
+    "slug": "hellbound",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/action.svg",
+  "folder": "9Lo171r7blfxyicX",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f25bbff30a2e9faf7eb455a2a15ae21227083c4d",
+      "sourceId": "Item.hdZlKEzGZ9EhhNSQ"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.0",
+    "createdTime": 1743126862309,
+    "modifiedTime": 1746995225973,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "NaGqy1UJERVwdQU9",
+  "sort": 100000,
+  "_key": "!items!NaGqy1UJERVwdQU9"
+}

@@ -1,0 +1,130 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Red-Gold Mortality",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Usage</strong> imbued into a weapon ikon</p><hr /><p>By channeling your divinity into a creature along with a strike, you can disrupt their ability to recover. The imbued ikon gains the following ability.</p><p><strong>Immanence</strong> When you successfully damage an enemy with the ikon, a marking appears around the wound, painted in the red of mortal blood and the gold of divine ichor. When the target would regain Hit Points, such as from a healing effect or an ability like fast healing or regeneration, it must attempt a @Check[will|against:exemplar] save against your class DC to determine the effects, and then the marking fades. The marking otherwise fades after 1 minute.</p><hr /><p><strong>Critical Success </strong>The creature regains the full number of Hit Points that would be healed.</p><p><strong>Success</strong> The creature regains only half the number of Hit Points as the contradictory energies swirl within it.</p><p><strong>Failure</strong> The creature doesn't regain any Hit Points.</p><p><strong>Critical Failure</strong> The creature loses half the Hit Points they would have been healed.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.4TyVoqyg8cSP2BwQ]{Effect: Red-Gold Mortality}</p>"
+    },
+    "rules": [
+      {
+        "choices": "flags.pf2e.exemplar.ikons",
+        "flag": "ikon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Exemplar.Ikon.Prompt"
+      },
+      {
+        "itemType": "weapon",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:tag:physical-ikon:{item|flags.pf2e.rulesSelections.ikon}"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "@Embed[Compendium.pf2e-misc.our-items.Item.i2OJaiNX3MWlXeYa inline]"
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:transcendence",
+          "item:granter:tag:chosen-ikon:{item|flags.pf2e.rulesSelections.ikon}",
+          {
+            "not": "divine-spark:{item|flags.pf2e.rulesSelections.ikon}"
+          }
+        ],
+        "priority": 121,
+        "property": "description",
+        "value": [
+          {
+            "text": "PF2E.SpecificRule.Exemplar.DivineSpark.SparkTranscendence.Reminder"
+          }
+        ]
+      },
+      {
+        "key": "Note",
+        "selector": "strike-damage",
+        "text": "{item|description}",
+        "title": "{item|name}",
+        "predicate": [
+          "item:trait:transcendence",
+          "item:granter:tag:chosen-ikon:{item|flags.pf2e.rulesSelections.ikon}",
+          {
+            "not": "target:effect:red-gold-mortality"
+          }
+        ]
+      }
+    ],
+    "slug": "red-gold-mortality",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [
+        "weapon-ikon-feat"
+      ],
+      "value": [
+        "exemplar",
+        "ikon",
+        "void"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder War of Immortals",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1736889679719,
+    "modifiedTime": 1736889937911,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "POqi1TfXrYgakQHI",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.zpeIbe0nQG52YU7a",
+      "hash": "93cff70e27a1c0bdd441eb2a7ee239f0d05ee343"
+    }
+  },
+  "_id": "i2OJaiNX3MWlXeYa",
+  "sort": 0,
+  "_key": "!items!i2OJaiNX3MWlXeYa"
+}

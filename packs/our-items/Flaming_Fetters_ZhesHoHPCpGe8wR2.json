@@ -1,0 +1,79 @@
+{
+  "name": "Flaming Fetters",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> 1 Regalia</p><hr /><p>You launch a regalia as it transforms into chains of fire. Make a Ranged attack roll using your regalia. On hit, resolve the effects of the Grapple action on the same target using the result of this attack roll. If the weapon has the Grapple or Tethered traits, the Escape DC to escape these chains increases by 2. A creature trapped by these fetters takes @Damage[3[fire]]{3 fire damage} at the start of each turn.</p><hr /><p class=\"hang\"><strong>Level (+2)</strong> The fire damage increases by 2.</p><p>@Damage[(3+max(0,floor((@actor.level - 6)/2)))[fire]]{Leveled Fire Damage}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "flaming-fetters",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "fire",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "FNbFR7gwtLg5GFBe",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d2eb98d175fbac5093c0114e57d1b5270973981a",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921480767,
+    "modifiedTime": 1753929063545,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "ZhesHoHPCpGe8wR2",
+  "sort": 200000,
+  "_key": "!items!ZhesHoHPCpGe8wR2"
+}

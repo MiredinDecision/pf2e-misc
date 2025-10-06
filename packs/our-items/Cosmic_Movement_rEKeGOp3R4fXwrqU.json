@@ -1,0 +1,104 @@
+{
+  "folder": "VwGbqbbd7evMjK4v",
+  "name": "Cosmic Movement",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your cosmic reverence is rewarded with a boon of the cosmos. While your Armiger is called, you gain a +10-feet Status bonus to your speeds. At 9th level, and every six levels thereafter, this bonus increases by +5-feet.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 8,
+              "value": 10
+            },
+            {
+              "start": 9,
+              "end": 14,
+              "value": 15
+            },
+            {
+              "start": 15,
+              "value": 20
+            }
+          ],
+          "field": "actor|level"
+        },
+        "selector": "land-speed",
+        "type": "status",
+        "predicate": [
+          "call-armiger-aura"
+        ]
+      }
+    ],
+    "slug": "cosmic-movement",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "rEKeGOp3R4fXwrqU",
+  "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "30be6e580f2c57985a7ef03b97e7c3213b2385f8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1753913288019,
+    "modifiedTime": 1758395977620,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!rEKeGOp3R4fXwrqU"
+}

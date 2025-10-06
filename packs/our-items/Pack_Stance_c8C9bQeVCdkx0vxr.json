@@ -1,0 +1,73 @@
+{
+  "folder": "j5uKPYaMHUssdKGL",
+  "name": "Pack Stance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> beast</p><hr /><p>You and your companion train endlessly together, and, like most pack animals, your companion has picked up on and learned to mimic your fighting styles.</p><p>When you enter a stance, such as Arcane Cascade, your animal companion also gains the benefits of that stance.</p><p>If your stance is not compatible with or conflicts with the rules for animal companions (Mountain Stance), work with your GM to determine the appropriate benefits your animal companion would gain from entering a fighting style similar to yours.</p>"
+    },
+    "rules": [],
+    "slug": "pack-stance",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "beast",
+        "blooded-beast-armament",
+        "relic"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "c8C9bQeVCdkx0vxr",
+  "img": "modules/pf2e-misc/assets/icons/PackStance.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5121682df63bdf0aafb787a65e445f76f5de32fb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728302321800,
+    "modifiedTime": 1728306404812,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!c8C9bQeVCdkx0vxr"
+}

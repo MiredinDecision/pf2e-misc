@@ -1,0 +1,75 @@
+{
+  "name": "Dhampir Wolf Support Benefit",
+  "type": "action",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "effects": [],
+  "folder": "gDa3COmrYDzEnn2n",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Support.Item.3jZOVJsYwBQ7GPDi",
+      "hash": "c6881b0e1897859ef0714f464e3656bec0f787b4"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When your vampiric animal senses blood it tears into your enemies. Until the start of your next turn, your Strikes that damage a creature in your vampiric animal's reach also deal [[/r 1d4[persistent,bleed]]] damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} until it removes the bleed damage. If your vampiric animal is nimble or savage, the persistent bleed damage increases to [[/r 2d4]]{2d4}.</p>"
+    },
+    "rules": [],
+    "slug": "dhampir-wolf-support-benefit",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Support.Item.3jZOVJsYwBQ7GPDi",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728050697708,
+    "modifiedTime": 1728050740673,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "xOn6TXNFD3MIKh9U",
+  "sort": 100000,
+  "_key": "!items!xOn6TXNFD3MIKh9U"
+}

@@ -1,0 +1,90 @@
+{
+  "img": "systems/pf2e/icons/features/feats/marshals-aura.webp",
+  "name": "Effect: Warlord's Aura",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.LnVnmeRrGNp7E5K8]{Warlord Dedication}.</p><p>You gain a +1 status bonus to saving throws against fear.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "level": {
+      "value": 2
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Vyklade's Book of Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.warlord.bonus",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "label": "PF2E.GenericLabel.ItemVs.Fear",
+        "predicate": [
+          "item:trait:fear"
+        ],
+        "selector": "saving-throw",
+        "type": "status",
+        "value": "@actor.flags.pf2e.warlord.bonus"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-warlords-aura",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755225980220,
+    "modifiedTime": 1755228414088,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "NkYeLnkZRgzZVVow",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.zmpufM2tNPMARBrT",
+      "hash": "ade56c24dd9df96c287f86a43d0b31ab942fa74e"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "YmoDcMvb2RvBVpmp",
+  "sort": 100000,
+  "_key": "!items!YmoDcMvb2RvBVpmp"
+}

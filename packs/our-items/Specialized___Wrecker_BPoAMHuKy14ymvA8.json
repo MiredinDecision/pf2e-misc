@@ -1,0 +1,192 @@
+{
+  "name": "Specialized - Wrecker",
+  "type": "feat",
+  "img": "systems/pf2e/icons/spells/shapechange.webp",
+  "effects": [],
+  "folder": "n7pNn6oUuYLYXhV4",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Feats.Item.wZXL6VgEK88BCF0C",
+      "hash": "3bdfa72a1cf2a9dd0f6b445bce5fc2c6c7060e43"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Specialized animal companions are more intelligent and engage in more complex behaviors. The first time an animal gains a specialization, it gains the following: Its proficiency rank for unarmed attacks increases to expert. Its proficiency ranks for saving throws and Perception increase to master. Increase its Dexterity modifier by 1 and its Intelligence modifier by 2. Its unarmed attack damage increases from two dice to three dice, and it increases its additional damage with unarmed attacks from 2 to 4 or from 3 to 6.</p><p>Your companion smashes things. Its unarmed attacks ignore half an object's Hardness. Its Athletics proficiency increases to master, and its Strength modifier increases by 2.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.unarmed.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.fortitude.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.reflex.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.saves.will.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.perception.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 3,
+        "mode": "upgrade",
+        "path": "system.skills.athletics.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:specialized",
+        "priority": 1
+      },
+      {
+        "key": "Striking",
+        "predicate": [
+          "unarmed"
+        ],
+        "selector": "strike-damage",
+        "value": 2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 4,
+        "mode": "upgrade",
+        "path": "flags.pf2e.additionalDamage",
+        "priority": 50,
+        "predicate": [
+          "self:nimble"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 6,
+        "mode": "upgrade",
+        "path": "flags.pf2e.additionalDamage",
+        "priority": 50,
+        "predicate": [
+          {
+            "or": [
+              "self:savage",
+              "self:genie-touched",
+              "self:indomitable",
+              "self:unseen"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KrHyF5BSvYM6tFbB",
+        "predicate": [
+          {
+            "not": "has-advanced-maneuver"
+          }
+        ],
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.light-barding.rank"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy-barding.rank"
+      }
+    ],
+    "slug": "specialized-wrecker",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "rarity": {
+      "value": "common"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "wT1HOeaOBCFxTCiE": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Feats.Item.wZXL6VgEK88BCF0C",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728053432235,
+    "modifiedTime": 1728066794068,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": {
+      "worldId": "ac",
+      "uuid": null,
+      "coreVersion": "0.8.8",
+      "systemId": "pf2e",
+      "systemVersion": "2.6.0.6437"
+    }
+  },
+  "_id": "BPoAMHuKy14ymvA8",
+  "sort": 0,
+  "_key": "!items!BPoAMHuKy14ymvA8"
+}

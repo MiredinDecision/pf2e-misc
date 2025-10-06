@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Archetype Marshal",
+  "color": null,
+  "sorting": "a",
+  "_id": "YWv7PR8TSviOpykz",
+  "description": "",
+  "sort": 2000000,
+  "flags": {
+    "scene-packer": {
+      "hash": "dbf69a954b8c072567deb1051060baeb7f051a58"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755040317887,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!YWv7PR8TSviOpykz"
+}

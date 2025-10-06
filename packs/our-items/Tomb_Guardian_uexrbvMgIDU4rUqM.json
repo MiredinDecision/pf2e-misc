@@ -1,0 +1,254 @@
+{
+  "img": "modules/pf2e-tomb-guardian/assets/GuardianIcon.webp",
+  "name": "Tomb Guardian",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Fighting for honor, greed, loyalty, or simply the thrill of battle, you are an undisputed master of weaponry and combat techniques. You combine your actions through clever combinations of opening moves, finishing strikes, and counterattacks whenever your foes are unwise enough to drop their guard. Whether you are a knight, mercenary, sharpshooter, or blade master, you have honed your martial skills into an art form and perform devastating critical attacks on your enemies.</em></p><p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.HZbrRRVzW7w17L2W]{Fighter}</em></p><p>You were specially trained as a Tomb Guardian for The Family. You must take the Tomb Guardian background, and you must be a human descended dhampir of The Family.</p><p>You gain @UUID[Compendium.pf2e-tomb-guardian.tomb-guardian.Item.l9H2KV1ujsRCtLM0]{The Family's Burden} as a class feature.</p><p>At level 2, you must take the @UUID[Compendium.pf2e-tomb-guardian.tomb-guardian.Item.bpyCoyeC9QLmKLYM]{Tomb Guardian Dedication} feat. You gain accesss to the @UUID[Compendium.pf2e.feats-srd.Item.5TPKikTyN7lrCvzY]{Mighty Bulwark} feat at level 10.</p>"
+    },
+    "rules": [],
+    "slug": "fighter",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "dex",
+        "str"
+      ]
+    },
+    "items": {
+      "2jey6": {
+        "img": "icons/equipment/head/helm-barbute-rounded-steel.webp",
+        "level": 11,
+        "name": "Fighter Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.bAaI7h937Nr3g93U"
+      },
+      "9c5ay": {
+        "img": "systems/pf2e/icons/features/classes/armor-expertise.webp",
+        "level": 11,
+        "name": "Armor Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.x5jaCJxsmD5sx3KB"
+      },
+      "EYY9w": {
+        "img": "icons/skills/melee/strike-hammer-destructive-orange.webp",
+        "level": 1,
+        "name": "Reactive Strike",
+        "uuid": "Compendium.pf2e.classfeatures.Item.hmShTfPOcTaKgbf4"
+      },
+      "Yo8rt": {
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "level": 15,
+        "name": "Tempered Reflexes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.2ImD2TB0RVic1VUc"
+      },
+      "e1e4m": {
+        "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+        "level": 1,
+        "name": "Shield Block",
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH"
+      },
+      "eDncW": {
+        "img": "icons/creatures/mammals/bull-horned-blue.webp",
+        "level": 9,
+        "name": "Battle Hardened",
+        "uuid": "Compendium.pf2e.classfeatures.Item.gdSmSTaGDxf4g2d8"
+      },
+      "enizk": {
+        "img": "icons/environment/settlement/target-dummy.webp",
+        "level": 15,
+        "name": "Improved Flexibility",
+        "uuid": "Compendium.pf2e.classfeatures.Item.W2rwudMNcAxs8VoX"
+      },
+      "ij943": {
+        "img": "icons/environment/people/charge.webp",
+        "level": 7,
+        "name": "Battlefield Surveyor",
+        "uuid": "Compendium.pf2e.classfeatures.Item.TIvzBALymvb56L79"
+      },
+      "lakjk": {
+        "img": "icons/sundries/flags/banner-standard-tattered-red.webp",
+        "level": 3,
+        "name": "Bravery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.GJKJafDGuX4BeAeN"
+      },
+      "q0xyz": {
+        "img": "icons/equipment/chest/breastplate-sculpted-grey.webp",
+        "level": 17,
+        "name": "Armor Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.CGB1TczFhQhdQxml"
+      },
+      "txlgu": {
+        "img": "icons/environment/settlement/target-dummy.webp",
+        "level": 9,
+        "name": "Combat Flexibility",
+        "uuid": "Compendium.pf2e.classfeatures.Item.8g6HzARbhfcgilP8"
+      },
+      "u1d1r": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "level": 7,
+        "name": "Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+      },
+      "uKeq1": {
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "level": 15,
+        "name": "Greater Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9"
+      },
+      "x98c2": {
+        "img": "icons/skills/ranged/arrow-flying-broadhead-metal.webp",
+        "level": 19,
+        "name": "Versatile Legend",
+        "uuid": "Compendium.pf2e.classfeatures.Item.0H2LxtiZTJ275pSD"
+      },
+      "SeyiH": {
+        "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.9yKpBAsMCe3hjNXW",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Fighter Weapon Mastery",
+        "level": 5
+      },
+      "FRDD7": {
+        "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.HNCYBZqbKklOGHFy",
+        "img": "icons/weapons/axes/axe-broad-engraved-black-grey.webp",
+        "name": "Weapon Legend",
+        "level": 13
+      },
+      "SMGLR": {
+        "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.l9H2KV1ujsRCtLM0",
+        "img": "modules/pf2e-tomb-guardian/assets/GuardianIcon.webp",
+        "name": "The Family's Burden",
+        "level": 1
+      }
+    },
+    "hp": 10,
+    "trainedSkills": {
+      "value": [],
+      "additional": 3
+    },
+    "perception": 2,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 2,
+      "will": 1
+    },
+    "attacks": {
+      "simple": 2,
+      "martial": 2,
+      "advanced": 1,
+      "unarmed": 2,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 1
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "type": "class",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classes.Item.8zn3cD6GSmoo1LW4",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262224219,
+    "modifiedTime": 1728262224219,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "197eb184bfa28d5b723245eac1dcefa252ebcdff"
+    }
+  },
+  "effects": [],
+  "folder": "SO7tYRIPuRQVLEUj",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "uexrbvMgIDU4rUqM",
+  "sort": 100000,
+  "_key": "!items!uexrbvMgIDU4rUqM"
+}

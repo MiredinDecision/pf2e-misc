@@ -1,0 +1,26 @@
+{
+  "name": "Dedication",
+  "sorting": "a",
+  "folder": "QsQU0ennAMgNNYve",
+  "type": "Item",
+  "_id": "9sGw5JsrPu1WduRV",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "4618b4bfd8afcc681d29e760eeaec9ab84812edb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!9sGw5JsrPu1WduRV"
+}

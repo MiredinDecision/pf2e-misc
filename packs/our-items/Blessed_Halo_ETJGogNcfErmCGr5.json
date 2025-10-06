@@ -1,0 +1,128 @@
+{
+  "name": "Blessed Halo",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A divine spirit manifests as a halo or similar glowing sign of divine providence above your head. While you champion’s aura is active, it casts bright light within your champion’s aura (and dim light for twice that). You and your allies within your champion’s aura gain a +1 status bonus to AC and saving throws. You must be holy or unholy to select this blessing.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": "2 * @actor.flags.pf2e.champion.aura",
+          "bright": "@actor.flags.pf2e.champion.aura",
+          "animation": {
+            "speed": 1,
+            "intensity": 2
+          },
+          "luminosity": 0,
+          "attenuation": 0.9,
+          "color": "#7292a7",
+          "alpha": 0.1,
+          "coloration": 3
+        },
+        "predicate": [
+          "champions-aura",
+          {
+            "not": "self:condition:unconscious"
+          }
+        ]
+      },
+      {
+        "key": "Aura",
+        "radius": "@actor.flags.pf2e.champion.aura",
+        "predicate": [
+          "champions-aura",
+          {
+            "not": "self:condition:unconscious"
+          }
+        ],
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.bpZNFRs4ChZs7EaH",
+            "affects": "allies"
+          }
+        ],
+        "traits": []
+      }
+    ],
+    "slug": "blessed-halo",
+    "_migration": {
+      "version": 0.941,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.347",
+        "system": "7.3.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "blessing-of-the-devoted"
+      ],
+      "value": [
+        "champion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Soldiers of the Immortal War",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "holy or unholy"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "folder": "rCTbz5Txfuh1dhKi",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-soldiers-of-the-immortal-war.subclasses.Item.f9FI3VrCLXWQwAny",
+      "hash": "e8eb8a763f1434ddb05896e4f497538e9c0bc49d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754849768691,
+    "modifiedTime": 1755999179152,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "ETJGogNcfErmCGr5",
+  "sort": 100000,
+  "_key": "!items!ETJGogNcfErmCGr5"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Soul",
+  "sorting": "m",
+  "folder": "jY7U6KjcKG1jKUz4",
+  "type": "Item",
+  "_id": "DGXTCNcSedKOT4yH",
+  "description": "",
+  "sort": 0,
+  "color": "#6c90a3",
+  "flags": {
+    "scene-packer": {
+      "hash": "64719a16bad2083507aa29d755bc779529717374"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": null,
+    "modifiedTime": 1735579463886,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!DGXTCNcSedKOT4yH"
+}

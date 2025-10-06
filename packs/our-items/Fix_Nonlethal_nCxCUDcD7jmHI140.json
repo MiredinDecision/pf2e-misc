@@ -1,0 +1,27 @@
+{
+  "name": "Fix Nonlethal",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "nCxCUDcD7jmHI140",
+  "description": "",
+  "sort": 5100000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "ca47e7450e6f6d91efa38ca1448019bce2ef9182"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802845535,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!nCxCUDcD7jmHI140"
+}

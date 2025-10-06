@@ -1,0 +1,26 @@
+{
+  "name": "17th Level",
+  "sorting": "a",
+  "folder": "0JqBJxI9A5hlUgLy",
+  "type": "Item",
+  "_id": "r2XSMG1f0SHR6bRT",
+  "description": "",
+  "sort": 500000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "2efb71a4fa16927fa4c4c743e3a2be46efcce880"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1",
+    "createdTime": null,
+    "modifiedTime": 1747502985330,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!folders!r2XSMG1f0SHR6bRT"
+}

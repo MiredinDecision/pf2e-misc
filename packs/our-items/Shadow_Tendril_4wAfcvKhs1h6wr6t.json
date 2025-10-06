@@ -1,0 +1,120 @@
+{
+  "folder": "gpt6w109KA6e7dPN",
+  "name": "Shadow Tendril",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You extend the shadows within your clothing. A shadowy tendril erupts from you, and strikes a nearby target. Make a melee spell attack roll against your target's AC. If you hit, you deal 2d6 force damage and 1d6 slashing damage. Afterwards, your shadows surround you, and you become Concealed.</p><hr /><p><strong>Heightened (+1)</strong> The force damage increases by 1d6 and the slashing damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "shadow-tendril",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "shadow"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "15 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "sVfEiUiLDAKecWlC": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "force",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      },
+      "YSLMR5wRFoHrFkzT": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "slashing",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": null
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "sVfEiUiLDAKecWlC": "1d6",
+        "YSLMR5wRFoHrFkzT": "1d6"
+      }
+    }
+  },
+  "_id": "4wAfcvKhs1h6wr6t",
+  "img": "icons/magic/unholy/energy-smoke-pink.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "88205b34ba92a2837c13dc5224455be16b5d38d5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727096696059,
+    "modifiedTime": 1727117909962,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!4wAfcvKhs1h6wr6t"
+}

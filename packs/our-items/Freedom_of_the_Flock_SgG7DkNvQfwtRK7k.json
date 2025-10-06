@@ -1,0 +1,83 @@
+{
+  "folder": "hHnVhdWyJK6i7y6a",
+  "name": "Freedom of the Flock",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong>forebird</p><p><strong>Prerequisites </strong>The relic is a worn item.</p><hr /><p>You gain the effects of @UUID[Compendium.pf2e.feats-srd.Item.WZC2XXQo6Pu2GQeo]{Soaring Form} while this item is invested.</p><p></p><p>You have a Fly speed of 20 feet at all times.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 20
+      }
+    ],
+    "slug": "freedom-of-the-flock",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.931,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tengu"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "SgG7DkNvQfwtRK7k",
+  "img": "modules/pf2e-relic-forebird/assets/wings-of-the-forebirds.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9c13d7a6372767cc98f6536a26f7402b33d22798"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-forebird.forebird-gifts.Item.SgG7DkNvQfwtRK7k",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261254908,
+    "modifiedTime": 1728261254908,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!SgG7DkNvQfwtRK7k"
+}

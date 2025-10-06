@@ -1,0 +1,102 @@
+{
+  "img": "systems/pf2e/icons/equipment/treasure/art-objects/minor-art-object/hand-mirror-with-decorated-frame.webp",
+  "name": "Mirrors of Distant Letters",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This matched pair of hand mirrors, roughly one handspan wide and tall, have identical ornate frames. Mirrors are crafted in pairs, and each works with only the other of its pair. If one mirror of a pair is ever broken, the other shatters into non-magical shards. The listed price is for a pair of mirrors.</p><p><strong>Activate—Send a Message</strong> <span class=\"action-glyph\">2</span> (manipulate)</p><p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> You use fog or breath to write up to 25 words on a mirror. As you write, the writing also appears on the other mirror in its matched pair, no matter how far away it is, as long as it is on the same plane. Wiping one mirror clean erases the writing from both mirrors. Each mirror can be activated once per hour.</p>"
+    },
+    "rules": [],
+    "slug": "slates-of-distant-letters",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 2450
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.0",
+    "createdTime": 1735255778457,
+    "modifiedTime": 1756086799129,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "7OZbTCbckbg9PFqT",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dc343624e48221ca0e84366ea469a21f807301b1",
+      "sourceId": "Item.NpfzGNhhtXZxjfRM"
+    }
+  },
+  "_id": "6fXAgv7HbBPiioqh",
+  "sort": 400000,
+  "_key": "!items!6fXAgv7HbBPiioqh"
+}

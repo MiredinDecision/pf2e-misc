@@ -1,0 +1,124 @@
+{
+  "img": "icons/commodities/materials/plant-sprout-seed-brown-green.webp",
+  "name": "Effect: Clay Sphere - Weapon",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.WuSXfv87YBSzqJ66]{Clay Sphere}, @UUID[Compendium.pf2e.equipment-srd.Item.OksiiEBiiGatAM9e]{Clay Sphere (Greater)}, @UUID[Compendium.pf2e.equipment-srd.Item.BdLtvg3zUKypgYdS]{Clay Sphere (Major)}</p>\n<p>Strikes with the affixed weapon have the versatile bludgeoning, versatile piercing, and versatile slashing trait.</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "includeHandwraps": true,
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "weapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "definition": [
+          "item:id:{item|flags.pf2e.rulesSelections.weapon}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "versatile-b"
+      },
+      {
+        "definition": [
+          "item:id:{item|flags.pf2e.rulesSelections.weapon}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "versatile-p"
+      },
+      {
+        "definition": [
+          "item:id:{item|flags.pf2e.rulesSelections.weapon}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "versatile-s"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.claySphere.weapon",
+        "value": "{item|flags.pf2e.rulesSelections.weapon}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.OP4KvfBhHdBp9Saa",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "effect-clay-sphere-weapon-dual",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #202: Severed at the Root",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1735368858080,
+    "modifiedTime": 1745001061047,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "zBjosOEtabVr4AS6",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.equipment-effects.Item.La2ziyuLYKG0thOj",
+      "hash": "e7b116bc663f4c8239e90d14c4e2a45f7338c151"
+    }
+  },
+  "_id": "N2JMGhbb916WTUzU",
+  "sort": 100000,
+  "_key": "!items!N2JMGhbb916WTUzU"
+}

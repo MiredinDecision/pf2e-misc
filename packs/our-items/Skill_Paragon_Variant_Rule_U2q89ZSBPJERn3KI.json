@@ -1,0 +1,116 @@
+{
+  "name": "Skill Paragon Variant Rule",
+  "type": "feat",
+  "system": {
+    "category": "bonus",
+    "description": {
+      "value": "<p>During character creation, choose a single skill. You automatically increase your proficiency in this skill to Expert at 3rd level, Master at 7th, and Legendary at 15th. At each of these levels, you gain an extra skill feat that requires this skill and that you meet any pre-requisites for.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Starfinder 2e GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "config": "skills"
+        },
+        "flag": "skill",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.{item|flags.pf2e.rulesSelections.skill}.rank",
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 2,
+              "value": 1
+            },
+            {
+              "start": 3,
+              "end": 6,
+              "value": 2
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "value": 3
+            },
+            {
+              "start": 15,
+              "value": 4
+            }
+          ]
+        }
+      }
+    ],
+    "slug": "paragon-skill-variant-rule",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": null,
+        "foundry": "13.347",
+        "system": "7.4.1"
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "blsdBBuauWd2zjCZ",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fa4621800727636336651d6496396fe24eb1679e",
+      "sourceId": "Actor.jGtwaBTkIzrE2wft.Item.DdTKPo4jk1vMTRJn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.1",
+    "createdTime": 1755737824727,
+    "modifiedTime": 1755737831844,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "U2q89ZSBPJERn3KI",
+  "sort": 0,
+  "_key": "!items!U2q89ZSBPJERn3KI"
+}

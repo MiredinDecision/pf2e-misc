@@ -1,0 +1,141 @@
+{
+  "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+  "name": "Fighter Weapon Mastery (Polearms & Spears)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Hours spent training with your preferred weapons, learning and developing new combat techniques, have made you particularly effective with your weapons of choice. Choose one weapon group. Your proficiency rank increases to master with the simple weapons, martial weapons, and unarmed attacks in that group, and to expert with the advanced weapons in that group. You gain access to the critical specialization effects of all weapons and unarmed attacks for which you have master proficiency.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:group:polearm",
+          {
+            "or": [
+              "item:category:unarmed",
+              "item:category:simple",
+              "item:category:martial"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "Simple and Martial Polearms",
+        "slug": "polearm-mastery-simple-martial",
+        "value": 3
+      },
+      {
+        "definition": [
+          "item:category:advanced",
+          "item:group:polearm"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.FighterWeaponMasteryLegend.Advanced.polearm",
+        "slug": "polearm-mastery-advanced",
+        "value": 2
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "item:proficiency:rank",
+              3
+            ]
+          }
+        ]
+      },
+      {
+        "definition": [
+          "item:group:spear",
+          {
+            "or": [
+              "item:category:unarmed",
+              "item:category:simple",
+              "item:category:martial"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "Simple and Martial Spears",
+        "slug": "spear-mastery-simple-martial",
+        "value": 3
+      },
+      {
+        "definition": [
+          "item:category:advanced",
+          "item:group:spear"
+        ],
+        "key": "MartialProficiency",
+        "label": "Advanced Spears",
+        "slug": "spear-mastery-advanced",
+        "value": 2
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "fighter"
+      ],
+      "otherTags": []
+    },
+    "slug": "fighter-weapon-mastery",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755484859413,
+    "modifiedTime": 1755485263920,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "Pj3Yeqzxjg2hkSW0",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a29290ab892e4ad1a1dee968781eb6995486e48b",
+      "sourceId": "Actor.vAfQr062f5O2hIe7.Item.hLH261PvAC8Yagxg"
+    }
+  },
+  "_id": "b5fsllHvYn4L1WpE",
+  "sort": 300000,
+  "_key": "!items!b5fsllHvYn4L1WpE"
+}

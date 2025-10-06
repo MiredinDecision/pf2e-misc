@@ -1,0 +1,148 @@
+{
+  "img": "icons/skills/melee/strike-blade-knife-white-red.webp",
+  "name": "Spirit Striking",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your divine power can't be contained, escaping in flits and embers as you wreak violence. You deal 2 additional spirit damage with weapons and unarmed attacks in which you are an expert. This damage increases to 3 if you're a master, and 4 if you're legendary.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 7
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder War of Immortals",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Spirit Striking Damage",
+        "option": "spirit-striking-damage",
+        "toggleable": true,
+        "value": false
+      },
+      {
+        "hideIfDisabled": true,
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "gte": [
+              "item:proficiency:rank",
+              2
+            ]
+          },
+          "spirit-striking-damage"
+        ],
+        "selector": "strike-damage",
+        "slug": "spirit-striking",
+        "tags": [
+          "exemplar"
+        ],
+        "value": 2,
+        "damageType": "spirit"
+      },
+      {
+        "hideIfDisabled": true,
+        "key": "FlatModifier",
+        "predicate": [
+          {
+            "gte": [
+              "item:proficiency:rank",
+              2
+            ]
+          },
+          {
+            "not": "spirit-striking-damage"
+          }
+        ],
+        "selector": "strike-damage",
+        "slug": "spirit-striking",
+        "tags": [
+          "exemplar"
+        ],
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:proficiency:rank:3"
+        ],
+        "priority": 9,
+        "selector": "strike-damage",
+        "slug": "spirit-striking",
+        "value": 3
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:proficiency:rank:4"
+        ],
+        "priority": 9,
+        "selector": "strike-damage",
+        "slug": "spirit-striking",
+        "value": 4
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "exemplar"
+      ],
+      "otherTags": []
+    },
+    "slug": "spirit-striking",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1741908487298,
+    "modifiedTime": 1743561457722,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "PyudfzbIHfwCf86A",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.cAuV9xgPTwZ26Nj0",
+      "hash": "77eec8ad299bd99779515ee3ef1b58d9e8badd0b"
+    }
+  },
+  "_id": "Udq6uRuoTUC5mkGk",
+  "sort": 200000,
+  "_key": "!items!Udq6uRuoTUC5mkGk"
+}

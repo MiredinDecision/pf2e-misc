@@ -1,0 +1,112 @@
+{
+  "folder": "GJORlZQviLhITVD6",
+  "name": "Barding of the Bloodwolf",
+  "type": "armor",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This heavy barding is carefully designed to protect its wearer, and lovingly crafted with silver patterns and rubies. <span style=\"font-family:Roboto, sans-serif\">The barding adjusts to fit your animal companion regardless of its shape.</span></p><p>The barding is lighter than other heavy barding, protecting its wearing without impeding their movement as much as other heavy barding.</p><hr /><p><strong>Activate - Blood Pack </strong><span class=\"action-glyph\"><strong>2</strong></span></p><p><strong>Frequency </strong>once per day</p><hr /><p><strong>Effect</strong> You and your companion move to corner an enemy. <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You and your animal companion both Stride. If both of you end your movement within reach of the same creature, you make a melee Strike against that creature, with the benefits of your companion's support benefit. You can use Blood Pack to Burrow, Climb, </span><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Fly,</span></span> or Swim instead of Stride if both you and your animal companion have the corresponding movement type.</p><p>Using your companion's support benefit this way does not prevent them from taking actions other than move actions this turn, but none of your other Strikes get your companion's support benefit this turn, and your companion cannot use their support benefit again this turn.</p>"
+    },
+    "rules": [],
+    "slug": "barding-of-the-bloodwolf",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "companion",
+        "invested"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 3
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 650
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "lg",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy-barding",
+    "group": null,
+    "acBonus": 3,
+    "strength": 4,
+    "dexCap": 3,
+    "checkPenalty": -3,
+    "speedPenalty": -5,
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "_id": "zwf8ed2W60xImUcQ",
+  "img": "modules/pf2e-misc/assets/icons/BardingOfTheBloodwolf.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6e47d7d4a7b98aa2b1917a126c9796de4bd76c8c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.1",
+    "createdTime": 1728311958517,
+    "modifiedTime": 1755712299756,
+    "lastModifiedBy": "19LQrWiE2jMTbelH",
+    "exportSource": null
+  },
+  "_key": "!items!zwf8ed2W60xImUcQ"
+}

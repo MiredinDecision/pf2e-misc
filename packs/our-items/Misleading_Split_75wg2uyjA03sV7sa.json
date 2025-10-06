@@ -1,0 +1,74 @@
+{
+  "folder": "GMgNVaiLN4DkdqQj",
+  "name": "Misleading Split",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency </strong>once per day</p><hr /><p>You appear to split into two halves of yourself, but in reality, both of them are fakes and you turn invisible for up to 1 minute. Each round, on your turn, you must spend a single action, which has the concentrate trait, in order to mentally dictate a course of action for your duplicates to follow that round. If you don't spend the action, the entire effect ends. If you do spend the action, your duplicates act as though they had your full number of actions, though they can't actually effect anything in the environment. Both the duplicates and your invisibility persist for the effect's duration. Performing a hostile action doesn't end the invisibility, just like a 4th-level invisibility spell. A creature that determines the duplicates are illusions doesn't necessarily know you are invisible, and one that can see your invisible form doesn't necessarily know your duplicates are illusions.</p><p>If you Cast a Spell, attack, or otherwise interact with another creature, as a part of that action you can attempt a Deception check against observers' Perception DCs to convince them one of your duplicates used that action. This doesn't fool anyone who's aware your duplicate is an illusion, nor does it work if the attack obviously couldn't have come from the duplicate. For instance, if you fired a ray, you could make it look like it came from the duplicate as long as the duplicate was positioned appropriately, but if you attacked with a pseudopod and your duplicate was across the room from the target, your Deception check would automatically fail.</p>"
+    },
+    "rules": [],
+    "slug": "misleading-split",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "illusion",
+        "occult",
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "102473e849ef6a290c736a6e7c50479bef8500ca"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.75wg2uyjA03sV7sa",
+    "duplicateSource": "Item.bIZm4SGLVWLCg0We",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "75wg2uyjA03sV7sa",
+  "_key": "!items!75wg2uyjA03sV7sa"
+}

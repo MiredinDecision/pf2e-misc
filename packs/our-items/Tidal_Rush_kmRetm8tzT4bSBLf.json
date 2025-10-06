@@ -1,0 +1,83 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Tidal Rush",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p data-pm-slice=\"1 1 []\"><strong>Requirements</strong> You are in @UUID[Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.vlix0pDKMxTNYOJd]{Winding Stream Dance}.</p>\n<hr />\n<p>You make a great sweep about yourself, knocking creatures off their feet and away from you. Choose up to three adjacent foes and choose whether to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} all three of them. Whichever of the two options you choose, roll a separate Athletics check against each foe, performing the same action against each foe. Each attempt counts toward your multiple attack penalty, but don't increase your penalty until you have made all the attempts.</p>"
+    },
+    "rules": [],
+    "slug": "tidal-rush",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Winding Stream Dancer Archetype",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 14
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Winding Stream Dancer Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "145d89da431a4272ca30602df39121c19d0108c5"
+    }
+  },
+  "effects": [],
+  "folder": "VSkOqIjKJysvhMrO",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-archetype-winding-stream-dancer.winding-stream-dancer-feats.Item.kmRetm8tzT4bSBLf",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262029591,
+    "modifiedTime": 1728262029591,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "kmRetm8tzT4bSBLf",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "4gMqw7mI53Oe9aWm": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_key": "!items!kmRetm8tzT4bSBLf"
+}

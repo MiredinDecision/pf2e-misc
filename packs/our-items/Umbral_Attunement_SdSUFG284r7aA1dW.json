@@ -1,0 +1,104 @@
+{
+  "folder": "6U28XNe6LpHgHoyM",
+  "name": "Umbral Attunement",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are more accurate with attack spells than most. Your spell attack rolls have a +1 bonus.</p><p>As your eldritch shadow level increases, so does this bonus. Increase the bonus by 1 at 10th and 16th levels.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "spell-attack",
+        "value": {
+          "brackets": [
+            {
+              "start": 2,
+              "end": 9,
+              "value": 1
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "value": 2
+            },
+            {
+              "start": 16,
+              "value": 3
+            }
+          ],
+          "field": "actor|level"
+        },
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              2
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "umbral-attunement",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Eldritch Shadow",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "SdSUFG284r7aA1dW",
+  "img": "systems/pf2e/icons/spells/umbral-mindtheft.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9fec3c71068ac8884043cd6fab70229986798de5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727199479965,
+    "modifiedTime": 1727365283970,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!SdSUFG284r7aA1dW"
+}

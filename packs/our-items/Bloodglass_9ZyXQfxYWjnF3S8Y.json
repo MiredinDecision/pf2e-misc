@@ -1,0 +1,26 @@
+{
+  "name": "Bloodglass",
+  "sorting": "m",
+  "folder": "jY7U6KjcKG1jKUz4",
+  "type": "Item",
+  "_id": "9ZyXQfxYWjnF3S8Y",
+  "sort": 100000,
+  "color": "#b00b69",
+  "flags": {
+    "scene-packer": {
+      "hash": "6920b1d993579b446ac3586e72ddea064055c6a6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1728261166349,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "description": "",
+  "_key": "!folders!9ZyXQfxYWjnF3S8Y"
+}

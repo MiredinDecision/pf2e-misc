@@ -1,0 +1,83 @@
+{
+  "folder": "M5uPZNaP7coY921E",
+  "name": "Basic Graveknight Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You dark energy increases, allowing you to cast more powerful graveknight spells. You gain a 1st-rank spell slot that can be used to cast spells of your graveknight curse's tradition. <span style=\"font-family:Roboto, sans-serif\">Each time you gain a spell slot of a new rank from the graveknight archetype, add a spell of that rank or lower to your repertoire. You are a bounded spellcaster. Each time you lose spell slots of a particular rank, remove those spells from your repertoire. At 6th level, you gain a 2nd-rank spell, and at 8th level, you replace your 1st-rank spell slot with a 3rd-rank spell slot.</span></p>"
+    },
+    "rules": [],
+    "slug": "basic-graveknight-spellcasting",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Heresy of the Whispering Way",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Graveknight Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-heresy-of-the-whispering-way.feats.Item.kKzPPzGI8ZUAm4VX",
+      "hash": "ee293f19d27b0280bc4ca0c4d8a9c3aa415eb281"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728579511392,
+    "modifiedTime": 1728580630288,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "tINKsd2aIle3mOpO",
+  "sort": 0,
+  "_key": "!items!tINKsd2aIle3mOpO"
+}

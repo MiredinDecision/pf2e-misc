@@ -1,0 +1,234 @@
+{
+  "folder": "K2E98FJTqNioJF80",
+  "name": "Lost and Found (Kopis) (Simple)",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p><p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You use Spellstrike with a non-cantrip spell and miss with the Strike</p><p><strong>Effect</strong> An explosion of magical energy—stored up for the Spellstrike—explodes out. All creatures in a @Template[emanation|distance:5] take 1d4 damage per rank of the spell, with a @Check[reflex|against:spell|basic] save against your spell DC. This damage is the same type the spell would have dealt, and the activation gains that trait; if the spell would have dealt multiple types of damage, choose one of them. If the damage of the explosion is mental, the save is @Check[will|against:spell|basic] instead of Reflex.</p>",
+      "value": "<p>A one handed sword almost resembling a long knife made for cutting meat, designed for cutting and thrusting.</p><p>It is crafted out of a special and rare material known only as soulsteel - a dark, nearly black metal with veins of silver - that is difficult to work due to its more volatile properties.</p><p>Soulsteel pulls at both the lifeforce of the living, and the energy that animates the undead, wielder and foe ailke. A skilled magical crafter can help attune this material to a particular user, usually someone who is a decent mage in their own right, so that it doesn't harm them.</p><p>A weapon crafted of this material deals 1 extra spirit damage. At 6th level, this damage is replaced by an @UUID[Compendium.pf2e.equipment-srd.Item.6llILJtsTPgtYXgx]{Astral} rune; this rune cannot be removed, and it deals 1d8 damage instead of 1d6 damage. At 14th level, this weapon automatically gains a @UUID[Compendium.pf2e.equipment-srd.Item.hebf5k3cd7LO6luX]{Astral (Greater)} rune instead. It is also able to affect incorporeal creatures as if it had the @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch} rune. However, creatures other than those attuned to this weapon cannot handle it without feeling a sense of unease, and the weapon pulling at their lifeforce. Incorporeal creatures cannot touch it without feeling great pain, dropping it immediately.</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.6DfLZBl8wKIV03Iq]{Ignition}</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Strike}</li></ul><hr /><p><strong>Craft Requirements</strong> You have the magus's Spellstrike activity. Supply one casting of all listed ranks of all listed spells.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Soulsteel",
+        "slug": "soulsteel-damage",
+        "selector": "{item|_id}-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "target:trait:incorporeal"
+        ],
+        "property": "property-runes",
+        "value": "ghost-touch"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": {
+          "brackets": [
+            {
+              "start": 6,
+              "end": 13,
+              "value": "astral"
+            },
+            {
+              "start": 14,
+              "value": "greater-astral"
+            }
+          ]
+        }
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|_id}-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "dice:slug:greater-astral",
+              "dice:slug:astral"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "upgrade",
+        "property": "dice-faces",
+        "value": 8
+      }
+    ],
+    "slug": "lost-and-found",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "finesse",
+        "soulsteel",
+        "staff",
+        "thrown-10",
+        "trip"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "kopis",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 5
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
+    },
+    "category": "simple",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d4",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7808bb98694d7977a2add52c6a0885d3c7e75f1e",
+      "sourceId": "Actor.zU2JgPfnGNz5JEpt.Item.l8dXvcF3KpFGSQGQ"
+    },
+    "pf2e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1742054490856,
+    "modifiedTime": 1757643805213,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "OO9LnjTtnZ0AHa5Y",
+  "sort": 1000000,
+  "_key": "!items!OO9LnjTtnZ0AHa5Y"
+}

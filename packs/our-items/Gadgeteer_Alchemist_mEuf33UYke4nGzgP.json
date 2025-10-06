@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Gadgeteer Alchemist",
+  "color": null,
+  "sorting": "a",
+  "_id": "mEuf33UYke4nGzgP",
+  "description": "",
+  "sort": 2300000,
+  "flags": {
+    "scene-packer": {
+      "hash": "9f0e6f98ede7396a68598025169f92c8cc5c507d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754436861601,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!mEuf33UYke4nGzgP"
+}

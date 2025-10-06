@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Background",
+  "color": null,
+  "sorting": "a",
+  "_id": "kTte2aNgtADum8Ij",
+  "description": "",
+  "sort": 2100000,
+  "flags": {
+    "scene-packer": {
+      "hash": "48b26a2d88667179dcb848a36485c8877aca2ea0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755005473653,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!kTte2aNgtADum8Ij"
+}

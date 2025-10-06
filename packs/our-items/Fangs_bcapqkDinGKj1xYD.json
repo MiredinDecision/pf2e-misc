@@ -1,0 +1,94 @@
+{
+  "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
+  "name": "Fangs",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>In order to save her life, Eli fed Number 6 their blood, causing her to gain a pair of fangs and a thirst for blood typically inherent in her ancestry.</p><p>Your incisors have grown into true fangs: long, sharp, and well-suited to drawing blood. You gain a fangs unarmed attack that deals 1d6 piercing damage. Your fangs are in the brawling group and have the grapple and unarmed traits.</p>"
+    },
+    "rules": [
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/fangs.webp",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Fangs",
+        "range": null,
+        "traits": [
+          "grapple",
+          "unarmed"
+        ]
+      }
+    ],
+    "slug": "fangs",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dhampir"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.Y8sKn8NH1wC7Mrui",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262119412,
+    "modifiedTime": 1728262119412,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "fd206aa3bb80dbe68f9db76ce7848dd35d576590"
+    }
+  },
+  "effects": [],
+  "folder": "ak4BU0m8Km4hZsvo",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "bcapqkDinGKj1xYD",
+  "sort": 100000,
+  "_key": "!items!bcapqkDinGKj1xYD"
+}

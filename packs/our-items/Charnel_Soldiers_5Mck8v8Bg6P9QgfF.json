@@ -1,0 +1,110 @@
+{
+  "folder": "uHZ767fdUBNmZXnF",
+  "name": "Charnel Soldiers",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You train your less intelligent undead to have rudimentary cooperation. Mindless undead minions under your control in a 15-foot emanation of you gain the @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{Reactive Strike} reaction.  Minions that meet these requirements gain 1 reaction at the start of their turns, which can be used only to Reactive Strike.</p>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "radius": 15,
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.48SrTKhDIcJcPsTn",
+            "predicate": [
+              {
+                "and": [
+                  "target:trait:mindless",
+                  "target:trait:undead",
+                  "target:trait:minion"
+                ]
+              }
+            ]
+          }
+        ],
+        "appearance": {
+          "border": {
+            "alpha": 0.55
+          },
+          "highlight": {
+            "alpha": 0.05
+          }
+        }
+      }
+    ],
+    "slug": "charnal-soldiers",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.919,
+        "foundry": "12.331",
+        "system": "6.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Heresy of the Whispering Way",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Thanergetic Mage Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "536e09ce624d2896b0906f33278b1b8058173ab9",
+      "sourceId": "Item.Wdlr9j3wIU8bt0aP"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726982445373,
+    "modifiedTime": 1726982571443,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "5Mck8v8Bg6P9QgfF",
+  "sort": 0,
+  "_key": "!items!5Mck8v8Bg6P9QgfF"
+}

@@ -1,0 +1,72 @@
+{
+  "folder": "HYtdwMrR01QCzgbM",
+  "name": "Ooze Shape",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your nucleus contains small amounts of goo from other oozes, allowing you to transform into another form of ooze for a brief time. You can cast @UUID[Compendium.pf2e.spells-srd.Item.0gdZrT9lwO17EIxc]{Ooze Form} as a 3rd-level innate occult spell once per day.</p>"
+    },
+    "rules": [],
+    "slug": "ooze-shape",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dd7e4e328ba55edae9b110c47dfb436c52c86255"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.TvXbAZuKUJHdMGfP",
+    "duplicateSource": "Item.rMExhBqiCzzmn54n",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "TvXbAZuKUJHdMGfP",
+  "_key": "!items!TvXbAZuKUJHdMGfP"
+}

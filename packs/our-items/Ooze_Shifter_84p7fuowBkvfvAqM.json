@@ -1,0 +1,76 @@
+{
+  "folder": "r8Plx873Fv368892",
+  "name": "Ooze Shifter",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisites </strong>@UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.TvXbAZuKUJHdMGfP]{Ooze Shape}</p><hr /><p>You are able to transform into other types of oozes more often, and you can expend additional energy to become a much larger version. You can cast ooze form as a 3rd-level innate occult spell once per hour instead of once per day. Additionally, you can cast ooze form as a 5th-level innate occult spell once per day, allowing you to assume a Huge ooze battle form.</p>"
+    },
+    "rules": [],
+    "slug": "ooze-shifter",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Ooze Shape"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f2a2672e3abf77174f7cf6bb3f2cf0d531060793"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.84p7fuowBkvfvAqM",
+    "duplicateSource": "Item.WpiVDFBqIpyCnI6D",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "84p7fuowBkvfvAqM",
+  "_key": "!items!84p7fuowBkvfvAqM"
+}

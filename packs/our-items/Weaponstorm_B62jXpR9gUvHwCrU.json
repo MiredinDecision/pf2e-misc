@@ -1,0 +1,79 @@
+{
+  "name": "Weaponstorm",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> 3 or more Regalia</p><hr /><p>Shattering your limits, you preform a devastating series of attacks. Choose at least 3 Regalia and make a Strike using each of your Chosen Regalia. Utilize your current Multiple Attack Penalty for all three strikes. At any point before or after these Strikes, you may choose to break 1 additional Regalia with the Agile, Finesse, or Shove traits to Step 10ft in any direction.</p><p>Using Weaponstorm is an exhausting activity, as such using this action more than once within 1 Minute causes you to become Fatigued.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "weaponstorm",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "flourish",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "km5P6gYPWjDlP942",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0404968e3f333d0bb1767c6f1d9f909b5205abb9",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753922151893,
+    "modifiedTime": 1753929685556,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "B62jXpR9gUvHwCrU",
+  "sort": 200000,
+  "_key": "!items!B62jXpR9gUvHwCrU"
+}

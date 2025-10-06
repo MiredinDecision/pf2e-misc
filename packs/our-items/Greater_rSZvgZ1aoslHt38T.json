@@ -1,0 +1,26 @@
+{
+  "name": "Greater",
+  "sorting": "a",
+  "folder": "64dFtca0jzEQN447",
+  "type": "Item",
+  "_id": "rSZvgZ1aoslHt38T",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "0258f526f9c4fd6915748529d53a6b9e0ca7598f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!rSZvgZ1aoslHt38T"
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Spell Effect: Hemophilia",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>From @UUID[Compendium.pf2e-misc.our-items.Item.98bRAvMVNPU8nmbR]{Hemophilia}.</em></p><p><strong>Success</strong> The target gains weakness 1 to bleed or spirit damage.</p><p><strong>Failure</strong> As success, except the first time the target takes bleed or spirit damage while the spell is active, it becomes drained 1 or increases its drained value by 1.</p><p><strong>Critical Failure</strong> As failure, except the weakness to bleed or spirit damage is doubled.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Bleed",
+            "value": "bleed"
+          },
+          {
+            "label": "Spirit",
+            "value": "spirit"
+          }
+        ],
+        "flag": "damageType"
+      },
+      {
+        "key": "ChoiceSet",
+        "flag": "homophobia",
+        "choices": [
+          {
+            "label": "Success",
+            "value": 1
+          },
+          {
+            "label": "Failure",
+            "value": 1
+          },
+          {
+            "label": "Critical Failure",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "key": "Weakness",
+        "type": "{item|flags.pf2e.rulesSelections.damageType}",
+        "value": "@item.level * @item.flags.pf2e.rulesSelections.homophobia"
+      }
+    ],
+    "slug": "spell-effect-hemophilia",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Magic+",
+      "authors": "Tony Saunders, Derry Luttrell",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/skills/wounds/blood-cells-vessel-red-orange.webp",
+  "folder": "lX12WXvBxEBf2clb",
+  "ownership": {
+    "default": 0,
+    "E5WvJK9mhuhtm5jD": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-team-plus-magic.misc.Item.blEZMYfhAWP8iW8Q",
+      "hash": "965113be3172a2b9bc4317f61c1e919d5878e680"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758234888558,
+    "modifiedTime": 1758235247025,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_id": "qE5rezPIHL3F2eDw",
+  "sort": 0,
+  "_key": "!items!qE5rezPIHL3F2eDw"
+}

@@ -1,0 +1,134 @@
+{
+  "folder": "eOJsgiwwcsb79hE6",
+  "name": "Spell Effect: Cloak of Darkness",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You surround yourself in darkness that restores the undead and rebuffs the living. You become surrounded in shadow in a 30-foot radius. Undead creatures or those with void healing that begin their turn adjacent to you recover 4d6 Hit Points. Living creatures that do not have void healing that begin their turn adjacent to you take 4d6 void damage (basic Fortitude save).</p><hr /><p><strong>Heightened (+2)</strong> The healing increases by 2d6, and the damage to the living increases by 2d6.</p>"
+    },
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": {
+          "brackets": [
+            {
+              "start": 4,
+              "end": 5,
+              "value": "4d6"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "value": "6d6"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "value": "8d6"
+            },
+            {
+              "start": 10,
+              "value": "10d6"
+            }
+          ],
+          "field": "item|level"
+        },
+        "predicate": [
+          "self:negative-healing"
+        ]
+      },
+      {
+        "key": "FastHealing",
+        "value": {
+          "brackets": [
+            {
+              "start": 4,
+              "end": 5,
+              "value": "-4d6"
+            },
+            {
+              "start": 6,
+              "end": 7,
+              "value": "-6d6"
+            },
+            {
+              "start": 8,
+              "end": 9,
+              "value": "-8d6"
+            },
+            {
+              "start": 10,
+              "value": "-10d6"
+            }
+          ],
+          "field": "item|level"
+        },
+        "predicate": [
+          {
+            "not": "self:negative-healing"
+          }
+        ]
+      }
+    ],
+    "slug": "spell-effect-cloak-of-darkness",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "j6Sp7AgUA2d64oPg",
+  "img": "modules/pf2e-misc/assets/icons/CloakofShadows.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "497c6282a3f55d0ff8f51ee8e0fffc814604444c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.1",
+    "createdTime": 1732673283271,
+    "modifiedTime": 1754328937761,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!j6Sp7AgUA2d64oPg"
+}

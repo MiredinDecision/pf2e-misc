@@ -1,0 +1,112 @@
+{
+  "_id": "1wottQNuuOdgslKX",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Advanced Element Control",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain one kineticist feat. For the purpose of meeting its prerequisites, your kineticist level is equal to half your level. Your options include impulse feats for your kinetic element, as normal for a kineticist.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat more than once. Each time you select it, you gain another kineticist feat.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:category:class",
+            "item:trait:kineticist",
+            {
+              "or": [
+                {
+                  "not": "item:trait:impulse"
+                },
+                "item:trait:{actor|flags.pf2e.kineticist.gate.one}",
+                "item:trait:{actor|flags.pf2e.kineticist.gate.two}"
+              ]
+            }
+          ],
+          "predicate": [
+            {
+              "lte": [
+                "item:level",
+                "floor(@actor.level/2)"
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "flag": "advancedElementControl",
+        "key": "ChoiceSet",
+        "prompt": "Select a Kineticist Class Feat"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.advancedElementControl}"
+      }
+    ],
+    "slug": "advanced-element-control",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": null,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Through the Gate"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.ztRfsRDE7hdGbgG0",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802818315,
+    "modifiedTime": 1726802818315,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "ynASxnyasGU4ydVK",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7cf4831569ee392366cc91fddb870c14d90168ba"
+    }
+  },
+  "_key": "!items!1wottQNuuOdgslKX"
+}

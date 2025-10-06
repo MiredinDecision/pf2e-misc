@@ -1,0 +1,26 @@
+{
+  "type": "Item",
+  "folder": "XntX8b8fld3mvTMK",
+  "name": "Battle Stratagem",
+  "color": null,
+  "sorting": "a",
+  "_id": "luyyhH3h1BUhrqq4",
+  "description": "",
+  "sort": 100000,
+  "flags": {
+    "scene-packer": {
+      "hash": "321a78bfe2e64c8f84a8f00e25c96605725ac1b4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "modifiedTime": 1755236794660
+  },
+  "_key": "!folders!luyyhH3h1BUhrqq4"
+}

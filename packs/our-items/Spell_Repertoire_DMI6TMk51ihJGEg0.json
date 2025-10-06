@@ -1,0 +1,81 @@
+{
+  "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+  "name": "Spell Repertoire",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p><strong>Eidolon</strong> The collection of spells they can cast is called their spell repertoire. At 1st level, they learn one 1st-rank spell of their choice and three cantrips of your choice. They choose these from the common spells from the tradition corresponding to their eidolon tradition, or from other spells from that tradition to which they have access. They can cast any spell in your spell repertoire by using a spell slot of an appropriate spell rank.</p><p>They add to this spell repertoire as they increase in level. Each time they get a spell slot (see the Eidolon Spells per Day table above), they add a spell to their spell repertoire of the same rank. At 2nd level, they select another 1st-rank spell; at 3rd level, they gain a new spell 2nd-rank spell, and so on. When they add spells, they might select a higher-rank version of a spell they already know so that they can cast a heightened version of that spell.</p><p>Though they gain them at the same rate, their spell slots and the spells in their spell repertoire are separate. If a feat or other ability adds a spell to their spell repertoire, it wouldn't give them another spell slot or vice versa.</p><p><strong>Swapping Spells in Their Repertoire</strong></p><p>As they gain new spells in their spell repertoire, they might want to replace some of the spells they previously learned. Each time they gain a level and learn new spells, they can swap out one of their old spells for a different spell of the same rank. This spell can be a cantrip. They can also swap out spells by retraining during downtime.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "summoner"
+      ],
+      "otherTags": []
+    },
+    "slug": "spell-repertoire",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-misc.our-items.Item.DMI6TMk51ihJGEg0",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758949802354,
+    "modifiedTime": 1758949802354,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "effects": [],
+  "folder": "kGCQLmHxE0HUPe4O",
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH",
+      "hash": "3f172fad58a311319ad6493b7a569cfb08245855"
+    }
+  },
+  "_id": "DMI6TMk51ihJGEg0",
+  "sort": 0,
+  "_key": "!items!DMI6TMk51ihJGEg0"
+}

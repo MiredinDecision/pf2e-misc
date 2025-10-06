@@ -1,0 +1,97 @@
+{
+  "folder": "HYtdwMrR01QCzgbM",
+  "name": "Medicinal Slime",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prequisites </strong>@UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.FSyDpY9qPOXpes12]{Heal Slime}, @UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{Battle Medicine} and trained in medicine, or @UUID[Compendium.pf2e.feats-srd.Item.WC4xLBGmBsdOdHWu]{Natural Medicine} and trained in nature.</p><hr /><p>Your slime body is able to generate herbal remedies that heal… or nefarious poisons to snuff out lives. You gain your choice of the herbalist or poisoner dedication feat, even if you normally couldn't take another dedication feat until you take more feats from your current archetype. You must still meet the archetype's prerequisites.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.5CRt5Dy9eLv5LpRF"
+          },
+          {
+            "value": "Compendium.pf2e.feats-srd.Item.y7DDs03GtDnmhxFp"
+          }
+        ],
+        "flag": "medicinalSlime"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.medicinalSlime}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "medicinal-slime",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Heal Slime"
+        },
+        {
+          "value": "Battle Medicine and trained in Medicine, or Naturral Medicine and trained in Nature"
+        }
+      ]
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1245d0d398de289704424f59065eb9b414c2fb7a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.icBqeCoJ9nShdZY1",
+    "duplicateSource": "Item.7Iadw15RWklxtwVQ",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "icBqeCoJ9nShdZY1",
+  "_key": "!items!icBqeCoJ9nShdZY1"
+}

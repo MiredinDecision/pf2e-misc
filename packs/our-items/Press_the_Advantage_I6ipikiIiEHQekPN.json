@@ -1,0 +1,77 @@
+{
+  "folder": "2USzLB1WIYfO0OxS",
+  "name": "Press the Advantage",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your skill in finding and exploiting the weaknesses of your enemies also allows you to make openings for your allies. Make a melee strike against a target you have successfully @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recalled Knowledge} on. On a hit, you reduce all physical resistances the target has by 2 until the end of your next turn, doubled on a critical hit.</p><p>At 12th level, this reduction increases to 5, and at 20th level it increases to 7.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.6kbFf8jcd5in8MSl]{Effect: Press the Advantage}</p>"
+    },
+    "rules": [],
+    "slug": "press-the-advantage",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "attack",
+        "flourish"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Weapon Master Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "I6ipikiIiEHQekPN",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9b365b9ed2da475b8bcf3368d6fa6910fe4dafd1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728717000225,
+    "modifiedTime": 1729390459742,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!I6ipikiIiEHQekPN"
+}

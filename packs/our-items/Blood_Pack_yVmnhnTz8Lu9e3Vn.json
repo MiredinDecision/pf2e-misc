@@ -1,0 +1,67 @@
+{
+  "folder": "S3RyEjEQHZBb08QK",
+  "name": "Blood Pack",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate - Blood Pack </strong><span class=\"action-glyph\"><strong>2</strong></span></p><p><strong>Frequency </strong>once per day</p><hr /><p><strong>Effect</strong> You and your companion move to corner an enemy. <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You and your animal companion both Stride. If both of you end your movement within reach of the same creature, you make a melee Strike against that creature, with the benefits of your companion's support benefit. You can use Blood Pack to Burrow, Climb, </span><span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Fly,</span></span> or Swim instead of Stride if both you and your animal companion have the corresponding movement type.</p><p>Using your companion's support benefit this way does not prevent them from taking actions other than move actions this turn, but none of your other Strikes get your companion's support benefit this turn, and your companion cannot use their support benefit again this turn.</p>"
+    },
+    "rules": [],
+    "slug": "blood-pack",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "move"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "_id": "yVmnhnTz8Lu9e3Vn",
+  "img": "modules/pf2e-misc/assets/icons/BloodPack.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ae5d3d52329445febf341f97e12c7d6d3ce07855"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728316845059,
+    "modifiedTime": 1728346504627,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!yVmnhnTz8Lu9e3Vn"
+}

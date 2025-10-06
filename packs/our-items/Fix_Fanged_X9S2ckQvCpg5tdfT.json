@@ -1,0 +1,27 @@
+{
+  "name": "Fix Fanged",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "X9S2ckQvCpg5tdfT",
+  "description": "",
+  "sort": 4400000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "48ad144863e01bbb1698255550eca0e6a434b80a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!X9S2ckQvCpg5tdfT"
+}

@@ -1,0 +1,90 @@
+{
+  "folder": "XqB8uQ240exZbp8T",
+  "name": "Scarlet Blade Mastery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You've mastered your arsenal of magus techniques and divine spells. Your proficiency ranks for your magus class DC and for spell attack modifiers and spell DCs increase to master.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.scarlet-blade.rank",
+        "value": 3
+      }
+    ],
+    "slug": "scarlet-blade-mastery",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 3
+        },
+        "magus": {
+          "rank": 3,
+          "attribute": null
+        }
+      }
+    }
+  },
+  "_id": "EFoSsL6X5gJq8ywE",
+  "img": "icons/commodities/gems/pearl-red-gold.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "64fca981b5fa6035791b385fb40671f6bd40f89a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1726925554745,
+    "modifiedTime": 1757485468004,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!EFoSsL6X5gJq8ywE"
+}

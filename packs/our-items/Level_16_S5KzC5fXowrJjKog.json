@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "Xo6uT10RWL5JkT3V",
+  "name": "Level 16",
+  "color": null,
+  "sorting": "a",
+  "_id": "S5KzC5fXowrJjKog",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "e16ce9c4ce9bc0d14ffc6ec7a15db3ae62644a90"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!S5KzC5fXowrJjKog"
+}

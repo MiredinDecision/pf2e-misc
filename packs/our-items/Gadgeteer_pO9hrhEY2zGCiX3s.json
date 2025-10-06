@@ -1,0 +1,141 @@
+{
+  "img": "icons/magic/time/clock-spinning-gold-pink.webp",
+  "name": "Gadgeteer",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You focus on alchemical devices and machines that run on alchemical energy.</p><p><strong>Formulas</strong> Two common 1st-level gadgets.</p><p><strong>Field Benefit</strong> All items with the gadget tag have the alchemical tag for you and function as alchemical items for all class features. All uncommon gadgets are common for you, including their formulae.</p><p><strong>Field Vials</strong> You can spend a versatile vial when a gadget is made by quick alchemy or deployed by the alchemist to do one of the following:</p><ul><li><p>Doubling the duration of the gadget</p></li><li><p>Increase its DC or attack roll by 1</p></li><li><p>Widen the radius of the gadget by 5ft</p></li></ul><p>@UUID[Compendium.pf2e-misc.our-items.Item.bqqll6yUfhtWn6WP]{Field Discovery}<strong> (5th) </strong>Your gadgets' effectiveness in combat have been improved. Any gadget that deals damage adds your @Damage[@actor.system.abilities.int.mod]{Intelligence modifier} to its damage, and any gadget that restores hit points or adds temporary hit points improves their effect by @Damage[(2*@actor.system.abilities.int.mod)[healing]]{twice your Intelligence modifier}.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.6jc27HsryzIo6mtH]{Advanced Vials}<strong> (11th) </strong>When a gadget's effect would end, the alchemist can spend an advanced vial as an @UUID[Compendium.pf2e.actionspf2e.pvQ5rY2zrtPI614F]{Interact} action to Activate the vial again. The gadget must be within reach of the alchemist.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.BDkX8AlLorx4oPYV]{Greater Field Discovery}<strong> (13th) </strong>When you use a gadget, you can apply its effects to two targets. For gadgets that have an area effect, create a second area that does not overlap that is also affected by the gadget. Both effects of the gadgets can be Activated again using the @UUID[Compendium.pf2e-misc.our-items.Item.6jc27HsryzIo6mtH]{advanced vials} feature.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.alchemist",
+        "value": {
+          "advancedVials": "Compendium.pf2e-misc.our-items.Item.6jc27HsryzIo6mtH",
+          "fieldDiscovery": "Compendium.pf2e-misc.our-items.Item.bqqll6yUfhtWn6WP",
+          "greaterFieldDiscovery": "Compendium.pf2e-misc.our-items.Item.BDkX8AlLorx4oPYV"
+        }
+      },
+      {
+        "itemType": "consumable",
+        "key": "ItemAlteration",
+        "label": "PF2E.SpecificRule.Alchemist.ResearchField.FieldVials",
+        "mode": "add",
+        "predicate": [
+          "item:slug:versatile-vial"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You can spend a versatile vial when a gadget is made by quick alchemy or deployed by the alchemist to do one of the following: Doubling the duration of the gadget, increase its DC or attack roll by 1, or widen the radius of the gadget by 5ft."
+          }
+        ]
+      },
+      {
+        "itemType": "consumable",
+        "key": "ItemAlteration",
+        "label": "PF2E.SpecificRule.Alchemist.ResearchField.FieldBenefit",
+        "mode": "add",
+        "predicate": [
+          "item:trait:gadget"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "All items with the gadget tag have the alchemical tag for you and function as alchemical items for all class features. All uncommon gadgets are common for you, including their formulae."
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "consumable",
+        "predicate": [
+          "item:trait:gadget"
+        ],
+        "mode": "add",
+        "property": "traits",
+        "value": "alchemical"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "consumable",
+        "predicate": [
+          "item:trait:gadget",
+          "item:rarity:uncommon"
+        ],
+        "mode": "override",
+        "property": "rarity",
+        "value": "common"
+      }
+    ],
+    "traits": {
+      "otherTags": [
+        "alchemist-research-field"
+      ],
+      "rarity": "uncommon",
+      "value": [
+        "alchemist"
+      ]
+    },
+    "slug": "gadgeteer",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1754436872730,
+    "modifiedTime": 1758072790695,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "JTSOoYlYMYBRCig8",
+  "flags": {
+    "scene-packer": {
+      "hash": "b948f3b8696c3f85cfce60a591d9c3e263bd6e97",
+      "sourceId": "Item.0p6XoqoGlVmchC9r"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "pO9hrhEY2zGCiX3s",
+  "sort": 0,
+  "_key": "!items!pO9hrhEY2zGCiX3s"
+}

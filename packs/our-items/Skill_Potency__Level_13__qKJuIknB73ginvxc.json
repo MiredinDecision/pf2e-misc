@@ -1,0 +1,80 @@
+{
+  "folder": "DB1GYPgWx8pK1wPw",
+  "name": "Skill Potency (Level 13)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">At 3rd level, choose a single skill. You gain a +1 potency bonus with that skill. At 6th level, choose a second skill to gain a +1 potency bonus. At 9th level, choose one of those skills and increase its potency bonus to +2. At 13th level, increase the potency bonus of your second skill to +2 and choose a third skill to gain a +1 potency bonus. At 15th level, increase the third skill’s potency bonus to +2 and choose a fourth skill to gain a +1 potency bonus. At 17th level, choose one of your three skills with a +2 potency bonus to increase to +3, and choose a fifth skill to gain a +1 potency bonus. Finally, at 20th level, choose one of the two skills with a +2 potency bonus to increase to +3, choose one of the three skills at a +1 potency bonus to increase to +2, and choose one new skill to gain a +1 potency bonus. You can spend 1 week to retrain one of these assignments at any time.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HauE2nykqzs0IbvY",
+        "priority": 90
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.pRoLGdzA5XiS1joD"
+      }
+    ],
+    "slug": "skill-potency-level-13",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/light/explosion-star-small-pink.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a8a6d85b9d4d8aa614cae0d902b9b2886036fbca",
+      "sourceId": "Item.jYZWwjcTRi8eA2lp"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728087169418,
+    "modifiedTime": 1728087272216,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "qKJuIknB73ginvxc",
+  "sort": 0,
+  "_key": "!items!qKJuIknB73ginvxc"
+}

@@ -1,0 +1,73 @@
+{
+  "folder": "bdSPaUyZ2kcTsYsQ",
+  "name": "Amphibious Slime",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You lived in an environment with both aquatic and terrestrial sections, and you've grown accustomed to moving through water. You gain a swim Speed of 10 feet and the amphibious trait. Like all creatures with the amphibious trait, you can breath both water and air.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActorTraits",
+        "add": [
+          "amphibious"
+        ]
+      },
+      {
+        "key": "BaseSpeed",
+        "selector": "swim",
+        "value": 10
+      }
+    ],
+    "slug": "amphibious-slime",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Slime",
+      "slug": "slime",
+      "uuid": "Item.nLkKsGBpeT5mJLI6"
+    }
+  },
+  "_id": "tqsWRlLO2LLpU0fb",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0ae17281e276003cdde9ceb0cbd083e9d5b970e4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.tqsWRlLO2LLpU0fb",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!tqsWRlLO2LLpU0fb"
+}

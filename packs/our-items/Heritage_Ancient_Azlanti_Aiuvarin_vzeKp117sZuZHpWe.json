@@ -1,0 +1,26 @@
+{
+  "name": "Heritage Ancient Azlanti Aiuvarin",
+  "sorting": "a",
+  "folder": "GHymta0xJV2w7Scz",
+  "type": "Item",
+  "_id": "vzeKp117sZuZHpWe",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "6d4fabd0a45824655cea3d76085117824bf35fb4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.343",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753907710484,
+    "modifiedTime": 1753907719061,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!folders!vzeKp117sZuZHpWe"
+}

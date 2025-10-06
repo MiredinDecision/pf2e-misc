@@ -1,0 +1,118 @@
+{
+  "name": "Fleche",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create a of magical copy of your weapon which then flies unerringly at your target, dealing your weapon's damage (Including Fundamental and Property runes), adding your Charisma modifier instead of your Strength modifier.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "scarlet-blade:charisma",
+        "toggleable": true,
+        "value": false
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "override",
+        "relabel": "Charisma",
+        "selector": "damage",
+        "value": "@actor.system.abilities.cha.mod",
+        "predicate": [
+          {
+            "or": [
+              "item:usage:hands:1",
+              "item:category:unarmed"
+            ]
+          },
+          "scarlet-blade:charisma",
+          "melee"
+        ]
+      }
+    ],
+    "slug": "fleche",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "magus",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "You are wielding a one-handed Melee weapon",
+    "target": {
+      "value": "1 Creature"
+    },
+    "range": {
+      "value": "15 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "icons/magic/light/swords-light-glowing-white.webp",
+  "folder": "y6eJ407r6YL7mRFj",
+  "ownership": {
+    "default": 0,
+    "KPVkkpR21c13yy2y": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "90e4074dc9126a2f1316ce548eaecd1646c50ad3",
+      "sourceId": "Actor.ZSxtwMkgJnC5gljK.Item.I8rBHq8ruk1fkvz4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727127608522,
+    "modifiedTime": 1727315285973,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "UNuYzUcE4CZawjCM",
+  "sort": 300000,
+  "_key": "!items!UNuYzUcE4CZawjCM"
+}

@@ -1,0 +1,90 @@
+{
+  "img": "systems/pf2e/icons/spells/blood-vendetta.webp",
+  "name": "Spell Effect: Blood Vendetta (Failure)",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.93cnwwlqGQlDp29q]{Blood Vendetta}</p><p>You gain weakness 1 to piercing and slashing damage until the persistent damage stops.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": null,
+      "sustained": false,
+      "unit": "unlimited",
+      "value": -1
+    },
+    "level": {
+      "value": 2
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "Weakness",
+        "predicate": [
+          {
+            "or": [
+              "self:condition:persistent-damage:bleed",
+              "self:condition:persistent-damage:spirit"
+            ]
+          }
+        ],
+        "type": [
+          "piercing",
+          "slashing"
+        ],
+        "value": 1
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "spell-effect-blood-vendetta-failure",
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758238532974,
+    "modifiedTime": 1758238572404,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "lX12WXvBxEBf2clb",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.spell-effects.Item.buXx8Azr4BYWPtFg",
+      "hash": "4aa882dcbec0b6d00b2316862ffe812dbc9764cb"
+    }
+  },
+  "_id": "kuKHEWqtnb8IUl4O",
+  "sort": 0,
+  "_key": "!items!kuKHEWqtnb8IUl4O"
+}

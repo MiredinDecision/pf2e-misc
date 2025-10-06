@@ -1,0 +1,105 @@
+{
+  "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+  "name": "Spell Repertoire (Eldritch Shadow)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Eldritch Shadow</strong> Your magical skill with the shadow provides you with arcane magical power. You are a spellcaster and can cast spells of the arcane tradition using the Cast a Spell activity. As an eldritch shadow, you draw your power from the shadows, and excel at spells that attack and confuse your foes. As such, you may add any spells with the Shadow trait to your spells you have access to, regardless of what tradition they belong to. However, you may not learn or use any spell with the Light trait.</p><p>Each day, you can cast up to 2 1st-rank spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p><p>As you increase in level as an eldritch shadow, your number of spells per day increases, as does the highest rank of spells you can cast, as shown on the Eldritch Shadow Spells per Day table.</p><p>Some of your spells require you to attempt a spell attack to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Since your key attribute is Charisma, your spell attack modifier and spell DC use your Charisma modifier.</p><p><strong>Swapping Spells in Your Repertoire</strong></p><p>As you gain new spells in your repertoire, you might want to replace some of the spells you previously learned. Each time you gain a level and learn new spells, you can swap out one of your old spells for a different spell of the same rank. This spell can be a cantrip. You can also swap out spells by retraining during downtime.</p>"
+    },
+    "rules": [
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "property": "description",
+        "value": [
+          {
+            "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartOne"
+          },
+          {
+            "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartTwo"
+          },
+          {
+            "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.PartThree"
+          },
+          {
+            "divider": true,
+            "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.SpellSwapping"
+          },
+          {
+            "text": "PF2E.SpecificRule.ClassFeatures.SpellRepertoire.{actor|class.slug}.SpellSwapping"
+          }
+        ]
+      },
+      {
+        "itemId": "{item|id}",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "traits",
+        "value": "{actor|class.slug}"
+      }
+    ],
+    "slug": "spell-repertoire-eldritch-shadow",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727115904176,
+    "modifiedTime": 1727226371464,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "aT8L3wPj6xSrwj9o",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH",
+      "hash": "b14a70911dd1e3e0bbc9bf44e262c647c3c79239"
+    }
+  },
+  "_id": "45I0GwXmg2PhmaHH",
+  "sort": 175000,
+  "_key": "!items!45I0GwXmg2PhmaHH"
+}

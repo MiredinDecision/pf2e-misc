@@ -1,0 +1,97 @@
+{
+  "img": "systems/pf2e/icons/equipment/other/ebon-fulcrum-lenses.webp",
+  "name": "Professor Scrabner's Lens",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A glass lens designed to condense and focus light into a single point.</p>"
+    },
+    "rules": [],
+    "slug": "ebon-fulcrum-lens",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Abomination Vaults Hardcover Compilation",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": "Compendium.ruins-of-pinegarde.pinegarde-items.Item.pNXcguzGhfM4H9eu",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802850447,
+    "modifiedTime": 1726802850447,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "xTGsfv2Ay95QwYhB",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8e5ec13d609aaceefd74f9bc5a2d47504787451c"
+    }
+  },
+  "_id": "pNXcguzGhfM4H9eu",
+  "sort": 0,
+  "_key": "!items!pNXcguzGhfM4H9eu"
+}

@@ -1,0 +1,77 @@
+{
+  "folder": "fQFFx5Y4aa2vQJ34",
+  "name": "Perception Potency +1",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">At 7th level, you gain a +1 potency bonus to Perception, increasing to +2 at level 13 and +3 at level 19.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "perception",
+        "value": 1,
+        "type": "item",
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "perception-potency-1",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "cm4oRGBbojT5xwZX",
+  "img": "systems/pf2e/icons/equipment/held-items/crystal-ball-clear-quartz.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "176e6ea63b44ceee55ef0846df2716e4a4fb2cac"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.4",
+    "createdTime": 1737994543898,
+    "modifiedTime": 1737995646110,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!cm4oRGBbojT5xwZX"
+}

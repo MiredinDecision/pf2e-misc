@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "VSWyMz3nETRIsSMi",
+  "name": "Greater Field Discovery",
+  "color": null,
+  "sorting": "a",
+  "_id": "GQCKhCvHAiTcM3Yg",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "8ad64076032f3a9066493124165342c6a7e66412"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!GQCKhCvHAiTcM3Yg"
+}

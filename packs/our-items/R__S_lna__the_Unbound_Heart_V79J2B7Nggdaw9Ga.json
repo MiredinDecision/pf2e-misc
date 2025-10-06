@@ -1,0 +1,378 @@
+{
+  "img": "modules/pf2e-tomb-guardian/assets/tomb-guardian-sword.webp",
+  "name": "Ró Sálna, the Unbound Heart",
+  "system": {
+    "description": {
+      "gm": "<p><em>Ró Sálna</em> is focused on the safety and protection of the Bloodbloom and the people of Geb. It imparts the following edicts and anathema on the wielder. If they're violated, the artifact reverts to its non-artifact form until the wielder atones, either through the use of the atone ritual, or through a short side quest or influence encounter of your own design.</p><p><strong>Edicts</strong> stop <span id=\"nametitle\" class=\"sname\">Růžena</span>, protect the quick and the dead, root out the corrupt Blood Lords, reign in Geb</p><p><strong>Anathema</strong> aid <span id=\"nametitle\" class=\"sname\">Růžena in her attempt to ascend</span>, the corrupt Blood Lords, or to fulfill Geb's twisted designs, willingly betray the people of Geb, allow your hungers to endanger your comrades</p><h2>Choose Apex Attribute</h2><p><em>Ró Sálna</em> is a powerful apex item, but the apex bonuses granted are more powerful than most. As with all apex items, a PC can only benefit from one apex item at a time. When your character creates the artifact, choose one attribute modifier. When you invest the artifact, you either increase that attribute modifier by 2 or increase it to +5, whichever would give you a higher value. Once you make this selection, you can't change it later.</p><hr /><p><em>Note: Select the apex attribute on the details tab of this item.</em></p><h2>Choose Heroic Skill</h2><p><em>Ró Sálna</em> also bolsters one skill of your choice. When your character creates the artifact, choose one of the three skills listed for the artifact. As long as the artifact is invested by you, it grants you a +4 item bonus to checks with that skill.</p><h2>Heroic Recovery</h2><p>Finally, <em>Ró Sálna</em> has 1 Recovery Point; this point replenishes once per day when its invested partner does their daily preparations. When the artifact's partner's @UUID[Compendium.pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed} value would reach an amount sufficient to kill them (usually 4), the artifact spends its Recovery Point, and the partner instead reduces their @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} value by 1 and stabilizes at 0 Hit Points.</p><h2>Invested Weapon</h2><p>Note that normally staves and weapons don't need to be invested, but <em>Ró Sálna</em> is an exception to this rule. It provides its constant benefits as long as the item remains invested and is carried or stowed by a character; they need not be held in a hand or wielded as a weapon in combat in order to grant these benefits. If you drop an invested staff or weapon, are disarmed of it, or otherwise release it from being held or stowed, you continue to benefit from its invested qualities until the end of your next turn—if you reclaim the staff or weapon before the end of your next turn, then your investment continues uninterrupted. If you fail to reclaim the item by this point, it's no longer invested until you repeat the process by Interacting with the item, taking the normal steps to invest the item.</p><h2>Intelligent Weapon</h2><p>33-35</p><p><strong>Perception</strong> [[/r 1d20+3x #Perception]]{+3x}; precise low-light vision and hearing within 30 feet</p><p><strong>Communication</strong> telepathy (partner only)</p><p>33-35</p><p><strong>Skills</strong> Appropriate Lore [[/r 1d20+3x #Appropriate Lore]]{+33}, Appropriate Skill [[/r 1d20+3x #Appropriate Skill]]{+3x}, Appropriate Skill [[/r 1d20+3x #Appropriate Skill]]{+3x}</p><p>5-7</p><p><strong>Int</strong> +, <strong>Wis</strong> +, <strong>Cha</strong> +</p><p>33-35</p><p><strong>Will</strong> [[/r 1d20+3x #Will]]{+3x}</p>",
+      "value": "<p><em>Ró Sálna, the Unbound Heart</em> was lovingly crafted by Christobel to protect and empower their daughter to make her own path in life, and has been steadily maintained and improved by Sifra and Harwen over time. It is crafted out of a special and rare material known only as soulsteel - a dark, nearly black metal with veins of silver - that is difficult to work due to its more volatile properties. Due to the efforts of her loved ones and Stithi, it has been partially alloyed with a sacred, secret alloy that makes the blade count as both cold iron and silver. This weapon has the effect of the @UUID[Compendium.pf2e.equipment-srd.cHCaDiKel0qAIQmC]{Conducting} rune. If you're unholy, you're @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} while holding <em>Ró Sálna</em>. You can't recover from this condition while holding the weapon.</p><p>This sword automatically grants a success on any effects that attempt to inflict the controlled condition or attempt to influence the actions (such as charm, command, or a nosoi's haunting melody) of its wielder if they would roll anything less than a success.</p><hr /><p><strong>Activate - Shatter Fetters</strong> <span class=\"action-glyph\">f </span>(concentrate, divine)</p><p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Trigger</strong> An enemy the wielder can see uses an ability or spell that would restrict or enforce specific actions on their allies.</p><p><strong>Effect</strong> The weapon attempts to counteract the ability or spell as if it were the same rank as the triggering effect (needing only a success compared to the DC of the triggering effect) with a modifier equal to the wielder's Spell DC or Class DC -10, whichever is higher.</p><hr /><p><strong>Activate - Holy Retribution</strong> <span class=\"action-glyph\">f</span> (concentrate, divine)</p><p><strong>Trigger</strong> Your previous action was to use <em>Ró Sálna</em> to Strike a foe you have witnessed use a compulsion or control effect on an ally within the past hour.</p><p><strong>Frequency</strong> once per hour</p><p><strong>Effect</strong> your blow is empowered by the righteousness of @UUID[Compendium.pf2e.deities.Item.fTJLgTfEMZreJ19r]{Milani}. The target's holy weakness is triggered again or, if the target doesn't have a holy weakness, it takes @Damage[15[spirit]] damage.</p><hr /><p><strong>Clean - </strong>Remains pristine despite filth</p><p><strong>Chilled - </strong>Slightly cool to the touch.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Soulsteel",
+        "slug": "soulsteel-damage",
+        "selector": "{item|_id}-damage",
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "target:trait:incorporeal"
+        ],
+        "property": "property-runes",
+        "value": "ghost-touch"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": {
+          "brackets": [
+            {
+              "start": 6,
+              "end": 13,
+              "value": "astral"
+            },
+            {
+              "start": 14,
+              "value": "greater-astral"
+            }
+          ]
+        }
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|_id}-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "dice:slug:greater-astral",
+              "dice:slug:astral"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "upgrade",
+        "property": "dice-faces",
+        "value": 8
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver"
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "cold-iron"
+      },
+      {
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": 2
+          }
+        ],
+        "inMemoryOnly": true,
+        "key": "GrantItem",
+        "predicate": [
+          "self:trait:unholy"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR",
+        "allowDuplicate": false
+      },
+      {
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "inflicts:controlled"
+        ],
+        "selector": "saving-throw",
+        "adjustment": {
+          "criticalFailure": "to-success",
+          "failure": "to-success"
+        }
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.SpecificLore.Vampire",
+            "value": "vampire-lore"
+          },
+          {
+            "label": "PF2E.Skill.Medicine",
+            "value": "medicine"
+          },
+          {
+            "label": "PF2E.Skill.Religion",
+            "value": "religion"
+          }
+        ],
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill",
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.skill}",
+        "type": "item",
+        "value": 4,
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.abilities.{item|system.apex.attribute}.mod",
+        "value": 1,
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "intelligent",
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "apex",
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "invested",
+        "predicate": [
+          "self:level:17"
+        ]
+      }
+    ],
+    "slug": "scarlet-blade-sword",
+    "_migration": {
+      "version": 0.943,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.5.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "magical",
+        "mythic",
+        "resonant",
+        "soulsteel",
+        "two-hand-d12"
+      ],
+      "rarity": "unique",
+      "toggles": {
+        "versatile": {
+          "selected": null
+        }
+      }
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "quantity": 1,
+    "baseItem": "scarlet-blade",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 8244
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Bastard Sword",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this bastard sword is unclear."
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "advanced",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 3,
+      "striking": 2,
+      "property": [
+        "holy",
+        "conducting",
+        "greaterFlaming"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 3,
+        "striking": 2,
+        "property": [
+          "holy",
+          "conducting",
+          "greaterFlaming"
+        ]
+      }
+    },
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1758578469656,
+    "modifiedTime": 1758578482314,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "a4ac62a7fadea6902cec3e46f759c290c66dea7c",
+      "sourceId": "Actor.Sk0x5dGjX1LuSDjq.Item.n38iig05RNTRlBUb"
+    }
+  },
+  "effects": [],
+  "folder": "68L66EWGGyYMboMM",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "V79J2B7Nggdaw9Ga",
+  "sort": 100000,
+  "_key": "!items!V79J2B7Nggdaw9Ga"
+}

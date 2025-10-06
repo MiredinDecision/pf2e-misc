@@ -1,0 +1,157 @@
+{
+  "img": "icons/equipment/finger/ring-band-engraved-silver.webp",
+  "name": "Ring of Magic (Type V)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This ring is made from the purest platinum and is covered in esoteric magical symbols. It does nothing unless you have a spellcasting class feature. While wearing the ring of magic, you gain a +3 item bonus to the skill corresponding to one of your spellcasting traditions, and have two additional 5th-rank and one additional 4th-rank spell slots each day. You prepare spells in these slots or cast from them spontaneously, just as you normally cast your spells.</p><p>If you take off the ring for any reason, you lose the additional spell slots. You can't gain spell slots from more than one ring of magic per day, nor can a single ring of magic grant spell slots more than once per day.</p><p>If you can cast spells in a variety of different ways (such as if you are a draconic bloodline sorcerer with the wizard multiclass archetype), you can divide the spell slots as you wish among your various sources of spells.</p><p><strong>Craft Requirements</strong> You have a spellcasting class feature.</p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Arcane",
+            "value": {
+              "skill": "arcana",
+              "tradition": "arcane"
+            }
+          },
+          {
+            "label": "Divine",
+            "value": {
+              "skill": "religion",
+              "tradition": "divine"
+            }
+          },
+          {
+            "label": "Primal",
+            "value": {
+              "skill": "nature",
+              "tradition": "primal"
+            }
+          },
+          {
+            "label": "Occult",
+            "value": {
+              "skill": "occultism",
+              "tradition": "occult"
+            }
+          }
+        ],
+        "flag": "spellcasting",
+        "prompt": "Pick your spellcasting tradition.",
+        "adjustName": false
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.spellcasting.skill}",
+        "type": "item",
+        "value": 3,
+        "hideIfDisabled": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "{item|flags.pf2e.rulesSelections.spellcasting.tradition}"
+      }
+    ],
+    "slug": "ring-of-magic-type-v",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 12500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Ring",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757951579730,
+    "modifiedTime": 1757951963051,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "aAVNiFukalYXPGwH",
+  "flags": {
+    "scene-packer": {
+      "hash": "bf12c18a450cc4de030cf743e5108cdf865ac0d2",
+      "sourceId": "Item.fBvhCNjBHXrRWn9U"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "gyIFlQmbe8ylvoNd",
+  "sort": 400000,
+  "_key": "!items!gyIFlQmbe8ylvoNd"
+}

@@ -1,0 +1,97 @@
+{
+  "img": "systems/pf2e/icons/equipment/cursed-items/rose-of-loves-lost.webp",
+  "name": "Effect: Wilting Rose - Weapon (Major)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.lmUPNdEuW3QUIHr6]{Wilting Rose (Major)}</p><p>Strikes with the weapon deal an additional 1d8 piercing damage.</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "includeHandwraps": true,
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "weapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "damageType": "piercing",
+        "diceNumber": 1,
+        "dieSize": "d8",
+        "key": "DamageDice",
+        "selector": "{item|flags.pf2e.rulesSelections.weapon}-damage"
+      }
+    ],
+    "slug": "effect-wilting-rose-major",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #188: They Watched the Stars",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757646052439,
+    "modifiedTime": 1757646119136,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "I6u7oK6ZH1g1PI69",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.17tCG3EDrTGjHrU3",
+      "hash": "c97f5d38511313a36e8ddc1b33a86aa523398ab8"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "i7OVeTaYwfLpEqtp",
+  "sort": 0,
+  "_key": "!items!i7OVeTaYwfLpEqtp"
+}

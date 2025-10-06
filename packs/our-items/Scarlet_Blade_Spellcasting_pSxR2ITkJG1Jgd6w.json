@@ -1,0 +1,96 @@
+{
+  "img": "icons/sundries/books/book-symbol-hexagram-silver-red.webp",
+  "name": "Scarlet Blade Spellcasting",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<h2>Scarlet Blade Spellcasting</h2><p>You are a spellcaster and can cast spells of the Arcane and Divine Traditions using the Cast a Spell activity (Player Core 299). As a Scarlet Blade, you draw your power from your skill with your blade and your blood.</p><p>Each day, you can cast up to two 1st-rank spells. You must know spells to cast them, and you learn them via the spell repertoire class feature. The number of spells you can cast each day is called your spell slots.</p><p>As you increase in level as a scarlet blade, your number of spells per day increases, as does the highest rank of spells you can cast, as shown on the Magus Spells per Day table. When you Cast a Spell from your Scarlet Blade Spells that requires a spell slot, expend Hit Points equal to two times the spell's rank. This does not count as damage, and may not be reduced.</p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Some of your spells require you to attempt a spell attack roll to see how effective they are, or have your enemies roll against your spell DC (typically by attempting a saving throw). Your spell attack rolls and spell DCs use your Constitution modifier.</span> Details on calculating these statistics appear on page 403.</p><h3>Heightening Spells</h3><p>When you get spell slots of 2nd rank and higher, you can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. You must have a spell in your spell repertoire at the rank you want to cast it in order to heighten it to that rank. Many spells have specific improvements when they are heightened to certain ranks. The signature spells class feature lets you heighten certain spells freely.</p><h3>Cantrips</h3><p>Some of your spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. You can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half your level rounded up—this is usually equal to the highest rank of scarlet blade spell slot you have. For example, as a 1st-level magus, your cantrips are 1st-rank spells, and as a 5th-level magus, your cantrips are 3rd-rank spells.</p><h3>Magus Spells Per Day</h3><table class=\"pf2e\"><thead><tr><th>Your Level</th><th>Cantrips</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead><tbody><tr><td>1</td><td>5</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2</td><td>5</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>3</td><td>5</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4</td><td>5</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>5</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>6</td><td>5</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>7</td><td>5</td><td>-</td><td>-*</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>8</td><td>5</td><td>-</td><td>-*</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>9</td><td>5</td><td>-</td><td>-*</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>10</td><td>5</td><td>-</td><td>-*</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>11</td><td>5</td><td>-</td><td>-</td><td>-*</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>12</td><td>5</td><td>-</td><td>-</td><td>-*</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>13</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-*</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td></tr><tr><td>14</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-*</td><td>-</td><td>2</td><td>2</td><td>-</td><td>-</td></tr><tr><td>15</td><td>5</td><td>-</td><td>--</td><td>-</td><td>-*</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>16</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-*</td><td>-</td><td>-</td><td>2</td><td>2</td><td>-</td></tr><tr><td>17</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-*</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td></tr><tr><td>18</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-*</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td></tr><tr><td>19</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-*</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td></tr><tr><td>20</td><td>5</td><td>-</td><td>-</td><td>-</td><td>-*</td><td>-</td><td>-</td><td>-</td><td>2</td><td>2</td></tr><tr><td colspan=\"11\"><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">* The studious spells class feature gives you extra slots of this level for specific spells.</span></td></tr></tbody></table>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "itemType": "spell",
+        "predicate": [
+          "item:spell-slot"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "title": "Sanguine Blade",
+            "text": "When you Cast a Spell from your Scarlet Blade Spells that require a spell slot, @Damage[2*@item.rank]{expend Hit Points} equal to two times the spell's rank. This does not count as damage, and may not be reduced."
+          }
+        ]
+      }
+    ],
+    "slug": "arcane-spellcasting-scarlet-blade",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique",
+      "selected": {}
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1726808271542,
+    "modifiedTime": 1757896914049,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "UzQ4odBakbCUtHAD",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b8d2378cffc03941b3b69d3e84e57dc253aedaef",
+      "sourceId": "Item.TSkOe3AMFzyjBTHA"
+    }
+  },
+  "_id": "pSxR2ITkJG1Jgd6w",
+  "sort": 0,
+  "_key": "!items!pSxR2ITkJG1Jgd6w"
+}

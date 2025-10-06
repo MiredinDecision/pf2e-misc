@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Agent Doctrine",
+  "color": null,
+  "sorting": "a",
+  "_id": "QgTv6Mm1k3YmSvMu",
+  "description": "",
+  "sort": 300000,
+  "flags": {
+    "scene-packer": {
+      "hash": "e070b3e813c8807c5bdbb404918f646ca8a9b83a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758929129221,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!QgTv6Mm1k3YmSvMu"
+}

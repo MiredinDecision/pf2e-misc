@@ -1,0 +1,26 @@
+{
+  "name": "Sorcerer",
+  "sorting": "a",
+  "folder": "TDMGznNr8lEvhXdf",
+  "type": "Item",
+  "_id": "6jgWgy2wVBClFUCa",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "0558d29f14bd233b76e593937bdfe94b9daa7800"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802818286,
+    "modifiedTime": 1726802818286,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj"
+  },
+  "_key": "!folders!6jgWgy2wVBClFUCa"
+}

@@ -1,0 +1,143 @@
+{
+  "_id": "cdqB3vsGm5HFgq8u",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Android Gunner Dedication",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Every chance you get, you practice with the Strange Firearm to increase your draw speed and accuracy. You treat the Strange Firearm as a martial weapon for the purposes of proficiency. You gain access to its critical specialization effect. You also gain the @UUID[Compendium.pf2e.adventure-specific-actions.Item.Bh1Qnh8JP4CMysRK]{Shootist's Draw} action.</p><p><strong>Special</strong> You can't select another dedication feat until you've gained two other feats from the Android Gunner achetype</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.adventure-specific-actions.Item.Bh1Qnh8JP4CMysRK",
+        "flag": "shootistsDraw"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:ranged",
+          "item:slug:strange-firearm",
+          {
+            "or": [
+              "item:category:simple",
+              "item:category:martial",
+              "item:category:advanced"
+            ]
+          },
+          {
+            "or": [
+              "item:usage:hands:1"
+            ]
+          },
+          {
+            "gte": [
+              "item:proficiency:rank",
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          "item:slug:strange-firearm"
+        ],
+        "label": "Strange Firearm",
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 4,
+              "value": 2
+            },
+            {
+              "start": 5,
+              "end": 12,
+              "value": 3
+            },
+            {
+              "start": 13,
+              "value": 4
+            }
+          ]
+        },
+        "slug": "strange-fiream-weapon"
+      }
+    ],
+    "slug": "android-gunner-dedication",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "dedication"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder #165: Eyes of Empty Death",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Strange Firearm"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.NwMiszlcqNZWtezq",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802837111,
+    "modifiedTime": 1726802837111,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "pf2e": {
+      "itemGrants": {
+        "shootistsDraw": {
+          "id": "FNi0HL9CBG7qpUKt",
+          "onDelete": "detach"
+        }
+      }
+    },
+    "scene-packer": {
+      "hash": "d3c7188606ce1a031e1dde611d0dd42196f4e06e"
+    }
+  },
+  "effects": [],
+  "folder": "eTKezaW24B1WWiaf",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "_key": "!items!cdqB3vsGm5HFgq8u"
+}

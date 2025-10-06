@@ -1,0 +1,89 @@
+{
+  "img": "systems/pf2e/icons/features/feats/dread-marshal-stance.webp",
+  "name": "Effect: Frontal Assault",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.rW8ujIJiylHFpz7u]{Warlord's Strategic Stance} and @UUID[Compendium.pf2e-misc.our-items.Item.Ccp7QuU8B6ZLIn6S]{Frontal Assault}</p><p>You command your allies to perform a full frontal assault.</p><p><strong>Effect</strong> Your aura grants you and your allies within the aura a +1 status bonus to damage rolls. When you or an ally in the aura critically hits an enemy with a Strike, that enemy is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}. If you're wielding a weapon that has more than one damage die (typically due to a striking rune), you can have the status bonus equal the weapon's number of damage dice instead of +1.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "encounter",
+      "value": -1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Vyklade's Book of Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "damage",
+        "type": "status",
+        "value": "@item.origin.flags.pf2e.highestWeaponDamageDice*@actor.flags.pf2e.warlord.bonus"
+      },
+      {
+        "key": "Note",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "selector": "strike-damage",
+        "text": "PF2E.SpecificRule.Marshal.DreadMarshalStance.Note",
+        "title": "Frontal Assault"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-frontal-assault",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755229425524,
+    "modifiedTime": 1755267074637,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "NkYeLnkZRgzZVVow",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.Nj8RrAzWqA2q8Jqh",
+      "hash": "ad716df6731e7e7dcc76a2e5ae5d177485e3722a"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "wfQwuUh4kIgggLpR",
+  "sort": 0,
+  "_key": "!items!wfQwuUh4kIgggLpR"
+}

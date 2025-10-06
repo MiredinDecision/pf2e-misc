@@ -1,0 +1,27 @@
+{
+  "name": "Fix Exemplar",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "POqi1TfXrYgakQHI",
+  "description": "",
+  "sort": 3100000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "6124091e5568a0868741f0a040778c3f86f5c995"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1736889648139,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!POqi1TfXrYgakQHI"
+}

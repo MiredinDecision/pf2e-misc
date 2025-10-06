@@ -1,0 +1,26 @@
+{
+  "name": "Level 09",
+  "sorting": "a",
+  "folder": "59yAZRS1LLCVc0QL",
+  "type": "Item",
+  "_id": "yyzzUp971t5Ni8uH",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "f6351dd60a9d641b5eba59589007b1f23e33d583"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!yyzzUp971t5Ni8uH"
+}

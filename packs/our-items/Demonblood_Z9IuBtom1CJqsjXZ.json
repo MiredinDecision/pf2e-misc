@@ -1,0 +1,116 @@
+{
+  "folder": "S6hh0iH0CsddGG63",
+  "img": "icons/creatures/unholy/demon-fire-horned-winged-roar.webp",
+  "name": "Demonblood",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You descend from fiends or bear the mark of the fiendish realms, manifesting as some unusual feature that belies your heritage, such as horns or a tail. You gain the tiefling trait, in addition to the traits from your ancestry. You also gain Low-Light Vision, or you gain Darkvision if your ancestry already has low-light vision. You can choose from tiefling feats and feats from your ancestry whenever you gain an ancestry feat.</span></p><p><span style=\"font-family:Roboto, sans-serif\">You're descended in some way from a dragon. Your physical features might show this outwardly, with a pair of draconic horns, patches of scaly skin, or even a tail, or you might develop an internal reserve of draconic power. You gain the dragonblood trait, in addition to the traits from your ancestry. Add Draconic to your ancestry's list of additional languages (allowing you to choose it as a language if your Intelligence modifier is positive). When you roll a success on a saving throw against a fear effect, you get a critical success instead. You can choose from dragonblood feats and feats from your ancestry whenever you gain an ancestry feat.</span></p>"
+    },
+    "rules": [
+      {
+        "actorFlag": true,
+        "choices": [
+          {
+            "label": "Demonic Dragon",
+            "value": {
+              "damageType": "fire",
+              "dragon": "demonic",
+              "save": "reflex",
+              "shape": "cone",
+              "tradition": "divine"
+            }
+          }
+        ],
+        "flag": "dragonblood",
+        "key": "ChoiceSet"
+      },
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "predicate": [
+          "item:trait:fear"
+        ],
+        "selector": "saving-throw"
+      },
+      {
+        "key": "Sense",
+        "selector": "low-light-vision"
+      },
+      {
+        "key": "Sense",
+        "predicate": [
+          "self:low-light-vision:from-ancestry"
+        ],
+        "selector": "darkvision"
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "heritage:nephilim",
+        "priority": 0
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.details.ancestry.adopted",
+        "value": "human"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.details.ancestry.countsAs",
+        "value": "human"
+      }
+    ],
+    "slug": "demonblood",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dragonblood",
+        "nephilim"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": null
+  },
+  "type": "heritage",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743987143349,
+    "modifiedTime": 1755204669625,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.heritages.Item.cbbXIV4QBred4lM5",
+      "hash": "72478c23e216d9785ec40444d0514bcf40052bdf"
+    }
+  },
+  "_id": "Z9IuBtom1CJqsjXZ",
+  "sort": 100000,
+  "_key": "!items!Z9IuBtom1CJqsjXZ"
+}

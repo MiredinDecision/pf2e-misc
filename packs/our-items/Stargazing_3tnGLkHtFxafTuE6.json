@@ -1,0 +1,79 @@
+{
+  "name": "Stargazing",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have clear view of the Sun, the Moon or the Stars</p><hr /><p>You spend 10 minutes meditating under the watch of a celestial body and perform minor divination. You cast @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{Augury} with a spell rank of half your level (Rounded Up). When using this action, the GM rolls a secret DC 10 Flat Check rather than a DC 6 check when resolving the effects of Augury. If you fail this secret Flat Check, you cannot use this action until your next daily preparations.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "stargazing",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "exploration",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "aVnTnFudEhJbxmR7",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "78ca19dcd0a326d9a1524f8dcb9e951c3c9797d8",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921198587,
+    "modifiedTime": 1753921405536,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "3tnGLkHtFxafTuE6",
+  "sort": 0,
+  "_key": "!items!3tnGLkHtFxafTuE6"
+}

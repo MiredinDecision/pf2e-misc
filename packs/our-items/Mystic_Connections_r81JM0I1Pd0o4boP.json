@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Mystic Connections",
+  "color": null,
+  "sorting": "a",
+  "_id": "r81JM0I1Pd0o4boP",
+  "description": "",
+  "sort": 6000000,
+  "flags": {
+    "scene-packer": {
+      "hash": "cfaf5186bd81e65bac995b97a9e166549459795b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754317618913,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!r81JM0I1Pd0o4boP"
+}

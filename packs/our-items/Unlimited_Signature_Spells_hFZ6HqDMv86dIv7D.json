@@ -1,0 +1,81 @@
+{
+  "img": "systems/pf2e/icons/features/classes/unlimited-signature-spells.webp",
+  "name": "Unlimited Signature Spells",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>All of your spells are signature spells. That means that if you know a spell, you can heighten it freely by casting it from a higher-rank spell slot, up to the maximum rank of spell you can cast. You can similarly cast any of its lower-rank versions without learning them separately.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 3
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "summoner"
+      ],
+      "otherTags": []
+    },
+    "slug": "unlimited-signature-spells",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-misc.our-items.Item.hFZ6HqDMv86dIv7D",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758949802354,
+    "modifiedTime": 1758949802354,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "effects": [],
+  "folder": "kGCQLmHxE0HUPe4O",
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.P34Jx6i4GJGoqTtG",
+      "hash": "c1568618dff186cdc71312a503bd8a908c8bb7a1"
+    }
+  },
+  "_id": "hFZ6HqDMv86dIv7D",
+  "sort": 200000,
+  "_key": "!items!hFZ6HqDMv86dIv7D"
+}

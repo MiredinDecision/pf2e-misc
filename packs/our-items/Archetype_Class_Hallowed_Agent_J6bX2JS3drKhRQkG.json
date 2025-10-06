@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Archetype Class Hallowed Agent",
+  "color": "#104010",
+  "sorting": "a",
+  "_id": "J6bX2JS3drKhRQkG",
+  "description": "",
+  "sort": 200000,
+  "flags": {
+    "scene-packer": {
+      "hash": "b1bb6a804a57c7142ed3b0d7d27407317e971877"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758943199846,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!J6bX2JS3drKhRQkG"
+}

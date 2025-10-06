@@ -1,0 +1,166 @@
+{
+  "folder": "7OZbTCbckbg9PFqT",
+  "name": "Token of Inspiration",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The nymph queen inspires a single intelligent creature by giving that creature a token of her favor, typically a lock of her hair, though it can be some other significant object as well. As long as the creature carries her token and remains in good standing with her, the creature gains a +1 status bonus to all Crafting checks, Performance checks, and Will saves.</p><p>If the nymph grants her token to a bard, and she's the bard's muse, the queen chooses one additional benefit granted by her token: a +1 status bonus to all Lore checks, a +2 status bonus to Performance checks when determining the effects of compositions, a +4 status bonus to untrained skill checks, or a +2 status bonus to Will saves against fey.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "crafting",
+          "performance",
+          "will"
+        ],
+        "value": 1,
+        "type": "status",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "lore",
+        "value": 1,
+        "predicate": [
+          "feature:enigma"
+        ],
+        "type": "status",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "hideIfDisabled": true,
+        "selector": "performance",
+        "value": 2,
+        "predicate": [
+          "composition",
+          "feature:maestro"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "hideIfDisabled": true,
+        "selector": "skill-check",
+        "value": 4,
+        "type": "status",
+        "predicate": [
+          "proficiency:untrained",
+          "feature:polymath"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "feature:muse",
+          "origin:trait:fey",
+          {
+            "nor": [
+              "feature:enigma",
+              "feature:maestro",
+              "feature:polymath"
+            ]
+          }
+        ],
+        "selector": "will",
+        "slug": "inspiration-other",
+        "type": "status",
+        "value": 2,
+        "hideIfDisabled": true
+      },
+      {
+        "key": "TokenEffectIcon",
+        "value": "systems/pf2e/icons/spells/air-walk.webp"
+      }
+    ],
+    "slug": "token-of-inspiration",
+    "_migration": {
+      "version": 0.943,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "emotion",
+        "magical",
+        "primal"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "other"
+    },
+    "subitems": []
+  },
+  "_id": "lom8sfqLl3Kb43IK",
+  "img": "icons/commodities/materials/hair-tuft-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "379f7ad6493926673370fcd2fb4d239ff45f148e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759614505302,
+    "modifiedTime": 1759615509029,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!items!lom8sfqLl3Kb43IK"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Relic Gifts",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "jY7U6KjcKG1jKUz4",
+  "description": "",
+  "sort": 4000000,
+  "color": "#306090",
+  "flags": {
+    "scene-packer": {
+      "hash": "57f25aa02587debbb7ca63a06630893d73980520"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261062104,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!jY7U6KjcKG1jKUz4"
+}

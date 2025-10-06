@@ -1,0 +1,27 @@
+{
+  "name": "Rager of the Sun",
+  "sorting": "a",
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "type": "Item",
+  "_id": "US5k9CdrDqGkSCeT",
+  "description": "",
+  "sort": 300000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "deeb2608379fd132e93563c87bcde4a36b9b2309"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": null,
+    "modifiedTime": 1754849746714,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!folders!US5k9CdrDqGkSCeT"
+}

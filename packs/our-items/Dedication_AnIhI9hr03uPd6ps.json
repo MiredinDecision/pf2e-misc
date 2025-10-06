@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "errnQy2soFTmK34a",
+  "name": "Dedication",
+  "color": null,
+  "sorting": "a",
+  "_id": "AnIhI9hr03uPd6ps",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!AnIhI9hr03uPd6ps"
+}

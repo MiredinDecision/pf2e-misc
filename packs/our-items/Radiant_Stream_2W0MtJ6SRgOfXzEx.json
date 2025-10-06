@@ -1,0 +1,75 @@
+{
+  "folder": "pEbX2I8YQO6IPz33",
+  "name": "Radiant Stream",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong>bloodglass</p><p><strong>Frequency </strong>Once per 10 minutes.</p><p><strong>Activate </strong><span class=\"action-glyph\">2</span> <strong>(concentrate)</strong></p><hr /><p>Iúna injects its own spiritual energy into the bloodglass beads, causing an explosion of energy that it directs like a river of light.</p><p>Effect A healing river of light and vitality energy washes over creatures in a path you choose for up to 30 feet. You and each living target it passes over recover [[/r (@actor.level)d4[healing]]]{1d4} HP per relic level.<br />[[/r (@actor.level)d4[healing]]]{Leveled Healing}</p>"
+    },
+    "rules": [],
+    "slug": "radiant-stream",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bloodglass",
+        "concentrate",
+        "healing",
+        "vitality"
+      ]
+    },
+    "publication": {
+      "title": "Bloodglass Relic Aspect",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "_id": "2W0MtJ6SRgOfXzEx",
+  "img": "modules/pf2e-relic-bloodglass/assets/PurpleRiver.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "QFLiNY7buvtK8j4U": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0ff23d96d169cb28393d8970c51d5b6d36e53f47"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.2W0MtJ6SRgOfXzEx",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261096633,
+    "modifiedTime": 1728261096633,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!2W0MtJ6SRgOfXzEx"
+}

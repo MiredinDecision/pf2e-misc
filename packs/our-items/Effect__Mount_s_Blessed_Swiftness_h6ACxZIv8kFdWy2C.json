@@ -1,0 +1,96 @@
+{
+  "folder": "XC9i6ap2iuoks8lt",
+  "name": "Effect: Mount's Blessed Swiftness",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Granted by </strong>@UUID[Compendium.pf2e-misc.our-items.Item.VUKYDW93ntDrIKu6]{Blessed Swiftness}.</p><p>You gain a +10-foot status bonus to Speed. If you’re mounted, your mount gains a +5 status bonus to its Speed instead. In addition, when the movement of one of your allies triggers an enemy’s reaction while the ally is in your champion’s aura, the ally gains a +2 status bonus to all defenses against that reaction. At 7th level, the status bonus to your speed increases to +15 and your mount's to +10, and at 15th level, the status bonus to your speed increases to +20 and the status bonus to your mount increases to +15.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "speed",
+        "type": "status",
+        "value": {
+          "brackets": [
+            {
+              "end": 6,
+              "value": 5
+            },
+            {
+              "start": 7,
+              "end": 14,
+              "value": 10
+            },
+            {
+              "start": 15,
+              "value": 15
+            }
+          ],
+          "field": "actor|level"
+        }
+      }
+    ],
+    "slug": "effect-mounts-blessed-swiftness",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "h6ACxZIv8kFdWy2C",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "52adfdcd9c83b7a8c1d7ac90153b2973d8924954"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757780311436,
+    "modifiedTime": 1757780383944,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!h6ACxZIv8kFdWy2C"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Heritages",
+  "sorting": "a",
+  "folder": "50Wt9JbGG6ijeRfo",
+  "type": "Item",
+  "_id": "bdSPaUyZ2kcTsYsQ",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "a35c9452983272cd66b582ccb2015ba3f9a2d863"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!bdSPaUyZ2kcTsYsQ"
+}

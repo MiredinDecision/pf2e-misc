@@ -1,0 +1,97 @@
+{
+  "folder": "suC0JkDUJkV04Frx",
+  "name": "Innate Demonic Fey Wings",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a 15-foot fly speed.</p>\n<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Any feat that upgrades the PC's flying capabilities, instead upgrades this Speed by an additional 5 feet. </span></p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 15
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fly-speed",
+        "value": "5 * @actor.flags.pf2e.ancestryFlyingCount",
+        "slug": "innate-demonic-fey-wings"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.ancestryFlyingCount",
+        "value": 0
+      }
+    ],
+    "slug": "innate-demonic-fey-wings",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "nephilim",
+        "sprite"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-relic-bloodglass/assets/demonic-fey-wing.webp",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "a3bea7fb9da368b872529f95429dfbddeba15be6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.4R4nqzP2emIXXAQw",
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1728261007139,
+    "modifiedTime": 1758479110581,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "4R4nqzP2emIXXAQw",
+  "sort": 700000,
+  "_key": "!items!4R4nqzP2emIXXAQw"
+}

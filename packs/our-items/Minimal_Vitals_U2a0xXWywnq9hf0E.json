@@ -1,0 +1,91 @@
+{
+  "folder": "Vu1IIJ1PiytoVZbx",
+  "name": "Minimal Vitals",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A slime's nucleus is their greatest strength, and also their only weak point. This means that it's harder to harm them with precision attacks than most other creatures, even if they aren't quite as immune to such things as other oozes.</p><p>Slimes have resistance to precision damage equal to 1 + half their level.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "precision",
+        "value": "1+floor(@actor.level/2)",
+        "predicate": [
+          {
+            "not": "feat:amorphous-protection"
+          }
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "precision",
+        "value": "@actor.level",
+        "predicate": [
+          "feat:amorphous-protection"
+        ]
+      }
+    ],
+    "slug": "minimal-vitals",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "U2a0xXWywnq9hf0E",
+  "img": "icons/commodities/materials/slime-thick-blue.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cd23ce877c6c31e7982ca760afe98e4ecc35880b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.U2a0xXWywnq9hf0E",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!U2a0xXWywnq9hf0E"
+}

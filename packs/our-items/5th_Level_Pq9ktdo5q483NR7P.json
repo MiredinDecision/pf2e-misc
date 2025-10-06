@@ -1,0 +1,26 @@
+{
+  "name": "5th Level",
+  "sorting": "a",
+  "folder": "0JqBJxI9A5hlUgLy",
+  "type": "Item",
+  "_id": "Pq9ktdo5q483NR7P",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "d1235c90ec34c08f4a5192d8741a482e49dcad2a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1",
+    "createdTime": null,
+    "modifiedTime": 1747502985330,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!folders!Pq9ktdo5q483NR7P"
+}

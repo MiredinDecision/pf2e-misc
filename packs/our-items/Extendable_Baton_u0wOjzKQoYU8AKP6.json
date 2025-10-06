@@ -1,0 +1,138 @@
+{
+  "folder": "1CIOwZNwIXa8Mcwi",
+  "name": "Extendable Baton",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your dynamo has modular configurations, allowing you to swap between various different possibilities with ease in order to adapt to various situations in combat. Your dynamo attack gains the modular trait, as well as one of the following configurations of your choice: power driver (1d6 bludgeoning damage; shove), percussive striker (1d4 bludgeoning damage; agile, finesse), rotating sickle (1d6 slashing damage; trip), or entangling barbs (1d6 piercing damage; grapple). If you have a manually controlled dynamo, these damage dice increase by 1 size, as usual, and you can also choose the extendable baton (1d4 bludgeoning damage; finesse, reach), which has the damage increase already factored in. When you use an Interact action to switch configurations using the modular trait, you switch between the initial configuration of dynamo you chose with the @UUID[Compendium.pf2e.feats-srd.Item.fdSbB0EQVxFgLoEd]{Sterling Dynamo Dedication} and the new configuration you chose with Modular Dynamo.</p><hr /><p><strong>Special</strong> You can select this feat multiple times. Each time, you choose another configuration and add it to the list of options you can choose when you use an Interact action with the modular trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Sterling Dynamo",
+        "mergeable": true,
+        "option": "dynamo",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "extendable-baton"
+          }
+        ],
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d4"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
+        "key": "Strike",
+        "label": "PF2E.SpecificRule.SterlingDynamo.Label",
+        "predicate": [
+          "dynamo:extendable-baton"
+        ],
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse",
+          "modular",
+          "reach"
+        ]
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver"
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "feat:golem-dynamo"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "magical"
+      }
+    ],
+    "slug": "extendable-baton",
+    "traits": {
+      "otherTags": [
+        "manual-dynamo-weapon",
+        "modular-dynamo-weapon",
+        "sterling-dynamo-weapon"
+      ],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "u0wOjzKQoYU8AKP6",
+  "img": "icons/commodities/tech/pipe-lead-closed.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bb3689174744a7bd2d0e3f59d25805e9b89aefe5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754490140496,
+    "modifiedTime": 1754492018856,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!u0wOjzKQoYU8AKP6"
+}

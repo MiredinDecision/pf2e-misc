@@ -1,0 +1,451 @@
+{
+  "name": "Starlit Palm",
+  "type": "class",
+  "img": "icons/magic/nature/plant-seed-hands-glow-yellow.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>Combining the physicality and technique of a warrior with the ability to cast arcane magic, you seek to perfect the art of fusing spell and strike. While the hefty tome you carry reflects hours conducting arcane research, your enemies need no reminder of your training. They recognize it as you take them down.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.YVoyzV9v4QyP2UIC]{Magus}</em></p> <p><em>The strength of your fist flows from your mind and spirit. You seek perfection-honing your body into a flawless instrument and your mind into an orderly bastion of wisdom. You're a fierce combatant renowned for martial arts skills and combat stances that grant you unique fighting moves. While the challenge of mastering many fighting styles drives you to great heights, you also enjoy meditating on philosophical questions and discovering new ways to obtain peace and enlightenment.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.hGKd722Kn4ZxIOJs]{Monk}</em></p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:magus",
+        "priority": 0
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:monk",
+        "priority": 0
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "str"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "dex"
+          }
+        ],
+        "flag": "attribute",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore",
+        "selection": "str"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "str"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "dex"
+          }
+        ],
+        "flag": "attributeTwo",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore",
+        "selection": "str"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.magus.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attribute}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.monk.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attributeTwo}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.magus.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.monk.rank",
+        "value": 1
+      }
+    ],
+    "slug": "magus",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.347",
+        "system": "7.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "keyAbility": {
+      "value": [
+        "dex",
+        "str"
+      ],
+      "selected": "dex"
+    },
+    "items": {
+      "06frE": {
+        "img": "icons/sundries/documents/document-torn-diagram-tan.webp",
+        "level": 7,
+        "name": "Studious Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.6HCI2iHyBZAr7a4P"
+      },
+      "31b86": {
+        "img": "systems/pf2e/icons/features/classes/weapon-expertise.webp",
+        "level": 5,
+        "name": "Weapon Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc"
+      },
+      "5q48r": {
+        "img": "icons/sundries/books/book-eye-purple.webp",
+        "level": 1,
+        "name": "Arcane Spellcasting (Magus)",
+        "uuid": "Compendium.pf2e.classfeatures.Item.wXaz41gwqNtTn6tf"
+      },
+      "8jtpc": {
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "level": 5,
+        "name": "Lightning Reflexes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0"
+      },
+      "GP1fi": {
+        "img": "icons/skills/melee/blade-tips-double-blue.webp",
+        "level": 19,
+        "name": "Double Spellstrike",
+        "uuid": "Compendium.pf2e.classfeatures.Item.VmPIJomEdmgGrCMS"
+      },
+      "OaBCQ": {
+        "img": "systems/pf2e/icons/features/classes/spellstrike.webp",
+        "level": 1,
+        "name": "Spellstrike",
+        "uuid": "Compendium.pf2e.classfeatures.Item.KVj5ofUwu3VJSrVw"
+      },
+      "PXu7W": {
+        "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "level": 17,
+        "name": "Medium Armor Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.cGMSYAErbUG5E8X2"
+      },
+      "e0xpi": {
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "level": 9,
+        "name": "Expert Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+      },
+      "enge3": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 17,
+        "name": "Master Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+      },
+      "hqK13": {
+        "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+        "level": 13,
+        "name": "Weapon Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.ejP4jVQkS48uKRFz"
+      },
+      "jbg78": {
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "level": 1,
+        "name": "Hybrid Study",
+        "uuid": "Compendium.pf2e.classfeatures.Item.FTeIs1Z1Qeli4BIF"
+      },
+      "jg9zn": {
+        "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+        "level": 11,
+        "name": "Medium Armor Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.FCEp9jjxxgRJDJV3"
+      },
+      "k9o6o": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "level": 7,
+        "name": "Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+      },
+      "nkff5": {
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "level": 15,
+        "name": "Greater Weapon Specialization (Level 15)",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9"
+      },
+      "r4QQP": {
+        "img": "systems/pf2e/icons/features/classes/conflux-spells.webp",
+        "level": 1,
+        "name": "Conflux Spells",
+        "uuid": "Compendium.pf2e.classfeatures.Item.FkbFgmoVz5lHhSMo"
+      },
+      "tkzi2": {
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "level": 9,
+        "name": "Alertness",
+        "uuid": "Compendium.pf2e.classfeatures.Item.D8CSi8c9XiRpVc5M"
+      },
+      "uoxoe": {
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "level": 9,
+        "name": "Resolve",
+        "uuid": "Compendium.pf2e.classfeatures.Item.JQAujUXjczVnYDEI"
+      },
+      "x3em9": {
+        "img": "icons/creatures/mammals/bull-horned-blue.webp",
+        "level": 15,
+        "name": "Juggernaut",
+        "uuid": "Compendium.pf2e.classfeatures.Item.OMZs5y16jZRW9KQK"
+      },
+      "1fw9s": {
+        "img": "icons/magic/fire/flame-burning-embers-yellow.webp",
+        "level": 3,
+        "name": "Mystic Strikes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.D2AE8RfMlZ3D1FuV"
+      },
+      "3ohvk": {
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "level": 11,
+        "name": "Second Path to Perfection",
+        "uuid": "Compendium.pf2e.classfeatures.Item.y6qnbUc8y0815QNE"
+      },
+      "8tl8t": {
+        "img": "systems/pf2e/icons/features/classes/incredible-movement.webp",
+        "level": 3,
+        "name": "Incredible Movement",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Cq6NjvcKZOMySBVj"
+      },
+      "ai4sq": {
+        "img": "icons/skills/melee/hand-grip-staff-yellow-brown.webp",
+        "level": 5,
+        "name": "Expert Strikes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.VgZIutWjFl8oZQFi"
+      },
+      "c8q3r": {
+        "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+        "level": 1,
+        "name": "Flurry of Blows",
+        "uuid": "Compendium.pf2e.classfeatures.Item.NLHHHiAcdnZ5ohc2"
+      },
+      "dZCTM": {
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "level": 5,
+        "name": "Perception Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy"
+      },
+      "dzcvw": {
+        "img": "systems/pf2e/icons/features/classes/graceful-legend.webp",
+        "level": 17,
+        "name": "Graceful Legend",
+        "uuid": "Compendium.pf2e.classfeatures.Item.JWDfzYub3JfuEtth"
+      },
+      "iqbky": {
+        "img": "icons/skills/melee/unarmed-punch-fist.webp",
+        "level": 1,
+        "name": "Powerful Fist",
+        "uuid": "Compendium.pf2e.classfeatures.Item.SB8UJ8rZmvbcBweJ"
+      },
+      "k3mxz": {
+        "img": "icons/magic/defensive/illusion-evasion-echo-purple.webp",
+        "level": 13,
+        "name": "Graceful Mastery",
+        "uuid": "Compendium.pf2e.classfeatures.Item.95LI24ZSx0d4qfKX"
+      },
+      "t4zic": {
+        "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+        "level": 9,
+        "name": "Monk Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.lxImO5D0qWp0gXFB"
+      },
+      "udbeu": {
+        "img": "icons/magic/lightning/fist-unarmed-strike-blue-green.webp",
+        "level": 9,
+        "name": "Metal Strikes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.CoRfFkisEsHE1e43"
+      },
+      "xcxpa": {
+        "img": "systems/pf2e/icons/features/classes/adamantine-strikes.webp",
+        "level": 17,
+        "name": "Adamantine Strikes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.5cthRUkRqRtduVvN"
+      },
+      "z0s0v": {
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "level": 7,
+        "name": "Path to Perfection",
+        "uuid": "Compendium.pf2e.classfeatures.Item.1K6m6AVmn3r8XZ9d"
+      },
+      "zeyz5": {
+        "img": "icons/magic/unholy/strike-body-life-soul-purple.webp",
+        "level": 19,
+        "name": "Perfected Form",
+        "uuid": "Compendium.pf2e.classfeatures.Item.KmTfg7Sg5va4yU00"
+      },
+      "zgtbz": {
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "level": 15,
+        "name": "Third Path to Perfection",
+        "uuid": "Compendium.pf2e.classfeatures.Item.haoTkr2U5k7kaAKN"
+      },
+      "zl9gg": {
+        "img": "icons/magic/fire/flame-burning-fist-strike.webp",
+        "level": 13,
+        "name": "Master Strikes",
+        "uuid": "Compendium.pf2e.classfeatures.Item.0iidKkzC2yy13lIf"
+      },
+      "SjaGg": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HWNvRM0c5cZrwM8v",
+        "img": "systems/pf2e/icons/spells/enduring-might.webp",
+        "name": "Dual Class Attribute",
+        "level": 1
+      },
+      "pbPm6": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.xoWyN7bPyTE86zzV",
+        "img": "systems/pf2e/icons/features/classes/arcane-cascade.webp",
+        "name": "Arcane Cascade",
+        "level": 1
+      }
+    },
+    "hp": 10,
+    "trainedSkills": {
+      "value": [
+        "arcana"
+      ],
+      "additional": 4
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 2,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 2,
+      "light": 1,
+      "medium": 1,
+      "heavy": 0
+    },
+    "spellcasting": 1,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "19LQrWiE2jMTbelH": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    },
+    "scene-packer": {
+      "hash": "d96ca1a1d56736d8e62c2a8820a66e914fcf7215",
+      "sourceId": "Actor.uH7hOR2R2j1TOqEL.Item.3BEBhqWItVhPDyEA"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.1",
+    "createdTime": 1755738889168,
+    "modifiedTime": 1758047472620,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "_id": "0Pm7tiE91GdNew1n",
+  "sort": 500000,
+  "_key": "!items!0Pm7tiE91GdNew1n"
+}

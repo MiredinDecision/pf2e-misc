@@ -1,0 +1,438 @@
+{
+  "name": "Foongus Amoongus",
+  "type": "class",
+  "img": "icons/magic/nature/mushroom-glow-red.webp",
+  "system": {
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "attacks": {
+      "advanced": 0,
+      "martial": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      },
+      "simple": 1,
+      "unarmed": 1
+    },
+    "classFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "defenses": {
+      "heavy": 0,
+      "light": 1,
+      "medium": 1,
+      "unarmored": 1
+    },
+    "description": {
+      "value": "<p><em>The power of nature is impossible to resist. It can bring ruin to the stoutest fortress in minutes, reducing even the mightiest works to rubble, burning them to ash, burying them beneath an avalanche of snow, or drowning them beneath the waves. It can provide endless bounty and breathtaking splendor to those who respect it—and an agonizing death to those who take it too lightly. You are one of those who hear nature's call. You stand in awe of the majesty of its power and give yourself over to its service.</em></p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.8ElntNAGahQka70r]{Druid}</p> <p><em>Some rangers believe civilization wears down the soul, but still needs to be protected from wild creatures. Others say nature needs to be protected from the greedy, who wish to tame its beauty and plunder its treasures. You could champion either goal, or both. You might be a scout, tracker, or hunter of fugitives or beasts, haunting the edge of civilization or exploring the wilds. You know how to live off the land and are skilled at spotting and taking down both opportune prey and hated enemies.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.gdEmPPRYhRai7I1N]{Ranger}</em></p>",
+      "gm": ""
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "hp": 10,
+    "items": {
+      "5zf6s": {
+        "img": "icons/consumables/plants/leaf-hastate-glowing-green.webp",
+        "level": 1,
+        "name": "Anathema (Druid)",
+        "uuid": "Compendium.pf2e.classfeatures.Item.nfBn8QB6HVdzpTFV"
+      },
+      "6cq7c": {
+        "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+        "level": 11,
+        "name": "Medium Armor Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.FCEp9jjxxgRJDJV3"
+      },
+      "LCR42": {
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "level": 5,
+        "name": "Reflex Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.TUOeATt52P43r5W0"
+      },
+      "ObylJ": {
+        "img": "icons/magic/symbols/elements-air-earth-fire-water.webp",
+        "level": 1,
+        "name": "Druid Spellcasting",
+        "uuid": "Compendium.pf2e.classfeatures.Item.b8pnRxGuNzG0buuh"
+      },
+      "QkvgC": {
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "level": 11,
+        "name": "Wild Willpower",
+        "uuid": "Compendium.pf2e.classfeatures.Item.yqaRnXFjRnFWsWvY"
+      },
+      "XOa0H": {
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "level": 3,
+        "name": "Perception Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.JCqACxgrm5ixX0Jy"
+      },
+      "ZdbqS": {
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "level": 3,
+        "name": "Fortitude Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.F57Na5VxfBp56kke"
+      },
+      "bic0m": {
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "level": 15,
+        "name": "Master Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.l1InYvhnQSz6Ucxc"
+      },
+      "g63pa": {
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "level": 1,
+        "name": "Druidic Order",
+        "uuid": "Compendium.pf2e.classfeatures.Item.8STJEFVJISujgpMR"
+      },
+      "gPFcb": {
+        "img": "icons/magic/symbols/runes-carved-stone-green.webp",
+        "level": 1,
+        "name": "Wildsong",
+        "uuid": "Compendium.pf2e.classfeatures.Item.RiAGlnnp4S21BAG3"
+      },
+      "ifwyc": {
+        "img": "icons/sundries/books/book-open-purple.webp",
+        "level": 19,
+        "name": "Legendary Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.Hfaa7TuLn3nE8lr3"
+      },
+      "ixkp9": {
+        "img": "icons/equipment/shield/round-wooden-boss-gold-brown.webp",
+        "level": 1,
+        "name": "Shield Block",
+        "uuid": "Compendium.pf2e.classfeatures.Item.eZNCckLzbH3GyncH"
+      },
+      "jfaqa": {
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "level": 7,
+        "name": "Weapon Specialization",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt"
+      },
+      "mjeZi": {
+        "img": "icons/creatures/amphibians/treefrog-leaf-green.webp",
+        "level": 1,
+        "name": "Voice of Nature",
+        "uuid": "Compendium.pf2e.classfeatures.Item.d5BFFHXFJYKs5LXr"
+      },
+      "ycbpi": {
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "level": 7,
+        "name": "Expert Spellcaster",
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE"
+      },
+      "zird8": {
+        "img": "icons/weapons/wands/wand-crook-yellow.webp",
+        "level": 19,
+        "name": "Primal Hierophant",
+        "uuid": "Compendium.pf2e.classfeatures.Item.nzgb43mQmLgaqDoQ"
+      },
+      "zsmsu": {
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "level": 11,
+        "name": "Weapon Expertise",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9XLUh9iMepZesdmc"
+      },
+      "07lzm": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.RVZC4wVy5B5W2OeS",
+        "img": "icons/weapons/bows/shortbow-recurve-yellow-blue.webp",
+        "name": "Masterful Hunter",
+        "level": 17
+      },
+      "4i75Y": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.PeZi7E9lI4vz8EGY",
+        "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+        "name": "Trackless Journey",
+        "level": 5
+      },
+      "7gij8": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.j2R64kwUgEJ1TudD",
+        "img": "icons/skills/ranged/arrow-flying-ornate-gold.webp",
+        "name": "Nature's Edge",
+        "level": 9
+      },
+      "A0Iss": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.rpLPCkTXCZlQ51SR",
+        "img": "systems/pf2e/icons/features/classes/improved-evasion.webp",
+        "name": "Greater Natural Reflexes",
+        "level": 15
+      },
+      "B4Cbq": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.gc6OMDRxTpSfsVtk",
+        "img": "icons/creatures/mammals/bull-horned-blue.webp",
+        "name": "Warden's Endurance",
+        "level": 11
+      },
+      "NyBkK": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.7dMDxvzGKbqoEAdX",
+        "img": "icons/magic/symbols/symbol-lightning-bolt.webp",
+        "name": "Natural Reflexes",
+        "level": 7
+      },
+      "PlY2u": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cGMSYAErbUG5E8X2",
+        "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "name": "Medium Armor Mastery",
+        "level": 19
+      },
+      "bYC03": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.Z7HX6TeFsaup7Dx9",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Greater Weapon Specialization",
+        "level": 15
+      },
+      "bhe5z": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.mzkkj9LEWjJPBhaq",
+        "img": "icons/magic/symbols/question-stone-yellow.webp",
+        "name": "Hunter's Edge",
+        "level": 1
+      },
+      "bv3vc": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.bBGb1LcffXEqar0p",
+        "img": "icons/creatures/invertebrates/spider-pink-purple.webp",
+        "name": "Swift Prey",
+        "level": 19
+      },
+      "epJL1": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.nLwPMPLRne1HnL00",
+        "img": "systems/pf2e/icons/features/classes/incredible-sense.webp",
+        "name": "Perception Legend",
+        "level": 15
+      },
+      "jhhhl": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.QhoW8ivPvYmWzyEZ",
+        "img": "systems/pf2e/icons/features/classes/ranger-weapon-expertise.webp",
+        "name": "Ranger Weapon Expertise",
+        "level": 5
+      },
+      "nvyh4": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.i6563IU7x4L9oRgC",
+        "img": "systems/pf2e/icons/features/classes/weapon-mastery.webp",
+        "name": "Weapon Mastery",
+        "level": 13
+      },
+      "osijO": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.RlwE99yKnhq8FUuy",
+        "img": "icons/equipment/feet/boots-leather-laced-brown.webp",
+        "name": "Unimpeded Journey",
+        "level": 11
+      },
+      "s7kqn": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.0nIOGpHQNHsKSFKT",
+        "img": "icons/creatures/eyes/humanoid-single-red-brown.webp",
+        "name": "Hunt Prey",
+        "level": 1
+      },
+      "uo4PG": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.NhcF2CbXA8R1UCg4",
+        "img": "systems/pf2e/icons/features/classes/walls-of-will.webp",
+        "name": "Will Expertise",
+        "level": 3
+      },
+      "upgl9": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.5likl5SAxQPrQ3KF",
+        "img": "icons/skills/ranged/target-bullseye-arrow-yellow.webp",
+        "name": "Ranger Expertise",
+        "level": 9
+      },
+      "yjxab": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.0npO4rPscGm0dX13",
+        "img": "icons/magic/perception/eye-tendrils-web-purple.webp",
+        "name": "Perception Mastery",
+        "level": 7
+      },
+      "2KrIv": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HWNvRM0c5cZrwM8v",
+        "img": "systems/pf2e/icons/spells/enduring-might.webp",
+        "name": "Dual Class Attribute",
+        "level": 1
+      }
+    },
+    "keyAbility": {
+      "value": [
+        "wis",
+        "dex",
+        "str"
+      ],
+      "selected": null
+    },
+    "perception": 2,
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:druid",
+        "priority": 0
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "class:ranger",
+        "priority": 0
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.nature.rank",
+        "predicate": [
+          {
+            "not": "feature:vindicator"
+          }
+        ],
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.druid.attribute",
+        "value": "wis"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "str"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "dex"
+          }
+        ],
+        "flag": "attribute",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore",
+        "selection": "dex"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.ranger.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attribute}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.druid.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.ranger.rank",
+        "value": 1
+      }
+    ],
+    "savingThrows": {
+      "fortitude": 2,
+      "reflex": 2,
+      "will": 2
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    },
+    "spellcasting": 1,
+    "trainedSkills": {
+      "additional": 4,
+      "value": [
+        "nature",
+        "survival"
+      ]
+    },
+    "traits": {
+      "rarity": "unique",
+      "otherTags": []
+    },
+    "slug": "foongus-amoongus",
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "pf2e": {
+      "rulesSelections": {},
+      "itemGrants": {}
+    },
+    "scene-packer": {
+      "hash": "a872070438c608a1d4c1c5addfac0554d2876cc1",
+      "sourceId": "Item.kp3pnUkW0zFo1Mxy"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759612923549,
+    "modifiedTime": 1759613045957,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "effects": [],
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "_id": "kqYg1mpj5pOsXdWp",
+  "sort": 0,
+  "_key": "!items!kqYg1mpj5pOsXdWp"
+}

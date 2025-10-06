@@ -1,0 +1,141 @@
+{
+  "folder": "luyyhH3h1BUhrqq4",
+  "name": "Defensive Position",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You order your allies to stay close and cover each other.</p><p><strong>Effect</strong> Affected allies gain a +1 circumstance bonus to AC and reflex saving throws. If the ally is wielding a shield or can cast the Shield cantrip, they can raise their shield or cast Shield as a free action once during their turn. If they're wielding a weapon with the parry trait, they can parry instead.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Battle Stratagem",
+        "mergeable": true,
+        "option": "battle-stratagem",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "defensive-position"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "feat",
+        "mode": "add",
+        "predicate": [
+          {
+            "or": [
+              "battle-stratagem:defensive-position",
+              "combined-stratagem:defensive-position"
+            ]
+          },
+          "item:slug:warlords-strategic-stance"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You order your allies to stay close and cover each other."
+          },
+          {
+            "text": "**Effect** Affected allies gain a +1 circumstance bonus to AC and reflex saving throws. If the ally is wielding a shield or can cast the Shield cantrip, they can raise their shield or cast Shield as a free action once during their turn."
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "label": "Combined Stratagem",
+        "mergeable": true,
+        "option": "combined-stratagem",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "defensive-position"
+          }
+        ],
+        "predicate": [
+          {
+            "and": [
+              "feat:combined-strategems",
+              {
+                "not": "battle-stratagem:defensive-position"
+              }
+            ]
+          }
+        ],
+        "toggleable": true
+      }
+    ],
+    "slug": "defensive-position",
+    "traits": {
+      "otherTags": [
+        "warlord-battle-stratagem"
+      ],
+      "value": [
+        "stratagem",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/features/feats/inspiring-marshal-stance.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "d2e0f5a6a7784eb75881299bdd5c4f8033a7cc9f",
+      "sourceId": "Item.YC0egrmeeVjmDY9A"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755227120372,
+    "modifiedTime": 1755305874074,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "aqXheGYb1BFNH3YI",
+  "sort": 100000,
+  "_key": "!items!aqXheGYb1BFNH3YI"
+}

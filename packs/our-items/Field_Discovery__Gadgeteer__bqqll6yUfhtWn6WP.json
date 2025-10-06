@@ -1,0 +1,92 @@
+{
+  "folder": "V0CL1JnH989WSGCi",
+  "name": "Field Discovery (Gadgeteer)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your gadgets' effectiveness in combat have been improved. Any gadget that deals damage adds your @Damage[@actor.system.abilities.int.mod]{Intelligence modifier} to its damage, and any gadget that restores hit points or adds temporary hit points improves their effect by @Damage[(2*@actor.system.abilities.int.mod)[healing]]{twice your Intelligence modifier}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "label": "Field Discovery",
+        "predicate": [
+          "item:trait:gadget"
+        ],
+        "itemType": "consumable",
+        "mode": "add",
+        "property": "description",
+        "value": [
+          {
+            "text": "Your gadgets' effectiveness in combat have been improved. Any gadget that deals damage adds your @Damage[@actor.system.abilities.int.mod]{Intelligence modifier} to its damage, and any gadget that restores hit points or adds temporary hit points improves their effect by @Damage[(2*@actor.system.abilities.int.mod)[healing]]{twice your Intelligence modifier}."
+          }
+        ]
+      }
+    ],
+    "slug": "field-discovery-gadgeteer",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemist"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "bqqll6yUfhtWn6WP",
+  "img": "icons/commodities/tech/cog-copper.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6607835138c44503a0944d928b933e9b05a351b6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758071239839,
+    "modifiedTime": 1758072201596,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!bqqll6yUfhtWn6WP"
+}

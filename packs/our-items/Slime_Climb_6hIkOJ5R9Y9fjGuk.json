@@ -1,0 +1,78 @@
+{
+  "folder": "HYtdwMrR01QCzgbM",
+  "name": "Slime Climb",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your goopy slime makes it easy for you to climb slowly across various surfaces. You gain a climb Speed of 15 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "climb",
+        "value": 15
+      }
+    ],
+    "slug": "slime-climb",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "948ba7a3c424f97da2361c9fada97deeb4748c1a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.6hIkOJ5R9Y9fjGuk",
+    "duplicateSource": "Item.TvXbAZuKUJHdMGfP",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "6hIkOJ5R9Y9fjGuk",
+  "_key": "!items!6hIkOJ5R9Y9fjGuk"
+}

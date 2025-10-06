@@ -1,0 +1,153 @@
+{
+  "folder": "rnEQRfeRAmQq7L7Q",
+  "name": "Chevalier's Dress Set Relic (Old)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspects </strong><em>earth<strong>, </strong>spirit</em></p><hr /><p>When Gideon of Graydirge met her end in a failed ritual, the powerful bonds she had cultivated with her prized posessions stayed behind. Once ikons of her own power and lineage, they retained aspects of herself that persisted as her own soul was sundered, and the remnants were bound to a young animist who, in her grief, could not bear to keep them.</p><hr /><p><strong>Set Items: </strong>@UUID[Compendium.pf2e-misc.our-items.Item.YeeDNiQP0PZj1quw]{Zhanmadao (Level 1)}, @UUID[Compendium.pf2e-misc.our-items.Item.ftJ2ptdZ6dvAEa8u]{Shadowsight Glasses (Level 7)}, @UUID[Compendium.pf2e-misc.our-items.Item.gnERYmvTJsIIPPa3]{Veil of the Spiritcaller}, </p><hr /><p><strong>Gifts:</strong> The set grants the following gifts.</p><ul><li><p><em>1</em>: @UUID[Compendium.pf2e-misc.our-items.Item.WstcwW7otFO6xk7C]{Ease Burden}</p></li><li><p><em>1</em>: @UUID[Compendium.pf2e-misc.our-items.Item.taZfXQrLimIPBffz]{Manifest Will}</p></li><li><p><em>2</em>: @UUID[Compendium.pf2e-misc.our-items.Item.cs1eCcN1Fx7LzdBl]{Chevalier's Stance}</p></li><li><p><em>2</em>: @UUID[Compendium.pf2e-misc.our-items.Item.YXfXKpxV39UNeA4t]{Raise Ramparts}</p></li><li><p><em>3</em>:</p></li></ul><hr /><p><strong>Collective Features: </strong>The set grants the following features.</p><ul><li><em>Two Items</em>: You can use @UUID[Compendium.pf2e-misc.our-items.Item.taZfXQrLimIPBffz]{Manifest Will} at will.</li><li><em>Three Items</em>: When in @UUID[Compendium.pf2e-misc.our-items.Item.cs1eCcN1Fx7LzdBl]{Chevalier's Stance}, you can use wisdom as your attack and damage modifier for Strikes.</li><li>Three Items (One 13th level or higher item)</li><li>Three Items (One 17th level or higher item)</li></ul>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e-misc.our-items.Item.WstcwW7otFO6xk7C",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.chevaliersDressCount}",
+              1
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.chevaliersDressCount}",
+              1
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.taZfXQrLimIPBffz"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.chevaliersDressCount}",
+              2
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              9
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.cs1eCcN1Fx7LzdBl"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.chevaliersDressCount}",
+              2
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.YXfXKpxV39UNeA4t"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.chevaliersDressCount",
+        "value": 1
+      }
+    ],
+    "slug": "chevaliers-dress-set-relic",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "chevaliers-dress",
+        "relic"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Pvdex9r1PeC6SiQI",
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/goggles-of-night.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "63e9643a2f20706266c5df04ec7d715b1c13bd52"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1728306102714,
+    "modifiedTime": 1735507061190,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!Pvdex9r1PeC6SiQI"
+}

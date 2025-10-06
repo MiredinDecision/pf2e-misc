@@ -1,0 +1,26 @@
+{
+  "name": "New Spells",
+  "sorting": "a",
+  "folder": "7OZbTCbckbg9PFqT",
+  "type": "Item",
+  "_id": "ZbZeGxd2XHQt4tko",
+  "description": "",
+  "sort": 300000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "25ab078672549d3ba2f1fb022b5d282ce57d2698"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726990490085,
+    "modifiedTime": 1728261933989,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "_key": "!folders!ZbZeGxd2XHQt4tko"
+}

@@ -1,0 +1,71 @@
+{
+  "folder": "bdSPaUyZ2kcTsYsQ",
+  "name": "Tiny Slime",
+  "type": "heritage",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You are an incredibly tiny slime, and in order to survive at your size before you gained sapience, you often had to sneak around unnoticed. Your size is Tiny istead of Small or Medium. Additionally, you gain the trained proficiency rank in the Stealth skill, or in another skill of your choice if you were already trained in Stealth, as well as the Terrain Stalker feat.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG"
+      },
+      {
+        "key": "CreatureSize",
+        "value": "tiny",
+        "resizeEquipment": true
+      }
+    ],
+    "slug": "tiny-slime",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "ancestry": {
+      "name": "Slime",
+      "slug": "slime",
+      "uuid": "Item.nLkKsGBpeT5mJLI6"
+    }
+  },
+  "_id": "TxXEjCT8X2BASKR0",
+  "img": "systems/pf2e/icons/default-icons/heritage.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "bd642359101c17f8c09c2e3f8a1338df92da6c13"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.TxXEjCT8X2BASKR0",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!TxXEjCT8X2BASKR0"
+}

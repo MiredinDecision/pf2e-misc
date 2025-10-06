@@ -1,0 +1,123 @@
+{
+  "folder": "jEqoQZA0luukSyJO",
+  "name": "Graveknight Armor Training",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your armor is a second skin to you, and grows in power with you. You gain expert proficiency in heavy armor. At 14th level, you gain master proficiency in heavy armor. At 20th level, if you are a master in martial weapons, you gain legendary proficiency in heavy armor.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy.rank",
+        "priority": 41,
+        "value": {
+          "brackets": [
+            {
+              "start": 14,
+              "end": 20,
+              "value": 3
+            }
+          ]
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.graveknightArchetype.featCount",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.defenses.heavy.rank",
+        "priority": 41,
+        "value": "min(max(3,@actor.system.proficiencies.attacks.martial.rank),4)",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              20
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "graveknight-armor-training",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.925,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Heresy of the Whispering Way",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "heavy": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-heresy-of-the-whispering-way.feats.Item.WgaoR7Ci4FOYgwBZ",
+      "hash": "17733348fce35c9d40eb21c69e4987d95cae1dc2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728582021578,
+    "modifiedTime": 1728582021578,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "r3R9mppW99E5QXui",
+  "sort": 0,
+  "_key": "!items!r3R9mppW99E5QXui"
+}

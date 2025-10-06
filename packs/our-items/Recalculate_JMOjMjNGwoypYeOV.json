@@ -1,0 +1,105 @@
+{
+  "folder": "KCMW18Y8Ew5481xX",
+  "name": "Recalculate",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong>mind</p><p><strong>Activate</strong> <span class=\"pf2-icon\">R</span> (concentrate)</p><p><strong>Trigger</strong> You fail an attack roll</p><hr /><p><strong>Effect</strong> Analysis of angles, probabilities, and myriad other factors flows from your relic into your mind after you miss an attack, preparing you for the next one. You gain a +1 circumstance bonus to your next attack roll against the target you missed, as long as it is made before the beginning of your next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "recal",
+        "toggleable": true,
+        "value": false
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "recal"
+        ],
+        "hideIfDisabled": true,
+        "slug": "recalmod"
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "attack",
+        "mode": "add",
+        "value": 1,
+        "slug": "recalmod",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.adoringArsenalCount}",
+              3
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "recalculate",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "JMOjMjNGwoypYeOV",
+  "img": "systems/pf2e/icons/spells/mind-blank.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9ec998a9ab8c16fe28e1cde9b657dba69f5fc50b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729321596877,
+    "modifiedTime": 1729322613045,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!JMOjMjNGwoypYeOV"
+}

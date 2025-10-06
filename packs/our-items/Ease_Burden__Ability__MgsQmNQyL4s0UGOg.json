@@ -1,0 +1,141 @@
+{
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "name": "Ease Burden (Ability)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> earth</p><hr /><p>Your relic draws strength from the earth underfoot to lighten your load. As long as your relic is on your person and you are standing on the ground, you can carry 1 more Bulk than normal before becoming encumbered, and you increase your maximum Bulk by 2. At 6th level and every 4 levels thereafter, increase the Bulk you can carry before becoming encumbered by 1 and your maximum Bulk by 2.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "inventory.bulk.encumberedAfterAddend",
+        "value": {
+          "brackets": [
+            {
+              "end": 5,
+              "value": 1
+            },
+            {
+              "end": 9,
+              "start": 6,
+              "value": 2
+            },
+            {
+              "end": 13,
+              "start": 10,
+              "value": 3
+            },
+            {
+              "end": 17,
+              "start": 14,
+              "value": 4
+            },
+            {
+              "start": 18,
+              "value": 5
+            }
+          ]
+        }
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "inventory.bulk.maxAddend",
+        "value": {
+          "brackets": [
+            {
+              "end": 5,
+              "value": 2
+            },
+            {
+              "end": 9,
+              "start": 6,
+              "value": 4
+            },
+            {
+              "end": 13,
+              "start": 10,
+              "value": 6
+            },
+            {
+              "end": 17,
+              "start": 14,
+              "value": 8
+            },
+            {
+              "start": 18,
+              "value": 10
+            }
+          ]
+        }
+      }
+    ],
+    "slug": "ease-burden",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.88,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "earth"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    }
+  },
+  "type": "action",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-relics.relic-gifts.Item.QZKCe0ef0V3Lt8ws",
+      "hash": "e9c3d2e490a15819a962a5cd610e6c3c9a6e1d7a"
+    }
+  },
+  "effects": [],
+  "folder": "ADoMbgwYlnecyynk",
+  "ownership": {
+    "default": 0,
+    "ldCLXFyluOJpOy7S": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728264751049,
+    "modifiedTime": 1735586913584,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "MgsQmNQyL4s0UGOg",
+  "sort": 500000,
+  "_key": "!items!MgsQmNQyL4s0UGOg"
+}

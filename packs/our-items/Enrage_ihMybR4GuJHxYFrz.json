@@ -1,0 +1,97 @@
+{
+  "type": "spell",
+  "name": "Enrage",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The target creatures become filled with a bloodthirsty rage, sacrificing their defensive abilities to strike with a ferocious abandon.</p><p><strong>Heightened (+3) </strong>The spell targets one additional creature.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.rsNcldg05nSHloCL]{Spell Effect: Enrage}</p>"
+    },
+    "rules": [],
+    "slug": "enrage",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": null,
+        "foundry": "12.331",
+        "system": "6.10.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "mental"
+      ],
+      "rarity": "unique",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "one willing living creature"
+    },
+    "range": {
+      "value": "100 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 3,
+      "damage": {},
+      "area": 0
+    }
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/spells/ymeris-mark.webp",
+  "folder": "ZbZeGxd2XHQt4tko",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "faad6a830ac3a47740fb1cc252f94ebb829b8345",
+      "sourceId": "Actor.ZQzJ4HpnhIGP61Ce.Item.2yw2CfreBf3e2Mcb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1742009105870,
+    "modifiedTime": 1754328973937,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "ihMybR4GuJHxYFrz",
+  "sort": 300000,
+  "_key": "!items!ihMybR4GuJHxYFrz"
+}

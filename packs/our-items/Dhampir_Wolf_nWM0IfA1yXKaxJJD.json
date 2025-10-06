@@ -1,0 +1,225 @@
+{
+  "name": "Dhampir Wolf",
+  "type": "ancestry",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "effects": [],
+  "folder": "ECBhYdgvVkTfd4Pe",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.hynwj4kRnb7yLNGu",
+      "hash": "1c1a1a6194e510209fb43abe958609fc66359249"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your companion is a wolf with fangs and the blood thirst of a vampire. She has only been partly transformed - the dhampir blood in her to prevent her death stopped her transformation part of the way through.</p><p><strong>Size</strong> Small or Medium</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> jaws (finesse), <strong>Damage</strong> 1d8 piercing</p><p><strong>Melee</strong> <span class=\"pf2-icon\">1</span> claw (finesse, agile), <strong>Damage</strong> 1d6 slashing</p><p><strong>Str</strong> +3, <strong>Dex</strong> +2, <strong>Con</strong> +2, <strong>Int</strong> -4, <strong>Wis</strong> +1, <strong>Cha</strong> +0</p><p><strong>Hit Points</strong> 8</p><p><strong>Skill</strong> Survival</p><p><strong>Senses</strong> low‑light vision, scent (imprecise 30 feet)</p><p><strong>Speed</strong> 40 feet</p><p><strong>Special</strong> Vampiric animal companions are particularly attuned to the scent of blood. If a creature has persistent bleed damage, your vampiric animal companion can smell the creature if it's within 120 feet rather than 30 feet.</p><p><strong>Support Benefit</strong> When your vampiric animal senses blood it tears into your enemies. Until the start of your next turn, your Strikes that damage a creature in your vampiric animal's reach also deal [[/r 1d4[persistent,bleed]]] damage, and the target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} until it removes the bleed damage. If your vampiric animal is nimble or savage, the persistent bleed damage increases to [[/r 2d4]]{2d4}.</p><p><strong>Advanced Maneuver</strong> @Compendium[pf2e-animal-companions.AC-Advanced-Maneuvers.cVrW2GGLVpydj8h5]{Blood Feast}</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.str.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.dex.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 2,
+        "mode": "add",
+        "path": "system.abilities.con.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.abilities.wis.mod"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "value": 1,
+        "mode": "add",
+        "path": "system.skills.survival.rank"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.KKOgokqHa7RjVDN6",
+        "allowDuplicate": false
+      },
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 30,
+        "selector": "scent"
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "piercing",
+            "dice": 1,
+            "die": "d8"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.BattleForm.Attack.Jaws",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "finesse"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/jaws.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "key": "Strike",
+        "label": "PF2E.Weapon.Base.claw",
+        "range": null,
+        "traits": [
+          "unarmed",
+          "agile",
+          "finesse"
+        ],
+        "img": "systems/pf2e/icons/unarmed-attacks/claw.webp",
+        "replaceBasicUnarmed": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "self:ancestry:vampiric-animal",
+        "priority": 1
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.xOn6TXNFD3MIKh9U",
+        "allowDuplicate": false
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "companionSize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.traits.size.value",
+        "value": "{item|flags.pf2e.rulesSelections.companionSize}"
+      }
+    ],
+    "slug": "dhampir-wolf",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "animal",
+        "dhampir"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 8,
+    "size": "med",
+    "reach": 5,
+    "speed": 40,
+    "boosts": {
+      "0": {
+        "value": []
+      },
+      "1": {
+        "value": []
+      },
+      "2": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "c8kd4": {
+        "img": "systems/pf2e/icons/spells/agonizing-despair.webp",
+        "name": "Negative Healing",
+        "level": 0,
+        "uuid": "Compendium.pf2e-animal-companions.AC-Features.Item.3mUx8vXEQkiIuBcR"
+      }
+    },
+    "vision": "low-light-vision"
+  },
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Ancestries-and-Class.Item.hynwj4kRnb7yLNGu",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728050339699,
+    "modifiedTime": 1728050827514,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "nWM0IfA1yXKaxJJD",
+  "sort": 0,
+  "_key": "!items!nWM0IfA1yXKaxJJD"
+}

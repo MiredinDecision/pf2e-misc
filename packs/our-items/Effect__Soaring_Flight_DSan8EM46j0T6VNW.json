@@ -1,0 +1,85 @@
+{
+  "img": "modules/pf2e-relic-forebird/assets/wings-of-the-forebirds.webp",
+  "name": "Effect: Soaring Flight",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency </strong>Once per round.</p><hr /><p><span style=\"font-family:Roboto, sans-serif\">You can fly through the air in short bursts. You Fly. If you don't normally have a fly Speed, you gain a fly Speed of 20 feet for this movement. If you aren't on solid ground at the end of this movement, you fall.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": "max(20,(@actor.attributes.speed.total))"
+      }
+    ],
+    "slug": "effect-soaring-flight",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Ancestry Guide",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": 5,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "7f815cd77b3dd836e2cbc2cbb3a99cb2391a8383"
+    }
+  },
+  "effects": [],
+  "folder": "rO8UvPmncCqS9GCn",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-forebird.forebird-gifts.Item.DSan8EM46j0T6VNW",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261338098,
+    "modifiedTime": 1728261338098,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "DSan8EM46j0T6VNW",
+  "sort": 150000,
+  "_key": "!items!DSan8EM46j0T6VNW"
+}

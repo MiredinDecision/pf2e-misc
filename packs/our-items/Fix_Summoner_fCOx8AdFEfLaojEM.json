@@ -1,0 +1,27 @@
+{
+  "name": "Fix Summoner",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "fCOx8AdFEfLaojEM",
+  "description": "",
+  "sort": 6100000,
+  "color": "#306030",
+  "flags": {
+    "scene-packer": {
+      "hash": "e8fc540d5c67023d26e5cd79737d0336a133498a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1",
+    "createdTime": 1747454011873,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!fCOx8AdFEfLaojEM"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Eidolon Unarmed Expertise",
+  "type": "feat",
+  "img": "systems/pf2e/icons/features/classes/eidolon-unarmed-expertise.webp",
+  "effects": [],
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-animal-companions.AC-Features.Item.zF6bLjVwj7Njkqan",
+      "hash": "acbd789269471a351f7d2b451d762c13cf5cb627"
+    }
+  },
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your eidolon becomes more capable of using its unarmed attacks. Its proficiency rank for unarmed attacks increases to expert.</p><p>Your eidolon gains the following critical specialization effects, based on the damage type its unarmed attacks deal.</p><ul><li><p>Bludgeoning: As brawling group. Use your spell DC as the DC for the Fortitude save.</p></li><li><p>Slashing or piercing: As knife group.</p></li><li><p>Other: As knife group, but the persistent damage is the attack’s original damage type instead of bleed damage.</p></li></ul><p></p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.unarmed.rank",
+        "value": 2
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "item:category:unarmed"
+        ]
+      }
+    ],
+    "slug": "eidolon-unarmed-expertise",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.854,
+        "foundry": "12.331",
+        "system": "6.8.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-animal-companions.AC-Features.Item.zF6bLjVwj7Njkqan",
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1747503396614,
+    "modifiedTime": 1758296592932,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "folder": "Pq9ktdo5q483NR7P",
+  "ownership": {
+    "default": 0,
+    "thw0Ox3kKEThnAFP": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "FwCAymR22jGNvsl0",
+  "sort": 0,
+  "_key": "!items!FwCAymR22jGNvsl0"
+}

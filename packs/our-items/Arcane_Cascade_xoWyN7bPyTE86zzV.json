@@ -1,0 +1,90 @@
+{
+  "img": "systems/pf2e/icons/features/classes/arcane-cascade.webp",
+  "name": "Arcane Cascade",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>After you wield magic, you can enter a special stance to make your attacks more effective.</p><p><span class=\"action-glyph\">f</span> <strong>Concentrate</strong> @UUID[Compendium.pf2e-misc.our-items.Item.0KhFAHEOfPApkT1y]</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.0KhFAHEOfPApkT1y",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.arcaneCascade.damageType",
+        "priority": -100,
+        "value": "untyped"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "magus"
+      ],
+      "otherTags": []
+    },
+    "slug": "arcane-cascade",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1742237063549,
+    "modifiedTime": 1757483129475,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "PyudfzbIHfwCf86A",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.09iL38CZZEa0q0Mt",
+      "hash": "dbc8358d9d410352ed7c2a30c4fc02465c681d9d"
+    }
+  },
+  "_id": "xoWyN7bPyTE86zzV",
+  "sort": 700000,
+  "_key": "!items!xoWyN7bPyTE86zzV"
+}

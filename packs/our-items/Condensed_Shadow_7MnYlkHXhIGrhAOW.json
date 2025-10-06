@@ -1,0 +1,165 @@
+{
+  "folder": "SC5TrQTB1QpLPfsk",
+  "name": "Condensed Shadow",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial\">Aspects </strong>shadow</span></p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;margin:0.25em 0px 0px;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:17.5px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(232, 232, 239);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial\">Minor Gifts </strong>@UUID[Compendium.pf2e-relics.relic-gifts.Item.ONeEJrOEcNjftp1k]{Obscure}, @UUID[Compendium.pf2e-relics.relic-gifts.Item.z0EqsAlU6zjB3nFv]{Encompassing Darkness}</span></p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;margin:0.25em 0px 0px;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:17.5px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(232, 232, 239);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial\">Major Gifts </strong>@UUID[Compendium.pf2e-relics.relic-gifts.Item.BVQLXeCmX70EsXtq]{Dancing Shadow}, @UUID[Compendium.pf2e-relics.relic-gifts.Item.djwiuQNR9BGHvu5x]{Dark Roads}</span></p><p style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;margin:0.25em 0px 0px;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:17.5px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;background-color:rgb(232, 232, 239);text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start\"><span style=\"font-family:Roboto, sans-serif\"><strong style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial\">Grand Gifts </strong>@UUID[Compendium.pf2e-relics.relic-gifts.Item.tcQK0aVbhnqexGlq]{Umbral Body}</span></p>",
+      "value": "<p>A strange, dark object that seems to be made of swirling shadow. You cannot tell if it is metal or stone or… something else.</p><p>Pavel has had it made into some kind of weapon, one that he can throw or draw magic from at his whim.</p><hr /><p><strong>Relic </strong><em>shadow</em></p><p><strong>Minor Gift</strong> @UUID[Compendium.pf2e-relics.relic-gifts.Item.ONeEJrOEcNjftp1k]{Obscure}</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.5gophZ4AOKW4VW27]{Phase Bolt}</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.uToa7ksKAzmEpkKC]{Admonishing Ray}</li></ul>"
+    },
+    "rules": [],
+    "slug": "condensed-shadow",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "agile",
+        "deadly-d6",
+        "magical",
+        "relic",
+        "shadow",
+        "staff",
+        "thrown-20",
+        "versatile-s"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": "starknife",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 105
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
+    },
+    "category": "martial",
+    "group": "knife",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d4",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": [
+        "returning"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 0,
+        "striking": 0,
+        "property": [
+          "returning"
+        ]
+      }
+    },
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "_id": "7MnYlkHXhIGrhAOW",
+  "img": "modules/pf2e-misc/assets/items/CondenseShadow.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f52ead1fe88ca176e5a61827569bbb50aeb5bfbe"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728131411430,
+    "modifiedTime": 1728132586196,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!7MnYlkHXhIGrhAOW"
+}

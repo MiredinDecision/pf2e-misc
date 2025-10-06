@@ -1,0 +1,134 @@
+{
+  "img": "icons/weapons/swords/sword-flanged-lightning.webp",
+  "name": "Stance: Arcane Cascade: Invigorate",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> <span style=\"font-family:Roboto, sans-serif\">You reduce a creature to 0 Hit Points with Spell or Spellstrike.</span></p><p><strong>Requirements</strong> You are wielding your black blade.</p><hr /><p>Your black blade becomes invigorated and your melee Strikes with it deal 1 additional damage for 1 minute. This additional damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. This damage is of the same type as the Arcane Cascade stance. Strikes that benefit from this damage gain the arcane trait, making them magical.</p><p>If your black blade uses this ability on a creature below your level, you must attempt a Will save against its Ego.</p><p>Despite being a minion, your black blade gains 1 reaction at the start of its turns, which it can use for Invigorate and other reaction abilities it gains from being a black blade.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "value": 1,
+        "predicate": [
+          "item:melee"
+        ],
+        "damageType": "{actor|flags.pf2e.arcaneCascade.damageType}",
+        "slug": "invigorate-extra-damage",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:melee",
+          {
+            "or": [
+              "feature:weapon-specialization",
+              "feature:spirit-striking"
+            ]
+          }
+        ],
+        "selector": "strike-damage",
+        "slug": "invigorate-extra-damage",
+        "value": 2
+      },
+      {
+        "key": "AdjustModifier",
+        "mode": "upgrade",
+        "predicate": [
+          "item:melee",
+          {
+            "or": [
+              "feature:greater-weapon-specialization",
+              "feature:greater-spirit-striking"
+            ]
+          }
+        ],
+        "selector": "melee-strike-damage",
+        "slug": "invigorate-extra-damage",
+        "value": 3
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.gO6GS332zQ0CDMdf",
+        "predicate": [
+          {
+            "not": "self:effect:arcane-cascade"
+          }
+        ],
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "stance-arcane-cascade-invigorate",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Magus+",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "7oWVMvY4T6vgcOLC": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743387759197,
+    "modifiedTime": 1743410910630,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "H2Ro5pzJhi18zQN8",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.magus.magus-effects.Item.Coch9k2QTmKig8Ms",
+      "hash": "d7ac3a610272f8502c3951439bc47cb191e3812b"
+    }
+  },
+  "_id": "C1QkS2Tl8YNg4IXe",
+  "sort": 200000,
+  "_key": "!items!C1QkS2Tl8YNg4IXe"
+}

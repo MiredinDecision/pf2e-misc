@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "r81JM0I1Pd0o4boP",
+  "name": "Star Seeker",
+  "color": null,
+  "sorting": "a",
+  "_id": "hZdcEQAVzXaEkIZu",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "b80a58f8992d1deed97456b15d5768889174411d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!hZdcEQAVzXaEkIZu"
+}

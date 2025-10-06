@@ -1,0 +1,75 @@
+{
+  "folder": "Ps1U4hlJL4Z3PTri",
+  "name": "Thanergetic Breadth",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As your expertise in necromantic magic increases, you are able to channel more of it each day. You gain an extra spell slot of every spell rank other than the two highest ranks of thanergetic spells you can cast. </p>"
+    },
+    "rules": [],
+    "slug": "thanergetic-breadth",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Basic Thanergetic Spellcasting"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "2zkobqcniDxv6Nsg",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c730deb4046b38f1255e1ca774b6c3b11775c960"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.1",
+    "createdTime": 1726984759407,
+    "modifiedTime": 1732819179487,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!2zkobqcniDxv6Nsg"
+}

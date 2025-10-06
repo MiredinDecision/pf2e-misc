@@ -1,0 +1,26 @@
+{
+  "name": "Ancestry Feats",
+  "sorting": "m",
+  "folder": "50Wt9JbGG6ijeRfo",
+  "type": "Item",
+  "_id": "vXjx8Mn6nCw5ic6l",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "1f2727fcadba8cd33585974e9bc30b6572b5b943"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!vXjx8Mn6nCw5ic6l"
+}

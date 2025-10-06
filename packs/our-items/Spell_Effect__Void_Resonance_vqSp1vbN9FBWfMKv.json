@@ -1,0 +1,84 @@
+{
+  "img": "modules/pf2e-misc/assets/VoidBeacon.webp",
+  "name": "Spell Effect: Void Resonance",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.EDzHRPhIqt0USs8D]{Void Resonance}<br />Void radiates outward from you, allowing others who are undead or otherwise have void healing to resonate with your energy and receive healing. Once per round, either you or an ally can use an Interact action to resonate and lay hands upon you to regain Hit Points. Each time the resonance heals someone, it decreases in strength. It restores 4d10 Hit Points to the first creature, 4d8 Hit Points to the second, 4d6 Hit Points to the third, and 4d4 Hit Points to the fourth, after which the spell ends. You can have only one void resonance active at a time.<br />@Damage[(@item.level)d10[void,healing]]{First Activation (d10)}<br />@Damage[(@item.level)d8[void,healing]]{Second Activation (d8)}<br />@Damage[(@item.level)d6[void,healing]]{Third Activation (d6)}<br />@Damage[(@item.level)d4[void,healing]]{Fourth Activation (d4)}</p>"
+    },
+    "rules": [],
+    "slug": "spell-effect-void-resonance",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "labels": [
+        "d4",
+        "d6",
+        "d8",
+        "d10"
+      ],
+      "loop": false,
+      "type": "counter",
+      "value": 4
+    },
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1727316218506,
+    "modifiedTime": 1754328937761,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "eOJsgiwwcsb79hE6",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.spell-effects.Item.WWtSEJGwKY4bQpUn",
+      "hash": "27bf1fd617846e7c1a6daedf6e35c4502849e641"
+    }
+  },
+  "_id": "vqSp1vbN9FBWfMKv",
+  "sort": 700000,
+  "_key": "!items!vqSp1vbN9FBWfMKv"
+}

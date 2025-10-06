@@ -1,0 +1,136 @@
+{
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/spectacles-of-understanding.webp",
+  "name": "Shadowsight Glasses (Greater)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The darkened lenses of these glasses protect sensitive eyes from bright light. While wearing Shadowsight Glasses, you gain a +2 item bonus to saving throws against visual light effects and a +2 bonus to Perception checks. If you have light blindness, you aren't @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} in bright light as long as you continue wearing the day glasses. You can wear the glasses on your forehead, granting no benefits, but allowing you to move them over your eyes with a single Interact action, without having to withdraw them first.</p><p></p><p>When you invest the Shadowsight Glasses, you have 60 feet of precise vision into the Astral and Ethereal planes, as well as the ability to see invisible creatures as if they weren't invisible. Although you can see these creatures, you can only affect each other with abilities that would normally be able to affect them.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "visual",
+          "light"
+        ],
+        "selector": "saving-throw",
+        "type": "item",
+        "value": 2
+      },
+      {
+        "key": "FlatModifier",
+        "predicate": [
+          "visual"
+        ],
+        "selector": "perception",
+        "type": "item",
+        "value": 2
+      },
+      {
+        "key": "Sense",
+        "selector": "lifesense"
+      },
+      {
+        "key": "Sense",
+        "selector": "see-invisibility"
+      }
+    ],
+    "slug": "shadowsight-glasses",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.8.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical",
+        "revelation"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 13
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 2500
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Eyepiece",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worneyepiece"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.2",
+    "createdTime": 1735585874096,
+    "modifiedTime": 1737224670454,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "wKdF0rAK0ZQFL4HY",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.mm0gjRFFHF3SElLJ",
+      "hash": "23cf4a3e05fea39874b0a0d9c9e5884ed08bd5ae"
+    }
+  },
+  "_id": "Jw2vbXeNB11aIU5W",
+  "sort": 0,
+  "_key": "!items!Jw2vbXeNB11aIU5W"
+}

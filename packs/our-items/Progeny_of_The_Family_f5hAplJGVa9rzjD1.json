@@ -1,0 +1,125 @@
+{
+  "img": "modules/pf2e-tomb-guardian/assets/GuardianIcon.webp",
+  "name": "Progeny of The Family",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>As unpredictable and varied as any of Golarion's peoples, humans have exceptional drive and the capacity to endure and expand. Though many civilizations thrived before humanity rose to prominence, humans have built some of the greatest and the most terrible societies throughout the course of history, and today they are the most populous people in the realms around the Inner Sea.</em></p>\n<p><em>@UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.7pU8yM7yPMw92SY3]{Human}</em></p>"
+    },
+    "rules": [],
+    "slug": "human",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "human",
+        "humanoid"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 8,
+    "size": "med",
+    "reach": 5,
+    "speed": 25,
+    "boosts": {
+      "0": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      },
+      "1": {
+        "value": [
+          "str",
+          "dex",
+          "con",
+          "int",
+          "wis",
+          "cha"
+        ]
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 1,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "XDDw3": {
+        "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.8JDe5OZOCReMKjLy",
+        "img": "modules/pf2e-tomb-guardian/assets/VampireEyes.webp",
+        "name": "Eyes of Night",
+        "level": 1
+      },
+      "UlfGc": {
+        "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.bcapqkDinGKj1xYD",
+        "img": "icons/creatures/abilities/fang-tooth-blood-red.webp",
+        "name": "Fangs",
+        "level": 1
+      },
+      "aUWfY": {
+        "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.i02edArW6OL8prHn",
+        "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
+        "name": "Taste Blood",
+        "level": 1
+      }
+    },
+    "vision": "normal"
+  },
+  "type": "ancestry",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.ancestries.Item.IiG7DgeLWYrSNXuX",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262119412,
+    "modifiedTime": 1728262119412,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "2f345d525ee89c9a29f1e29909f4a305dd6b2ed4"
+    }
+  },
+  "effects": [],
+  "folder": "m9VwBcDyNMEbpqOn",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "f5hAplJGVa9rzjD1",
+  "sort": 100000,
+  "_key": "!items!f5hAplJGVa9rzjD1"
+}

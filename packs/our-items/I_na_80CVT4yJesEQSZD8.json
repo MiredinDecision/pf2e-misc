@@ -1,0 +1,256 @@
+{
+  "img": "modules/pf2e-relic-bloodglass/assets/bladed-scarf-purple.webp",
+  "name": "Iúna",
+  "system": {
+    "description": {
+      "gm": "<p><strong>Aspects </strong>bloodglass, ?</p><p><strong>Minor Gifts </strong>@UUID[Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.gwJKM2oKeV6Jtst1]{Bloodglass Aegis}, @UUID[Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.TEQDOBHZxYfcZwNc]{Radiant Stream}</p><p><strong>Major Gifts</strong> @UUID[Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.xGy3EJ1IQxZHFRYL]{Refracted Image}, ?</p><p><strong>Grand Gifts</strong> @UUID[Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.cIp0yJNIRHZ8GosP]{Crystal Orchid Dance}</p><p>?</p><p>Property Runes<br />- Figure out Property Runes</p><p>Fundamental Runes<br />Iúna's fundamental runes automatically upgrade at the appropriate levels.</p><p>Level 2 - @UUID[Compendium.pf2e.equipment-srd.Item.DKWuJb2rSgiotOG7]{Weapon Potency (+1)}</p><p>Level 4 - @UUID[Compendium.pf2e.equipment-srd.Item.DxCuJKynlnMQZHgp]{Striking}</p><p>Level 10 - @UUID[Compendium.pf2e.equipment-srd.Item.pOoEiuEuITm4I2Il]{Weapon Potency (+2)}</p><p>Level 12 - @UUID[Compendium.pf2e.equipment-srd.Item.KCQRFvUgbyclvOGi]{Striking (Greater)}</p><p>Level 16 - @UUID[Compendium.pf2e.equipment-srd.Item.rvItjGQaYT7Luwtm]{Weapon Potency (+3)}</p><p>Level 19 - @UUID[Compendium.pf2e.equipment-srd.Item.woxl2FrrgAcJDu0t]{Striking (Major)}</p><p>Possibly include bits of Lilandra's sword at some point? (Through Bloodglass, probably)</p>",
+      "value": "<p>This bladed scarf has been carefully imbued with latent magical ability by a being with both fey and demon blood, and inhabited by a minor celestial spirit drawn to the wielder's soul. The spirit within the scarf seems most please with being called Iúna.</p>\n<p>The long black and purple silk and cloth scarf has been carefully embroidered and decorated with hundreds of handmade glass beads containing the blood of Edaranduidach, forming countless sigils.</p>\n<p>Two long, bat-like wings stretch from edge to edge in its designs, modeled after the wings of someone whom Edaranduidach loves very much, and with whom she has bound her very soul.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "selector": [
+          "{item|_id}-damage"
+        ],
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "predicate": [
+          {
+            "and": [
+              "target:trait:fiend",
+              "item:rune:property:bane"
+            ]
+          }
+        ],
+        "label": "Bane: Fiend",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "WeaponPotency",
+        "label": "Weapon Potency",
+        "selector": "{item|_id}-attack",
+        "value": {
+          "brackets": [
+            {
+              "start": 2,
+              "end": 9,
+              "value": 1
+            },
+            {
+              "start": 10,
+              "end": 15,
+              "value": 2
+            },
+            {
+              "start": 16,
+              "value": 3
+            }
+          ]
+        },
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Striking",
+        "label": "Striking",
+        "selector": "{item|_id}-damage",
+        "value": {
+          "brackets": [
+            {
+              "start": 4,
+              "end": 11,
+              "value": 1
+            },
+            {
+              "start": 12,
+              "end": 18,
+              "value": 2
+            },
+            {
+              "start": 19,
+              "value": 3
+            }
+          ]
+        },
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "weapon",
+        "mode": "override",
+        "property": "material-type",
+        "value": "dawnsilver",
+        "predicate": [
+          "item:slug:iúna"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "dawnsilver",
+        "predicate": [
+          "item:slug:iúna"
+        ]
+      }
+    ],
+    "slug": "iúna",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "disarm",
+        "finesse",
+        "invested",
+        "reach",
+        "relic",
+        "sweep",
+        "trip"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Gods & Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": "bladed-scarf",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 3
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "tiny",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Bladed Scarf",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": "The nature of this bladed scarf is unclear."
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "category": "martial",
+    "group": "flail",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": ""
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "e13bd89815f2ca49bcdde4cb769eee231d91b476"
+    }
+  },
+  "effects": [],
+  "folder": "Vl6an7fxZR6xgyHf",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.80CVT4yJesEQSZD8",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261092034,
+    "modifiedTime": 1728261092034,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "80CVT4yJesEQSZD8",
+  "sort": 100000,
+  "_key": "!items!80CVT4yJesEQSZD8"
+}

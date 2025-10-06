@@ -1,0 +1,90 @@
+{
+  "folder": "U8TkChofu7gbP6Rr",
+  "name": "Scarlet Blade Expertise",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Training has strengthened your abilities. Your proficiency ranks for your magus class DC and <span style=\"font-family:Roboto, sans-serif\">for spell attack modifiers and spell DCs increase to expert.</span></p><p>You add the @UUID[Compendium.pf2e-misc.our-items.Item.R33gOfPZuMs49fxn]{Sanguine Eruption} spell to your repertoire as a signature spell.</p><p>At 15th level, add @UUID[Compendium.pf2e-misc.our-items.Item.MYz4stcZidpHkcyh]{Boil Blood} to your repertoire as a signature spell.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.scarlet-blade.rank",
+        "value": 2
+      }
+    ],
+    "slug": "scarlet-blade-expertise",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 2
+        },
+        "magus": {
+          "rank": 2,
+          "attribute": null
+        }
+      }
+    }
+  },
+  "_id": "zbz2KtuFY82g0Zbm",
+  "img": "icons/commodities/gems/pearl-red-oval.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4cc78ab884e5f392caf7a38caec5f1e692458184"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1726925229979,
+    "modifiedTime": 1757821173170,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!zbz2KtuFY82g0Zbm"
+}

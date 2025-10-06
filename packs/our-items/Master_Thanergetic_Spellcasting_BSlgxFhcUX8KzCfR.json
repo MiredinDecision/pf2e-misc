@@ -1,0 +1,82 @@
+{
+  "folder": "ivYvfbrZEa6qmUTM",
+  "name": "Master Thanergetic Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have mastered thanergetic magic. <span style=\"font-family:Roboto, sans-serif\">You gain a 7th-rank spell slot that can only be used to prepare spells from the thanergetic spell list.</span> At 18th level, you an 8th-rank spell slot, and at 20th level, you gain a 9th-rank spell slot. <span style=\"font-family:Roboto, sans-serif\">You become a master in spell attack modifiers and spell DCs.</span></p>"
+    },
+    "rules": [],
+    "slug": "master-thanergetic-spellcasting",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Expert Thanergetic Spellcasting"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "_id": "BSlgxFhcUX8KzCfR",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2a1d1c1596eb7c3c72c31ffd68b0135d314df9e1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726968072734,
+    "modifiedTime": 1726984669555,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!BSlgxFhcUX8KzCfR"
+}

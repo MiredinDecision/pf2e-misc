@@ -1,0 +1,166 @@
+{
+  "name": "Spell Effect: Dual-Pattern Strike",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You brand the target with an arcane sigil, giving them a weakness of 2 to one of the following damage types: acid, cold, electricity, fire, force, mental, poison, spirit, vitality, or void.</p>"
+    },
+    "rules": [
+      {
+        "choices": [
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          }
+        ],
+        "flag": "dualPatternStrikeWeakness",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.DamageType"
+      },
+      {
+        "choices": [
+          {
+            "label": "Using the 1 action variant",
+            "value": 0
+          },
+          {
+            "label": "0",
+            "value": 0
+          },
+          {
+            "label": "1",
+            "value": 1
+          },
+          {
+            "label": "2",
+            "value": 2
+          },
+          {
+            "label": "3",
+            "value": 3
+          },
+          {
+            "label": "4",
+            "value": 4
+          }
+        ],
+        "flag": "elaboratePatternedStrikeHits",
+        "key": "ChoiceSet",
+        "predicate": [
+          "feat:elaborate-patterned-strike"
+        ],
+        "prompt": "If you are using the two or three action Dual Pattern Strike, how many Strikes hit overall?"
+      },
+      {
+        "key": "Weakness",
+        "type": "{item|flags.pf2e.rulesSelections.dualPatternStrikeWeakness}",
+        "value": "2+floor((@item.level -1)/2)+max(@item.flags.pf2e.rulesSelections.elaboratePatternedStrikeHits -2,0)"
+      }
+    ],
+    "slug": "spell-effect-dual-pattern-strike",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.331",
+        "system": "6.10.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Magus+",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "target": null,
+    "unidentified": false
+  },
+  "img": "icons/weapons/swords/sword-broad-crystal-paired.webp",
+  "ownership": {
+    "default": 0,
+    "7oWVMvY4T6vgcOLC": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1741921237101,
+    "modifiedTime": 1741984423090,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "yvdZ7W2yyHPWgqrj",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.magus.magus-effects.Item.bj5j2Fdftrq7JttP",
+      "hash": "1747fb833884d8e200630af54681bdc18bec29f6"
+    }
+  },
+  "_id": "ZPX304JRA8qUQZDu",
+  "sort": 0,
+  "_key": "!items!ZPX304JRA8qUQZDu"
+}

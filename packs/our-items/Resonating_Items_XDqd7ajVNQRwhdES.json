@@ -1,0 +1,26 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Resonating Items",
+  "color": "#000000",
+  "sorting": "a",
+  "_id": "XDqd7ajVNQRwhdES",
+  "description": "",
+  "sort": 1500000,
+  "flags": {
+    "scene-packer": {
+      "hash": "3e68fe7cab779a1f936b0ac48fd3824a9898de58"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "modifiedTime": 1759606595920
+  },
+  "_key": "!folders!XDqd7ajVNQRwhdES"
+}

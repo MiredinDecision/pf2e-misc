@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Ideas That Got Dropped",
+  "color": null,
+  "sorting": "a",
+  "_id": "68L66EWGGyYMboMM",
+  "description": "",
+  "sort": 100000,
+  "flags": {
+    "scene-packer": {
+      "hash": "9be366d2ea2316a91cf58e9476c68554b88571b7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1758578463523,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!68L66EWGGyYMboMM"
+}

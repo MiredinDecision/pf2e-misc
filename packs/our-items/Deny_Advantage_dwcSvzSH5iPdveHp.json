@@ -1,0 +1,80 @@
+{
+  "img": "icons/environment/settlement/watchtower-silhouette-yellow.webp",
+  "name": "Deny Advantage",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>As someone who takes advantage of openings, you are careful not to leave such gaps yourself. You aren't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}, or flanking creatures of your level or lower, or creatures of your level or lower using surprise attack. However, they can still help their allies flank.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.attributes.flanking.offGuardable",
+        "value": "@actor.level"
+      }
+    ],
+    "slug": "deny-advantage",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727116729599,
+    "modifiedTime": 1727116737421,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "XX9WlElnaWlltmjc",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.PNpmVmD21zViDtGC",
+      "hash": "073b1422cb8a8a623532c328e1d501cc40a65c2d"
+    }
+  },
+  "_id": "dwcSvzSH5iPdveHp",
+  "sort": 200000,
+  "_key": "!items!dwcSvzSH5iPdveHp"
+}

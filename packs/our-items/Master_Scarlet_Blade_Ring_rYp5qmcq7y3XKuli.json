@@ -1,0 +1,115 @@
+{
+  "img": "modules/pf2e-misc/assets/icons/scarlet-blade-ring.webp",
+  "name": "Master Scarlet Blade Ring",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A relatively simple and functional ring such as the <em>master scarlet blade ring</em> adorns experienced blades. You gain a +2 item bonus to Arcana and Religion checks.</p><p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain 1 Focus Point, which you can use only to cast a magus conflux spell. If not used by the end of your turn, this Focus Point is lost.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">F</span> command</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The ring transports you and any items you're wearing and holding from your current space to an unoccupied space you can see within a range equal to your Speed. If this would bring another creature with you—even if you're carrying it in an extradimensional container—the activation fails and is used.</p><hr /><p><strong>Craft Requirements</strong> You are a magus.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "arcana",
+          "religion"
+        ],
+        "type": "item",
+        "value": 2
+      }
+    ],
+    "slug": "master-scarlet-blade-ring",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "arcane",
+        "divine",
+        "focused",
+        "invested"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Treasure Vault",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 11
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1250
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Ring",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729200508798,
+    "modifiedTime": 1729201044598,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "FE2ArP2VEnuSNamH",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.8nz3fSOOkNmNduMr",
+      "hash": "58a80823f9ecf281e7deca5f52e7b975f7f60e22"
+    }
+  },
+  "_id": "rYp5qmcq7y3XKuli",
+  "sort": 0,
+  "_key": "!items!rYp5qmcq7y3XKuli"
+}

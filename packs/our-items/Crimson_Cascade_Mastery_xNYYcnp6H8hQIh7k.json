@@ -1,0 +1,80 @@
+{
+  "folder": "9qcUawTTLJDsIoTD",
+  "name": "Crimson Cascade Mastery",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You roll initiative.</p><hr /><p>You have become so adept with your ability to channel your magic through your @UUID[Compendium.pf2e.actionspf2e.Item.HbejhIywqIufrmVM]{Arcane Cascade} that you are able to bring it into being at a moment's notice. You use your Arcane Cascade action. Your Arcane Cascade's damage type becomes that of your weapon.</p><p>@UUID[Compendium.pf2e.feat-effects.Item.fsjO5oTKttsbpaKl]{Stance: Arcane Cascade}</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "selector": "initiative",
+        "text": "{item|description}",
+        "title": "{item|name}"
+      }
+    ],
+    "slug": "crimson-cascade-mastery",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "xNYYcnp6H8hQIh7k",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "65a0f9e57fb43dc52ef0175bab8776e00694eb7d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1727189753113,
+    "modifiedTime": 1729221299678,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!xNYYcnp6H8hQIh7k"
+}

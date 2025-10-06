@@ -1,0 +1,76 @@
+{
+  "folder": "ADoMbgwYlnecyynk",
+  "name": "Manifest Will",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> <em>spirit</em></p><p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> (command, envision)</p><hr /><p><strong>Effect</strong> A blast of force envelops a creature of your choosing within 30 feet. This blast deals @Damage[1d6[spirit]] damage, with a (@Check[type:fortitude|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true]) save. The damage increases by 1d6 at 3rd level and every 2 levels thereafter.</p><p>@Damage[(ceil(@actor.level/2))d6[spirit]]</p>"
+    },
+    "rules": [],
+    "slug": "manifest-will",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic",
+        "spirit"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "_id": "taZfXQrLimIPBffz",
+  "img": "systems/pf2e/icons/features/classes/walls-of-will.webp",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "16677b3a8e1c1a2c38b4560657125063ce9886f1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.5.0",
+    "createdTime": 1729328268422,
+    "modifiedTime": 1735586913584,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!taZfXQrLimIPBffz"
+}

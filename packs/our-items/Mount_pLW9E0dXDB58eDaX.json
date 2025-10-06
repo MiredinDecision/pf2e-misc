@@ -1,0 +1,60 @@
+{
+  "folder": "IAKPhsjCK6wL0UaJ",
+  "name": "Mount",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You or an ally can ride your animal companion as long as it is at least one size larger than the rider. If it is carrying a rider, the animal companion can use only its land Speed, and it can’t move and Support you on the same turn. However, if your companion has the mount special ability, it’s especially suited for riding and ignores both of these restrictions.</span></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "mount",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "_id": "pLW9E0dXDB58eDaX",
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "180fc1bc8db483f39e98176f4a866d306a605f3c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1757735369108,
+    "modifiedTime": 1758475927696,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!pLW9E0dXDB58eDaX"
+}

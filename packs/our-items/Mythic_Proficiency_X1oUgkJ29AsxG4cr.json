@@ -1,0 +1,79 @@
+{
+  "name": "Mythic Proficiency",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have a Mythic Feat that gives you the ability to spend a Mythic Point to take an action at mythic proficiency.</p><p>You use Mythic Proficiency for the following acion.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "mythic-proficiency",
+        "value": false
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "all",
+        "value": "@actor.level + 10",
+        "predicate": [
+          "mythic-proficiency"
+        ],
+        "type": "proficiency",
+        "label": "Mythic"
+      }
+    ],
+    "slug": "mythic-proficiency",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "mythic"
+      ]
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": null,
+    "deathNote": false
+  },
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "folder": "CwZmoFZy2dm00qso",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "01b6ce2c29ba7806ea10279b195c3729991aee1c",
+      "sourceId": "Item.9h97T4khhOosFkSh"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1758475886976,
+    "modifiedTime": 1758476262352,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_id": "X1oUgkJ29AsxG4cr",
+  "sort": 100000,
+  "_key": "!items!X1oUgkJ29AsxG4cr"
+}

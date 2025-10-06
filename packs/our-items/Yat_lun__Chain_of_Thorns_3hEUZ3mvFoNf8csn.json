@@ -1,0 +1,510 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/asp-coil.webp",
+  "name": "Yatūlun, Chain of Thorns",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This weapon, crafted from a rare, black alloy with silvery veins, and was attuned to Idumea by her loving wife Sifra, and good friend Harwen, is a +3 <em>greater striking soulsteel asp coil</em>. It seems to dance and lunge, like a beautiful serpent, and is covered in what appear to be sharp thorns that dig into its targets, drawing bloody wounds. <em>Yatūlun </em>has the grapple trait. On a critical hit, or when you critically succeed at a @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} check using <em>Yatūlun</em>, it deals @Damage[2d6[bleed]] damage.</p><hr /><p><strong>Activate - Enchain</strong> <span class=\"action-glyph\">1 </span>(concentrate, manipulate)</p><p><strong>Frequency</strong> once per hour</p><p><strong>Effect </strong>Make a melee strike at a target within 60 feet, on a success the blade wraps around them and makes them @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} until the end of your next turn.</p><hr /><p><strong>Activate - Reel</strong> <span class=\"action-glyph\">1 </span>(concentrate, manipulate)</p><p><strong>Requirements</strong> You have @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} a target with Enchain</p><p><strong>Effect</strong> On a failed @Check[fortitude|against:class-spell] save, the target is pulled directly towards the wielder, to within their reach. The target then loses the Immobilized condition. This counts as forced movement.</p><hr /><p><strong>Activate - Cast</strong> <span class=\"action-glyph\">1 </span>(concentrate, manipulate)</p><p><strong>Frequency</strong> once per day</p><p><strong>Requirements</strong> You have @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} a target with Enchain</p><p><strong>Effect </strong>You move directly towards the target, ending your movement within reach of the target. The target loses its @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} condition. You do not trigger reactions from movement during this action.</p><p></p><hr /><p>When drawn, this weapon seems to pull in the sound around it, making everything quieter.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Soulsteel",
+        "slug": "soulsteel-damage",
+        "selector": [
+          "{item|_id}-damage"
+        ],
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "hideIfDisabled": true,
+        "priority": 100,
+        "ignored": false,
+        "type": "untyped",
+        "force": false,
+        "fromEquipment": true,
+        "critical": null,
+        "tags": [],
+        "removeAfterRoll": false
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "target:trait:incorporeal"
+        ],
+        "property": "property-runes",
+        "value": "ghost-touch"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": {
+          "brackets": [
+            {
+              "start": 6,
+              "end": 13,
+              "value": "astral"
+            },
+            {
+              "start": 14,
+              "value": "greater-astral"
+            }
+          ],
+          "field": "actor|level"
+        }
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|_id}-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "dice:slug:greater-astral",
+              "dice:slug:astral"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "upgrade",
+        "property": "dice-faces",
+        "value": 8,
+        "slug": null,
+        "priority": 100,
+        "ignored": false,
+        "relabel": null
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "feature:thaumaturge-weapon-expertise"
+        ],
+        "slug": null,
+        "priority": 100,
+        "ignored": false,
+        "alternate": false,
+        "text": null,
+        "damageDice": null,
+        "modifier": null
+      },
+      {
+        "key": "RollOption",
+        "domain": "attack-roll",
+        "toggleable": true,
+        "option": "implements-interruption-attack",
+        "label": "Implement's Interruption Attack",
+        "value": 0,
+        "slug": null,
+        "priority": 50,
+        "ignored": false,
+        "predicate": [],
+        "phase": "applyAEs",
+        "suboptions": [],
+        "mergeable": false
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "attack-roll"
+        ],
+        "text": "You disrupt the triggering action.",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "title": "Weapon: Implement's Interruption",
+        "predicate": [
+          {
+            "not": "paragon:weapon"
+          },
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-initiate",
+        "priority": 100,
+        "ignored": false,
+        "visibility": null
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "attack-roll"
+        ],
+        "text": "You deal damage to the target: @Damage[1[{item|system.damage.damageType}]]",
+        "outcome": [
+          "failure"
+        ],
+        "title": "Implement's Interruption Failure",
+        "predicate": [
+          {
+            "or": [
+              "adept:weapon",
+              "paragon:weapon"
+            ]
+          },
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-adept",
+        "priority": 100,
+        "ignored": false,
+        "visibility": null
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "attack-roll"
+        ],
+        "text": "You disrupt the triggering action.",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "title": "Weapon: Implement's Interruption",
+        "predicate": [
+          "paragon:weapon",
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-paragon",
+        "priority": 100,
+        "ignored": false,
+        "visibility": null
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "feature:thaumaturge-weapon-expertise"
+        ],
+        "slug": null,
+        "priority": 100,
+        "ignored": false,
+        "alternate": false,
+        "text": null,
+        "damageDice": null,
+        "modifier": null
+      },
+      {
+        "key": "RollOption",
+        "domain": "attack-roll",
+        "toggleable": true,
+        "option": "implements-interruption-attack",
+        "label": "Implement's Interruption Attack",
+        "slug": null,
+        "priority": 50,
+        "ignored": false,
+        "predicate": [],
+        "phase": "applyAEs",
+        "suboptions": [],
+        "mergeable": false,
+        "value": false
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "attack-roll"
+        ],
+        "text": "You disrupt the triggering action.",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "title": "Weapon: Implement's Interruption",
+        "predicate": [
+          {
+            "not": "paragon:weapon"
+          },
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-initiate",
+        "priority": 100,
+        "ignored": false,
+        "visibility": null
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "attack-roll"
+        ],
+        "text": "You deal damage to the target: @Damage[1[{item|system.damage.damageType}]]",
+        "outcome": [
+          "failure"
+        ],
+        "title": "Implement's Interruption Failure",
+        "predicate": [
+          {
+            "or": [
+              "adept:weapon",
+              "paragon:weapon"
+            ]
+          },
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-adept",
+        "priority": 100,
+        "ignored": false,
+        "visibility": null
+      },
+      {
+        "key": "Note",
+        "selector": [
+          "attack-roll"
+        ],
+        "text": "You disrupt the triggering action.",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "title": "Weapon: Implement's Interruption",
+        "predicate": [
+          "paragon:weapon",
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-paragon",
+        "priority": 100,
+        "ignored": false,
+        "visibility": null
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "feature:thaumaturge-weapon-expertise"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "domain": "attack-roll",
+        "toggleable": true,
+        "option": "implements-interruption-attack",
+        "label": "Implement's Interruption Attack"
+      },
+      {
+        "key": "Note",
+        "selector": "attack-roll",
+        "text": "You disrupt the triggering action.",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "title": "Weapon: Implement's Interruption",
+        "predicate": [
+          {
+            "not": "paragon:weapon"
+          },
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-initiate"
+      },
+      {
+        "key": "Note",
+        "selector": "attack-roll",
+        "text": "You deal damage to the target: @Damage[1[{item|system.damage.damageType}]]",
+        "outcome": [
+          "failure"
+        ],
+        "title": "Implement's Interruption Failure",
+        "predicate": [
+          {
+            "or": [
+              "adept:weapon",
+              "paragon:weapon"
+            ]
+          },
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-adept"
+      },
+      {
+        "key": "Note",
+        "selector": "attack-roll",
+        "text": "You disrupt the triggering action.",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "title": "Weapon: Implement's Interruption",
+        "predicate": [
+          "paragon:weapon",
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-paragon"
+      }
+    ],
+    "slug": "asp-coil",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "mythic",
+        "reach",
+        "soulsteel",
+        "versatile-p"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: The Grand Bazaar",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "asp-coil",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Asp Coil",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 2,
+      "striking": 2,
+      "property": [
+        "nightmare",
+        "greaterAstral"
+      ]
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757643814621,
+    "modifiedTime": 1757643814621,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "K2E98FJTqNioJF80",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "286d21c7eeecc6ff9b5700ff738310852b553fec",
+      "sourceId": "Actor.zokj2ZnRTh4wQJhV.Item.n23LhMw06i2hJIR0"
+    },
+    "pf2e": {
+      "grantedBy": {
+        "id": "xH1TFUWSHawdW7bd",
+        "onDelete": "detach"
+      }
+    }
+  },
+  "_id": "3hEUZ3mvFoNf8csn",
+  "sort": 0,
+  "_key": "!items!3hEUZ3mvFoNf8csn"
+}

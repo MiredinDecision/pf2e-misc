@@ -1,0 +1,27 @@
+{
+  "name": "Dedication Graveknight",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "BfdAbmQsknrxY7jM",
+  "description": "",
+  "sort": 4300000,
+  "color": "#603030",
+  "flags": {
+    "scene-packer": {
+      "hash": "152ed18d7d23682be9a5de9a11d2f8b63cd0875f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726970533586,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!BfdAbmQsknrxY7jM"
+}

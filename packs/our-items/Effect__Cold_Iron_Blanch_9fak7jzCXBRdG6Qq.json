@@ -1,0 +1,97 @@
+{
+  "img": "systems/pf2e/icons/equipment/alchemical-items/alchemical-tools/cold-iron-blanch.webp",
+  "name": "Effect: Cold Iron Blanch",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.a7DMXGo0KPU2kirn]{Cold Iron Blanch}</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "effectColdIronBlanch",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "definition": [
+          "item:id:{item|flags.pf2e.rulesSelections.effectColdIronBlanch}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "cold-iron"
+      }
+    ],
+    "slug": "effect-cold-iron-blanch",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: Pathfinder Society Guide",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "duration": {
+      "value": 1,
+      "unit": "hours",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": {
+      "type": "counter",
+      "value": 10
+    },
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1727590609363,
+    "modifiedTime": 1727595560076,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "AAUH5sEy6oLfu7Of",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4e880757ee2b8991c1431cd450e4733fd40b6696",
+      "sourceId": "Item.lIEiRrK97Cfs2sfE"
+    }
+  },
+  "_id": "9fak7jzCXBRdG6Qq",
+  "sort": 0,
+  "_key": "!items!9fak7jzCXBRdG6Qq"
+}

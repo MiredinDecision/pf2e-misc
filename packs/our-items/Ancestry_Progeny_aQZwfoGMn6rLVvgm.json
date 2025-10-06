@@ -1,0 +1,27 @@
+{
+  "name": "Ancestry Progeny",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "aQZwfoGMn6rLVvgm",
+  "description": "",
+  "sort": 4200000,
+  "color": "#303030",
+  "flags": {
+    "scene-packer": {
+      "hash": "67d411d70cf6feec8ca5faa3a711461198379d2a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262117042,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!aQZwfoGMn6rLVvgm"
+}

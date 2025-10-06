@@ -1,0 +1,119 @@
+{
+  "folder": "G7IbOOhijSYawx9y",
+  "name": "Cloak of the Forefeathers",
+  "type": "equipment",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p><strong>Aspects</strong> forebird, air</p><p><strong>Minor Gifts </strong>@UUID[Compendium.pf2e-relics.relic-gifts.Item.27AJ15nvJi8k5Fp8]{Feather Steps}, @UUID[Compendium.pf2e-relics.relic-gifts.Item.mOztTmigo0UOZxeY]{Deadly Spark}, @UUID[Compendium.pf2e-relic-forebird.forebird-gifts.Item.gMFZRdisKbzDOQzW]{Wings of the Forebirds}</p><p><strong>Major Gifts </strong>@UUID[Compendium.pf2e-relic-forebird.forebird-gifts.Item.SgG7DkNvQfwtRK7k]{Freedom of the Flock}</p><p><strong>Grand Gifts</strong></p>",
+      "value": "<p>This multi-colored cloak made of handmade feathers is made of many colors and even multiple types of yarn. Many Tengu have contributed their own feather patches to it.</p>\n<p>This cloak grants you a +1 item bonus to Diplomacy and Intimidation checks against Tengu.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "diplomacy",
+          "intimidation"
+        ],
+        "value": 1,
+        "type": "item",
+        "predicate": [
+          "target:trait:tengu"
+        ]
+      }
+    ],
+    "slug": "cloak-of-the-forefeathers",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical",
+        "relic"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Forebird Relic",
+      "authors": "AngelofWoe, MiredinDecision, samaelduckholder",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worncloak"
+    },
+    "subitems": []
+  },
+  "_id": "OHQmKFS6YjHwJ7XS",
+  "img": "modules/pf2e-relic-forebird/assets/feathered-cloak.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e282d911f2de2cae579e09a3309cf035dbe496fd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-forebird.forebird-gifts.Item.OHQmKFS6YjHwJ7XS",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261336989,
+    "modifiedTime": 1728261336989,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!OHQmKFS6YjHwJ7XS"
+}

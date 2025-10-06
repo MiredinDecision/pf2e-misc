@@ -1,0 +1,147 @@
+{
+  "img": "icons/weapons/axes/axe-broad-engraved-black-grey.webp",
+  "name": "Weapon Legend (Polearms & Spears)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You've learned fighting techniques that apply to all armaments, and you've developed unparalleled skill with your favorite weapons. Your proficiency ranks for simple weapons, martial weapons, and unarmed attacks increase to master. Your proficiency rank for advanced weapons increases to expert.</p>\n<p>You can select one weapon group and increase your proficiency ranks to legendary for all simple weapons, martial weapons, and unarmed attacks in that weapon group, and to master for all advanced weapons in that weapon group.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 13
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "definition": [
+          "item:group:polearm",
+          {
+            "or": [
+              "item:category:unarmed",
+              "item:category:simple",
+              "item:category:martial"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.FighterWeaponMasteryLegend.SimpleMartial.polearm",
+        "slug": "polearm-legend-simple-martial",
+        "value": 4
+      },
+      {
+        "definition": [
+          "item:category:advanced",
+          "item:group:polearm"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.FighterWeaponMasteryLegend.Advanced.polearm",
+        "slug": "polearm-legend-advanced",
+        "value": 3
+      },
+      {
+        "definition": [
+          "item:group:spear",
+          {
+            "or": [
+              "item:category:unarmed",
+              "item:category:simple",
+              "item:category:martial"
+            ]
+          }
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.FighterWeaponMasteryLegend.SimpleMartial.spear",
+        "slug": "spear-legend-simple-martial",
+        "value": 4
+      },
+      {
+        "definition": [
+          "item:category:advanced",
+          "item:group:spear"
+        ],
+        "key": "MartialProficiency",
+        "label": "PF2E.SpecificRule.FighterWeaponMasteryLegend.Advanced.spear",
+        "slug": "spear-legend-advanced",
+        "value": 3
+      }
+    ],
+    "subfeatures": {
+      "proficiencies": {
+        "advanced": {
+          "rank": 2,
+          "attribute": null
+        },
+        "martial": {
+          "rank": 3,
+          "attribute": null
+        },
+        "simple": {
+          "rank": 3,
+          "attribute": null
+        },
+        "unarmed": {
+          "rank": 3,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "fighter"
+      ],
+      "otherTags": []
+    },
+    "slug": "weapon-legend",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755484852533,
+    "modifiedTime": 1755485263920,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "Pj3Yeqzxjg2hkSW0",
+  "flags": {
+    "scene-packer": {
+      "hash": "2c7f10c1bf79eed205a694562f6208bb98239444",
+      "sourceId": "Item.2jJrV5nyKnGFoouW"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "K7iZcS9DKsgrxypY",
+  "sort": 100000,
+  "_key": "!items!K7iZcS9DKsgrxypY"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Effect: Bloom of Health",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You shout a rallying cry that inspires the well-being of your kingdom's protectors. All your knights who hear your cry gain fast healing equal to half your level for 1 minute.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FastHealing",
+        "value": "@actor.level/2"
+      }
+    ],
+    "slug": "effect-bloom-of-health",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "systems/pf2e/icons/equipment/tattoos/unbreakable-heart.webp",
+  "folder": "bHODluul6stM55zb",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2b40b8d82a637be6e3b9ddd7d58e6d9a3bc85290",
+      "sourceId": "Item.AtgMikKVUTwHRpKT"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757617705841,
+    "modifiedTime": 1758475887160,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_id": "mJIyNSykpvaUDBiV",
+  "sort": 100000,
+  "_key": "!items!mJIyNSykpvaUDBiV"
+}

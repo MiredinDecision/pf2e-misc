@@ -1,0 +1,26 @@
+{
+  "name": "Spells",
+  "sorting": "a",
+  "folder": "jzU2I1qk8eFuS2uz",
+  "type": "Item",
+  "_id": "yvdZ7W2yyHPWgqrj",
+  "description": "",
+  "sort": 200000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "21aba9e7639d0557f847a54f4b8d4e3d1862a220"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": null,
+    "modifiedTime": 1743561044751,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!folders!yvdZ7W2yyHPWgqrj"
+}

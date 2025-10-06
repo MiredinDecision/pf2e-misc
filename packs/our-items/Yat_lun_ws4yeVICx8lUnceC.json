@@ -1,0 +1,314 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/asp-coil.webp",
+  "name": "Yatūlun",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>The asp coil, named both for its slithering striking style and its usage among Aspis Consortium agents, has two forms. In sword form, it resembles an elegant, oddly balanced sword. However, with a twist of the pommel, the blade splits into a series of segments connected by elaborate metal cables. Agents of the Aspis Consortium have access to this weapon.</p><hr /><p>When drawn, this weapon seems to pull in the sound around it, making everything quieter.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Soulsteel",
+        "slug": "soulsteel-damage",
+        "selector": [
+          "{item|_id}-damage"
+        ],
+        "value": 1,
+        "damageType": "spirit",
+        "predicate": [
+          {
+            "lte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "hideIfDisabled": true,
+        "priority": 100,
+        "ignored": false,
+        "type": "untyped",
+        "force": false,
+        "fromEquipment": true,
+        "critical": null,
+        "tags": [],
+        "removeAfterRoll": false
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "target:trait:incorporeal"
+        ],
+        "property": "property-runes",
+        "value": "ghost-touch"
+      },
+      {
+        "key": "AdjustStrike",
+        "definition": [
+          "item:id:{item|_id}"
+        ],
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "add",
+        "property": "property-runes",
+        "value": {
+          "brackets": [
+            {
+              "start": 6,
+              "end": 13,
+              "value": "astral"
+            },
+            {
+              "start": 14,
+              "value": "greater-astral"
+            }
+          ],
+          "field": "actor|level"
+        }
+      },
+      {
+        "key": "DamageAlteration",
+        "selectors": [
+          "{item|_id}-damage"
+        ],
+        "predicate": [
+          {
+            "or": [
+              "dice:slug:greater-astral",
+              "dice:slug:astral"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              6
+            ]
+          }
+        ],
+        "mode": "upgrade",
+        "property": "dice-faces",
+        "value": 8,
+        "slug": null,
+        "priority": 100,
+        "ignored": false,
+        "relabel": null
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          "feature:thaumaturge-weapon-expertise"
+        ]
+      },
+      {
+        "key": "RollOption",
+        "domain": "attack-roll",
+        "toggleable": true,
+        "option": "implements-interruption-attack",
+        "label": "Implement's Interruption Attack",
+        "value": ""
+      },
+      {
+        "key": "Note",
+        "selector": "attack-roll",
+        "text": "You disrupt the triggering action.",
+        "outcome": [
+          "criticalSuccess"
+        ],
+        "title": "Weapon: Implement's Interruption",
+        "predicate": [
+          {
+            "not": "paragon:weapon"
+          },
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-initiate"
+      },
+      {
+        "key": "Note",
+        "selector": "attack-roll",
+        "text": "You deal damage to the target: @Damage[1[{item|system.damage.damageType}]]",
+        "outcome": [
+          "failure"
+        ],
+        "title": "Implement's Interruption Failure",
+        "predicate": [
+          {
+            "or": [
+              "adept:weapon",
+              "paragon:weapon"
+            ]
+          },
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-adept"
+      },
+      {
+        "key": "Note",
+        "selector": "attack-roll",
+        "text": "You disrupt the triggering action.",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "title": "Weapon: Implement's Interruption",
+        "predicate": [
+          "paragon:weapon",
+          "implements-interruption-attack"
+        ],
+        "slug": "implements-interruption-paragon"
+      }
+    ],
+    "slug": "asp-coil",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "12.331",
+        "system": "6.7.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "reach",
+        "soulsteel",
+        "versatile-p"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Lost Omens: The Grand Bazaar",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "asp-coil",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 10
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Asp Coil",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": ""
+    },
+    "grade": null,
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": []
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735670446872,
+    "modifiedTime": 1757643805213,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "K2E98FJTqNioJF80",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "32cb0091d761501fdcb394fbfdc1cfed48c2b64c",
+      "sourceId": "Actor.DzaN0nNOqYj83RF4.Item.lkahTArE5K4kjzQK"
+    }
+  },
+  "_id": "ws4yeVICx8lUnceC",
+  "sort": 1600000,
+  "_key": "!items!ws4yeVICx8lUnceC"
+}

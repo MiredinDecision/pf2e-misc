@@ -1,0 +1,72 @@
+{
+  "folder": "GMgNVaiLN4DkdqQj",
+  "name": "Ooze Surge",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Frequency </strong>once per day</p><hr /><p>You transform nito a torrent of ooze and surge forward, causing massive damage to your foes. Creatures in a line with a length up to 120 feet take 18d6 damage of the same type your pseudopod unarmed attack deals with a basic Reflex save against the higher of your class DC and spell DC. You solidify back at the other end of the area. While your movement can still trigger reactions, most reactions typically won't have an effect on you while you are a torrent of ooze unless the reaction would counteract Ooze Surge or the GM determines it would affect the surging line itself.</p>"
+    },
+    "rules": [],
+    "slug": "ooze-surge",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "03a308e13adc9bbe20ebb77f2fe2b2ea57b04367"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.dmEnf5j9IKoe2P0H",
+    "duplicateSource": "Item.PTts4SQppJaeTcLZ",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "dmEnf5j9IKoe2P0H",
+  "_key": "!items!dmEnf5j9IKoe2P0H"
+}

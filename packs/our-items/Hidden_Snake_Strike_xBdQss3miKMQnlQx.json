@@ -1,0 +1,117 @@
+{
+  "folder": "VDF8mAXAeTkQvgya",
+  "name": "Hidden Snake Strike",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You conjure a coiled snake on your person and command it to spring at your enemy. Make a spell attack roll against the target's AC, dealing 2d6 piercing damage and 1d6 poison damage. If the target is large or smaller, it becomes @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} (or @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} on a critical success) as the snake wraps the target in its coils. The snake has 10 AC and 5 Hit points and the target can @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} against your spell DC. Once the target breaks free, the snake disappears.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.3wWNuN01E9heMz2e]{Spell Effect: Hidden Snake Strike}</p><hr /><p><strong>Heightened (+1)</strong> The piercing and poison damage each increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "hidden-snake-strike",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Even More Magic!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "15 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "ykPQvCcjSgcJCIU7": {
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "piercing",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      },
+      "ztNz47jYnY7GfN2T": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "poison",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "ykPQvCcjSgcJCIU7": "1d6",
+        "ztNz47jYnY7GfN2T": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "_id": "xBdQss3miKMQnlQx",
+  "img": "icons/creatures/reptiles/serpent-horned-green.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3f17ed5faf5de3b5c00d3bff4a662261a33aed1b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758285845153,
+    "modifiedTime": 1758285963606,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!xBdQss3miKMQnlQx"
+}

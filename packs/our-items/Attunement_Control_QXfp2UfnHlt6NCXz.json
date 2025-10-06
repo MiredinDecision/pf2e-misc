@@ -1,0 +1,82 @@
+{
+  "name": "Attunement Control",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> Once per 10 Minutes</p><p class=\"hang\"><strong>Requirements</strong> It's your turn</p><hr /><p>You focus, allowing yourself to flow through the cosmos. You change your Polarity, even if you had already chosen a polarity this turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "attunement-control",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "FNbFR7gwtLg5GFBe",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "d2eb98d175fbac5093c0114e57d1b5270973981a",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921477687,
+    "modifiedTime": 1753921541773,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "QXfp2UfnHlt6NCXz",
+  "sort": 100000,
+  "_key": "!items!QXfp2UfnHlt6NCXz"
+}

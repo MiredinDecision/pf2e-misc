@@ -1,0 +1,89 @@
+{
+  "img": "systems/pf2e/icons/equipment/cursed-items/rose-of-loves-lost.webp",
+  "name": "Effect: Wilting Rose - Armor (Greater)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.WdNSWpJea8moQ2Fs]{Wilting Rose (Greater)}</p><p>You gain resistance 5 to acid and attacks by demons.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "acid",
+        "value": 5
+      },
+      {
+        "definition": [
+          "origin:action:trait:attack",
+          "origin:trait:demon"
+        ],
+        "key": "Resistance",
+        "label": "PF2E.IWR.Custom.AttacksDemons",
+        "type": "custom",
+        "value": 5
+      }
+    ],
+    "slug": "effect-wilting-rose-armor-greater",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #188: They Watched the Stars",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.0",
+    "createdTime": 1732650496341,
+    "modifiedTime": 1735256332510,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "rSZvgZ1aoslHt38T",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.equipment-effects.Item.UPMZe0oKVpUgDaOE",
+      "hash": "a6f71abb4d3d85b49551421494459cbb71ff75ab"
+    }
+  },
+  "_id": "YDyMLCOZR3NmrtEQ",
+  "sort": 100000,
+  "_key": "!items!YDyMLCOZR3NmrtEQ"
+}

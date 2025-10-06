@@ -1,0 +1,97 @@
+{
+  "folder": "kw7Cdwcx7pAM35BV",
+  "img": "icons/skills/melee/strike-sword-blood-red.webp",
+  "name": "Bloodspray Curse",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You inflict a curse upon the target that causes any wound to gush blood. The target must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p><p><strong>Success</strong> For 1 minute, the first time each round that the target takes at least 10 @Damage[(floor(@item.rank/2))d6[piercing]]{piercing} or @Damage[(floor(@item.rank/2))d6[slashing]]{slashing} damage from a single Strike, it takes 2d6 additional damage of the same type.</p><p><strong>Failure</strong> As success, but when it takes the additional damage, it also takes @Damage[(floor(@item.rank/2))d6[bleed]] or @Damage[(floor(@item.rank/2))d6[spirit]].</p><hr /><p><strong>Heightened (+2)</strong> The additional damage increases by 1d6 and the persistent bleed damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "bloodspray-curse",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "curse",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "varies",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "save": {
+        "basic": false,
+        "statistic": "fortitude"
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {}
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758238366056,
+    "modifiedTime": 1758238442646,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8c3b3fb8c66268ab1af55fce29af6396574a00d1",
+      "sourceId": "Actor.Sk0x5dGjX1LuSDjq.Item.s7zk9Qa0ShUvS2Uq"
+    }
+  },
+  "_id": "4D2xXtHKvmzgf2Hf",
+  "sort": 600000,
+  "_key": "!items!4D2xXtHKvmzgf2Hf"
+}

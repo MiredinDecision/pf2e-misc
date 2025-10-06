@@ -1,0 +1,83 @@
+{
+  "img": "icons/equipment/back/mantle-collared-green.webp",
+  "name": "Light Armor Expertise",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've learned how to dodge while wearing light or no armor. Your proficiency ranks for light armor and unarmored defense increase to expert.</p>"
+    },
+    "rules": [],
+    "slug": "light-armor-expertise",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "light": {
+          "rank": 2
+        },
+        "unarmored": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727117384820,
+    "modifiedTime": 1727117393387,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "PfnYVQ6hsLVLIxzB",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.pZYkb12t5DSwtts7",
+      "hash": "f88f3572ab120e1fcebe890a680a79152e6a22d6"
+    }
+  },
+  "_id": "XthtBiNOzl5vmgIO",
+  "sort": 0,
+  "_key": "!items!XthtBiNOzl5vmgIO"
+}

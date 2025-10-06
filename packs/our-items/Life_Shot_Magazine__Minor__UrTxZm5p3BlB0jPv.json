@@ -1,0 +1,112 @@
+{
+  "_id": "UrTxZm5p3BlB0jPv",
+  "img": "systems/pf2e/icons/equipment/consumables/ammunition/life-shot.webp",
+  "name": "Life Shot Magazine (Minor)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Ammunition</strong> round</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact</p><hr /><p>Life shot is a special cartridge that carries a small dose of elixir of life. A creature hit by activated life shot takes no damage from the successful attack, instead receiving @Damage[1d4[healing]]{1d4 healing} and gaining a +1 item bonus to saving throws against diseases and poisons for 1 minute. On a critical hit, roll the healing received twice and take the better result (this is a fortune effect). A target willing to be hit by this attack is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against it.</p><hr /><p>@UUID[Compendium.pf2e.equipment-effects.Item.lPRuIRbu0rHBkoKY]{Effect: Elixir of Life (Minor)}</p>"
+    },
+    "rules": [],
+    "slug": "life-shot-minor",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical",
+        "consumable",
+        "healing"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Treasure Vault",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 30
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Ammunition",
+        "img": "systems/pf2e/icons/unidentified_item_icons/ammunition.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "ammo",
+    "uses": {
+      "value": 6,
+      "max": 6,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.Oo0KZTmFsu9iCAR9",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1726802831869,
+    "modifiedTime": 1729391582602,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "e0d35d79d919778923dba7790bad07398e3b7ee0"
+    }
+  },
+  "effects": [],
+  "folder": "vbBz32a21H11AxGB",
+  "sort": 450000,
+  "ownership": {
+    "default": 0,
+    "UncDFqbFqfvFki9S": 3,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "_key": "!items!UrTxZm5p3BlB0jPv"
+}

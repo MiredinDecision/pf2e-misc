@@ -1,0 +1,87 @@
+{
+  "folder": "Cwsf5B5KhNAaMZV2",
+  "name": "Unbind the Threads",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You declare that fate has no hold on you, diverting its attempts to end you towards others<span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">. Y</span>ou gain the Rogue's @UUID[Compendium.pf2e.feats-srd.5d4AyZ0Y6Ht1OwIa]{Sidestep} feat<span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">, and you immediately gain a second reaction that you can use only to use Sidestep. At the start of each of your subsequent turns when you regain your actions, you gain an additional reaction that can be used only to use Sidestep.</span></p><p>Your diversion of fate makes you harder to hit. You gain a +2 circumstance bonus to AC and become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} for the duration of this spell. A successful Strike targeting you that misses due to the concealment granted by this effect counts as a failure for triggering Sidestep.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.sUSl2X4pAicEhu6q]{Effect: Unbind the Threads}</p>"
+    },
+    "rules": [],
+    "slug": "unbind-the-threads",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "focus",
+        "manipulate",
+        "oracle",
+        "prediction"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "i8wpXCI7sRbWQnzu",
+  "img": "icons/magic/control/debuff-chains-purple.webp",
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "48341ecc03e68d358143774aec162ed71cd3b7a7"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758053515660,
+    "modifiedTime": 1758069641549,
+    "lastModifiedBy": "19LQrWiE2jMTbelH"
+  },
+  "_key": "!items!i8wpXCI7sRbWQnzu"
+}

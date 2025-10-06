@@ -1,0 +1,104 @@
+{
+  "img": "systems/pf2e/icons/equipment/tattoos/warding-tattoo.webp",
+  "name": "Runic Bond Tattoo",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This tattoo is a set, consisting of tattoos on a group of creatures. A minimum of 3 participants are required, and the minimum price of the tattoo set is 20 gp, with each participant paying 5 gp. (3 participants = 35 total gp). Every participant must be willing and aware of every other participant, or the tattoos will not work.</p><p><span style=\"font-family:Roboto, sans-serif\">You become strongly attuned to the presence of the other bearers of this set of tattoos. Willing allies that bear one of the tattoos within 60 feet that would otherwise be undetected by you are instead <a class=\"content-link\" draggable=\"true\" data-link data-uuid=\"Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC\" data-id=\"iU0fEDdBp3rXpTMC\" data-type=\"Item\" data-pack=\"pf2e.conditionitems\" data-tooltip=\"Condition Item\" style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;cursor:url('../ui/cursors/pointer.webp'), pointer !important;--content-link-background:rgba(0, 0, 0, 0.1);background:rgb(221, 221, 221);padding:0 var(--space-4);border:1px solid var(--color-border-dark-tertiary);border-radius:2px;white-space:nowrap;word-break:break-all;color:rgb(25, 24, 19);font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">Hidden</a> from you. The flat check for you to target willing allies within 60 feet that are hidden from you is </span><span data-visibility=\"gm\" style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;background:var(--visibility-gm-bg);border:transparent;border-radius:1px;display:inline-block;line-height:1em;outline:rgba(75, 74, 68, 0.5) dotted 1px;padding:var(--space-1)\"><span style=\"font-family:Roboto, sans-serif\"><a class=\"inline-check with-repost\" data-pf2-traits=\"human\" data-pf2-repost-flavor=\"Sense Allies\" data-pf2-show-dc=\"gm\" data-pf2-label=\"Sense Allies DC\" data-pf2-check=\"flat\" data-item-uuid=\"Compendium.pf2e.feats-srd.Item.m5JYglEObpWC3dhP\" data-pf2-dc=\"5\" style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;cursor:url('../ui/cursors/pointer.webp'), pointer !important;background:var(--inline-link-bg);border-radius:2px;border:1px solid var(--color-border-dark-tertiary);color:rgb(25, 24, 19);padding-top:;padding-right:0px;padding-bottom:;padding-left:;white-space:nowrap;word-break:break-all;font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\">DC 5</a></span></span><span style=\"font-family:Roboto, sans-serif\"><a class=\"inline-check with-repost\" data-pf2-traits=\"human\" data-pf2-repost-flavor=\"Sense Allies\" data-pf2-show-dc=\"gm\" data-pf2-label=\"Sense Allies DC\" data-pf2-check=\"flat\" data-item-uuid=\"Compendium.pf2e.feats-srd.Item.m5JYglEObpWC3dhP\" data-pf2-dc=\"5\" style=\"box-sizing:border-box;user-select:text;scrollbar-width:auto !important;scrollbar-color:initial;cursor:url('../ui/cursors/pointer.webp'), pointer !important;background:var(--inline-link-bg);border-radius:2px;border:1px solid var(--color-border-dark-tertiary);color:rgb(25, 24, 19);padding-top:;padding-right:0px;padding-bottom:;padding-left:;white-space:nowrap;word-break:break-all;font-family:Roboto, sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial\"> Flat Check</a> instead of 11.</span></p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">111</span> envision (concentrate)</p><p><strong>Frequency</strong> once per day</p><p><strong>Effect</strong> You focus on another creature bearing a tattoo from this set. As long as both you and the creature you are focusing on are alive, on the same plane of existence, and willing, you become aware of their general direction and distance from you, as well as any conditions affecting them.</p><hr />"
+    },
+    "rules": [],
+    "slug": "runic-bond-tattoo",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "invested",
+        "magical",
+        "tattoo"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 5
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "tattooed-on-the-body"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.F4jOdM3qhYELTz1I",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802854338,
+    "modifiedTime": 1728608124382,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "4ad66505d2e259136d87e3c6b4873085cfdd6d57"
+    }
+  },
+  "effects": [],
+  "folder": "vZHNpawyoU6R5h8o",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "_id": "RBAmyHh9GQTiqeER",
+  "sort": 100000,
+  "_key": "!items!RBAmyHh9GQTiqeER"
+}

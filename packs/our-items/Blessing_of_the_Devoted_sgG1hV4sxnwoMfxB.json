@@ -1,0 +1,98 @@
+{
+  "img": "systems/pf2e/icons/features/classes/divine-ally.webp",
+  "name": "Blessing of the Devoted",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your deity blesses your service with a boon. This might come in the form of a spirit that visits you and inhabits your items or body, a mysterious divine tattoo upon your body, or the like. Choose one of the following blessings, or any other to which you have access.</p><p><strong>Blessed Armament</strong>: Select one weapon or handwraps of mighty blows. You gain that armament's critical specialization effect, and you grant the armament a property rune of your choice from the following list: @UUID[Compendium.pf2e.equipment-srd.Item.hnbbqvzYDyhDiJnf]{Bane}, @UUID[Compendium.pf2e.equipment-srd.Item.P6v2AtJw7AUwaDzf]{Fearsome}, @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch}, @UUID[Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U]{Returning}, @UUID[Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1]{Shifting}, or @UUID[Compendium.pf2e.equipment-srd.Item.LwQb7ryTC8FlOXgX]{Vitalizing}. During your daily preparations, you can change the spirit to inhabit a different armament, grant a different rune, or both.</p><p><strong>Blessed Shield:</strong> In your hands, a shield gains the minor @UUID[Compendium.pf2e.equipment-srd.Item.x9SNVpAAnXKJeoqp]{Reinforcing} rune. As you go up in level, the shield gains the reinforcing rune of your level (lesser at 7th level, moderate at 10th level, greater at 13th level, major at 16th level, and supreme at 19th level). If your shield already has the appropriate reinforcing rune for your level, or if it's a @UUID[Compendium.pf2e.equipment-srd.Item.f9ygr5Cjrmop8LWV]{Sturdy Shield} of the same level as the appropriate reinforcing rune, the shield's Hardness instead increases by 1.</p><p><strong>Blessed Swiftness:</strong> You gain a +5-foot status bonus to Speed. If you're mounted, your mount gains the bonus instead. In addition, when the movement of one of your allies triggers an enemy's reaction while the ally is in your champion's aura, the ally gains a +2 status bonus to all defenses against that reaction.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "allowedDrops": {
+          "label": "PF2E.SpecificRule.DivineAlly.AllowedDrops",
+          "predicate": [
+            "item:type:feature",
+            "item:trait:champion"
+          ]
+        },
+        "choices": {
+          "filter": [
+            "item:type:feature",
+            "item:tag:blessing-of-the-devoted"
+          ]
+        },
+        "flag": "blessing",
+        "key": "ChoiceSet"
+      },
+      {
+        "allowDuplicate": false,
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.blessing}"
+      }
+    ],
+    "slug": "blessing-of-the-devoted",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "champion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.ERwuazupczhUSZ73",
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1728262385702,
+    "modifiedTime": 1759552195155,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "3b1a5f04be0ad45d0559b8c3a7af7a0202110bec"
+    }
+  },
+  "effects": [],
+  "folder": "PneJXJ7akYm2XQ3F",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "sgG1hV4sxnwoMfxB",
+  "sort": 600000,
+  "_key": "!items!sgG1hV4sxnwoMfxB"
+}

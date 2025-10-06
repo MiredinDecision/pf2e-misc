@@ -1,0 +1,119 @@
+{
+  "img": "icons/equipment/chest/breastplate-layered-steel-grey.webp",
+  "name": "Moon Warden's Armor",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A suit of armor constructed to match an ancient order of knights that served a long dead god. This armor is adorned with engravings of stars, moons, and old magical and religious symbols related to the night and the moon.</p><p>This armor has a magical effect that reduces its Bulk by 1 unless dispelled.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.UR0ortM6loFTMSM3]{Effect: Moon Warden's Levity}</p><p><strong>Activate - Moonlight Gaze </strong><span class=\"action-glyph\"><strong>1</strong></span><strong> </strong>(concentrate, divine)</p><p><strong>Frequency </strong>once per day</p><hr /><p><strong>Effect </strong>You chant prayers to your deity, causing the symbols on the armor to glow with a soft moonlight that envelopes your eyes and gives you the ability to see in the night.<br /><br />You gain low-light vision and darkvision for 10 minutes.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.tetPjmxCXEvYNxD0]{Effect: Moonlit Gaze}<br /><br /><strong>Craft Requirements</strong> The initial raw materials must include 25 gp of silver. You must worship a deity whose concerns and/or domains include the Moon, Stars, or Night.</p>"
+    },
+    "rules": [],
+    "slug": "moon-wardens-armor",
+    "_migration": {
+      "version": 0.941,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.346",
+        "system": "7.3.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bulwark"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Adventure: Shadows at Sundown",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 3
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 150,
+        "pp": 0,
+        "sp": 0,
+        "cp": 0
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Plate",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy",
+    "group": "plate",
+    "acBonus": 6,
+    "strength": 3,
+    "dexCap": 0,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754676330514,
+    "modifiedTime": 1754677577665,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "fkL7xNaVK7JoPxD1",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "175dd3d87a5624007d9fe170b2133836d0cfa565",
+      "sourceId": "Actor.jGtwaBTkIzrE2wft.Item.3wIUnXkOo3VxSlBK"
+    }
+  },
+  "_id": "purzPCMv8NyUv7yn",
+  "sort": 0,
+  "_key": "!items!purzPCMv8NyUv7yn"
+}

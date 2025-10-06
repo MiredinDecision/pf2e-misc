@@ -1,0 +1,252 @@
+{
+  "name": "Effect: Synergy",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>@UUID[Compendium.pf2e-summoners-plus.misc.eCBKJ4SEwF7Hiuvb]{Synergy} @UUID[Compendium.pf2e-summoners-plus.misc.VucxKRn4BC9O3gCf]{Synergy Combos}</p>"
+    },
+    "rules": [
+      {
+        "removeAfterRoll": "if-enabled",
+        "key": "DamageDice",
+        "label": "Synergy: Tandem Boost",
+        "selector": "strike-damage",
+        "predicate": [
+          "synergized",
+          "self:effect:boost-eidolon",
+          "self:trait:eidolon",
+          "item:category:unarmed",
+          {
+            "not": "elemental-synchronicity:elemental"
+          }
+        ],
+        "category": "precision",
+        "dieSize": "d6",
+        "value": {
+          "brackets": [
+            {
+              "end": 9,
+              "value": {
+                "diceNumber": 1
+              }
+            },
+            {
+              "end": 17,
+              "start": 10,
+              "value": {
+                "diceNumber": 2
+              }
+            },
+            {
+              "start": 18,
+              "value": {
+                "diceNumber": 3
+              }
+            }
+          ]
+        }
+      },
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": "floor(@actor.level/2)",
+        "predicate": [
+          "self:effect:reinforce-eidolon"
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "predicate": [
+          "item:slug:tandem-step"
+        ],
+        "label": "Synergy: Tandem Step",
+        "value": [
+          {
+            "text": "You and your eidolon slip around enemies without provoking a response in unison. You and your eidolon both Step up to 10 feet."
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "predicate": [
+          "item:slug:tandem-movement"
+        ],
+        "label": "Synergy: Tandem Movement",
+        "value": [
+          {
+            "text": "If after you or your eidolon have ended your movement, you could make a melee Strike against the same enemy, one of you may Strike that enemy as part of the same action. If you or your eidolon are wielding a ranged unarmed attack or a ranged weapon, you or your eidolon can make this Strike so long as the target of the Strike would be within the first range increment of the ranged attack."
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "predicate": [
+          "item:slug:tandem-ready"
+        ],
+        "label": "Synergy: Tandem Ready",
+        "value": [
+          {
+            "text": "You reduce the number of actions required to use Tandem Ready from a 3-action activity to a 2-action activity, but one of the actions you or your eidolon readied must include a Strike."
+          }
+        ]
+      },
+      {
+        "removeAfterRoll": "if-enabled",
+        "key": "DamageDice",
+        "label": "Synergy: Tandem Strike",
+        "selector": "strike-damage",
+        "predicate": [
+          "synergized",
+          "feat:tandem-strike"
+        ],
+        "category": "persistent",
+        "damageType": "bleed",
+        "dieSize": "d6",
+        "value": {
+          "brackets": [
+            {
+              "end": 9,
+              "value": {
+                "diceNumber": 2
+              }
+            },
+            {
+              "end": 13,
+              "start": 10,
+              "value": {
+                "diceNumber": 3
+              }
+            },
+            {
+              "start": 14,
+              "end": 17,
+              "value": {
+                "diceNumber": 4
+              }
+            },
+            {
+              "start": 18,
+              "value": {
+                "diceNumber": 5
+              }
+            }
+          ]
+        }
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "predicate": [
+          "item:slug:call-the-incarnate"
+        ],
+        "label": "Synergy: Call the Incarnate",
+        "value": [
+          {
+            "text": "You cause your eidolon to unleash energy, producing the effects of its @UUID[Compendium.pf2e-summoners-plus.misc.0fvd9aASh27TJYOj]{Incarnate Arrival} instead of the effects of @UUID[Compendium.pf2e-summoners-plus.misc.LKTHOzyQjzuxDG66]{Power of the Incarnate}."
+          }
+        ]
+      },
+      {
+        "itemType": "action",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "description",
+        "predicate": [
+          "item:slug:suppress-eidolon"
+        ],
+        "label": "Synergy: Suppress Eidolon",
+        "value": [
+          {
+            "text": "You form a perfect synthesis between you and your eidolon, allowing you to act normally while Melded into Eidolon. You and your eidolon cannot be targeted separately and you can use whichever of your ACs, immunities, resistances, saves, and weaknesses is more favorable for the duration."
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.attributes.flanking.canGangUp",
+        "value": "eidolon"
+      }
+    ],
+    "slug": null,
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Summoners+",
+      "authors": "Tony Saunders, Derry Luttrell",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/lightning/bolt-strike-sparks-teal.webp",
+  "folder": "vT5VJ59WrE8qwwiu",
+  "ownership": {
+    "default": 0,
+    "VZuVlRAEHH3yngbI": 3,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-summoners-plus.misc.Item.H0W9EDjO1wwp38ty",
+      "hash": "ddce0af122e0cba1c6d087bb08a3124d201aa8b2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759551939714,
+    "modifiedTime": 1759618659290,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_id": "DToLpWuk1kpaYFfb",
+  "sort": 100000,
+  "_key": "!items!DToLpWuk1kpaYFfb"
+}

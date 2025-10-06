@@ -1,0 +1,121 @@
+{
+  "name": "Synergy",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You and your eidolon form a beautiful symmetry when you engage in combat, becoming a formidable duo. When you or your eidolon successfully Strike a creature, you become synergized. This state of symbiosis is called @UUID[Compendium.pf2e-summoners-plus.misc.Item.H0W9EDjO1wwp38ty]{Synergy}, and you are either in a state of synergy or you are not. If you or your eidolon made a successful Strike as part of an activity, you do not gain Synergy until after you have completed the activity.</p><p>While you have synergy, you each gain a +5-foot status bonus to your Speed and if you are both adjacent to the same creature, that creature is off-guard to you and your eidolon.</p><p>Normally, you gain and use synergy only in combat encounters; when an encounter ends, you lose synergy.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "outcome": [
+          "success",
+          "criticalSuccess"
+        ],
+        "selector": "strike-attack-roll",
+        "text": "You gain @UUID[Compendium.pf2e-misc.our-items.Item.DToLpWuk1kpaYFfb]{Synergy}.",
+        "title": "{item|name}",
+        "predicate": [
+          {
+            "not": "self:effect:synergy"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "speed",
+        "value": 5,
+        "type": "status",
+        "slug": "synergetic-speed",
+        "predicate": [
+          {
+            "or": [
+              "self:effect:synergy",
+              {
+                "and": [
+                  "feature:synergetic-movement",
+                  {
+                    "not": "self:effect:synergy"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "synergy",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "summoner"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Summoners+",
+      "authors": "Tony Saunders, Derry Luttrell",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+  "folder": "vT5VJ59WrE8qwwiu",
+  "ownership": {
+    "default": 0,
+    "VZuVlRAEHH3yngbI": 3,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-summoners-plus.misc.Item.eCBKJ4SEwF7Hiuvb",
+      "hash": "f4a18d512f0a5893b2a04d52da9f904ee8c5c3d5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759551931440,
+    "modifiedTime": 1759618888558,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_id": "LUmRqzfCatowpGJA",
+  "sort": 300000,
+  "_key": "!items!LUmRqzfCatowpGJA"
+}

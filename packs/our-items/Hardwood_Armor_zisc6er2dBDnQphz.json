@@ -1,0 +1,116 @@
+{
+  "img": "systems/pf2e/icons/equipment/armor/padded-armor.webp",
+  "name": "Hardwood Armor",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Wood and bark grow over your body like armor. This hardwood armor is medium armor but uses your highest armor proficiency. The wooden armor's statistics are: AC Bonus +3; Dex Cap +2; Check Penalty –2; Speed Penalty –5 feet; Strength +2; Bulk 1; Group wood TV. Any bonuses, runes, and magical abilities of your actual armor are suppressed, but any runes that could apply to the hardwood armor are replicated onto it.</p><p>When you use this impulse, you can also create a wooden shield in a free hand. You can Shield Block with this shield even if you don't have that feat. The hand wielding this shield counts as a free hand for using impulses. The shield decays in an instant if it becomes broken or leaves your grasp.</p><p>The armor lasts for 10 minutes, and you can Dismiss this impulse. If you use this impulse again, any existing one ends.</p><hr /><p><strong>Level (+3)</strong> The shield's Hardness increases by 1, its HP by 4, and its BT by 2.</p>"
+    },
+    "rules": [],
+    "slug": "hardwood-armor",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "primal",
+        "wood"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Bastion Plate",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "light",
+    "group": "wood",
+    "acBonus": 3,
+    "strength": 2,
+    "dexCap": 2,
+    "checkPenalty": -2,
+    "speedPenalty": -5,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745444456840,
+    "modifiedTime": 1754675555574,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "fkL7xNaVK7JoPxD1",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "608601b7b70956e5b08e855b2600f1511975a95c",
+      "sourceId": "Actor.dUXOkYUG0R0qWGM3.Item.9X7jCxCwnJ5jOhSn"
+    }
+  },
+  "_id": "zisc6er2dBDnQphz",
+  "sort": 300000,
+  "_key": "!items!zisc6er2dBDnQphz"
+}

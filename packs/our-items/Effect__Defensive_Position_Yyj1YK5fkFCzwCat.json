@@ -1,0 +1,83 @@
+{
+  "img": "systems/pf2e/icons/features/feats/inspiring-marshal-stance.webp",
+  "name": "Effect: Defensive Position",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.rW8ujIJiylHFpz7u]{Warlord's Strategic Stance} and @UUID[Compendium.pf2e-misc.our-items.Item.aqXheGYb1BFNH3YI]{Defensive Position}</p><p>You order your allies to stay close and cover each other.</p><p><strong>Effect</strong> Affected allies gain a +1 circumstance bonus to AC and reflex saving throws. If the ally is wielding a shield or can cast the Shield cantrip, they can raise their shield or cast Shield as a free action once during their turn. If they're wielding a weapon with the parry trait, they can parry instead.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "encounter",
+      "value": -1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Vyklade's Book of Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "ac",
+          "reflex"
+        ],
+        "type": "circumstance",
+        "value": "@actor.flags.pf2e.warlord.bonus"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-defensive-position",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755228413976,
+    "modifiedTime": 1755259150321,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "NkYeLnkZRgzZVVow",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.JXRjpuHyyxUNv40l",
+      "hash": "5ee390d686f864fa7def90886a04536fcfc8f949"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "Yyj1YK5fkFCzwCat",
+  "sort": 200000,
+  "_key": "!items!Yyj1YK5fkFCzwCat"
+}

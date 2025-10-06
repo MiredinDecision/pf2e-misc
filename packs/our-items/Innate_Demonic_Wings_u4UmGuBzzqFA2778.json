@@ -1,0 +1,102 @@
+{
+  "folder": "S6hh0iH0CsddGG63",
+  "name": "Innate Demonic Wings",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a 15-foot fly speed.</p>\n<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Any feat that upgrades the PC's flying capabilities, instead upgrades this Speed by an additional 5 feet. </span></p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 15
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fly-speed",
+        "value": "5 * @actor.flags.pf2e.ancestryFlyingCount",
+        "slug": "innate-demonic-wings"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.ancestryFlyingCount",
+        "value": 1
+      }
+    ],
+    "slug": "innate-demonic-wings",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "demon",
+        "sprite"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "modules/pf2e-relic-bloodglass/assets/demonic-fey-wing.webp",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "c266a3b2dda09cb6ec9791638357d0712b6a68d8",
+      "sourceId": "Actor.zU2JgPfnGNz5JEpt.Item.EJ6huIvlxBnLiGtz"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1743987611816,
+    "modifiedTime": 1755204669625,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "u4UmGuBzzqFA2778",
+  "sort": 400000,
+  "_key": "!items!u4UmGuBzzqFA2778"
+}

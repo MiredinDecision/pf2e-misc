@@ -1,0 +1,82 @@
+{
+  "name": "Limit Breaker",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> Once per Day</p><p class=\"hang\"><strong>Trigger</strong> You use the Call Armiger action</p><hr /><p>You search deep within, reaching out to the vastness of the stars, the moons, the cosmos. For 2 rounds, You become Quickened. You can use the extra action to Step, Stride, Strike or use any Discipline. Additionally, your Regalia do not gain the Broken condition for the duration of Limit Breaker, allowing you to use them repeatedly.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "limit-breaker",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "km5P6gYPWjDlP942",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0404968e3f333d0bb1767c6f1d9f909b5205abb9",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753922148972,
+    "modifiedTime": 1753929638831,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "Lu4kg6V5Vfh4iqWn",
+  "sort": 100000,
+  "_key": "!items!Lu4kg6V5Vfh4iqWn"
+}

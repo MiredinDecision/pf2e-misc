@@ -1,0 +1,88 @@
+{
+  "folder": "M56lCLSYwSqYWkIx",
+  "name": "Warlord's Maneuvers",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've stopped relying on your muscles and brute force to change the tides of the battlefield. You can use Warfare Lore instead of Athletics when making checks to [[/act disarm skill=warfare-lore]]{Disarm}, [[/act grapple skill=warfare-lore]]{Grapple}, [[/act shove skill=warfare-lore]]{Shove}, or [[/act trip skill=warfare-lore]]{Trip}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "warlords-maneuvers",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warlord Dedication"
+        },
+        {
+          "value": "Expert in Athletics"
+        },
+        {
+          "value": "Expert in Warfare Lore"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "c597f4d8dc5af9f948934f1bede35349f27d4d39",
+      "sourceId": "Item.53aV5boeKkbktZM1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755241568259,
+    "modifiedTime": 1755244481080,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "NF8eSDlYOHsqmO8J",
+  "sort": 0,
+  "_key": "!items!NF8eSDlYOHsqmO8J"
+}

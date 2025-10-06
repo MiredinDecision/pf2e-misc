@@ -1,0 +1,104 @@
+{
+  "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+  "name": "Evasion",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've learned to move quickly to avoid explosions, dragon's breath, and worse. Your proficiency rank for Reflex saves increases to master. When you roll a success on a Reflex save, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "outcome": [
+          "success"
+        ],
+        "selector": "reflex",
+        "text": "PF2E.SpecificRule.SaveSuccessToCriticalSuccess.Reflex",
+        "title": "{item|name}"
+      },
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "reflex",
+        "type": "save"
+      }
+    ],
+    "slug": "evasion",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.879,
+        "foundry": "12.331",
+        "system": "6.7.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 7
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "reflex": {
+          "rank": 3
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "type": "feat",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-legacy-content.class-features-legacy.Item.MV6XIuAgN9uSA0Da",
+      "hash": "59d9a4a42055e43635bab2f3a1e48efac7f0f7fa"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.MV6XIuAgN9uSA0Da",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753915227361,
+    "modifiedTime": 1753915275819,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "aHASIuo3zbHTKeM1",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "UtsxWKhGUFjex5Hp",
+  "sort": -100000,
+  "_key": "!items!UtsxWKhGUFjex5Hp"
+}

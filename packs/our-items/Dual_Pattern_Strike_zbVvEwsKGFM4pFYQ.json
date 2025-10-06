@@ -1,0 +1,93 @@
+{
+  "name": "Dual-Pattern Strike",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You swing your weapons, one after the other, creating an arcane sigil that lingers with your strokes. Make two Strikes against a single target, one with each of the required weapons. If both your Strikes hit, you brand the target with an arcane sigil, giving them a weakness of 2 to one of the following damage types: acid, cold, electricity, fire, force, mental, poison, spirit, vitality, or void. Apply your multiple attack penalty to each Strike normally.</p><p><strong>Heightened (+2)</strong> The weakness increases by 1.</p><hr /><p>@UUID[Compendium.pf2e-misc.our-items.Item.ZPX304JRA8qUQZDu]{Spell Effect: Dual-Pattern Strike}</p><p data-visibility=\"owner\"><em>Note: Conflux spells refresh Spellstrike.</em></p>"
+    },
+    "rules": [],
+    "slug": "dual-pattern-strike",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.331",
+        "system": "6.10.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "flourish",
+        "focus",
+        "magus"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "Magus+",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "You are wielding both your diametric weapons.",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "1"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "img": "systems/pf2e/icons/features/classes/master-tricks.webp",
+  "ownership": {
+    "default": 0,
+    "7oWVMvY4T6vgcOLC": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1741921230036,
+    "modifiedTime": 1741921279588,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "yvdZ7W2yyHPWgqrj",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.magus.magus-focus-spells.Item.1nrYVqps9R4q3CIM",
+      "hash": "1ddf3f4425d88cd256ab9e6ed95e82137e7094f2"
+    }
+  },
+  "_id": "zbVvEwsKGFM4pFYQ",
+  "sort": 0,
+  "_key": "!items!zbVvEwsKGFM4pFYQ"
+}

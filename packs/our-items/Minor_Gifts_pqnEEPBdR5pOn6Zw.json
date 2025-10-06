@@ -1,0 +1,26 @@
+{
+  "name": "Minor Gifts",
+  "sorting": "a",
+  "folder": "TMEhVOdJMM9ExsQ1",
+  "type": "Item",
+  "_id": "pqnEEPBdR5pOn6Zw",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "45bf98130443bc3a859fe733bd810d1bcebac714"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!pqnEEPBdR5pOn6Zw"
+}

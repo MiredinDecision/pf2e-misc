@@ -1,0 +1,382 @@
+{
+  "name": "Essence Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "description": {
+      "value": "<p>Instead of spell slots, you use essence to cast your spells, either through an incantation or through drawing and building up essence throughout a battle.</p><p>When using essence casting, you have a number of prepared spells or a spell repertoire as normal. However, you don’t spend spell slots to cast spells. Instead, you can cast spells from your prepared spells or repertoire only when you have essence equal to or greater than the spell’s rank, or via incantations. You cast focus spells and cantrips the same as normal, and they don’t require essence. Certain cantrips, called draw cantrips, can help you gain essence. Spells that normally require spell slots are called “essence spells” in this system of spellcasting.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Magic+",
+      "authors": "Tony Saunders, Derry Luttrell",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "adjustName": true,
+        "choices": [
+          {
+            "value": "archetype",
+            "label": "Archetype"
+          },
+          {
+            "value": "bounded",
+            "label": "Bounded"
+          },
+          {
+            "value": "full",
+            "label": "Full"
+          }
+        ],
+        "rollOption": "essence-caster"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.0KTqyVRXp6ylg39q"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.OCyzsCXjh2d5Ugmv"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.jNOZkBE8sd1UhH8o"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.PBYpWbE3Ls4NiiSs"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.odAsOR95Cjuwqixk"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.OGeHSfEa8N58Sp8z",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              3
+            ]
+          },
+          "essence-caster:full"
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.cd5yPjroxsFXmgYQ",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              3
+            ]
+          },
+          "essence-caster:full"
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.5Ls34bIDbbM8IyxC",
+        "predicate": [
+          {
+            "and": [
+              {
+                "gte": [
+                  "self:level",
+                  3
+                ]
+              },
+              {
+                "or": [
+                  "essence-caster:full",
+                  "essence-caster:bounded"
+                ]
+              }
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          "essence-caster:full",
+          {
+            "not": "class:psychic"
+          }
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.nWrMVX6rsQanqjlj"
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          "essence-caster:full"
+        ],
+        "reevaluateOnUpdate": true,
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.cYHvzy96aWk5n8yC"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.oshpc0l8UMOmhTq0",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          },
+          "essence-caster:full"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.9Znz3mGmbC5neu2K",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              19
+            ]
+          },
+          "essence-caster:full"
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:quickened-casting"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "**Frequency** once per day"
+          },
+          {
+            "text": "If your next action is to cast an essence spell of a rank less than or equal to your essence draw, reduce the number of actions to cast it by 1 (minimum 1 action). It doesn't cause an essence leak or increase your current essence, and you can cast another essence spell this turn."
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:freeze-time"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "You temporarily stop time for everything but yourself, allowing you to use several actions in what appears to others to be no time at all. Immediately after casting freeze time, you can use up to 9 actions in 3 sets of up to 3 actions each."
+          },
+          {
+            "text": "While time is frozen, your essence draw and essence pool are 1 lower than normal, and you can’t use essence rebirth; if you would complete an essence cycle, you experience an essence leak instead, and at the end of the frozen time, you immediately experience an essence leak and return to 0 essence. After each set of actions, 1 round passes, but for only you, effects specifically targeting or affecting you, and effects that you create during the stoppage. All other creatures and objects are invulnerable to your attacks, and you can't target or affect them with anything."
+          },
+          {
+            "text": "Once you have finished your actions, time begins to flow again for the rest of the world. If you created an effect with a duration that extends beyond freeze time's duration, such as wall of fire, it immediately affects others again, but it doesn't have any of the effects that happen only when you first Cast the Spell."
+          }
+        ]
+      },
+      {
+        "itemType": "feat",
+        "key": "ItemAlteration",
+        "mode": "override",
+        "predicate": [
+          "item:slug:arcane-bond"
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "The wizard’s arcane bond feature grants you a prepared spell or spells instead of @UUID[Compendium.pf2e.actionspf2e.Item.v82XtjAVN4ffgVVR]{Drain Bonded Item}; you gain an additional spell prepared of any rank the bonded item could have provided a spell slot (one of up to your highest rank for most wizards, or one of each rank for wizards of the school of unified magic theory)."
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.coQP9rX3bOAzF9W4",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              3
+            ]
+          },
+          "essence-caster:bounded"
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-team-plus-magic.items.Item.nn0LWg8eJxUGR5OL",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          },
+          "essence-caster:bounded"
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:essence",
+          {
+            "gte": [
+              "item:cast:actions",
+              2
+            ]
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "Casting this spell increases your essence pool by 1!"
+          }
+        ]
+      },
+      {
+        "itemType": "spell",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:trait:essence",
+          {
+            "or": [
+              {
+                "lt": [
+                  "item:cast:actions",
+                  2
+                ]
+              }
+            ]
+          }
+        ],
+        "property": "description",
+        "value": [
+          {
+            "text": "Casting this spell causes an essence leak, reducing you to 0 essence!"
+          }
+        ]
+      },
+      {
+        "key": "RollOption",
+        "predicate": [
+          "essence-caster:bounded"
+        ],
+        "option": "bounded-time",
+        "placement": "spellcasting",
+        "alwaysActive": true,
+        "toggleable": true,
+        "mergeable": true,
+        "suboptions": [
+          {
+            "label": "Out of Essence",
+            "value": "0"
+          },
+          {
+            "label": "1st Draw",
+            "value": "1"
+          }
+        ],
+        "selection": "1"
+      },
+      {
+        "key": "RollOption",
+        "predicate": [
+          "bounded-time:0"
+        ],
+        "option": "essence-blocked"
+      }
+    ],
+    "slug": "essence-spellcasting",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "folder": "HPUypy1FFcbDBHmC",
+  "ownership": {
+    "default": 2,
+    "WWrOvPcFaAaPfOlQ": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-team-plus-magic.items.Item.05Q5qj5dRPyt7sNj",
+      "defaultPermission": 2,
+      "hash": "6a586d17ec630a879fdf846dce3404e0d25e1d96"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757969628345,
+    "modifiedTime": 1757969919106,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_id": "M6i0feiWfX7tw53g",
+  "sort": 0,
+  "_key": "!items!M6i0feiWfX7tw53g"
+}

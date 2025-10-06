@@ -1,0 +1,75 @@
+{
+  "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
+  "name": "Taste Blood",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>In order to save her life, Eli fed Number 6 their blood, causing her to gain a pair of fangs and a thirst for blood typically inherent in her ancestry.</p><p>You drink fresh blood from a living humanoid creature, gaining temporary Hit Points equal to the target's level that last for 10 minutes. The target must succeed at a @Check[fortitude|against:class-spell] save against the higher of your class or spell DC or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. Regardless of the outcome of this save, the target is temporarily immune to your Taste Blood for 1 day; further uses of this ability against the target don't increase the drained condition or grant you more temporary Hit Points.</p><p>To drink a creature's blood, either your last action must have been a fangs Strike that damaged the target, or the target must be @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} or @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} and your last action must have been a Strike that dealt piercing or slashing damage to them. If the target is willing, they don't need to be restrained or unconscious for the latter.</p><p>Number 6 can only drain the blood from a willing creature, or one she is in combat with.</p>"
+    },
+    "rules": [],
+    "slug": "taste-blood",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dhampir",
+        "void"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.WWSwcvIjGUQOKKuD",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262119412,
+    "modifiedTime": 1728262119412,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "ef77330bbe6ff0c9916fdcdfd12fff5c835248b9"
+    }
+  },
+  "effects": [],
+  "folder": "ak4BU0m8Km4hZsvo",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "i02edArW6OL8prHn",
+  "sort": 0,
+  "_key": "!items!i02edArW6OL8prHn"
+}

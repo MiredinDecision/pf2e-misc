@@ -1,0 +1,69 @@
+{
+  "folder": "pEbX2I8YQO6IPz33",
+  "name": "Crystal Orchid Dance",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> bloodglass</p><p><strong>Prerequisites </strong>You are a summoner and within 30ft of your eidolon.</p><p><strong>Defense </strong>basic Reflex</p><p><strong>Activate </strong><span class=\"action-glyph\">1</span> <strong>(concentrate)</strong></p><hr /><p>Edara allows Iúna to reach into the bonding sigil between herself and Litsaryara. Iúna channels its energy between them, creating a churning of quintessence, transforming the ambient moisture in the air into a whirlwind of bloodglass shards. The whirlwind does @Damage[9d6[spirit], 9d6[slashing]]{9d6 spirit damage and 9d6 slashing damage} to all foes in a @Template[type:burst|distance:15] that includes both you and your eidolon in its area of effect, with a basic Reflex save. The whirlwind flows harmlessly around and through your allies, giving any allies it touches temporary HP equal to the relic's level. <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You can't use this activation again for [[/r 2d4]]{2d4 rounds}.</span></p>"
+    },
+    "rules": [],
+    "slug": "crystal-orchid-dance",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bloodglass",
+        "concentrate"
+      ]
+    },
+    "publication": {
+      "title": "Bloodglass Relic",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false
+  },
+  "_id": "ynd4NNsdkaZDW7g3",
+  "img": "modules/pf2e-relic-bloodglass/assets/crystal-orchid.webp",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "890fec4f384fc9957e459d2eceffb571085d1449"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.ynd4NNsdkaZDW7g3",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261096633,
+    "modifiedTime": 1728261096633,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!ynd4NNsdkaZDW7g3"
+}

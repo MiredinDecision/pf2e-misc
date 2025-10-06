@@ -1,0 +1,75 @@
+{
+  "folder": "xwbPRatZZ3lPdOJq",
+  "name": "Field of Blood",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong><em>blood</em></p><p><strong>Frequency </strong>once per day</p><p><strong>Activate </strong><span class=\"action-glyph\"><strong>2 </strong></span>concentrate</p><hr /><p><strong>Effect </strong>Ankle-deep blood floods outward from you, filling a @Template[emanation|distance:30] centered on you for 1 minute. <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Enemies within the area without a swim Speed treat the area as difficult terrain</span> for movement on land. While the effect persists, you can treat any square within the area as within your reach, as you can manipulate the blood to perform those actions.</p>"
+    },
+    "rules": [],
+    "slug": "field-of-blood",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.vcziOFmvvdc2soxg",
+      "name": "Aura: Field of Blood"
+    }
+  },
+  "_id": "awNdjnwzKUE1vr7u",
+  "img": "icons/skills/wounds/blood-spurt-spray-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3ede060d7bde0fc7d46890bc1a11a58219ea75a3"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729323813280,
+    "modifiedTime": 1729823272296,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!awNdjnwzKUE1vr7u"
+}

@@ -1,0 +1,87 @@
+{
+  "folder": "Cwsf5B5KhNAaMZV2",
+  "name": "Glimpse Fate",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You see the seams of your destiny, showing you the many decisions you can make to reach it.</p><p>When you cast this spell, declare an action you are going to take and resolve it as if you had done it. You may then choose to reject this thread of fate and follow another, using a different action in its place (for example, if you declared a Strike, you may not choose to Strike the same target again).</p><hr /><p><strong>Special:</strong> If you choose to cast this spell as a 3-action activity, you can declare a two action activity as your destined action, but can still only take a different single action if you reject it.</p>"
+    },
+    "rules": [],
+    "slug": "glimpse-fate",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "divination",
+        "focus",
+        "oracle",
+        "prediction"
+      ],
+      "rarity": "uncommon",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": null,
+    "time": {
+      "value": "2 or 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "Zn95HxfPos1qWGeZ",
+  "img": "icons/magic/control/debuff-energy-snare-purple-pink.webp",
+  "sort": -100000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "24663d792480d5c7b18d51d3201879ff0b8055cd"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758053495597,
+    "modifiedTime": 1758069746481,
+    "lastModifiedBy": "19LQrWiE2jMTbelH"
+  },
+  "_key": "!items!Zn95HxfPos1qWGeZ"
+}

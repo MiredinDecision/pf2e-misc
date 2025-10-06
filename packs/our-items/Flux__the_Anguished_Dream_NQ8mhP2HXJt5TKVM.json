@@ -1,0 +1,175 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/blade-of-the-black-soverign.webp",
+  "name": "Flux, the Anguished Dream",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This +3 <em>great striking wraithbone rapier</em> has a handle crafted from gleaming white bone, with a black metal basket hilt in the shape of a rose. A long, bone-white blade covered in runes extends out of it to a fine point. For the purpose of the forceful trait, treat the first strike made with <em>Flux</em> each turn as if it were the second strike, and all following strikes as if they were subsequent to the second.</p><hr /><p><strong>Activate - Overwhelming Control </strong><span class=\"action-glyph\">1</span> (concentrate, divine, spellshape)</p><p><strong>Frequency</strong> once per hour</p><p><strong>Effect</strong> If your next action is to Cast a Spell that has the mental and incapacitate traits, you may ignore the incapacitate trait for the casting of that spell, as <em>Flux</em> overwhelms the target's mind. Spend either a second spell slot of the same rank or an amount of charges from <em>Flux</em> equal to the spell's rank.</p><hr /><p><strong>Activate - Wail</strong> <span class=\"action-glyph\">r</span> (concentrate, mental)</p><p><strong>Trigger</strong> the wielder is damaged by an enemy within 30 feet</p><p><strong>Frequency</strong> once per hour</p><p><strong>Effect</strong> <em>Flux</em> shrieks with repressed agony, sharing the lifetime of pain its spirit has endured. The triggering enemy takes mental damage equal to the triggering damage, with a @Check[will|against:class-spell] save against your class or spell DC.</p><p><strong>Critical Success</strong> The target is unaffected</p><p><strong>Success</strong> The target takes half damage</p><p><strong>Failure</strong> The target takes full damage and is stupefied 1 for one minute as the reflected pain disorients them</p><p><strong>Critical Failure</strong> as Failure, but the target is stupefied 2 and stunned 1</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation}, @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear}, @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]{Summon Undead}</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Fq9yCbqI2RDt6Orw]{Spiritual Weapon}, @UUID[Compendium.pf2e.spells-srd.Item.S708JF3E0kuhuRzG]{Bone Spray}</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e-misc.our-items.Item.IpSqVs1e3owHDNPC]{Ossein Javelin}</li><li><strong>4th </strong>@UUID[Compendium.pf2e.spells-srd.Item.Fq9yCbqI2RDt6Orw]{Spiritual Weapon}, @UUID[Compendium.pf2e.spells-srd.Item.S708JF3E0kuhuRzG]{Bone Spray}</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e-misc.our-items.Item.IpSqVs1e3owHDNPC]{Ossein Javelin}</li><li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.jj5d830iUi2ZlQfs]{Blessed Boundary}</li><li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.x9RIFhquazom4p02]{Deity's Strike}</li></ul><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">A <em>nightmare</em> rune creates minor phantasmal alterations to a weapon's appearance so that those who look upon it see subtle reminders of their deepest fears. An arachnophobe might interpret the cross guard of a <em>nightmare</em> longsword to look like curving, twitching spider legs, for example, while someone who's afraid of sickness might see a <em>nightmare</em> club as a diseased length of bone crawling with flies. These images are all in the mind of the observer, but they also infuse the weapon with additional power. When you hit with a nightmare weapon, add 1d6 mental damage to the damage dealt. In addition, on a critical hit, the target becomes </span><span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Conditions.aspx?ID=94\"><span style=\"text-decoration:underline\">stupefied</span></a></span> 1 by overwhelming visions in their mind of personal horrors that linger. If you critically hit a creature that's already stupefied, it becomes <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Conditions.aspx?ID=76\"><span style=\"text-decoration:underline\">frightened</span></a></span> 2 as well. These critical hit effects have the <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=590\"><span style=\"text-decoration:underline\">emotion</span></a></span>, <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=598\"><span style=\"text-decoration:underline\">fear</span></a></span>, and <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=647\"><span style=\"text-decoration:underline\">mental</span></a></span> traits. <br /><br /><strong>Activate</strong> 10 minutes (envision, Interact); <strong>Frequency</strong> once per day; <strong>Effect</strong> The <em>nightmare weapon</em> casts <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Spells.aspx?ID=1615\"><em><span style=\"text-decoration:underline\">nightmare</span></em></a></span> to your specifications.<br /></p>"
+    },
+    "rules": [],
+    "slug": "necromancers-rapier",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "deadly-d8",
+        "disarm",
+        "finesse",
+        "forceful",
+        "holy",
+        "magical",
+        "mythic",
+        "staff",
+        "wraithbone"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "quantity": 1,
+    "baseItem": "rapier",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 6400
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Staff",
+        "img": "systems/pf2e/icons/unidentified_item_icons/staves.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 2
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 3,
+      "striking": 2,
+      "property": [
+        "greaterFlaming",
+        "nightmare"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 2,
+        "striking": 2,
+        "property": [
+          "greaterFlaming",
+          "nightmare"
+        ]
+      }
+    },
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757643832796,
+    "modifiedTime": 1757643832796,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "K2E98FJTqNioJF80",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5aac6b9657e53870b8658b44f13d7943c861fd4c",
+      "sourceId": "Actor.dbOfTWz3WZbl32Ft.Item.87ZQEMdaYzUU3AHo"
+    }
+  },
+  "_id": "NQ8mhP2HXJt5TKVM",
+  "sort": 0,
+  "_key": "!items!NQ8mhP2HXJt5TKVM"
+}

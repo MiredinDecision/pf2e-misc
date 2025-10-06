@@ -1,0 +1,84 @@
+{
+  "img": "systems/pf2e/icons/features/classes/blade-ally.webp",
+  "name": "Blade Ally",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A spirit of battle dwells within your armaments. Select one weapon or @UUID[Compendium.pf2e.equipment-srd.Item.FNDq4NFSN0g2HKWO]{Handwraps of Mighty Blows} when you make your daily preparations. In your hands, the item gains the effect of a property rune. For a champion following the tenets of good, choose @UUID[Compendium.pf2e.equipment-srd.Item.hnbbqvzYDyhDiJnf]{Bane}, @UUID[Compendium.pf2e.equipment-srd.Item.LwQb7ryTC8FlOXgX]{Vitalizing}, @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch}, @UUID[Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U]{Returning}, or @UUID[Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1]{Shifting}. If you are a champion following the tenets of evil, you can choose the following property runes: @UUID[Compendium.pf2e.equipment-srd.Item.P6v2AtJw7AUwaDzf]{Fearsome}, returning, or shifting. You also gain the weapon's critical specialization effect.</p><p>@UUID[Compendium.pf2e-soulbound-warrior.soulbound-warrior-features.Item.HbDGcic7RicuBDgB]{Effect: Blade Ally}</p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "divine-ally:blade"
+      }
+    ],
+    "slug": "blade-ally",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "champion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "f81024feda7830d8aa5c4fd715e17fdf48bf14be"
+    }
+  },
+  "effects": [],
+  "folder": "PneJXJ7akYm2XQ3F",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-soulbound-warrior.soulbound-warrior-features.Item.7kcwUB1JvFIak9nB",
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262385702,
+    "modifiedTime": 1759552195155,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_id": "7kcwUB1JvFIak9nB",
+  "sort": 700000,
+  "_key": "!items!7kcwUB1JvFIak9nB"
+}

@@ -1,0 +1,79 @@
+{
+  "folder": "nWsgyn98yuDJc4ng",
+  "name": "Emotion Surge (Love)",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> emotion</p><hr /><p><strong>Effect</strong> A surge of emotion emanates from your relic, This ability grants a +1 status bonus to skill checks determined by the relic's emotion. <br /><strong>Love </strong>Medicine checks</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "medicine",
+        "value": 1,
+        "type": "status"
+      }
+    ],
+    "slug": "emotion-surge-love",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "emotion",
+        "relic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "XaNxN9hyDltQ0Is3",
+  "img": "icons/magic/life/heart-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cad1476c5dec005e8b02e07b51610f91fcaf6658"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729321328517,
+    "modifiedTime": 1729321411468,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!XaNxN9hyDltQ0Is3"
+}

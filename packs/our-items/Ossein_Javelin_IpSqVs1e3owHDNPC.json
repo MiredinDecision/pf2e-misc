@@ -1,0 +1,214 @@
+{
+  "folder": "ZbZeGxd2XHQt4tko",
+  "name": "Ossein Javelin",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You throw a javelin of bone at your foe, which you have supercharged with the burning heat of life, or the biting cold of death. Make a spell attack roll against the target's AC, dealing 2d6 piercing damage on a hit. On a critical hit, the target takes double damage and takes a -10 foot status penalty to their movement speed for one round as the javelin lodges inside them.</p><p>Whether or not the javelin hit the target, it erupts in a fury of necromantic magic. All creatures within a 10-foot emanation centered on the initial target take your choice of 4d8 fire or 4d8 cold damage with a basic Reflex save. The magical energy lingers in the area, making the area difficult terrain until the start of your next turn.</p><p>You can spend a third action while casting this spell to throw javelins at two different targets instead of one. These attacks each increase your multiple attack penalty, but you don't increase your multiple attack penalty until after you make both spell attack rolls for Ossein Javelin. A creature in any of the burst areas attempts one basic Reflex save against the spell no matter how many overlapping explosions it's caught in and can take each type of damage from the burst only once.</p><hr /><p><strong>Heightened (+1)</strong> The piercing damage to the initial target increases by 1d6 and persistent bleed damage on a critical to the initial target increases by 1d4. The fire or cold damage increases by 1d8.</p>"
+    },
+    "rules": [],
+    "slug": "ossein-javelin",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cold",
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "rare",
+      "traditions": [
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "60 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2 or 3"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "overlays": {
+      "9gXyhP6lNmeqpqgp": {
+        "name": "Ossein Javelin (Cold)",
+        "system": {
+          "traits": {
+            "value": [
+              "cold",
+              "concentrate",
+              "fire",
+              "manipulate"
+            ]
+          },
+          "area": {
+            "value": 10,
+            "type": "emanation"
+          },
+          "damage": {
+            "ruib7M9wRCBQFbtG": {
+              "formula": "4d8",
+              "kinds": [
+                "damage"
+              ],
+              "type": "cold",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": {
+            "passive": null
+          },
+          "heightening": {
+            "type": "interval",
+            "interval": 1,
+            "damage": {
+              "ruib7M9wRCBQFbtG": "1d8"
+            },
+            "area": 0
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      },
+      "XMaUhNtVFWZY0H3J": {
+        "name": "Ossein Javelin (Fire)",
+        "system": {
+          "traits": {
+            "value": [
+              "cold",
+              "concentrate",
+              "fire",
+              "manipulate"
+            ]
+          },
+          "area": {
+            "value": 10,
+            "type": "emanation"
+          },
+          "damage": {
+            "FmELz6KmNsBygOez": {
+              "formula": "4d8",
+              "kinds": [
+                "damage"
+              ],
+              "type": "fire",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": {
+            "passive": null
+          },
+          "heightening": {
+            "type": "interval",
+            "interval": 1,
+            "damage": {
+              "FmELz6KmNsBygOez": "1d8"
+            },
+            "area": 0
+          }
+        },
+        "sort": 3,
+        "overlayType": "override"
+      },
+      "BfUNscZPqs3M2X4n": {
+        "name": "Ossein Javelin (Target)",
+        "system": {
+          "damage": {
+            "ynRCw76TwVb2oDLj": {
+              "formula": "2d6",
+              "kinds": [
+                "damage"
+              ],
+              "type": "piercing",
+              "category": null,
+              "materials": [],
+              "applyMod": false
+            }
+          },
+          "defense": {
+            "save": null
+          },
+          "heightening": {
+            "type": "interval",
+            "interval": 1,
+            "damage": {
+              "ynRCw76TwVb2oDLj": "1d6"
+            },
+            "area": 0
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      }
+    }
+  },
+  "_id": "IpSqVs1e3owHDNPC",
+  "img": "icons/commodities/bones/tooth-spiked-brown.webp",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "14fbc88a7c2a8957eaa50fbc5701bdf15d43fa6c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.0",
+    "createdTime": 1734043484781,
+    "modifiedTime": 1754328973937,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!IpSqVs1e3owHDNPC"
+}

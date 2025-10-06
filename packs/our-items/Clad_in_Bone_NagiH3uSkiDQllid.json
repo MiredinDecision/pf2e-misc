@@ -1,0 +1,101 @@
+{
+  "folder": "iRnnJo6rYGnLxtGN",
+  "name": "Clad in Bone",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Aspect</strong> spirit</p><hr /><div id=\"page\" class=\"page clearfix\"><div id=\"ctl00_RadDrawer1_Content\" class=\"k-drawer-content\"><div id=\"main-wrapper\" class=\"main-wrapper compressed\"><div id=\"main\" class=\"main\"><p>Your relic's energies have given you control over the boundary between flesh and stone, easily melding biological components into material hard as steel. You can cast 6th-rank @UUID[Compendium.pf2e.spells-srd.Item.znv4ECL7ZtuiagtA]{Petrify} and @UUID[Compendium.pf2e.spells-srd.Item.BCuHKrDeJ4eq53M6]{Sure Footing} (to remove petrification only) as innate spells, each once per day. While wearing armor made of bones, its AC Bonus increases by 1. As long as you are conscious, your armor reflexively hardens at the moment you are struck, granting you resistance to physical damage (except adamantine) equal to half the relic's level.</p></div></div></div></div><div id=\"footer\" class=\"footer\"><p></p></div>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "physical",
+        "value": "max(@actor.level/2,1)",
+        "exceptions": [
+          "adamantine"
+        ],
+        "predicate": [
+          {
+            "not": "self:condition:unconscious"
+          }
+        ]
+      },
+      {
+        "itemType": "armor",
+        "key": "ItemAlteration",
+        "mode": "add",
+        "predicate": [
+          "item:equipped"
+        ],
+        "property": "ac-bonus",
+        "value": 1
+      }
+    ],
+    "slug": "clad-in-bone",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic",
+        "spirit"
+      ],
+      "rarity": "unique"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "NagiH3uSkiDQllid",
+  "img": "icons/commodities/bones/bones-ribsbrown.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5d53a13f62f135467db3058a5fcd72e2f2f22fb5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757617908349,
+    "modifiedTime": 1757618745392,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!NagiH3uSkiDQllid"
+}

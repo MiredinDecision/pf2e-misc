@@ -1,0 +1,117 @@
+{
+  "img": "icons/equipment/chest/breastplate-banded-leather-purple.webp",
+  "name": "Litsaryara's Outfit",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Adventurers who don't wear armor travel in durable clothing. Though it's not armor and uses your unarmored defense proficiency, it still has a Dex Cap and can grant an item bonus to AC if etched with potency runes.</p>"
+    },
+    "rules": [],
+    "slug": "explorers-clothing",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "comfort"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "explorers-clothing",
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 1
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Explorer's Clothing",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "unarmored",
+    "group": "cloth",
+    "acBonus": 1,
+    "strength": null,
+    "dexCap": 4,
+    "checkPenalty": 0,
+    "speedPenalty": 0,
+    "runes": {
+      "potency": null,
+      "resilient": null,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "7355cc9e46dcbb03acd578d0cf68c33cbfb9e340"
+    }
+  },
+  "effects": [],
+  "folder": "Vl6an7fxZR6xgyHf",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.oEqYf0thGUGN3OsD",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261092034,
+    "modifiedTime": 1728261092034,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "oEqYf0thGUGN3OsD",
+  "sort": 0,
+  "_key": "!items!oEqYf0thGUGN3OsD"
+}

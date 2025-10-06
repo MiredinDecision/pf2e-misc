@@ -1,0 +1,116 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/magazine-with-5-bolts.webp",
+  "name": "Strange Firearm Magazine - Fire",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Magazine with 5 Fire bolts for use with the @UUID[Actor.gdzQGKqCGQp9rhCh.Item.YRqphN1MPdkoZmPE]{Strange Firearm}. These bolts deal an additional 1 Fire damage per weapon damage die.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "{item|_id}-damage",
+        "value": "@weapon.system.damage.dice",
+        "damageType": "fire"
+      }
+    ],
+    "slug": "strange-firearm-magazine-fire",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder #165: Eyes of Empty Death",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 15
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Ammunition",
+        "img": "systems/pf2e/icons/unidentified_item_icons/ammunition.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "ammo",
+    "uses": {
+      "value": 5,
+      "max": 5,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.9w8MrBhFtvM7RrYN",
+    "duplicateSource": "Item.kEg7bFLk7U83HOKQ",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802831869,
+    "modifiedTime": 1726802831869,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "59a4968fc1bf2aebe5b0ec55f5a8ac730fc2e6ec"
+    }
+  },
+  "effects": [],
+  "folder": "kWn16pXg0O0bFhhz",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "_id": "WCFnFOqA3zGUL85S",
+  "_key": "!items!WCFnFOqA3zGUL85S"
+}

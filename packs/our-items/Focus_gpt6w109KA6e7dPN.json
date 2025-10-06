@@ -1,0 +1,26 @@
+{
+  "name": "Focus",
+  "sorting": "a",
+  "folder": "bqQqKiuHm8AHPimo",
+  "type": "Item",
+  "_id": "gpt6w109KA6e7dPN",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "a986367aa331c97baf221737e2a7cea1ed92c06a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": null,
+    "modifiedTime": 1727116675783,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!gpt6w109KA6e7dPN"
+}

@@ -1,0 +1,77 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Dueling Parry",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> You are wielding a single one-handed melee weapon and hold nothing else in your hands.</p><hr /><p>You can parry attacks against you with your one-handed weapon. You gain a +2 circumstance bonus to AC until the start of your next turn as long as you continue to meet the requirements.</p>"
+    },
+    "rules": [],
+    "slug": "dueling-parry",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fighter"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.ailMxGJSC7L8XtLz",
+      "name": "Effect: Dueling Parry"
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1734005436109,
+    "modifiedTime": 1734005626524,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "TRvxtSuDmux0XINV",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.n7nQQR940OvFbw7T",
+      "hash": "6e10a7f4a53d73871fbd4632d940c7199015f0a8"
+    }
+  },
+  "_id": "yEf8mIKjiLTuXux3",
+  "sort": 100000,
+  "_key": "!items!yEf8mIKjiLTuXux3"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Forebird",
+  "sorting": "a",
+  "folder": "jY7U6KjcKG1jKUz4",
+  "type": "Item",
+  "_id": "k7leb7993v6Fns5d",
+  "description": "",
+  "sort": 0,
+  "color": "#0a5302",
+  "flags": {
+    "scene-packer": {
+      "hash": "8d7013bfca6ac61caee5f2a0f5ed5f64ddb8026e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1728261319441,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "_key": "!folders!k7leb7993v6Fns5d"
+}

@@ -1,0 +1,88 @@
+{
+  "folder": "rCTbz5Txfuh1dhKi",
+  "name": "Effect: Solar Nimbus",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-soldiers-of-the-immortal-war.feats.Item.0lwlXB4jaKggV5ue]{Solar Nimbus}</p><p>Enemies with the aberration, alghollthu, or fleshwarp trait suffer a -1 status penalty to attack rolls and saving throws while within the bright light of your halo. Additionally, the bright light of your aura counts as sunlight for the purposes of any abilities.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack-roll",
+          "saving-throw"
+        ],
+        "value": -1,
+        "type": "status"
+      }
+    ],
+    "slug": "effect-solar-nimbus",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Soldiers of the Immortal War",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/light/explosion-star-glow-orange.webp",
+  "ownership": {
+    "default": 0,
+    "PcccI0BMR3sQs1AP": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-soldiers-of-the-immortal-war.abilities.Item.QKj8hM0R0UfZIEq1",
+      "hash": "423371ff71ee89587a425fc403c867f0b30cddf9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1755999171806,
+    "modifiedTime": 1755999424657,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "AvHfTokhDYi7gp9V",
+  "sort": 500000,
+  "_key": "!items!AvHfTokhDYi7gp9V"
+}

@@ -1,0 +1,80 @@
+{
+  "folder": "QeK4dLeTqtaezB5u",
+  "name": "Sanguine Spells",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The following is your<strong> Thematic Spell List</strong></p><h4><strong>Sanguine Spells</strong></h4><ul><li><p><strong>Cantrip </strong>@UUID[Compendium.sf2e-anachronism.spells.Item.t0oFlhMhNOHbb6rG]{Reorient}</p></li><li><p><strong>1st</strong> @UUID[Compendium.pf2e-misc.our-items.Item.98bRAvMVNPU8nmbR]{Hemophilia}</p></li><li><p><strong>2nd</strong> @UUID[Compendium.pf2e-misc.our-items.Item.93cnwwlqGQlDp29q]{Blood Vendetta}</p></li><li><p><strong>3rd </strong>@UUID[Compendium.sf2e-anachronism.spells.Item.1lv6Zmp2eWRIPn1n]{Feline Senses}</p></li><li><p><strong>4th</strong> @UUID[Compendium.pf2e-misc.our-items.Item.4D2xXtHKvmzgf2Hf]{Bloodspray Curse}</p></li><li><p><strong>5th</strong> @UUID[Compendium.pf2e-misc.our-items.Item.dky14YkOcnnghcZV]{Sanguine Eruption}</p></li><li><p><strong>6th </strong>@UUID[Compendium.pf2e-misc.our-items.Item.FkoNvUvHIdFyf6jS]{Rose's Thorns}</p></li><li><p><strong>7th </strong>@UUID[Compendium.pf2e.spells-srd.Item.JLdbyGKhjwAAoRLs]{Tempest of Shades}</p></li><li><p><strong>8th</strong> @UUID[Compendium.pf2e-misc.our-items.Item.MYz4stcZidpHkcyh]{Boil Blood}</p></li><li><p><strong>9th </strong>@UUID[Compendium.pf2e-misc.our-items.Item.snpds8nPGS11I57F]{Dimensional Excision}</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "sanguine-spells",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Thematic Spells"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "smZqTiH4fffzBh2J",
+  "img": "icons/magic/unholy/orb-swirling-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "462f3fab1ee76bdd8123c018c4737bfebd0e3bd6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757991899601,
+    "modifiedTime": 1758238806509,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!smZqTiH4fffzBh2J"
+}

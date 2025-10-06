@@ -1,0 +1,78 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Steel Skin",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You wear your armor like a second skin, taking comfort in the protection it offers. You don't become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} if you sleep while wearing armor.</p>"
+    },
+    "rules": [],
+    "slug": "steel-skin",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "skill"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "skill",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Tomb Guardian"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.feats-srd.Item.uxwHHjWs3ehqtG4b",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262224219,
+    "modifiedTime": 1728262224219,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "3b928ccdfe8543bc4ea6501f2632f9325279898a"
+    }
+  },
+  "effects": [],
+  "folder": "kCHFWdRspiQEsH1K",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "dTKG5nvDWyfILKNq",
+  "sort": 0,
+  "_key": "!items!dTKG5nvDWyfILKNq"
+}

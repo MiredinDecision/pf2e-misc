@@ -1,0 +1,87 @@
+{
+  "folder": "y5mNYGrtBSjX7lXx",
+  "name": "Scouting",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You scout ahead and behind the group to watch danger, moving at half speed. At the start of the next encounter, every creature in your party gains a +1 circumstance bonus to their initiative rolls.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Scouting",
+        "option": "scouting",
+        "toggleable": true,
+        "suboptions": [
+          {
+            "label": "+1",
+            "value": "1"
+          },
+          {
+            "label": "+2",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Scouting",
+        "selector": "initiative",
+        "value": "0 + @item.flags.pf2e.rulesSelections.scouting",
+        "type": "circumstance",
+        "predicate": [
+          "scouting"
+        ]
+      }
+    ],
+    "slug": "scouting",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "offensive",
+    "deathNote": false
+  },
+  "_id": "6uDdpF9BnLJ2IaBV",
+  "img": "systems/pf2e/icons/equipment/adventuring-gear/spyglass.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1eb8db5eb36c6b9eda553c4cc1a7eccb0b27eff2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1732738796520,
+    "modifiedTime": 1754013943891,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!6uDdpF9BnLJ2IaBV"
+}

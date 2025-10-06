@@ -1,0 +1,90 @@
+{
+  "folder": "JmIr51pip2ObCFGw",
+  "name": "Thanergetic Lich",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have spent so much time dwelling within necromancy that it has transformed your body whole - you have become a thanergetic lich. You gain the undead trait and the advanced undead benefits. You gain @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.lR9R5Vld8Eu2Dha5]{Regeneration 1}. Your regeneration is deactivated by vitality, which disrupts your thanergy.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.ancestryfeatures.Item.SAbzItAI4uwbdnQk",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.ancestryfeatures.Item.YGk41WV42aTM7CQV",
+        "allowDuplicate": false
+      },
+      {
+        "key": "FastHealing",
+        "value": 1,
+        "type": "regeneration",
+        "deactivatedBy": [
+          "vitality"
+        ]
+      }
+    ],
+    "slug": "thanergetic-lich",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "34gC7Vy8UUImpPvy",
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4ab051214b8dcc766f5d698e4706846b5ba13016"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726980454184,
+    "modifiedTime": 1726987584129,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!34gC7Vy8UUImpPvy"
+}

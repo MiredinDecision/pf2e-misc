@@ -1,0 +1,79 @@
+{
+  "folder": "W16vdggFMZ6kTsZq",
+  "name": "Launch Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> 1 Regalia</p><hr /><p>You launch you Regalia at a foe, traveling along its path afterwards. Make a ranged Strike using a regalia against a creature or solid surface. This strike has a range equal to your speed. A solid, unmoving surface has an Armor Class of 15. If the weapon already has the Thrown trait, you add the distance listed in the Thrown trait to the range increment of this attack. If the weapon is a Ranged weapon, you use the range increment of the weapon instead.</p><p>On hit, you are pulled towards your target until you are adjacent to it. There must be no obstacles between you and your target (Such as walls, trees or non-allied creatures) or this action fails. You can move directly upwards towards a high surface or flying enemy, but if you do not end your turn on solid footing, you begin to fall.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "launch-strike",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "flourish",
+        "move",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "EmoxyOBhn4cquU3g",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b3885de413642e49697704876c1e65f276dbf8ff"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753918988111,
+    "modifiedTime": 1753933575106,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!EmoxyOBhn4cquU3g"
+}

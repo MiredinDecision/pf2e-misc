@@ -1,0 +1,143 @@
+{
+  "folder": "4DcxpWMYgEfucQja",
+  "name": "Spell Effect: Embodiment of Battle",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.8yq4AodlNjgXj29I]{Embodiment of Battle}.</p><p>Your apparition guides your attacks and imparts its skill to your movements. For the duration, your proficiency with martial weapons is equal to your proficiency with simple weapons, you gain a +1 status bonus to attack and damage rolls made with weapons or unarmed attacks. The instincts of an apparition of battle run contrary to the use of magic; for the duration of this spell, you take a –2 status penalty to your spell attack modifier and your spell DCs.</p><hr /><p><strong>Heightened (2nd) </strong>You gain the critical specialization effect for any weapon you are wielding while under the effects of this spell.</p><p><strong>Heightened (4th)</strong> The status bonus to attack and damage rolls granted by this spell is increased to +2. You gain the Reactive Strike reaction.</p><p><strong>Heightened (7th)</strong> The status bonus to attack and damage rolls granted by this spell is increased to +3.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "spell-attack",
+          "spell-dc"
+        ],
+        "value": -2,
+        "type": "status",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "attack",
+          "strike-damage"
+        ],
+        "value": {
+          "brackets": [
+            {
+              "start": 1,
+              "end": 3,
+              "value": 1
+            },
+            {
+              "start": 4,
+              "end": 6,
+              "value": 2
+            },
+            {
+              "start": 7,
+              "value": 3
+            }
+          ],
+          "field": "item|level"
+        },
+        "type": "status",
+        "hideIfDisabled": true,
+        "predicate": [
+          "item:type:weapon"
+        ]
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "gte": [
+              "{item|level}",
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT",
+        "predicate": [
+          {
+            "gte": [
+              "{item|level}",
+              4
+            ]
+          }
+        ],
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.attacks.martial.rank",
+        "value": "@actor.system.proficiencies.attacks.simple.rank"
+      }
+    ],
+    "slug": "spell-effect-embodiment-of-battle",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "IWXgVmVCzQN0MaS4",
+  "img": "systems/pf2e/icons/spells/competitive-edge.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "aca5b1b35561be23d59adfba5a97b230dd56525b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1727437792225,
+    "modifiedTime": 1734062638741,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!IWXgVmVCzQN0MaS4"
+}

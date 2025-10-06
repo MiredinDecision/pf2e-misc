@@ -1,0 +1,148 @@
+{
+  "folder": "1CIOwZNwIXa8Mcwi",
+  "name": "Rotating Sickle",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your dynamo has modular configurations, allowing you to swap between various different possibilities with ease in order to adapt to various situations in combat. Your dynamo attack gains the modular trait, as well as one of the following configurations of your choice: power driver (1d6 bludgeoning damage; shove), percussive striker (1d4 bludgeoning damage; agile, finesse), rotating sickle (1d6 slashing damage; trip), or entangling barbs (1d6 piercing damage; grapple). If you have a manually controlled dynamo, these damage dice increase by 1 size, as usual, and you can also choose the extendable baton (1d4 bludgeoning damage; finesse, reach), which has the damage increase already factored in. When you use an Interact action to switch configurations using the modular trait, you switch between the initial configuration of dynamo you chose with the @UUID[Compendium.pf2e.feats-srd.Item.fdSbB0EQVxFgLoEd]{Sterling Dynamo Dedication} and the new configuration you chose with Modular Dynamo.</p><hr /><p><strong>Special</strong> You can select this feat multiple times. Each time, you choose another configuration and add it to the list of options you can choose when you use an Interact action with the modular trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Sterling Dynamo",
+        "mergeable": true,
+        "option": "dynamo",
+        "suboptions": [
+          {
+            "label": "{item|name}",
+            "value": "rotating-sickle"
+          }
+        ],
+        "toggleable": true,
+        "value": true
+      },
+      {
+        "category": "unarmed",
+        "damage": {
+          "base": {
+            "damageType": "slashing",
+            "dice": 1,
+            "die": "d6"
+          }
+        },
+        "group": "brawling",
+        "img": "systems/pf2e/icons/unarmed-attacks/fist-earth-elemental.webp",
+        "key": "Strike",
+        "label": "PF2E.SpecificRule.SterlingDynamo.Label",
+        "predicate": [
+          "dynamo:rotating-sickle"
+        ],
+        "range": null,
+        "traits": [
+          "unarmed",
+          "modular",
+          "trip"
+        ]
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "upgrade",
+        "predicate": [
+          "dynamo-power:manual-power"
+        ],
+        "selectors": [
+          "strike-damage"
+        ],
+        "property": "dice-faces",
+        "value": 8
+      },
+      {
+        "definition": [
+          "item:id:{item|id}"
+        ],
+        "predicate": [
+          "feat:golem-dynamo"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "weapon-traits",
+        "value": "magical"
+      }
+    ],
+    "slug": "rotating-sickle",
+    "traits": {
+      "otherTags": [
+        "modular-dynamo-weapon",
+        "sterling-dynamo-weapon"
+      ],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "zFEM91vuBomcefSV",
+  "img": "icons/commodities/tech/metal-claws.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "88ded79416f9af56d13fa15c14dda84075556162"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754487718616,
+    "modifiedTime": 1754492373405,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!zFEM91vuBomcefSV"
+}

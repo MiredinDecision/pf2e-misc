@@ -1,0 +1,78 @@
+{
+  "folder": "49LtqOs3MmQC6LI1",
+  "name": "Master Graveknight Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've mastered graveknight magic. You replace your 5th-rank spell slot with a 7th-rank spell slot. At 18th level, you replace your 6th-rank spell slot with an 8th-rank spell slot, and at 20th level, you replace your 7th-rank spell slot with a 9th-rank spell slot. You become a master in spell attack modifiers and spell DCs.</p>"
+    },
+    "rules": [],
+    "slug": "master-graveknight-spellcasting",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 16
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 3
+        }
+      }
+    }
+  },
+  "_id": "2NFeZX7Ei5dU7ifJ",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8731e69b314bea3ec046f018d7fe22eebc89c062"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728581215651,
+    "modifiedTime": 1728581335305,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!2NFeZX7Ei5dU7ifJ"
+}

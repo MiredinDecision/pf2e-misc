@@ -1,0 +1,165 @@
+{
+  "img": "icons/commodities/treasure/broach-jewel-gold-blue.webp",
+  "name": "Shining Symbol (Greater)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>If you worship a deity, this golden amulet transforms into your deity's religious symbol when you invest it. You gain a +2 item bonus to Religion. The symbol casts dim light in a @Template[emanation|distance:20].</p><hr /><p><strong>Activate—Spiritual Light</strong> <span class=\"action-glyph\">2</span> (concentrate, light, revelation)</p><p><strong>Frequency</strong> once per day</p><p><strong>Effect</strong> The light cast by the symbol becomes bright light for 10 minutes and shines through bodies to reveal hints of the spirits within. Creatures in the light receive a –2 status penalty to Deception and Stealth checks, and while it's active your enemies in the light gain weakness 5 to spirit damage.</p><p>You can Dismiss this activation.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.uCHYwwnrYZLvb2MD]{Aura: Shining Symbol}</p><hr /><p><strong>Craft Requirements</strong> You must be holy or unholy.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "religion",
+        "type": "item",
+        "value": 2
+      },
+      {
+        "key": "TokenLight",
+        "predicate": [
+          {
+            "not": "self:effect:aura-shining-symbol"
+          }
+        ],
+        "value": {
+          "animation": {
+            "intensity": 2,
+            "speed": 1,
+            "type": "starlight"
+          },
+          "color": "#bfbfbf",
+          "dim": 20
+        }
+      },
+      {
+        "key": "TokenLight",
+        "predicate": [
+          "self:effect:aura-shining-symbol"
+        ],
+        "value": {
+          "animation": {
+            "intensity": 2,
+            "speed": 1,
+            "type": "starlight"
+          },
+          "bright": 20,
+          "color": "#bfbfbf"
+        }
+      },
+      {
+        "key": "TokenEffectIcon",
+        "predicate": [
+          {
+            "not": "self:effect:aura-shining-symbol"
+          }
+        ],
+        "value": "icons/commodities/treasure/broach-jewel-gold-blue.webp"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.shiningSymbolPenalty",
+        "value": -2
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.shiningSymbolWeakness",
+        "value": 5
+      }
+    ],
+    "slug": "shining-symbol-greater",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "divine",
+        "invested",
+        "light"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 650
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worn"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729978707508,
+    "modifiedTime": 1756086799129,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "7OZbTCbckbg9PFqT",
+  "ownership": {
+    "default": 0,
+    "rJdh7RnQptUKzb0s": 3,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "6c97e6c26d6c2bd1017749c727cb1c2c40b170e8",
+      "sourceId": "Actor.zxxDVGJgiVnLCEK7.Item.0O01HddHwkW9Lctt"
+    }
+  },
+  "_id": "D37WqgrGEx3Y4CyR",
+  "sort": 600000,
+  "_key": "!items!D37WqgrGEx3Y4CyR"
+}

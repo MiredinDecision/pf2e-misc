@@ -1,0 +1,98 @@
+{
+  "folder": "w5ylxXv6uneo5pnK",
+  "name": "Shattered Fate",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your destiny was averted at a culminating moment of its story, shattering the hold fate had on your life and exposing the threads by which all of time's tapestry is woven. You might struggle to right the flow of destiny around you, or fight to resist fate's grasp on the world, or seek to fulfill the whims of those deities who dictate destiny such as Pharasma, the Protean Lord of fate S<span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">sila’meshnik, </span>the Mwangi goddess of death and dreams Luhar, or other divine beings such as Norns.</p><p><strong>Granted Spells</strong></p><ul><li><p><strong>cantrip: </strong>@UUID[Compendium.sf2e-anachronism.spells.sNUvbMoMeLTnYJm8]{Injury Echo}</p></li><li><p><strong>1st: </strong>@UUID[Compendium.pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{Sure Strike}</p></li><li><p><strong>3rd: </strong>@UUID[Compendium.pf2e.spells-srd.rfFZKfeCSweFv7P3]{Impending Doom}</p></li><li><p><strong>4th: </strong>@UUID[Compendium.pf2e.spells-srd.n2CM3NeRuq5RSY19]{Prophet's Luck}</p></li></ul><p><strong>Revelation Spells</strong></p><ul><li><p><strong>initial: </strong>@UUID[Compendium.pf2e-misc.our-items.Item.Zn95HxfPos1qWGeZ]{Glimpse Fate}</p></li><li><p><strong>advanced: </strong>@UUID[Compendium.pf2e-misc.our-items.Item.i4f7B7SpO9Q0mR9p]{Twist Fate}</p></li><li><p><strong>greater: </strong>@UUID[Compendium.pf2e-misc.our-items.Item.i8wpXCI7sRbWQnzu]{Unbind the Threads}</p></li></ul><p><strong>Related Domains </strong><em>fate, luck, sorrow, time</em></p><p><strong>Mystery Skill</strong> Occultism</p><p><strong>Oracle Feat </strong>@UUID[Compendium.pf2e.feats-srd.CuVvDrBaVP9nYJlt]{Foretell Harm}</p><p>@UUID[Compendium.pf2e-misc.our-items.GsbMkSCiWjFRtrTR]{Curse of Shattered Fate}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.occultism.rank",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "class:oracle"
+        ],
+        "uuid": "Compendium.pf2e.feats-srd.Item.CuVvDrBaVP9nYJlt",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.GsbMkSCiWjFRtrTR",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "shattered-fate",
+    "traits": {
+      "otherTags": [
+        "oracle-mystery"
+      ],
+      "value": [
+        "oracle"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "CCz41FNeKWhN5Egg",
+  "img": "icons/magic/time/day-night-sun-moon.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b156e0e137bed4ee5fac33e9207fbf300a0638b6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758052505454,
+    "modifiedTime": 1758069516591,
+    "lastModifiedBy": "19LQrWiE2jMTbelH"
+  },
+  "_key": "!items!CCz41FNeKWhN5Egg"
+}

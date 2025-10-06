@@ -1,0 +1,27 @@
+{
+  "name": "Faithful Steed",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "SxWtsdy8YxdR2LxU",
+  "description": "",
+  "sort": 5600000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "96ca731eea95bf5d8f04382111483c9e44e44f1d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735664199100,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!SxWtsdy8YxdR2LxU"
+}

@@ -1,0 +1,102 @@
+{
+  "img": "systems/pf2e/icons/features/classes/slippery-mind.webp",
+  "name": "Slippery Mind",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You play mental games and employ cognitive tricks to throw off mind-altering effects. Your proficiency rank for Will saves increases to master. When you roll a success at a Will save, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "key": "Note",
+        "outcome": [
+          "success"
+        ],
+        "selector": "will",
+        "text": "PF2E.SpecificRule.SaveSuccessToCriticalSuccess.Will",
+        "title": "{item|name}"
+      },
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "will",
+        "type": "save"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.saves.will.rank",
+        "value": 3
+      }
+    ],
+    "slug": "slippery-mind",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.879,
+        "foundry": "12.331",
+        "system": "6.4.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-legacy-content.class-features-legacy.Item.xmZ7oeTDcQVXegUP",
+      "hash": "4e00c402c90a166b3fda69d178e8a06ff11311a8"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.xmZ7oeTDcQVXegUP",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727117657035,
+    "modifiedTime": 1727117661412,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "folder": "PAn5Zksh0vvapP20",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "GJAzfmI8RKzaCsQX",
+  "sort": 0,
+  "_key": "!items!GJAzfmI8RKzaCsQX"
+}

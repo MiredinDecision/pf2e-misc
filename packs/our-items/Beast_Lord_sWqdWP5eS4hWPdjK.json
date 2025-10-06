@@ -1,0 +1,26 @@
+{
+  "name": "Beast Lord",
+  "sorting": "a",
+  "folder": "L707lh3QpSnMPk7v",
+  "type": "Item",
+  "_id": "sWqdWP5eS4hWPdjK",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "837cffd17f722923798d9ecf371585c5a8ed4413"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.3",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!sWqdWP5eS4hWPdjK"
+}

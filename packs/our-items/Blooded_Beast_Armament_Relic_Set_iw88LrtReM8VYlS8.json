@@ -1,0 +1,223 @@
+{
+  "folder": "pftU3EgrAPZtMv4n",
+  "name": "Blooded Beast Armament Relic Set",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspects </strong><em>beast</em>, <em>blood</em></p><hr /><p>From time to time, a vampire will willingly share their blood with an animal to bind the beast to their whims - much more rarely, a vampire or dhampir might do so to save the life of the animal, and forms a mutual bond of respect, or even love, with them.</p><p>Legend tells of a dhampir warrior clad in a suit of armor and sword crafted by a loving parent, and her frightening skill.</p><hr /><p><strong>Set Items: </strong>@UUID[Compendium.pf2e-misc.our-items.Item.XFUrBQzcEItHxIvE]{Scarlet Blade Sword (level 1)}, @UUID[Compendium.pf2e-misc.our-items.Item.RD4C9XMaEWdz1wZa]{+1 Scarlet Blade Armor (level 5)}, @UUID[Compendium.pf2e-misc.our-items.Item.zwf8ed2W60xImUcQ]{Barding of the Bloodwolf}, @UUID[Compendium.pf2e-misc.our-items.Item.WdNSWpJea8moQ2Fs]{Wilting Rose (Greater)}, @UUID[Actor.Sk0x5dGjX1LuSDjq.Item.n38iig05RNTRlBUb]{Ró Sálna, the Unbound Heart}</p><hr /><p><strong>Gifts: </strong>The set grants the following gifts.</p><ul><li><p><em>1</em>:<em> </em>@UUID[Compendium.pf2e-misc.our-items.Item.lKZU9tOHWLHPVjdu]{Pack Mentality}, @UUID[Compendium.pf2e-misc.our-items.Item.gyTzMaxXvEYhtMyp]{Beast Senses}</p></li><li><p><em>2</em>:<em> </em>@UUID[Compendium.pf2e-misc.our-items.Item.Datsqxq2DDoNlJgb]{Resilient Blood}</p></li><li><p><em>3</em>: @UUID[Compendium.pf2e-misc.our-items.Item.c8C9bQeVCdkx0vxr]{Pack Stance}</p></li><li><p><em>4</em>: @UUID[Compendium.pf2e-misc.our-items.Item.eYRGBUO2ZyB21omt]{Lifeblood}</p></li><li><p><em>5</em>: @UUID[Compendium.pf2e-misc.our-items.Item.awNdjnwzKUE1vr7u]{Field of Blood}</p></li></ul><hr /><p><strong>Collective Features: </strong>The set grants the following features.</p><ul><li><p><em>Two Items</em>: @UUID[Compendium.pf2e-misc.our-items.Item.R9BWPro2LC6cLvht]{Pack Mentality} requires <span class=\"action-glyph\">1</span> instead of <span class=\"action-glyph\">2</span>.</p></li><li><p><em>Three Items</em>: @UUID[Compendium.pf2e-misc.our-items.Item.1BBNOe6BggOeDvGI]{Pack Mentality} can be used twice a day. The AC from @UUID[Compendium.pf2e-misc.our-items.Item.Datsqxq2DDoNlJgb]{Resilient Blood} becomes +2, and the resistance equals the relic's level.</p></li><li><p><em>Four Items</em>: @UUID[Compendium.pf2e-misc.our-items.Item.80tp7Zzf3vzpCR4t]{Pack Mentality} becomes a <span class=\"action-glyph\">f,</span> with the trigger of rolling initiative, and can be used at will. @UUID[Compendium.pf2e-misc.our-items.Item.Datsqxq2DDoNlJgb]{Resilient Blood} gains resistance to all physical damage equal to half your level.</p></li><li><p><em>Five Items</em>: The frequency of Blood Pack on your companion's @UUID[Compendium.pf2e-misc.our-items.Item.zwf8ed2W60xImUcQ]{Barding of the Bloodwolf} becomes once per hour.</p></li></ul>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              1
+            ]
+          },
+          {
+            "lt": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              2
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.lKZU9tOHWLHPVjdu",
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              2
+            ]
+          },
+          {
+            "lt": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              3
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.R9BWPro2LC6cLvht",
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.1BBNOe6BggOeDvGI",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              3
+            ]
+          },
+          {
+            "lt": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              4
+            ]
+          }
+        ],
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.80tp7Zzf3vzpCR4t",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              4
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              1
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.gyTzMaxXvEYhtMyp",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              2
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.Datsqxq2DDoNlJgb",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              3
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.c8C9bQeVCdkx0vxr",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              4
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.eYRGBUO2ZyB21omt",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              5
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.awNdjnwzKUE1vr7u",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.bloodedBeastArmamentCount",
+        "value": 2
+      }
+    ],
+    "slug": "blooded-beast-armament-relic-set",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "blooded-beast-armament",
+        "relic"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "iw88LrtReM8VYlS8",
+  "img": "icons/creatures/mammals/wolf-howl-moon-gray.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f8b79ce4a775e4f0b622e6bc8ce331b01c8e0340"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1728273132580,
+    "modifiedTime": 1757638647475,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!iw88LrtReM8VYlS8"
+}

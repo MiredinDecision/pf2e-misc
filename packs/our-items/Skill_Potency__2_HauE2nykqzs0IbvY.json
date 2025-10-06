@@ -1,0 +1,249 @@
+{
+  "folder": "LZtWKCZ4Yd25kiGo",
+  "name": "Skill Potency +2",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">At 3rd level, choose a single skill. You gain a +1 potency bonus with that skill. At 6th level, choose a second skill to gain a +1 potency bonus. At 9th level, choose one of those skills and increase its potency bonus to +2. At 13th level, increase the potency bonus of your second skill to +2 and choose a third skill to gain a +1 potency bonus. At 15th level, increase the third skill’s potency bonus to +2 and choose a fourth skill to gain a +1 potency bonus. At 17th level, choose one of your three skills with a +2 potency bonus to increase to +3, and choose a fifth skill to gain a +1 potency bonus. Finally, at 20th level, choose one of the two skills with a +2 potency bonus to increase to +3, choose one of the three skills at a +1 potency bonus to increase to +2, and choose one new skill to gain a +1 potency bonus. You can spend 1 week to retrain one of these assignments at any time.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Acrobatics",
+            "value": "acrobatics",
+            "predicate": [
+              "skill-potency-1:acrobatics",
+              {
+                "not": "skill-potency-2:acrobatics"
+              }
+            ]
+          },
+          {
+            "label": "Arcana",
+            "value": "arcana",
+            "predicate": [
+              "skill-potency-1:arcana",
+              {
+                "not": "skill-potency-2:arcana"
+              }
+            ]
+          },
+          {
+            "label": "Athletics",
+            "value": "athletics",
+            "predicate": [
+              "skill-potency-1:athletics",
+              {
+                "not": "skill-potency-2:athletics"
+              }
+            ]
+          },
+          {
+            "label": "Crafting",
+            "value": "crafting",
+            "predicate": [
+              "skill-potency-1:crafting",
+              {
+                "not": "skill-potency-2:crafting"
+              },
+              {
+                "not": "skill-potency-2:crafting"
+              }
+            ]
+          },
+          {
+            "label": "Deception",
+            "value": "deception",
+            "predicate": [
+              "skill-potency-1:deception",
+              {
+                "not": "skill-potency-2:deception"
+              }
+            ]
+          },
+          {
+            "label": "Diplomacy",
+            "value": "diplomacy",
+            "predicate": [
+              "skill-potency-1:diplomacy",
+              {
+                "not": "skill-potency-2:diplomacy"
+              }
+            ]
+          },
+          {
+            "label": "Intimidation",
+            "value": "intimidation",
+            "predicate": [
+              "skill-potency-1:intimidation",
+              {
+                "not": "skill-potency-2:intimidation"
+              }
+            ]
+          },
+          {
+            "label": "Medicine",
+            "value": "medicine",
+            "predicate": [
+              "skill-potency-1:medicine",
+              {
+                "not": "skill-potency-2:medicine"
+              }
+            ]
+          },
+          {
+            "label": "Nature",
+            "value": "nature",
+            "predicate": [
+              "skill-potency-1:nature",
+              {
+                "not": "skill-potency-2:nature"
+              }
+            ]
+          },
+          {
+            "label": "Occultism",
+            "value": "occultism",
+            "predicate": [
+              "skill-potency-1:occultism",
+              {
+                "not": "skill-potency-2:occultism"
+              }
+            ]
+          },
+          {
+            "label": "Performance",
+            "value": "performance",
+            "predicate": [
+              "skill-potency-1:performance",
+              {
+                "not": "skill-potency-2:performance"
+              }
+            ]
+          },
+          {
+            "label": "Religion",
+            "value": "religion",
+            "predicate": [
+              "skill-potency-1:religion",
+              {
+                "not": "skill-potency-2:religion"
+              }
+            ]
+          },
+          {
+            "label": "Society",
+            "value": "society",
+            "predicate": [
+              "skill-potency-1:society",
+              {
+                "not": "skill-potency-2:society"
+              }
+            ]
+          },
+          {
+            "label": "Stealth",
+            "value": "stealth",
+            "predicate": [
+              "skill-potency-1:stealth",
+              {
+                "not": "skill-potency-2:stealth"
+              }
+            ]
+          },
+          {
+            "label": "Survival",
+            "value": "survival",
+            "predicate": [
+              "skill-potency-1:survival",
+              {
+                "not": "skill-potency-2:survival"
+              }
+            ]
+          },
+          {
+            "label": "Thievery",
+            "value": "thievery",
+            "predicate": [
+              "skill-potency-1:thievery",
+              {
+                "not": "skill-potency-2:thievery"
+              }
+            ]
+          }
+        ],
+        "flag": "skill",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill",
+        "rollOption": "skill-potency-2"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.skill}",
+        "value": 2,
+        "type": "item",
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "skill-potency-2",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/equipment/held-items/crystal-ball-selenite.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "cd370d288d9de3d2598193ffc7726bb580780d0a",
+      "sourceId": "Item.CosHLAttOccrqlvx"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728084793600,
+    "modifiedTime": 1729228466551,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "HauE2nykqzs0IbvY",
+  "sort": 0,
+  "_key": "!items!HauE2nykqzs0IbvY"
+}

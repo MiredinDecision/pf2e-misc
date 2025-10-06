@@ -1,0 +1,108 @@
+{
+  "folder": "vZHNpawyoU6R5h8o",
+  "name": "Effect: Enveloping Light",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>For 5 rounds, your entire body begins to glow, with the effects of a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} spell. At the end of each of your turns during this time, you regain @Damage[1d4[healing]]{1d4 Hit Points}.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "animation": {
+            "speed": 1,
+            "intensity": 2
+          },
+          "bright": "ternary(gte(@item.level,4),60,20)",
+          "color": "#aaacff",
+          "dim": "ternary(gte(@item.level,4),120,40)",
+          "coloration": 3,
+          "attenuation": 1,
+          "luminosity": 0,
+          "alpha": 0.1
+        }
+      }
+    ],
+    "slug": "effect-enveloping-light",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "light"
+      ]
+    },
+    "level": {
+      "value": 3
+    },
+    "duration": {
+      "value": 5,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": -85185396753,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": {
+      "origin": {
+        "actor": "Actor.vAfQr062f5O2hIe7",
+        "token": null,
+        "item": "Actor.vAfQr062f5O2hIe7.Item.SNLulGZkxyztVv7y",
+        "spellcasting": {
+          "attribute": {
+            "type": "cha",
+            "mod": 4
+          },
+          "tradition": "divine"
+        },
+        "rollOptions": []
+      },
+      "target": null,
+      "roll": null
+    }
+  },
+  "img": "icons/magic/light/orb-shadow-blue.webp",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5e6708357aede228ea970fb9ac7ce1f2bd137c25",
+      "sourceId": "Actor.vAfQr062f5O2hIe7.Item.2AlqIhOO46zyOpJP"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1754328937657,
+    "modifiedTime": 1756088244768,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "VvxbmHNqraWKWUqb",
+  "sort": 125000,
+  "_key": "!items!VvxbmHNqraWKWUqb"
+}

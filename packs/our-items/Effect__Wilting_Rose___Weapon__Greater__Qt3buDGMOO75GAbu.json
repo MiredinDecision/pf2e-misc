@@ -1,0 +1,93 @@
+{
+  "img": "systems/pf2e/icons/equipment/cursed-items/rose-of-loves-lost.webp",
+  "name": "Effect: Wilting Rose - Weapon (Greater)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.WdNSWpJea8moQ2Fs]{Wilting Rose (Greater)}</p><p>Strikes with the weapon deal an additional 1d6 acid damage.</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "includeHandwraps": true,
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "weapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "damageType": "acid",
+        "diceNumber": 1,
+        "dieSize": "d6",
+        "key": "DamageDice",
+        "selector": "{item|flags.pf2e.rulesSelections.weapon}-damage"
+      }
+    ],
+    "slug": "effect-wilting-rose-greater",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #188: They Watched the Stars",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.0",
+    "createdTime": 1732650498911,
+    "modifiedTime": 1735371619421,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "rSZvgZ1aoslHt38T",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.equipment-effects.Item.NddLhLIQYgZYrPTR",
+      "hash": "722adccbac57ccb298451287d8eed6d326ab108d"
+    }
+  },
+  "_id": "Qt3buDGMOO75GAbu",
+  "sort": 200000,
+  "_key": "!items!Qt3buDGMOO75GAbu"
+}

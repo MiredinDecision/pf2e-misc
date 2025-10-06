@@ -1,0 +1,329 @@
+{
+  "folder": "z3BhKjvYnpWsIubu",
+  "name": "Spellstriker Gauntlet",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> envision</p><p><strong>Frequency</strong> once per hour</p><p><strong>Trigger</strong> You use Spellstrike with a non-cantrip spell and miss with the Strike</p><p><strong>Effect</strong> An explosion of magical energy—stored up for the Spellstrike—explodes out. All creatures in a @Template[emanation|distance:5] take 1d6 damage per rank of the spell, with a @Check[reflex|against:spell|basic] save against your spell DC. This damage is the same type the spell would have dealt, and the activation gains that trait; if the spell would have dealt multiple types of damage, choose one of them. If the damage of the explosion is mental, the save is @Check[will|against:spell|basic] instead of Reflex.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "placement": "spellcasting",
+        "domain": "spellstriker-gauntlet",
+        "option": "spellstriker-gauntlet-damage-type",
+        "suboptions": [
+          {
+            "label": "PF2E.TraitBludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "PF2E.TraitPiercing",
+            "value": "piercing"
+          },
+          {
+            "label": "PF2E.TraitSlashing",
+            "value": "slashing"
+          },
+          {
+            "label": "PF2E.TraitAcid",
+            "value": "acid"
+          },
+          {
+            "label": "PF2E.TraitCold",
+            "value": "cold"
+          },
+          {
+            "label": "PF2E.TraitElectricity",
+            "value": "electricity"
+          },
+          {
+            "label": "PF2E.TraitFire",
+            "value": "fire"
+          },
+          {
+            "label": "PF2E.TraitForce",
+            "value": "force"
+          },
+          {
+            "label": "PF2E.TraitMental",
+            "value": "mental"
+          },
+          {
+            "label": "PF2E.TraitPoison",
+            "value": "poison"
+          },
+          {
+            "label": "PF2E.TraitSonic",
+            "value": "sonic"
+          },
+          {
+            "label": "PF2E.TraitSpirit",
+            "value": "spirit"
+          },
+          {
+            "label": "PF2E.TraitVitality",
+            "value": "vitality"
+          },
+          {
+            "label": "PF2E.TraitVoid",
+            "value": "void"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true,
+        "value": true,
+        "selection": "bludgeoning"
+      },
+      {
+        "key": "RollOption",
+        "placement": "spellcasting",
+        "domain": "spellstriker-gauntlet",
+        "option": "spellstriker-gauntlet-rank",
+        "suboptions": [
+          {
+            "label": "1st",
+            "value": "1"
+          },
+          {
+            "label": "2nd",
+            "value": "2",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  3
+                ]
+              }
+            ]
+          },
+          {
+            "label": "3rd",
+            "value": "3",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  5
+                ]
+              }
+            ]
+          },
+          {
+            "label": "4th",
+            "value": "4",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  7
+                ]
+              }
+            ]
+          },
+          {
+            "label": "5th",
+            "value": "5",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  9
+                ]
+              }
+            ]
+          },
+          {
+            "label": "6th",
+            "value": "6",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  11
+                ]
+              }
+            ]
+          },
+          {
+            "label": "7th",
+            "value": "7",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  13
+                ]
+              }
+            ]
+          },
+          {
+            "label": "8th",
+            "value": "8",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  15
+                ]
+              }
+            ]
+          },
+          {
+            "label": "9th",
+            "value": "9",
+            "predicate": [
+              {
+                "gte": [
+                  "self:level",
+                  17
+                ]
+              }
+            ]
+          }
+        ],
+        "flag": "spellstrikerGauntletRank",
+        "toggleable": true,
+        "alwaysActive": true,
+        "value": true,
+        "selection": "4"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "predicate": [
+          "item:slug:spellstriker-gauntlet"
+        ],
+        "property": "traits",
+        "value": "{item|flags.pf2e.rulesSelections.spellstrikerGauntletDamageType}",
+        "domain": "spellstriker-gauntlet"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "selectors": [
+          "spell-damage"
+        ],
+        "predicate": [
+          "item:slug:spellstriker-gauntlet"
+        ],
+        "property": "damage-type",
+        "value": "{item|flags.pf2e.rulesSelections.spellstrikerGauntletDamageType}",
+        "domain": "spellstriker-gauntlet"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "selectors": [
+          "spell-damage"
+        ],
+        "predicate": [
+          "item:slug:spellstriker-gauntlet"
+        ],
+        "property": "dice-number",
+        "value": "{item|flags.pf2e.rulesSelections.spellstrikerGauntletRank}",
+        "domain": "spellstriker-gauntlet"
+      }
+    ],
+    "slug": "spellstriker-gauntlet",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical"
+      ],
+      "rarity": "unique",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "all creatures"
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 5,
+      "type": "emanation"
+    },
+    "time": {
+      "value": "free"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "MTOVss2cLVlOef7x": {
+        "formula": "1d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": {
+      "save": {
+        "statistic": "reflex",
+        "basic": true
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "MTOVss2cLVlOef7x": "1d6"
+      },
+      "area": 0
+    }
+  },
+  "_id": "0uS12FowSL1sjRCu",
+  "img": "modules/pf2e-misc/assets/GauntletDark.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b97ce3426fff446c268834d462f0994376d9e569"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1729529433096,
+    "modifiedTime": 1754602843475,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!0uS12FowSL1sjRCu"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "osvkHm0EUQk7MRLc",
+  "name": "Curse",
+  "color": null,
+  "sorting": "a",
+  "_id": "4cdDU70dn6Q2GSbU",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "49056ea724ebd5d90185e709c33d23939a5e07e6"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!4cdDU70dn6Q2GSbU"
+}

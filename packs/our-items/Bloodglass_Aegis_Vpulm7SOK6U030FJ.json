@@ -1,0 +1,73 @@
+{
+  "folder": "pEbX2I8YQO6IPz33",
+  "name": "Bloodglass Aegis",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong>bloodglass</p><p><strong>Prerequisites </strong>The relic is a weapon.</p><p><strong>Activate </strong><span class=\"action action-glyph\" title=\"Single Action\" aria-label=\"Single Action\"><strong>1</strong></span><strong> (concentrate)</strong></p><hr /><p>Iúna reaches out to Edara's innately magical blood, causing the beads embroidered onto itself to form a magical shield made of blood-tempered glass. This smoky violet glass shifts and shimmers. If you look close enough, you can swear you see stars glinting within it. If the shield is shattered, shards of glass fly at the attacker, then return to Iúna. The fey and demonic essence within the blood brings back some of the attacker's life energy with them.<strong><br /><br />Effect</strong> This counts as using the @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield} action, giving you a +1 circumstance bonus to AC until the start of your next turn, but it doesn't require a hand to use.<br /><br />While the spell is in effect, you can use the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} reaction with your magic shield. The shield has Hardness 3. You can use the spell's reaction to reduce damage from any spell or magical effect, even if it doesn't deal physical damage. When you Shield Block, the shield explodes in a shower of glass. If the creature that broke it is within 5 feet, the shards deal @Damage[1d4[piercing]] damage and 1 @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{persistent bleed damage} per relic level to that creature with a basic Reflex save (@Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true]). If you deal persistent bleed damage with this ability, you are healed for the same amount. After you use Shield Block, the spell ends and you can't cast it again for 10 minutes.<br /><br />At fifth level and ever four relic levels after, increase the Hardness by 3 and the damage by 1d4.</p><p>@Damage[(ceil(@actor.level/4))d4[piercing],@actor.level[persistent,bleed]]{Leveled Piercing and Persistent Bleed Damage}</p><p>[[/r (@actor.level)[healing]]]{Leveled Persistent Healing}</p>"
+    },
+    "rules": [],
+    "slug": "bloodglass-aegis",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bloodglass",
+        "concentrate"
+      ]
+    },
+    "publication": {
+      "title": "Bloodglass Relic",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.ALzvsHokvO5IQzfk",
+      "name": "Effect: Bloodglass Aegis Healing"
+    }
+  },
+  "_id": "Vpulm7SOK6U030FJ",
+  "img": "modules/pf2e-relic-bloodglass/assets/Bloodglass.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "QFLiNY7buvtK8j4U": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c503957dd42b1681ec49428d8548f9319a6a7d49"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.Vpulm7SOK6U030FJ",
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1728261096633,
+    "modifiedTime": 1756168924074,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!Vpulm7SOK6U030FJ"
+}

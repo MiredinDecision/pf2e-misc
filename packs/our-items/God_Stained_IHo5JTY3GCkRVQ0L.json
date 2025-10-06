@@ -1,0 +1,154 @@
+{
+  "type": "feat",
+  "name": "God Stained",
+  "folder": "9nljg26YHEtAlwip",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Sacred blood empowers you, granting you divine power. You gain the nephilim trait if you did not already have it. Only the parts of you which touched blood change visually. You gain a 1st and 5th level nephilim ancestry feat of your choice. Your ordeal has made you extraordinarily durable. You gain the Toughness general feat, and the Hit Points you gain from your Ancestry increase by 2.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActorTraits",
+        "add": [
+          "nephilim",
+          "demigod"
+        ],
+        "remove": []
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:1",
+            {
+              "or": [
+                "item:trait:nephilim",
+                "item:trait:aasimar",
+                "item:trait:tiefling"
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "flag": "featOne",
+        "key": "ChoiceSet",
+        "prompt": "Select a 1st-level nephilim feat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.featOne}"
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:level:5",
+            {
+              "or": [
+                "item:trait:nephilim",
+                "item:trait:aasimar",
+                "item:trait:tiefling"
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "flag": "featTwo",
+        "key": "ChoiceSet",
+        "prompt": "Select a 5th-level nephilim feat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.featTwo}",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.attributes.ancestryhp",
+        "priority": 51,
+        "value": 2
+      }
+    ],
+    "slug": "herald-stained",
+    "_migration": {
+      "version": 0.941,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "13.347",
+        "system": "7.3.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aftermath"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Feats+",
+      "authors": "Conner Berkheiser, Derry Luttrell, Sen H.H.S., Tony Saunders, V. \"Cerapter\" Dániel",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "You have touched the blood of a god as their dying body impacted you."
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "xWfdtdZhz6tXT6RQ": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-feats-plus.player-options.Item.ntz6jWutxEoQr2RT",
+      "hash": "89531b6f85fb01251e886468c3f89d1ad3210aa8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755005734528,
+    "modifiedTime": 1755036440391,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_id": "IHo5JTY3GCkRVQ0L",
+  "sort": 0,
+  "_key": "!items!IHo5JTY3GCkRVQ0L"
+}

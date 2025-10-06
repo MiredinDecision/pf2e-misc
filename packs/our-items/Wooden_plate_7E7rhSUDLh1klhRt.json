@@ -1,0 +1,118 @@
+{
+  "img": "icons/equipment/chest/breastplate-collared-leather-brown.webp",
+  "name": "Wooden plate",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A suit of carved and tempered wood, a wooden breastplate resembles a metal breastplate in shape and function. Such suits can be carved from large pieces of wood, but they most often come from wood coaxed magically from special trees, whether by druids, elves, fey, or plant creatures such as arboreals or leshys.</p>"
+    },
+    "rules": [],
+    "slug": "wooden-plate",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "bulwark"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Treasure Vault",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "wooden-breastplate",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 18
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Wooden Breastplate",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "medium",
+    "group": "wood",
+    "acBonus": 5,
+    "strength": 4,
+    "dexCap": 1,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-equipment-custom-wood-armor.custom-wood-armor.Item.0ou04omI6WjEmXSf",
+      "hash": "d65622f263f654ced550a3dcf225e2c0e504bdcb"
+    }
+  },
+  "effects": [],
+  "folder": "qvoMwaZTYMWhmXmF",
+  "ownership": {
+    "default": 0,
+    "BeZDY0XactlwvFqP": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745267991114,
+    "modifiedTime": 1745267991114,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "7E7rhSUDLh1klhRt",
+  "sort": 0,
+  "_key": "!items!7E7rhSUDLh1klhRt"
+}

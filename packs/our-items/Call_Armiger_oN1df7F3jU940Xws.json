@@ -1,0 +1,165 @@
+{
+  "folder": "RWrOfvivLAQlmiBp",
+  "name": "Call Armiger",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> Once per turn</p><p class=\"hang\"><strong>Requirements</strong> You are not wielding a weapon or shield</p><hr /><p>You channel the weapons of the cosmos. You are surrounded by ethereal, intangible versions of your Regalia. These weapon float around you, shedding 10ft of dim light. If your Armiger was already called when you used this action, you instead remove the <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">@UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken}</span></span> conidtion from all of your Regalia. You may Step or make a Strike using one of your Regalia as part of this action.</p><p>While your Armiger is called, you can Strike using any non-broken Regalia contained within. You must have enough free hands to wield the Reagalia in order to Strike with it. You use your Wisdom modifier on all Attack rolls using Regalia instead of Strength or Dexterity modifiers. But you still use your Strength modifier to damage rolls on Melee and Thrown strikes.</p><p>Your Regalia benefit from any Fundamental or Property Weapon Runes etched within them when they were bound, but these runes can also be overriden with any applicable Property or Fundamental runes etched on a worn and Invested @UUID[Compendium.pf2e-misc.our-items.Item.D2WtBcXDDPIia7rB]{Star Ring}.</p><p>Your armiger is dismissed if you stop meeting its requirements, you are knocked unconscious, it is Dispelled, or you Dismiss it by using this action again. Whichever comes first.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Call Armiger",
+        "option": "call-armiger-aura",
+        "toggleable": true
+      },
+      {
+        "key": "Aura",
+        "predicate": [
+          "call-armiger-aura"
+        ],
+        "radius": 10
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.armigerLightDim.radius",
+        "value": 10
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.armigerLightBright.radius",
+        "value": 0
+      },
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": "@actor.flags.pf2e.armigerLightDim.radius",
+          "bright": "@actor.flags.pf2e.armigerLightBright.radius",
+          "color": "#009dff",
+          "alpha": 0.1,
+          "animation": {
+            "intensity": 2,
+            "speed": 1
+          },
+          "luminosity": 0,
+          "attenuation": 0.9,
+          "coloration": 3
+        },
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:astral-polarity"
+        ]
+      },
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": "@actor.flags.pf2e.armigerLightDim.radius",
+          "bright": "@actor.flags.pf2e.armigerLightBright.radius",
+          "color": "#8c00ff",
+          "alpha": 0.1,
+          "animation": {
+            "speed": 1,
+            "intensity": 2
+          },
+          "coloration": 3,
+          "attenuation": 0.9,
+          "luminosity": 0
+        },
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:ecliptic-polarity"
+        ]
+      },
+      {
+        "key": "TokenLight",
+        "value": {
+          "dim": "@actor.flags.pf2e.armigerLightDim.radius",
+          "bright": "@actor.flags.pf2e.armigerLightBright.radius",
+          "color": "#2e005c",
+          "alpha": 0.1,
+          "animation": {
+            "speed": 1,
+            "intensity": 2
+          },
+          "luminosity": 0,
+          "attenuation": 0.9,
+          "coloration": 3
+        },
+        "predicate": [
+          "call-armiger-aura",
+          "cosmic-polarity:umbral-polarity"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "label": "PF2E.AbilityWis",
+        "selector": "strike-attack-roll",
+        "value": "Wisdom",
+        "type": "ability",
+        "ability": "wis",
+        "force": true,
+        "predicate": [
+          "item:trait:regalia",
+          "call-armiger-aura"
+        ]
+      }
+    ],
+    "slug": "call-armiger",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aura",
+        "concentrate",
+        "magical",
+        "occult",
+        "starknight"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "_id": "oN1df7F3jU940Xws",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "e449c523d37953111a7fd211a3d529dfc3541709"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1753909523967,
+    "modifiedTime": 1754864189223,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!oN1df7F3jU940Xws"
+}

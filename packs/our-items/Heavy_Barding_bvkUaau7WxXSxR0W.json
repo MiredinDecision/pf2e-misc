@@ -1,0 +1,155 @@
+{
+  "img": "systems/pf2e/icons/equipment/armor/studded-leather-armor.webp",
+  "name": "Heavy Barding",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "mode": "add",
+        "type": "potency",
+        "property": "ac-bonus",
+        "itemType": "armor",
+        "predicate": [
+          "armor:equipped",
+          {
+            "or": [
+              "armor:category:light-barding",
+              "armor:category:heavy-barding"
+            ]
+          },
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ],
+        "value": {
+          "brackets": [
+            {
+              "start": 5,
+              "end": 10,
+              "value": 1
+            },
+            {
+              "start": 11,
+              "end": 17,
+              "value": 2
+            },
+            {
+              "start": 18,
+              "value": 3
+            }
+          ]
+        },
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "heavy-barding",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "barding",
+        "companion"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 4
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 25
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "lg",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Armor",
+        "img": "systems/pf2e/icons/unidentified_item_icons/armor.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "heavy-barding",
+    "group": null,
+    "acBonus": 3,
+    "strength": 5,
+    "dexCap": 3,
+    "checkPenalty": -3,
+    "speedPenalty": -10,
+    "runes": {
+      "potency": 0,
+      "resilient": 0,
+      "property": []
+    },
+    "subitems": [],
+    "specific": null
+  },
+  "type": "armor",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728066997982,
+    "modifiedTime": 1728067333974,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "GJORlZQviLhITVD6",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7c00272bfe117612f2d5592201381f54d990ecd1",
+      "sourceId": "Actor.ZVuJ51TNvDctSR1u.Item.a3PO6j2cV7USSrZo"
+    }
+  },
+  "_id": "bvkUaau7WxXSxR0W",
+  "sort": 0,
+  "_key": "!items!bvkUaau7WxXSxR0W"
+}

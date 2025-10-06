@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "VSWyMz3nETRIsSMi",
+  "name": "Field Discovery",
+  "color": null,
+  "sorting": "a",
+  "_id": "V0CL1JnH989WSGCi",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "0f1a96c85517d1c73bbbdf4b48c9d276c9c03bb0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!V0CL1JnH989WSGCi"
+}

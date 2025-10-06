@@ -1,0 +1,83 @@
+{
+  "folder": "eAxclYep2qvrbCqL",
+  "name": "Scarlet Stamina",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your experience with blood magic has fortified your own blood. You gain the @UUID[Compendium.pf2e.feats-srd.Item.2KVllUXqgWq7jCmX]{Sanguine Tenacity} general feat.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.2KVllUXqgWq7jCmX",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "scarlet-stamina",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "level": {
+      "value": 11
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "eVmofTNqW9FtOquH",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4047baa34a7960e3cef688e1e8d5cfaeae3cfe00"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757459992458,
+    "modifiedTime": 1757461643821,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!eVmofTNqW9FtOquH"
+}

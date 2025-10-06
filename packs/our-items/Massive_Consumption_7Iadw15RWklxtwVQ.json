@@ -1,0 +1,72 @@
+{
+  "folder": "HYtdwMrR01QCzgbM",
+  "name": "Massive Consumption",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can absorb massive amounts of food in order to repair your body. If you gorge for 10 minutes, eating up to 1 week's worth of food, you gain Hit Points equal to your Constitution Modifier x the number of days worth of food. This is cumulative with any healing you receive from Treat Wounds. At 13th level, you can eat up to 10 days' worth of food, and at 17th level you can eat up to two weeks' worth of food.</p>"
+    },
+    "rules": [],
+    "slug": "massive-consumption",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "38ee4cc0c3bc5dec98131bc95daa18bee94d88b0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.7Iadw15RWklxtwVQ",
+    "duplicateSource": "Item.MOMHckt91eeYA4y3",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "7Iadw15RWklxtwVQ",
+  "_key": "!items!7Iadw15RWklxtwVQ"
+}

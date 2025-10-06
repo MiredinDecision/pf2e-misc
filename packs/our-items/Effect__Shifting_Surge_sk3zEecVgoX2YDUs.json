@@ -1,0 +1,131 @@
+{
+  "folder": "eOJsgiwwcsb79hE6",
+  "name": "Effect: Shifting Surge",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You release a surge of magical energy that temporarily changes the type of damage dealt by a target weapon. The next Strike the weapon makes deals your choice of acid, cold, electricity, fire, or sonic damage, and deals an additional 1d6 extra damage of the same type as the weapon's normal damage.</p><hr /><p><strong>Heightened (+2)</strong> The extra damage increases by 1d6</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "includeHandwraps": true,
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "weapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": [
+          {
+            "label": "Acid",
+            "value": "acid"
+          },
+          {
+            "label": "Cold",
+            "value": "cold"
+          },
+          {
+            "label": "Electricity",
+            "value": "electricity"
+          },
+          {
+            "label": "Fire",
+            "value": "fire"
+          },
+          {
+            "label": "Sonic",
+            "value": "sonic"
+          }
+        ],
+        "prompt": "Select a damage type",
+        "flag": "damage"
+      },
+      {
+        "key": "DamageDice",
+        "selector": "strike-damage",
+        "diceNumber": "max(1,ceil(@item.level/2))",
+        "dieSize": "d6",
+        "predicate": [
+          "item:id:{item|flags.pf2e.rulesSelections.weapon}"
+        ],
+        "hideIfDisabled": true,
+        "value": "{item|flags.pf2e.rulesSelections.weapon}:damage:type"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "property": "damage-type",
+        "selectors": [
+          "{item|flags.pf2e.rulesSelections.weapon}-damage"
+        ],
+        "value": "{item|flags.pf2e.rulesSelections.damage}"
+      }
+    ],
+    "slug": "effect-surging-strike",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "sk3zEecVgoX2YDUs",
+  "img": "icons/magic/fire/dagger-rune-enchant-flame-strong-purple-pink.webp",
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dbd9a29bdfde78f41a34fb5c5d79c75948e4116f"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745100658822,
+    "modifiedTime": 1754328937761,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!sk3zEecVgoX2YDUs"
+}

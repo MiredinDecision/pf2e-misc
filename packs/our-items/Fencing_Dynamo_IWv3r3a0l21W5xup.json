@@ -1,0 +1,27 @@
+{
+  "name": "Fencing Dynamo",
+  "sorting": "a",
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "type": "Item",
+  "_id": "IWv3r3a0l21W5xup",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "6d8ad86cc585cb4933474b53a532a7d5595c031b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": null,
+    "modifiedTime": 1754849746714,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!folders!IWv3r3a0l21W5xup"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Ledger",
+  "type": "treasure",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This magical ledger is filled with thousands of numbers, each with unique magical symbols. Many have faded, but hundreds remain, written in blood.</p>"
+    },
+    "rules": [],
+    "slug": "ledger",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Treasure",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "stackGroup": null
+  },
+  "img": "systems/pf2e/icons/equipment/adventuring-gear/advanced-book-of-translation.webp",
+  "folder": "7OZbTCbckbg9PFqT",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fef15c22a9e4fe06f453a9dc6947758d26355b1c",
+      "sourceId": "Item.nPe95kv1SaO9gD5J"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728404679120,
+    "modifiedTime": 1756086799129,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "XI3KgG0yUhMFU6LC",
+  "sort": 1100000,
+  "_key": "!items!XI3KgG0yUhMFU6LC"
+}

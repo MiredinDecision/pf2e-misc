@@ -1,0 +1,27 @@
+{
+  "name": "Dedication Winding Stream",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "v7lYXHOYdqYdFFzv",
+  "description": "",
+  "sort": 5500000,
+  "color": "#603030",
+  "flags": {
+    "scene-packer": {
+      "hash": "f739516fb06a5866ea52e2259e22fa087cb59190"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262022814,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!v7lYXHOYdqYdFFzv"
+}

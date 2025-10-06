@@ -1,0 +1,162 @@
+{
+  "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+  "name": "Effect: Starlit Transformation",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e.actionspf2e.Item.M4ALaFXoQDJGxSsI]{Starlit Transformation}</p>\n<p>Your weapon gains a +1 status bonus to damage rolls. You can fling bolts of starlight from your weapon with a Strike action, using your melee attack modifier with the weapon. These bolts deal 1d4 force damage and have the arcane and force traits.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "minutes",
+      "value": 10
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Lost Omens Tian Xia Character Guide",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.StarlitSentinel.StarlitTransformation.BoltsOfStarlight",
+        "option": "bolts-of-starlight",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "strike-damage",
+        "type": "status",
+        "value": 1,
+        "predicate": [
+          "item:trait:regalia"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "itemType": "weapon",
+        "predicate": [
+          "item:trait:regalia"
+        ],
+        "key": "ItemAlteration",
+        "mode": "add",
+        "property": "other-tags",
+        "value": "starlit-sentinel-weapon"
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "bolts-of-starlight",
+          "item:trait:regalia"
+        ],
+        "property": "dice-faces",
+        "selectors": [
+          "weapon-damage"
+        ],
+        "slug": "base",
+        "value": 4
+      },
+      {
+        "key": "DamageAlteration",
+        "mode": "override",
+        "predicate": [
+          "bolts-of-starlight",
+          "item:trait:regalia"
+        ],
+        "property": "damage-type",
+        "selectors": [
+          "weapon-damage"
+        ],
+        "slug": "base",
+        "value": "force"
+      },
+      {
+        "definition": [
+          "item:trait:regalia"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "bolts-of-starlight"
+        ],
+        "property": "traits",
+        "value": "arcane"
+      },
+      {
+        "definition": [
+          "item:trait:regalia"
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "predicate": [
+          "bolts-of-starlight"
+        ],
+        "property": "traits",
+        "value": "force"
+      },
+      {
+        "key": "AdjustModifier",
+        "predicate": [
+          "bolts-of-starlight",
+          "item:trait:regalia"
+        ],
+        "selector": "weapon-damage",
+        "slug": "str",
+        "suppress": true
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-starlit-transformation",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.1",
+    "createdTime": 1754583989964,
+    "modifiedTime": 1755999179152,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "rCTbz5Txfuh1dhKi",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feat-effects.Item.JmAYeBSVvr5QMNis",
+      "hash": "d24a25341d4a326c53a8ce6964e732ccaf8918c7"
+    }
+  },
+  "_id": "IA1S59VjXxoNlESD",
+  "sort": 1300000,
+  "_key": "!items!IA1S59VjXxoNlESD"
+}

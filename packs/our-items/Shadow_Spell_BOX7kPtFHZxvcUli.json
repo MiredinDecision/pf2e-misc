@@ -1,0 +1,71 @@
+{
+  "folder": "aT8L3wPj6xSrwj9o",
+  "name": "Shadow Spell",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You embrace the shadow, allowing you to spellcast without making gestures or sounds. Attempt a @Check[type:stealth|defense:perception]{Stealth check} against the target's Perception DC. If you are successful, and your next action you use is to Cast a Spell with the Attack trait, the target of that spell is off-guard to you.</p><p><strong>Critical Success</strong> You may teleport 10 feet after casting the spell.</p>"
+    },
+    "rules": [],
+    "slug": "shadow-spell",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Eldritch Shadow",
+      "authors": "AngelofWoe,  MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "BOX7kPtFHZxvcUli",
+  "img": "icons/magic/unholy/silhouette-robe-evil-power.webp",
+  "sort": 156250,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "250b717d8c51e73a2bf522ad6100c1ab1c3d32e8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727210776929,
+    "modifiedTime": 1727211300972,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!BOX7kPtFHZxvcUli"
+}

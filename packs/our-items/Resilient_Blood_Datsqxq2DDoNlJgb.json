@@ -1,0 +1,130 @@
+{
+  "folder": "nrL3vKEeuBIh3Gr7",
+  "name": "Resilient Blood",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong><em>blood</em></p><hr /><p>Your blood is remarkably resilient. You gain a +1 status bonus to AC against attacks by incorporeal creatures, and resistance to spirit damage equal to half the relic's level.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "spirit",
+        "value": {
+          "brackets": [
+            {
+              "end": 2,
+              "value": "max(1,floor(@actor.level/2))"
+            },
+            {
+              "start": 3,
+              "value": "@actor.level"
+            }
+          ],
+          "field": "flags.pf2e.bloodedBeastArmamentCount"
+        }
+      },
+      {
+        "key": "RollOption",
+        "label": "AC Against Incorporeal",
+        "domain": "all",
+        "option": "ac-against-incorporeal",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "value": {
+          "brackets": [
+            {
+              "end": 2,
+              "value": 1
+            },
+            {
+              "start": 3,
+              "value": 2
+            }
+          ],
+          "field": "flags.pf2e.bloodedBeastArmamentCount"
+        },
+        "type": "status",
+        "predicate": [
+          "ac-against-incorporeal"
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "physical",
+        "value": "max(1,floor(@actor.level/2))",
+        "predicate": [
+          {
+            "gte": [
+              "{actor|flags.pf2e.bloodedBeastArmamentCount}",
+              4
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "resilient-blood",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Datsqxq2DDoNlJgb",
+  "img": "icons/skills/wounds/blood-cells-vessel-red-orange.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "8872915f0726a2b761b930fce49dbba19ea303d5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1729325316787,
+    "modifiedTime": 1757437246798,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!Datsqxq2DDoNlJgb"
+}

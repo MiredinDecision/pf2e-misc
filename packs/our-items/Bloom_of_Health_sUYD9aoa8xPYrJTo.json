@@ -1,0 +1,84 @@
+{
+  "folder": "9FBaZH15PX1kVAAc",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Bloom of Health",
+  "system": {
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You shout a rallying cry that inspires the well-being of your kingdom's protectors. All your knights who hear your cry gain fast healing equal to half your level for 1 minute.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.mJIyNSykpvaUDBiV]{Effect: Bloom of Health}</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 14
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Prophesied Monarch Dedication"
+        }
+      ]
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder War of Immortals",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "otherTags": [
+        "prophesied-monarch-dedication"
+      ],
+      "rarity": "common",
+      "value": [
+        "auditory",
+        "mythic"
+      ]
+    },
+    "slug": "bloom-of-health",
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757617722517,
+    "modifiedTime": 1757617752638,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "047884310a39e73181f3f669b8a7485efc139374",
+      "sourceId": "Actor.zokj2ZnRTh4wQJhV.Item.xTZZ3CpGYYsyJh0p"
+    }
+  },
+  "_id": "sUYD9aoa8xPYrJTo",
+  "sort": 0,
+  "_key": "!items!sUYD9aoa8xPYrJTo"
+}

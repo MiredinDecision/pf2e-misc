@@ -1,0 +1,25 @@
+{
+  "type": "Item",
+  "folder": "VSWyMz3nETRIsSMi",
+  "name": "Advanced Vials",
+  "color": null,
+  "sorting": "a",
+  "_id": "r0NJaaad8z1xq7BN",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "98f96dc313ab96cbe0cbeedb06ecc143e70b0c60"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!r0NJaaad8z1xq7BN"
+}

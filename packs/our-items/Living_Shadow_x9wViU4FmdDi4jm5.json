@@ -1,0 +1,89 @@
+{
+  "folder": "gpt6w109KA6e7dPN",
+  "name": "Living Shadow",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<hr /><p><strong>Heightened (5th) </strong>The area affected increases to a 30-foot burst.</p>"
+    },
+    "rules": [],
+    "slug": "living-shadow",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "darkness",
+        "eldritch-shadow",
+        "focus",
+        "shadow"
+      ],
+      "rarity": "unique",
+      "traditions": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 4
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": ""
+    },
+    "area": {
+      "value": 15,
+      "type": "burst"
+    },
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": true
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "_id": "x9wViU4FmdDi4jm5",
+  "img": "systems/pf2e/icons/spells/shadow-raid.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "71753760b71288c3ec3f6d22af5009b4e4a6f1c0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728156341672,
+    "modifiedTime": 1728156817554,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!x9wViU4FmdDi4jm5"
+}

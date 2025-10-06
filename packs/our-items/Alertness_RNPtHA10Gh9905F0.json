@@ -1,0 +1,82 @@
+{
+  "img": "icons/creatures/eyes/human-single-blue.webp",
+  "name": "Alertness",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Experience has made you increasingly aware of threats around you, and you react more quickly to danger. Your proficiency rank for Perception increases to expert.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 5
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Core Rulebook",
+      "authors": ""
+    },
+    "rules": [],
+    "subfeatures": {
+      "proficiencies": {
+        "perception": {
+          "rank": 2,
+          "attribute": null
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "starknight"
+      ],
+      "otherTags": []
+    },
+    "slug": "alertness",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753913641309,
+    "modifiedTime": 1753913661111,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "SUt38LbkAyLuvxQ7",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.D8CSi8c9XiRpVc5M",
+      "hash": "5474f061e3cc17f48c3376d0bc97c579b5c3d9c3"
+    }
+  },
+  "_id": "RNPtHA10Gh9905F0",
+  "sort": 0,
+  "_key": "!items!RNPtHA10Gh9905F0"
+}

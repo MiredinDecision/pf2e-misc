@@ -1,0 +1,90 @@
+{
+  "folder": "6Slvh3DHuFQCQIhI",
+  "name": "Gaze Dripping With Gold",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif\">Your eyes shine with the passion of lost souls, reflecting the golden hue of the dead. You gain the @UUID[Compendium.pf2e.classfeatures.Item.hfn5w8ZuI22vfimn]{Gaze Sharp as Steel Ikon}, the ability to use the ikon's immancence and transcendence actions and effects, and the Shift Immanence action. Because you have only a single ikon, when you Spark Transcendence, your divine spark recedes back to the depths of your soul and must be recalled with @UUID[Compendium.pf2e.actionspf2e.Item.9cGJBXSJW6EpgibP]{Shift Immanence} to re-empower your ikon.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.9cGJBXSJW6EpgibP",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.classfeatures.Item.hfn5w8ZuI22vfimn",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.exemplar.ikons",
+        "priority": 10,
+        "value": []
+      }
+    ],
+    "slug": "gaze-dripping-with-gold",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic",
+        "spirit"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "D4227o4yUyWGdCBw",
+  "img": "systems/pf2e/icons/spells/entrancing-eyes.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0ebf597baff220d1d500de35aaf526a1f9ace871"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735507143594,
+    "modifiedTime": 1735507459168,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!D4227o4yUyWGdCBw"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Essence Powers",
+  "sorting": "a",
+  "folder": "fLPqJbbY1KesMk67",
+  "type": "Item",
+  "_id": "DdPd98kxsm770DTK",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "e3b21fdfa488340c126aed87e20c18ccfd20b4af"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!DdPd98kxsm770DTK"
+}

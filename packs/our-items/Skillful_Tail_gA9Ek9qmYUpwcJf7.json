@@ -1,0 +1,77 @@
+{
+  "folder": "suC0JkDUJkV04Frx",
+  "img": "icons/creatures/unholy/demon-horned-winged-laughing.webp",
+  "name": "Skillful Tail",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "ancestryfeature",
+    "description": {
+      "value": "<p>You've always had a tail, but with practice, you've learned to use it for more than signaling your mood. You can perform simple Interact actions with your tail, such as opening an unlocked door. Your tail can't perform actions that require fingers or significant manual dexterity, including any action that would require a check to accomplish, and you can't use it to hold items.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "unique",
+      "value": [
+        "nephilim"
+      ],
+      "otherTags": []
+    },
+    "slug": "skillful-tail-nephilim",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743393047369,
+    "modifiedTime": 1743393111383,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.aVRuchEAJIvnd70k",
+      "hash": "ec001f3d932f0f81667b92dcbef8e99950d05c29"
+    }
+  },
+  "_id": "gA9Ek9qmYUpwcJf7",
+  "sort": 0,
+  "_key": "!items!gA9Ek9qmYUpwcJf7"
+}

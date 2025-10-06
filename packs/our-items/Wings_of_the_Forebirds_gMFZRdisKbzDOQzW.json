@@ -1,0 +1,96 @@
+{
+  "folder": "0MZuguhFeCNquJ57",
+  "name": "Wings of the Forebirds",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong>forebird</p><p><strong>Frequency </strong>Once per round.</p><hr /><p>You gain the effects of @UUID[Compendium.pf2e.feats-srd.Item.Tl8yckXeTCHnwrlM]{Soaring Flight} while this item is invested.</p><p></p><p><span style=\"font-family:Roboto, sans-serif\">You can fly through the air in short bursts. You Fly. If you don't normally have a fly Speed, you gain a fly Speed of 20 feet for this movement. If you aren't on solid ground at the end of this movement, you fall.</span></p>"
+    },
+    "rules": [
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "option": "wings-of-the-forebirds",
+        "toggleable": true
+      },
+      {
+        "key": "BaseSpeed",
+        "predicate": [
+          "wings-of-the-forebirds"
+        ],
+        "selector": "fly",
+        "value": 20
+      }
+    ],
+    "slug": "wings-of-the-forebirds",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.931,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "tengu"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "bonus",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "_id": "gMFZRdisKbzDOQzW",
+  "img": "modules/pf2e-relic-forebird/assets/wings-of-the-forebirds.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a06d2db799e7a9dbd94d9094e740cbd5ff647594"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-forebird.forebird-gifts.Item.gMFZRdisKbzDOQzW",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261253296,
+    "modifiedTime": 1728261253296,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!gMFZRdisKbzDOQzW"
+}

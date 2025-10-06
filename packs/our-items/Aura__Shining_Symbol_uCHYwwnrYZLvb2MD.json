@@ -1,0 +1,93 @@
+{
+  "img": "icons/commodities/treasure/broach-jewel-gold-blue.webp",
+  "name": "Aura: Shining Symbol",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e.equipment-srd.Item.YVtXlsEWb3NIkDyy]{Shining Symbol}, @UUID[Compendium.pf2e.equipment-srd.Item.M7c4uXraP05HYNXs]{Shining Symbol (Greater)}, @UUID[Compendium.pf2e.equipment-srd.Item.etnis6HOeGZEbScD]{Shining Symbol (Major)}</p>\n<p>The light cast by the symbol becomes bright light. Creatures in the light receive a status penalty to Deception and Stealth checks and your enemies gain weakness to spirit damage.</p>"
+    },
+    "rules": [
+      {
+        "effects": [
+          {
+            "affects": "all",
+            "uuid": "Compendium.pf2e.equipment-effects.Item.gn7kNxKGUsKwnv1L"
+          },
+          {
+            "affects": "enemies",
+            "uuid": "Compendium.pf2e.equipment-effects.Item.MFbOXncTwYaskdfG"
+          }
+        ],
+        "key": "Aura",
+        "radius": 20,
+        "slug": "shining-symbol",
+        "traits": [
+          "light",
+          "revelation"
+        ]
+      }
+    ],
+    "slug": "aura-shining-symbol",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder GM Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "duration": {
+      "value": 10,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729978728907,
+    "modifiedTime": 1756086799129,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "7OZbTCbckbg9PFqT",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "2297c44ef80ba2e0035651a1c302816a64c964cb",
+      "sourceId": "Item.5jUv2ISXSJuC8NdD"
+    }
+  },
+  "_id": "uCHYwwnrYZLvb2MD",
+  "sort": 800000,
+  "_key": "!items!uCHYwwnrYZLvb2MD"
+}

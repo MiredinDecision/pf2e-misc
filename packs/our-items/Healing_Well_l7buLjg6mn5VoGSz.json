@@ -1,0 +1,107 @@
+{
+  "folder": "ZbZeGxd2XHQt4tko",
+  "name": "Healing Well",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You call forth a well of healing that you and your allies can draw from later. The well appears as a disc of shimmering light on the ground in a square within range. At any time during the duration, if you or an ally are adjacent to the well, that character can Interact to tap into the well's power, recovering 4d8 Hit Points. When the well has been tapped five times, the spell ends. The well is made of insubstantial energy, allowing creatures to move through it and even end their turn in its space.</p><p>If you use an ability that increases the amount of healing this spell grants, that increase applies only to the first time someone taps the well.</p><hr /><p><strong>Heightened (+1)</strong> The healing increases by 3.</p>"
+    },
+    "rules": [],
+    "slug": "healing-well",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "healing",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "divine",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 5
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "3"
+    },
+    "duration": {
+      "value": "1 minute",
+      "sustained": false
+    },
+    "damage": {
+      "Z4tSRnUaY2yhvMUl": {
+        "formula": "4d8",
+        "kinds": [
+          "healing"
+        ],
+        "type": "untyped",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "Z4tSRnUaY2yhvMUl": "3"
+      },
+      "area": 0
+    }
+  },
+  "_id": "l7buLjg6mn5VoGSz",
+  "img": "icons/magic/life/heart-hand-gold-green-light.webp",
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4c387ac45b8750efc8ca9b261238626d61997808"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.2",
+    "createdTime": 1737224988443,
+    "modifiedTime": 1754328973937,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!l7buLjg6mn5VoGSz"
+}

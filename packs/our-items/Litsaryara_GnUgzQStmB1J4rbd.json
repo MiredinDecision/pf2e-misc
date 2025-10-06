@@ -1,0 +1,26 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Litsaryara",
+  "color": null,
+  "sorting": "a",
+  "_id": "GnUgzQStmB1J4rbd",
+  "description": "",
+  "sort": 4500000,
+  "flags": {
+    "scene-packer": {
+      "hash": "20e6078ab804eb37b1ba30722736e873e3bf4d56"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "modifiedTime": 1759606595920
+  },
+  "_key": "!folders!GnUgzQStmB1J4rbd"
+}

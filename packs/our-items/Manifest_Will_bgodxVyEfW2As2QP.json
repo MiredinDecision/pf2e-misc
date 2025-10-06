@@ -1,0 +1,77 @@
+{
+  "folder": "ADoMbgwYlnecyynk",
+  "name": "Manifest Will",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> spirit</p><p><strong>Activate</strong> <span class=\"pf2-icon\">2</span> (command, envision)</p><hr /><p><strong>Effect</strong> A blast of force envelops a creature of your choosing within 30 feet. This blast deals @Damage[1d6[spirit]] damage, with a (@Check[type:fortitude|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true]) save. The damage increases by 1d6 at 3rd level and every 2 levels thereafter.</p><p> @Damage[(1d6 + floor((@actor.level - 1) / 2)d6)[spirit]]</p>"
+    },
+    "rules": [],
+    "slug": "manifest-will",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.88,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 2
+    },
+    "deathNote": false,
+    "requirements": {
+      "value": ""
+    },
+    "trigger": {
+      "value": ""
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "img": "systems/pf2e/icons/actions/TwoActions.webp",
+  "ownership": {
+    "default": 0,
+    "ldCLXFyluOJpOy7S": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e-relics.relic-gifts.Item.tP8LECrgZWWMB4Go",
+      "hash": "c72008ecf49668b11f1cd92d35bee840e4626209"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.5.0",
+    "createdTime": 1729326050920,
+    "modifiedTime": 1735586913584,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "bgodxVyEfW2As2QP",
+  "sort": 200000,
+  "_key": "!items!bgodxVyEfW2As2QP"
+}

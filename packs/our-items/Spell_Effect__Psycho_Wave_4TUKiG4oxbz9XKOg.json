@@ -1,0 +1,99 @@
+{
+  "folder": "vQBRSehWFX1fHYIo",
+  "name": "Spell Effect: Psycho Wave",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Granted by </strong>@UUID[Compendium.pf2e-misc.our-items.Item.qLKcp47PU72PfrqT]{Psycho Wave}</p><p>You take @Damage[(@item.level -3)d6[persistent,mental]]{persistent mental damage}, and you are @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused}. If you recover from being Confused, the persistent damage ends.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Even More Magic!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "inMemoryOnly": true,
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "uuid": "Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ"
+      },
+      {
+        "key": "GrantItem",
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "persistent-damage",
+            "value": {
+              "damageType": "mental",
+              "formula": "({item|level} -3)d6"
+            }
+          }
+        ],
+        "inMemoryOnly": true,
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "uuid": "Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60"
+      }
+    ],
+    "slug": "spell-effect-psycho-wave",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "4TUKiG4oxbz9XKOg",
+  "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "9fe5f9db4da4687aece2d3dafc98a09f82e04691"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758285845153,
+    "modifiedTime": 1758285917052,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!4TUKiG4oxbz9XKOg"
+}

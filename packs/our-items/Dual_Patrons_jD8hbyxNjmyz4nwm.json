@@ -1,0 +1,144 @@
+{
+  "img": "icons/magic/symbols/question-stone-yellow.webp",
+  "name": "Dual Patrons",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>You weren't born with the power to cast spells, nor have you spent years dedicated to worship, study, or uncovering mystical secrets. Your magic instead has been gifted to you by a potent being, one who knows that by empowering you so, you'll further the being's agenda in the world, whatever it may be. This entity is typically mysterious and distant, revealing little of their identity and motivations. They make their will known to you in abstract signs such as omens, dreams, or similar subtleties rather than words.</p><p>Rather than interacting with you directly, your patron works through a familiar—a mystical creature that teaches you, serves as the conduit for your patron's magic, and maybe even keeps an eye on you to ensure you're furthering your patron's nebulous ends.</p><p>At 1st level, choose your patron, which determines your spellcasting tradition and grants you the skill for that tradition of magic, your first witch's lesson and a unique familiar ability.</p><p>As a Double Witch, you also select a second patron, gaining all the benefits of that Patron along with your own, including a second familiar, spell tradition, and another set of spells.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Pathfinder Player Core",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:witch-patron",
+            {
+              "or": [
+                {
+                  "and": [
+                    "class:witch",
+                    "item:tag:witch-patron"
+                  ]
+                },
+                {
+                  "and": [
+                    "item:tag:witch-patron",
+                    {
+                      "not": "item:tag:class-archetype"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "flag": "patron",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Witch.Patron.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.patron}"
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:tag:witch-patron",
+            {
+              "or": [
+                {
+                  "and": [
+                    "class:witch",
+                    "item:tag:witch-patron"
+                  ]
+                },
+                {
+                  "and": [
+                    "item:tag:witch-patron",
+                    {
+                      "not": "item:tag:class-archetype"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "flag": "secondPatron",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Witch.Patron.Prompt"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.secondPatron}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "witch"
+      ],
+      "otherTags": []
+    },
+    "slug": "patron",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1745519719095,
+    "modifiedTime": 1745519833020,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "vfRNzPFD27svZz1v",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.KPtF29AaeX2sJW0K",
+      "hash": "8e517ea5575ce4f9e1b22923594a054b4dabdda7"
+    }
+  },
+  "_id": "jD8hbyxNjmyz4nwm",
+  "sort": 0,
+  "_key": "!items!jD8hbyxNjmyz4nwm"
+}

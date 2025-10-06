@@ -1,0 +1,82 @@
+{
+  "folder": "zBmUhFMDt3r7Xf0l",
+  "name": "Expert Graveknight Spellcasting",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You learn more powerful graveknight spells. You replace your 2nd-rank slot with a 4th-rank slot. At 12th level, you replace your 3rd-rank slot with a 5th-rank spell slot, and at 14th level, you replace your 4th-rank spell slot with a 6th-rank spell slot. <span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You become an expert in spell attack modifiers and spell DCs.</span></p>"
+    },
+    "rules": [],
+    "slug": "expert-graveknight-spellcasting",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 10
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Basic Graveknight Spellcasting"
+        }
+      ]
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "spellcasting": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "_id": "Dpx1mdBQFNqATAdn",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "984eecee4fb2330b5492c8aa8bcc280ec27cf6b1"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728580917584,
+    "modifiedTime": 1728581120041,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!Dpx1mdBQFNqATAdn"
+}

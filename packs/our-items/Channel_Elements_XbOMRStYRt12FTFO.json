@@ -1,0 +1,69 @@
+{
+  "img": "icons/magic/water/vortex-water-whirlpool.webp",
+  "name": "Channel Elements",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements</strong> Your kinetic gate isn't active.</p>\n<hr />\n<p>You tap into your kinetic gate to make elements flow around you. Your kinetic aura activates, and as a part of this action, you can use a 1-action Elemental Blast or a 1-action stance impulse. Your kinetic aura is a 10-foot emanation where pieces of your kinetic element (or all your kinetic elements, if you can channel more than one) flow around you. The kinetic aura can't damage anything or affect the environment around you unless another ability allows it to. Channel Elements has the traits of all your kinetic elements.</p>\n<p>Your kinetic aura automatically deactivates if you're knocked out, you use an impulse with the overflow trait, or you Dismiss the aura. Though you can't use new impulses while your kinetic aura is deactivated, ones you already used remain, and you can still Sustain any that can be sustained. Stance impulses are linked to your kinetic aura and end when the aura deactivates.</p>"
+    },
+    "rules": [],
+    "slug": "channel-elements",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "aura",
+        "kineticist",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "offensive",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Item.OO6pxQoHNfQ7oHdH",
+      "name": "Effect: Kinetic Aura"
+    }
+  },
+  "type": "action",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.actionspf2e.Item.g8QrV39TmZfkbXgE",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802818315,
+    "modifiedTime": 1726802818315,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "y3Q55GjTVFV8jeys",
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "b9eae132444126d9dc5481c6f4bcb02fdb0121d9"
+    }
+  },
+  "_id": "XbOMRStYRt12FTFO",
+  "sort": 175000,
+  "_key": "!items!XbOMRStYRt12FTFO"
+}

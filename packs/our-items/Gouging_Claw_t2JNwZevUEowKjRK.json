@@ -1,0 +1,205 @@
+{
+  "img": "icons/creatures/claws/claw-hooked-curved.webp",
+  "name": "Gouging Claw",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You temporarily morph your limb into a clawed appendage. Make a melee spell attack roll against your target's AC. If you hit, you deal your choice of 2d6 slashing damage or 2d6 piercing damage, plus 2 persistent bleed or spirit damage. On a critical success, you deal double damage and double bleed or spirit damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6 and the persistent bleed or spirit damage increases by 1.</p>"
+    },
+    "rules": [],
+    "slug": "gouging-claw",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "concentrate",
+        "manipulate",
+        "morph"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "0": {
+        "applyMod": false,
+        "category": null,
+        "formula": "2d6",
+        "kinds": [
+          "damage"
+        ],
+        "materials": [],
+        "type": "untyped"
+      },
+      "3Pz4NTLXD2rzKgf4": {
+        "applyMod": false,
+        "category": "persistent",
+        "formula": "2",
+        "kinds": [
+          "damage"
+        ],
+        "materials": [],
+        "type": "bleed"
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "damage": {
+        "0": "1d6",
+        "3Pz4NTLXD2rzKgf4": "1"
+      },
+      "interval": 1,
+      "type": "interval"
+    },
+    "overlays": {
+      "wQHuRGaDDW2MemlK": {
+        "_id": "wQHuRGaDDW2MemlK",
+        "name": "Gouging Claw (Slashing)",
+        "overlayType": "override",
+        "sort": 2,
+        "system": {
+          "damage": {
+            "0": {
+              "category": null,
+              "type": "slashing"
+            }
+          }
+        }
+      },
+      "URQWpedXx9fB1fR7": {
+        "name": "Gouging Claw (Piercing)",
+        "system": {
+          "rules": [],
+          "damage": {
+            "0": {
+              "category": null,
+              "type": "piercing",
+              "kinds": [
+                "damage"
+              ]
+            }
+          },
+          "defense": null
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "ap7YkAeVkh1tIrHi": {
+        "name": "Gouging Claw (Piercing, Spirit)",
+        "system": {
+          "damage": {
+            "0": {
+              "category": null,
+              "type": "piercing",
+              "kinds": [
+                "damage"
+              ]
+            },
+            "3Pz4NTLXD2rzKgf4": {
+              "type": "spirit",
+              "kinds": [
+                "damage"
+              ]
+            }
+          },
+          "defense": null
+        },
+        "sort": 3,
+        "overlayType": "override"
+      },
+      "ckxYelueaeSgbfkH": {
+        "name": "Gouging Claw (Slashing, Spirit)",
+        "system": {
+          "damage": {
+            "0": {
+              "category": null,
+              "type": "slashing",
+              "kinds": [
+                "damage"
+              ]
+            },
+            "3Pz4NTLXD2rzKgf4": {
+              "type": "spirit",
+              "kinds": [
+                "damage"
+              ]
+            }
+          },
+          "defense": null
+        },
+        "sort": 4,
+        "overlayType": "override"
+      }
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758235310239,
+    "modifiedTime": 1758238442646,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "kw7Cdwcx7pAM35BV",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "dcf3aa4b6cd3a33a68c6f05721b1e6667c1ab221",
+      "sourceId": "Actor.Sk0x5dGjX1LuSDjq.Item.tUZQ0WXxlqRcXxTa"
+    }
+  },
+  "_id": "t2JNwZevUEowKjRK",
+  "sort": 100000,
+  "_key": "!items!t2JNwZevUEowKjRK"
+}

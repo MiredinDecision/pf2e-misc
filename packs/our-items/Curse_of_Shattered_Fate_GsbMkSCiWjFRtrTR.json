@@ -1,0 +1,141 @@
+{
+  "folder": "4cdDU70dn6Q2GSbU",
+  "name": "Curse of Shattered Fate",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The threads of your lost destiny still pull at you, driving you towards the destruction you were foretold to face. Misfortune clings to you, chance events resolve worse in your presence, and the world itself seeks your inconvenience, however petty.</p><p><strong>Cursebound 1 </strong>You gain weakness to a type of physical damage equal to your cursebound value that the GM selects, and become @UUID[Compendium.pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed} equal to half your cursebound value.</p><p><strong>Cursebound 2 </strong>You must make a basic save against beneficial effects that directly target you.</p><p><strong>Cursebound 3 </strong>You treat no one as your ally.</p><p><strong>Cursebound 4 </strong>You believe everyone you can see is an enemy for the purposes of targeting and reactions. You otherwise act rationally.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "predicate": [
+          "self:condition:cursebound"
+        ],
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "badge-value",
+            "value": "max(1,ceil(@actor.conditions.cursebound.value/2))"
+          }
+        ],
+        "inMemoryOnly": true,
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "uuid": "Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "predicate": [
+          {
+            "gte": [
+              "self:condition:cursebound",
+              1
+            ]
+          }
+        ],
+        "option": "shattered-fate-weakness",
+        "suboptions": [
+          {
+            "label": "Bludgeoning",
+            "value": "bludgeoning"
+          },
+          {
+            "label": "Piercing",
+            "value": "piercing"
+          },
+          {
+            "label": "Slashing",
+            "value": "slashing"
+          }
+        ],
+        "toggleable": true,
+        "alwaysActive": true
+      },
+      {
+        "key": "Weakness",
+        "predicate": [
+          {
+            "gte": [
+              "self:condition:cursebound",
+              1
+            ]
+          }
+        ],
+        "type": "{item|flags.pf2e.rulesSelections.shatteredFateWeakness}",
+        "value": "@actor.conditions.cursebound.value"
+      }
+    ],
+    "slug": "curse-of-shattered-fate",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "curse",
+        "divine",
+        "oracle",
+        "time"
+      ],
+      "rarity": "rare"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "GsbMkSCiWjFRtrTR",
+  "img": "icons/magic/lightning/barrier-shield-orb-pink.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "18f0a60f3ed17012ad87064b9bd931ae1a94008a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758053302277,
+    "modifiedTime": 1758068724142,
+    "lastModifiedBy": "19LQrWiE2jMTbelH"
+  },
+  "_key": "!items!GsbMkSCiWjFRtrTR"
+}

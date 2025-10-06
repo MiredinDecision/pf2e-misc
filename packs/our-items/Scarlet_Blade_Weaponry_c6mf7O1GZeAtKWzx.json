@@ -1,0 +1,85 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Scarlet Blade Weaponry",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You have been trained in Scarlet Blade weaponry. You gain access and are trained with the @UUID[Compendium.pf2e-misc.our-items.Item.XFUrBQzcEItHxIvE]{Scarlet Blade Sword}. Whenever you gain any class feature that gives you Expert or greater proficiency with martial weapons, you gain it with that weapon.</p>"
+    },
+    "rules": [
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          "item:base:scarlet-blade"
+        ],
+        "label": "Advanced Scarlet Blade Weapon",
+        "sameAs": "martial",
+        "slug": "scarlet-blade-weapon"
+      }
+    ],
+    "slug": "scarlet-blade-weaponry",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "dhampir",
+        "human",
+        "scarlet-blade"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1726821467983,
+    "modifiedTime": 1757377320701,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "9CWx98iJaaoN3Axn",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "fa45be0b959e70463f6b1571f8f4198eff17be7d",
+      "sourceId": "Actor.ZSxtwMkgJnC5gljK.Item.YyYjidyYZ9SctA5x"
+    }
+  },
+  "_id": "c6mf7O1GZeAtKWzx",
+  "sort": 100000,
+  "_key": "!items!c6mf7O1GZeAtKWzx"
+}

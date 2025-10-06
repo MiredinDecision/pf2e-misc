@@ -1,0 +1,108 @@
+{
+  "folder": "VDF8mAXAeTkQvgya",
+  "name": "Cryo Blast",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You project a sphere of frigid energy towards your foe, freezing them in a layer of ice. Make a spell attack roll against the target's AC, dealing 6d6 cold damage (double on a critical hit) and the target becomes @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} on a hit. This Restrained condition lasts for 1 round or until the target is hit with an attack, which shatters the ice. The creature can @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} normally against your spell DC on its turn.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.psGxrhfZh7G9aNoO]{Spell Effect: Cryo Blast}</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+    },
+    "rules": [],
+    "slug": "cryo-blast",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cold",
+        "concentrate",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Even More Magic!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "64MFAjKEGb7VcxRo": {
+        "formula": "6d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "cold",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "64MFAjKEGb7VcxRo": "2d6"
+      },
+      "area": 0
+    }
+  },
+  "_id": "ur8J25v1gWbpntgL",
+  "img": "icons/magic/water/projectiles-ice-explosion.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ac4d1f95ffd0f49158d90bbeff49edc192dc948e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758285845153,
+    "modifiedTime": 1758286031256,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!ur8J25v1gWbpntgL"
+}

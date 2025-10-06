@@ -1,0 +1,82 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/rapier.webp",
+  "name": "Stance: Dueling Dance",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e.feats-srd.Item.9VGmE7X4aK2W8YWj]{Dueling Dance (Swashbuckler)} or @UUID[Compendium.pf2e.feats-srd.Item.FYz5eQeTox9IDkSd]{Dueling Dance (Fighter)}</p>\n<p>You constantly have the benefits of Dueling Parry or Extravagant Parry.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Dueling Parry",
+        "selector": "ac",
+        "type": "circumstance",
+        "value": 2
+      }
+    ],
+    "slug": "stance-dueling-dance",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "encounter",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1734005557285,
+    "modifiedTime": 1734005905904,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "Tv7SfDc89L3ymPgA",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feat-effects.Item.KiuBRoMFxL2Npt51",
+      "hash": "60367765b54c3e83689337d7df1e1fdf622b12c6"
+    }
+  },
+  "_id": "LoWE0xpmjri66bvI",
+  "sort": 0,
+  "_key": "!items!LoWE0xpmjri66bvI"
+}

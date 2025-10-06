@@ -1,0 +1,80 @@
+{
+  "name": "Supernova Strike",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> 2 Regalia</p><hr /><p>You shroud a weapon in pure solar flame and perform a devastating strike. Choose 2 Regalia and make a melee strike using one of the chosen regalia. This Strike's weapon damage is changed to Fire damage, and you deal an additional 1d8 Splash Fire damage as the second Regalia launches itself as an explosive payload. You are not harmed by your own Splash damage. If both of your Chosen Regalia are Two-Handed or have the Two-Handed trait, the Splash damage die increases to d10s instead of d8s.</p><hr /><p class=\"hang\"><strong>Level (10th)</strong> The Splash damage increases to 2d8 Splash fire damage.</p><p class=\"hang\"><strong>Level (18th)</strong> The Splash damage increases to 3d8 Splash fire damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "supernova-strike",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "fire",
+        "flourish",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "q8oW8AmyHftdwxi2",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0de039bfb425dedbe91ff4af60c02d3aa18579d0",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921819589,
+    "modifiedTime": 1753929247947,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "MmF8WDsgWEUOdLBK",
+  "sort": 0,
+  "_key": "!items!MmF8WDsgWEUOdLBK"
+}

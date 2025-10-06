@@ -1,0 +1,82 @@
+{
+  "folder": "W16vdggFMZ6kTsZq",
+  "name": "Cosmic Glow",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p></p><p>Your regalia can shimmer like a small star. While your Armiger is called, it sheds 30ft of bright light and 30ft of dim light. You can toggle this ability by spending <span class=\"action-glyph\">1</span> one-action with the concentrate trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.uJn225XOKxSxU9ht",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "cosmic-glow",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "qzcVjGf3VJ5KtlzA",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "33c5d83179a7fca4049eef41e1f702a9cd416e14"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753916373176,
+    "modifiedTime": 1753921129623,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!qzcVjGf3VJ5KtlzA"
+}

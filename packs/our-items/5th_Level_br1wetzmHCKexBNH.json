@@ -1,0 +1,21 @@
+{
+  "type": "Item",
+  "folder": "G4Gu3sUTvKmq4398",
+  "name": "5th Level",
+  "color": null,
+  "sorting": "a",
+  "_id": "br1wetzmHCKexBNH",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!br1wetzmHCKexBNH"
+}

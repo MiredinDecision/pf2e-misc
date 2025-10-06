@@ -1,0 +1,106 @@
+{
+  "folder": "fkL7xNaVK7JoPxD1",
+  "name": "Effect: Moon Warden's Frost",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.KaiwLKmnutZIKfrr]{Moon Warden's Armor (Greater)}.</p><p>This armor counts as Dawnsilver armor, however, this is a magical effect, and not an inherent material of the armor. It can be dispelled for 10 minutes with Dispel Magic, along with its other magical effects.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "armor",
+        "predicate": [
+          "item:slug:moon-wardens-armor-greater",
+          "item:equipped"
+        ],
+        "property": "material-type",
+        "mode": "override",
+        "value": "dawnsilver"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "armor",
+        "predicate": [
+          "item:slug:moon-wardens-armor-greater",
+          "item:equipped"
+        ],
+        "mode": "override",
+        "property": "bulk",
+        "value": 2
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "armor",
+        "predicate": [
+          "item:slug:moon-wardens-armor-greater",
+          "item:equipped"
+        ],
+        "mode": "override",
+        "property": "strength",
+        "value": 2
+      }
+    ],
+    "slug": "effect-moon-wardens-frost",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 9
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "02arSfsC5HBzyP9Q",
+  "img": "icons/magic/water/barrier-ice-shield.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "49967a3a0425a89ec8b73e5a6d01ba9ae4af86ca"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754687696983,
+    "modifiedTime": 1754688987895,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!02arSfsC5HBzyP9Q"
+}

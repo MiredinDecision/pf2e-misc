@@ -1,0 +1,67 @@
+{
+  "folder": "rXiSBB2HxUPSPb0l",
+  "name": "Scion Stance",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Requirements </strong>you are wielding a weapon with the Two-Hand trait or a weapon in both hands from either the Sword or Polearm group.</p><hr /><p><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols'\">While wielding a weapon in both hands that is either a Sword or a Polearm, you count as having a free hand for the purposes of wielding a shield, including the @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield} and @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]{Shield Block} actions.</span></p><p>You may deploy a @UUID[Compendium.pf2e.equipment-srd.Item.2RrKSkj27NDREOKQ]{Gauntlet Buckler} as part of <span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols'\">@UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield}, and that buckler folds back inside your gauntlet when not raised.</span></p><p><span class=\"action-glyph\">f </span><span style=\"font-family:'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif, 'Apple Symbols'\">(manipulate) As a free action while entering this stance, you may stow any number of items from your hands, then draw and equip a shield, weapon, change your grip, as long as any weapon meets the requirements of this stance.</span></p><p>You may @UUID[Compendium.pf2e.actionspf2e.Item.3f5DMFu8fPiqHpRg]{Sustain} this stance, allowing you to gain the @UUID[Compendium.pf2e.feats-srd.Item.657SMUB2N9VZOgYp]{Lightning Swap} action, provided that any weapons or shields you are stowing or drawing as part of that action are weapons for this stance.</p>"
+    },
+    "rules": [],
+    "slug": "scion-stance",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "stance"
+      ]
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.PmEsYDdLcrwHPEDW",
+      "name": "Effect: Scion Stance"
+    }
+  },
+  "img": "modules/pf2e-tomb-guardian/assets/GuardianIcon.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3323dafc4e22abe221c757fba506054ced7f27c9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.CJOEtUeHnEkoZ6Lr",
+    "duplicateSource": "Item.APrFANEhn0XcxsAP",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262224219,
+    "modifiedTime": 1728262224219,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "CJOEtUeHnEkoZ6Lr",
+  "_key": "!items!CJOEtUeHnEkoZ6Lr"
+}

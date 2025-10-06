@@ -1,0 +1,300 @@
+{
+  "folder": "q7VwvM18iCXPaLHA",
+  "name": "Starknight",
+  "type": "class",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><em>The Cosmos hold within them great power, wisdom and guidance for those who seek it. While some seek the stars for foresight, these knights train their bodies as much as they do their souls. Becoming defenders of the cosmos' plans, or becoming simply being warriors with reverence to the almighty wisdom of the ever-watching stars.</em></p>"
+    },
+    "rules": [],
+    "slug": "starknight",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "keyAbility": {
+      "value": [
+        "wis"
+      ]
+    },
+    "items": {
+      "L3E6d": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.92KTPyRenEPK7HuX",
+        "img": "icons/magic/light/swords-light-glowing-white.webp",
+        "name": "Astral Armiger",
+        "level": 1
+      },
+      "YePNj": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.VV7VyRtEf7bZAItJ",
+        "img": "systems/pf2e/icons/spells/asterism.webp",
+        "name": "Cosmic Disciplines",
+        "level": 1
+      },
+      "6yYhW": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.20ew0LMxklG5gKOq",
+        "img": "systems/pf2e/icons/spells/levitate.webp",
+        "name": "Cosmic Polarities",
+        "level": 1
+      },
+      "OHYKZ": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.rEKeGOp3R4fXwrqU",
+        "img": "icons/magic/control/debuff-energy-hold-levitate-blue-yellow.webp",
+        "name": "Cosmic Movement",
+        "level": 3
+      },
+      "teXIF": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.tQK0ddwO3LrO2MB2",
+        "img": "icons/magic/life/cross-explosion-burst-green.webp",
+        "name": "Great Fortitude",
+        "level": 3
+      },
+      "EzvzX": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.RNPtHA10Gh9905F0",
+        "img": "icons/creatures/eyes/human-single-blue.webp",
+        "name": "Alertness",
+        "level": 5
+      },
+      "C2nay": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.sEIgJwPaBJC6N6MS",
+        "img": "icons/magic/light/swords-light-glowing-white.webp",
+        "name": "Expanded Armiger",
+        "level": 5
+      },
+      "gVgSw": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.aePyeMPGorq7wbpv",
+        "img": "icons/magic/light/swords-light-glowing-white.webp",
+        "name": "Boundless Armiger",
+        "level": 11
+      },
+      "NgbmM": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.uhdg4ReEQGFWC78Z",
+        "img": "systems/pf2e/icons/features/classes/vigilant-senses.webp",
+        "name": "Vigilant Senses",
+        "level": 11
+      },
+      "QKpNT": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.DI65MJeMsWy8s3iU",
+        "img": "icons/equipment/chest/breastplate-quilted-brown.webp",
+        "name": "Medium Armor Expertise",
+        "level": 11
+      },
+      "D1U5u": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.XiuNvctEPrfcyczu",
+        "img": "icons/skills/melee/hand-grip-sword-orange.webp",
+        "name": "Greater Weapon Specialization",
+        "level": 15
+      },
+      "xyg7g": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.fyHjQjrsFmcMhM7O",
+        "img": "icons/magic/light/explosion-star-glow-blue-purple.webp",
+        "name": "Cosmic Mastery",
+        "level": 17
+      },
+      "hvcEO": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.bepRiw3Q0S0SzBBW",
+        "img": "icons/magic/light/explosion-star-glow-silhouette.webp",
+        "name": "Armiger Mastery",
+        "level": 19
+      },
+      "pWKtR": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.iaxMaBuaA8gB4cic",
+        "img": "systems/pf2e/icons/features/classes/improved-evasion.webp",
+        "name": "Improved Evasion",
+        "level": 17
+      },
+      "Hw5EL": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.c9CaJ8rjGzoS13Pj",
+        "img": "icons/magic/light/orbs-smoke-pink.webp",
+        "name": "Cosmic Expertise",
+        "level": 7
+      },
+      "5FiQo": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.UtsxWKhGUFjex5Hp",
+        "img": "icons/magic/fire/explosion-embers-evade-silhouette.webp",
+        "name": "Evasion",
+        "level": 7
+      },
+      "XJVfe": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.ChBmER95zO1s1F4m",
+        "img": "systems/pf2e/icons/features/classes/weapon-specialization.webp",
+        "name": "Weapon Specialization",
+        "level": 7
+      },
+      "oEvuB": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.5BTWgJ1hwFuzT0jg",
+        "img": "icons/equipment/chest/breastplate-collared-steel.webp",
+        "name": "Medium Armor Mastery",
+        "level": 19
+      },
+      "eKfDH": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.1WE1ezTingOSvBcT",
+        "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+        "name": "Practiced Discipline",
+        "level": 5
+      },
+      "3l7VS": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.BdY9NLaeDAXIxDTX",
+        "img": "icons/skills/melee/hand-grip-sword-red.webp",
+        "name": "Weapon Expertise",
+        "level": 5
+      },
+      "j2Eek": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.uQxZ3nxkSyNFtoxO",
+        "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+        "name": "Practiced Discipline",
+        "level": 9
+      },
+      "yiwn8": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.df43qSLDwrfQ5XQ4",
+        "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+        "name": "Practiced Discipline",
+        "level": 13
+      },
+      "OSByD": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.Ed5p0pk61G1ANoPz",
+        "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+        "name": "Resolve",
+        "level": 13
+      },
+      "tMOnP": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.yx8CRigvm0BWBury",
+        "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
+        "name": "Practiced Discipline",
+        "level": 17
+      },
+      "nTH62": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.CbNX5M0AZxEXpbnx",
+        "img": "icons/skills/melee/blade-tip-chipped-blood-red.webp",
+        "name": "Weapon Mastery",
+        "level": 13
+      }
+    },
+    "hp": 10,
+    "trainedSkills": {
+      "value": [
+        "occultism"
+      ],
+      "additional": 3
+    },
+    "perception": 1,
+    "savingThrows": {
+      "fortitude": 1,
+      "reflex": 2,
+      "will": 2
+    },
+    "attacks": {
+      "simple": 1,
+      "martial": 1,
+      "advanced": 0,
+      "unarmed": 1,
+      "other": {
+        "name": "",
+        "rank": 0
+      }
+    },
+    "defenses": {
+      "unarmored": 1,
+      "light": 1,
+      "medium": 1,
+      "heavy": 0
+    },
+    "spellcasting": 0,
+    "ancestryFeatLevels": {
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    },
+    "classFeatLevels": {
+      "value": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "generalFeatLevels": {
+      "value": [
+        3,
+        7,
+        11,
+        15,
+        19
+      ]
+    },
+    "skillFeatLevels": {
+      "value": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ]
+    },
+    "skillIncreaseLevels": {
+      "value": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19
+      ]
+    }
+  },
+  "_id": "9tp7uV8SREHB5Usm",
+  "img": "modules/pf2e-misc/assets/icons/Starknight.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "87a37a63aa4bbbd92c71ec78c047df094d5edb22"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1753908707276,
+    "modifiedTime": 1756541527790,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!9tp7uV8SREHB5Usm"
+}

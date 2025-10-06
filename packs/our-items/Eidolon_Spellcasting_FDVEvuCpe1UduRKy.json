@@ -1,0 +1,81 @@
+{
+  "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
+  "name": "Eidolon Spellcasting",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "classfeature",
+    "description": {
+      "value": "<p>Your eidolon's link to you grants them magic connected to your nature. They are a spellcaster, and can cast spells using the Cast a Spell activity. Their tradition comes from the tradition you would normally have, or another from your nature that your GM thinks is appropriate.</p><p>Each day, they can cast one 1st-rank spell and three cantrips. They must know spells to cast them, and they learn them via the spell repertoire class feature. The number of spells they can cast each day is called their spell slots.</p><p>As you increase in level as a summoner, the magical link with your eidolon grants them additional, more powerful spell slots. Their total number of spell slots and the highest rank of spells they can cast are shown in Eidolon Spells per Day table.</p><p>Some of their spells require them to attempt a spell attack roll to see how effective they are, or have their enemies roll against their spell DC (typically by attempting a saving throw). Since your key ability is Charisma, their spell attack rolls and spell DCs use their Charisma modifier.</p><h3>Heightening Spells</h3><p>When they get spell slots of 2nd rank and higher, they can fill those slots with stronger versions of lower-rank spells. This increases the spell's rank, heightening it to match the spell slot. They must have a spell in their spell repertoire at the rank they want to cast it in order to heighten it to that rank. Many spells have specific improvements when they are heightened to certain ranks. The signature spells class feature lets them heighten certain spells freely.</p><h3>Cantrips</h3><p>Some of their spells are cantrips. A cantrip is a special type of spell that doesn't use spell slots. They can cast a cantrip at will, any number of times per day. A cantrip is always automatically heightened to half their level rounded up—this is usually equal to the highest rank of eidolon spell slot they have. For example, as a 1st-level eidolon, their cantrips are 1st-rank spells, and as a 5th-level eidolon, their cantrips are 3rd-rank spells.</p><p><strong>Eidolon Spells per Day</strong></p><table class=\"pf2e\"><thead><tr><th>Your Level</th><th>Cantrips</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th></tr></thead><tbody><tr><td>1</td><td>3</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2</td><td>3</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>3</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4</td><td>3</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>5</td><td>3</td><td>2</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>6</td><td>3</td><td>2</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>7</td><td>3</td><td>2</td><td>2</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>8</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>9</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>10</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>11</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td></tr><tr><td>12</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>-</td><td>-</td><td>-</td></tr><tr><td>13</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>-</td><td>-</td></tr><tr><td>14</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>-</td><td>-</td></tr><tr><td>15</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>-</td></tr><tr><td>16</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>-</td></tr><tr><td>17</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td></tr><tr><td>18</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>19</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr><tr><td>20</td><td>3</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td></tr></tbody></table>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Secrets of Magic",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "summoner"
+      ],
+      "otherTags": []
+    },
+    "slug": "eidolon-spellcasting",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.5.2"
+      }
+    },
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-misc.our-items.Item.FDVEvuCpe1UduRKy",
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758949802354,
+    "modifiedTime": 1758949829602,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "effects": [],
+  "folder": "kGCQLmHxE0HUPe4O",
+  "ownership": {
+    "default": 0,
+    "7MgOMWnvICwgRpc9": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.gWcN75VNpSZ4FqNb",
+      "hash": "a681fc47e502656eb687b5dfdac9aa9e8f07b414"
+    }
+  },
+  "_id": "FDVEvuCpe1UduRKy",
+  "sort": 0,
+  "_key": "!items!FDVEvuCpe1UduRKy"
+}

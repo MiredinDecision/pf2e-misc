@@ -1,0 +1,101 @@
+{
+  "folder": "50Wt9JbGG6ijeRfo",
+  "name": "Engulfing Container",
+  "type": "backpack",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">You absorb objects into your slimy body, allowing you to pop them out right when you need them. You can store a collection of up to 1 Bulk of objects within yourself. While other creatures can find the items as normal if they search for them, the DC of checks to Steal objects from inside your body increases by 4. Additionally, if you store only one object within yourself, you can draw it effortlessly into your hand as part of another action to use the object. Dawing the item grants this other action the manipulate trait.</span></p>"
+    },
+    "rules": [],
+    "slug": "engulfing-container",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0,
+      "heldOrStowed": 1,
+      "capacity": 1,
+      "ignored": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {}
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Container",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "collapsed": false,
+    "stowing": true,
+    "usage": {
+      "value": "other"
+    }
+  },
+  "_id": "zoYSjZqPHKWcsyr3",
+  "img": "systems/pf2e/icons/default-icons/backpack.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "afbc9a7cfa4b45f8781e8a0a2d45c6a035200207"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.zoYSjZqPHKWcsyr3",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!zoYSjZqPHKWcsyr3"
+}

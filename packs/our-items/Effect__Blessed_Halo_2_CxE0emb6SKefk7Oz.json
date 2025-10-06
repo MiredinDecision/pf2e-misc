@@ -1,0 +1,83 @@
+{
+  "folder": "rCTbz5Txfuh1dhKi",
+  "name": "Effect: Blessed Halo 2",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by: @UUID[Compendium.pf2e-soldiers-of-the-immortal-war.subclasses.Item.f9FI3VrCLXWQwAny]{Blessed Halo}</p><p>You and your allies within your champion’s aura gain a +1 status bonus to AC and saving throws.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "physical",
+        "value": "1+floor((@actor.level-3)/4)"
+      }
+    ],
+    "slug": "effect-blessed-halo",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.941,
+        "foundry": "13.347",
+        "system": "7.4.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Soldiers of the Immortal War",
+      "authors": "OfflineEnigma",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.uwB3GYNqityBE0X4",
+      "hash": "14cbd1fe368812630f79859f6368f0a733e9a145"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1756170174276,
+    "modifiedTime": 1756170273872,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "CxE0emb6SKefk7Oz",
+  "sort": 0,
+  "_key": "!items!CxE0emb6SKefk7Oz"
+}

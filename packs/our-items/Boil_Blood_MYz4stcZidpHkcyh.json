@@ -1,0 +1,113 @@
+{
+  "folder": "ZbZeGxd2XHQt4tko",
+  "img": "icons/skills/wounds/blood-cells-red.webp",
+  "name": "Boil Blood",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You heat a foe's blood and boil it within its veins. The target takes 10d10 fire damage, with a Fortitude save. A nonliving creature with blood in its body (such as a vampire) can be affected, but a creature with no blood is immune.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3}.</p><p><strong>Success</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p><p><strong>Failure</strong> The target takes half damage.</p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Critical Failure</strong> The target is unaffected.</span></p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d10.</p>"
+    },
+    "rules": [],
+    "slug": "boil-blood",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "fire",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "arcane",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Secrets of Magic",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 8
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "0": {
+        "applyMod": false,
+        "category": null,
+        "formula": "10d10",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire"
+      }
+    },
+    "defense": {
+      "passive": {
+        "statistic": "ac"
+      },
+      "save": null
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "damage": {
+        "0": "1d10"
+      },
+      "interval": 1,
+      "type": "interval"
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757783212624,
+    "modifiedTime": 1758287493188,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.spells-srd.Item.fBoiPXmcIO50OFFR",
+      "hash": "53646587cc8eab73f224023b08ecd6d5396fccce"
+    }
+  },
+  "_id": "MYz4stcZidpHkcyh",
+  "sort": 0,
+  "_key": "!items!MYz4stcZidpHkcyh"
+}

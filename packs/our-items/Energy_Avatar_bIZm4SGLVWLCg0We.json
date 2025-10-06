@@ -1,0 +1,74 @@
+{
+  "folder": "GMgNVaiLN4DkdqQj",
+  "name": "Energy Avatar",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisites </strong>@UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.hOCC64ZOtr98SqAi]{Energy Slime}</p><p><strong>Frequency </strong>once per day</p><hr /><p>You transform your body into a huge slime by infusing yourself with massive amounts of energy, becoming an avatar of energy for a brief time. The effect lasts 1 minute. During that timem, you become Huge and your reach increases by 10 feet, if it was less than 10 feet. You gain immunity to the energy type you chose when you gained the Energy Slime feat. Your pseudopod and Energy Spit attacks deal 1d8 additional damage of the chosen type, and your other unarmed attacks deal 1d4 additional damage of the chosen type. Any creature that touches you or damages you with an unarmed melee attack or non-reach melee weapon takes 3d6 damage of the chosen type. The first time each round that you deal energy damage of the chosen type to a creature using a melee unarmed attack, you absorb them into you, gaining 3d6 temporary HP as your body gains nutrients from digesting them with your energy. When the transformation ends, any remaining temporary HP expires as well. Evergy Avatar gains the trait corresponding to your chosen energy type.</p>"
+    },
+    "rules": [],
+    "slug": "energy-avatar",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "occult",
+        "polymorph",
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3553d09f1e2540e7f8ef1f426fdf3da8e739199b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.bIZm4SGLVWLCg0We",
+    "duplicateSource": "Item.rxjtDSWpFtLPDbZc",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "bIZm4SGLVWLCg0We",
+  "_key": "!items!bIZm4SGLVWLCg0We"
+}

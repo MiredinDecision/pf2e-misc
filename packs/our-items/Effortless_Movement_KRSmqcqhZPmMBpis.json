@@ -1,0 +1,77 @@
+{
+  "folder": "W16vdggFMZ6kTsZq",
+  "name": "Effortless Movement",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Your ability to move using the power of the cosmos allows you to be more flexible. While your Armiger is called, you roll all Reflex and Acrobatic checks to resist falling Prone or Grab a Ledge twice, taking the highest result.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "effortless-movement",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fortune",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "KRSmqcqhZPmMBpis",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "153971d97b46bb9ca5a5e29097c93f46b13f29f0"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753918538558,
+    "modifiedTime": 1753921129623,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!KRSmqcqhZPmMBpis"
+}

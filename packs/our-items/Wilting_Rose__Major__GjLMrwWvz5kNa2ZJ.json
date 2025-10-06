@@ -1,0 +1,104 @@
+{
+  "img": "systems/pf2e/icons/equipment/cursed-items/rose-of-loves-lost.webp",
+  "name": "Wilting Rose (Major)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This wilted rose is preserved by magic. The spell attack roll of any spell cast by Activating this item is [[/r 1d20+14 #Spell Attack Roll]]{+19}, and the spell DC is 29.</p><ul><li><strong>Armor</strong> You gain resistance 10 to acid and attacks by demons.</li><li><strong>Weapon</strong> After you cast an acid spell by Activating the <em>wilting rose</em>, your Strikes with the weapon deal an additional @Damage[1d8[acid]] damage until end of your next turn.</li></ul><p>@UUID[Compendium.pf2e-misc.our-items.Item.sAcoffr91ThG6mXB]{Effect: Wilting Rose - Armor (Major)}</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.VBDuqEnUStAysm0x]{Effect: Wilting Rose - Weapon (Major)}</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Effect</strong> You cast @UUID[Compendium.pf2e.spells-srd.Item.gISYsBFby1TiXfBt]{Acid Splash}.</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Frequency</strong> once per day</p><p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.f8hRqLJaxBVhF1u0]{Acid Arrow}.</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Frequency</strong> once per day</p><p><strong>Effect</strong> You cast 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.rnNGALRtsjspFTws]{Acidic Burst} (@Check[reflex|dc:29|basic|traits:spell]).</p>"
+    },
+    "rules": [],
+    "slug": "wilting-rose-greater",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "acid",
+        "divine",
+        "spellheart"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder #188: They Watched the Stars",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 12
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1750
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Object",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "affixed-to-armor-or-a-weapon"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.0",
+    "createdTime": 1735256067495,
+    "modifiedTime": 1735256396988,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "uCSUjJiT7cqbng5o",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "af754fe323736f09839b80908910289ccec89c8c",
+      "sourceId": "Item.RBx1xPoFwghhwUwW"
+    }
+  },
+  "_id": "GjLMrwWvz5kNa2ZJ",
+  "sort": 200000,
+  "_key": "!items!GjLMrwWvz5kNa2ZJ"
+}

@@ -1,0 +1,109 @@
+{
+  "_id": "P09rbchZP7kR8Cki",
+  "img": "systems/pf2e/icons/equipment/weapons/magazine-with-5-bolts.webp",
+  "name": "Strange Firearm Magazine",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Magazine with 5 bolts for use with the @UUID[Compendium.pf2e-misc.our-items.Item.oIYBpVKXNlUPmpjW]{Strange Firearm}.</p>"
+    },
+    "rules": [],
+    "slug": "strange-firearm-magazine",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "alchemical"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder #165: Eyes of Empty Death",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "sp": 9
+      }
+    },
+    "equipped": {
+      "carryType": "worn"
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Ammunition",
+        "img": "systems/pf2e/icons/unidentified_item_icons/ammunition.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "category": "ammo",
+    "uses": {
+      "value": 5,
+      "max": 5,
+      "autoDestroy": true
+    },
+    "damage": null,
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "stackGroup": null,
+    "spell": null
+  },
+  "type": "consumable",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.equipment-srd.Item.9w8MrBhFtvM7RrYN",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1726802831869,
+    "modifiedTime": 1727881111863,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "4897a33db67f7b20b6e89d4b52874abf50c1af3c"
+    }
+  },
+  "effects": [],
+  "folder": "tfOnjGrhC7GpuV9T",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "_key": "!items!P09rbchZP7kR8Cki"
+}

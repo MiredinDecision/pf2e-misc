@@ -1,0 +1,74 @@
+{
+  "folder": "rO8UvPmncCqS9GCn",
+  "name": "Freedom of the Flock",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong>forebird</p><p><strong>Prerequisites </strong>The relic is a worn item.</p><hr /><p>You gain the effects of @UUID[Compendium.pf2e.feats-srd.Item.WZC2XXQo6Pu2GQeo]{Soaring Form}.</p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 20
+      }
+    ],
+    "slug": "freedom-of-the-flock",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "forebird"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "category": null,
+    "actions": {
+      "value": null
+    },
+    "deathNote": false
+  },
+  "_id": "5yjdDb4jYNUZ63mV",
+  "img": "modules/pf2e-relic-forebird/assets/wings-of-the-forebirds.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "a11ef3940ccdedd9dbc9d497a3519e6de20430f8"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-forebird.forebird-gifts.Item.5yjdDb4jYNUZ63mV",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261338098,
+    "modifiedTime": 1728261338098,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!5yjdDb4jYNUZ63mV"
+}

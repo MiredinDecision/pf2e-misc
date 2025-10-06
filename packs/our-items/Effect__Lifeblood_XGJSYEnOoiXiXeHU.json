@@ -1,0 +1,77 @@
+{
+  "folder": "uiRE4tocukxV7Nmx",
+  "name": "Effect: Lifeblood",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong><em>blood</em></p><hr /><p>When using an ability with the range of touch, such as Touch of the Void (on creatures with void healing), Lay on Hands, or a Heal, to heal a target other than yourself, you may take damage equal to half your level. If you do, your target gains an extra @Damage[(@actor.level)[healing]] of healing per relic level, and gains resistance to spirit damage equal to half the relic's level for 1 round.</p><p>@Damage[(@actor.level)[healing]]{Leveled Healing}</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "spirit",
+        "value": "max(1,floor(@actor.level/2))"
+      }
+    ],
+    "slug": "effect-lifeblood",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "XGJSYEnOoiXiXeHU",
+  "img": "icons/skills/wounds/blood-drip-droplet-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1f4b00d33efc65e515ad794c38e7b6586dcce882"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1729326461292,
+    "modifiedTime": 1735462699727,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!XGJSYEnOoiXiXeHU"
+}

@@ -1,0 +1,185 @@
+{
+  "folder": "uQojSkz4AW02hT7w",
+  "name": "Warlord's Strategic Stance",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You survey the battlefield and begin directing your allies to follow your commands. When you take this feat, pick two Battle Stratagems from the list provided. You learn those stratagems, and can use one of those stratagems when you enter this stance. At 7th level, you pick a third stratagem. At 15th level, you pick a fourth and final stratagem.</p><p>When you use this action, pick one Battle Stratagem you know and attempt a @Check[warfare-lore|dc:@self.level|adjustment:-2|roller:self] check. The DC is usually an easy DC of your level, but the GM can assign a different DC based on the circumstances. The effect depends on the result of your check.</p><p>Once you enter this stance, you can use this action again to switch to a different Battle Stratagem you know. Unless otherwise stated by the GM, you do not have to make another Warfare Lore check to switch stratagems.</p><p><strong>Success</strong> You and all allies within the aura gain the benefits of your Battle Stratagem.</p><p><strong>Failure</strong> You fail to enter the stance.</p><p><strong>Critical Failure</strong> You fail to enter the stance and can't attempt to use this Battle Stratagem for 1 minute.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            "item:tag:warlord-battle-stratagem",
+            "item:trait:stratagem"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "firstStratagem",
+        "prompt": "Choose a Stratagem",
+        "adjustName": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.firstStratagem}",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            "item:tag:warlord-battle-stratagem",
+            "item:trait:stratagem"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "secondStratagem",
+        "prompt": "Choose a Stratagem",
+        "adjustName": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.secondStratagem}",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            "item:tag:warlord-battle-stratagem",
+            "item:trait:stratagem"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "thirdStratagem",
+        "prompt": "Choose a Stratagem",
+        "adjustName": false,
+        "predicate": [
+          "self:level:7"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.thirdStratagem}",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ChoiceSet",
+        "choices": {
+          "filter": [
+            "item:tag:warlord-battle-stratagem",
+            "item:trait:stratagem"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "fourthStratagem",
+        "prompt": "Choose a Stratagem",
+        "adjustName": false,
+        "predicate": [
+          "self:level:15"
+        ]
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.fourthStratagem}",
+        "allowDuplicate": false,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              15
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "warlords-strategic-stance",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "stance",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warlord Dedication"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.GTepuNQGCxxzZ0oA",
+      "name": "Stance: Warlord's Strategic Stance"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "61c6e8b9092e4265a033cb18cb45de48f1d485da",
+      "sourceId": "Item.53aV5boeKkbktZM1"
+    },
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755226707922,
+    "modifiedTime": 1755244229715,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "rW8ujIJiylHFpz7u",
+  "sort": 300000,
+  "_key": "!items!rW8ujIJiylHFpz7u"
+}

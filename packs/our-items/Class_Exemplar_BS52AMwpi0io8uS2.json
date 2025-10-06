@@ -1,0 +1,27 @@
+{
+  "name": "Class Exemplar",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "BS52AMwpi0io8uS2",
+  "description": "",
+  "sort": 3500000,
+  "color": "#101040",
+  "flags": {
+    "scene-packer": {
+      "hash": "65f0c6f123ae0e6aae7d4b432f564ac20fc6d66a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728404703536,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!BS52AMwpi0io8uS2"
+}

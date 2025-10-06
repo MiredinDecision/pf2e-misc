@@ -1,0 +1,26 @@
+{
+  "name": "Spirit",
+  "sorting": "m",
+  "folder": "jY7U6KjcKG1jKUz4",
+  "type": "Item",
+  "_id": "b3aBLjoBIMeUswqr",
+  "description": "",
+  "sort": 200000,
+  "color": "#ababcf",
+  "flags": {
+    "scene-packer": {
+      "hash": "165c0c1c7905aed81da8eb5dbe698a882cbafa3a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1728306031595,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!folders!b3aBLjoBIMeUswqr"
+}

@@ -1,0 +1,140 @@
+{
+  "folder": "50Wt9JbGG6ijeRfo",
+  "name": "Slime",
+  "type": "ancestry",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": ""
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.ActorSizeMedium",
+            "value": "med"
+          },
+          {
+            "label": "PF2E.ActorSizeSmall",
+            "value": "sm"
+          }
+        ],
+        "flag": "ancestrySize",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.CreatureSize"
+      },
+      {
+        "key": "CreatureSize",
+        "value": "{item|flags.pf2e.rulesSelections.ancestrySize}",
+        "resizeEquipment": true
+      }
+    ],
+    "slug": "slime",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "ooze",
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "hp": 10,
+    "size": "med",
+    "reach": 5,
+    "speed": 20,
+    "boosts": {
+      "0": {
+        "value": [
+          "con"
+        ]
+      },
+      "1": {
+        "value": [
+          "cha",
+          "con",
+          "dex",
+          "int",
+          "str",
+          "wis"
+        ]
+      },
+      "2": {
+        "value": []
+      }
+    },
+    "flaws": {
+      "0": {
+        "value": []
+      }
+    },
+    "languages": {
+      "value": [
+        "common"
+      ],
+      "custom": ""
+    },
+    "additionalLanguages": {
+      "count": 0,
+      "value": [],
+      "custom": ""
+    },
+    "items": {
+      "5ZrfT": {
+        "uuid": "Compendium.pf2e-slime-ancestry.slime-items.Item.U2a0xXWywnq9hf0E",
+        "img": "icons/commodities/materials/slime-thick-blue.webp",
+        "name": "Minimal Vitals",
+        "level": 1
+      },
+      "iIHb1": {
+        "uuid": "Compendium.pf2e-slime-ancestry.slime-items.Item.YsDAaqOJvyW7RO10",
+        "img": "modules/pf2e-our-actors/assets/AmorphousForm.webp",
+        "name": "Amorphous Form",
+        "level": 1
+      },
+      "0MLAr": {
+        "uuid": "Compendium.pf2e-slime-ancestry.slime-items.Item.gWmrIkCwxpifricE",
+        "img": "systems/pf2e/icons/unarmed-attacks/pseudopod.webp",
+        "name": "Pseudopod",
+        "level": 1
+      }
+    },
+    "vision": "normal"
+  },
+  "_id": "nLkKsGBpeT5mJLI6",
+  "img": "systems/pf2e/icons/default-icons/ancestry.svg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1c3cf8cf4220f6c42c985a9a6f0377f78a03223d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.nLkKsGBpeT5mJLI6",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!nLkKsGBpeT5mJLI6"
+}

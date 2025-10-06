@@ -1,0 +1,196 @@
+{
+  "img": "systems/pf2e/icons/equipment/runes/weapon-property-runes/weapon-property-runes.webp",
+  "name": "Effect: Blade Ally",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A spirit of battle dwells within your armaments. Select one weapon or @UUID[Compendium.pf2e.equipment-srd.Item.FNDq4NFSN0g2HKWO]{Handwraps of Mighty Blows} when you make your daily preparations. In your hands, the item gains the effect of a property rune.</p>\n<hr />\n<p>From <em>@UUID[Compendium.pf2e.classfeatures.Item.EtltLdiy9kNfHU0c]{Blade Ally}</em>:</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.hnbbqvzYDyhDiJnf]{Bane}, @UUID[Compendium.pf2e.equipment-srd.Item.LwQb7ryTC8FlOXgX]{Vitalizing}, @UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{Ghost Touch}, @UUID[Compendium.pf2e.equipment-srd.Item.P6v2AtJw7AUwaDzf]{Fearsome}, @UUID[Compendium.pf2e.equipment-srd.Item.qlunQzfnzPQpMG6U]{Returning}, or @UUID[Compendium.pf2e.equipment-srd.Item.roeYtwlIe65BPMJ1]{Shifting}</p>\n<hr />\n<p>From <em>@UUID[Compendium.pf2e.feats-srd.Item.h5ksUZlrVGBjq6p4]{Radiant Blade Spirit}</em>:</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.XszNvxnymWYRaoTp]{Flaming}, @UUID[Compendium.pf2e.equipment-srd.Item.DH0kB9Wbr5pDeunX]{Holy}, or @UUID[Compendium.pf2e.equipment-srd.Item.gmMrJREf4JSHd2dZ]{Unholy}</p>\n<hr />\n<p>From <em>@UUID[Compendium.pf2e.feats-srd.Item.jYEMVfrXJLpXS6aC]{Radiant Blade Master}</em>:</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.DCPsilr8wbPXxTUv]{Dancing}, @UUID[Compendium.pf2e.equipment-srd.Item.oVrVzML63VFvVfKk]{Vitalizing (Greater)}, or @UUID[Compendium.pf2e.equipment-srd.Item.hg3IogR8ue2IWwgS]{Keen}</p>"
+    },
+    "rules": [
+      {
+        "choices": {
+          "includeHandwraps": true,
+          "ownedItems": true,
+          "types": [
+            "weapon"
+          ]
+        },
+        "flag": "weapon",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Weapon"
+      },
+      {
+        "choices": [
+          {
+            "label": "PF2E.WeaponPropertyRune.disrupting.Name",
+            "predicate": [
+              "feature:the-tenets-of-good"
+            ],
+            "value": "disrupting"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.bane.Name",
+            "predicate": [
+              "feature:the-tenets-of-good"
+            ],
+            "value": "bane"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.greaterDisrupting.Name",
+            "predicate": [
+              "feat:radiant-blade-master"
+            ],
+            "value": "greater-disrupting"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.fearsome.Name",
+            "predicate": [
+              "feature:the-tenets-of-evil"
+            ],
+            "value": "fearsome"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.flaming.Name",
+            "predicate": [
+              "feat:radiant-blade-spirit"
+            ],
+            "value": "flaming"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.ghostTouch.Name",
+            "predicate": [
+              "feature:the-tenets-of-good"
+            ],
+            "value": "ghost-touch"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.holy.Name",
+            "predicate": [
+              "feat:radiant-blade-spirit",
+              "feature:the-tenets-of-good"
+            ],
+            "value": "holy"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.keen.Name",
+            "predicate": [
+              "feat:radiant-blade-master"
+            ],
+            "value": "keen"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.returning.Name",
+            "value": "returning"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.shifting.Name",
+            "value": "shifting"
+          },
+          {
+            "label": "PF2E.WeaponPropertyRune.unholy.Name",
+            "predicate": [
+              "feat:radiant-blade-spirit",
+              "feature:the-tenets-of-evil"
+            ],
+            "value": "unholy"
+          }
+        ],
+        "flag": "rune",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Champion.BladeAllyRune"
+      },
+      {
+        "definition": [
+          {
+            "or": [
+              "item:id:{item|flags.pf2e.rulesSelections.weapon}",
+              "item:category:{item|flags.pf2e.rulesSelections.weapon}"
+            ]
+          }
+        ],
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "property-runes",
+        "value": "{item|flags.pf2e.rulesSelections.rune}"
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "or": [
+              "item:category:{item|flags.pf2e.rulesSelections.weapon}",
+              "item:id:{item|flags.pf2e.rulesSelections.weapon}"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "effect-blade-ally",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.926,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Core Rulebook",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "type": "effect",
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "9e013f017c45365b207ed5b6d788268281e1ac71"
+    }
+  },
+  "effects": [],
+  "folder": "PneJXJ7akYm2XQ3F",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-soulbound-warrior.soulbound-warrior-features.Item.HbDGcic7RicuBDgB",
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262385702,
+    "modifiedTime": 1759552195155,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_id": "HbDGcic7RicuBDgB",
+  "sort": 800000,
+  "_key": "!items!HbDGcic7RicuBDgB"
+}

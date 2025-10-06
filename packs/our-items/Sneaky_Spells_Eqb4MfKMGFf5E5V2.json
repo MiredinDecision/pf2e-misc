@@ -1,0 +1,111 @@
+{
+  "img": "systems/pf2e/icons/features/classes/sneak-attack.webp",
+  "name": "Sneaky Spells",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span style=\"font-family:Roboto, sans-serif\">Whether you're using magic items, wielding innate magic, or dabbling in spellcasting, you can sneak spells past your foes' defenses as easily as any blade. When you succeed at a spell attack roll against an </span>@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}<span style=\"font-family:Roboto, sans-serif\"> foe's AC and the spell deals damage, you </span>deal an extra 1d6 precision damage. <span style=\"font-family:Roboto, sans-serif\">If your single spell leads to multiple separate damage rolls, apply your sneak attack damage only once per target.</span></p><p>As your eldritch shadow level increases, so does the number of damage dice for your sneak attack. Increase the number of dice by one at 5th, 11th, and 17th levels.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.sneakAttackDamage.number",
+        "predicate": [
+          "class:eldritch-shadow"
+        ],
+        "value": "ternary(lt(@actor.level, 5), 1, ternary(lt(@actor.level, 11), 2, ternary(lt(@actor.level, 17), 3, 4)))"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.sneakAttackDamage.faces",
+        "predicate": [
+          "class:eldritch-shadow"
+        ],
+        "value": 6
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
+        "label": "PF2E.SpecificRule.TOTMToggle.OffGuard",
+        "option": "target:condition:off-guard",
+        "toggleable": "totm"
+      },
+      {
+        "category": "precision",
+        "diceNumber": "@actor.flags.pf2e.sneakAttackDamage.number",
+        "dieSize": "d{actor|flags.pf2e.sneakAttackDamage.faces}",
+        "key": "DamageDice",
+        "predicate": [
+          "item:trait:attack",
+          "target:condition:off-guard"
+        ],
+        "selector": "spell-damage",
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "sneaky-spells",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727093314286,
+    "modifiedTime": 1727199863321,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "aT8L3wPj6xSrwj9o",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.j1JE61quDxdge4mg",
+      "hash": "2cfabbc766854194480ed3eb04a8f2b618dd4385"
+    }
+  },
+  "_id": "Eqb4MfKMGFf5E5V2",
+  "sort": 150000,
+  "_key": "!items!Eqb4MfKMGFf5E5V2"
+}

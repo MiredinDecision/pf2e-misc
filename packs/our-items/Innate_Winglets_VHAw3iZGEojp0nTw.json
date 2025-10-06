@@ -1,0 +1,125 @@
+{
+  "folder": "suC0JkDUJkV04Frx",
+  "name": "Innate Winglets",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You gain a 15-foot fly speed.</p>\n<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">Any feat that upgrades the PC's flying capabilities, instead upgrades this Speed by an additional 5 feet. </span></p>"
+    },
+    "rules": [
+      {
+        "key": "BaseSpeed",
+        "selector": "fly",
+        "value": 15
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "fly-speed",
+        "value": 0
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "fly-speed",
+        "mode": "add",
+        "value": 5,
+        "predicate": [
+          "feat:winglets"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "fly-speed",
+        "mode": "add",
+        "value": 5,
+        "predicate": [
+          "feat:winglet-flight"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "fly-speed",
+        "mode": "add",
+        "value": 5,
+        "predicate": [
+          "feat:hatchling-flight"
+        ]
+      },
+      {
+        "key": "AdjustModifier",
+        "selector": "fly-speed",
+        "mode": "add",
+        "value": 5,
+        "predicate": [
+          "feat:wyrmling-flight"
+        ]
+      }
+    ],
+    "slug": "innate-winglets",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.931,
+        "foundry": "12.331",
+        "system": "6.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "kobold"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "modules/pf2e-relic-bloodglass/assets/winglets.webp",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "8f6d8a5f9b47664014607148a4355a00ba6f8b00"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-relic-bloodglass.bloodglass-gifts.Item.VHAw3iZGEojp0nTw",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261007139,
+    "modifiedTime": 1728261007139,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "VHAw3iZGEojp0nTw",
+  "sort": 0,
+  "_key": "!items!VHAw3iZGEojp0nTw"
+}

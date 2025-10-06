@@ -1,0 +1,136 @@
+{
+  "img": "icons/weapons/swords/sword-guard-flanged.webp",
+  "name": "Bladebound",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>While most magus learned to conserve magic within their Strikes, you were gifted, or perhaps plagued, with being in the service of a devourer of residual magic. Despite the prevailing name, a black blade can be a weapon of any form, though it is common for them to be edge weapons, as the ability to draw blood from an edge serves their needs quickly. The burden of a black blade often hangs heavy on those that wield them, and though you provide each other power, its price is the most costly of all things: Life.</p>\n<p>You gain the @UUID[Compendium.pf2e.feats-srd.Item.bcxIg7wi8ZAhvhOD]{Familiar} magus feat and a black blade specific familiar. Unlike other familiars, you can never get rid of your black blade for another familiar, and if you would ever be parted from your black blade or it were ever destroyed, it returns to you magically during your next daily preparations.</p>\n<p>If you have @UUID[Compendium.pf2e.feats-srd.Item.nlXyh7828TgZIewv]{Capture Magic}, your black blade uses its reaction to Invigorate with the same trigger when you would normally use your reaction to Capture Magic and you gain the same bonus to damage if your blade was already invigorated. If you have @UUID[Compendium.pf2e.feats-srd.Item.mB7ENhF10qoOwQyG]{Resounding Cascade}, allies within the emanation gain the effects of your black blade’s Invigorate with the same circumstances as if you had used the Arcane Cascade stance.</p>\n<hr />\n<p><strong>Foundry Note</strong> You can use the @UUID[Compendium.magus.magus-macros.Macro.6ohib5vMbHDvQH4D]{Black Blade: Change Form} macro to change the form of your black blade during your dailiy preparations.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.feats-srd.Item.bcxIg7wi8ZAhvhOD",
+        "allowDuplicate": false
+      },
+      {
+        "adjustName": false,
+        "allowedDrops": {
+          "label": "Choose a level 1 or lower weapon.",
+          "predicate": [
+            "item:type:weapon",
+            {
+              "lte": [
+                "item:level",
+                1
+              ]
+            }
+          ]
+        },
+        "choices": {
+          "filter": [
+            {
+              "or": [
+                "item:level:0",
+                "item:level:1"
+              ]
+            },
+            {
+              "not": "item:trait:consumable"
+            }
+          ],
+          "itemType": "weapon"
+        },
+        "flag": "bladeboundWeapon",
+        "key": "ChoiceSet",
+        "prompt": "Choose the weapon you're bound to."
+      },
+      {
+        "alterations": [
+          {
+            "mode": "override",
+            "property": "rarity",
+            "value": "rare"
+          }
+        ],
+        "flag": "bladeboundWeapon",
+        "key": "GrantItem",
+        "track": true,
+        "uuid": "{item|flags.pf2e.rulesSelections.bladeboundWeapon}",
+        "allowDuplicate": false
+      }
+    ],
+    "slug": "bladebound",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [
+        "magus-arcane-conservation"
+      ],
+      "value": [
+        "magus"
+      ],
+      "rarity": "rare"
+    },
+    "publication": {
+      "title": "Magus+",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "type": "feat",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "7oWVMvY4T6vgcOLC": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.1",
+    "createdTime": 1743383972349,
+    "modifiedTime": 1746996766169,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "H2Ro5pzJhi18zQN8",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.magus.magus-class-features.Item.mjRjBDd7tK6krz7h",
+      "hash": "437ae7a0d83bee2a0f5950df5a9ee34635a41c20"
+    }
+  },
+  "_id": "5UNshZUvSBjFnUu6",
+  "sort": 100000,
+  "_key": "!items!5UNshZUvSBjFnUu6"
+}

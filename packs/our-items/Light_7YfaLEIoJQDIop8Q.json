@@ -1,0 +1,93 @@
+{
+  "img": "systems/pf2e/icons/spells/light.webp",
+  "name": "Light",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose. If you create the light in the same space as a willing creature, you can attach the light to the creature, causing it to float near that creature as it moves. You can Sustain the spell to move the light up to 60 feet; you can attach or detach it from a creature as part of this movement.</p><p>You can Dismiss the spell. If you Cast the Spell while you already have four <em>light</em> spells active, you must choose one of the existing spells to end.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.VFKAo5BPmgnGbLuv]{Spell Effect: Light}</p><hr /><p><strong>Heightened (4th)</strong> The orb sheds light in a 60-foot radius (and dim light for the next 60 feet).</p>"
+    },
+    "rules": [],
+    "slug": "light",
+    "_migration": {
+      "version": 0.934,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cantrip",
+        "concentrate",
+        "light",
+        "manipulate"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult",
+        "primal"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": ""
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "until your next daily preparations",
+      "sustained": false
+    },
+    "damage": {},
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.0",
+    "createdTime": 1732313089289,
+    "modifiedTime": 1754328973937,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "ZbZeGxd2XHQt4tko",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "44aa8a0943687c4abd5d20415e45c0e6040a8d0c",
+      "sourceId": "Actor.VhTO58Pn9L8UQAh4.Item.WmEJkXCgOUNH2ql8"
+    }
+  },
+  "_id": "7YfaLEIoJQDIop8Q",
+  "sort": 400000,
+  "_key": "!items!7YfaLEIoJQDIop8Q"
+}

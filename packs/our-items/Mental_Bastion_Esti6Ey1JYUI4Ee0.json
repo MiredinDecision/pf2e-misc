@@ -1,0 +1,71 @@
+{
+  "folder": "gKqsDiuLGUOQxevS",
+  "name": "Mental Bastion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> mind</p><hr /><p>Your relic takes over some of your mental processes and enhances others. You gain telepathy; if you already have telepathy, you instead increase its range by 30 feet. Whenever you would become stupefied, reduce the value by 1. You are permanently @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} and can use the additional action to Recall Knowledge.</p><p><em><strong>Editor's Note </strong></em>Add telepathy manually, since it doesn't exist in player languages.</p>"
+    },
+    "rules": [],
+    "slug": "mental-bastion",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 17
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "Esti6Ey1JYUI4Ee0",
+  "img": "systems/pf2e/icons/spells/detect-alignment.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "efca6207525c14f283504e798f0b42d83dfad196"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729322231064,
+    "modifiedTime": 1729322291163,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!Esti6Ey1JYUI4Ee0"
+}

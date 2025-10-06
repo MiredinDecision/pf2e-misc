@@ -1,0 +1,99 @@
+{
+  "img": "modules/pf2e-soulbound-warrior/assets/SigilAura.webp",
+  "name": "Champion's Aura",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You're surrounded by an aura in a 15-foot emanation. It has the aura and divine traits. Any follower of your deity within the aura immediately knows you're a champion of your deity. This aura is used as the range for your champion's reaction and for various other effects. You can suppress or resume the aura as a single action, which has the concentrate trait, and it ends if you fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "option": "champions-aura",
+        "toggleable": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.champion.aura",
+        "value": 15
+      },
+      {
+        "key": "Aura",
+        "predicate": [
+          "champions-aura",
+          {
+            "not": "self:condition:unconscious"
+          }
+        ],
+        "radius": "@actor.flags.pf2e.champion.aura",
+        "appearance": {
+          "border": {
+            "color": "#70105e"
+          }
+        }
+      }
+    ],
+    "slug": "champions-aura",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e.classfeatures.Item.0x76o5OxgEmvqIDp",
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262385702,
+    "modifiedTime": 1759552195155,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "hash": "e83b9134e4a33bb881ac0dbbc534d59c9e7bb0b4"
+    }
+  },
+  "effects": [],
+  "folder": "PneJXJ7akYm2XQ3F",
+  "ownership": {
+    "default": 0,
+    "ji5YNNUtQqs6Vb3A": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "_id": "5iQ6CumiY2Neg1uM",
+  "sort": 100000,
+  "_key": "!items!5iQ6CumiY2Neg1uM"
+}

@@ -1,0 +1,70 @@
+{
+  "img": "systems/pf2e/icons/actions/Passive.webp",
+  "name": "Arcane Cascade: Invigorate",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Trigger</strong> You reduce a creature to 0 Hit Points with a Spell or Spellstrike</p><p><strong>Requirements</strong> You are wielding your black blade.</p><p><strong>Grants</strong> <em>@UUID[Compendium.pf2e-misc.our-items.Item.C1QkS2Tl8YNg4IXe]{Effect: Invigorate} (apply both to your PC and your familiar!)</em></p><hr /><p>Your black blade becomes invigorated and your melee Strikes with it deal 1 additional damage for 1 minute. This additional damage increases to 2 if you have weapon specialization and 3 if you have greater weapon specialization. This damage is of the same type as the Arcane Cascade stance. Strikes that benefit from this damage gain the arcane trait, making them magical.</p><p><span style=\"font-family:Roboto, sans-serif\">If your black blade uses this ability on a creature below your level, you must attempt a Will save against its Ego.</span></p><p>Despite being a minion, your black blade gains 1 reaction at the start of its turns, which it can use for Invigorate and other reaction abilities it gains from being a black blade.</p>"
+    },
+    "rules": [],
+    "slug": "arcane-cascade-invigorate",
+    "_migration": {
+      "version": 0.935,
+      "previous": {
+        "schema": 0.917,
+        "foundry": "12.331",
+        "system": "6.11.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Magus+",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "category": "familiar",
+    "actions": {
+      "value": null
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.C1QkS2Tl8YNg4IXe",
+      "name": "Stance: Arcane Cascade"
+    }
+  },
+  "type": "action",
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "7oWVMvY4T6vgcOLC": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743387757125,
+    "modifiedTime": 1743401227767,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "folder": "H2Ro5pzJhi18zQN8",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.magus.magus-familiar-abilities.Item.KWtVEkWDiUKuDpHn",
+      "hash": "65a5ece2d065d71ef095c5a0d1d92e526df9042b"
+    }
+  },
+  "_id": "t2kf3ETM03MOoYhC",
+  "sort": 300000,
+  "_key": "!items!t2kf3ETM03MOoYhC"
+}

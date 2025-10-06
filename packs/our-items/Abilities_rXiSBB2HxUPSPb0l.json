@@ -1,0 +1,26 @@
+{
+  "name": "Abilities",
+  "sorting": "a",
+  "folder": "wQjsZid7Sxmgr70D",
+  "type": "Item",
+  "_id": "rXiSBB2HxUPSPb0l",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "f94d6d79c141dac048998a5542e1a3762e064e7a"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!rXiSBB2HxUPSPb0l"
+}

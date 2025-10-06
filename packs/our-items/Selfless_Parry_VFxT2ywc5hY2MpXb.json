@@ -1,0 +1,99 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Selfless Parry",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You protect those near to you with a flash of steel and a stroke of good luck. When you're benefiting from Dueling Parry, allies adjacent to you gain a +1 circumstance bonus to AC. If you have @UUID[Compendium.pf2e.feats-srd.Item.mf2cdCRV8uowOMOm]{Dueling Riposte}, you can use it when an enemy within your reach critically fails a Strike against an ally adjacent to you, not just against yourself.</p>"
+    },
+    "rules": [
+      {
+        "key": "Aura",
+        "effects": [
+          {
+            "uuid": "Compendium.pf2e-misc.our-items.Item.4ITuqZnKOgMV6Ubm",
+            "affects": "allies",
+            "includesSelf": false
+          }
+        ],
+        "predicate": [
+          {
+            "or": [
+              "self:effect:dueling-parry",
+              "self:effect:dueling-dance"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "selfless-parry",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Dueling Parry"
+        },
+        {
+          "value": "Duelist Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.7.2",
+    "createdTime": 1734005447829,
+    "modifiedTime": 1734006352624,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "TRvxtSuDmux0XINV",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.zytTsipimVTmPc5U",
+      "hash": "9502508820e9c4faba3b0b8b954354409053c73c"
+    }
+  },
+  "_id": "VFxT2ywc5hY2MpXb",
+  "sort": 300000,
+  "_key": "!items!VFxT2ywc5hY2MpXb"
+}

@@ -1,0 +1,81 @@
+{
+  "folder": "vQBRSehWFX1fHYIo",
+  "name": "Spell Effect: Cryo Blast",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Granted by </strong>@UUID[Compendium.pf2e-misc.our-items.Item.ur8J25v1gWbpntgL]{Cryo Blast}</p><p>You are @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained} for 1 round, or until you are hit with an attack, which shatters the ice. You can @UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape} against the spell DC on your turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Even More Magic!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "inMemoryOnly": true,
+        "onDeleteActions": {
+          "grantee": "restrict"
+        },
+        "uuid": "Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM"
+      }
+    ],
+    "slug": "spell-effect-cryo-blast",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "psGxrhfZh7G9aNoO",
+  "img": "icons/magic/water/projectiles-ice-explosion.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ff0fd35c2fecf67e1948db204d2f868515323aab"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758285845153,
+    "modifiedTime": 1758286051389,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!psGxrhfZh7G9aNoO"
+}

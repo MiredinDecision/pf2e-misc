@@ -1,0 +1,83 @@
+{
+  "name": "Flashstep",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> Once per round</p><p class=\"hang\"><strong>Requirements</strong> 1 Regalia</p><p class=\"hang\"><strong>Trigger</strong> Before or After using a Discipline</p><hr /><p>You grab onto a your regalia as it drags you. Choose one regalia to hold onto. You Step in any direction, even directly updwards. If the chosen Regalia has the Finesse trait, you can Step 10ft.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "flashstep",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "move",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "q8oW8AmyHftdwxi2",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0de039bfb425dedbe91ff4af60c02d3aa18579d0",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921816389,
+    "modifiedTime": 1753929180681,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "11sNWpLc9H1K7KA3",
+  "sort": 200000,
+  "_key": "!items!11sNWpLc9H1K7KA3"
+}

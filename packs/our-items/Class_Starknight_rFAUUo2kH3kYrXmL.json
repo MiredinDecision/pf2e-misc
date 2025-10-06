@@ -1,0 +1,27 @@
+{
+  "name": "Class Starknight",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "rFAUUo2kH3kYrXmL",
+  "description": "",
+  "sort": 2400000,
+  "color": "#101040",
+  "flags": {
+    "scene-packer": {
+      "hash": "a2d5facf02e410cfdc3ec62e64879c34476cf008"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753907670823,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!rFAUUo2kH3kYrXmL"
+}

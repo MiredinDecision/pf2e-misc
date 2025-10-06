@@ -1,0 +1,71 @@
+{
+  "folder": "tP6EkkQdpnkboy85",
+  "name": "Emotion Conduit",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect </strong>emotion</p><p><strong>Activate</strong><span class=\"action-glyph\"> 2 </span>(command, Interact)</p><hr /><p><strong>Effect</strong> You channel your relic's emotion at a target within 30 feet, overpowering an emotion effect on that creature. The relic attempts a counteract check. If the check succeeds, the target feels a sudden rush of the relic's emotion, and the counteracted effect ends on the target. The target is temporarily immune to your relic's emotion conduit until you make your next daily preparations.</p>"
+    },
+    "rules": [],
+    "slug": "emotion-conduit",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "relic"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestryfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "2LKSqTj8Nwtlc6qq",
+  "img": "systems/pf2e/icons/features/classes/eidolon-defensive-expertise.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "44e3c42119658c53944005075a10c9060da73eea"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729321914263,
+    "modifiedTime": 1729321994703,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!2LKSqTj8Nwtlc6qq"
+}

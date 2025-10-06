@@ -1,0 +1,114 @@
+{
+  "folder": "TDMGznNr8lEvhXdf",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Advanced Devotion",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "category": "class",
+    "description": {
+      "value": "<p>You gain one champion feat. For the purpose of meeting its prerequisites, your champion level is equal to half your character level.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat more than once. Each time you select it, you gain another champion feat.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 6
+    },
+    "maxTakable": null,
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Basic Devotion"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Core Rulebook",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.championDedicationCount",
+        "value": 1
+      },
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            "item:category:class",
+            "item:trait:champion"
+          ],
+          "predicate": [
+            {
+              "lte": [
+                "item:level",
+                "floor(@actor.level/2)"
+              ]
+            }
+          ],
+          "itemType": "feat"
+        },
+        "flag": "advancedDevotion",
+        "key": "ChoiceSet",
+        "prompt": "Select a Champion Class Feat"
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "{item|flags.pf2e.rulesSelections.advancedDevotion}"
+      }
+    ],
+    "traits": {
+      "rarity": "common",
+      "value": [
+        "archetype"
+      ],
+      "otherTags": []
+    },
+    "slug": "advanced-devotion",
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "onlyLevel1": false,
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.11.1",
+    "createdTime": 1743394070866,
+    "modifiedTime": 1743394110575,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.feats-srd.Item.7JjNWSuutkjrMrd0",
+      "hash": "d31112d0c05338731b9e28ce246fca268c62038e"
+    }
+  },
+  "_id": "s7TAPpA6klcZoWeL",
+  "sort": 200000,
+  "_key": "!items!s7TAPpA6klcZoWeL"
+}

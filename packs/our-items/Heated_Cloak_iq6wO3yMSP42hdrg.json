@@ -1,0 +1,104 @@
+{
+  "img": "systems/pf2e/icons/equipment/worn-items/other-worn-items/heated-cloack.webp",
+  "name": "Heated Cloak",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>This fine cloak is lined with magical symbols that generate heat, which is circulated throughout the cloak by the wearer's movements. While active, the wearer is protected from severe cold. The cloak offers no protection from extreme or incredible cold. It operates for 24 hours and can be reset with a simple process that takes 1 minute.</p>"
+    },
+    "rules": [],
+    "slug": "heated-cloak",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.347",
+        "system": "7.4.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Guns & Gears",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 5
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 160
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Cloak",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worncloak"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.2",
+    "createdTime": 1756086799015,
+    "modifiedTime": 1756086799129,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "7OZbTCbckbg9PFqT",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c0e2f76cb19264f90753144ac32369d9c75cace6",
+      "sourceId": "Actor.jGtwaBTkIzrE2wft.Item.ND0OXLjw1OzVsVlC"
+    }
+  },
+  "_id": "iq6wO3yMSP42hdrg",
+  "sort": 200000,
+  "_key": "!items!iq6wO3yMSP42hdrg"
+}

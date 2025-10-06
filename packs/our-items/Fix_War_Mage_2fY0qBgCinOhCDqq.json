@@ -1,0 +1,27 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Fix War Mage",
+  "color": "#306030",
+  "sorting": "a",
+  "_id": "2fY0qBgCinOhCDqq",
+  "description": "",
+  "sort": 1400000,
+  "flags": {
+    "scene-packer": {
+      "hash": "a9321d5330e375365f8d4ee454fba1df5a3ed9a4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754913072762,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9"
+  },
+  "_key": "!folders!2fY0qBgCinOhCDqq"
+}

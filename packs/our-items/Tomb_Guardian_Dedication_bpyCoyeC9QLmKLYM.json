@@ -1,0 +1,125 @@
+{
+  "folder": "kSzXC5K3tH5zhw3T",
+  "name": "Tomb Guardian Dedication",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You've trained with the @UUID[Compendium.pf2e-tomb-guardian.tomb-guardian.Item.5wago8PGRGfn9LdZ]{Sword of the Tomb Guardian}, @UUID[Compendium.pf2e-tomb-guardian.tomb-guardian.Item.tAcyAIL7c1goMGNO]{Tomb Guardian Glaive}, and @UUID[Compendium.pf2e.equipment-srd.Item.2RrKSkj27NDREOKQ]{Gauntlet Buckler} your entire life. You gain access to these weapons, and have familiarity with them. For the purpose of proficiency, you treat them as a martial weapon.</p><p>You gain a 1st or 2nd level fighter feat.</p><p>You gain the @UUID[Compendium.pf2e-tomb-guardian.tomb-guardian.Item.CJOEtUeHnEkoZ6Lr]{Scion Stance} action.</p><p>When taking @UUID[Compendium.pf2e.classfeatures.Item.gApJtAdNb9ST4Ms9]{Fighter Weapon Mastery} and the @UUID[Compendium.pf2e.classfeatures.Item.F5VenhIQMDkeGvmV]{Weapon Legend} class feature, you must choose either the Sword or Polearm group for each.</p>"
+    },
+    "rules": [
+      {
+        "adjustName": false,
+        "choices": {
+          "filter": [
+            {
+              "lte": [
+                "item:level",
+                2
+              ]
+            },
+            "item:category:class",
+            "item:trait:fighter"
+          ],
+          "itemType": "feat"
+        },
+        "flag": "fighterFeat",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.FighterFeat"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.pf2e.rulesSelections.fighterFeat}",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.CJOEtUeHnEkoZ6Lr",
+        "allowDuplicate": false
+      },
+      {
+        "key": "MartialProficiency",
+        "definition": [
+          {
+            "or": [
+              "item:slug:sword-of-the-tomb-guardian",
+              "item:slug:tomb-guardian-glaive"
+            ]
+          }
+        ],
+        "label": "Advanced Tomb Guardian Weapons",
+        "sameAs": "martial",
+        "slug": "tomb-guardian-weapons"
+      }
+    ],
+    "slug": "tomb-guardian-dedication",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "class",
+        "dedication"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "Tomb Guardian",
+      "authors": "AngelofWoe",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Fighter"
+        },
+        {
+          "value": "Tomb Guardian"
+        }
+      ]
+    },
+    "location": null
+  },
+  "_id": "bpyCoyeC9QLmKLYM",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "51e50cc86a38958e8a1efb740e7be03ad6818a3e"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-tomb-guardian.tomb-guardian.Item.bpyCoyeC9QLmKLYM",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728262224219,
+    "modifiedTime": 1728262224219,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!bpyCoyeC9QLmKLYM"
+}

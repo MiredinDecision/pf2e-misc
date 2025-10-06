@@ -1,0 +1,72 @@
+{
+  "folder": "r8Plx873Fv368892",
+  "name": "Amorphous Protection",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your amorphous body protects you nervous system, centered on your nucleus, with exceptional resilience. Each time you're critically hit, attempt a DC 17 flat check. On a success, it becomes a normal hit. This isn't cumulative with the fortification rune or similar abilities. Your resistance to precision damage from the @UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.U2a0xXWywnq9hf0E]{Minimal Vitals} ability increases to be equal to your level.</p>"
+    },
+    "rules": [],
+    "slug": "amorphous-protection",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0858f47006fca85476e94bccac99a1372763e0a4"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.3YdcFDASZPKZ6dYP",
+    "duplicateSource": "Item.IrSXLWJxq4LbS7xj",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "3YdcFDASZPKZ6dYP",
+  "_key": "!items!3YdcFDASZPKZ6dYP"
+}

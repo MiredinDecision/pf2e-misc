@@ -1,0 +1,69 @@
+{
+  "folder": "Vu1IIJ1PiytoVZbx",
+  "name": "Amorphous Form",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can alter your rough physical shape between your natural form and a vaguely humanoid form that's still obviously made of ooze and possessing a nucleus. Because of your amorphous form, you can move through tight spaces as if you were one size smaller than you are (or even tighter spaces if you were already Tiny).</p>"
+    },
+    "rules": [],
+    "slug": "amorphous-form",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "slime"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": null,
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-slime-ancestry.slime-items.Item.fUOoP8sHsVEjVV4G",
+      "name": "Effect: Amorphous Form"
+    }
+  },
+  "_id": "zNN4DxK2yviqkmUN",
+  "img": "modules/pf2e-slime-ancestry/assets/AmorphousForm.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "116344ac516a11b00be4bdb962f36d3e6e8019c5"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.zNN4DxK2yviqkmUN",
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_key": "!items!zNN4DxK2yviqkmUN"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Unfuck Kineticist Archetype",
+  "sorting": "m",
+  "folder": "TDMGznNr8lEvhXdf",
+  "type": "Item",
+  "_id": "lsB2M8OeDa0g9vkC",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "a2f6fc794516044a39ed2b7853edc6fe700fe333"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802818286,
+    "modifiedTime": 1726802818286,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj"
+  },
+  "_key": "!folders!lsB2M8OeDa0g9vkC"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Adoring Arsenal",
+  "sorting": "a",
+  "folder": "2TmNuryomOAf9urg",
+  "type": "Item",
+  "_id": "oZpHlXAcMOwz9cY3",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "911e87f31a484c3e4883d133a5d9f03bd0713b97"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": 1729321458939,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ"
+  },
+  "_key": "!folders!oZpHlXAcMOwz9cY3"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "The Family",
+  "sorting": "a",
+  "folder": "aQZwfoGMn6rLVvgm",
+  "type": "Item",
+  "_id": "ozDWhp9V27HpQoNk",
+  "description": "",
+  "sort": 100000,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "66392a77e61a15eba3b875b2de38073416c9f411"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!ozDWhp9V27HpQoNk"
+}

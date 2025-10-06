@@ -1,0 +1,97 @@
+{
+  "folder": "7UO34I4erEVHMTib",
+  "name": "Combined Strategems",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've become adept enough at warfare that you can combine various stratagems at once. When you use @UUID[Compendium.pf2e-misc.our-items.Item.rW8ujIJiylHFpz7u]{Warlord's Strategic Stance}, you can attempt a @Check[warfare-lore|dc:@self.level|roller:self] check. The DC is usually a standard DC of your level, but the GM can assign a different DC based on the circumstances. The effect depends on the result of your check.</p><p><strong>Success </strong>You enter Warlord's Strategic Stance with both stratagems active.</p><p><strong>Failure </strong>You fail to enter the stance.</p><p><strong>Critical Failure </strong>You fail to enter the stance and can't attempt to use either Battle Stratagem for 1 minute.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "combined-strategems",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "stance",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 8
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warlord Dedication"
+        },
+        {
+          "value": "Warlord's Strategist Stance"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.GTepuNQGCxxzZ0oA",
+      "name": "Stance: Warlord's Strategic Stance"
+    },
+    "frequency": {
+      "max": 1,
+      "per": "PT1H"
+    }
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "b9c2b89b7e61ed33f7543726734cf063885bbac9",
+      "sourceId": "Item.7xuhjqKtVJXSs8f5"
+    },
+    "pf2e-toolbelt": {
+      "actionable": {}
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755244458133,
+    "modifiedTime": 1755246226830,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "fd8ReahglO2ubYAL",
+  "sort": 0,
+  "_key": "!items!fd8ReahglO2ubYAL"
+}

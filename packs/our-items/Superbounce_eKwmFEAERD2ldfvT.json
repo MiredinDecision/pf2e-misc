@@ -1,0 +1,82 @@
+{
+  "folder": "r8Plx873Fv368892",
+  "name": "Superbounce",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Prerequisites </strong>@UUID[Compendium.pf2e-slime-ancestry.slime-items.Item.vPHYWzFt7FWgkmsr]{Bouncy Slime}</p><hr /><p>You bounce even more than normal for a bouncy slime, curling up into a ball and careening every which way. You gain a +2 circumstance bonus to Acrobatics checks to Tumble Through a foe's space. After falling or jumping from a height of at least 20 feet, you can bounce back into the air, up to half the distance you fell (and half as far forward if you jumped). These bounces continue until you bounce less than 20 feet.</p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "acrobatics",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "action:tumble-through"
+        ]
+      }
+    ],
+    "slug": "superbounce",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "slime"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 13
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "Xl9FHGK1p4tKj8wj": 3,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "baecf5ec3d26146aee20b0bcad86dd42f3931411"
+    }
+  },
+  "_stats": {
+    "compendiumSource": "Compendium.pf2e-slime-ancestry.slime-items.Item.eKwmFEAERD2ldfvT",
+    "duplicateSource": "Item.rxjtDSWpFtLPDbZc",
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728261552055,
+    "modifiedTime": 1728261552055,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "eKwmFEAERD2ldfvT",
+  "_key": "!items!eKwmFEAERD2ldfvT"
+}

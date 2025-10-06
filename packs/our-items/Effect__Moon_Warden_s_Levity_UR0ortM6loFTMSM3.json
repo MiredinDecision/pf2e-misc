@@ -1,0 +1,84 @@
+{
+  "folder": "fkL7xNaVK7JoPxD1",
+  "name": "Effect: Moon Warden's Levity",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.purzPCMv8NyUv7yn]{Moon Warden's Armor}.</p><p>This armor has a magical effect that reduces its Bulk by 1, unless it is dispelled. The effect will return in 10 minutes, or after 1 minute of prayer.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ItemAlteration",
+        "itemType": "armor",
+        "predicate": [
+          "item:slug:moon-wardens-armor",
+          "item:equipped"
+        ],
+        "mode": "override",
+        "property": "bulk",
+        "value": 2
+      }
+    ],
+    "slug": "effect-moon-wardens-levity",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 5
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "UR0ortM6loFTMSM3",
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "7bcc63134c806c9c9b21188269dcc19c112b7970"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1754677315105,
+    "modifiedTime": 1755053168915,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!UR0ortM6loFTMSM3"
+}

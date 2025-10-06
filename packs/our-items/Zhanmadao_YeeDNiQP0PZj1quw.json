@@ -1,0 +1,150 @@
+{
+  "name": "Zhanmadao",
+  "type": "weapon",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "<p><strong>Aspects</strong> Earth, Spirit</p><p></p><p><strong>MInor Gifts:</strong> @UUID[Compendium.pf2e-relics.relic-gifts.Item.QZKCe0ef0V3Lt8ws]{Ease Burden}, @UUID[Compendium.pf2e-misc.our-items.Item.DVZCBL1xtqaoO9NS]{Shattered Earth}</p><p><strong>Major Gifts:</strong> @UUID[Compendium.pf2e-misc.our-items.Item.243zIHxKmDks6ngf]{Raise Ramparts}, @UUID[Compendium.pf2e-misc.our-items.Item.itWLiKBPgxWbds45]{Chevalier's Stance}</p><p><strong>Grand Gifts:</strong></p><p></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"><strong>Set Items</strong>: </span><span style=\"text-decoration:underline\"><em><span style=\"text-decoration:underline\">Zhanmadao</span></em></span> (level 1), <span style=\"text-decoration:underline\"><em><span style=\"text-decoration:underline\">Day Glasses</span></em></span> (level 7), <span style=\"text-decoration:underline\"><em><span style=\"text-decoration:underline\">Cloak of Bones</span></em></span> (level 11)</p><p></p><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">The set grants the following features.</span></p><ul><li><em>Two Items</em>: You can use Shattered Earth at will.</li><li><em>Three Items</em>: When in Chevalier's Stance, you can use wisdom as your attack and damage modifier for Strikes.</li></ul>",
+      "value": "<p>This traditional samsaran weapon is a straight-bladed relative of the nodachi, serving as a potent anti-cavalry and anti-infantry weapon. The weapon is typically the length of its wielder, with a third of the size dedicated to the hilt.</p><p></p><p>This weapon used to belong to Harwen's childhood friend Gideon. A 6 foot long steel sword that is completely indistinct from the many made for the bodyguard class of Graydirge. The weapon is comically oversized for its current wielder, having to be carried at an odd angle to keep it from dragging. The 2 foot long hilt is wrapped in worn, stained black leather, while the tassel tied to it shows the crest of the Galinezae family, indicating who the wielder served. While it used to be in perfect condition, Harwen is not a sword expert and it has begun to be worn down despite her best efforts.</p>"
+    },
+    "rules": [],
+    "slug": "zhanmadao",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "deadly-d10",
+        "finesse",
+        "magical",
+        "reach",
+        "samsaran"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 0
+    },
+    "quantity": 1,
+    "baseItem": "aldori-dueling-sword",
+    "bulk": {
+      "value": 2
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 6
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": "silver",
+      "grade": "low"
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Weapon",
+        "img": "systems/pf2e/icons/unidentified_item_icons/weapon.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-two-hands"
+    },
+    "category": "advanced",
+    "group": "sword",
+    "bonus": {
+      "value": 0
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d8",
+      "damageType": "slashing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "runes": {
+      "potency": 0,
+      "striking": 0,
+      "property": [
+        "authorized"
+      ]
+    },
+    "specific": null,
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "img": "Chinese_sword_introduction_Zhanmadao_03.jpg",
+  "folder": "wKdF0rAK0ZQFL4HY",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "049aece00a9647476833c01d267eea1af01e609c",
+      "sourceId": "Actor.zxxDVGJgiVnLCEK7.Item.S4MXttNBsZYaR5FB"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728265773940,
+    "modifiedTime": 1728402066161,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "_id": "YeeDNiQP0PZj1quw",
+  "sort": 100000,
+  "_key": "!items!YeeDNiQP0PZj1quw"
+}

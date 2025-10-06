@@ -1,0 +1,119 @@
+{
+  "folder": "ZbZeGxd2XHQt4tko",
+  "name": "Resounding Clap",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Energy forms a semi-solid surface around your hand, and flies to your target. The target takes 1d4 bludgeoning and 1d4 force damage. On a critical success, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and takes double the damage.</p><hr /><p><strong>Heightened (+1)</strong> The bludgeoning damage increases by 1d4 and the force damage increases by 1d4.</p>"
+    },
+    "rules": [],
+    "slug": "resounding-clap",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "cantrip",
+        "concentrate",
+        "force",
+        "manipulate"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "arcane",
+        "divine"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "hvG47Vu3ti45XQQJ": {
+        "formula": "1d4",
+        "kinds": [
+          "damage"
+        ],
+        "type": "bludgeoning",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      },
+      "ntw0yoOBUyU7crBH": {
+        "formula": "1d4",
+        "kinds": [
+          "damage"
+        ],
+        "type": "force",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "hvG47Vu3ti45XQQJ": "1d4",
+        "ntw0yoOBUyU7crBH": "1d4"
+      }
+    }
+  },
+  "_id": "vVHO6iDi30Jf5iMo",
+  "img": "systems/pf2e/icons/spells/forceful-hand.webp",
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f5e069abb5de9613e72d1cd6cd28550a3346621d"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1728304633994,
+    "modifiedTime": 1754851723614,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!vVHO6iDi30Jf5iMo"
+}

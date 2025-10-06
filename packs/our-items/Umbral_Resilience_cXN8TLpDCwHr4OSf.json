@@ -1,0 +1,88 @@
+{
+  "img": "icons/magic/life/cross-explosion-burst-green.webp",
+  "name": "Umbral Resilience",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Your time in the eldritch shadow makes you stronger. Your proficiency rank for Fortitude saves increases to expert. When you roll a success on a Fortitude save, you get a critical success instead.</p>"
+    },
+    "rules": [
+      {
+        "adjustment": {
+          "success": "one-degree-better"
+        },
+        "key": "AdjustDegreeOfSuccess",
+        "selector": "fortitude"
+      }
+    ],
+    "slug": "umbral-resilience",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "subfeatures": {
+      "proficiencies": {
+        "fortitude": {
+          "rank": 2
+        }
+      }
+    }
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727117339520,
+    "modifiedTime": 1727117357614,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "yyzzUp971t5Ni8uH",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.fMHYzXEUMoWskKMF",
+      "hash": "930445d4a39d66dd9060767bae9237b669abd890"
+    }
+  },
+  "_id": "cXN8TLpDCwHr4OSf",
+  "sort": 200000,
+  "_key": "!items!cXN8TLpDCwHr4OSf"
+}

@@ -1,0 +1,116 @@
+{
+  "img": "systems/pf2e/icons/spells/light.webp",
+  "name": "Spell Effect: Starlight",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.Cva5dlm4406217NR]{Starlight}</p><p>You attach an orb of light to a willing creature, causing it to float near that creature as it moves.</p>"
+    },
+    "rules": [
+      {
+        "key": "TokenLight",
+        "value": {
+          "alpha": 0.1,
+          "animation": {
+            "intensity": 1,
+            "speed": 1,
+            "type": "pulse"
+          },
+          "bright": {
+            "brackets": [
+              {
+                "end": 3,
+                "value": 20
+              },
+              {
+                "start": 4,
+                "value": 60
+              }
+            ],
+            "field": "item|system.level.value"
+          },
+          "color": "#c33753",
+          "dim": {
+            "brackets": [
+              {
+                "end": 3,
+                "value": 40
+              },
+              {
+                "start": 4,
+                "value": 120
+              }
+            ],
+            "field": "item|system.level.value"
+          }
+        }
+      }
+    ],
+    "slug": "spell-effect-light",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.934,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "days",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1756763389109,
+    "modifiedTime": 1756763483312,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "eOJsgiwwcsb79hE6",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.weRmzOSjHMcj26Zf",
+      "hash": "c9300a6aa0e073ac28fc8103130c05e5054eb3bf"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "xIqYY7rDpwvA868Z",
+  "sort": 0,
+  "_key": "!items!xIqYY7rDpwvA868Z"
+}

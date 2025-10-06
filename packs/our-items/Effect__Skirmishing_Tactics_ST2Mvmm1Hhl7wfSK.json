@@ -1,0 +1,80 @@
+{
+  "img": "systems/pf2e/icons/features/feats/marshals-aura.webp",
+  "name": "Effect: Skirmishing Tactics",
+  "system": {
+    "description": {
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.rW8ujIJiylHFpz7u]{Warlord's Strategic Stance} and @UUID[Compendium.pf2e-misc.our-items.Item.8TO33AfGJjtZzhWd]{Skirmishing Tactics}</p><p>You direct your allies to be fleet-footed and to outmaneuver their foes.</p><p><strong>Effect</strong> Affected allies gain a +10-feet status bonus to their speeds. An ally who is hit by a Strike while inside the Warlord's aura can Step as a <span class=\"action-glyph\">r</span> Reaction.</p>",
+      "gm": ""
+    },
+    "duration": {
+      "expiry": "turn-start",
+      "sustained": false,
+      "unit": "encounter",
+      "value": -1
+    },
+    "level": {
+      "value": 1
+    },
+    "publication": {
+      "license": "ORC",
+      "remaster": true,
+      "title": "Vyklade's Book of Homebrew",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "speed",
+        "type": "status",
+        "value": "10*@actor.flags.pf2e.marshal.aura"
+      }
+    ],
+    "start": {
+      "initiative": null,
+      "value": 0
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "slug": "effect-skirmishing-tactics",
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "unidentified": false,
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755230615727,
+    "modifiedTime": 1755239298141,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "effects": [],
+  "folder": "NkYeLnkZRgzZVVow",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.XxZCNijFOxUTMJjZ",
+      "hash": "f50ae85682455c8918d062ad1fc809e18b6f67b4"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "_id": "ST2Mvmm1Hhl7wfSK",
+  "sort": 0,
+  "_key": "!items!ST2Mvmm1Hhl7wfSK"
+}

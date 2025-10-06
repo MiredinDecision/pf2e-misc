@@ -1,0 +1,65 @@
+{
+  "folder": "RWrOfvivLAQlmiBp",
+  "name": "Defender Formation",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> 1 Regalia</p><hr /><p>You assign a regalia to protect you. Choose one Regalia this Regalia does not gain the <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">@UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken}</span></span> condition but cannot be used until the start of your next turn. You @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield}, utilizing your Regalia as a shield. Your Regalia's AC bonus is +1. If the Regalia has the <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Parry</span></span> trait, this bonus increases to +2. If the Regalia is a <span style=\"text-decoration:underline\"><span style=\"text-decoration:underline\">Shield</span></span>, use the Regalia's innate AC bonus instead.</p><p><strong>Special</strong> If you have the @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{Shield Block} feat, you can use the Shield Block reaction while your shield is raised this way. If your Regalia is a shield, utilize that shield's Hardness and HP to resolve the reaction. Otherwise, your Regalia have a Hardness of 1 + Your Wisdom Modifier (Minimum Hardness of 2). Regardless of what kind of Regalia is used, the Regalia gains Broken condition. Once Call Armiger is used, the Regalia also Regains any Hit Points lost as part of the Shield Block Reaction.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "defender-formation",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "discipline",
+        "starknight"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "defensive",
+    "deathNote": false,
+    "selfEffect": null
+  },
+  "_id": "OjVJsL7Wo3y8HFC3",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "1bab8849384f918a1b100f13845d7758c749b1bb"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753917991599,
+    "modifiedTime": 1753918459850,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!OjVJsL7Wo3y8HFC3"
+}

@@ -1,0 +1,74 @@
+{
+  "img": "systems/pf2e/icons/features/classes/unlimited-signature-spells.webp",
+  "name": "Unlimited Signature Spells",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>All of your spells are signature spells. That means that if you know a spell, you can heighten it freely by casting it from a higher-rank spell slot, up to the maximum rank of spell you can cast. You can similarly cast any of its lower-rank versions without learning them separately.</p>"
+    },
+    "rules": [],
+    "slug": "unlimited-signature-spells",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magus",
+        "scarlet-blade"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Scarlet Blade",
+      "authors": "AngelofWoe, MiredinDecision",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 3
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.10.2",
+    "createdTime": 1727122699974,
+    "modifiedTime": 1741825231571,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "uObGsRbd58v3UDKj",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.P34Jx6i4GJGoqTtG",
+      "hash": "ab7e942e684c111da662c0f5057ca8208270c82a"
+    }
+  },
+  "_id": "Y6jh1iihpYcXZVog",
+  "sort": 100000,
+  "_key": "!items!Y6jh1iihpYcXZVog"
+}

@@ -1,0 +1,71 @@
+{
+  "folder": "w0ISseI8HDhj1OQ8",
+  "name": "Searing Wave",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><strong>Aspect</strong> fire</p><p><strong>Activate</strong> <span class=\"action action-glyph\" title=\"Two Actions\" aria-label=\"Two Actions\">2</span> (concentrate, manipulate)</p><hr /><p><strong>Effect</strong> You allow a portion of the fire magic housed in your relic to escape in a direction of your choice. You deal @Damage[(max(1,floor((@actor.level)/2)))d10[fire]] damage for every 2 levels of the relic to all creatures in a @Template[type:cone|distance:30] (@Check[type:reflex|against:class-spell|basic:true]). You can’t use Searing Wave again for [[/r 1d4 #Recharge]] rounds.</p>"
+    },
+    "rules": [],
+    "slug": "searing-wave",
+    "_migration": {
+      "version": 0.935,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "fire"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 9
+    },
+    "category": "ancestry",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "_id": "CJTMvOWLdM5RN2jH",
+  "img": "icons/magic/fire/blast-jet-stream-embers-red.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "c3dd2cc39ca9e7d0df200cfb5fc975da71852b56"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": 1735582602589,
+    "modifiedTime": 1735582691321,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!CJTMvOWLdM5RN2jH"
+}

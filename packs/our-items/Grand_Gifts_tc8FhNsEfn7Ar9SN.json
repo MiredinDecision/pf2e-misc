@@ -1,0 +1,26 @@
+{
+  "name": "Grand Gifts",
+  "sorting": "a",
+  "folder": "TMEhVOdJMM9ExsQ1",
+  "type": "Item",
+  "_id": "tc8FhNsEfn7Ar9SN",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {
+    "scene-packer": {
+      "hash": "de397066e8256caac296457df707c08f0e585ead"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pf2e",
+    "systemVersion": "6.8.1",
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null
+  },
+  "_key": "!folders!tc8FhNsEfn7Ar9SN"
+}

@@ -1,0 +1,89 @@
+{
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Champion's Reaction",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You can use the champion's reaction associated with your cause.</p>"
+    },
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "flags.pf2e.championDedicationCount",
+        "value": 1
+      },
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "uuid": "Compendium.pf2e.actionspf2e.Item.tuZnRWHixLArvaIf"
+      }
+    ],
+    "slug": "champions-reaction",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core 2",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Champion Dedication"
+        }
+      ]
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1729622652412,
+    "modifiedTime": 1743394070955,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "TDMGznNr8lEvhXdf",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "309e1f9f6815b933ee543ffc5e1406dc337793a0",
+      "sourceId": "Item.pCN04h1lga10KUXu"
+    }
+  },
+  "_id": "OW2rsrOpwcZJSPnu",
+  "sort": 100000,
+  "_key": "!items!OW2rsrOpwcZJSPnu"
+}

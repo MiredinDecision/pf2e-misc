@@ -1,0 +1,78 @@
+{
+  "name": "Shimmering Orbit",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> 2 Regalia</p><hr /><p>You command two regalia to orbit around you in a swirl of raw power. Choose two regalia, the two weapons spin around you, dealing @Damage[2d8] damage in a @Template[emanation|distance:5] (@Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true]).</p><p>The damage type dealt is the same as the damage type of one of the two Regalia used (Your choice). If either of the weapons have the Reach trait the emanation radius increases to 10ft.</p><hr /><p class=\"hang\"><strong>Level (+3)</strong> The damage increases by 1d8.</p><p>@Damage[(2+max(0,floor((@actor.level - 2)/3)))d8]{Leveled Damage}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "slug": "shimmering-orbit",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "discipline",
+        "starknight"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 2
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "TBH74ZqS68COwdAV",
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "f158e0df8fcf8dc85d6a39906601f236560290c6",
+      "sourceId": "Item.84euMI7JTmxvLPWn"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753921049076,
+    "modifiedTime": 1753928743008,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_id": "N3fD3BqNYpvUliEa",
+  "sort": 400000,
+  "_key": "!items!N3fD3BqNYpvUliEa"
+}

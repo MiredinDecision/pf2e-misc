@@ -1,0 +1,26 @@
+{
+  "type": "Item",
+  "folder": "k3phcJbx79op49gv",
+  "name": "Shattered Fate",
+  "color": null,
+  "sorting": "a",
+  "_id": "osvkHm0EUQk7MRLc",
+  "description": "",
+  "sort": 0,
+  "flags": {
+    "scene-packer": {
+      "hash": "d579315f8f73d8bcfd86d4ae3d8cef4ed8f1cd75"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "modifiedTime": 1758053264806
+  },
+  "_key": "!folders!osvkHm0EUQk7MRLc"
+}

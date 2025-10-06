@@ -1,0 +1,80 @@
+{
+  "name": "Effect: Nonlethal",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">You can make a nonlethal attack to knock someone out instead of killing them (see Knocked Out and Dying on page 410). Weapons with the nonlethal trait (including fists) do this automatically. You take a –2 circumstance penalty to the attack roll when you make a nonlethal attack using a weapon or unarmed attack that doesn’t have the nonlethal trait. You also take this penalty when making a lethal attack using a nonlethal weapon. Spells and other effects with the nonlethal trait that reduce a creature to 0 Hit Points knock the creature out instead of killing them.</span></p>"
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Nonlethal Attack",
+        "selector": "attack",
+        "value": -2,
+        "type": "circumstance"
+      }
+    ],
+    "slug": "nonlethal",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false
+  },
+  "_id": "nGFsc0i2hUL0lf98",
+  "img": "systems/pf2e/icons/unarmed-attacks/fist.webp",
+  "folder": "nCxCUDcD7jmHI140",
+  "sort": 100000,
+  "ownership": {
+    "default": 3,
+    "UncDFqbFqfvFki9S": 3,
+    "Xl9FHGK1p4tKj8wj": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "edb469b280b4c64f7bcd66df142f2e29c9b91da9"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1726802845546,
+    "modifiedTime": 1726802845546,
+    "lastModifiedBy": "Xl9FHGK1p4tKj8wj",
+    "exportSource": null
+  },
+  "_key": "!items!nGFsc0i2hUL0lf98"
+}

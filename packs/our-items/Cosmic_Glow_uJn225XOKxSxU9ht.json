@@ -1,0 +1,91 @@
+{
+  "folder": "RWrOfvivLAQlmiBp",
+  "name": "Cosmic Glow",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.935,
+      "previous": null
+    },
+    "description": {
+      "value": "<p></p><p>Your regalia can shimmer like a small star. While your Armiger is called, it sheds 30ft of bright light and 30ft of dim light. You can toggle this ability by spending <span class=\"action-glyph\">1</span> one-action with the concentrate trait.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "Vyklade",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Cosmic Glow",
+        "option": "cosmic-glow",
+        "predicate": [
+          "call-armiger-aura"
+        ],
+        "toggleable": true
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.armigerLightDim.radius",
+        "value": 30,
+        "predicate": [
+          "cosmic-glow"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "flags.pf2e.armigerLightBright.radius",
+        "value": 15,
+        "predicate": [
+          "cosmic-glow"
+        ]
+      }
+    ],
+    "slug": "cosmic-glow",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "starknight"
+      ]
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "category": "interaction",
+    "deathNote": false
+  },
+  "_id": "uJn225XOKxSxU9ht",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "5d492eb4c39a12bf82042e451a315d0a163acdf2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.12.4",
+    "createdTime": 1753916468591,
+    "modifiedTime": 1753917862328,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
+    "exportSource": null
+  },
+  "_key": "!items!uJn225XOKxSxU9ht"
+}

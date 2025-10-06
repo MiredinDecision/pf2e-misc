@@ -1,0 +1,120 @@
+{
+  "folder": "tQyXhG5H3HJET0Y8",
+  "name": "Lesser Way",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You gain the rogue's @UUID[Compendium.pf2e.classfeatures.9EqIasqfI8YIM3Pt]{Weapon Specialization} class feature. You become an expert in simple weapons, martial weapons, unarmed attacks, and your deity's favored weapon. When you critically succeed at an attack roll against an off-guard creature while using an agile or finesse weapon or an agile or finesse unarmed attack, or you critically succeed at an attack roll with your deity's favored weapon, you apply the critical specialization effect for that weapon or unarmed attack. You gain the rogue's @UUID[Compendium.pf2e-misc.our-items.Item.36aSxXmjVqNuOUCK]{Surprise Attack} feature, and may apply its benefits when you roll Religion for initiative, in addition to Deception or Stealth.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-misc.our-items.Item.36aSxXmjVqNuOUCK",
+        "allowDuplicate": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.classfeatures.Item.9EqIasqfI8YIM3Pt",
+        "allowDuplicate": false
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "flags.pf2e.favoredWeaponRank",
+        "value": 2
+      },
+      {
+        "key": "CriticalSpecialization",
+        "predicate": [
+          {
+            "or": [
+              "item:deity-favored",
+              {
+                "and": [
+                  "target:condition:off-guard",
+                  {
+                    "or": [
+                      "item:trait:agile",
+                      "item:trait:finesse"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": "lesser-way",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "cleric"
+      ],
+      "rarity": "uncommon"
+    },
+    "level": {
+      "value": 5
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "subfeatures": {
+      "proficiencies": {
+        "martial": {
+          "rank": 2
+        },
+        "unarmed": {
+          "rank": 2
+        },
+        "simple": {
+          "rank": 2
+        }
+      },
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/skills/melee/weapons-crossed-swords-black-gray.webp",
+  "ownership": {
+    "default": 0,
+    "TrgdccykoX5loCfC": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1758945051406,
+    "modifiedTime": 1758945666395,
+    "lastModifiedBy": "TrgdccykoX5loCfC"
+  },
+  "_id": "BWs8SxtqnzA77Fpj",
+  "sort": 0,
+  "_key": "!items!BWs8SxtqnzA77Fpj"
+}

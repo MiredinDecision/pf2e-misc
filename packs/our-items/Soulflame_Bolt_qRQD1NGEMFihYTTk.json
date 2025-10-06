@@ -1,0 +1,141 @@
+{
+  "folder": "ZbZeGxd2XHQt4tko",
+  "name": "Soulflame Bolt",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You form the essence of life and death itself into a ball of burning soulfire, which you throw at a target. Make a spell attack roll. On a success, the flame deals 3d6 fire damage, and, if the target is living, the flame deals an additional 2d4 void damage. If the target is undead, they take 2d4 spirit damage instead. On a critical success, the target takes double damage and takes @Damage[(1d4+((@item.rank -1)*2))[persistent,fire]] damage. <span style=\"font-family:Roboto, sans-serif\">The target takes spirit damage instead of void damage if that would be more detrimental to the target (as determined by the GM).</span></p><hr /><p><strong>Critical Success </strong>The target takes double damage and 1d4 persistent fire damage.</p><p><strong>Success </strong>The target takes full damage.</p><hr /><p><strong>Heightened (+1) </strong>The fire damage increases by 1d6. The void or spirit damage increases by 1d4. The persistent fire damage on a critical hit increases by 2.</p>"
+    },
+    "rules": [
+      {
+        "key": "DamageDice",
+        "damageType": "void",
+        "diceNumber": "@spell.rank+1",
+        "dieSize": "d4",
+        "predicate": [
+          "target:mode:living"
+        ],
+        "selector": "{item|_id}-damage",
+        "label": "Void",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "DamageDice",
+        "damageType": "spirit",
+        "diceNumber": "@spell.rank+1",
+        "dieSize": "d4",
+        "predicate": [
+          "target:mode:undead"
+        ],
+        "selector": "{item|_id}-damage",
+        "label": "Spirit",
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "soulfire-bolt",
+    "_migration": {
+      "version": 0.933,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.932,
+        "foundry": "12.331",
+        "system": "6.5.0"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "fire",
+        "manipulate",
+        "spirit",
+        "void"
+      ],
+      "rarity": "uncommon",
+      "traditions": [
+        "divine",
+        "arcane"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "30 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "inlN23tPLM9svDfY": {
+        "formula": "3d6",
+        "kinds": [
+          "damage"
+        ],
+        "type": "fire",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 1,
+      "damage": {
+        "inlN23tPLM9svDfY": "1d6"
+      }
+    },
+    "overlays": {}
+  },
+  "img": "modules/pf2e-misc/assets/VoidFire2.webp",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "0521c9a61d356b3860c5509baf5a38cb6cf1cb7e",
+      "sourceId": "Actor.12PWTK8GXO4BkODb.Item.gNHzHmvmwl5LQeyz"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1730429160530,
+    "modifiedTime": 1758287801977,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_id": "qRQD1NGEMFihYTTk",
+  "sort": 700000,
+  "_key": "!items!qRQD1NGEMFihYTTk"
+}

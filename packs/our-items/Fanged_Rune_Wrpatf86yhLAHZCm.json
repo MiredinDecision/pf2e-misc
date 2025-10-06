@@ -1,0 +1,67 @@
+{
+  "folder": "X9S2ckQvCpg5tdfT",
+  "name": "Fanged Rune",
+  "type": "action",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>When etched with this rune, a weapon's hilt or haft becomes engraved with grooves that match the imprints of a wolf's teeth. By putting a <em>fanged</em> weapon in your mouth, you can transform into an animal.</p><hr /><p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Interact (magical, polymorph, transmutation)</p><hr /><p><strong>Effect</strong> You transform into a Small or Medium animal that wields the <em>fanged</em> weapon in its jaws; the animal matches the animal you are most closely associated with (a lizardfolk would turn into a lizard, a kitsune into a fox, a deer instinct barbarian into a deer, etc.) or a wolf if no specific animal is applicable. While in this form, you can attack with the <em>fanged</em> weapon even though you don't have any hands. However, you can attack only with the <em>fanged</em> weapon and you don't have hands or the ability to hold items. For effects dependent on how many hands you are using to hold the item, such as the two-hand trait, you are holding the weapon in two hands. You can Dismiss this effect, and it ends automatically if you drop the <em>fanged</em> weapon (whether or not of your own volition).</p>"
+    },
+    "rules": [],
+    "slug": "fange-rune",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "magical",
+        "polymorph"
+      ]
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "category": "interaction",
+    "actions": {
+      "value": 1
+    },
+    "deathNote": false,
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-misc.our-items.Item.v5U5fRhZFi8dmZ0D",
+      "name": "Effect: Fanged Rune"
+    }
+  },
+  "_id": "Wrpatf86yhLAHZCm",
+  "img": "systems/pf2e/icons/actions/OneAction.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "ba2ec087f0ea00618993ad1a9f21d0075a23195c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1727600631714,
+    "modifiedTime": 1727600777530,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "_key": "!items!Wrpatf86yhLAHZCm"
+}

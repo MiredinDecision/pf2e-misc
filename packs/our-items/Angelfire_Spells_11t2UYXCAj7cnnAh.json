@@ -1,0 +1,79 @@
+{
+  "folder": "2FtGmh9Rl1KGzJ9l",
+  "name": "Angelfire Spells",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.942,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>The following is your<strong> Thematic Spell List</strong></p><h4><strong>Angelfire Spells</strong></h4><ul><li><p><strong>Cantrip </strong>@UUID[Compendium.pf2e-team-plus-magic.items.Item.02xX04wmLwGLfJWd]{Dynamic Ignition}</p></li><li><p><strong>1st </strong>@UUID[Compendium.pf2e-team-plus-magic.items.Item.rgKVFyjIvvCSzr43]{Dynamic Breathe Fire}</p></li><li><p><strong>2nd </strong>@UUID[Compendium.pf2e.spells-srd.Item.3GXU3ugrwLv0P7AH]{Ignite Fireworks}</p></li><li><p><strong>3rd </strong>@UUID[Compendium.pf2e.spells-srd.Item.KEkPxx7Sm6Xf4W3s]{Blazing Dive}</p></li><li><p><strong>4th </strong>@UUID[Compendium.pf2e.spells-srd.Item.bVvGpSOg2WaTUItS]{Cinder Swarm}</p></li><li><p><strong>5th </strong>@UUID[Compendium.pf2e.spells-srd.Item.p6ebe2PliRkGbmiV]{Flame Dancer}</p></li><li><p><strong>6th </strong>@UUID[Compendium.pf2e.spells-srd.Item.Gn5deIoobHpd3SiR]{Flame Vortex}</p></li><li><p><strong>7th </strong>@UUID[Compendium.pf2e.spells-srd.Item.XS7Wyh5YC0NWeWyB]{Fiery Body}</p></li><li><p><strong>8th </strong>@UUID[Compendium.pf2e.spells-srd.Item.kWDt0JcKPgX6MvdD]{Burning Blossoms}</p></li><li><p><strong>9th </strong>@UUID[Compendium.pf2e-legacy-content.spells-legacy.Item.jrBa9deU2ULFWvSl]{Meteor Swarm}</p></li></ul>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "angelfire-spells",
+    "traits": {
+      "otherTags": [],
+      "value": [],
+      "rarity": "unique"
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Thematic Spells"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "img": "icons/magic/fire/elemental-fire-humanoid.webp",
+  "flags": {
+    "scene-packer": {
+      "hash": "adbd6c814f0574d88addb55d1a090ed0a43641fd",
+      "sourceId": "Item.wquR6F2siyBmqKA2"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758047472414,
+    "modifiedTime": 1758048047713,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "11t2UYXCAj7cnnAh",
+  "sort": 200000,
+  "_key": "!items!11t2UYXCAj7cnnAh"
+}

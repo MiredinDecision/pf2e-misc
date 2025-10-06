@@ -1,0 +1,108 @@
+{
+  "folder": "VDF8mAXAeTkQvgya",
+  "name": "Psycho Wave",
+  "type": "spell",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You unleash a wave of negative psychic energy on a target’s mind causing intense aggression and mental pain. Make a spell attack against the target. On a hit, you deal 6d8 mental damage plus 3d6 persistent mental damage and the target becomes @UUID[Compendium.pf2e.conditionitems.yblD8fOR1J8rDwEQ]{Confused}. If the target recovers from being Confused, the persistent damage ends. On a critical hit, double the initial damage, but not the persistent damage.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.4TUKiG4oxbz9XKOg]{Spell Effect: Psycho Wave}</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d8, and the persistent mental damage increases by 1d6.</p>"
+    },
+    "rules": [],
+    "slug": "psycho-wave",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "attack",
+        "concentrate",
+        "manipulate",
+        "mental"
+      ],
+      "rarity": "common",
+      "traditions": [
+        "arcane",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Even More Magic!",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 6
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "touch"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "58ABy7YUFa6Jag6i": {
+        "formula": "6d8",
+        "kinds": [
+          "damage"
+        ],
+        "type": "mental",
+        "category": null,
+        "materials": [],
+        "applyMod": false
+      }
+    },
+    "defense": null,
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "type": "interval",
+      "interval": 2,
+      "damage": {
+        "58ABy7YUFa6Jag6i": "2d8"
+      },
+      "area": 0
+    }
+  },
+  "_id": "qLKcp47PU72PfrqT",
+  "img": "icons/magic/control/hypnosis-mesmerism-swirl.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "70bed07b87bc4c063dad399f3bf06ddb506facfe"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758285845153,
+    "modifiedTime": 1758285888231,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!qLKcp47PU72PfrqT"
+}

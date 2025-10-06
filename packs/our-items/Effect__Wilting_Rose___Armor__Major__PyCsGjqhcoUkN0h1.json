@@ -1,0 +1,88 @@
+{
+  "img": "systems/pf2e/icons/equipment/cursed-items/rose-of-loves-lost.webp",
+  "name": "Effect: Wilting Rose - Armor (Major)",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.lmUPNdEuW3QUIHr6]{Wilting Rose (Major)}</p><p>You gain resistance 10 to piercing and unholy.</p>"
+    },
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "piercing",
+        "value": 10
+      },
+      {
+        "key": "Resistance",
+        "type": "unholy",
+        "value": 10
+      }
+    ],
+    "slug": "effect-wilting-rose-armor-major",
+    "_migration": {
+      "version": 0.942,
+      "previous": {
+        "schema": 0.935,
+        "foundry": "13.348",
+        "system": "7.4.3"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "Pathfinder #188: They Watched the Stars",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": false
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "type": "effect",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1757646050479,
+    "modifiedTime": 1757646151164,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "I6u7oK6ZH1g1PI69",
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Item.GpaRiHUeuEYqmMdL",
+      "hash": "dde9364c3db40e55e5b8759bf808f1c959c53a71"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "_id": "PyCsGjqhcoUkN0h1",
+  "sort": 0,
+  "_key": "!items!PyCsGjqhcoUkN0h1"
+}

@@ -1,0 +1,89 @@
+{
+  "folder": "bHODluul6stM55zb",
+  "name": "Spell Effect: Perceive the Threads of Fate",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.943,
+      "previous": null
+    },
+    "description": {
+      "value": "<p><strong>Granted by </strong>@UUID[Compendium.pf2e.spells-srd.Item.QlivnxstGjlzaluf]</p><p>You open your mind to the grand design of existence, enabling you to view the threads of fate in all their complex, tangled glory. You attempt Perception checks and Reflex saving throws at mythic proficiency for the duration.</p><p>You can Sustain the spell once per round to untangle these threads. When you do, if your next action requires you to attempt an attack roll or skill check, you roll this check twice and use the higher result. You can untangle the threads of fate up to three times. After the third time, the spell ends.</p><p>@UUID[Compendium.pf2e-misc.our-items.Item.psWW4fjzLIeXNDkD]</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "perception",
+          "reflex"
+        ],
+        "value": "@actor.level + 10",
+        "type": "proficiency"
+      }
+    ],
+    "slug": "spell-effect-perceive-the-threads-of-fate",
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-start",
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": {
+      "type": "counter",
+      "value": 3,
+      "labels": null,
+      "loop": false,
+      "min": null,
+      "max": 3
+    },
+    "fromSpell": false,
+    "context": null
+  },
+  "_id": "0NHaT9T6eM4NDdrB",
+  "img": "icons/magic/perception/eye-ringed-green.webp",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "76efd9f8b2e90be0def07ec03bff0cdb6d4a1d7c"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1758482085548,
+    "modifiedTime": 1758482643650,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "_key": "!items!0NHaT9T6eM4NDdrB"
+}

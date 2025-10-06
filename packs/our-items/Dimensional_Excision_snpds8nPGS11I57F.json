@@ -1,0 +1,203 @@
+{
+  "folder": "kw7Cdwcx7pAM35BV",
+  "img": "icons/magic/symbols/rune-sigil-green-purple.webp",
+  "name": "Dimensional Excision",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You manipulate the boundaries between planes like a scalpel, using it to cut away portions of a creature's essence and banishing those portions to other realities and dimensions, afflicting the target deep lacerations or even severed appendages. The creature takes 14d10 damage (no damage type) and 2d10 persistent bleed or spirit damage and must attempt a Will save. If the target is not on its home plane, it takes a –4 status penalty to this save. A creature reduced to 0 HP has their entire body sectioned out and banished across multiple planes and dimensions, leaving nothing behind but their gear.</p><hr /><p><strong>Heightened (10th)</strong> The base damage increases by 2d10, and the persistent damage by 1d10.</p>"
+    },
+    "rules": [],
+    "slug": "dimensional-excision",
+    "_migration": {
+      "version": 0.942,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "concentrate",
+        "manipulate",
+        "teleportation"
+      ],
+      "rarity": "rare",
+      "traditions": [
+        "arcane",
+        "divine",
+        "occult"
+      ]
+    },
+    "publication": {
+      "title": "Pathfinder #212: A Voice in the Blight",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 9
+    },
+    "requirements": "",
+    "target": {
+      "value": "1 creature"
+    },
+    "range": {
+      "value": "120 feet"
+    },
+    "area": null,
+    "time": {
+      "value": "2"
+    },
+    "duration": {
+      "value": "",
+      "sustained": false
+    },
+    "damage": {
+      "2QdSH92yYPPq3Ru3": {
+        "applyMod": false,
+        "category": null,
+        "formula": "14d10",
+        "kinds": [
+          "damage"
+        ],
+        "materials": [],
+        "type": "untyped"
+      },
+      "zJ797hWUtFCE3MIM": {
+        "applyMod": false,
+        "category": "persistent",
+        "formula": "2d10",
+        "kinds": [
+          "damage"
+        ],
+        "materials": [],
+        "type": "bleed"
+      }
+    },
+    "defense": {
+      "save": {
+        "basic": true,
+        "statistic": "will"
+      }
+    },
+    "cost": {
+      "value": ""
+    },
+    "location": {
+      "value": null
+    },
+    "counteraction": false,
+    "heightening": {
+      "levels": {
+        "10": {
+          "damage": {
+            "2QdSH92yYPPq3Ru3": {
+              "applyMod": false,
+              "category": null,
+              "formula": "16d10",
+              "kinds": [
+                "damage"
+              ],
+              "materials": [],
+              "type": "untyped"
+            },
+            "zJ797hWUtFCE3MIM": {
+              "applyMod": false,
+              "category": "persistent",
+              "formula": "3d10",
+              "kinds": [
+                "damage"
+              ],
+              "materials": [],
+              "type": "bleed"
+            }
+          }
+        }
+      },
+      "type": "fixed"
+    },
+    "overlays": {
+      "3MWVCi00ftHxNnob": {
+        "name": "Dimensional Excision (Bleed)",
+        "system": {
+          "damage": {
+            "2QdSH92yYPPq3Ru3": {
+              "category": null
+            }
+          },
+          "heightening": {
+            "levels": {
+              "10": {
+                "damage": {
+                  "2QdSH92yYPPq3Ru3": {
+                    "category": null
+                  }
+                }
+              }
+            }
+          }
+        },
+        "sort": 1,
+        "overlayType": "override"
+      },
+      "gqdBrVBJvNhwHoz8": {
+        "name": "Dimensional Excision (Spirit)",
+        "system": {
+          "damage": {
+            "2QdSH92yYPPq3Ru3": {
+              "category": null
+            },
+            "zJ797hWUtFCE3MIM": {
+              "type": "spirit",
+              "kinds": [
+                "damage"
+              ]
+            }
+          },
+          "heightening": {
+            "levels": {
+              "10": {
+                "damage": {
+                  "2QdSH92yYPPq3Ru3": {
+                    "category": null
+                  },
+                  "zJ797hWUtFCE3MIM": {
+                    "type": "spirit"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "sort": 2,
+        "overlayType": "override"
+      }
+    }
+  },
+  "type": "spell",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.4.3",
+    "createdTime": 1758238650020,
+    "modifiedTime": 1758238712960,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.spells-srd.Item.MFPvs0ARxtThYPFq",
+      "hash": "9f0205c84ebbe0d105e06bf81c40e496d2c666df"
+    }
+  },
+  "_id": "snpds8nPGS11I57F",
+  "sort": 0,
+  "_key": "!items!snpds8nPGS11I57F"
+}

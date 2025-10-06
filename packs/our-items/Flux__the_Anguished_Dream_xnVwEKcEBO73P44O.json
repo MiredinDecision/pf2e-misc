@@ -1,0 +1,267 @@
+{
+  "img": "systems/pf2e/icons/equipment/weapons/specific-magic-weapons/blade-of-the-black-soverign.webp",
+  "name": "Flux, the Anguished Dream",
+  "system": {
+    "description": {
+      "gm": "<p><em>Flux</em> is focused on the safety and protection of the Bloodbloom and the people of Geb. It imparts the following edicts and anathema on the wielder. If they're violated, the artifact reverts to its non-artifact form until the wielder atones, either through the use of the atone ritual, or through a short side quest or influence encounter of your own design.</p><p><strong>Edicts</strong> stop <span id=\"nametitle\" class=\"sname\">Růžena</span>, protect the quick and the dead, root out the corrupt Blood Lords, reign in Geb</p><p><strong>Anathema</strong> aid <span id=\"nametitle\" class=\"sname\">Růžena</span>, the corrupt Blood Lords, or to fulfill Geb's twisted designs, willingly betray the people of Geb</p><h2>Choose Apex Attribute</h2><p><em>Flux</em> is a powerful apex item, but the apex bonuses granted are more powerful than most. As with all apex items, a PC can only benefit from one apex item at a time. When your character creates the artifact, choose one attribute modifier. When you invest the artifact, you either increase that attribute modifier by 2 or increase it to +5, whichever would give you a higher value. Once you make this selection, you can't change it later.</p><hr /><p><em>Note: Select the apex attribute on the details tab of this item.</em></p><h2>Choose Heroic Skill</h2><p><em>Flux</em> also bolsters one skill of your choice. When your character creates the artifact, choose one of the three skills listed for the artifact. As long as the artifact is invested by you, it grants you a +4 item bonus to checks with that skill.</p><h2>Heroic Recovery</h2><p>Finally, <em>Flux</em> has 1 Recovery Point; this point replenishes once per day when its invested partner does their daily preparations. When the artifact's partner's @UUID[Compendium.pf2e.conditionitems.3uh1r86TzbQvosxv]{Doomed} value would reach an amount sufficient to kill them (usually 4), the artifact spends its Recovery Point, and the partner instead reduces their @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} value by 1 and stabilizes at 0 Hit Points.</p><h2>Invested Weapon</h2><p>Note that normally staves and weapons don't need to be invested, but <em>Flux</em> is an exception to this rule. It provides its constant benefits as long as the item remains invested and is carried or stowed by a character; they need not be held in a hand or wielded as a weapon in combat in order to grant these benefits. If you drop an invested staff or weapon, are disarmed of it, or otherwise release it from being held or stowed, you continue to benefit from its invested qualities until the end of your next turn—if you reclaim the staff or weapon before the end of your next turn, then your investment continues uninterrupted. If you fail to reclaim the item by this point, it's no longer invested until you repeat the process by Interacting with the item, taking the normal steps to invest the item.</p><h2>Intelligent Weapon</h2><p><strong>Perception</strong> [[/r 1d20+34 #Perception]]{+34}; precise darkvision and hearing within 30 feet</p><p><strong>Communication</strong> telepathy (partner only)</p><p><strong>Skills</strong> Undead Lore [[/r 1d20+35 #Undead Lore]]{+35}, Occultism [[/r 1d20+34 #Occultism]]{+34}, Religion [[/r 1d20+33 #Religion]]{+33}</p><p><strong>Int</strong> +7, <strong>Wis</strong> +6, <strong>Cha</strong> +5</p><p><strong>Will</strong> [[/r 1d20+34 #Will]]{+34}</p>",
+      "value": "<p>This +3 <em>great striking wraithbone rapier</em> has a handle crafted from gleaming white bone, with a black metal basket hilt in the shape of a rose. A long, bone-white blade covered in runes extends out of it to a fine point. For the purpose of the forceful trait, treat the first strike made with <em>Flux</em> each turn as if it were the second strike, and all following strikes as if they were subsequent to the second. <em>Flux</em> has been partially alloyed with a sacred, secret alloy that makes the blade count as both cold iron and silver.</p><hr /><p><strong>Activate - Overwhelming Control </strong><span class=\"action-glyph\">1</span> (concentrate, divine, spellshape)</p><p><strong>Frequency</strong> once per hour</p><p><strong>Effect</strong> If your next action is to Cast a Spell that has the mental and incapacitate traits, you may ignore the incapacitate trait for the casting of that spell, as <em>Flux</em> overwhelms the target's mind. Spend either a second spell slot of the same rank or an amount of charges from <em>Flux</em> equal to the spell's rank.</p><hr /><p><strong>Activate - Wail</strong> <span class=\"action-glyph\">r</span> (concentrate, mental)</p><p><strong>Trigger</strong> the wielder is damaged by an enemy within 30 feet</p><p><strong>Frequency</strong> once per hour</p><p><strong>Effect</strong> <em>Flux</em> shrieks with repressed agony, sharing the lifetime of pain its spirit has endured. The triggering enemy takes mental damage equal to the triggering damage, with a @Check[will|against:class-spell] save against your class or spell DC.</p><p><strong>Critical Success</strong> The target is unaffected</p><p><strong>Success</strong> The target takes half damage</p><p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for one minute as the reflected pain disorients them</p><p><strong>Critical Failure</strong> as Failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}</p><hr /><p><strong>Activate</strong> Cast a Spell</p><p><strong>Effect</strong> You expend a number of charges from the staff to cast a spell from its list.</p><ul><li><strong>Cantrip</strong> @UUID[Compendium.pf2e.spells-srd.Item.Qw3fnUlaUbnn7ipC]{Prestidigitation}, @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</li><li><strong>1st</strong> @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear}, @UUID[Compendium.pf2e.spells-srd.Item.9WGeBwIIbbUuWKq0]{Summon Undead}</li><li><strong>2nd</strong> @UUID[Compendium.pf2e.spells-srd.Item.Fq9yCbqI2RDt6Orw]{Spiritual Weapon}, @UUID[Compendium.pf2e.spells-srd.Item.S708JF3E0kuhuRzG]{Bone Spray}</li><li><strong>3rd</strong> @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e-misc.our-items.Item.IpSqVs1e3owHDNPC]{Ossein Javelin}</li><li><strong>4th </strong>@UUID[Compendium.pf2e.spells-srd.Item.Fq9yCbqI2RDt6Orw]{Spiritual Weapon}, @UUID[Compendium.pf2e.spells-srd.Item.S708JF3E0kuhuRzG]{Bone Spray}</li><li><strong>5th</strong> @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm}, @UUID[Compendium.pf2e-misc.our-items.Item.IpSqVs1e3owHDNPC]{Ossein Javelin}</li><li><strong>6th</strong> @UUID[Compendium.pf2e.spells-srd.Item.jj5d830iUi2ZlQfs]{Blessed Boundary}</li><li><strong>7th</strong> @UUID[Compendium.pf2e.spells-srd.Item.x9RIFhquazom4p02]{Deity's Strike}</li></ul><hr /><p><span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\">A <em>nightmare</em> rune creates minor phantasmal alterations to a weapon's appearance so that those who look upon it see subtle reminders of their deepest fears. An arachnophobe might interpret the cross guard of a <em>nightmare</em> longsword to look like curving, twitching spider legs, for example, while someone who's afraid of sickness might see a <em>nightmare</em> club as a diseased length of bone crawling with flies. These images are all in the mind of the observer, but they also infuse the weapon with additional power. When you hit with a nightmare weapon, add 1d6 mental damage to the damage dealt. In addition, on a critical hit, the target becomes </span><span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Conditions.aspx?ID=94\"><span style=\"text-decoration:underline\">stupefied</span></a></span> 1 by overwhelming visions in their mind of personal horrors that linger. If you critically hit a creature that's already stupefied, it becomes <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Conditions.aspx?ID=76\"><span style=\"text-decoration:underline\">frightened</span></a></span> 2 as well. These critical hit effects have the <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=590\"><span style=\"text-decoration:underline\">emotion</span></a></span>, <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=598\"><span style=\"text-decoration:underline\">fear</span></a></span>, and <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Traits.aspx?ID=647\"><span style=\"text-decoration:underline\">mental</span></a></span> traits. <br /><br /><strong>Activate</strong> 10 minutes (envision, Interact); <strong>Frequency</strong> once per day; <strong>Effect</strong> The <em>nightmare weapon</em> casts <span style=\"text-decoration:underline\"><a style=\"text-decoration:underline\" href=\"https://2e.aonprd.com/Spells.aspx?ID=1615\"><em><span style=\"text-decoration:underline\">nightmare</span></em></a></span> to your specifications.<br /></p>"
+    },
+    "rules": [
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "silver",
+        "definition": [
+          "item:id:{item|id}"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "materials",
+        "value": "cold-iron",
+        "definition": [
+          "item:id:{item|id}"
+        ]
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.SpecificLore.Undead",
+            "value": "undead-lore"
+          },
+          {
+            "label": "PF2E.Skill.Occultism",
+            "value": "occultism"
+          },
+          {
+            "label": "PF2E.Skill.Religion",
+            "value": "religion"
+          }
+        ],
+        "flag": "skill",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.Skill",
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "{item|flags.pf2e.rulesSelections.skill}",
+        "type": "item",
+        "value": 4,
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.abilities.{item|system.apex.attribute}.mod",
+        "value": 1,
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "intelligent",
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "apex",
+        "predicate": [
+          "self:level:17"
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemId": "{item|_id}",
+        "mode": "add",
+        "property": "traits",
+        "value": "invested",
+        "predicate": [
+          "self:level:17"
+        ]
+      }
+    ],
+    "slug": "necromancers-rapier",
+    "_migration": {
+      "version": 0.943,
+      "lastMigration": null,
+      "previous": {
+        "schema": 0.942,
+        "foundry": "13.348",
+        "system": "7.5.1"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "artifact",
+        "deadly-d8",
+        "disarm",
+        "finesse",
+        "forceful",
+        "holy",
+        "magical",
+        "mythic",
+        "staff",
+        "wraithbone"
+      ],
+      "rarity": "unique"
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 16
+    },
+    "quantity": 1,
+    "baseItem": "rapier",
+    "bulk": {
+      "value": 1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 9450
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null,
+      "handsHeld": 0
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Staff",
+        "img": "systems/pf2e/icons/unidentified_item_icons/staves.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "held-in-one-hand"
+    },
+    "category": "martial",
+    "group": "sword",
+    "bonus": {
+      "value": 2
+    },
+    "damage": {
+      "dice": 1,
+      "die": "d6",
+      "damageType": "piercing",
+      "persistent": null
+    },
+    "splashDamage": {
+      "value": 0
+    },
+    "range": null,
+    "expend": null,
+    "reload": {
+      "value": null
+    },
+    "grade": null,
+    "runes": {
+      "potency": 3,
+      "striking": 2,
+      "property": [
+        "greaterFlaming",
+        "nightmare",
+        "spellStoring"
+      ]
+    },
+    "specific": {
+      "material": {
+        "type": null,
+        "grade": null
+      },
+      "runes": {
+        "potency": 3,
+        "striking": 2,
+        "property": [
+          "greaterFlaming",
+          "nightmare",
+          "spellStoring"
+        ]
+      }
+    },
+    "subitems": [],
+    "bonusDamage": {
+      "value": 0
+    },
+    "property1": {
+      "value": "",
+      "dice": 0,
+      "die": "",
+      "damageType": "",
+      "critDice": 0,
+      "critDie": "",
+      "critDamage": "",
+      "critDamageType": "",
+      "strikeConditionType": "",
+      "strikeConditionValue": null,
+      "criticalConditionType": "",
+      "criticalConditionValue": null
+    }
+  },
+  "type": "weapon",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.1",
+    "createdTime": 1758578482026,
+    "modifiedTime": 1758578482314,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg"
+  },
+  "effects": [],
+  "folder": "68L66EWGGyYMboMM",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "4d4e1cdf72bfa3926619115da86bcab6b681b93f",
+      "sourceId": "Actor.dbOfTWz3WZbl32Ft.Item.87ZQEMdaYzUU3AHo"
+    }
+  },
+  "_id": "xnVwEKcEBO73P44O",
+  "sort": 200000,
+  "_key": "!items!xnVwEKcEBO73P44O"
+}

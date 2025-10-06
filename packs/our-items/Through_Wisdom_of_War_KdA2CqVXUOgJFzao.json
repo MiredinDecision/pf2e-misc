@@ -1,0 +1,96 @@
+{
+  "folder": "uQojSkz4AW02hT7w",
+  "name": "Through Wisdom of War",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.941,
+      "previous": null
+    },
+    "description": {
+      "value": "<p>You've become wise in the arts of war, relying on your past experience over books and old written stratagem. You can use Wisdom instead of Intelligence on Warfare Lore checks.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "Vyklade's Book of Homebrew",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "warfare-lore",
+        "type": "ability",
+        "ability": "wis",
+        "force": true,
+        "hideIfDisabled": true
+      }
+    ],
+    "slug": "through-wisdom-of-war",
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "archetype",
+        "warlord"
+      ],
+      "rarity": "common"
+    },
+    "level": {
+      "value": 4
+    },
+    "category": "class",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Warlord Dedication"
+        },
+        {
+          "value": "Wisdom +2"
+        },
+        {
+          "value": "Expert in Warfare Lore"
+        }
+      ]
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    },
+    "location": null
+  },
+  "_id": "KdA2CqVXUOgJFzao",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "hash": "3d180c5afd637a147bae6ee90e004b30e4276b35"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.347",
+    "systemId": "pf2e",
+    "systemVersion": "7.3.1",
+    "createdTime": 1755226395904,
+    "modifiedTime": 1755244223745,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "_key": "!items!KdA2CqVXUOgJFzao"
+}

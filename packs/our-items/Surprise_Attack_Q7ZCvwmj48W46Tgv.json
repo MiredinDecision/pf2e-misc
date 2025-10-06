@@ -1,0 +1,99 @@
+{
+  "img": "systems/pf2e/icons/features/classes/surprice-attack.webp",
+  "name": "Surprise Attack",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You spring into combat faster than foes can react. On the first round of combat, if you roll Deception or Stealth for initiative, creatures that haven't acted are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to you.</p>"
+    },
+    "rules": [
+      {
+        "key": "EphemeralEffect",
+        "predicate": [
+          "encounter:round:1",
+          {
+            "lt": [
+              "self:participant:initiative:rank",
+              "target:participant:initiative:rank"
+            ]
+          },
+          {
+            "or": [
+              "self:participant:initiative:stat:deception",
+              "self:participant:initiative:stat:stealth"
+            ]
+          }
+        ],
+        "selectors": [
+          "strike-attack-roll",
+          "spell-attack-roll",
+          "strike-damage",
+          "attack-spell-damage"
+        ],
+        "uuid": "Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg"
+      }
+    ],
+    "slug": "surprise-attack",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "eldritch-shadow"
+      ],
+      "rarity": "common"
+    },
+    "publication": {
+      "title": "Pathfinder Player Core",
+      "authors": "",
+      "license": "ORC",
+      "remaster": true
+    },
+    "level": {
+      "value": 1
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "type": "feat",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.0",
+    "createdTime": 1727116625874,
+    "modifiedTime": 1727116654579,
+    "lastModifiedBy": "Yl6zxDnnyoEj0wIg",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "aT8L3wPj6xSrwj9o",
+  "ownership": {
+    "default": 0,
+    "Yl6zxDnnyoEj0wIg": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.classfeatures.Item.w6rMqmGzhUahdnA7",
+      "hash": "50f1d625075e219d372980cc267cabca57dac114"
+    }
+  },
+  "_id": "Q7ZCvwmj48W46Tgv",
+  "sort": 162500,
+  "_key": "!items!Q7ZCvwmj48W46Tgv"
+}

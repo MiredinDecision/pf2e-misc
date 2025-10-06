@@ -1,0 +1,120 @@
+{
+  "img": "icons/equipment/chest/robe-collared-pink.webp",
+  "name": "Cloak of Bones",
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>A <em>cloak of bone</em>, decorated with patterns reminiscent of bones and death, constantly sheds tiny amounts of bone dust. While wearing it, you gain imprecise lifesense in a radius of 10 feet, and you can<span id=\"ctl00_RadDrawer1_Content_MainContent_DetailedOutput\"> ask questions of, receive answers from, and use the Diplomacy skill with mindless undead. You gain a +2 circumstance bonus to Diplomacy checks with mindless undead</span>. Also, you can eat spirit energy from the remains of the living as food to meet your daily nutrition requirements. You find eating these materials as pleasant as food—the more valuable, the more delicious.</p><p><strong>Activate—Become Bone </strong><span class=\"action-glyph\">2</span> (concentrate, manipulate, polymorph)</p><p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The cloak casts @UUID[Compendium.pf2e.spells-srd.Item.1K6AYGisvo9gqdhs]{Elemental Form} on you, transforming you into a bone elemental (earth elemental). In addition to the spell's normal effects, you can Burrow through any earthen matter, including rock, moving at the spell's burrow Speed, leaving no tunnels or signs of your passing. Also, the range of the tremorsense you gain from the robe increases to 30 feet.</p>"
+    },
+    "rules": [
+      {
+        "acuity": "imprecise",
+        "key": "Sense",
+        "range": 10,
+        "selector": "tremorsense"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.build.languages.granted",
+        "value": {
+          "slug": "petran",
+          "source": "{item|name}"
+        }
+      }
+    ],
+    "slug": "robe-of-stone",
+    "_migration": {
+      "version": 0.932,
+      "lastMigration": null,
+      "previous": null
+    },
+    "traits": {
+      "otherTags": [],
+      "value": [
+        "earth",
+        "invested",
+        "magical"
+      ],
+      "rarity": "uncommon"
+    },
+    "publication": {
+      "title": "Pathfinder Rage of Elements",
+      "authors": "",
+      "license": "OGL",
+      "remaster": true
+    },
+    "level": {
+      "value": 11
+    },
+    "quantity": 1,
+    "baseItem": null,
+    "bulk": {
+      "value": 0.1
+    },
+    "hp": {
+      "value": 0,
+      "max": 0
+    },
+    "hardness": 0,
+    "price": {
+      "value": {
+        "gp": 1400
+      }
+    },
+    "equipped": {
+      "carryType": "worn",
+      "invested": null
+    },
+    "containerId": null,
+    "size": "med",
+    "material": {
+      "type": null,
+      "grade": null
+    },
+    "identification": {
+      "status": "identified",
+      "unidentified": {
+        "name": "Unusual Garment",
+        "img": "systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp",
+        "data": {
+          "description": {
+            "value": ""
+          }
+        }
+      },
+      "misidentified": {}
+    },
+    "usage": {
+      "value": "worngarment"
+    },
+    "subitems": []
+  },
+  "type": "equipment",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.346",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728267005159,
+    "modifiedTime": 1728267483831,
+    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "exportSource": null
+  },
+  "effects": [],
+  "folder": "wKdF0rAK0ZQFL4HY",
+  "ownership": {
+    "default": 0,
+    "5VxTe0CNLISyPuwZ": 3
+  },
+  "flags": {
+    "scene-packer": {
+      "sourceId": "Compendium.pf2e.equipment-srd.Item.OUC64caWaH6xayl1",
+      "hash": "c83da614f2d7a83b2739e3392b4fe549a9bb1efa"
+    }
+  },
+  "_id": "VjIbTkf6fxc34WNq",
+  "sort": 200000,
+  "_key": "!items!VjIbTkf6fxc34WNq"
+}

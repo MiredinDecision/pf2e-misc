@@ -1,0 +1,27 @@
+{
+  "name": "Relic Sets",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "2TmNuryomOAf9urg",
+  "description": "",
+  "sort": 5400000,
+  "color": "#306090",
+  "flags": {
+    "scene-packer": {
+      "hash": "202845bc37ab306c14a170d78770399868884350"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "13.348",
+    "systemId": "pf2e",
+    "systemVersion": "6.4.1",
+    "createdTime": 1728273071045,
+    "modifiedTime": 1759606595920,
+    "lastModifiedBy": "7MgOMWnvICwgRpc9",
+    "exportSource": null
+  },
+  "_key": "!folders!2TmNuryomOAf9urg"
+}
