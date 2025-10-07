@@ -1,0 +1,132 @@
+{
+  "name": "Rebellion",
+  "type": "feat",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>You’re focused on defying oppressors.</p><p><strong>Edicts</strong> seek and root out tyranny wherever you go, demand and fight for others’ freedom to make their own decisions, disrupt hierarchies</p><p><strong>Anathema</strong> engage in or countenance slavery or tyranny</p><hr /><p><strong>Champion's Reaction </strong>@UUID[Compendium.pf2e-misc.our-items.Item.O1mas4aITgUswagv]{Rebel's Defiance}</p><p><strong>Relentless Reaction (9th Level) </strong>No foe is safe against those they oppressed. If the triggering ally damages the triggering enemy while under the effects of Rebel's Defiance, that enemy takes persistent spirit damage equal to your Charisma modifier.</p><p><strong>Exalted Reaction (11th Level) </strong>You inspire your whole group. When you use Rebel's Defiance to grant your ally a circumstance bonus to attack and damage rolls against the triggering enemy, you can apply this bonus to you and all allies within champion's aura, including the triggering ally.</p>"
+    },
+    "rules": [
+      {
+        "key": "GrantItem",
+        "allowDuplicate": false,
+        "reevaluateOnUpdate": true,
+        "predicate": [
+          {
+            "or": [
+              "class:champion",
+              "feat:champions-reaction"
+            ]
+          }
+        ],
+        "uuid": "Compendium.pf2e-misc.our-items.Item.O1mas4aITgUswagv"
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "mode": "add",
+        "predicate": [
+          "item:slug:rebels-defiance",
+          "feature:relentless-reaction"
+        ],
+        "property": "description",
+        "label": "Relentless Reaction",
+        "value": [
+          {
+            "text": "No foe is safe against those they oppressed. If the triggering ally damages the triggering enemy while under the effects of Rebel's Defiance, that enemy takes @Damage[@actor.system.abilities.cha.mod[spirit,persistent]]{persistent spirit damage} equal to your Charisma modifier."
+          }
+        ]
+      },
+      {
+        "key": "ItemAlteration",
+        "itemType": "action",
+        "mode": "add",
+        "predicate": [
+          "item:slug:rebels-defiance",
+          "feature:exalted-reaction"
+        ],
+        "property": "description",
+        "title": "Exalted Reaction",
+        "value": [
+          {
+            "text": "You inspire your whole group. When you use Rebel's Defiance to grant your ally a circumstance bonus to attack and damage rolls against the triggering enemy, you can apply this bonus to you and all allies within champion's aura, including the triggering ally."
+          }
+        ]
+      }
+    ],
+    "slug": "rebellion",
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "champion"
+      ],
+      "rarity": "common",
+      "otherTags": [
+        "champion-cause"
+      ]
+    },
+    "category": "classfeature",
+    "onlyLevel1": false,
+    "maxTakable": 1,
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null,
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": null,
+        "foundry": "13.350",
+        "system": "7.5.2"
+      }
+    },
+    "subfeatures": {
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "img": "systems/pf2e/icons/features/classes/wit-style.webp",
+  "ownership": {
+    "default": 0,
+    "BHEpsK2fyL1CM5eA": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.firebrands.firebrands-features.Item.bhi4xZeqdmUxie4y",
+      "hash": "82748c0e7bfaa30077dc90e8dbc4dd328929c971"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759790178873,
+    "modifiedTime": 1759806136998,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "folder": "gkqiIX2mLk0CKjO1",
+  "_id": "qiWimltmAxk7Xq7g",
+  "sort": 100000,
+  "_key": "!items!qiWimltmAxk7Xq7g"
+}
