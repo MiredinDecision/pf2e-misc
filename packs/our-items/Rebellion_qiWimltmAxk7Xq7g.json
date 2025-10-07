@@ -31,9 +31,9 @@
           "feature:relentless-reaction"
         ],
         "property": "description",
+        "label": "Relentless Reaction",
         "value": [
           {
-            "title": "Relentless Reaction",
             "text": "No foe is safe against those they oppressed. If the triggering ally damages the triggering enemy while under the effects of Rebel's Defiance, that enemy takes @Damage[@actor.system.abilities.cha.mod[spirit,persistent]]{persistent spirit damage} equal to your Charisma modifier."
           }
         ]
@@ -47,9 +47,9 @@
           "feature:exalted-reaction"
         ],
         "property": "description",
+        "title": "Exalted Reaction",
         "value": [
           {
-            "title": "Exalted Reaction",
             "text": "You inspire your whole group. When you use Rebel's Defiance to grant your ally a circumstance bonus to attack and damage rolls against the triggering enemy, you can apply this bonus to you and all allies within champion's aura, including the triggering ally."
           }
         ]
@@ -122,7 +122,7 @@
     "systemId": "pf2e",
     "systemVersion": "7.5.2",
     "createdTime": 1759790178873,
-    "modifiedTime": 1759793608205,
+    "modifiedTime": 1759806136998,
     "lastModifiedBy": "9BBcVhjS5oHfZWnm"
   },
   "folder": "gkqiIX2mLk0CKjO1",
