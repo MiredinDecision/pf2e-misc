@@ -13,8 +13,70 @@
       {
         "domain": "all",
         "key": "RollOption",
+        "option": "class:champion",
+        "priority": 0
+      },
+      {
+        "domain": "all",
+        "key": "RollOption",
         "option": "class:summoner",
         "priority": 0
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "str"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "dex"
+          }
+        ],
+        "flag": "attribute",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.champion.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attribute}"
+      },
+      {
+        "adjustName": false,
+        "choices": [
+          {
+            "label": "PF2E.AbilityStr",
+            "value": "str"
+          },
+          {
+            "label": "PF2E.AbilityDex",
+            "value": "dex"
+          }
+        ],
+        "flag": "attribute2",
+        "key": "ChoiceSet",
+        "prompt": "PF2E.SpecificRule.Prompt.ClassDCAbilityScore"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "override",
+        "path": "system.proficiencies.classDCs.summoner.attribute",
+        "value": "{item|flags.pf2e.rulesSelections.attribute2}"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.champion.rank",
+        "value": 1
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.classDCs.summoner.rank",
+        "value": 1
       }
     ],
     "slug": "champion",
@@ -192,12 +254,6 @@
         "name": "Shared Resolve",
         "uuid": "Compendium.pf2e.classfeatures.Item.eZPfHVz14j42jCnS"
       },
-      "ahde7": {
-        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
-        "level": 1,
-        "name": "Evolution Feat",
-        "uuid": "Compendium.pf2e.classfeatures.Item.IPcdQAwJk0aZe5mg"
-      },
       "bqrgn": {
         "img": "icons/creatures/mammals/bull-horned-blue.webp",
         "level": 11,
@@ -263,6 +319,84 @@
         "img": "systems/pf2e/icons/features/classes/divine-ally.webp",
         "name": "Blessing of the Devoted",
         "level": 3
+      },
+      "xDFgn": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.TvZgbWR7jOUjmE3i",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolutions",
+        "level": 1
+      },
+      "EsXfx": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.gWcN75VNpSZ4FqNb",
+        "img": "icons/magic/light/hand-sparks-smoke-teal.webp",
+        "name": "Summoner Spellcasting",
+        "level": 1
+      },
+      "KvQWF": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH",
+        "img": "icons/sundries/books/book-symbol-spiral-silver-blue.webp",
+        "name": "Spell Repertoire",
+        "level": 1
+      },
+      "h9SRC": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.P34Jx6i4GJGoqTtG",
+        "img": "systems/pf2e/icons/features/classes/unlimited-signature-spells.webp",
+        "name": "Unlimited Signature Spells",
+        "level": 3
+      },
+      "QYcHq": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.cD3nSupdCvONuHiE",
+        "img": "icons/sundries/books/book-backed-silver-gold.webp",
+        "name": "Expert Spellcaster",
+        "level": 9
+      },
+      "5xUGn": {
+        "uuid": "Compendium.pf2e.classfeatures.Item.gU7epgcPSm0TD1UK",
+        "img": "icons/equipment/back/cloak-collared-pink-gold.webp",
+        "name": "Defensive Robes",
+        "level": 13
+      },
+      "MNvKc": {
+        "uuid": "Compendium.pf2e-legacy-content.class-features-legacy.Item.l1InYvhnQSz6Ucxc",
+        "img": "icons/skills/trades/academics-book-study-purple.webp",
+        "name": "Master Spellcaster",
+        "level": 17
+      },
+      "JXWtY": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.YOHPRbzVWPgVDlfg",
+        "img": "icons/magic/symbols/circled-gem-pink.webp",
+        "name": "Warrior's Soul Bond (& Kindred Warrior)",
+        "level": 1
+      },
+      "K7UPD": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.LaYsEPpPEGKN0faW",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolving Bond",
+        "level": 9
+      },
+      "fKzzS": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.hNYXu5AIE7hHXMBG",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolving Bond",
+        "level": 17
+      },
+      "2HkIq": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.AdawyfbOaGCWrO80",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolving Bond",
+        "level": 5
+      },
+      "k6Wuw": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.0c5AbmFImcRowBMH",
+        "img": "systems/pf2e/icons/features/classes/evolution-feat.webp",
+        "name": "Evolving Bond",
+        "level": 13
+      },
+      "IhAI2": {
+        "uuid": "Compendium.pf2e-misc.our-items.Item.HWNvRM0c5cZrwM8v",
+        "img": "systems/pf2e/icons/spells/enduring-might.webp",
+        "name": "Dual Class Attribute",
+        "level": 1
       }
     },
     "hp": 10,
@@ -374,12 +508,12 @@
   "_stats": {
     "compendiumSource": "Compendium.pf2e-soulbound-warrior.soulbound-warrior-features.Item.AAvz3iYXAWlwfUDO",
     "duplicateSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "6.4.1",
+    "systemVersion": "7.5.2",
     "createdTime": 1728262382331,
-    "modifiedTime": 1728262382331,
-    "lastModifiedBy": "5VxTe0CNLISyPuwZ",
+    "modifiedTime": 1759796723524,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm",
     "exportSource": null
   },
   "effects": [],
