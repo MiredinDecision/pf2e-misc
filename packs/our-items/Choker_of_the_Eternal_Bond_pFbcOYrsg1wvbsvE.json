@@ -1,6 +1,6 @@
 {
   "img": "icons/equipment/neck/pendant-rough-purple.webp",
-  "name": "Necklace of the Eternal Bond",
+  "name": "Choker of the Eternal Bond",
   "system": {
     "description": {
       "gm": "",
@@ -100,7 +100,6 @@
   },
   "flags": {
     "scene-packer": {
-      "sourceId": "Actor.UIN070qnS53Quscr.Item.YLpQiAZSMpZLFqYf",
       "hash": "7d4d379bc8d8c542258f4b7c52cade4ab6ded53e"
     }
   },
