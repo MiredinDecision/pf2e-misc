@@ -437,8 +437,7 @@
   "img": "modules/pf2e-misc/assets/icons/Starknight.webp",
   "flags": {
     "scene-packer": {
-      "hash": "f0cec4e2e9d2c05888bc939db7eeb3cb91aa7aa3",
-      "sourceId": "Item.joViDziuVtRAnhl7"
+      "hash": "f0cec4e2e9d2c05888bc939db7eeb3cb91aa7aa3"
     }
   },
   "_stats": {

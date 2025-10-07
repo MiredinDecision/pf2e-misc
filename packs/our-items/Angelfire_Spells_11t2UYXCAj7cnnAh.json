@@ -54,8 +54,7 @@
   "img": "icons/magic/fire/elemental-fire-humanoid.webp",
   "flags": {
     "scene-packer": {
-      "hash": "adbd6c814f0574d88addb55d1a090ed0a43641fd",
-      "sourceId": "Item.wquR6F2siyBmqKA2"
+      "hash": "adbd6c814f0574d88addb55d1a090ed0a43641fd"
     }
   },
   "_stats": {

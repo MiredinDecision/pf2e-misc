@@ -425,8 +425,7 @@
   "img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
   "flags": {
     "scene-packer": {
-      "hash": "8a1de99a40cf0c0500f95a2473505dd7538b8992",
-      "sourceId": "Item.i4o1TKi5riuEIztB"
+      "hash": "8a1de99a40cf0c0500f95a2473505dd7538b8992"
     }
   },
   "_stats": {

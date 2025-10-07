@@ -116,8 +116,7 @@
   "img": "systems/pf2e/icons/features/feats/inspiring-marshal-stance.webp",
   "flags": {
     "scene-packer": {
-      "hash": "d2e0f5a6a7784eb75881299bdd5c4f8033a7cc9f",
-      "sourceId": "Item.YC0egrmeeVjmDY9A"
+      "hash": "d2e0f5a6a7784eb75881299bdd5c4f8033a7cc9f"
     }
   },
   "_stats": {

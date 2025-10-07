@@ -54,8 +54,7 @@
   "img": "icons/magic/time/arrows-circling-pink.webp",
   "flags": {
     "scene-packer": {
-      "hash": "e7daa9dcedb7f5c0ea9df913e2dd1db112e6a299",
-      "sourceId": "Item.vX4gtWUXYEasn2cS"
+      "hash": "e7daa9dcedb7f5c0ea9df913e2dd1db112e6a299"
     }
   },
   "_stats": {

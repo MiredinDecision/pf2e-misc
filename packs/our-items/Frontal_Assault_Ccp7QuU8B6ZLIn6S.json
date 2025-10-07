@@ -116,8 +116,7 @@
   "img": "systems/pf2e/icons/features/feats/dread-marshal-stance.webp",
   "flags": {
     "scene-packer": {
-      "hash": "125aee779ace2d09eee6c378880e303b7f0f0b61",
-      "sourceId": "Item.YC0egrmeeVjmDY9A"
+      "hash": "125aee779ace2d09eee6c378880e303b7f0f0b61"
     }
   },
   "_stats": {

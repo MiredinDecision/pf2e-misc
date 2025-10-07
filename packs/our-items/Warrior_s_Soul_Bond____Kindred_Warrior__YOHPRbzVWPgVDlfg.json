@@ -258,8 +258,7 @@
   "img": "icons/magic/symbols/circled-gem-pink.webp",
   "flags": {
     "scene-packer": {
-      "hash": "174c5d43e2419b5e0bd00cb341ae4288e6bf2244",
-      "sourceId": "Item.W9wsk3ymbMPUd52P"
+      "hash": "174c5d43e2419b5e0bd00cb341ae4288e6bf2244"
     }
   },
   "_stats": {
