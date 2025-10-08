@@ -65,8 +65,7 @@
   "img": "systems/pf2e/icons/spells/competitive-edge.webp",
   "flags": {
     "scene-packer": {
-      "hash": "9b8072b1081cfed4609651d50fc6085a461dfe3c",
-      "sourceId": "Actor.zxxDVGJgiVnLCEK7.Item.VznTmVZdpuYRsl2p"
+      "hash": "9b8072b1081cfed4609651d50fc6085a461dfe3c"
     }
   },
   "_stats": {

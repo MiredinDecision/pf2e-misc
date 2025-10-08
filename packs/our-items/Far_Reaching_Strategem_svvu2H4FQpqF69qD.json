@@ -64,8 +64,7 @@
   "img": "icons/sundries/books/book-red-exclamation.webp",
   "flags": {
     "scene-packer": {
-      "hash": "caf90d27b7f29c9079ba6f55df52ecf8b04731da",
-      "sourceId": "Item.53aV5boeKkbktZM1"
+      "hash": "caf90d27b7f29c9079ba6f55df52ecf8b04731da"
     }
   },
   "_stats": {

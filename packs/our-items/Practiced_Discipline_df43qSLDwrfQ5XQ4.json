@@ -77,8 +77,7 @@
   "img": "icons/magic/light/hand-sparks-glow-yellow.webp",
   "flags": {
     "scene-packer": {
-      "hash": "171412a5a9be3f969cbc107c7c0dee8f147a5840",
-      "sourceId": "Item.gOGUkcVJf8k1nSUz"
+      "hash": "171412a5a9be3f969cbc107c7c0dee8f147a5840"
     }
   },
   "_stats": {
