@@ -1,0 +1,106 @@
+{
+  "name": "Effect: Rebel's Defiance",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "description": {
+      "gm": "",
+      "value": "<p>Granted by @UUID[Compendium.pf2e-misc.our-items.Item.O1mas4aITgUswagv]{Rebel's Defiance}</p><hr /><p>The ally gains a +1 circumstance bonus to attack rolls and a +2 circumstance bonus to damage rolls against the triggering enemy until the end of their next turn.</p>"
+    },
+    "rules": [
+      {
+        "key": "RollOption",
+        "label": "Rebel's Defiance: Attack Against Triggering Enemy",
+        "option": "rebels-defiance-triggering-enemy",
+        "toggleable": true
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "attack",
+        "value": 1,
+        "type": "circumstance",
+        "predicate": [
+          "rebels-defiance-triggering-enemy"
+        ],
+        "label": "Rebel's Defiance - Triggering Enemy"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "damage",
+        "value": 2,
+        "type": "circumstance",
+        "predicate": [
+          "rebels-defiance-triggering-enemy"
+        ],
+        "label": "Rebel's Defiance - Triggering Enemy"
+      }
+    ],
+    "slug": "effect-rebels-defiance",
+    "_migration": {
+      "version": 0.943,
+      "previous": {
+        "schema": null,
+        "foundry": "13.350",
+        "system": "7.5.2"
+      }
+    },
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "context": null,
+    "unidentified": false,
+    "fromSpell": false
+  },
+  "img": "icons/magic/control/debuff-chains-shackles-movement-purple.webp",
+  "ownership": {
+    "default": 0,
+    "BHEpsK2fyL1CM5eA": 3,
+    "9BBcVhjS5oHfZWnm": 3
+  },
+  "flags": {
+    "core": {},
+    "scene-packer": {
+      "sourceId": "Compendium.firebrands.firebrands-effects.Item.6Cn5pnw1MYyLWXYg",
+      "hash": "8b16bbee1e580871106d5a569e8a659fe444632b"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "pf2e",
+    "systemVersion": "7.5.2",
+    "createdTime": 1759790416986,
+    "modifiedTime": 1759793899954,
+    "lastModifiedBy": "9BBcVhjS5oHfZWnm"
+  },
+  "folder": "gkqiIX2mLk0CKjO1",
+  "_id": "wbjMmgSq0xuRUIWO",
+  "sort": 200000,
+  "_key": "!items!wbjMmgSq0xuRUIWO"
+}
